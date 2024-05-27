@@ -1,8 +1,8 @@
-//import { useState } from 'react'
+import { useRef } from 'react'
 import { Route , Switch, Link } from "react-router-dom";
-import Home from "../Home/Home"
-import Class1 from "../Class1/Class1"
-import NabBarIndex from "../partials/NavBarIndex/NabBarIndex"
+import Home from "./Home/Home"
+import Class1 from "./Class1/Class1"
+import NabBarIndex from "./partials/NavBarIndex/NabBarIndex"
 let data = [
   {
     summary: "Inteligencia Artificial, conceptos fundamentales",
@@ -169,14 +169,20 @@ let data = [
 ]
 function App() {
 
+  const navBar = useRef(null);
+
+  const handleClick = () => {
+    navBar.current.classList.toggle("hidden");
+  }
+
   return (
     <>
     <header>
-        <button id="index">Índice</button>
+        <button onClick={handleClick} id="index">Índice</button>
         <h1>Curso de ChatGPT e Inteligencia artificial</h1>
     </header>
     <main>
-      <nav className='sumario'>
+      <nav className='sumario' ref={navBar}>
         <ol>
           {
             data.map((item, index) => (
@@ -185,7 +191,7 @@ function App() {
           }
         </ol>
         <Link to="/">
-          <button>Volver al inicio</button>
+          <button >Volver al inicio</button>
         </Link> 
       </nav>
       <Switch>
