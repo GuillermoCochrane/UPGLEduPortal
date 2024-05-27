@@ -1,42 +1,42 @@
 let index = [
     {
-      link: "/class1",
+      link: "/class/1",
       title: "Inteligencia Artificial, conceptos fundamentales"
     },
     {
-      link: "/class2",
+      link: "/class/2",
       title: "Historia de la inteligencia artificial. Inicio y actualidad"
     },
     {
-      link: "/class3",
+      link: "/class/3",
       title: "Machine Learning y Redes Neuronales"
     },
     {
-      link: "/class4",
+      link: "/class/4",
       title: "ChatGPT. Origen, Evolución y Diferencia entre versiones"
     },
     {
-      link: "/class5",
+      link: "/class/5",
       title: "Prompt definición y conceptos"
     },
     {
-      link: "/class6",
+      link: "/class/6",
       title: "Diseño Efectivo de Prompts: Creación de Instrucciones claras y precisas."
     },
     {
-      link: "/class7",
+      link: "/class/7",
       title: "Optimización y Ajuste de Prompts en Ingeniería de Prompt"
     },
     {
-      link: "/class8",
+      link: "/class/8",
       title: "Formatos de salida"
     },
     {
-      link: "/class9",
+      link: "/class/9",
       title: "Estrategias para mantener conversaciones con ChatGPT"
     },
     {
-      link: "/class10",
+      link: "/class/10",
       title: "¿En qué casos usar ChatGPT?"
     } 
   ]

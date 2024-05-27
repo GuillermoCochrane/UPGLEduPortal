@@ -35,7 +35,7 @@ function App() {
       </nav>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/class1" exact component={Class} />
+        <Route path="/class/:id" exact component={Class} />
       </Switch>
     </main>
     

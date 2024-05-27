@@ -99,7 +99,9 @@ let data = [
   },
 ]
 
-function Class() {
+function Class(params) {
+  const { id } = params.match.params;
+  console.log(id);
   return (
     <article>
       {
