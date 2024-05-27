@@ -1,5 +1,172 @@
 //import { useState } from 'react'
+import { Route , Switch, Link } from "react-router-dom";
 import Home from "../Home/Home"
+import Class1 from "../Class1/Class1"
+import NabBarIndex from "../partials/NavBarIndex/NabBarIndex"
+let data = [
+  {
+    summary: "Inteligencia Artificial, conceptos fundamentales",
+    links: [
+      {
+        title: "¿Qué es la inteligencia?",
+        link: "/class1"
+      },
+      {
+        title: "¿Qué es la inteligencia artificial?",
+        link: "/class1"
+      },
+      {
+        title: "Diferencias entre Inteligencia Artificial e Inteligencia Natural",
+        link: "/class1"
+      },
+      {
+        title: "Origen",
+        link: "/class1"
+      },
+      {
+        title: "Naturaleza",
+        link: "/class1"
+      }
+    ]
+  },
+  { 
+    summary: "Historia de la inteligencia artificial. Inicio y actualidad",
+    links: [
+      {
+        title: "Década de 1950",
+        link: "/class2"
+      },
+      {
+        title: "Década de 1960-1970",
+        link: "/class2"
+      },
+      {
+        title: "Década de 1980",
+        link: "/class2"
+      },
+      {
+        title: "Década de 1990",
+        link: "/class2"
+      },
+      {
+        title: "Década de 2000",
+        link: "/class2"
+      },
+      {
+        title: "Década de 2010",
+        link: "/class2"
+      },
+      {
+        title: "Actualidad",
+        link: "/class2"
+      }
+    ]   
+  },
+  {
+    summary: "Machine Learning y Redes Neuronales",
+    links: [
+      {
+        title: "¿Qué es y cómo funciona el Machine Learning?",
+        link: "/class3"
+      },
+      {
+        title: "¿Qué son y cómo funcionan las Redes Neuronales?",
+        link: "/class3"
+      }
+    ]
+  },
+  {
+    summary: "ChatGPT. Origen, Evolución y Diferencia entre versiones",
+    links: [
+      {
+        title: "Origen",
+        link: "/class4"
+      },
+      {
+        title: "Todas sus versiones",
+        link: "/class4"
+      }
+    ]
+  },
+  {
+    summary: "Prompt definición y conceptos",
+    links: [
+      {
+        title: "¿Qué es un Prompt?",
+        link: "/class5"
+      },
+      {
+        title: "Componentes de un Prompt",
+        link: "/class5"
+      },
+      {
+        title: "Aplicación de Prompt en tareas especificas",
+        link: "/class5"
+      }
+    ]
+  },
+  {
+    summary: "Diseño Efectivo de Prompts: Creación de Instrucciones claras y precisas.",
+    links: [
+      {
+        title: "Diseño",
+        link: "/class6"
+      },
+      {
+        title: "¿Cómo dar instrucciones claras y precisas?",
+        link: "/class6"
+      },
+      {
+        title: "Ejemplos y mejores practicas",
+        link: "/class6"
+      }
+    ]
+  },
+  {
+    summary: "Optimización y Ajuste de Prompts en Ingeniería de Prompt",
+    links: [
+      {
+        title: "Introducción",
+        link: "/class7"
+      },
+      {
+        title: "Pasos para la optimización de un Prompt",
+        link: "/class7"
+      }
+    ]
+  },
+  {
+    summary: "Formatos de salida",
+    links: [
+      {
+        title: "Formatos de salida",
+        link: "/class8"
+      },
+      {
+        title: "Evaluación de Prompts",
+        link: "/class8"
+      }
+    ]
+  },
+  {
+    summary: "Estrategias para mantener conversaciones con ChatGPT",
+    links: [
+      {
+        title: "Estrategias para mantener conversaciones con ChatGPT",
+        link: "/class9"
+      }
+    ]
+  },
+  {
+    summary: "¿En qué casos usar ChatGPT?",
+    links: [
+      {
+        title: "¿En qué casos usar ChatGPT?",
+        link: "/class10"
+      }
+    ]
+  }   
+]
 function App() {
 
   return (
@@ -11,94 +178,20 @@ function App() {
     <main>
       <nav className='sumario'>
         <ol>
-          <li>
-            <details>
-              <summary>Inteligencia Artificial, conceptos fundamentales</summary>
-              <ol>
-                <li><a href="/1#inteligencia">¿Qué es la inteligencia?</a></li>
-                <li><a href="/1#IA">¿Qué es la inteligencia artificial?</a></li>
-                <li><a href="/1#diferencias">Diferencias entre Inteligencia Artificial e Inteligencia Natural</a></li>
-                <li><a href="/1#origen">Origen</a></li>
-                <li><a href="/1#naturaleza">Naturaleza</a></li>
-              </ol>
-            </details>
-          </li>
-          <li>
-            <details >
-              <summary>Historia de la inteligencia artificial. Inicio y actualidad</summary>
-              <ol>
-                <li><a href="/2#50s">Década de 1950</a></li>
-                <li><a href="/2#60s">Década de 1960-1970</a></li>
-                <li><a href="/2#80s">Década de 1980</a></li>
-                <li><a href="/2#90s">Década de 1990</a></li>
-                <li><a href="/2#00s">Década de 2000</a></li>
-                <li><a href="/2#10s">Década de 2010</a></li>
-                <li><a href="/2#now">Actualidad</a></li>
-              </ol>
-            </details>
-          </li>
-          <li>
-            <details >
-              <summary>Machine Learning y Redes Neuronales</summary>
-              <ol>
-                <li><a href="/3#learnign">¿Qué es y cómo funciona el Machine Learning?</a></li>
-                <li><a href="/3#redes">¿Qué son y cómo funcionan las Redes Neuronales?</a></li>
-              </ol>
-            </details>
-          </li>
-          <li>
-            <details >
-              <summary>ChatGPT. Origen, Evolución y Diferencia entre versiones</summary>
-              <ol>
-                <li><a href="/4#origen">Origen</a></li>
-                <li><a href="/4#versiones">Todas sus versiones</a></li>
-              </ol>
-            </details>
-          </li>
-          <li>
-            <details >
-              <summary>Prompt definición y conceptos</summary>
-              <ol>
-                <li><a href="/5#definicion">¿Qué es un Prompt?</a></li>
-                <li><a href="/5#componentes">Componentes de un Prompt</a></li>
-                <li><a href="/5#aplicacion">Aplicación de Prompt en tareas especificas</a></li>
-              </ol>
-            </details>
-          </li>
-          <li>
-            <details >
-              <summary>Diseño Efectivo de Prompts: Creación de Instrucciones claras y precisas.</summary>
-              <ol>
-                <li><a href="/6#diseño">Diseño</a></li>
-                <li><a href="/6#instrucciones">¿Cómo dar instrucciones claras y precisas?</a></li>
-                <li><a href="/6#ejemplos">Ejemplos y mejores practicas</a></li>
-              </ol>
-            </details>
-          </li>
-          <li>
-            <details >
-              <summary>Optimización y Ajuste de Prompts en Ingeniería de Prompt</summary>
-              <ol>
-                <li><a href="/7#intro">Introducción</a></li>
-                <li><a href="/7#pasos">Pasos para la optimización de un Prompt</a></li>
-              </ol>
-            </details>
-          </li>
-          <li>
-            <details >
-              <summary>Formatos de salida</summary>
-              <ol>
-                <li><a href="/8#formatos">Formatos de salida</a></li>
-                <li><a href="/8#evaluación">Evaluación de Prompts</a></li>
-              </ol>
-            </details>
-          </li>
-          <li><a href="/9">Estrategias para mantener conversaciones con ChatGPT</a></li>
-          <li><a href="/10">¿En qué casos usar ChatGPT?</a></li>
+          {
+            data.map((item, index) => (
+              <NabBarIndex data={item} key={index} />
+            ))
+          }
         </ol>
-        <a href="/"><button>Volver al inicio</button></a>
+        <Link to="/">
+          <button>Volver al inicio</button>
+        </Link> 
       </nav>
-      <Home />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/class1" exact component={Class1} />
+      </Switch>
     </main>
     
     </>
