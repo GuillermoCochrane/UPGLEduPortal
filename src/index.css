@@ -219,7 +219,7 @@ footer{
 		overflow-x: hidden;
 		overflow-y: auto;
 		flex-grow: 1;
-		font-size: 1.1em;
+		font-weight: 400;
 	}
 
 	.hidden{
