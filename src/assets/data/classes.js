@@ -258,6 +258,143 @@ let classes =  [
         }
       ]
     },
+    {
+      id: 3,
+      classData: [
+        {
+          type: "h2",
+          info: ["Machine Learning y Redes Neuronales"]
+        },
+        {
+          type: "h3",
+          info: ["¿Qué es y cómo funciona el Machine Learning?"]
+        },
+        {
+          type: "p",
+          info: ["El Machine Learning es una rama de la inteligencia artificial que se enfoca en el desarrollo de algoritmos y modelos que permiten a las computadoras aprender de los datos y tomar decisiones sin ser programadas explícitamente para realizar una tarea específica. En lugar de seguir reglas predefinidas, los algoritmos de Machine Learning utilizan datos para aprender patrones y tomar decisiones informadas."]
+        },
+        {
+          type: "p",
+          info: ["El proceso básico de Machine Learning consta de varias etapas:"]
+        },
+        {
+          type: "ol",
+          info: [
+            {
+              type: "li",
+              info: [{text: "Adquisición de Datos: ", bold: true}, "En esta etapa, se recopilan y preparan los datos necesarios para el entrenamiento del modelo. Estos datos pueden provenir de diversas fuentes, como bases de datos, sensores, archivos CSV, etc."]
+            },
+            {
+              type: "li",
+              info: [{text: "Preprocesamiento de Datos: ", bold: true}, "Los datos se preprocesan para eliminar ruido, manejar valores faltantes y convertirlos en un formato adecuado para el modelo de Machine Learning."]
+            },
+            {
+              type: "li",
+              info: [{text: "Selección de Características: ", bold: true}, "Se seleccionan las características relevantes que se utilizarán para entrenar el modelo. Esto puede implicar la extracción de características útiles de los datos brutos."]
+            },
+            {
+              type: "li",
+              info: [{text: "Entrenamiento del Modelo: ", bold: true}, "En esta etapa, el modelo de Machine Learning se entrena utilizando un algoritmo específico y los datos de entrenamiento. Durante el entrenamiento, el modelo ajusta sus parámetros para minimizar el error en la predicción."]
+            },
+            {
+              type: "li",
+              info: [{text: "Validación y Evaluación: ", bold: true}, "Una vez que el modelo está entrenado, se evalúa su rendimiento utilizando datos de validación o prueba. Se calculan métricas de rendimiento para determinar la precisión y la eficacia del modelo."]
+            },
+            {
+              type: "li",
+              info: [{text: "Ajuste del Modelo: ", bold: true},"Si es necesario, se realizan ajustes adicionales al modelo para mejorar su rendimiento, como la optimización de hiperparámetros o la selección de un algoritmo diferente."]
+            },
+            {
+              type: "li",
+              info: [{text: "Despliegue y Uso: ", bold: true}, "Finalmente, el modelo entrenado se despliega en un entorno de producción y se utiliza para hacer predicciones o tomar decisiones en tiempo real."]
+            }
+          ]
+        },
+        {
+          type: "h3",
+          info: ["¿Qué son y cómo funcionan las Redes Neuronales?"]
+        },
+        {
+          type: "p",
+          info: ["Las redes neuronales son un conjunto de algoritmos y modelos inspirados en la estructura y funcionamiento del cerebro humano. Están diseñadas para reconocer patrones y procesar información de manera similar a como lo hacen las neuronas en el cerebro. Se componen de capas de nodos interconectados, cada uno de los cuales realiza operaciones matemáticas en los datos de entrada y transfiere la información a través de la red."]
+        },
+        {
+          type: "h4",
+          info: ["Elementos clave de las redes neuronales:"]
+        },
+        {
+          type: "ul",
+          info: [
+            {
+              type: "li",
+              info: [{text: "Neuronas (nodos): ", bold: true}, "Son unidades básicas que reciben información, realizan cálculos y transmiten resultados a nodos posteriores. Cada neurona está asociada con una función de activación que determina su salida en función de la información que recibe."]
+            },
+            {
+              type: "li",
+              info: [{text: "Pesos y conexiones: ", bold: true},"Las conexiones entre las neuronas tienen pesos asignados. Estos pesos representan la importancia o la fuerza de la conexión entre dos nodos y se ajustan durante el entrenamiento de la red para mejorar su capacidad predictiva."]
+            },
+            {
+              type: "li",
+              info: [{text: "CAPAS: ", bold: true}, "Las redes neuronales se componen de múltiples capas: "]
+            },
+            {
+              type: "li",
+              info: [{text: "Ver Como rendederizar el ul anidado", bold: true}]
+            }  
+          ]
+        },
+        {
+          type: "h4",
+          info: ["El funcionamiento de una red neuronal se basa en la propagación hacia adelante (forward propagation) y la propagación hacia atrás (backpropagation):"] 
+        },
+        {
+          type: "ul",
+          info: [
+            {
+              type: "li",
+              info: [{text: "Propagación hacia Adelante: ", bold: true}, "Durante esta etapa, los datos de entrada se introducen en la red neuronal a través de la capa de entrada. Los datos se propagan a través de las capas ocultas, donde se realizan cálculos ponderados y se aplican funciones de activación para generar una salida."]
+            },
+            {
+              type: "li",
+              info: [{text: "Backpropagation: ", bold: true}, "Una vez que se genera la salida, se compara con la salida deseada para calcular el error de predicción. Este error se propaga hacia atrás a través de la red, ajustando los pesos de las conexiones para minimizar el error."]
+            }
+          ]
+        },
+        {
+          type: "h4",
+          info: ["El entrenamiento de una red neuronal implica los siguientes pasos:"]
+        },
+        {
+          type: "ul",
+          info: [
+            {
+              type: "li",
+              info: [{text: "Inicialización de pesos: ", bold: true}, "Se asignan valores aleatorios a los pesos y sesgos de las conexiones entre las neuronas."]
+            },
+            {
+              type: "li",
+              info: [{text: "Propagación hacia adelante (Forward Propagation): ", bold: true},"Los datos de entrada se pasan a través de la red neuronal, capa por capa, y se calculan las salidas de cada neurona utilizando una función de activación."]
+            },
+            {
+              type: "li",
+              info: [{text: "Cálculo de la función de pérdida (Loss Function): ", bold: true}, "Se compara la salida predicha de la red con las respuestas reales, calculando una medida de la discrepancia entre ellas (pérdida o error)."]
+            },
+            {
+              type: "li", 
+              info: [{text: "Propagación hacia atrás (Backward Propagation): ", bold: true}, "Se utiliza un algoritmo llamado descenso de gradiente para calcular la derivada de la función de pérdida con respecto a cada peso y sesgo en la red. Estas derivadas indican cómo cambiar los pesos y sesgos para reducir la pérdida."]
+            },
+            {
+              type: "li",
+              info: [{text: "Actualización de pesos (Weight Update): ", bold: true}, "Se ajustan los pesos y sesgos en la dirección que reduce la pérdida utilizando un método de optimización, como el descenso de gradiente estocástico (SGD) o algoritmos más avanzados como Adam o RMSprop."]
+            },
+            {
+              type: "li",
+              info: [{text: "Repetición del proceso: ", bold: true}, "Se repiten los pasos 2 a 5 para cada lote de datos de entrenamiento durante múltiples épocas (iteraciones completas a través de todos los datos de entrenamiento) hasta que la red neuronal converge y la pérdida se minimiza."]
+            }
+          ]
+        },
+      ]
+    }
   ]
 
 export default classes;
