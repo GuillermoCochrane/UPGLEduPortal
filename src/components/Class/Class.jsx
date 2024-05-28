@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import OL from '../partials/OL/OLTag';
 import UL from '../partials/UL/ULTag';
 import PTag from '../partials/P/PTag';
+import H4 from '../partials/H4/H4Tag';
 import H3 from '../partials/H3/H3Tag';
 import H2 from '../partials/H2/H2Tag';
 import classes from '../../assets/data/classes';
@@ -24,6 +25,7 @@ function Class(params) {
         data.map((item, index) => (
           item.type === "h2" ? <H2 key={index} Data={item.info} /> : 
           item.type === "h3" ? <H3 key={index}  Data={item.info} /> :
+          item.type === "h4" ? <H4 key={index} Data={item.info} /> :
           item.type === "p" ? <PTag key={index} Data={item.info} /> :
           item.type === "ul" ? <UL key={index} Data={item.info} /> :
           item.type === "ol" ? <OL key={index} Data={item.info} /> : null
