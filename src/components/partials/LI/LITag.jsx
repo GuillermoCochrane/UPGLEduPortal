@@ -1,10 +1,27 @@
 import PropTypes from 'prop-types';
+import {Fragment} from 'react';
+import Bold from '../Bold/Bold'
+//import OL from "../OL/OLTag";
+//import UL from "../UL/ULTag";
 function LITag({Data}) {
     return (
         <li>
             {
                 Data.info.map((item, index) => (
-                    typeof item == "object" ? <strong key = {index} >{item.text}</strong> : item
+                    <Fragment key = {index}>
+                        {
+                            item.content == "plain" && item.text
+                        }
+                        {
+                            item.content == "bold" && <Bold key = {index} Data = {item.text} />
+                        }
+                        {/* {typeof item == "object" 
+                            ? <strong key = {index} >{item.text}</strong> 
+                            : item
+                        } */}
+                        
+                        {console.log(item.subtype)}
+                    </Fragment>
                 ))
             }
         </li>
