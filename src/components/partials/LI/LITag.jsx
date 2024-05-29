@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import {Fragment} from 'react';
 import Bold from '../Bold/Bold'
-//import OL from "../OL/OLTag";
-//import UL from "../UL/ULTag";
+import OL from "../OL/OLTag";
+import UL from "../UL/ULTag";
 function LITag({Data}) {
     return (
         <li>
@@ -15,12 +15,12 @@ function LITag({Data}) {
                         {
                             item.content == "bold" && <Bold key = {index} Data = {item.text} />
                         }
-                        {/* {typeof item == "object" 
-                            ? <strong key = {index} >{item.text}</strong> 
-                            : item
-                        } */}
-                        
-                        {console.log(item.subtype)}
+                        {
+                            item.type == "ul" && <UL Data = {item.info} />
+                        }
+                        {
+                            item.type == "ol" && <OL Data = {item.info} />
+                        }
                     </Fragment>
                 ))
             }
