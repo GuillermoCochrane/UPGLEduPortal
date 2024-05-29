@@ -21,7 +21,7 @@ let index = [
     },
     {
       link: "/class/6",
-      title: "Diseño Efectivo de Prompts: Creación de Instrucciones claras y precisas."
+      title: "Diseño de Prompts: Creación de Instrucciones claras y precisas."
     },
     {
       link: "/class/7",
