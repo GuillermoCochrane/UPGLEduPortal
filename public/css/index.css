@@ -127,6 +127,7 @@ a {
   text-decoration: none;
   color: #ccc;
   font-weight: 400;
+  margin-inline: auto;
 }
 article ul,
 article ol{
