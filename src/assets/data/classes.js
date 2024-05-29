@@ -729,37 +729,37 @@ let classes = [
                 text: "Las redes neuronales se componen de múltiples capas: ",
                 content: "plain",
               },
-            ],
-          },
-          {
-            type: "li",
-            info: [
               {
-                type: "li",
+                type: "ul",
                 info: [
-                  { text: "Capa de entrada: ", content: "bold" },
-                  { text: "Recibe datos de entrada.", content: "plain" },
-                ],
-              },
-              {
-                type: "li",
-                info: [
-                  { text: "Capas ocultas (intermedias): ", content: "bold" },
                   {
-                    text: "Realizan cálculos complejos para procesar la información.",
-                    content: "plain",
+                    type: "li",
+                    info: [
+                      { text: "Capa de entrada: ", content: "bold" },
+                      { text: "Recibe datos de entrada.", content: "plain" },
+                    ],
+                  },
+                  {
+                    type: "li",
+                    info: [
+                      { text: "Capas ocultas (intermedias): ", content: "bold" },
+                      {
+                        text: "Realizan cálculos complejos para procesar la información.",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                  {
+                    type: "li",
+                    info: [
+                      { text: "Capa de salida: ", content: "bold" },
+                      { text: "Produce los resultados finales.", content: "plain" },
+                    ],
                   },
                 ],
-              },
-              {
-                type: "li",
-                info: [
-                  { text: "Capa de salida: ", content: "bold" },
-                  { text: "Produce los resultados finales.", content: "plain" },
-                ],
-              },
+              }
             ],
-          },
+          }
         ],
       },
       {
