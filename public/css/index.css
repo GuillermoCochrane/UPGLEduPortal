@@ -189,6 +189,22 @@ footer{
 	display: flex;
 }
 
+.error-404{
+	text-align: center;
+	min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.error-404 a{
+	color: #000;
+}
+.error-404 h2{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
 
 @media (min-width: 870px){
 	body{

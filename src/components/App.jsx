@@ -4,6 +4,8 @@ import Home from "./Home/Home"
 import Class from "./Class/Class"
 import NavIndex from "./partials/NavBarIndex/NavIndex"
 import index from "../assets/data/index"
+import Error404 from "./Error404/Error404"
+
 //import NabBarIndex from "./partials/NavBarIndex/NabBarIndex"
 
 function App() {
@@ -36,6 +38,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/class/:id" exact component={Class} />
+        <Route component={Error404} />
       </Switch>
     </main>
     
