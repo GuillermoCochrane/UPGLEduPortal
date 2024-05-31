@@ -3,6 +3,8 @@ import {Fragment} from 'react';
 import Bold from '../Bold/Bold'
 import OL from "../OL/OLTag";
 import UL from "../UL/ULTag";
+import H4 from "../H4/H4Tag";
+import P from "../P/PTag";
 function LITag({Data}) {
     return (
         <li>
@@ -16,10 +18,16 @@ function LITag({Data}) {
                             item.content == "bold" && <Bold key = {index} Data = {item.text} />
                         }
                         {
-                            item.type == "ul" && <UL Data = {item.info} />
+                            item.type == "ul" && <UL Data = {item.info}  key = {index} />
                         }
                         {
-                            item.type == "ol" && <OL Data = {item.info} />
+                            item.type == "ol" && <OL Data = {item.info}  key = {index} />
+                        }
+                        {
+                            item.type == "h4" && <H4  Data = {item.info}  key = {index} />
+                        }
+                        {
+                            item.type == "p" && <P  Data = {item.info}  key = {index} />
                         }
                     </Fragment>
                 ))
