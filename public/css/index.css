@@ -205,6 +205,9 @@ footer{
 	font-weight: bold;
 }
 
+li h4{
+	padding: 0;
+}
 
 @media (min-width: 870px){
 	body{
