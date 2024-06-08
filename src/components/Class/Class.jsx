@@ -8,6 +8,7 @@ import H2 from '../partials/H2/H2Tag';
 import Figure from '../partials/Figure/Figure';
 import classes from '../../assets/data/classes';
 import NavButtons from '../partials/Navbuttons/NavButtons';
+import NotFound from '../partials/NotFound/NotFound';
 
 function Class(params) {
   const  id  = parseInt(params.match.params.id);
@@ -25,7 +26,7 @@ function Class(params) {
   return (
     <article>
       {
-        data.length == 0 ? <h3>No se encontró la clase</h3> : 
+        data.length == 0 ? <NotFound /> :
         data.map((item, index) => (
           item.type === "h2" ? <H2 key={index} Data={item.info} /> :
           item.type === "figure" ? <Figure key={index} Data={item.info} /> :
@@ -36,7 +37,11 @@ function Class(params) {
           item.type === "ol" ? <OL key={index} Data={item.info} /> : null
         ))
       }
-      <NavButtons Page={page} LastPage={classes.length} />
+      {
+        data.length == 0 ? null : 
+        <NavButtons Page={page} LastPage={data.length} />
+      }
+      
     </article>
   );
 }
