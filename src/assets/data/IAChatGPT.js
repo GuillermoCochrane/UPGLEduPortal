@@ -1191,317 +1191,194 @@ let classes = [
   },
   {
     class: 6,
+    topics: 2,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Diseño Efectivo de Prompts: Creación de Instrucciones claras y precisas.",
+          content: "plain",
+        },
+      ],
+    },
     classData: [
       {
-        type: "h2",
-        info: [
+        topic: 1, 
+        topicData: [
           {
-            text: "Diseño Efectivo de Prompts: Creación de Instrucciones claras y precisas.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "h3",
-        info: [
-          {
-            text: "Diseño Efectivo de Prompts:",
-            content: "plain", 
-          },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          {
-            text: "En el campo de la ingeniería de prompt, el diseño efectivo de prompts es fundamental para obtener resultados precisos y relevantes al utilizar modelos de lenguaje como ChatGPT. Crear prompts claros y precisos implica entender la tarea deseada, comunicarla de manera efectiva al modelo y proporcionar la orientación necesaria para obtener la respuesta deseada.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "h3",
-        info: [
-          {
-            text: "¿Cómo dar instrucciones claras y precisas?",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "ul",
-        info: [
-          {
-            type: "li",
+            type: "h3",
             info: [
               {
-                type: "h4",
-                info: [
-                  {
-                    text: "Comprender la tarea:",
-                    content: "plain",
-                  },
-                ],
+                text: "Diseño Efectivo de Prompts:",
+                content: "plain", 
               },
+            ],
+          },
+          {
+            type: "p",
+            info: [
               {
-                type: "p",
-                info: [
-                  {
-                    text: "Antes de diseñar un prompt, es crucial comprender completamente la tarea que se desea realizar. Esto implica:",
-                    content: "plain",
-                  },
-                ],
+                text: "En el campo de la ingeniería de prompt, el diseño efectivo de prompts es fundamental para obtener resultados precisos y relevantes al utilizar modelos de lenguaje como ChatGPT. Crear prompts claros y precisos implica entender la tarea deseada, comunicarla de manera efectiva al modelo y proporcionar la orientación necesaria para obtener la respuesta deseada.",
+                content: "plain",
               },
+            ],
+          },
+        ],  
+      },
+      {
+        topic: 2, 
+        topicData: [
+          {
+            type: "h3",
+            info: [
               {
-                type: "ul",
+                text: "¿Cómo dar instrucciones claras y precisas?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
                 info: [
                   {
-                    type: "li",
+                    type: "h4",
                     info: [
                       {
-                        text: "identificar el propósito de la tarea,",
+                        text: "Comprender la tarea:",
                         content: "plain",
                       },
                     ],
                   },
                   {
-                    type: "li",
-                    info: [
-                      { text: "los requisitos específicos", content: "plain" },
-                    ],
-                  },
-                  {
-                    type: "li",
+                    type: "p",
                     info: [
                       {
-                        text: "y cualquier restricción relevante.",
+                        text: "Antes de diseñar un prompt, es crucial comprender completamente la tarea que se desea realizar. Esto implica:",
                         content: "plain",
                       },
                     ],
                   },
-                ],  
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "identificar el propósito de la tarea,",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "los requisitos específicos", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "y cualquier restricción relevante.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],  
+                  },
+                  {
+                    type: "p",
+                    info: [
+                      {
+                        text: "Por ejemplo, si la tarea implica generar un resumen de un artículo, es importante conocer los puntos clave del artículo y la longitud deseada del resumen.",
+                        content: "plain",
+                      },
+                    ],    
+                  },
+                ],
               },
               {
-                type: "p",
+                type: "li",
                 info: [
                   {
-                    text: "Por ejemplo, si la tarea implica generar un resumen de un artículo, es importante conocer los puntos clave del artículo y la longitud deseada del resumen.",
-                    content: "plain",
+                    type: "h4",
+                    info: [
+                      {
+                        text: "Identificar las palabras claves:",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                  { 
+                    type: "p",
+                    info: [
+                      {
+                        text: "Las palabras clave son elementos esenciales en un prompt, ya que ayudan a dirigir la atención del modelo hacia aspectos específicos de la tarea. Estas palabras deben ser relevantes y específicas para la tarea en cuestión. Por ejemplo, si la tarea implica escribir un poema sobre el amor, palabras clave como \"amor\", \"pasión\", \"corazón\" pueden ser incluidas en el prompt.",
+                        content: "plain",
+                      },
+                    ],
                   },
                 ],    
               },
-            ],
-          },
-          {
-            type: "li",
-            info: [
               {
-                type: "h4",
+                type: "li",
                 info: [
                   {
-                    text: "Identificar las palabras claves:",
-                    content: "plain",
-                  },
-                ],
-              },
-              { 
-                type: "p",
-                info: [
-                  {
-                    text: "Las palabras clave son elementos esenciales en un prompt, ya que ayudan a dirigir la atención del modelo hacia aspectos específicos de la tarea. Estas palabras deben ser relevantes y específicas para la tarea en cuestión. Por ejemplo, si la tarea implica escribir un poema sobre el amor, palabras clave como \"amor\", \"pasión\", \"corazón\" pueden ser incluidas en el prompt.",
-                    content: "plain",
-                  },
-                ],
-              },
-            ],    
-          },
-          {
-            type: "li",
-            info: [
-              {
-                type: "h4",
-                info: [
-                  {
-                    text: "Proporcionar contexto relevante:",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "p",
-                info: [
-                  {
-                    text: "El contexto es fundamental para que el modelo comprenda la tarea y genere una respuesta precisa. Esto puede incluir:",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "ul",
-                info: [
-                  {
-                    type: "li",
+                    type: "h4",
                     info: [
                       {
-                        text: "información adicional sobre el tema,",
+                        text: "Proporcionar contexto relevante:",
                         content: "plain",
                       },
                     ],
                   },
                   {
-                    type: "li",
-                    info: [
-                      { text: "el propósito de la tarea ", content: "plain" },
-                    ],
-                  },
-                  {
-                    type: "li",
+                    type: "p",
                     info: [
                       {
-                        text: "y cualquier restricción relevante.",
-                        content: "plain",
-                      },
-                    ],
-                  },
-                ],  
-              },
-              {
-                type: "p",
-                info: [
-                  {
-                    text: "Por ejemplo, si la tarea implica traducir un texto, es importante especificar los idiomas de origen y destino, así como el tipo de texto a traducir.",
-                    content: "plain",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            type: "li",
-            info: [
-              {
-                type: "h4",
-                info: [
-                  {
-                    text: "Establecer restricciones:",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "p",
-                info: [
-                  {
-                    text: "Es importante establecer restricciones claras en el prompt para guiar la generación de texto del modelo. Estas restricciones pueden incluir:",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "ul",
-                info: [
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "limitaciones en cuanto a la longitud de la respuesta,",
+                        text: "El contexto es fundamental para que el modelo comprenda la tarea y genere una respuesta precisa. Esto puede incluir:",
                         content: "plain",
                       },
                     ],
                   },
                   {
-                    type: "li",
-                    info: [
-                      { text: "el estilo de redacción ", content: "plain" },
-                    ],
-                  },
-                  {
-                    type: "li",
+                    type: "ul",
                     info: [
                       {
-                        text: "o incluso la exclusión de ciertos temas.",
-                        content: "plain",
+                        type: "li",
+                        info: [
+                          {
+                            text: "información adicional sobre el tema,",
+                            content: "plain",
+                          },
+                        ],
                       },
-                    ],
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            type: "li",
-            info: [
-              {
-                type: "h4",
-                info: [
-                  {
-                    text: "Establecer un rol:",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "p",
-                info: [
-                  {
-                    text: "Si bien no es 100% necesario al darle un rol especifico en el prompt lo que hará es “ponerse un filtro” a la hora de generar la respuesta correcta. Algunos ejemplos de roles son:",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "ul",
-                info: [
-                  {
-                    type: "li",
-                    info: [
                       {
-                        text: "Asistente laboral",
-                        content: "plain",
+                        type: "li",
+                        info: [
+                          { text: "el propósito de la tarea ", content: "plain" },
+                        ],
                       },
-                    ],
-                  },
-                  {
-                    type: "li",
-                    info: [
                       {
-                        text: "Asistente de Investigación",
-                        content: "plain",
+                        type: "li",
+                        info: [
+                          {
+                            text: "y cualquier restricción relevante.",
+                            content: "plain",
+                          },
+                        ],
                       },
-                    ],
+                    ],  
                   },
                   {
-                    type: "li",
+                    type: "p",
                     info: [
                       {
-                        text: "Editor de Texto",
-                        content: "plain",
-                      },
-                    ],
-                  },
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "Programador",
-                        content: "plain",
-                      },
-                    ],
-                  },
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "Analista de Datos",
-                        content: "plain",
-                      },
-                    ],
-                  },
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "Facilitador de tomas de decisiones.",
+                        text: "Por ejemplo, si la tarea implica traducir un texto, es importante especificar los idiomas de origen y destino, así como el tipo de texto a traducir.",
                         content: "plain",
                       },
                     ],
@@ -1509,89 +1386,225 @@ let classes = [
                 ],
               },
               {
-                type: "p",
+                type: "li",
                 info: [
                   {
-                    text: "Por ejemplo, si la tarea implica generar un diálogo, se pueden establecer restricciones en cuanto al número de turnos de diálogo o la longitud total del intercambio.",
-                    content: "plain",
+                    type: "h4",
+                    info: [
+                      {
+                        text: "Establecer restricciones:",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                  {
+                    type: "p",
+                    info: [
+                      {
+                        text: "Es importante establecer restricciones claras en el prompt para guiar la generación de texto del modelo. Estas restricciones pueden incluir:",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "limitaciones en cuanto a la longitud de la respuesta,",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "el estilo de redacción ", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "o incluso la exclusión de ciertos temas.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    type: "h4",
+                    info: [
+                      {
+                        text: "Establecer un rol:",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                  {
+                    type: "p",
+                    info: [
+                      {
+                        text: "Si bien no es 100% necesario al darle un rol especifico en el prompt lo que hará es “ponerse un filtro” a la hora de generar la respuesta correcta. Algunos ejemplos de roles son:",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Asistente laboral",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Asistente de Investigación",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Editor de Texto",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Programador",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Analista de Datos",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Facilitador de tomas de decisiones.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                  {
+                    type: "p",
+                    info: [
+                      {
+                        text: "Por ejemplo, si la tarea implica generar un diálogo, se pueden establecer restricciones en cuanto al número de turnos de diálogo o la longitud total del intercambio.",
+                        content: "plain",
+                      },
+                    ],
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    type: "h4",
+                    info: [
+                      {
+                        text: "Ejemplos y mejores practicas",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Prompt para Resumen de Texto: ",
+                            content: "bold",
+                          },
+                          { 
+                            text: "Resume los hallazgos principales de este estudio en no más de 100 palabras. El estudio analiza el impacto del cambio climático en la biodiversidad marina.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Prompt para Generación de Diálogos: ",
+                            content: "bold",
+                          },
+                          {
+                            text: "Simula una conversación entre un cliente y un agente de servicio al cliente para resolver un problema de facturación. El cliente está molesto por un cargo incorrecto en su factura.",
+                            content: "plain",
+                          }
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Prompt para Traducción Automática: ",
+                            content: "bold",
+                          },
+                          { 
+                            text: "Traduce el siguiente párrafo del español al inglés. El texto trata sobre las nuevas tecnologías en el campo de la medicina.",
+                            content: "plain",
+                          }
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Prompt para Generación de Poemas: ",
+                            content: "bold",
+                          },
+                          {
+                            text: "Escribe un poema sobre la belleza de la naturaleza. Incluye imágenes de árboles, flores y ríos.",
+                            content: "plain",
+                          }
+                        ],
+                      },
+                    ],
                   },
                 ],
               }
-            ]
-          },
-          {
-            type: "li",
-            info: [
-              {
-                type: "h4",
-                info: [
-                  {
-                    text: "Ejemplos y mejores practicas",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "ul",
-                info: [
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "Prompt para Resumen de Texto: ",
-                        content: "bold",
-                      },
-                      { 
-                        text: "Resume los hallazgos principales de este estudio en no más de 100 palabras. El estudio analiza el impacto del cambio climático en la biodiversidad marina.",
-                        content: "plain",
-                      },
-                    ],
-                  },
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "Prompt para Generación de Diálogos: ",
-                        content: "bold",
-                      },
-                      {
-                        text: "Simula una conversación entre un cliente y un agente de servicio al cliente para resolver un problema de facturación. El cliente está molesto por un cargo incorrecto en su factura.",
-                        content: "plain",
-                      }
-                    ],
-                  },
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "Prompt para Traducción Automática: ",
-                        content: "bold",
-                      },
-                      { 
-                        text: "Traduce el siguiente párrafo del español al inglés. El texto trata sobre las nuevas tecnologías en el campo de la medicina.",
-                        content: "plain",
-                      }
-                    ],
-                  },
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "Prompt para Generación de Poemas: ",
-                        content: "bold",
-                      },
-                      {
-                        text: "Escribe un poema sobre la belleza de la naturaleza. Incluye imágenes de árboles, flores y ríos.",
-                        content: "plain",
-                      }
-                    ],
-                  },
-                ],
-              },
             ],
-          }
-        ],
+          },
+        ]
       },
+      
+      
     ]
   },
   {
