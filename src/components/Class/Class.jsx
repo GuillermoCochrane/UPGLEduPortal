@@ -7,16 +7,19 @@ import H3 from '../partials/H3/H3Tag';
 import H2 from '../partials/H2/H2Tag';
 import Figure from '../partials/Figure/Figure';
 import classes from '../../assets/data/classes';
+import NavButtons from '../partials/Navbuttons/NavButtons';
 
 function Class(params) {
-  const { id } = params.match.params;
+  const  id  = parseInt(params.match.params.id);
   const [data, setData] = useState([]);
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
     let newData = classes.filter(item => item.id == id);
     (newData.length === 0) ?
       setData([]) :
       setData(newData[0].classData);
+      setPage(id);
   }, [id]);
 
   return (
@@ -33,6 +36,7 @@ function Class(params) {
           item.type === "ol" ? <OL key={index} Data={item.info} /> : null
         ))
       }
+      <NavButtons Page={page} LastPage={classes.length} />
     </article>
   );
 }
