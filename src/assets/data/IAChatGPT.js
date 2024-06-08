@@ -1750,13 +1750,8 @@ let classes = [
                     type: "h4",
                     info: [
                       {
-                        type: "h4", 
-                        info: [
-                          {
-                            text: "HTML: ", 
-                            content: "plain"
-                          }
-                        ]
+                        text: "HTML: ", 
+                        content: "plain"
                       },
                     ],
                   },

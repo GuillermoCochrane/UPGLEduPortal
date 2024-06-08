@@ -1643,8 +1643,8 @@ let classes = [
                 type: "h4",
                 info: [
                   {
-                    text: "Texto plano: ",
-                    content: "plain",
+                    text: "HTML: ", 
+                    content: "plain"
                   },
                 ],
               },
@@ -1661,7 +1661,7 @@ let classes = [
           {
             type: "li",
             info: [
-              {type: "h4", info: [{text: "HTML: ", content: "plain"}]},
+              {type: "h4", info: [{text: "JSON: ", content: "plain"}]},
               {
                 text: "Ejemplo: ",
                 content: "bold",
@@ -1675,7 +1675,7 @@ let classes = [
           {
             type: "li",
             info: [
-              {type: "h4", info: [{text: "JSON: ", content: "plain"}]},
+              {type: "h4", info: [{text: "Markdown: ", content: "plain"}]},
               {
                 text: "Ejemplo: ",
                 content: "bold",
@@ -1689,7 +1689,7 @@ let classes = [
           {
             type: "li",
             info: [
-              {type: "h4", info: [{text: "Markdown: ", content: "plain"}]},
+              {type: "h4", info: [{text: "XML: ", content: "plain"}]},
               {
                 text: "Ejemplo: ",
                 content: "bold",
