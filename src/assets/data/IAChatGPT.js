@@ -1,6 +1,6 @@
 let classes = [
   {
-    id: 1,
+    class: 1,
     topics: 3,
     title: {
       type: "h2",
@@ -211,373 +211,409 @@ let classes = [
     ],
   },
   {
-    id: 2,
+    class: 2,
+    topics: 7,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Historia de la inteligencia artificial. Inicio y actualidad Artificial, conceptos fundamentales",
+          content: "plain",
+        },
+      ],
+    },
     classData: [
       {
-        type: "h2",
-        info: [
+        topic: 1,
+        topicData: [
           {
-            text: "Historia de la inteligencia artificial. Inicio y actualidad Artificial, conceptos fundamentales",
-            content: "plain",
+            type: "h3",
+            info: [{ text: "Decada de 1950", content: "plain" }],
           },
-        ],
-      },
-      {
-        type: "h3",
-        info: [{ text: "Decada de 1950", content: "plain" }],
-      },
-      {
-        type: "p",
-        info: [
           {
-            text: "Alan Turing, pionero en ciencias de la computación, propuso en ",
-            content: "plain",
-          },
-          { text: "1950", content: "bold" },
-          {
-            text: " una prueba para determinar si una máquina puede exhibir un comportamiento inteligente equivalente al de un ser humano. Esta prueba, conocida como la Prueba de Turing, sigue siendo un concepto fundamental en el campo de la IA y ha estimulado debates sobre la naturaleza de la inteligencia y la capacidad de las máquinas para replicarla.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          "En ",
-          { text: "1952", content: "bold" },
-          {
-            text: ", Arthur Samuel creó un software capaz de aprender a jugar al ajedrez de forma autónoma.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          {
-            text: 'El término "inteligencia artificial" fue acuñado por John McCarthy en ',
-            content: "plain",
-          },
-          { text: "1956", content: "bold" },
-          {
-            text: " durante una conferencia en Dartmouth College. Este evento marcó el inicio oficial del campo de la IA y reunió a destacados científicos de diversas disciplinas para explorar el potencial de las máquinas para exhibir comportamientos inteligentes.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "En ", content: "plain" },
-          { text: "1959", content: "bold" },
-          {
-            text: " Arthur Samuel acuñó el término Machine Learning mientras trabajaba en IBM. Por su parte, John McCarthy y Marvin Minsky fundaron el MIT Artificial Intelligence Project.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "h3",
-        info: [{ text: "Década de 1960-1970", content: "plain" }],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "En ", content: "plain" },
-          { text: "1963", content: "bold" },
-          {
-            text: " John McCarthy también creó el «AI Lab» en la Universidad de Stanford.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "En ", content: "plain" },
-          { text: "1966", content: "bold" },
-          {
-            text: " el informe estadounidense ALPAC puso de manifiesto la falta de avances en la investigación de la traducción automática destinada a traducir simultáneamente la lengua rusa en el contexto de la Guerra Fría.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          {
-            text: "Muchos proyectos financiados por el gobierno estadounidense fueron cancelados.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "Del mismo modo, en ", content: "plain" },
-          { text: "1973", content: "bold" },
-          {
-            text: ", el gobierno británico publicó su informe Lighthill en el que destacaba las decepciones de la investigación en IA. Una vez más, los proyectos de investigación fueron reducidos por los recortes presupuestarios. Este periodo de duda duró hasta 1980, y ahora se denomina el ",
-            content: "plain",
-          },
-          { text: "primer invierno(crisis) de la IA.", content: "bold" },
-        ],
-      },
-      {
-        type: "h3",
-        info: [{ text: "Década de 1980", content: "plain" }],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "La década de ", content: "plain" },
-          { text: "1980", content: "bold" },
-          {
-            text: " presenció un auge en la investigación y aplicación de la IA en áreas como el procesamiento del lenguaje natural, la visión por computadora y los sistemas expertos. Los sistemas expertos, en particular, se convirtieron en una aplicación popular de la IA en campos como la medicina, la ingeniería y la gestión empresarial.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "En ", content: "plain" },
-          { text: "1985", content: "bold" },
-          {
-            text: " se desarrolla el sistema DENDRAL, que utiliza técnicas de inteligencia artificial para identificar estructuras moleculares desconocidas.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "En ", content: "plain" },
-          { text: "1987", content: "bold" },
-          {
-            text: " Martin Fischles y Oscar Firschein describieron los atributos de un agente inteligente. Al intentar describir con un mayor ámbito (no solo la comunicación) los atributos de un agente inteligente, la IA se ha expandido a muchas áreas que han creado ramas de investigación enormes y diferenciadas. Dichos atributos del agente inteligente son:",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "ol",
-        info: [
-          {
-            type: "li",
+            type: "p",
             info: [
               {
-                text: "Tiene actitudes mentales tales como creencias e intenciones.",
+                text: "Alan Turing, pionero en ciencias de la computación, propuso en ",
+                content: "plain",
+              },
+              { text: "1950", content: "bold" },
+              {
+                text: " una prueba para determinar si una máquina puede exhibir un comportamiento inteligente equivalente al de un ser humano. Esta prueba, conocida como la Prueba de Turing, sigue siendo un concepto fundamental en el campo de la IA y ha estimulado debates sobre la naturaleza de la inteligencia y la capacidad de las máquinas para replicarla.",
                 content: "plain",
               },
             ],
           },
           {
-            type: "li",
+            type: "p",
             info: [
+              "En ",
+              { text: "1952", content: "bold" },
               {
-                text: "Tiene la capacidad de obtener conocimiento, es decir, aprender.",
+                text: ", Arthur Samuel creó un software capaz de aprender a jugar al ajedrez de forma autónoma.",
                 content: "plain",
               },
             ],
           },
           {
-            type: "li",
+            type: "p",
             info: [
               {
-                text: "Puede resolver problemas, incluso descomponiendo problemas complejos en otros más simples.",
+                text: 'El término "inteligencia artificial" fue acuñado por John McCarthy en ',
+                content: "plain",
+              },
+              { text: "1956", content: "bold" },
+              {
+                text: " durante una conferencia en Dartmouth College. Este evento marcó el inicio oficial del campo de la IA y reunió a destacados científicos de diversas disciplinas para explorar el potencial de las máquinas para exhibir comportamientos inteligentes.",
                 content: "plain",
               },
             ],
           },
           {
-            type: "li",
+            type: "p",
             info: [
+              { text: "En ", content: "plain" },
+              { text: "1959", content: "bold" },
               {
-                text: "Capaz de realizar operaciones más complejas.",
+                text: " Arthur Samuel acuñó el término Machine Learning mientras trabajaba en IBM. Por su parte, John McCarthy y Marvin Minsky fundaron el MIT Artificial Intelligence Project.",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "Década de 1960-1970", content: "plain" }],
+          },
+          {
+            type: "p",
+            info: [
+              { text: "En ", content: "plain" },
+              { text: "1963", content: "bold" },
+              {
+                text: " John McCarthy también creó el «AI Lab» en la Universidad de Stanford.",
                 content: "plain",
               },
             ],
           },
           {
-            type: "li",
-            info: [{ text: "Entiende.", content: "plain" }],
-          },
-          {
-            type: "li",
-            info: [{ text: "Planifica.", content: "plain" }],
-          },
-          {
-            type: "li",
+            type: "p",
             info: [
+              { text: "En ", content: "plain" },
+              { text: "1966", content: "bold" },
               {
-                text: "Conoce los límites de sus propias habilidades y conocimientos.",
+                text: " el informe estadounidense ALPAC puso de manifiesto la falta de avances en la investigación de la traducción automática destinada a traducir simultáneamente la lengua rusa en el contexto de la Guerra Fría.",
                 content: "plain",
               },
             ],
           },
           {
-            type: "li",
+            type: "p",
             info: [
               {
-                text: "Puede distinguir a pesar de la similitud de las situaciones.",
+                text: "Muchos proyectos financiados por el gobierno estadounidense fueron cancelados.",
                 content: "plain",
               },
             ],
           },
           {
-            type: "li",
+            type: "p",
             info: [
+              { text: "Del mismo modo, en ", content: "plain" },
+              { text: "1973", content: "bold" },
               {
-                text: "Puede ser original, creando incluso nuevos conceptos o ideas, y hasta utilizando analogías.",
+                text: ", el gobierno británico publicó su informe Lighthill en el que destacaba las decepciones de la investigación en IA. Una vez más, los proyectos de investigación fueron reducidos por los recortes presupuestarios. Este periodo de duda duró hasta 1980, y ahora se denomina el ",
+                content: "plain",
+              },
+              { text: "primer invierno(crisis) de la IA.", content: "bold" },
+            ],
+          },
+        ]
+      },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "Década de 1980", content: "plain" }],
+          },
+          {
+            type: "p",
+            info: [
+              { text: "La década de ", content: "plain" },
+              { text: "1980", content: "bold" },
+              {
+                text: " presenció un auge en la investigación y aplicación de la IA en áreas como el procesamiento del lenguaje natural, la visión por computadora y los sistemas expertos. Los sistemas expertos, en particular, se convirtieron en una aplicación popular de la IA en campos como la medicina, la ingeniería y la gestión empresarial.",
                 content: "plain",
               },
             ],
           },
           {
-            type: "li",
-            info: [{ text: "Puede generalizar.", content: "plain" }],
-          },
-          {
-            type: "li",
+            type: "p",
             info: [
+              { text: "En ", content: "plain" },
+              { text: "1985", content: "bold" },
               {
-                text: "Puede percibir y modelar el mundo exterior.",
+                text: " se desarrolla el sistema DENDRAL, que utiliza técnicas de inteligencia artificial para identificar estructuras moleculares desconocidas.",
                 content: "plain",
               },
             ],
           },
           {
-            type: "li",
+            type: "p",
             info: [
+              { text: "En ", content: "plain" },
+              { text: "1987", content: "bold" },
               {
-                text: "Puede entender y utilizar el lenguaje y sus símbolos.",
+                text: " Martin Fischles y Oscar Firschein describieron los atributos de un agente inteligente. Al intentar describir con un mayor ámbito (no solo la comunicación) los atributos de un agente inteligente, la IA se ha expandido a muchas áreas que han creado ramas de investigación enormes y diferenciadas. Dichos atributos del agente inteligente son:",
                 content: "plain",
               },
             ],
           },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "Este fue el ", content: "plain" },
-          { text: "segundo invierno(crisis) de la IA", content: "bold" },
           {
-            text: ". Las empresas perdieron el interés por los sistemas expertos. Los gobiernos de Estados Unidos y Japón abandonaron sus proyectos de investigación y se gastaron miles de millones de dólares para nada.",
-            content: "plain",
+            type: "ol",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Tiene actitudes mentales tales como creencias e intenciones.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Tiene la capacidad de obtener conocimiento, es decir, aprender.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Puede resolver problemas, incluso descomponiendo problemas complejos en otros más simples.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Capaz de realizar operaciones más complejas.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Entiende.", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Planifica.", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Conoce los límites de sus propias habilidades y conocimientos.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Puede distinguir a pesar de la similitud de las situaciones.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Puede ser original, creando incluso nuevos conceptos o ideas, y hasta utilizando analogías.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Puede generalizar.", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Puede percibir y modelar el mundo exterior.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Puede entender y utilizar el lenguaje y sus símbolos.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
-        ],
-      },
-      {
-        type: "h3",
-        info: [{ text: "Década de 1990", content: "plain" }],
-      },
-      {
-        type: "p",
-        info: [ { text: "Durante la década de 1990, el enfoque en el aprendizaje automático y las redes neuronales resurgió con el desarrollo de algoritmos como las máquinas de vectores de soporte (SVM) y las redes neuronales convolucionales (CNN). Estos avances sentaron las bases para una nueva ola de aplicaciones de IA en áreas como la minería de datos, la detección de fraudes y el reconocimiento de patrones. ", content: "plain" }],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "En ", content: "plain" },
-          { text: "1997", content: "bold" },
           {
-            text: " la historia de la IA estuvo marcada por un acontecimiento importante. La IA Deep Blue de IBM triunfó sobre el campeón mundial de ajedrez Garry Kasparov. Por primera vez, el hombre fue derrotado por la máquina",
-            content: "plain",
+            type: "p",
+            info: [
+              { text: "Este fue el ", content: "plain" },
+              { text: "segundo invierno(crisis) de la IA", content: "bold" },
+              {
+                text: ". Las empresas perdieron el interés por los sistemas expertos. Los gobiernos de Estados Unidos y Japón abandonaron sus proyectos de investigación y se gastaron miles de millones de dólares para nada.",
+                content: "plain",
+              },
+            ],
           },
-        ],  
+        ]
       },
       {
-        type: "h3",
-        info: [{ text: "Década de 2000", content: "plain" }],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "En la década de ", content: "plain" },
-          { text: "2000", content: "bold" },
+        topic: 4,
+        topicData: [
           {
-            text: ', el surgimiento del concepto de "Big Data" impulsó el desarrollo de técnicas de IA capaces de manejar y procesar grandes volúmenes de datos. Además, se produjeron avances significativos en el campo del aprendizaje profundo, una rama del aprendizaje automático que utiliza redes neuronales profundas para aprender representaciones de datos de alto nivel. Estos avances permitieron a los sistemas de IA realizar tareas más complejas y sofisticadas, como el reconocimiento de imágenes, la traducción automática y la conducción autónoma.',
-            content: "plain",
+            type: "h3",
+            info: [{ text: "Década de 1990", content: "plain" }],
           },
-        ],
-      },
-      {
-        type: "h3",
-        info: [{ text: "Década de 2010", content: "plain" }],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "La década de ", content: "plain" },
-          { text: "2010", content: "bold" },
           {
-            text: ", fue testigo de un rápido avance en la adopción de la inteligencia artificial en una variedad de aplicaciones prácticas. Los algoritmos de IA se utilizaron cada vez más en áreas como la atención médica, la banca, el comercio electrónico y la publicidad en línea. Además, hubo avances significativos en el desarrollo de asistentes virtuales y sistemas de reconocimiento de voz, como Siri de Apple, Alexa de Amazon y Google Assistant, que se convirtieron en parte integral de la vida cotidiana de millones de personas en todo el mundo.",
-            content: "plain",
+            type: "p",
+            info: [ { text: "Durante la década de 1990, el enfoque en el aprendizaje automático y las redes neuronales resurgió con el desarrollo de algoritmos como las máquinas de vectores de soporte (SVM) y las redes neuronales convolucionales (CNN). Estos avances sentaron las bases para una nueva ola de aplicaciones de IA en áreas como la minería de datos, la detección de fraudes y el reconocimiento de patrones. ", content: "plain" }],
           },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "En ", content: "plain" },
-          { text: "2012", content: "bold" },
           {
-            text: ", Andrew Ng alimentó una red neuronal con 10 millones de vídeos de YouTube como serie de datos de entrenamiento. Gracias al Deep Learning, esta red neuronal aprendió a reconocer un gato sin que se le enseñara lo que es un gato.",
-            content: "plain",
+            type: "p",
+            info: [
+              { text: "En ", content: "plain" },
+              { text: "1997", content: "bold" },
+              {
+                text: " la historia de la IA estuvo marcada por un acontecimiento importante. La IA Deep Blue de IBM triunfó sobre el campeón mundial de ajedrez Garry Kasparov. Por primera vez, el hombre fue derrotado por la máquina",
+                content: "plain",
+              },
+            ],  
           },
-        ],
+        ]
       },
       {
-        type: "p",
-        info: [
-          { text: "En ", content: "plain" },
-          { text: "2014", content: "bold" },
+        topic: 5,
+        topicData: [
           {
-            text: ", un ordenador ha logrado superar con éxito el test de Turing, haciendo creer a un interrogador que es una persona quien responde sus preguntas en un certamen organizado en Londres por la Universidad de Reading.",
-            content: "plain",
+            type: "h3",
+            info: [{ text: "Década de 2000", content: "plain" }],
           },
-        ],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "En ", content: "plain" },
-          { text: "2016", content: "bold" },
           {
-            text: " un ordenador de Google venció al campeón mundial del juego milenario “Go”. Un programa informático desarrollado por la compañía británica Google DeepMind consiguió vencer, por primera vez, a un campeón profesional del milenario juego de origen oriental Go.",
-            content: "plain",
-          },
-        ],
+            type: "p",
+            info: [
+              { text: "En la década de ", content: "plain" },
+              { text: "2000", content: "bold" },
+              {
+                text: ', el surgimiento del concepto de "Big Data" impulsó el desarrollo de técnicas de IA capaces de manejar y procesar grandes volúmenes de datos. Además, se produjeron avances significativos en el campo del aprendizaje profundo, una rama del aprendizaje automático que utiliza redes neuronales profundas para aprender representaciones de datos de alto nivel. Estos avances permitieron a los sistemas de IA realizar tareas más complejas y sofisticadas, como el reconocimiento de imágenes, la traducción automática y la conducción autónoma.',
+                content: "plain",
+              },
+            ],
+          }
+        ]
       },
       {
-        type: "figure",
-        info: 
+        topic: 6,
+        topicData: [
           {
-            img: "/images/timeline.png",
-            alt: "Linea de tiempo de la historia de la IA",
+            type: "h3",
+            info: [{ text: "Década de 2010", content: "plain" }],
           },
-      },
-      {
-        type: "h3",
-        info: [{ text: "Actualidad", content: "plain" }],
-      },
-      {
-        type: "p",
-        info: [
-          { text: "La década de ", content: "plain" },
-          { text: "2020", content: "bold" },
           {
-            text: " ha sido testigo de una mayor integración de la inteligencia artificial en la sociedad, impulsada por la transformación digital en diversos sectores. Los avances en el procesamiento del lenguaje natural, la visión por computadora y el aprendizaje automático han llevado a la creación de sistemas de IA cada vez más sofisticados y autónomos. Sin embargo, también ha habido un mayor énfasis en la ética y la responsabilidad en el desarrollo y uso de la IA, especialmente en áreas sensibles como la privacidad de los datos, el sesgo algorítmico y la toma de decisiones automatizada.",
-            content: "plain",
+            type: "p",
+            info: [
+              { text: "La década de ", content: "plain" },
+              { text: "2010", content: "bold" },
+              {
+                text: ", fue testigo de un rápido avance en la adopción de la inteligencia artificial en una variedad de aplicaciones prácticas. Los algoritmos de IA se utilizaron cada vez más en áreas como la atención médica, la banca, el comercio electrónico y la publicidad en línea. Además, hubo avances significativos en el desarrollo de asistentes virtuales y sistemas de reconocimiento de voz, como Siri de Apple, Alexa de Amazon y Google Assistant, que se convirtieron en parte integral de la vida cotidiana de millones de personas en todo el mundo.",
+                content: "plain",
+              },
+            ],
           },
-        ],
+          {
+            type: "p",
+            info: [
+              { text: "En ", content: "plain" },
+              { text: "2012", content: "bold" },
+              {
+                text: ", Andrew Ng alimentó una red neuronal con 10 millones de vídeos de YouTube como serie de datos de entrenamiento. Gracias al Deep Learning, esta red neuronal aprendió a reconocer un gato sin que se le enseñara lo que es un gato.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              { text: "En ", content: "plain" },
+              { text: "2014", content: "bold" },
+              {
+                text: ", un ordenador ha logrado superar con éxito el test de Turing, haciendo creer a un interrogador que es una persona quien responde sus preguntas en un certamen organizado en Londres por la Universidad de Reading.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              { text: "En ", content: "plain" },
+              { text: "2016", content: "bold" },
+              {
+                text: " un ordenador de Google venció al campeón mundial del juego milenario “Go”. Un programa informático desarrollado por la compañía británica Google DeepMind consiguió vencer, por primera vez, a un campeón profesional del milenario juego de origen oriental Go.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: 
+              {
+                img: "/images/timeline.png",
+                alt: "Linea de tiempo de la historia de la IA",
+              },
+          },
+        ]
       },
-    ],
+      {
+        topic: 7,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "Actualidad", content: "plain" }],
+          },
+          {
+            type: "p",
+            info: [
+              { text: "La década de ", content: "plain" },
+              { text: "2020", content: "bold" },
+              {
+                text: " ha sido testigo de una mayor integración de la inteligencia artificial en la sociedad, impulsada por la transformación digital en diversos sectores. Los avances en el procesamiento del lenguaje natural, la visión por computadora y el aprendizaje automático han llevado a la creación de sistemas de IA cada vez más sofisticados y autónomos. Sin embargo, también ha habido un mayor énfasis en la ética y la responsabilidad en el desarrollo y uso de la IA, especialmente en áreas sensibles como la privacidad de los datos, el sesgo algorítmico y la toma de decisiones automatizada.",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
+    ]
   },
   {
-    id: 3,
+    class: 3,
     classData: [
       {
         type: "h2",
@@ -901,7 +937,7 @@ let classes = [
     ],
   },
   {
-    id: 4,
+    class: 4,
     classData: [
       {
         type: "h2",
@@ -990,7 +1026,7 @@ let classes = [
     ]
   },
   {
-    id: 5,
+    class: 5,
     classData: [
       {
         type: "h2",
@@ -1116,7 +1152,7 @@ let classes = [
     ]
   },
   {
-    id: 6,
+    class: 6,
     classData: [
       {
         type: "h2",
@@ -1521,7 +1557,7 @@ let classes = [
     ]
   },
   {
-    id: 7,
+    class: 7,
     classData: [
       {
         type: "h2",
@@ -1608,7 +1644,7 @@ let classes = [
     ]
   },
   { 
-    id: 8,
+    class: 8,
     classData: [
       {
         type: "h2",
@@ -1766,7 +1802,7 @@ let classes = [
     ]
   },
   {
-    id: 9,
+    class: 9,
     classData: [
       {
         type: "h2",
@@ -1825,7 +1861,7 @@ let classes = [
     ]
   },
   {
-    id: 10,
+    class: 10,
     classData: [
       {
         type: "h2",
