@@ -1934,105 +1934,116 @@ let classes = [
   },
   {
     class: 10,
+    topics: 2,
+    title: {
+      type: "h2",
+      info: [{ text: "¿En qué casos usar ChatGPT?", content: "plain" }],
+    },
     classData: [
       {
-        type: "h2",
-        info: [{ text: "¿En qué casos usar ChatGPT?", content: "plain" }],
-      },
-      {
-        type: "h3",
-        info: [{ text: "Buenas situaciones donde se puede utilizar ChatGPT:", content: "plain" }],
-      },
-      {
-        type: "ul",
-        info: [
+        topic: 1, 
+        topicData: [
           {
-            type: "li",
-            info: [
-              {
-                text: "Generando Texto",
-                content: "plain",
-              },
-            ],
+            type: "h3",
+            info: [{ text: "Buenas situaciones donde se puede utilizar ChatGPT:", content: "plain" }],
           },
           {
-            type: "li",
+            type: "ul",
             info: [
               {
-                text: "Generando Ideas",
-                content: "plain",
+                type: "li",
+                info: [
+                  {
+                    text: "Generando Texto",
+                    content: "plain",
+                  },
+                ],
               },
-            ],
-          },
-          {
-            type: "li",
-            info: [
               {
-                text: "Continuando líneas de pensamiento",
-                content: "plain",
+                type: "li",
+                info: [
+                  {
+                    text: "Generando Ideas",
+                    content: "plain",
+                  },
+                ],
               },
-            ],
-          },
-          {
-            type: "li",
-            info: [
               {
-                text: "Generando Código",
-                content: "plain",
+                type: "li",
+                info: [
+                  {
+                    text: "Continuando líneas de pensamiento",
+                    content: "plain",
+                  },
+                ],
               },
-            ],
-          },
-          {
-            type: "li",
-            info: [
               {
-                text: "Actuando como un profesional",
-                content: "plain",
+                type: "li",
+                info: [
+                  {
+                    text: "Generando Código",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Actuando como un profesional",
+                    content: "plain",
+                  },
+                ],
               },
             ],
           },
         ],
       },
       {
-        type: "h3",
-        info: [{ text: "Malas situaciones donde utilizar ChatGPT:", content: "plain" }],
-      },
-      {
-        type: "ul",
-        info: [
+        topic: 2,
+        topicData: [
           {
-            type: "li",
-            info: [
-              {
-                text: "Matemáticas",
-                content: "plain",
-              },
-            ],
+            type: "h3",
+            info: [{ text: "Malas situaciones donde utilizar ChatGPT:", content: "plain" }],
           },
           {
-            type: "li",
+            type: "ul",
             info: [
               {
-                text: "Sin datos de ejemplos",
-                content: "plain",
+                type: "li",
+                info: [
+                  {
+                    text: "Matemáticas",
+                    content: "plain",
+                  },
+                ],
               },
-            ],
-          },
-          {
-            type: "li",
-            info: [
               {
-                text: "Actualidad (Finales de 2021)",
-                content: "plain",
+                type: "li",
+                info: [
+                  {
+                    text: "Sin datos de ejemplos",
+                    content: "plain",
+                  },
+                ],
               },
-            ],
-          },
-          {
-            type: "li",
-            info: [
               {
-                text: "Preguntas sesgadas.",
-                content: "plain",
+                type: "li",
+                info: [
+                  {
+                    text: "Actualidad (Finales de 2021)",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Preguntas sesgadas.",
+                    content: "plain",
+                  },
+                ],
               },
             ],
           },
