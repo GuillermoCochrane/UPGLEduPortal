@@ -950,90 +950,101 @@ let classes = [
   },
   {
     class: 4,
+    topics: 2,
+    title: {
+      type: "h2",
+      info: [{ text: "ChatGPT. Origen, Evolución y Diferencia entre versiones", content: "plain" }],
+    },
     classData: [
       {
-        type: "h2",
-        info: [{ text: "ChatGPT. Origen, Evolución y Diferencia entre versiones", content: "plain" }],
-      },
-      {
-        type: "h3",
-        info: [{ text: "Origen", content: "plain" }],
-      },
-      {
-        type: "p",
-        info: [
+        topic: 1,
+        topicData: [
           {
-            text: "El origen de ChatGPT se remonta a los avances en inteligencia artificial, específicamente en el campo del procesamiento del lenguaje natural (PLN) y los modelos de lenguaje generativo. En junio de 2020, OpenAI lanzó la primera versión de ChatGPT, conocida como GPT-3 (Generative Pre-trained Transformer 3), que marcó un hito significativo en el desarrollo de sistemas de conversación basados en IA.",
-            content: "plain",
+            type: "h3",
+            info: [{ text: "Origen", content: "plain" }],
           },
-        ],
-      },
-      {
-        type: "p",
-        info: [
           {
-            text: "GPT-3 fue diseñado utilizando la arquitectura Transformer, que utiliza una atención auto-referencial y capas de auto-atención para modelar secuencias de texto. Con 175 mil millones de parámetros, GPT-3 fue el modelo de lenguaje más grande y avanzado hasta ese momento, capaz de generar respuestas coherentes y contextualmente relevantes en una variedad de situaciones.",
-            content: "plain",
-          },
-        ],
-      },
-      {
-        type: "h3",
-        info: [{ text: "Todas sus versiones", content: "plain" }],
-      },
-      {
-        type: "ul",
-        info: [
-          {
-            type: "li",
+            type: "p",
             info: [
-              { text: "GPT (Generative Pre-trained Transformer): ", content: "bold" },
               {
-                text: "Esta fue la primera versión de la serie GPT, lanzada en 2018 por OpenAI. Aunque tenía menos parámetros que las versiones posteriores, estableció las bases para el desarrollo de modelos de lenguaje generativo basados en la arquitectura Transformer.",
+                text: "El origen de ChatGPT se remonta a los avances en inteligencia artificial, específicamente en el campo del procesamiento del lenguaje natural (PLN) y los modelos de lenguaje generativo. En junio de 2020, OpenAI lanzó la primera versión de ChatGPT, conocida como GPT-3 (Generative Pre-trained Transformer 3), que marcó un hito significativo en el desarrollo de sistemas de conversación basados en IA.",
                 content: "plain",
               },
             ],
           },
           {
-            type: "li",
+            type: "p",
             info: [
-              { text: "GPT-2:  ", content: "bold" },
               {
-                text: "Lanzado en febrero de 2019, GPT-2 fue una versión mejorada de GPT que contenía 1.5 mil millones de parámetros. Esta versión demostró capacidades sorprendentes en la generación de texto, lo que llevó a OpenAI a restringir inicialmente el acceso al modelo completo debido a preocupaciones sobre su potencial para generar contenido falso y engañoso.",
+                text: "GPT-3 fue diseñado utilizando la arquitectura Transformer, que utiliza una atención auto-referencial y capas de auto-atención para modelar secuencias de texto. Con 175 mil millones de parámetros, GPT-3 fue el modelo de lenguaje más grande y avanzado hasta ese momento, capaz de generar respuestas coherentes y contextualmente relevantes en una variedad de situaciones.",
                 content: "plain",
               },
             ],
+          }
+        ]
+      },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "Todas sus versiones", content: "plain" }],
           },
           {
-            type: "li",
+            type: "ul",
             info: [
-              { text: "GPT-3:  ", content: "bold" },
               {
-                text: "Lanzado en junio de 2020, GPT-3 representó un avance significativo en el campo de los modelos de lenguaje generativo. Con 175 mil millones de parámetros, GPT-3 fue el modelo de lenguaje más grande y avanzado hasta la fecha de su lanzamiento, capaz de realizar una amplia gama de tareas de PLN con resultados impresionantes.",
-                content: "plain",
+                type: "li",
+                info: [
+                  { text: "GPT (Generative Pre-trained Transformer): ", content: "bold" },
+                  {
+                    text: "Esta fue la primera versión de la serie GPT, lanzada en 2018 por OpenAI. Aunque tenía menos parámetros que las versiones posteriores, estableció las bases para el desarrollo de modelos de lenguaje generativo basados en la arquitectura Transformer.",
+                    content: "plain",
+                  },
+                ],
               },
-            ],
-          },
-          {
-            type: "li",
-            info: [
-              { text: "GPT-4:  ", content: "bold" },
               {
-                text: "Con el lanzamiento de GPT-4 en marzo de 2023, el alejamiento del enfoque de desarrollo de software gratis y abierto fue de la mano con el uso gratuito en condiciones científicamente comprensibles. La situación competitiva de la empresa y las medidas de seguridad se citaron como justificación. El cofundador de OpenAI describió más tarde el enfoque abierto como un error.",
-                content: "plain",
+                type: "li",
+                info: [
+                  { text: "GPT-2:  ", content: "bold" },
+                  {
+                    text: "Lanzado en febrero de 2019, GPT-2 fue una versión mejorada de GPT que contenía 1.5 mil millones de parámetros. Esta versión demostró capacidades sorprendentes en la generación de texto, lo que llevó a OpenAI a restringir inicialmente el acceso al modelo completo debido a preocupaciones sobre su potencial para generar contenido falso y engañoso.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "GPT-3:  ", content: "bold" },
+                  {
+                    text: "Lanzado en junio de 2020, GPT-3 representó un avance significativo en el campo de los modelos de lenguaje generativo. Con 175 mil millones de parámetros, GPT-3 fue el modelo de lenguaje más grande y avanzado hasta la fecha de su lanzamiento, capaz de realizar una amplia gama de tareas de PLN con resultados impresionantes.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "GPT-4:  ", content: "bold" },
+                  {
+                    text: "Con el lanzamiento de GPT-4 en marzo de 2023, el alejamiento del enfoque de desarrollo de software gratis y abierto fue de la mano con el uso gratuito en condiciones científicamente comprensibles. La situación competitiva de la empresa y las medidas de seguridad se citaron como justificación. El cofundador de OpenAI describió más tarde el enfoque abierto como un error.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "ChatGPT Plus:  ", content: "bold" },
+                  {   text: "es un servicio de suscripción para ChatGPT y es propiedad de OpenAI​ La suscripción proporciona acceso al modelo GPT-4 de OpenAI. El servicio brinda a los suscriptores acceso consistente durante los períodos de uso máximo, tiempos de respuesta acelerados y acceso preferencial a nuevas funciones, incluidos GPT-4 y los próximos complementos de ChatGPT.",
+                    content: "plain",
+                  },
+                ],
               },
             ],
           },
-          {
-            type: "li",
-            info: [
-              { text: "ChatGPT Plus:  ", content: "bold" },
-              {   text: "es un servicio de suscripción para ChatGPT y es propiedad de OpenAI​ La suscripción proporciona acceso al modelo GPT-4 de OpenAI. El servicio brinda a los suscriptores acceso consistente durante los períodos de uso máximo, tiempos de respuesta acelerados y acceso preferencial a nuevas funciones, incluidos GPT-4 y los próximos complementos de ChatGPT.",
-                content: "plain",
-              },
-            ],
-          },
-        ],
+        ]
       },
     ]
   },
