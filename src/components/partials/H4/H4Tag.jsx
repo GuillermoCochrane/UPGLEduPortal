@@ -14,7 +14,6 @@ function H4Tag({Data}) {
                             item.content == "bold" && <Bold key = {index} Data = {item.text} />
                         }
                     </Fragment>
-                    
                 ))
             }
         </h4>

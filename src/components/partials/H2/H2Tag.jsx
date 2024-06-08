@@ -13,9 +13,7 @@ function H2Tag({Data}) {
                         {
                             item.content == "bold" && <Bold key = {index} Data = {item.text} />
                         }
-
                     </Fragment>
-                    /* typeof item == "object" ? <strong key = {index} >{item.text}</strong> : item */
                 ))
             }
         </h2>

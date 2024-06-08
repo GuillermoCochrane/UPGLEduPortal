@@ -57,9 +57,6 @@ article {
 h1 {
 	margin: auto;
 	font-weight: 500;
-	
-	/* font-min-size: 1rem;
-	font-max-size: 30px; */
 	text-align: center;
 	padding-inline: 45px;
 }
