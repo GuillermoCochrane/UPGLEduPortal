@@ -1,17 +1,17 @@
 import { useState, useEffect } from 'react';
-import OL from '../partials/OL/OLTag';
-import UL from '../partials/UL/ULTag';
-import PTag from '../partials/P/PTag';
-import H4 from '../partials/H4/H4Tag';
-import H3 from '../partials/H3/H3Tag';
-import H2 from '../partials/H2/H2Tag';
-import Figure from '../partials/Figure/Figure';
-import classes from '../../assets/data/classes';
-import NavButtons from '../partials/Navbuttons/NavButtons';
-import NotFound from '../partials/NotFound/NotFound';
+import OL from '../../partials/OL/OLTag';
+import UL from '../../partials/UL/ULTag';
+import PTag from '../../partials/P/PTag';
+import H4 from '../../partials/H4/H4Tag';
+import H3 from '../../partials/H3/H3Tag';
+import H2 from '../../partials/H2/H2Tag';
+import Figure from '../../partials/Figure/Figure';
+import classes from  "../../../assets/data/classes" 
+import NavButtons from '../../partials/Navbuttons/NavButtons';
+import NotFound from '../../partials/NotFound/NotFound';
 
 function Class(params) {
-  const  id  = parseInt(params.match.params.id);
+  const  id  = parseInt(params.match.params.classId);
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
 

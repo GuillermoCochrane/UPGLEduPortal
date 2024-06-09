@@ -1,4 +1,4 @@
-import NotFound from "../partials/NotFound/NotFound";
+import NotFound from "../../partials/NotFound/NotFound";
 function Error404() {   
     return (
         <NotFound />
