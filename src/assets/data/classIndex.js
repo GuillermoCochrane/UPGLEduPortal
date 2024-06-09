@@ -1,166 +1,168 @@
-let oldIndex = [
+let classIndex = [
     {
       summary: "Inteligencia Artificial, conceptos fundamentales",
+      classId: 1,
       links: [
         {
           title: "¿Qué es la inteligencia?",
-          link: "/class1"
+          link: "/class/1/1"
         },
         {
           title: "¿Qué es la inteligencia artificial?",
-          link: "/class1"
+          link: "/class/1/2"
         },
         {
           title: "Diferencias entre Inteligencia Artificial e Inteligencia Natural",
-          link: "/class1"
-        },
-        {
-          title: "Origen",
-          link: "/class1"
-        },
-        {
-          title: "Naturaleza",
-          link: "/class1"
+          link: "/class/1/3"
         }
       ]
     },
     { 
-      summary: "Historia de la inteligencia artificial. Inicio y actualidad",
+      summary: "Historia de la inteligencia artificial",
+      classId: 2,
       links: [
         {
           title: "Década de 1950",
-          link: "/class2"
+          link: "/class/2/1"
         },
         {
           title: "Década de 1960-1970",
-          link: "/class2"
+          link: "/class/2/2"
         },
         {
           title: "Década de 1980",
-          link: "/class2"
+          link: "/class/2/3"
         },
         {
           title: "Década de 1990",
-          link: "/class2"
+          link: "/class/2/4"
         },
         {
           title: "Década de 2000",
-          link: "/class2"
+          link: "/class/2/5"
         },
         {
           title: "Década de 2010",
-          link: "/class2"
+          link: "/class/2/6"
         },
         {
           title: "Actualidad",
-          link: "/class2"
+          link: "/class/2/7"
         }
       ]   
     },
     {
       summary: "Machine Learning y Redes Neuronales",
+      classId: 3,
       links: [
         {
           title: "¿Qué es y cómo funciona el Machine Learning?",
-          link: "/class3"
+          link: "/class/3/1"
         },
         {
           title: "¿Qué son y cómo funcionan las Redes Neuronales?",
-          link: "/class3"
+          link: "/class/3/2"
         }
       ]
     },
     {
-      summary: "ChatGPT. Origen, Evolución y Diferencia entre versiones",
+      summary: "Origen, Evolución y versiones de ChatGPT",
+      classId: 4,
       links: [
         {
           title: "Origen",
-          link: "/class4"
+          link: "/class/4/1"
         },
         {
           title: "Todas sus versiones",
-          link: "/class4"
+          link: "/class/4/2"
         }
       ]
     },
     {
-      summary: "Prompt definición y conceptos",
+      summary: "Prompt: definición y conceptos",
+      classId: 5,
       links: [
         {
           title: "¿Qué es un Prompt?",
-          link: "/class5"
+          link: "/class/5/1"
         },
         {
           title: "Componentes de un Prompt",
-          link: "/class5"
+          link: "/class/5/2"
         },
         {
           title: "Aplicación de Prompt en tareas especificas",
-          link: "/class5"
+          link: "/class/5/3"
         }
       ]
     },
     {
-      summary: "Diseño Efectivo de Prompts: Creación de Instrucciones claras y precisas.",
+      summary: "Diseño Efectivo de Prompts",
+      classId: 6,
       links: [
         {
           title: "Diseño",
-          link: "/class6"
+          link: "/class/6/1"
         },
         {
           title: "¿Cómo dar instrucciones claras y precisas?",
-          link: "/class6"
+          link: "/class/6/2"
         },
         {
           title: "Ejemplos y mejores practicas",
-          link: "/class6"
+          link: "/class/6/3"
         }
       ]
     },
     {
-      summary: "Optimización y Ajuste de Prompts en Ingeniería de Prompt",
+      summary: "Ingeniería de Prompts: Optimización y Ajuste",
+      classId: 7,
       links: [
         {
           title: "Introducción",
-          link: "/class7"
+          link: "/class/7/1"
         },
         {
           title: "Pasos para la optimización de un Prompt",
-          link: "/class7"
+          link: "/class/7/2"
         }
       ]
     },
     {
       summary: "Formatos de salida",
+      classId: 8,
       links: [
         {
           title: "Formatos de salida",
-          link: "/class8"
+          link: "/class/8/1"
         },
         {
           title: "Evaluación de Prompts",
-          link: "/class8"
+          link: "/class/8/2"
         }
       ]
     },
     {
-      summary: "Estrategias para mantener conversaciones con ChatGPT",
+      summary: "Estrategias para el uso de ChatGPT",
+      classId: 9,
       links: [
         {
           title: "Estrategias para mantener conversaciones con ChatGPT",
-          link: "/class9"
+          link: "/class/9/1"
         }
       ]
     },
     {
       summary: "¿En qué casos usar ChatGPT?",
+      classId: 10,
       links: [
         {
           title: "¿En qué casos usar ChatGPT?",
-          link: "/class10"
+          link: "/class/10/1"
         }
       ]
     }   
   ]
 
-export default  oldIndex
+export default  classIndex
