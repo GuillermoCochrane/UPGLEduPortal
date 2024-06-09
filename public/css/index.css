@@ -206,6 +206,10 @@ li h4{
 	padding: 0;
 }
 
+article a{
+	color: #225;
+}
+
 @media (min-width: 870px){
 	body{
 		overflow: hidden;
@@ -239,6 +243,10 @@ li h4{
 		font-weight: 400;
 	}
 
+	section{
+		max-width: 500px;
+		margin: auto;
+	}
 	.hidden{
 		display: none;
 	}
