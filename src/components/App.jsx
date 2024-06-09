@@ -1,11 +1,11 @@
 import { useRef } from 'react'
 import { Route , Switch, Link } from "react-router-dom";
-import Home from "./Home/Home"
-import Class from "./Class/Class"
+import Home from "./pages/Home/Home"
+import Class from "./pages/Class/Class"
 import NavIndex from "./partials/NavBarIndex/NavIndex"
 import index from "../assets/data/index"
-import Error404 from "./Error404/Error404"
-
+import Error404 from "./pages/Error404/Error404"
+import ClassIndex from "./pages/ClassIndex/ClassIndex"
 //import NabBarIndex from "./partials/NavBarIndex/NabBarIndex"
 
 function App() {
@@ -37,7 +37,9 @@ function App() {
       </nav>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/class/:id" exact component={Class} />
+        <Route path="/class" exact component={ClassIndex} />
+        <Route path="/class/:classId" exact component={ClassIndex} />
+        <Route path="/class/:classId/:topicId" exact component={Class} />
         <Route component={Error404} />
       </Switch>
     </main>
