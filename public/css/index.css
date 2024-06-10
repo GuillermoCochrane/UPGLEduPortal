@@ -60,15 +60,19 @@ h1 {
 	text-align: center;
 	padding-inline: 45px;
 }
+
 h2 {
 	font-family: var(--conSerif);
 	font-weight: 400;
 	color: #444;
-	margin-bottom: 0.5em;
+	margin-block: 0.5em;
+	text-align: center;
 }
+
 h2 ~ h2 {
 	margin-top: 1.5rem;
 }
+
 h4,
 h3 {
 	font-weight: 400;
@@ -76,10 +80,12 @@ h3 {
 	padding-left: 1rem;
 	margin-bottom: .5rem;
 }
+
 h4{
 	font-size: 1.1rem;
 	font-style: italic;
 }
+
 p {
 	padding-left: 1rem;
 	transition: .5s .3s;
@@ -91,6 +97,7 @@ summary {
 	outline: none;
 	cursor: pointer;
 }
+
 .sumario > summary {
 	font-size: 130%;
 	font-variant: small-caps;
@@ -112,6 +119,7 @@ ol ol {
 	padding-left: 1rem;
 	font-size: .9rem;
 }
+
 li::before {
 	content: counters(numerar, '.') "";
 	counter-increment: numerar;
@@ -120,12 +128,14 @@ li::before {
 	width: 2rem;
 	text-align: right;
 }
+
 a {
   text-decoration: none;
   color: #ccc;
   font-weight: 400;
   margin-inline: auto;
 }
+
 article ul,
 article ol{
 	margin-block: 1em;
@@ -141,6 +151,7 @@ ul ul li{
 	margin-inline: 2em;
 	padding-inline: .5em;
 }
+
 figure{
 	width: 90%;
 	margin: auto;
@@ -194,9 +205,11 @@ footer{
 	justify-content: center;
 	align-items: center;
 }
+
 .error-404 a{
 	color: #000;
 }
+
 .error-404 h2{
 	font-size: 2rem;
 	font-weight: bold;
@@ -208,6 +221,24 @@ li h4{
 
 article a{
 	color: #225;
+}
+
+h2.index-title{
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	margin-inline: auto;
+	margin-block: 1em;
+}
+
+ol.topics-index{
+	max-width: fit-content;
+}
+
+hr{
+	border: none;
+	border-top: 1px solid #225;
+
 }
 
 @media (min-width: 870px){
