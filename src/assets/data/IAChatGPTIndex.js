@@ -1,6 +1,6 @@
 let classIndex = [
     {
-      summary: "Inteligencia Artificial, conceptos fundamentales",
+      summary: "Conceptos fundamentales de IA",
       classId: 1,
       links: [
         {
@@ -66,7 +66,7 @@ let classIndex = [
       ]
     },
     {
-      summary: "Origen, Evolución y versiones de ChatGPT",
+      summary: "Origen de ChatGPT y sus versiones",
       classId: 4,
       links: [
         {
@@ -116,7 +116,7 @@ let classIndex = [
       ]
     },
     {
-      summary: "Ingeniería de Prompts: Optimización y Ajuste",
+      summary: "Ingeniería de Prompts",
       classId: 7,
       links: [
         {
