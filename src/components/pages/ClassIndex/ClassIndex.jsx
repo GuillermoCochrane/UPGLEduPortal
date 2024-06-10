@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import NotFound from '../../partials/NotFound/NotFound';
 import classIndex from  "../../../assets/data/classIndex"
+import HomeData from '../../partials/HomeData/HomeData';
 
 function ClassIndex(params) {
     const  classId  = parseInt(params.match.params.classId);
@@ -21,11 +22,20 @@ function ClassIndex(params) {
     return (
         <article>
             {
+                !classId ? <HomeData /> : null
+            }
+            {
+                classId  ?
+                <h2 className='index-title'>Temas de la clase {classId}</h2> : 
+                <h2 className='index-title'>Índice de clases</h2>
+            }
+            
+            {
                 data && data.length == 0 ? <NotFound /> :
                 data.map((item, index) => (
                     <section key={index}>
                         <h2>{item.summary}</h2>
-                        <ol>
+                        <ol className='topics-index'>
                             {
                                 item.links.map((item, index) => (
                                     <li key={index}>
