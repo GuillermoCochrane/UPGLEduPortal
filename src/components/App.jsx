@@ -2,12 +2,12 @@ import { useRef } from 'react'
 import { Route , Switch, Link } from "react-router-dom";
 //import Home from "./pages/Home/Home"
 //import Class from "./pages/Class/Class"
-import NavIndex from "./partials/NavBarIndex/NavIndex"
-import index from "../assets/data/index"
+//import NavIndex from "./partials/NavBarIndex/NavIndex"
+import index from "../assets/data/IAChatGPTIndex"
 import Error404 from "./pages/Error404/Error404"
 import ClassIndex from "./pages/ClassIndex/ClassIndex"
 import Topics from './pages/Topics/Topics';
-//import NabBarIndex from "./partials/NavBarIndex/NabBarIndex"
+import NavBarIndex from "./partials/NavBarIndex/NabBarIndex"
 
 function App() {
 
@@ -28,7 +28,7 @@ function App() {
         <ol>
           {
             index.map((item, index) => (
-              <NavIndex linkData={item} key={index} />
+              <NavBarIndex data={item} key={index} />
             ))
           }
         </ol>

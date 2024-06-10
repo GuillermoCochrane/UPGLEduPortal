@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import NotFound from '../../partials/NotFound/NotFound';
-import classIndex from  "../../../assets/data/classIndex"
+import classIndex from  "../../../assets/data/IAChatGPTIndex"
 import HomeData from '../../partials/HomeData/HomeData';
 
 function ClassIndex(params) {
