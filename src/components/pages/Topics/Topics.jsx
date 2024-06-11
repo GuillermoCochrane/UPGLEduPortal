@@ -15,19 +15,27 @@ function Topics(params) {
   const topicID = parseInt(params.match.params.topicId);
   const [classData, setClassData] = useState([]);
   const [data, setData] = useState([]);
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState({});
   const [title, setTitle] = useState([]);
-  
-
 
   useEffect(() => {
     let newData = classes.filter(item => item.class === classID);
     (newData.length === 0) ?
       setClassData([]) :
       setClassData(newData[0].classData);
-      setPage(classID);
+
+      let pageData = {
+        class: classID, 
+        topic: topicID, 
+        topics: newData[0].topics,
+        classes: classes.length,
+        lastClassLastTopic: classID > 1 ? classes.filter(item => item.class === classID-1)[0].topics : 0,
+      };
+
+      setPage(pageData);
+
       newData.length > 0 ? setTitle(newData[0].title.info) : null;
-  }, [classID]);
+  }, [classID, topicID ]);
 
   useEffect(() => {
     let newData = classData.filter(item => item.topic == topicID);
@@ -35,8 +43,6 @@ function Topics(params) {
       setData([]) :
       setData(newData[0].topicData);
   }, [classData, topicID]);
-
-  
 
   return (
     <article>
@@ -55,9 +61,8 @@ function Topics(params) {
       }
       {
         data.length == 0 ? null : 
-        <NavButtons Page={page} LastPage={data.length} />
+        <NavButtons Page={page} />
       }
-      
     </article>
   );
 }
