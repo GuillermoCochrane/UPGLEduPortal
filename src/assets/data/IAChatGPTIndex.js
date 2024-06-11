@@ -120,12 +120,8 @@ let classIndex = [
       classId: 7,
       links: [
         {
-          title: "Introducción",
-          link: "/class/7/1"
-        },
-        {
           title: "Pasos para la optimización de un Prompt",
-          link: "/class/7/2"
+          link: "/class/7/1"
         }
       ]
     },
