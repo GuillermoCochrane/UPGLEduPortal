@@ -28,6 +28,7 @@ header {
 	padding: 1rem;
 	align-items: center;
 	gap: 15px;
+	width: 100%
 }
 
 main{
@@ -238,7 +239,32 @@ ol.topics-index{
 hr{
 	border: none;
 	border-top: 1px solid #225;
+}
 
+article.home{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.logo{
+	width: 20%;
+	display: block;
+	margin-block: 1em;
+}
+
+.UPGL{
+	text-align: center;
+	margin: auto;
+	font-size: 30px;
+	width: fit-content;
+}
+
+
+section h3{
+	text-align: center;
 }
 
 @media (min-width: 870px){
