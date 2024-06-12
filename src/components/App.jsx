@@ -9,7 +9,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/courses" exact component={Home} />
-        <Route path="/courses/:courseId" exact component={Courses} />
+        <Route path="/courses/:courseId"  component={Courses} />
         <Route component={Error404} />
       </Switch>
   )
