@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
-import OL from '../../partials/OL/OLTag';
-import UL from '../../partials/UL/ULTag';
-import PTag from '../../partials/P/PTag';
-import H4 from '../../partials/H4/H4Tag';
-import H3 from '../../partials/H3/H3Tag';
-import H2 from '../../partials/H2/H2Tag';
-import Figure from '../../partials/Figure/Figure';
+import OL from '../../partials/OL/OLTag.jsx';
+import UL from '../../partials/UL/ULTag.jsx';
+import PTag from '../../partials/P/PTag.jsx';
+import H4 from '../../partials/H4/H4Tag.jsx';
+import H3 from '../../partials/H3/H3Tag.jsx';
+import H2 from '../../partials/H2/H2Tag.jsx';
+import Figure from '../../partials/Figure/Figure.jsx';
 import classes from  "../../../assets/data/IAChatGPT.js";
-import NavButtons from '../../partials/Navbuttons/NavButtons';
-import NotFound from '../../partials/NotFound/NotFound';
+import NavButtons from '../../partials/Navbuttons/NavButtons.jsx';
+import NotFound from '../../partials/NotFound/NotFound.jsx';
 
 function Topics(params) {
   const classID  = parseInt(params.match.params.classId);
@@ -17,6 +17,7 @@ function Topics(params) {
   const [data, setData] = useState([]);
   const [page, setPage] = useState({});
   const [title, setTitle] = useState([]);
+  const course = params.match.path.split("/")[2];
 
   useEffect(() => {
     let newData = classes.filter(item => item.class === classID);
@@ -26,7 +27,8 @@ function Topics(params) {
 
       let pageData = {
         class: classID, 
-        topic: topicID, 
+        topic: topicID,
+        course: course,
         topics: newData[0].topics,
         classes: classes.length,
         lastClassLastTopic: classID > 1 ? classes.filter(item => item.class === classID-1)[0].topics : 0,
@@ -35,7 +37,8 @@ function Topics(params) {
       setPage(pageData);
 
       newData.length > 0 ? setTitle(newData[0].title.info) : null;
-  }, [classID, topicID ]);
+  
+  }, [classID, topicID, course ]);
 
   useEffect(() => {
     let newData = classData.filter(item => item.topic == topicID);

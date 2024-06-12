@@ -10,7 +10,6 @@ import NavBarIndex from "../../partials/NavBarIndex/NabBarIndex.jsx";
 function Courses({ match }) {
   const { courseId } = match.params;
   const navBar = useRef(null);
-
   const handleClick = () => {
     navBar.current.classList.toggle("hidden");
   }

@@ -8,10 +8,10 @@ function NavButtons({ Page }) {
                 Page.topic == 1 && Page.class == 1 ?
                     null :
                     Page.topic == 1 ?
-                    <Link to={`/class/${Page.class-1}/${Page.lastClassLastTopic}`}>
+                    <Link to={`/courses/${Page.course}/class/${Page.class-1}/${Page.lastClassLastTopic}`}>
                         <button >Clase Anterior</button>
                     </Link> :
-                        <Link to={`/class/${Page.class}/${Page.topic-1}`}>
+                        <Link to={`/courses/${Page.course}/class/${Page.class}/${Page.topic-1}`}>
                             <button >Anterior</button>
                         </Link>
             }    
@@ -19,10 +19,10 @@ function NavButtons({ Page }) {
                 Page.topic == Page.topics && Page.class == Page.classes ?
                 null :
                     Page.topic == Page.topics ?
-                    <Link to={`/class/${Page.class+1}/1`}>
+                    <Link to={`/courses/${Page.course}/class/${Page.class+1}/1`}>
                         <button >Siguiente Clase</button>
                     </Link> :
-                        <Link to={`/class/${Page.class}/${Page.topic+1}`}>
+                        <Link to={`/courses/${Page.course}/class/${Page.class}/${Page.topic+1}`}>
                             <button >Siguiente</button>
                         </Link>
             }
