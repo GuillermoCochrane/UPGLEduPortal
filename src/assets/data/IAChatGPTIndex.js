@@ -5,15 +5,15 @@ let classIndex = [
       links: [
         {
           title: "¿Qué es la inteligencia?",
-          link: "/class/1/1"
+          link: "/courses/IA/class/1/1"
         },
         {
           title: "¿Qué es la inteligencia artificial?",
-          link: "/class/1/2"
+          link: "/courses/IA/class/1/2"
         },
         {
           title: "Diferencias entre Inteligencia Artificial e Inteligencia Natural",
-          link: "/class/1/3"
+          link: "/courses/IA/class/1/3"
         }
       ]
     },

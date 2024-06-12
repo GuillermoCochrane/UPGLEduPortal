@@ -63,7 +63,7 @@ let classes = [
               },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 2,
@@ -77,11 +77,11 @@ let classes = [
           {
             type: "p",
             info: [
-                {
-                  text: "La Inteligencia Artificial se refiere a la capacidad de las máquinas para realizar tareas que normalmente requieren inteligencia humana. Esto incluye el aprendizaje, el razonamiento, la percepción, la comprensión del lenguaje natural y la toma de decisiones. En esencia, la IA busca imitar las capacidades cognitivas humanas utilizando algoritmos y datos.",
-                  content: "plain",
-                },
-              ],
+              {
+                text: "La Inteligencia Artificial se refiere a la capacidad de las máquinas para realizar tareas que normalmente requieren inteligencia humana. Esto incluye el aprendizaje, el razonamiento, la percepción, la comprensión del lenguaje natural y la toma de decisiones. En esencia, la IA busca imitar las capacidades cognitivas humanas utilizando algoritmos y datos.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ol",
@@ -112,20 +112,29 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  { text: "Procesamiento del Lenguaje Natural (NLP): ", content: "bold" },
-                  { text: "Se refiere a la capacidad de las computadoras para entender, interpretar y generar lenguaje humano de manera similar a los seres humanos.", content: "plain" },
-                ],  
+                  {
+                    text: "Procesamiento del Lenguaje Natural (NLP): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Se refiere a la capacidad de las computadoras para entender, interpretar y generar lenguaje humano de manera similar a los seres humanos.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Visión por Computadora: ", content: "bold" },
-                  { text: "Implica el desarrollo de sistemas que pueden interpretar y comprender el contenido visual, como imágenes y videos", content: "plain" },
+                  {
+                    text: "Implica el desarrollo de sistemas que pueden interpretar y comprender el contenido visual, como imágenes y videos",
+                    content: "plain",
+                  },
                 ],
-              }, 
+              },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 3,
@@ -206,8 +215,8 @@ let classes = [
               },
             ],
           },
-        ]
-      }
+        ],
+      },
     ],
   },
   {
@@ -280,7 +289,7 @@ let classes = [
               },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 2,
@@ -332,7 +341,7 @@ let classes = [
               { text: "primer invierno(crisis) de la IA.", content: "bold" },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 3,
@@ -483,7 +492,7 @@ let classes = [
               },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 4,
@@ -494,7 +503,12 @@ let classes = [
           },
           {
             type: "p",
-            info: [ { text: "Durante la década de 1990, el enfoque en el aprendizaje automático y las redes neuronales resurgió con el desarrollo de algoritmos como las máquinas de vectores de soporte (SVM) y las redes neuronales convolucionales (CNN). Estos avances sentaron las bases para una nueva ola de aplicaciones de IA en áreas como la minería de datos, la detección de fraudes y el reconocimiento de patrones. ", content: "plain" }],
+            info: [
+              {
+                text: "Durante la década de 1990, el enfoque en el aprendizaje automático y las redes neuronales resurgió con el desarrollo de algoritmos como las máquinas de vectores de soporte (SVM) y las redes neuronales convolucionales (CNN). Estos avances sentaron las bases para una nueva ola de aplicaciones de IA en áreas como la minería de datos, la detección de fraudes y el reconocimiento de patrones. ",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
@@ -505,9 +519,9 @@ let classes = [
                 text: " la historia de la IA estuvo marcada por un acontecimiento importante. La IA Deep Blue de IBM triunfó sobre el campeón mundial de ajedrez Garry Kasparov. Por primera vez, el hombre fue derrotado por la máquina",
                 content: "plain",
               },
-            ],  
+            ],
           },
-        ]
+        ],
       },
       {
         topic: 5,
@@ -526,8 +540,8 @@ let classes = [
                 content: "plain",
               },
             ],
-          }
-        ]
+          },
+        ],
       },
       {
         topic: 6,
@@ -582,13 +596,12 @@ let classes = [
           },
           {
             type: "figure",
-            info: 
-              {
-                img: "/images/timeline.png",
-                alt: "Linea de tiempo de la historia de la IA",
-              },
+            info: {
+              img: "/images/timeline.png",
+              alt: "Linea de tiempo de la historia de la IA",
+            },
           },
-        ]
+        ],
       },
       {
         topic: 7,
@@ -608,18 +621,16 @@ let classes = [
               },
             ],
           },
-        ]
+        ],
       },
-    ]
+    ],
   },
   {
     class: 3,
     topics: 2,
     title: {
       type: "h2",
-      info: [
-        { text: "Machine Learning y Redes Neuronales", content: "plain" },
-      ],
+      info: [{ text: "Machine Learning y Redes Neuronales", content: "plain" }],
     },
     classData: [
       {
@@ -726,8 +737,8 @@ let classes = [
                 ],
               },
             ],
-          }
-        ]
+          },
+        ],
       },
       {
         topic: 2,
@@ -797,13 +808,19 @@ let classes = [
                         type: "li",
                         info: [
                           { text: "Capa de entrada: ", content: "bold" },
-                          { text: "Recibe datos de entrada.", content: "plain" },
+                          {
+                            text: "Recibe datos de entrada.",
+                            content: "plain",
+                          },
                         ],
                       },
                       {
                         type: "li",
                         info: [
-                          { text: "Capas ocultas (intermedias): ", content: "bold" },
+                          {
+                            text: "Capas ocultas (intermedias): ",
+                            content: "bold",
+                          },
                           {
                             text: "Realizan cálculos complejos para procesar la información.",
                             content: "plain",
@@ -814,13 +831,16 @@ let classes = [
                         type: "li",
                         info: [
                           { text: "Capa de salida: ", content: "bold" },
-                          { text: "Produce los resultados finales.", content: "plain" },
+                          {
+                            text: "Produce los resultados finales.",
+                            content: "plain",
+                          },
                         ],
                       },
                     ],
-                  }
+                  },
                 ],
-              }
+              },
             ],
           },
           {
@@ -942,10 +962,9 @@ let classes = [
                 ],
               },
             ],
-          }
-        ]
+          },
+        ],
       },
-      
     ],
   },
   {
@@ -953,7 +972,12 @@ let classes = [
     topics: 2,
     title: {
       type: "h2",
-      info: [{ text: "ChatGPT. Origen, Evolución y Diferencia entre versiones", content: "plain" }],
+      info: [
+        {
+          text: "ChatGPT. Origen, Evolución y Diferencia entre versiones",
+          content: "plain",
+        },
+      ],
     },
     classData: [
       {
@@ -980,8 +1004,8 @@ let classes = [
                 content: "plain",
               },
             ],
-          }
-        ]
+          },
+        ],
       },
       {
         topic: 2,
@@ -996,7 +1020,10 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  { text: "GPT (Generative Pre-trained Transformer): ", content: "bold" },
+                  {
+                    text: "GPT (Generative Pre-trained Transformer): ",
+                    content: "bold",
+                  },
                   {
                     text: "Esta fue la primera versión de la serie GPT, lanzada en 2018 por OpenAI. Aunque tenía menos parámetros que las versiones posteriores, estableció las bases para el desarrollo de modelos de lenguaje generativo basados en la arquitectura Transformer.",
                     content: "plain",
@@ -1037,16 +1064,17 @@ let classes = [
                 type: "li",
                 info: [
                   { text: "ChatGPT Plus:  ", content: "bold" },
-                  {   text: "es un servicio de suscripción para ChatGPT y es propiedad de OpenAI​ La suscripción proporciona acceso al modelo GPT-4 de OpenAI. El servicio brinda a los suscriptores acceso consistente durante los períodos de uso máximo, tiempos de respuesta acelerados y acceso preferencial a nuevas funciones, incluidos GPT-4 y los próximos complementos de ChatGPT.",
+                  {
+                    text: "es un servicio de suscripción para ChatGPT y es propiedad de OpenAI​ La suscripción proporciona acceso al modelo GPT-4 de OpenAI. El servicio brinda a los suscriptores acceso consistente durante los períodos de uso máximo, tiempos de respuesta acelerados y acceso preferencial a nuevas funciones, incluidos GPT-4 y los próximos complementos de ChatGPT.",
                     content: "plain",
                   },
                 ],
               },
             ],
           },
-        ]
+        ],
       },
-    ]
+    ],
   },
   {
     class: 5,
@@ -1061,18 +1089,18 @@ let classes = [
         topicData: [
           {
             type: "h3",
-            info: [{ text: "¿Qué es un Prompt?", content: "plain" }], 
+            info: [{ text: "¿Qué es un Prompt?", content: "plain" }],
           },
           {
             type: "p",
             info: [
               {
-                text: "En el ámbito de la ingeniería de Prompt, los \"Prompts\" son instrucciones o guiones que se proporcionan a modelos de lenguaje, como GPT (Generative Pre-trained Transformer), para guiar su generación de texto en una dirección específica. Estas instrucciones pueden variar en complejidad y longitud, desde simples palabras clave hasta párrafos detallados. La eficacia de un prompt radica en su capacidad para comunicar claramente la tarea deseada al modelo de lenguaje.", 
+                text: 'En el ámbito de la ingeniería de Prompt, los "Prompts" son instrucciones o guiones que se proporcionan a modelos de lenguaje, como GPT (Generative Pre-trained Transformer), para guiar su generación de texto en una dirección específica. Estas instrucciones pueden variar en complejidad y longitud, desde simples palabras clave hasta párrafos detallados. La eficacia de un prompt radica en su capacidad para comunicar claramente la tarea deseada al modelo de lenguaje.',
                 content: "plain",
               },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 2,
@@ -1085,93 +1113,131 @@ let classes = [
             type: "ul",
             info: [
               {
-                type: "li", 
-                info: [ 
+                type: "li",
+                info: [
                   { text: "Instrucciones Claras:  ", content: "bold" },
-                  {   text: "Deben ser lo suficientemente claras para comunicar la tarea deseada al modelo de lenguaje.", content: "plain" },
+                  {
+                    text: "Deben ser lo suficientemente claras para comunicar la tarea deseada al modelo de lenguaje.",
+                    content: "plain",
+                  },
                 ],
               },
               {
-                type: "li", 
-                info: [ 
+                type: "li",
+                info: [
                   { text: "Contexto Relevante:  ", content: "bold" },
-                  {   text: "Proporcionar contexto relevante puede ayudar al modelo a comprender mejor la solicitud y generar una respuesta más precisa.", content: "plain" },
+                  {
+                    text: "Proporcionar contexto relevante puede ayudar al modelo a comprender mejor la solicitud y generar una respuesta más precisa.",
+                    content: "plain",
+                  },
                 ],
               },
               {
-                type: "li", 
-                info: [ 
+                type: "li",
+                info: [
                   { text: "Palabras Clave:  ", content: "bold" },
-                  {   text: "Incluir palabras clave relacionadas con la tarea puede orientar al modelo hacia el tipo de respuesta deseada.", content: "plain" },
+                  {
+                    text: "Incluir palabras clave relacionadas con la tarea puede orientar al modelo hacia el tipo de respuesta deseada.",
+                    content: "plain",
+                  },
                 ],
               },
               {
-                type: "li", 
-                info: [ 
+                type: "li",
+                info: [
                   { text: "Restricciones:  ", content: "bold" },
-                  {   text: "Pueden incluir restricciones específicas sobre el estilo, tono o longitud de la respuesta.", content: "plain" },
+                  {
+                    text: "Pueden incluir restricciones específicas sobre el estilo, tono o longitud de la respuesta.",
+                    content: "plain",
+                  },
                 ],
               },
               {
-                type: "li", 
-                info: [ 
+                type: "li",
+                info: [
                   { text: "Ejemplos:  ", content: "bold" },
-                  {   text: "A veces, se pueden incluir ejemplos de respuestas deseadas para ayudar al modelo a comprender mejor la tarea.", content: "plain" },
+                  {
+                    text: "A veces, se pueden incluir ejemplos de respuestas deseadas para ayudar al modelo a comprender mejor la tarea.",
+                    content: "plain",
+                  },
                 ],
               },
             ],
-          }
-        ]
+          },
+        ],
       },
       {
         topic: 3,
         topicData: [
           {
-            type: "h3", 
-            info: [{ text: "Aplicación de Prompt en tareas especificas", content: "plain" }],
-          },
-          {
-            type: "p", 
-            info: [ 
-              { text: "Los prompts se utilizan en una variedad de tareas específicas en el campo de la ingeniería de prompt. Algunos ejemplos incluyen:", content: "plain" },
+            type: "h3",
+            info: [
+              {
+                text: "Aplicación de Prompt en tareas especificas",
+                content: "plain",
+              },
             ],
           },
           {
-            type: "ul", 
-            info: [ 
+            type: "p",
+            info: [
               {
-                type: "li", 
-                info: [ 
+                text: "Los prompts se utilizan en una variedad de tareas específicas en el campo de la ingeniería de prompt. Algunos ejemplos incluyen:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
                   { text: "Generación de Texto Creativo:  ", content: "bold" },
-                  { text: "Los prompts se utilizan para guiar la generación de textos creativos, como historias, poemas o diálogos. Por ejemplo, un prompt para generar un poema podría ser: \"Escribe un poema sobre la belleza de la naturaleza\".", content: "plain" },
+                  {
+                    text: 'Los prompts se utilizan para guiar la generación de textos creativos, como historias, poemas o diálogos. Por ejemplo, un prompt para generar un poema podría ser: "Escribe un poema sobre la belleza de la naturaleza".',
+                    content: "plain",
+                  },
                 ],
               },
               {
-                type: "li", 
-                info: [ 
+                type: "li",
+                info: [
                   { text: "Traducción Automática:  ", content: "bold" },
-                  { text: "En tareas de traducción automática, los prompts se utilizan para solicitar la traducción de un texto de un idioma a otro. Por ejemplo, un prompt para traducción podría ser: \"Traduce el siguiente párrafo del inglés al español\".", content: "plain" },
+                  {
+                    text: 'En tareas de traducción automática, los prompts se utilizan para solicitar la traducción de un texto de un idioma a otro. Por ejemplo, un prompt para traducción podría ser: "Traduce el siguiente párrafo del inglés al español".',
+                    content: "plain",
+                  },
                 ],
               },
               {
-                type: "li", 
-                info: [ 
+                type: "li",
+                info: [
                   { text: "Resumen de Texto:  ", content: "bold" },
-                  { text: "Los prompts se utilizan para solicitar un resumen de un texto largo o complejo. Por ejemplo, un prompt para resumir un artículo científico podría ser: \"Resume los hallazgos principales de este estudio en no más de 100 palabras\".", content: "plain" },
+                  {
+                    text: 'Los prompts se utilizan para solicitar un resumen de un texto largo o complejo. Por ejemplo, un prompt para resumir un artículo científico podría ser: "Resume los hallazgos principales de este estudio en no más de 100 palabras".',
+                    content: "plain",
+                  },
                 ],
               },
               {
-                type: "li", 
-                info: [ 
+                type: "li",
+                info: [
                   { text: "Diálogo y Conversación:  ", content: "bold" },
-                  { text: "En tareas de generación de diálogos o conversaciones, los prompts se utilizan para establecer el contexto y los participantes de la conversación. Por ejemplo, un prompt para generar un diálogo entre un cliente y un asistente virtual podría ser: \"Simula una conversación entre un cliente que necesita ayuda con su factura y un asistente virtual de servicio al cliente\".", content: "plain" },
+                  {
+                    text: 'En tareas de generación de diálogos o conversaciones, los prompts se utilizan para establecer el contexto y los participantes de la conversación. Por ejemplo, un prompt para generar un diálogo entre un cliente y un asistente virtual podría ser: "Simula una conversación entre un cliente que necesita ayuda con su factura y un asistente virtual de servicio al cliente".',
+                    content: "plain",
+                  },
                 ],
               },
               {
-                type: "li", 
-                info: [ 
+                type: "li",
+                info: [
                   { text: "Búsqueda de Respuestas:  ", content: "bold" },
-                  { text: "Los prompts se utilizan para solicitar respuestas a preguntas específicas. Por ejemplo, un prompt para buscar información sobre un tema podría ser: \"¿Cuáles son las causas y consecuencias del cambio climático?\".", content: "plain" },
+                  {
+                    text: 'Los prompts se utilizan para solicitar respuestas a preguntas específicas. Por ejemplo, un prompt para buscar información sobre un tema podría ser: "¿Cuáles son las causas y consecuencias del cambio climático?".',
+                    content: "plain",
+                  },
                 ],
               },
             ],
@@ -1185,9 +1251,9 @@ let classes = [
               },
             ],
           },
-        ]
+        ],
       },
-    ]
+    ],
   },
   {
     class: 6,
@@ -1203,14 +1269,14 @@ let classes = [
     },
     classData: [
       {
-        topic: 1, 
+        topic: 1,
         topicData: [
           {
             type: "h3",
             info: [
               {
                 text: "Diseño Efectivo de Prompts:",
-                content: "plain", 
+                content: "plain",
               },
             ],
           },
@@ -1223,10 +1289,10 @@ let classes = [
               },
             ],
           },
-        ],  
+        ],
       },
       {
-        topic: 2, 
+        topic: 2,
         topicData: [
           {
             type: "h3",
@@ -1276,7 +1342,10 @@ let classes = [
                       {
                         type: "li",
                         info: [
-                          { text: "los requisitos específicos", content: "plain" },
+                          {
+                            text: "los requisitos específicos",
+                            content: "plain",
+                          },
                         ],
                       },
                       {
@@ -1288,7 +1357,7 @@ let classes = [
                           },
                         ],
                       },
-                    ],  
+                    ],
                   },
                   {
                     type: "p",
@@ -1297,7 +1366,7 @@ let classes = [
                         text: "Por ejemplo, si la tarea implica generar un resumen de un artículo, es importante conocer los puntos clave del artículo y la longitud deseada del resumen.",
                         content: "plain",
                       },
-                    ],    
+                    ],
                   },
                 ],
               },
@@ -1313,16 +1382,16 @@ let classes = [
                       },
                     ],
                   },
-                  { 
+                  {
                     type: "p",
                     info: [
                       {
-                        text: "Las palabras clave son elementos esenciales en un prompt, ya que ayudan a dirigir la atención del modelo hacia aspectos específicos de la tarea. Estas palabras deben ser relevantes y específicas para la tarea en cuestión. Por ejemplo, si la tarea implica escribir un poema sobre el amor, palabras clave como \"amor\", \"pasión\", \"corazón\" pueden ser incluidas en el prompt.",
+                        text: 'Las palabras clave son elementos esenciales en un prompt, ya que ayudan a dirigir la atención del modelo hacia aspectos específicos de la tarea. Estas palabras deben ser relevantes y específicas para la tarea en cuestión. Por ejemplo, si la tarea implica escribir un poema sobre el amor, palabras clave como "amor", "pasión", "corazón" pueden ser incluidas en el prompt.',
                         content: "plain",
                       },
                     ],
                   },
-                ],    
+                ],
               },
               {
                 type: "li",
@@ -1360,7 +1429,10 @@ let classes = [
                       {
                         type: "li",
                         info: [
-                          { text: "el propósito de la tarea ", content: "plain" },
+                          {
+                            text: "el propósito de la tarea ",
+                            content: "plain",
+                          },
                         ],
                       },
                       {
@@ -1372,7 +1444,7 @@ let classes = [
                           },
                         ],
                       },
-                    ],  
+                    ],
                   },
                   {
                     type: "p",
@@ -1525,12 +1597,12 @@ let classes = [
                         content: "plain",
                       },
                     ],
-                  }
-                ]
+                  },
+                ],
               },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 3,
@@ -1554,7 +1626,7 @@ let classes = [
                     text: "Prompt para Resumen de Texto: ",
                     content: "bold",
                   },
-                  { 
+                  {
                     text: "Resume los hallazgos principales de este estudio en no más de 100 palabras. El estudio analiza el impacto del cambio climático en la biodiversidad marina.",
                     content: "plain",
                   },
@@ -1570,7 +1642,7 @@ let classes = [
                   {
                     text: "Simula una conversación entre un cliente y un agente de servicio al cliente para resolver un problema de facturación. El cliente está molesto por un cargo incorrecto en su factura.",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -1580,10 +1652,10 @@ let classes = [
                     text: "Prompt para Traducción Automática: ",
                     content: "bold",
                   },
-                  { 
+                  {
                     text: "Traduce el siguiente párrafo del español al inglés. El texto trata sobre las nuevas tecnologías en el campo de la medicina.",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -1596,21 +1668,26 @@ let classes = [
                   {
                     text: "Escribe un poema sobre la belleza de la naturaleza. Incluye imágenes de árboles, flores y ríos.",
                     content: "plain",
-                  }
+                  },
                 ],
               },
             ],
           },
         ],
-      }
-    ]
+      },
+    ],
   },
   {
     class: 7,
     topics: 1,
     title: {
       type: "h2",
-      info: [{ text: "Optimización y Ajuste de Prompts en Ingeniería de Prompt", content: "plain" }],
+      info: [
+        {
+          text: "Optimización y Ajuste de Prompts en Ingeniería de Prompt",
+          content: "plain",
+        },
+      ],
     },
     classData: [
       {
@@ -1627,7 +1704,12 @@ let classes = [
           },
           {
             type: "h3",
-            info: [{ text: "Pasos para la optimización de un Prompt", content: "plain" }],
+            info: [
+              {
+                text: "Pasos para la optimización de un Prompt",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -1647,7 +1729,7 @@ let classes = [
                 info: [
                   { text: "Refinamiento de Palabras Clave: ", content: "bold" },
                   {
-                    text: "Una técnica efectiva para mejorar un prompt es refinar las palabras clave utilizadas para guiar al modelo. Esto implica seleccionar términos más específicos y relevantes para la tarea en cuestión, lo que ayuda al modelo a generar respuestas más precisas y centradas. Por ejemplo, en lugar de usar \"inteligencia artificial\", se puede refinar a \"aplicaciones de inteligencia artificial en la atención médica\".",
+                    text: 'Una técnica efectiva para mejorar un prompt es refinar las palabras clave utilizadas para guiar al modelo. Esto implica seleccionar términos más específicos y relevantes para la tarea en cuestión, lo que ayuda al modelo a generar respuestas más precisas y centradas. Por ejemplo, en lugar de usar "inteligencia artificial", se puede refinar a "aplicaciones de inteligencia artificial en la atención médica".',
                     content: "plain",
                   },
                 ],
@@ -1656,7 +1738,10 @@ let classes = [
                 type: "li",
                 info: [
                   { text: "Incorporación de Ejemplos: ", content: "bold" },
-                  { text: "Incluir ejemplos concretos en el prompt puede ayudar al modelo a comprender mejor la tarea y generar respuestas más precisas. Estos ejemplos pueden proporcionar contextos específicos y guiar al modelo hacia el tipo de respuesta deseada. Por ejemplo, en un prompt para generar un resumen, se pueden incluir ejemplos de resúmenes bien estructurados para ilustrar el formato y contenido esperados.", content: "plain" },
+                  {
+                    text: "Incluir ejemplos concretos en el prompt puede ayudar al modelo a comprender mejor la tarea y generar respuestas más precisas. Estos ejemplos pueden proporcionar contextos específicos y guiar al modelo hacia el tipo de respuesta deseada. Por ejemplo, en un prompt para generar un resumen, se pueden incluir ejemplos de resúmenes bien estructurados para ilustrar el formato y contenido esperados.",
+                    content: "plain",
+                  },
                 ],
               },
               {
@@ -1672,7 +1757,10 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  { text: "Convierte tareas complejas en subtareas más simples:", content: "bold" },
+                  {
+                    text: "Convierte tareas complejas en subtareas más simples:",
+                    content: "bold",
+                  },
                   {
                     text: "Para tareas en las que se requieren múltiples conjuntos de instrucciones independientes para manejar diferentes casos, puede ser beneficioso comenzar clasificando el tipo de consulta y utilizar esa clasificación para determinar qué instrucciones se necesitan. Por ejemplo, si vas a hacer el lanzamiento de un producto, es mejor pedirle al ChatGPT que te enumere las tareas y después trabajar sobre ellas.",
                     content: "plain",
@@ -1692,9 +1780,9 @@ let classes = [
           },
         ],
       },
-    ]
+    ],
   },
-  { 
+  {
     class: 8,
     topics: 2,
     title: {
@@ -1702,12 +1790,14 @@ let classes = [
       info: [{ text: "Formatos de salida", content: "plain" }],
     },
     classData: [
-      { 
-        topic: 1, 
+      {
+        topic: 1,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "Introducción a formatos de salida", content: "plain" }],
+            info: [
+              { text: "Introducción a formatos de salida", content: "plain" },
+            ],
           },
           {
             type: "p",
@@ -1750,8 +1840,8 @@ let classes = [
                     type: "h4",
                     info: [
                       {
-                        text: "HTML: ", 
-                        content: "plain"
+                        text: "HTML: ",
+                        content: "plain",
                       },
                     ],
                   },
@@ -1768,7 +1858,7 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  {type: "h4", info: [{text: "JSON: ", content: "plain"}]},
+                  { type: "h4", info: [{ text: "JSON: ", content: "plain" }] },
                   {
                     text: "Ejemplo: ",
                     content: "bold",
@@ -1782,7 +1872,10 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  {type: "h4", info: [{text: "Markdown: ", content: "plain"}]},
+                  {
+                    type: "h4",
+                    info: [{ text: "Markdown: ", content: "plain" }],
+                  },
                   {
                     text: "Ejemplo: ",
                     content: "bold",
@@ -1796,7 +1889,7 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  {type: "h4", info: [{text: "XML: ", content: "plain"}]},
+                  { type: "h4", info: [{ text: "XML: ", content: "plain" }] },
                   {
                     text: "Ejemplo: ",
                     content: "bold",
@@ -1810,7 +1903,7 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  {type: "h4", info: [{text: "CSV: ", content: "plain"}]},
+                  { type: "h4", info: [{ text: "CSV: ", content: "plain" }] },
                   {
                     text: "Ejemplo: ",
                     content: "bold",
@@ -1832,10 +1925,10 @@ let classes = [
               },
             ],
           },
-        ]
+        ],
       },
       {
-        topic: 2, 
+        topic: 2,
         topicData: [
           {
             type: "h3",
@@ -1859,16 +1952,21 @@ let classes = [
               },
             ],
           },
-        ]
+        ],
       },
-    ]
+    ],
   },
   {
     class: 9,
     topics: 1,
     title: {
       type: "h2",
-      info: [{ text: "Estrategias para mantener conversaciones con ChatGPT", content: "plain" }],
+      info: [
+        {
+          text: "Estrategias para mantener conversaciones con ChatGPT",
+          content: "plain",
+        },
+      ],
     },
     classData: [
       {
@@ -1890,7 +1988,10 @@ let classes = [
                 text: "Una estrategia clave para mantener conversaciones iterativas es ",
                 content: "plain",
               },
-              { text: "contextualizar adecuadamente la conversación en curso.", content: "bold" },
+              {
+                text: "contextualizar adecuadamente la conversación en curso.",
+                content: "bold",
+              },
               {
                 text: " Esto implica recordar y utilizar el contexto proporcionado por el usuario en interacciones anteriores para generar respuestas coherentes y relevantes. Por ejemplo, si un usuario está discutiendo sobre películas y menciona su película favorita, el modelo debe recordar esta información y utilizarla en respuestas posteriores para mantener la coherencia en la conversación.",
                 content: "plain",
@@ -1904,7 +2005,10 @@ let classes = [
                 text: "Los tokens de control son una técnica efectiva para guiar la generación de texto del modelo en una dirección específica durante una conversación iterativa. Estos tokens se utilizan para indicar al modelo el estado actual de la conversación y proporcionar instrucciones adicionales sobre cómo generar la siguiente respuesta. Por ejemplo, ",
                 content: "plain",
               },
-              { text: "un token de control podría indicar al modelo que responda con una pregunta para continuar la conversación", content: "bold" },
+              {
+                text: "un token de control podría indicar al modelo que responda con una pregunta para continuar la conversación",
+                content: "bold",
+              },
               {
                 text: " o que genere una respuesta basada en un tema específico.",
                 content: "plain",
@@ -1919,13 +2023,14 @@ let classes = [
                 content: "bold",
               },
               {
-                text: "juega un papel fundamental en la mejora de la calidad de la conversación iterativa. Al proporcionar retroalimentación sobre la relevancia, coherencia y fluidez de las respuestas del modelo, los usuarios pueden guiar el comportamiento del modelo y ayudar a optimizar la interacción. Además, la retroalimentación también puede utilizarse para corregir errores o malentendidos en la conversación y mejorar la comprensión del modelo sobre las preferencias y necesidades del usuario.", 
+                text: "juega un papel fundamental en la mejora de la calidad de la conversación iterativa. Al proporcionar retroalimentación sobre la relevancia, coherencia y fluidez de las respuestas del modelo, los usuarios pueden guiar el comportamiento del modelo y ayudar a optimizar la interacción. Además, la retroalimentación también puede utilizarse para corregir errores o malentendidos en la conversación y mejorar la comprensión del modelo sobre las preferencias y necesidades del usuario.",
                 content: "plain",
               },
             ],
-          }],
+          },
+        ],
       },
-    ]
+    ],
   },
   {
     class: 10,
@@ -1936,11 +2041,16 @@ let classes = [
     },
     classData: [
       {
-        topic: 1, 
+        topic: 1,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "Buenas situaciones donde se puede utilizar ChatGPT:", content: "plain" }],
+            info: [
+              {
+                text: "Buenas situaciones donde se puede utilizar ChatGPT:",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -1999,7 +2109,12 @@ let classes = [
         topicData: [
           {
             type: "h3",
-            info: [{ text: "Malas situaciones donde utilizar ChatGPT:", content: "plain" }],
+            info: [
+              {
+                text: "Malas situaciones donde utilizar ChatGPT:",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -2044,8 +2159,8 @@ let classes = [
           },
         ],
       },
-    ]
-  }
+    ],
+  },
 ];
 
 export default classes;
