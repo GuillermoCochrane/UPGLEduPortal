@@ -8,11 +8,11 @@ let classIndex = [
           link: "/courses/Python/class/1/1"
         },
         {
-          title: "¿QUE ES UN PROGRAMADOR?",
+          title: "¿Que es un programador?",
           link: "/courses/Python/class/1/2"
         },
         {
-          title: "¿QUE ES UN ALGORITMO?",
+          title: "¿Que es un algoritmo?",
           link: "/courses/Python/class/1/3"
         },
         {

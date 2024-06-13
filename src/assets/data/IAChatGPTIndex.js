@@ -5,14 +5,17 @@ let classIndex = [
       links: [
         {
           title: "¿Qué es la inteligencia?",
+          topicId: 1,
           link: "/courses/IA/class/1/1"
         },
         {
           title: "¿Qué es la inteligencia artificial?",
+          topicId: 2,
           link: "/courses/IA/class/1/2"
         },
         {
           title: "Diferencias entre Inteligencia Artificial e Inteligencia Natural",
+          topicId: 3,
           link: "/courses/IA/class/1/3"
         }
       ]
@@ -23,31 +26,38 @@ let classIndex = [
       links: [
         {
           title: "Década de 1950",
-          link: "/class/2/1"
+          topicId: 1,
+          link: "/courses/IA/class/2/1"
         },
         {
           title: "Década de 1960-1970",
-          link: "/class/2/2"
+          topicId: 2,
+          link: "/courses/IA/class/2/2"
         },
         {
           title: "Década de 1980",
-          link: "/class/2/3"
+          topicId: 3,
+          link: "/courses/IA/class/2/3"
         },
         {
           title: "Década de 1990",
-          link: "/class/2/4"
+          topicId: 4,
+          link: "/courses/IA/class/2/4"
         },
         {
           title: "Década de 2000",
-          link: "/class/2/5"
+          topicId: 5,
+          link: "/courses/IA/class/2/5"
         },
         {
           title: "Década de 2010",
-          link: "/class/2/6"
+          topicId: 6,
+          link: "/courses/IA/class/2/6"
         },
         {
           title: "Actualidad",
-          link: "/class/2/7"
+          topicId: 7,
+          link: "/courses/IA/class/2/7"
         }
       ]   
     },
@@ -57,11 +67,13 @@ let classIndex = [
       links: [
         {
           title: "¿Qué es y cómo funciona el Machine Learning?",
-          link: "/class/3/1"
+          topicId: 1,
+          link: "/courses/IA/class/3/1"
         },
         {
           title: "¿Qué son y cómo funcionan las Redes Neuronales?",
-          link: "/class/3/2"
+          topicId: 2,
+          link: "/courses/IA/class/3/2"
         }
       ]
     },
@@ -71,11 +83,13 @@ let classIndex = [
       links: [
         {
           title: "Origen",
-          link: "/class/4/1"
+          topicId: 1,
+          link: "/courses/IA/class/4/1"
         },
         {
           title: "Todas sus versiones",
-          link: "/class/4/2"
+          topicId: 2,
+          link: "/courses/IA/class/4/2"
         }
       ]
     },
@@ -85,15 +99,18 @@ let classIndex = [
       links: [
         {
           title: "¿Qué es un Prompt?",
-          link: "/class/5/1"
+          topicId: 1,
+          link: "/courses/IA/class/5/1"
         },
         {
           title: "Componentes de un Prompt",
-          link: "/class/5/2"
+          topicId: 2,
+          link: "/courses/IA/class/5/2"
         },
         {
           title: "Aplicación de Prompt en tareas especificas",
-          link: "/class/5/3"
+          topicId: 3,
+          link: "/courses/IA/class/5/3"
         }
       ]
     },
@@ -103,15 +120,18 @@ let classIndex = [
       links: [
         {
           title: "Diseño",
-          link: "/class/6/1"
+          topicId: 1,
+          link: "/courses/IA/class/6/1"
         },
         {
           title: "¿Cómo dar instrucciones claras y precisas?",
-          link: "/class/6/2"
+          topicId: 2,
+          link: "/courses/IA/class/6/2"
         },
         {
           title: "Ejemplos y mejores practicas",
-          link: "/class/6/3"
+          topicId: 3,
+          link: "/courses/IA/class/6/3"
         }
       ]
     },
@@ -121,7 +141,8 @@ let classIndex = [
       links: [
         {
           title: "Pasos para la optimización de un Prompt",
-          link: "/class/7/1"
+          topicId: 1,
+          link: "/courses/IA/class/7/1"
         }
       ]
     },
@@ -131,11 +152,13 @@ let classIndex = [
       links: [
         {
           title: "Formatos de salida",
-          link: "/class/8/1"
+          topicId: 1,
+          link: "/courses/IA/class/8/1"
         },
         {
           title: "Evaluación de Prompts",
-          link: "/class/8/2"
+          topicId: 2,
+          link: "/courses/IA/class/8/2"
         }
       ]
     },
@@ -145,7 +168,8 @@ let classIndex = [
       links: [
         {
           title: "Estrategias para mantener conversaciones con ChatGPT",
-          link: "/class/9/1"
+          topicId: 1,
+          link: "/courses/IA/class/9/1"
         }
       ]
     },
@@ -155,7 +179,8 @@ let classIndex = [
       links: [
         {
           title: "¿En qué casos usar ChatGPT?",
-          link: "/class/10/1"
+          topicId: 1,
+          link: "/courses/IA/class/10/1"
         }
       ]
     }   
