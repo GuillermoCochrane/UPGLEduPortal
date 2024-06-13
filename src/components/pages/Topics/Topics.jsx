@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import OL from '../../partials/OL/OLTag.jsx';
 import UL from '../../partials/UL/ULTag.jsx';
@@ -6,18 +7,29 @@ import H4 from '../../partials/H4/H4Tag.jsx';
 import H3 from '../../partials/H3/H3Tag.jsx';
 import H2 from '../../partials/H2/H2Tag.jsx';
 import Figure from '../../partials/Figure/Figure.jsx';
-import classes from  "../../../assets/data/IAChatGPT.js";
+import classesIA from  "../../../assets/data/IAChatGPT.js";
+import classesPython from  "../../../assets/data/Python.js";
 import NavButtons from '../../partials/Navbuttons/NavButtons.jsx';
 import NotFound from '../../partials/NotFound/NotFound.jsx';
 
 function Topics(params) {
-  const classID  = parseInt(params.match.params.classId);
-  const topicID = parseInt(params.match.params.topicId);
   const [classData, setClassData] = useState([]);
   const [data, setData] = useState([]);
   const [page, setPage] = useState({});
   const [title, setTitle] = useState([]);
   const course = params.match.path.split("/")[2];
+  const classID  = parseInt(params.match.params.classId);
+  const topicID = parseInt(params.match.params.topicId);
+  
+  let classes = [];
+
+  if (course.toUpperCase() == "IA") {
+    classes = classesIA;
+  } 
+
+  if (course.toUpperCase() == "PYTHON") {
+    classes = classesPython;
+  }
 
   useEffect(() => {
     let newData = classes.filter(item => item.class === classID);
@@ -38,7 +50,7 @@ function Topics(params) {
 
       newData.length > 0 ? setTitle(newData[0].title.info) : null;
   
-  }, [classID, topicID, course ]);
+  }, [classID, topicID ]);
 
   useEffect(() => {
     let newData = classData.filter(item => item.topic == topicID);
