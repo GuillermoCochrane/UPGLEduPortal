@@ -267,6 +267,11 @@ section h3{
 	text-align: center;
 }
 
+.current{
+	color: goldenrod;
+	font-weight: bold;
+}
+
 @media (min-width: 870px){
 	body{
 		overflow: hidden;
