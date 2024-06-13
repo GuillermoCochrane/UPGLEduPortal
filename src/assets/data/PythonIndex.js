@@ -5,20 +5,29 @@ let classIndex = [
       links: [
         {
           title: "¿Qué es la programación?",
+          topicId: 1,
           link: "/courses/Python/class/1/1"
         },
         {
           title: "¿Que es un programador?",
+          topicId: 2,
           link: "/courses/Python/class/1/2"
         },
         {
           title: "¿Que es un algoritmo?",
+          topicId: 3,
           link: "/courses/Python/class/1/3"
         },
         {
           title: "¿Qué es la lógica?",
+          topicId: 4,
           link: "/courses/Python/class/1/4"
-        }
+        },
+        {
+          title: "Instalaciones necesarias",
+          topicId: 5,
+          link: "/courses/Python/class/1/5"
+        },
       ]
     }
   ]
