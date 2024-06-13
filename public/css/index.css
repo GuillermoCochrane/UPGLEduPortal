@@ -167,6 +167,12 @@ figure img{
 	margin: auto;
 }
 
+a[role="button"]{
+	display: inline-block;
+	line-height: 41px;
+}
+
+a[role="button"],
 button{
 	background-color: #225;
 	color: white;
