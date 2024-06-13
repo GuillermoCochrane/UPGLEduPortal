@@ -4,7 +4,7 @@ import { Route, Switch, Link } from "react-router-dom";
 import indexIA from  "../../../assets/data/IAChatGPTIndex.js";
 import indexPython from  "../../../assets/data/PythonIndex.js";
 import Error404 from "../Error404/Error404.jsx";
-import ClassIndex from "../ClassIndex/ClassIndex.jsx";
+import ClassIndex from "../ClassIndex/ClassIndex.jsx"; //modiicarlo para que cargue de acuerdo a la url
 import Topics from '../Topics/Topics';
 import NavBarIndex from "../../partials/NavBarIndex/NabBarIndex.jsx";
 

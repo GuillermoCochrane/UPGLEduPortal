@@ -34,7 +34,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "😮 ¿Qué se puede hacer con la programación? 😮",
+                text: "¿Qué se puede hacer con la programación?",
                 content: "plain",
               },
             ],
@@ -45,7 +45,7 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  { text: "Crear software: ", content: "plain" },
+                  { text: "Crear software: ", content: "bold" },
                   {
                     text: "Desde aplicaciones móviles hasta sistemas operativos, la programación es la base de todo software.",
                     content: "plain",
@@ -57,7 +57,7 @@ let classes = [
                 info: [
                   {
                     text: " Desarrollar sitios web y aplicaciones web: ",
-                    content: "plain",
+                    content: "bold",
                   },
                   {
                     text: "La programación permite crear sitios web interactivos y dinámicos.",
@@ -68,7 +68,7 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  { text: " Desarrollar videojuegos: ", content: "plain" },
+                  { text: " Desarrollar videojuegos: ", content: "bold" },
                   {
                     text: "La programación es el corazón de la industria de los videojuegos.",
                     content: "plain",
@@ -78,7 +78,7 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  { text: " Analizar datos: ", content: "plain" },
+                  { text: " Analizar datos: ", content: "bold" },
                   {
                     text: "La programación se puede usar para analizar grandes cantidades de datos y obtener información útil.",
                     content: "plain",
@@ -88,7 +88,7 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  { text: " Automatizar tareas: ", content: "plain" },
+                  { text: " Automatizar tareas: ", content: "bold" },
                   {
                     text: "La programación se puede usar para automatizar tareas repetitivas y tediosas.",
                     content: "plain",
@@ -110,7 +110,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "😗 ¿Qué se necesita para programar?: 😗",
+                text: "¿Qué se necesita para programar?: ",
                 content: "plain",
               },
             ],
@@ -128,7 +128,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "🤔 ¿Es difícil aprender a programar?: 🤔",
+                text: "¿Es difícil aprender a programar?:",
                 content: "plain",
               },
             ],
@@ -146,7 +146,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "🤯 ¿Por qué es importante aprender a programar?: 🤯",
+                text: "¿Por qué es importante aprender a programar?: ",
                 content: "plain",
               },
             ],
@@ -216,7 +216,7 @@ let classes = [
           },
           {
             type: "h3",
-            info: [{ text: "🚀 Tipos de programadores: 🚀", content: "plain" }],
+            info: [{ text: "🚀 Tipos de programadores: ", content: "plain" }],
           },
           {
             type: "h4",
@@ -642,7 +642,7 @@ let classes = [
         topicData: [
           {
             type: "h3",
-            info: [{ text: "🤔 ¿Qué es la lógica? 🤔", content: "plain" }],
+            info: [{ text: "¿Qué es la lógica? ", content: "plain" }],
           },
           {
             type: "p",
@@ -657,7 +657,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "🤔 ¿Por qué se aplica la lógica en la programación? 🤔",
+                text: "¿Por qué se aplica la lógica en la programación?",
                 content: "plain",
               },
             ],
@@ -704,7 +704,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "🤔 ¿Cómo se aplica la lógica en la programación? 🤔",
+                text: "¿Cómo se aplica la lógica en la programación?",
                 content: "plain",
               },
             ],
@@ -757,7 +757,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "🧠 Ejemplos de lógica en la programación: 🧠",
+                text: "🧠 Ejemplos de lógica en la programación: ",
                 content: "plain",
               },
             ],

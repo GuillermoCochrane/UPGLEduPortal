@@ -1,12 +1,24 @@
 import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import NotFound from '../../partials/NotFound/NotFound';
-import classIndex from  "../../../assets/data/IAChatGPTIndex"
+import classIndexIA from  "../../../assets/data/IAChatGPTIndex"
+import classIndexPython from  "../../../assets/data/PythonIndex"
 import HomeData from '../../partials/HomeData/HomeData';
 
 function ClassIndex(params) {
     const  classId  = parseInt(params.match.params.classId);
     const [data, setData] = useState([]);
+    const course = params.match.path.split("/")[2];
+
+    let classIndex= [];
+
+    if (course.toUpperCase() == "IA") {
+        classIndex = classIndexIA;
+    } 
+
+    if (course.toUpperCase() == "PYTHON") {
+        classIndex = classIndexPython;
+    }
     
     useEffect(() => {
         if (classId){
@@ -17,6 +29,7 @@ function ClassIndex(params) {
         } else {
             setData(classIndex);
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [classId]);
 
     return (
@@ -31,7 +44,7 @@ function ClassIndex(params) {
             }
             
             {
-                data && data.length == 0 ? <NotFound /> :
+                data && data.length == 0 ? <NotFound course={course} /> :
                 data.map((item, index) => (
                     <section key={index}>
                         <h2>{item.summary}</h2>
