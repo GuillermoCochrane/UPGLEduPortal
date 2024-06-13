@@ -18,7 +18,7 @@ function NabBarIndex({data}) {
               <ol>
                 {
                   data.links.map((linkData,index) => 
-                    <NavIndex key={index} linkData={linkData}/>) 
+                    <NavIndex key={index} linkData={linkData} classID={data.classId} />) 
                 }
               </ol>
             </details>
