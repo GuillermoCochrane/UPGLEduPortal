@@ -1,7 +1,8 @@
 import  { useRef } from 'react';
 import PropTypes from 'prop-types';
 import { Route, Switch, Link } from "react-router-dom";
-import index from  "../../../assets/data/IAChatGPTIndex.js";
+import indexIA from  "../../../assets/data/IAChatGPTIndex.js";
+import indexPython from  "../../../assets/data/PythonIndex.js";
 import Error404 from "../Error404/Error404.jsx";
 import ClassIndex from "../ClassIndex/ClassIndex.jsx";
 import Topics from '../Topics/Topics';
@@ -14,6 +15,14 @@ function Courses({ match }) {
     navBar.current.classList.toggle("hidden");
   }
 
+  let index = [] ;
+  if (courseId.toUpperCase() == "IA") {
+    index = indexIA;
+  } 
+  if (courseId.toUpperCase() == "PYTHON") {
+    index = indexPython;
+  }
+  
   return (
     <>
       <header>
