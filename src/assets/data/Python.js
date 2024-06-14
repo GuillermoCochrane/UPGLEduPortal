@@ -979,6 +979,490 @@ let classes = [
       },
     ],
   },
+  {
+    class: 2,
+    topics: 4,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Introducción a Python",
+          content: "plain"
+        }
+      ]
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "🐍 ¿Que es Python? 🐍",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Python es un lenguaje de programación de código abierto, creado por Guido van Rossum en 1991. Se trata de un lenguaje orientado a objetos, fácil de interpretar y con una sintaxis que permite leerlo de manera semejante a como se lee el inglés. Es un lenguaje interpretado, esto significa que el código de programación se convierte en bytecode",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Pero... ¿QUE ES EL BYTECODE?",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "El bytecode es un código intermedio entre el código fuente legible por humanos 🧙‍♂️ y el código máquina que las computadoras 💻 entienden directamente: ",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { 
+                    text: "Código fuente: ",
+                    content: "bold"
+                  },
+                  {
+                    text: "Este es el código que escribimos en un lenguaje de programación como Python, Java, PHP, Javascript o C++. Es fácil de entender para los humanos, pero no para las computadoras.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { 
+                    text: "Bytecode:  ",
+                    content: "bold"
+                  },
+                  {
+                    text: "Cuando compilas tu código fuente, se traduce a bytecode. El bytecode es un conjunto de instrucciones en un lenguaje simplificado que un programa de software llamado máquina virtual puede interpretar. Es más compacto que el código fuente y está diseñado para una ejecución eficiente por el intérprete (sistema operativo).",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                tyoe: "li",
+                info: [
+                  {
+                      text: "Codigo máquina: ",
+                      content: "bold"
+                  },
+                  {
+                    text: "Este es el lenguaje de más bajo nivel, formado por unos y ceros, que el procesador de la computadora puede entender directamente. Cada instrucción del código máquina corresponde a una operación específica del hardware.",
+                    content: "plain"
+                  }
+                ]
+              },
+            ]
+          },
+          {
+            tyoe: "p",
+            info: [
+              {
+                text: "El bytecode también se conoce como código portable o P-Code.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "¿Para que sirve?",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "La respuesta es breve: para todo.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Python está en todo, desde programación de instrumentos hasta software de computadoras,desarrollo web y aplicaciones móviles. Incluso, te permite hacer comentarios para que tengas recordatorios para funciones futuras o indicar problemas en una línea de código. Python es genial para casi cualquier necesidad de desarrollo, ya sea programación de servidores, operación de sistemas, software, juegos y mucho más. A continuación, repasamos los usos más comunes:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Scripting y automatización",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Python se utiliza para scripting (secuencias de comandos) y automatización en muchas industrias, desde máquinas de programación en grandes fábricas hasta usos de ocio, como videojuegos. Las maneras en que el scripting y la automatización benefician a las industrias son innumerables, al igual que la variedad de industrias en las que se utiliza.",
+                    content: "plain"
+                  }
+                ]
+              },
+            ]
+          },
+        ]
+      },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "💻 Desarrollo de software 💻",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Python se implementa en el desarrollo de software desde que se lanzó y continúa siendo muy popular para ese propósito.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Se utiliza para crear software en diferentes plataformas porque es compatible con muchos ámbitos de operación",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Sistemas operativos para computadoras y dispositivos móviles y en entornos de sistema en tiempo de ejecución.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Análisis de datos: ",
+                    content: "bold"
+                  },
+                  {
+                    text: "Python es adecuado para el análisis de datos porque funciona bien al crear representaciones visuales efectivas de bloques de datos complejos y al examinar datos. Estos dos aspectos de sus capacidades lo convierten en una herramienta básica en la industria de la ciencia de datos.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Machine learning e Inteligencia Artificial: ",
+                    content: "bold"
+                  },
+                  {
+                    text: "Los proyectos de machine learning (aprendizaje automático) se basan en la Inteligencia Artificial, que utiliza algoritmos para analizar datos, aprender y tomar mejores decisiones. Por lo que Python se utiliza ampliamente en este sector ya que tiene la potencia y la escalabilidad para manejar cantidades masivas de solicitudes de datos simultáneamente.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ciencias de blockchain: ",
+                    content: "bold"
+                  },
+                  {
+                    text: "Esta industria se ha convertido, recientemente, en un usuario importante del lenguaje Python, que ha manejado desde siempre ciencias de blockchain.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "¿Qué es blockchain?: ",
+                    content: "bold"
+                  },
+                  {
+                    text: "Blockchain, o cadena de bloques,es una base de datos compartida o distribuida que almacena datos de cualquier tipo. La información registrada está almacenada en bloques, ligados entre sí criptográficamente y validada de una forma descentralizada a través de un protocolo común. El surgimiento y crecimiento continuo alrededor de tecnologías —como las criptomonedas y NFT— lo han encumbrado dentro de la industria. Su habilidad para manejar todos los aspectos de la tecnología blockchain lo convierte en un elemento primordial.",
+                    content: "plain"
+                  },
+                  {
+                    text: "",
+                    content: "plain"
+                  }
+                ]
+              },
+            ]
+          },
+        ]
+      },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "¿Que veremos en el curso?",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Instalacion de Python: ",
+                    content: "bold"
+                  },
+                  {
+                    text: "Para verificar la instalación, abrir una terminal o ventana de comandos y escribe python --version. Si la instalación fue correcta, debería mostrar la versión de Python que instalaste.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Instalacion de Visual Studio Code: ",
+                    content: "bold"
+                  },
+                  {
+                    text: "Una vez que tengamos Python instalado, podemos instalar Visual Studio Code (VS Code). VS Code es un editor de código de código abierto muy popular y fácil de usar. Puedes descargarlo desde el sitio oficial: ",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Instalacion de extensiones de VS Code: ",
+                    content: "bold"
+                  },
+                  {
+                    text: "Una vez que tengamos VS Code instalado, podemos instalar extensiones adicionales para mejorar nuestra experiencia de programación. Algunas extensiones recomendadas para principiantes son:",
+                    content: "plain"
+                  },
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Python by Microsoft: ", content: "bold" },
+                          {
+                            text: "Esta extensión oficial de Microsoft proporciona soporte completo para el lenguaje Python, incluyendo IntelliSense, linting, depuración, formateo de código, refactoring, explorador de variables y mucho más. Es una extensión imprescindible para cualquier desarrollador de Python.",
+                            content: "plain"
+                          }
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Pylance: ", content: "bold" },
+                          {
+                            text: "Esta extensión de Microsoft ofrece análisis de código estático avanzado para Python, utilizando el motor de análisis de código pylint. Te ayuda a detectar errores y problemas en tu código antes de ejecutarlo.",
+                            content: "plain"
+                          }
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Code Runner: ", content: "bold" },
+                          {
+                            text: "Esta extensión te permite ejecutar código Python directamente desde el editor de Visual Studio Code, sin necesidad de abrir una terminal o consola separada. Es muy útil para probar y depurar pequeños fragmentos de código rápidamente.",
+                            content: "plain"
+                          }
+                        ],
+                      },
+                    ],
+                  },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Extensiones para mejorar la productividad: ",
+                    content: "bold"
+                  },
+                  {
+                    type: "ul",
+                    info: [ 
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Better Comments: ", content: "bold" },
+                          {
+                            text: "Esta extensión te ayuda a escribir comentarios más claros y descriptivos en tu código Python. Ofrece diferentes plantillas de comentarios, resaltado de sintaxis y otras funciones útiles.",
+                            content: "plain"
+                          }
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "ESLint: ", content: "bold" },
+                          {
+                            text: "Esta extensión integra el popular linter ESLint en Visual Studio Code, lo que te permite analizar tu código JavaScript y Python en busca de errores y problemas de estilo.",
+                            content: "plain"
+                          }
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Python snippets: ", content: "bold" },
+                          {
+                            text: "Esta extensión te proporciona una gran colección de fragmentos de código predefinidos para Python, que puedes insertar rápidamente en tu código con solo unas pocas pulsaciones de teclas. Te ahorra tiempo y te ayuda a escribir código más eficiente.",
+                            content: "plain"
+                          }
+                        ],
+                      },
+                    ],
+                  }
+                ],
+              },
+            ]
+          }
+        ]
+      },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Primer programa 👶: ",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: ' print ("Hola Mundo") (cadena de string) y ejecucion de programa',
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: '"Hola Mundo"',
+                content: "plain"
+              }
+            ] 
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "el texto va entre comillas, podriamos escribir:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'print("Hola", "mundo", "!")',
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Saludar con python",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Escribir un programa que muestre por pantalla la cadena ¡Hola Mundo! mi nombre es (su nombre) u este es mi primer programa!!!!🚀. ",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'print ("Este es mi super saludo 🖐🏻 con python 🐍")',
+                content: "plain"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ];
 
 export default classes;
