@@ -29,7 +29,33 @@ let classIndex = [
           link: "/courses/Python/class/1/5"
         },
       ]
-    }
+    },
+    {
+      summary: "Introduccion a Python",
+      classId: 2,
+      links: [
+        {
+          title: "¿Que es Python? ",
+          topicId: 1,
+          link: "/courses/Python/class/2/1"
+        },
+        {
+          title: "Desarrollo de software",
+          topicId: 2,
+          link: "/courses/Python/class/2/2"
+        },
+        {
+          title: "¿Que veremos en el curso?",
+          topicId: 3,
+          link: "/courses/Python/class/2/3"
+        },
+        {
+          title: "Primer programa: ",
+          topicId: 4,
+          link: "/courses/Python/class/2/4"
+        }
+      ]
+    },
   ]
 
 export default  classIndex
