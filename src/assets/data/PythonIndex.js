@@ -45,12 +45,12 @@ let classIndex = [
           link: "/courses/Python/class/2/2"
         },
         {
-          title: "¿Que veremos en el curso?",
+          title: "Instalaciones necesarias",
           topicId: 3,
           link: "/courses/Python/class/2/3"
         },
         {
-          title: "Primer programa: ",
+          title: "Primer programa",
           topicId: 4,
           link: "/courses/Python/class/2/4"
         }

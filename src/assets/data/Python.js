@@ -1309,7 +1309,14 @@ let classes = [
                           {
                             text: "Esta extensión oficial de Microsoft proporciona soporte completo para el lenguaje Python, incluyendo IntelliSense, linting, depuración, formateo de código, refactoring, explorador de variables y mucho más. Es una extensión imprescindible para cualquier desarrollador de Python.",
                             content: "plain"
-                          }
+                          },
+                          {
+                            type: "figure",
+                            info: {
+                              img: "/images/Ext_Py_MS.png",
+                              alt: "Python by Microsoft",
+                            },
+                          },
                         ],
                       },
                       {
@@ -1319,7 +1326,14 @@ let classes = [
                           {
                             text: "Esta extensión de Microsoft ofrece análisis de código estático avanzado para Python, utilizando el motor de análisis de código pylint. Te ayuda a detectar errores y problemas en tu código antes de ejecutarlo.",
                             content: "plain"
-                          }
+                          },
+                          {
+                            type: "figure",
+                            info: {
+                              img: "/images/Ext_Pylance.png",
+                              alt: "Pylance by Microsoft",
+                            },
+                          },
                         ],
                       },
                       {
@@ -1329,7 +1343,14 @@ let classes = [
                           {
                             text: "Esta extensión te permite ejecutar código Python directamente desde el editor de Visual Studio Code, sin necesidad de abrir una terminal o consola separada. Es muy útil para probar y depurar pequeños fragmentos de código rápidamente.",
                             content: "plain"
-                          }
+                          },
+                          {
+                            type: "figure",
+                            info: {
+                              img: "/images/Ext_Code_Runner.png",
+                              alt: "Code Runner",
+                            },
+                          },
                         ],
                       },
                     ],
@@ -1353,7 +1374,14 @@ let classes = [
                           {
                             text: "Esta extensión te ayuda a escribir comentarios más claros y descriptivos en tu código Python. Ofrece diferentes plantillas de comentarios, resaltado de sintaxis y otras funciones útiles.",
                             content: "plain"
-                          }
+                          },
+                          {
+                            type: "figure",
+                            info: {
+                              img: "/images/Ext_Better_Comments.png",
+                              alt: "Better Comments",
+                            },
+                          },
                         ],
                       },
                       {
@@ -1363,7 +1391,14 @@ let classes = [
                           {
                             text: "Esta extensión integra el popular linter ESLint en Visual Studio Code, lo que te permite analizar tu código JavaScript y Python en busca de errores y problemas de estilo.",
                             content: "plain"
-                          }
+                          },
+                          {
+                            type: "figure",
+                            info: {
+                              img: "/images/Ext_ESLint.png",
+                              alt: "ESLint",
+                            },
+                          },
                         ],
                       },
                       {
@@ -1373,7 +1408,14 @@ let classes = [
                           {
                             text: "Esta extensión te proporciona una gran colección de fragmentos de código predefinidos para Python, que puedes insertar rápidamente en tu código con solo unas pocas pulsaciones de teclas. Te ahorra tiempo y te ayuda a escribir código más eficiente.",
                             content: "plain"
-                          }
+                          },
+                          {
+                            type: "figure",
+                            info: {
+                              img: "/images/Ext_Py_Snippets.png",
+                              alt: "Python snippets",
+                            },
+                          },
                         ],
                       },
                     ],
