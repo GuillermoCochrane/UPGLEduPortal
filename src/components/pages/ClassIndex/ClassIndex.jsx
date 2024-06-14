@@ -35,7 +35,7 @@ function ClassIndex(params) {
     return (
         <article>
             {
-                !classId ? <HomeData /> : null
+                !classId ? <HomeData  course={course}/> : null
             }
             {
                 classId  ?
@@ -44,7 +44,7 @@ function ClassIndex(params) {
             }
             
             {
-                data && data.length == 0 ? <NotFound course={course} /> :
+                data && data.length == 0 ? <NotFound  /> :
                 data.map((item, index) => (
                     <section key={index}>
                         <h2>{item.summary}</h2>
