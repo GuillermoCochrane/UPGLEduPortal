@@ -167,11 +167,6 @@ figure img{
 	margin: auto;
 }
 
-a[role="button"]{
-	display: inline-block;
-	line-height: 41px;
-}
-
 a[role="button"],
 button{
 	background-color: #225;
@@ -183,6 +178,13 @@ button{
 	margin-inline: 10px;
 	border-radius: 7px;
 	height: 41px;
+}
+
+a[role="button"]{
+	display: block;
+	line-height: 41px;
+	margin-inline: auto;
+	width: fit-content;
 }
 
 nav button{
@@ -275,7 +277,6 @@ section h3{
 
 .current{
 	color: goldenrod;
-	font-weight: bold;
 }
 
 @media (min-width: 870px){
