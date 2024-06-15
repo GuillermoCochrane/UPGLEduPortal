@@ -1313,7 +1313,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Ext_Py_MS.png",
+                              img: "/images/Python/class2/Ext_Py_MS.png",
                               alt: "Python by Microsoft",
                             },
                           },
@@ -1330,7 +1330,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Ext_Pylance.png",
+                              img: "/images/Python/class2/Ext_Pylance.png",
                               alt: "Pylance by Microsoft",
                             },
                           },
@@ -1347,7 +1347,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Ext_Code_Runner.png",
+                              img: "/images/Python/class2/Ext_Code_Runner.png",
                               alt: "Code Runner",
                             },
                           },
@@ -1378,7 +1378,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Ext_Better_Comments.png",
+                              img: "/images/Python/class2/Ext_Better_Comments.png",
                               alt: "Better Comments",
                             },
                           },
@@ -1395,7 +1395,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Ext_ESLint.png",
+                              img: "/images/Python/class2/Ext_ESLint.png",
                               alt: "ESLint",
                             },
                           },
@@ -1412,12 +1412,29 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Ext_Py_Snippets.png",
+                              img: "/images/Python/class2/Ext_Py_Snippets.png",
                               alt: "Python snippets",
                             },
                           },
                         ],
                       },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Spanish Language Pack for Visual Studio Code: ", content: "bold" },
+                          {
+                            text: "El paquete de idioma español proporciona una experiencia de UI localizada para VS Code.",
+                            content: "plain"
+                          },
+                          {
+                            type: "figure",
+                            info: {
+                              img: "/images/Python/class2/Ext_Spanish.png",
+                              alt: "Spanish Language Pack for Visual Studio Code",
+                            },
+                          },
+                        ],
+                      }
                     ],
                   }
                 ],
@@ -1433,7 +1450,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "Primer programa 👶: ",
+                text: "Primer programa: ",
                 content: "plain"
               }
             ]
@@ -1442,37 +1459,34 @@ let classes = [
             type: "p",
             info: [
               {
-                text: ' print ("Hola Mundo") (cadena de string) y ejecucion de programa',
+                text: 'Para imprimir un mensaje en Python, usamos la función print(). Por ejemplo, para imprimir la frase: - Hola Mundo - , podemos escribir:',
                 content: "plain"
-              }
+              },
             ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hola_mundo.png",
+              alt: "print Hola Mundo",
+            },
           },
           {
             type: "p",
             info: [
               {
-                text: '"Hola Mundo"',
+                text: 'El texto va entre comillas. También podríamos escribir:',
                 content: "plain"
-              }
+              },
+              
             ] 
           },
           {
-            type: "p",
-            info: [
-              {
-                text: "el texto va entre comillas, podriamos escribir:",
-                content: "plain"
-              }
-            ]
-          },
-          {
-            type: "p",
-            info: [
-              {
-                text: 'print("Hola", "mundo", "!")',
-                content: "plain"
-              }
-            ]
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hola_mundo2.png",
+              alt: "print Hola Mundo",
+            },
           },
           {
             type: "h3",
@@ -1487,17 +1501,17 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Escribir un programa que muestre por pantalla la cadena ¡Hola Mundo! mi nombre es (su nombre) u este es mi primer programa!!!!🚀. ",
+                text: "Escribir un programa que muestre por pantalla la cadena: - ¡Hola Mundo! mi nombre es (su nombre) y este es mi primer programa!!!!🚀 -",
                 content: "plain"
               }
             ]
           },
           {
-            type: "p",
+            type: "answer",
             info: [
               {
-                text: 'print ("Este es mi super saludo 🖐🏻 con python 🐍")',
-                content: "plain"
+                img: "/images/Python/class2/Ejercicio_2_4.png",
+                alt: "Solución"
               }
             ]
           }
