@@ -7,6 +7,7 @@ import H4 from '../../partials/H4/H4Tag.jsx';
 import H3 from '../../partials/H3/H3Tag.jsx';
 import H2 from '../../partials/H2/H2Tag.jsx';
 import Figure from '../../partials/Figure/Figure.jsx';
+import Answer from '../../partials/Answer/Answer.jsx';
 import classesIA from  "../../../assets/data/IAChatGPT.js";
 import classesPython from  "../../../assets/data/Python.js";
 import NavButtons from '../../partials/Navbuttons/NavButtons.jsx';
@@ -65,7 +66,8 @@ function Topics(params) {
       <H2  Data={title} />
       {
         data.length == 0 ? <NotFound /> :
-        data.map((item, index) => (
+        data.map((item, index) => {
+          return(
           item.type === "h2" ? <H2 key={index} Data={item.info} /> :
           item.type === "figure" ? <Figure key={index} Data={item.info} /> :
           item.type === "h3" ? <H3 key={index}  Data={item.info} /> :
@@ -73,8 +75,9 @@ function Topics(params) {
           item.type === "p" ? <PTag key={index} Data={item.info} /> :
           item.type === "ul" ? <UL key={index} Data={item.info} /> : 
           item.type === "link" ? <Links key={index} Data={item.info} /> :
+          item.type === "answer" ? <Answer key={index} Data={item.info} /> :
           item.type === "ol" ? <OL key={index} Data={item.info} /> : null
-        ))
+        )})
       }
       {
         data.length == 0 ? null : 
