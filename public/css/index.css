@@ -76,7 +76,7 @@ h2 ~ h2 {
 
 h4,
 h3 {
-	font-weight: 400;
+	font-weight: 500;
 	margin-top: .5rem;
 	padding-left: 1rem;
 	margin-bottom: .5rem;
@@ -270,13 +270,22 @@ article.home{
 	width: fit-content;
 }
 
-
 section h3{
 	text-align: center;
 }
 
 .current{
 	color: goldenrod;
+}
+
+article details{
+	margin: auto;
+	width: 90%;
+}
+
+article details summary{
+	font-size: 1.2rem;
+	font-weight: 500;
 }
 
 @media (min-width: 870px){
