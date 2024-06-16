@@ -981,7 +981,7 @@ let classes = [
   },
   {
     class: 2,
-    topics: 4,
+    topics: 5,
     title: {
       type: "h2",
       info: [
@@ -1513,6 +1513,477 @@ let classes = [
                 img: "/images/Python/class2/Ejercicio_2_4.png",
                 alt: "Solución"
               }
+            ]
+          }
+        ]
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Veamos el Hello World en distintos lenguajes de programación",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "youtube",
+            info: [
+              {
+                link: "https://youtube.com/shorts/WBdNh8ZVNbc?si=OimcFIhgMS1QeoG9",
+                title: "Hola Mundo en diferentes lenguajes de programación",
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Como ya les habiamos comentado en la clase anterior, existen infinidades de lenguajes de programacion y cada uno de ellos posee una sintaxis y semantica única para resolver el mismo problema ",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: '¡a continuacion les mostraré como se ve el tipico programa que imprime "Hello World" en diferentes lenguajes!',
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Python",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_python.png",
+              alt: "helloWorld.py",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de Python:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'print("Hello, World!")',
+                content: "bold"
+              },
+              {
+                text: " - Imprime \"Hello, World!\" en la consola. La función",
+                content: "plain"
+              },
+              {
+                text: ' print() ',
+                content: "bold"
+              },
+              {
+                text: "muestra el texto o el valor pasado como argumento en la consola.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Java",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_java.png",
+              alt: "helloWorld.java",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de Java:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'public class Hello {',
+                content: "bold"
+              },
+              {
+                text: " - Define una clase llamada Hello, que es pública y accesible desde fuera del paquete. En Java, el nombre del archivo debe coincidir con el nombre de la clase pública.",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: ' public static void main(String[] args) {',
+                content: "bold"
+              },
+              {
+                text: " - Define un método principal llamado main, que es estático (puede ser invocado sin crear una instancia de la clase) y no devuelve ningún valor ",
+                content: "plain"
+              },
+              {
+                text: "(void) ",
+                content: "bold"
+              },
+              {
+                text: ". Toma un argumento de tipo ",
+                content: "plain"
+              },
+              {
+                text: 'String[] ',
+                content: "bold"
+              },
+              {
+                text:", llamado ",
+                content: "plain"
+              },
+              {
+                text:'args ',
+                content: "bold"
+              },
+              {
+                text:", que representa los argumentos pasados al programa desde la línea de comandos.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'System.out.println("Hello, World!");',
+                content: "bold"
+              },
+              {
+                text: "- Imprime \"Hello, World!\" en la consola. ",
+                content: "plain"
+              },
+              {
+                text: "System.out ",
+                content: "bold"
+              },
+              {
+                text: "es un objeto de salida estándar, ",
+                content: "plain"
+              },
+              {
+                text: `println() `,
+                content: "bold"
+              },
+              {
+                text: "muestra el texto o el valor pasado como argumento en la consola.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: '}',
+                content: "bold"
+              },
+              {
+                text: "- Cierra el método ",
+                content: "plain"  
+              },
+              {
+                text: 'main.',
+                content: "bold"
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: '}',
+                content: "bold"
+              },
+              {
+                text: "- Cierra la clase ",
+                content: "plain"  
+              },
+              {
+                text: 'Hello.',
+                content: "bold"
+              },
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "PHP",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_php.png",
+              alt: "HelloWorld.php",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de PHP:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: '<?php',
+                content: "bold"
+              },
+              {
+                text: "- Inicia el bloque de código PHP. Indica que lo que sigue es código PHP.",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'echo "Hello, World!";',
+                content: "bold"
+              },
+              {
+                text: "- Imprime \"Hello, World!\" en la salida. ",
+                content: "plain"
+              },
+              {
+                text: "echo ",
+                content: "bold"
+              },
+              {
+                text: "es una instrucción de PHP que imprime texto o variables.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: '?>',
+                content: "bold"
+              },
+              {
+                text: "- Cierra el bloque de código PHP. Indica que el código PHP ha terminado.",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "JavaScript",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_javascript.png",
+              alt: "HelloWorld.js",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de JavaScript:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'console.log()',
+                content: "bold"
+              },
+              {
+                text: "- Es una función de JavaScript que muestra mensajes en la consola del navegador o en la consola del entorno de ejecución (como Node.js en un entorno de servidor).",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: '"Hello, World!"',
+                content: "bold"
+              },
+              {
+                text: "- Es el mensaje que se mostrará en la consola.",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "C++",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_c++.png",
+              alt: "HelloWorld.cpp",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de C++:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: '#include <iostream>',
+                content: "bold"
+              },
+              {
+                text: "- Incluye la biblioteca de entrada/salida estándar de C++. Esta biblioteca permite el uso de ",
+                content: "plain"
+              },
+              {
+                text: "std::cout ",
+                content: "bold"
+              },
+              {
+                text: "para imprimir en la consola.",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'int main() {',
+                content: "bold"
+              },
+              {
+                text: "- Define la función principal del programa. La función main es el punto de entrada de un programa C++.",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'std::cout << "Hello, World!" << std::endl;',
+                content: "bold"
+              },
+              {
+                text: "- Imprime \"Hello, World!\" en la consola. ",
+                content: "plain"
+              },
+              {
+                text: "std::cout ",
+                content: "bold"
+              },
+              {
+                text: "es el flujo de salida estándar en C++, ",
+                content: "plain"
+              },
+              {
+                text: "<< ",
+                content: "bold"
+              },
+              {
+                text: "es el operador de inserción y ",
+                content: "plain"
+              },
+              {
+                text: "std::endl ",
+                content: "bold"
+              },
+              {
+                text: "es un manipulador que inserta un carácter de nueva línea y vacía el búfer de salida.",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'return 0;',
+                content: "bold"
+              },
+              {
+                text: "- Finaliza la función main y devuelve 0 al sistema operativo, indicando que el programa terminó correctamente.",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: '}',
+                content: "bold"
+              },
+              {
+                text: "- Cierra la función main.",
+                content: "plain"  
+              }
+              
             ]
           }
         ]
