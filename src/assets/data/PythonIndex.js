@@ -53,7 +53,12 @@ let classIndex = [
           title: "Primer programa",
           topicId: 4,
           link: "/courses/Python/class/2/4"
-        }
+        },
+        {
+          title: "Hello World en distintos lenguajes",
+          topicId: 5,
+          link: "/courses/Python/class/2/5"
+        },
       ]
     },
   ]
