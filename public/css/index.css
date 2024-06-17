@@ -296,6 +296,8 @@ iframe{
 	display: block;
 	margin-inline: auto;
 	margin-block: 1.5em;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 @media (min-width: 870px){
