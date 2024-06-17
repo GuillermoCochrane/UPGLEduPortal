@@ -984,7 +984,7 @@ let classes = [
   },
   {
     class: 2,
-    topics: 5,
+    topics: 6,
     title: {
       type: "h2",
       info: [
@@ -1273,9 +1273,17 @@ let classes = [
                     content: "bold",
                   },
                   {
-                    text: "Para verificar la instalación, abrir una terminal o ventana de comandos y escribe python --version. Si la instalación fue correcta, debería mostrar la versión de Python que instalaste.",
+                    text: "Para verificar la instalación, abrir una terminal o ventana de comandos y escribe ",
                     content: "plain",
                   },
+                  {
+                    text: "python --version",
+                    content: "bold",
+                  },
+                  {
+                    text: ". Si la instalación fue correcta, debería mostrar la versión de Python que instalaste.",
+                    content: "plain",
+                  }
                 ],
               },
               {
@@ -2919,6 +2927,170 @@ let classes = [
           },
         ],
       },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus track: ¿Cómo ejecutar un programa en Python?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Si tienes una sola línea de código, puedes ejecutarla directamente haciendo clic derecho y seleccionando la opción ",
+                content: "plain",
+              },
+              {
+                text: '"Run Code"',
+                content: "bold",
+              },
+              {
+                text: " o utilizando las teclas rápidas asignadas: ",
+                content: "plain",
+              },
+              {
+                text: "Ctrl + shift + N",
+                content: "bold",
+              },
+              {
+                text: " (Atajo por defecto)",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Sin embargo, si tienes varias líneas de código, te conviene seleccionar específicamente las líneas que deseas ejecutar.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Recuerda que para usar el ",
+                content: "plain",
+              },
+              {
+                text: '"Run Code"',
+                content: "bold",
+              },
+              {
+                text: " en Python tienes dos opciones:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "La primera es seleccionar ",
+                    content: "plain",
+                  },
+                  {
+                    text: '"Run Code."',
+                    content: "bold",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Python/class2/Bouns_track1.jpg",
+                      alt: "Run Code",
+                    },
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "La segunda opción, si tienes la extensión correspondiente instalada, es seleccionar ",
+                    content: "plain",
+                  },
+                  {
+                    text: '"Ejecutar Python"',
+                    content: "bold",
+                  },
+                  {
+                    text: ", lo que te dará la opción de ",
+                    content: "plain",
+                  },
+                  {
+                    text: '"Ejecutar el archivo de Python en terminal."',
+                    content: "bold",
+                  },
+                  {
+                    text: " Esta forma es lo mismo que poner en la terminal python (nombre del archivo) por ejemplo: ",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Python/class2/Bouns_track2.jpg",
+                      alt: "Ejecutar el archivo de Python en terminal",
+                    },
+                  },  
+                  {
+                    text: 'python 1.py',
+                    content: "bold",
+                  },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Las mismas opciones se encuentran en el ícono triangular en la parte superior derecha de la ventana de visual studio code.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Python/class2/Bouns_track3.jpg",
+                      alt: "Ejecutar el archivo desde el ícono",
+                    },
+                  }
+                ]
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus track 2: Emojis",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Para abrir el menú para insertar Emojis, presionar en Windows la convinación de  teclas ",
+                content: "plain",
+              },
+              {
+                text: "Windows + .",
+                content: "bold",
+              }
+            ],
+          }
+
+        ],
+      }
     ],
   },
 ];
