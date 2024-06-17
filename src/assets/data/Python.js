@@ -1538,8 +1538,10 @@ let classes = [
             type: "youtube",
             info: [
               {
-                link: "https://youtube.com/shorts/WBdNh8ZVNbc?si=OimcFIhgMS1QeoG9",
-                title: "Hola Mundo en diferentes lenguajes de programación",
+                link: "https://www.youtube.com/embed/WBdNh8ZVNbc",
+                title: "Hola Mundo en diferentes lenguajes de programación 💻",
+                width: "315",
+                height: "560",
               },
             ],
           },
