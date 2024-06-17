@@ -292,6 +292,12 @@ article details summary{
 	font-weight: 500;
 }
 
+iframe{
+	display: block;
+	margin-inline: auto;
+	margin-block: 1.5em;
+}
+
 @media (min-width: 870px){
 	body{
 		overflow: hidden;
