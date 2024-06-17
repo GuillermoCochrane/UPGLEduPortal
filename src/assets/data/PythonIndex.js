@@ -66,6 +66,37 @@ let classIndex = [
         }
       ]
     },
+    {
+      summary: "Variables",
+      classId: 3,
+      links: [
+        {
+          title: "¿Qué es una variable?",
+          topicId: 1,
+          link: "/courses/Python/class/3/1"
+        },
+        {
+          title: "Tipos de Asignaciones (=)",
+          topicId: 2,
+          link: "/courses/Python/class/3/2"
+        },
+        {
+          title: "Nombres de variables en Python",
+          topicId: 3,
+          link: "/courses/Python/class/3/3"
+        },
+        {
+          title: "Actividades",
+          topicId: 4,
+          link: "/courses/Python/class/3/4"
+        },
+        {
+          title: "Bonus track",
+          topicId: 5,
+          link: "/courses/Python/class/3/5"
+        }
+      ]
+    }
   ]
 
 export default  classIndex
