@@ -813,7 +813,7 @@ let classes = [
         topicData: [
           {
             type: "h2",
-            info: [{ text: "Arrancando con fuerza"}]
+            info: [{ text: "Arrancando con fuerza" }],
           },
           {
             type: "h3",
@@ -927,7 +927,10 @@ let classes = [
           {
             type: "h3",
             info: [
-              { text: "Puedes instalar estas extensiones en VS Code siguiendo estos pasos:", content: "plain" },
+              {
+                text: "Puedes instalar estas extensiones en VS Code siguiendo estos pasos:",
+                content: "plain",
+              },
             ],
           },
           {
@@ -987,9 +990,9 @@ let classes = [
       info: [
         {
           text: "Introducción a Python",
-          content: "plain"
-        }
-      ]
+          content: "plain",
+        },
+      ],
     },
     classData: [
       {
@@ -1000,36 +1003,36 @@ let classes = [
             info: [
               {
                 text: "🐍 ¿Que es Python? 🐍",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Python es un lenguaje de programación de código abierto, creado por Guido van Rossum en 1991. Se trata de un lenguaje orientado a objetos, fácil de interpretar y con una sintaxis que permite leerlo de manera semejante a como se lee el inglés. Es un lenguaje interpretado, esto significa que el código de programación se convierte en bytecode",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "Pero... ¿QUE ES EL BYTECODE?",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "El bytecode es un código intermedio entre el código fuente legible por humanos 🧙‍♂️ y el código máquina que las computadoras 💻 entienden directamente: ",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -1037,79 +1040,79 @@ let classes = [
               {
                 type: "li",
                 info: [
-                  { 
+                  {
                     text: "Código fuente: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Este es el código que escribimos en un lenguaje de programación como Python, Java, PHP, Javascript o C++. Es fácil de entender para los humanos, pero no para las computadoras.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { 
+                  {
                     text: "Bytecode:  ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Cuando compilas tu código fuente, se traduce a bytecode. El bytecode es un conjunto de instrucciones en un lenguaje simplificado que un programa de software llamado máquina virtual puede interpretar. Es más compacto que el código fuente y está diseñado para una ejecución eficiente por el intérprete (sistema operativo).",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 tyoe: "li",
                 info: [
                   {
-                      text: "Codigo máquina: ",
-                      content: "bold"
+                    text: "Codigo máquina: ",
+                    content: "bold",
                   },
                   {
                     text: "Este es el lenguaje de más bajo nivel, formado por unos y ceros, que el procesador de la computadora puede entender directamente. Cada instrucción del código máquina corresponde a una operación específica del hardware.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
-            ]
+            ],
           },
           {
             tyoe: "p",
             info: [
               {
                 text: "El bytecode también se conoce como código portable o P-Code.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "¿Para que sirve?",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "La respuesta es breve: para todo.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Python está en todo, desde programación de instrumentos hasta software de computadoras,desarrollo web y aplicaciones móviles. Incluso, te permite hacer comentarios para que tengas recordatorios para funciones futuras o indicar problemas en una línea de código. Python es genial para casi cualquier necesidad de desarrollo, ya sea programación de servidores, operación de sistemas, software, juegos y mucho más. A continuación, repasamos los usos más comunes:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -1119,22 +1122,22 @@ let classes = [
                 info: [
                   {
                     text: "Scripting y automatización",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Python se utiliza para scripting (secuencias de comandos) y automatización en muchas industrias, desde máquinas de programación en grandes fábricas hasta usos de ocio, como videojuegos. Las maneras en que el scripting y la automatización benefician a las industrias son innumerables, al igual que la variedad de industrias en las que se utiliza.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
-            ]
+            ],
           },
-        ]
+        ],
       },
       {
         topic: 2,
@@ -1144,45 +1147,45 @@ let classes = [
             info: [
               {
                 text: "💻 Desarrollo de software 💻",
-                content: "plain"
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Python se implementa en el desarrollo de software desde que se lanzó y continúa siendo muy popular para ese propósito.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Se utiliza para crear software en diferentes plataformas porque es compatible con muchos ámbitos de operación",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Sistemas operativos para computadoras y dispositivos móviles y en entornos de sistema en tiempo de ejecución.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -1192,60 +1195,60 @@ let classes = [
                 info: [
                   {
                     text: "Análisis de datos: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Python es adecuado para el análisis de datos porque funciona bien al crear representaciones visuales efectivas de bloques de datos complejos y al examinar datos. Estos dos aspectos de sus capacidades lo convierten en una herramienta básica en la industria de la ciencia de datos.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Machine learning e Inteligencia Artificial: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Los proyectos de machine learning (aprendizaje automático) se basan en la Inteligencia Artificial, que utiliza algoritmos para analizar datos, aprender y tomar mejores decisiones. Por lo que Python se utiliza ampliamente en este sector ya que tiene la potencia y la escalabilidad para manejar cantidades masivas de solicitudes de datos simultáneamente.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Ciencias de blockchain: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Esta industria se ha convertido, recientemente, en un usuario importante del lenguaje Python, que ha manejado desde siempre ciencias de blockchain.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "¿Qué es blockchain?: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Blockchain, o cadena de bloques,es una base de datos compartida o distribuida que almacena datos de cualquier tipo. La información registrada está almacenada en bloques, ligados entre sí criptográficamente y validada de una forma descentralizada a través de un protocolo común. El surgimiento y crecimiento continuo alrededor de tecnologías —como las criptomonedas y NFT— lo han encumbrado dentro de la industria. Su habilidad para manejar todos los aspectos de la tecnología blockchain lo convierte en un elemento primordial.",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
-            ]
+            ],
           },
-        ]
+        ],
       },
       {
         topic: 3,
@@ -1255,9 +1258,9 @@ let classes = [
             info: [
               {
                 text: "¿Que veremos en el curso?",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -1267,37 +1270,37 @@ let classes = [
                 info: [
                   {
                     text: "Instalacion de Python: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Para verificar la instalación, abrir una terminal o ventana de comandos y escribe python --version. Si la instalación fue correcta, debería mostrar la versión de Python que instalaste.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Instalacion de Visual Studio Code: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Una vez que tengamos Python instalado, podemos instalar Visual Studio Code (VS Code). VS Code es un editor de código de código abierto muy popular y fácil de usar. Puedes descargarlo desde el sitio oficial: ",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Instalacion de extensiones de VS Code: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Una vez que tengamos VS Code instalado, podemos instalar extensiones adicionales para mejorar nuestra experiencia de programación. Algunas extensiones recomendadas para principiantes son:",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     type: "ul",
@@ -1308,7 +1311,7 @@ let classes = [
                           { text: "Python by Microsoft: ", content: "bold" },
                           {
                             text: "Esta extensión oficial de Microsoft proporciona soporte completo para el lenguaje Python, incluyendo IntelliSense, linting, depuración, formateo de código, refactoring, explorador de variables y mucho más. Es una extensión imprescindible para cualquier desarrollador de Python.",
-                            content: "plain"
+                            content: "plain",
                           },
                           {
                             type: "figure",
@@ -1325,7 +1328,7 @@ let classes = [
                           { text: "Pylance: ", content: "bold" },
                           {
                             text: "Esta extensión de Microsoft ofrece análisis de código estático avanzado para Python, utilizando el motor de análisis de código pylint. Te ayuda a detectar errores y problemas en tu código antes de ejecutarlo.",
-                            content: "plain"
+                            content: "plain",
                           },
                           {
                             type: "figure",
@@ -1342,7 +1345,7 @@ let classes = [
                           { text: "Code Runner: ", content: "bold" },
                           {
                             text: "Esta extensión te permite ejecutar código Python directamente desde el editor de Visual Studio Code, sin necesidad de abrir una terminal o consola separada. Es muy útil para probar y depurar pequeños fragmentos de código rápidamente.",
-                            content: "plain"
+                            content: "plain",
                           },
                           {
                             type: "figure",
@@ -1355,25 +1358,25 @@ let classes = [
                       },
                     ],
                   },
-                ]
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Extensiones para mejorar la productividad: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     type: "ul",
-                    info: [ 
+                    info: [
                       {
                         type: "li",
                         info: [
                           { text: "Better Comments: ", content: "bold" },
                           {
                             text: "Esta extensión te ayuda a escribir comentarios más claros y descriptivos en tu código Python. Ofrece diferentes plantillas de comentarios, resaltado de sintaxis y otras funciones útiles.",
-                            content: "plain"
+                            content: "plain",
                           },
                           {
                             type: "figure",
@@ -1390,7 +1393,7 @@ let classes = [
                           { text: "ESLint: ", content: "bold" },
                           {
                             text: "Esta extensión integra el popular linter ESLint en Visual Studio Code, lo que te permite analizar tu código JavaScript y Python en busca de errores y problemas de estilo.",
-                            content: "plain"
+                            content: "plain",
                           },
                           {
                             type: "figure",
@@ -1407,7 +1410,7 @@ let classes = [
                           { text: "Python snippets: ", content: "bold" },
                           {
                             text: "Esta extensión te proporciona una gran colección de fragmentos de código predefinidos para Python, que puedes insertar rápidamente en tu código con solo unas pocas pulsaciones de teclas. Te ahorra tiempo y te ayuda a escribir código más eficiente.",
-                            content: "plain"
+                            content: "plain",
                           },
                           {
                             type: "figure",
@@ -1421,10 +1424,13 @@ let classes = [
                       {
                         type: "li",
                         info: [
-                          { text: "Spanish Language Pack for Visual Studio Code: ", content: "bold" },
+                          {
+                            text: "Spanish Language Pack for Visual Studio Code: ",
+                            content: "bold",
+                          },
                           {
                             text: "El paquete de idioma español proporciona una experiencia de UI localizada para VS Code.",
-                            content: "plain"
+                            content: "plain",
                           },
                           {
                             type: "figure",
@@ -1434,14 +1440,14 @@ let classes = [
                             },
                           },
                         ],
-                      }
+                      },
                     ],
-                  }
+                  },
                 ],
               },
-            ]
-          }
-        ]
+            ],
+          },
+        ],
       },
       {
         topic: 4,
@@ -1451,18 +1457,18 @@ let classes = [
             info: [
               {
                 text: "Primer programa: ",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: 'Para imprimir un mensaje en Python, usamos la función print(). Por ejemplo, para imprimir la frase: - Hola Mundo - , podemos escribir:',
-                content: "plain"
+                text: "Para imprimir un mensaje en Python, usamos la función print(). Por ejemplo, para imprimir la frase: - Hola Mundo - , podemos escribir:",
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "figure",
@@ -1475,11 +1481,10 @@ let classes = [
             type: "p",
             info: [
               {
-                text: 'El texto va entre comillas. También podríamos escribir:',
-                content: "plain"
+                text: "El texto va entre comillas. También podríamos escribir:",
+                content: "plain",
               },
-              
-            ] 
+            ],
           },
           {
             type: "figure",
@@ -1493,29 +1498,29 @@ let classes = [
             info: [
               {
                 text: "Saludar con python",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Escribir un programa que muestre por pantalla la cadena: - ¡Hola Mundo! mi nombre es (su nombre) y este es mi primer programa!!!!🚀 -",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "answer",
             info: [
               {
                 img: "/images/Python/class2/Ejercicio_2_4.png",
-                alt: "Solución"
-              }
-            ]
-          }
-        ]
+                alt: "Solución",
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 5,
@@ -1525,9 +1530,9 @@ let classes = [
             info: [
               {
                 text: "Veamos el Hello World en distintos lenguajes de programación",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "youtube",
@@ -1535,35 +1540,35 @@ let classes = [
               {
                 link: "https://youtube.com/shorts/WBdNh8ZVNbc?si=OimcFIhgMS1QeoG9",
                 title: "Hola Mundo en diferentes lenguajes de programación",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Como ya les habiamos comentado en la clase anterior, existen infinidades de lenguajes de programacion y cada uno de ellos posee una sintaxis y semantica única para resolver el mismo problema ",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: '¡a continuacion les mostraré como se ve el tipico programa que imprime "Hello World" en diferentes lenguajes!',
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "Python",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "figure",
@@ -1577,39 +1582,39 @@ let classes = [
             info: [
               {
                 text: "Veamos la sintaxis y semántica de Python:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: 'print("Hello, World!")',
-                content: "bold"
+                content: "bold",
               },
               {
-                text: " - Imprime \"Hello, World!\" en la consola. La función",
-                content: "plain"
+                text: ' - Imprime "Hello, World!" en la consola. La función',
+                content: "plain",
               },
               {
-                text: ' print() ',
-                content: "bold"
+                text: " print() ",
+                content: "bold",
               },
               {
                 text: "muestra el texto o el valor pasado como argumento en la consola.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "Java",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "figure",
@@ -1623,131 +1628,131 @@ let classes = [
             info: [
               {
                 text: "Veamos la sintaxis y semántica de Java:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: 'public class Hello {',
-                content: "bold"
+                text: "public class Hello {",
+                content: "bold",
               },
               {
                 text: " - Define una clase llamada Hello, que es pública y accesible desde fuera del paquete. En Java, el nombre del archivo debe coincidir con el nombre de la clase pública.",
-                content: "plain"
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: ' public static void main(String[] args) {',
-                content: "bold"
+                text: " public static void main(String[] args) {",
+                content: "bold",
               },
               {
                 text: " - Define un método principal llamado main, que es estático (puede ser invocado sin crear una instancia de la clase) y no devuelve ningún valor ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "(void) ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: ". Toma un argumento de tipo ",
-                content: "plain"
+                content: "plain",
               },
               {
-                text: 'String[] ',
-                content: "bold"
+                text: "String[] ",
+                content: "bold",
               },
               {
-                text:", llamado ",
-                content: "plain"
+                text: ", llamado ",
+                content: "plain",
               },
               {
-                text:'args ',
-                content: "bold"
+                text: "args ",
+                content: "bold",
               },
               {
-                text:", que representa los argumentos pasados al programa desde la línea de comandos.",
-                content: "plain"
-              }
-            ]
+                text: ", que representa los argumentos pasados al programa desde la línea de comandos.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: 'System.out.println("Hello, World!");',
-                content: "bold"
+                content: "bold",
               },
               {
-                text: "- Imprime \"Hello, World!\" en la consola. ",
-                content: "plain"
+                text: '- Imprime "Hello, World!" en la consola. ',
+                content: "plain",
               },
               {
                 text: "System.out ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "es un objeto de salida estándar, ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: `println() `,
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "muestra el texto o el valor pasado como argumento en la consola.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: '}',
-                content: "bold"
+                text: "}",
+                content: "bold",
               },
               {
                 text: "- Cierra el método ",
-                content: "plain"  
+                content: "plain",
               },
               {
-                text: 'main.',
-                content: "bold"
+                text: "main.",
+                content: "bold",
               },
-            ]
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: '}',
-                content: "bold"
+                text: "}",
+                content: "bold",
               },
               {
                 text: "- Cierra la clase ",
-                content: "plain"  
+                content: "plain",
               },
               {
-                text: 'Hello.',
-                content: "bold"
+                text: "Hello.",
+                content: "bold",
               },
-            ]
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "PHP",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "figure",
@@ -1761,65 +1766,65 @@ let classes = [
             info: [
               {
                 text: "Veamos la sintaxis y semántica de PHP:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: '<?php',
-                content: "bold"
+                text: "<?php",
+                content: "bold",
               },
               {
                 text: "- Inicia el bloque de código PHP. Indica que lo que sigue es código PHP.",
-                content: "plain"
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: 'echo "Hello, World!";',
-                content: "bold"
+                content: "bold",
               },
               {
-                text: "- Imprime \"Hello, World!\" en la salida. ",
-                content: "plain"
+                text: '- Imprime "Hello, World!" en la salida. ',
+                content: "plain",
               },
               {
                 text: "echo ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "es una instrucción de PHP que imprime texto o variables.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: '?>',
-                content: "bold"
+                text: "?>",
+                content: "bold",
               },
               {
                 text: "- Cierra el bloque de código PHP. Indica que el código PHP ha terminado.",
-                content: "plain"
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "JavaScript",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "figure",
@@ -1833,44 +1838,44 @@ let classes = [
             info: [
               {
                 text: "Veamos la sintaxis y semántica de JavaScript:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: 'console.log()',
-                content: "bold"
+                text: "console.log()",
+                content: "bold",
               },
               {
                 text: "- Es una función de JavaScript que muestra mensajes en la consola del navegador o en la consola del entorno de ejecución (como Node.js en un entorno de servidor).",
-                content: "plain"
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: '"Hello, World!"',
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "- Es el mensaje que se mostrará en la consola.",
-                content: "plain"
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "C++",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "figure",
@@ -1884,112 +1889,1036 @@ let classes = [
             info: [
               {
                 text: "Veamos la sintaxis y semántica de C++:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: '#include <iostream>',
-                content: "bold"
+                text: "#include <iostream>",
+                content: "bold",
               },
               {
                 text: "- Incluye la biblioteca de entrada/salida estándar de C++. Esta biblioteca permite el uso de ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "std::cout ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "para imprimir en la consola.",
-                content: "plain"
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: 'int main() {',
-                content: "bold"
+                text: "int main() {",
+                content: "bold",
               },
               {
                 text: "- Define la función principal del programa. La función main es el punto de entrada de un programa C++.",
-                content: "plain"
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: 'std::cout << "Hello, World!" << std::endl;',
-                content: "bold"
+                content: "bold",
               },
               {
-                text: "- Imprime \"Hello, World!\" en la consola. ",
-                content: "plain"
+                text: '- Imprime "Hello, World!" en la consola. ',
+                content: "plain",
               },
               {
                 text: "std::cout ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "es el flujo de salida estándar en C++, ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "<< ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "es el operador de inserción y ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "std::endl ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "es un manipulador que inserta un carácter de nueva línea y vacía el búfer de salida.",
-                content: "plain"
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: 'return 0;',
-                content: "bold"
+                text: "return 0;",
+                content: "bold",
               },
               {
                 text: "- Finaliza la función main y devuelve 0 al sistema operativo, indicando que el programa terminó correctamente.",
-                content: "plain"
+                content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: '}',
-                content: "bold"
+                text: "}",
+                content: "bold",
               },
               {
                 text: "- Cierra la función main.",
-                content: "plain"  
-              }
-              
-            ]
-          }
-        ]
-      }
-    ]
-  }
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "C#",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_cs.png",
+              alt: "HelloWorld.cs",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de C#:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "using System;",
+                content: "bold",
+              },
+              {
+                text: " - Incluye el espacio de nombres ",
+                content: "plain",
+              },
+              {
+                text: "System, ",
+                content: "bold",
+              },
+              {
+                text: "que contiene clases fundamentales de C#, como Console.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "class Hello {",
+                content: "bold",
+              },
+              {
+                text: " - Define una clase llamada ",
+                content: "plain",
+              },
+              {
+                text: "Hello.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "static void Main(string[] args) {",
+                content: "bold",
+              },
+              {
+                text: " - Define un método principal llamado ",
+                content: "plain",
+              },
+              {
+                text: "Main(), ",
+                content: "bold",
+              },
+              {
+                text: "que es el punto de entrada de un programa C#. Es estático (puede ser invocado sin crear una instancia de la clase), no devuelve ningún valor ",
+                content: "plain",
+              },
+              {
+                text: "(void) ",
+                content: "bold",
+              },
+              {
+                text: "y toma un argumento de tipo ",
+                content: "plain",
+              },
+              {
+                text: "string[]",
+                content: "bold",
+              },
+              {
+                text: ", llamado ",
+                content: "plain",
+              },
+              {
+                text: "args ",
+                content: "bold",
+              },
+              {
+                text: ", que representa los argumentos pasados al programa desde la línea de comandos.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Console.WriteLine("Hello, World!");',
+                content: "bold",
+              },
+              {
+                text: ' - Imprime "Hello, World!" en la consola. ',
+                content: "plain",
+              },
+              {
+                text: "Console ",
+                content: "bold",
+              },
+              {
+                text: "es una clase de la biblioteca System, y ",
+                content: "plain",
+              },
+              {
+                text: "WriteLine() ",
+                content: "bold",
+              },
+              {
+                text: "es un método que imprime una línea de texto en la consola.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "}",
+                content: "bold",
+              },
+              {
+                text: " - Cierra el método ",
+                content: "plain",
+              },
+              {
+                text: "Main().",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "}",
+                content: "bold",
+              },
+              {
+                text: " - Cierra la clase ",
+                content: "plain",
+              },
+              {
+                text: "Hello.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Ruby",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_ruby.png",
+              alt: "HelloWorld.rb",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de Ruby:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'puts "Hello, World!"',
+                content: "bold",
+              },
+              {
+                text: ' - Imprime "Hello, World!" en la consola. ',
+                content: "plain",
+              },
+              {
+                text: "puts ",
+                content: "bold",
+              },
+              {
+                text: "es un método de Ruby que imprime el texto o el valor pasado como argumento en la consola.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Swift",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_swift.png",
+              alt: "HelloWorld.swift",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de Swift:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'print("Hello, World!")',
+                content: "bold",
+              },
+              {
+                text: ' - Imprime "Hello, World!" en la consola. ',
+                content: "plain",
+              },
+              {
+                text: "print ",
+                content: "bold",
+              },
+              {
+                text: "es una función de Swift que muestra el texto o el valor pasado como argumento en la consola.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Go",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_go.png",
+              alt: "HelloWorld.go",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de Go:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "package main",
+                content: "bold",
+              },
+              {
+                text: " -  Define el paquete principal del programa. Todos los programas ejecutables en Go deben tener un paquete ",
+                content: "plain",
+              },
+              {
+                text: "main.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'import "fmt"',
+                content: "bold",
+              },
+              {
+                text: " - Importa el paquete ",
+                content: "plain",
+              },
+              {
+                text: "fmt",
+                content: "bold",
+              },
+              {
+                text: ", que incluye funciones de formato de E/S, como ",
+                content: "plain",
+              },
+              {
+                text: "Println().",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "func main() {",
+                content: "bold",
+              },
+              {
+                text: " - Define la función principal del programa. ",
+                content: "plain",
+              },
+              {
+                text: "main() ",
+                content: "bold",
+              },
+              {
+                text: "es el punto de entrada de un programa. En Go, la ejecución del programa comienza con la función ",
+                content: "plain",
+              },
+              {
+                text: "main().",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'fmt.Println("Hello, World!")',
+                content: "bold",
+              },
+              {
+                text: ' - Imprime "Hello, World!" en la consola. ',
+                content: "plain",
+              },
+              {
+                text: "fmt.Println() ",
+                content: "bold",
+              },
+              {
+                text: "es una función del paquete ",
+                content: "plain",
+              },
+              {
+                text: " fmt ",
+                content: "bold",
+              },
+              {
+                text: "que imprime una línea de texto en la consola.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "}",
+                content: "bold",
+              },
+              {
+                text: " - Cierra la función main.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Rust",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_rust.png",
+              alt: "HelloWorld.rs",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de Rust:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "fn main() {",
+                content: "bold",
+              },
+              {
+                text: " - Define la función principal  ",
+                content: "plain",
+              },
+              {
+                text: "main() ",
+                content: "bold",
+              },
+              {
+                text: "que es el punto de entrada de un programa. En Rust, la ejecución del programa comienza con la función ",
+                content: "plain",
+              },
+              {
+                text: "main().",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'println!("Hello, World!")',
+                content: "bold",
+              },
+              {
+                text: ' - Imprime "Hello, World!" en la consola. ',
+                content: "plain",
+              },
+              {
+                text: "println! ",
+                content: "bold",
+              },
+              {
+                text: "es una macro en Rust que imprime una línea de texto en la consola, incluyendo una nueva línea al final.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "}",
+                content: "bold",
+              },
+              {
+                text: " - Cierra la función main.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Scala",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_scala.png",
+              alt: "HelloWorld.scala",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de Scala:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "object Hello {",
+                content: "bold",
+              },
+              {
+                text: " - Define un objeto singleton llamado ",
+                content: "plain",
+              },
+              {
+                text: "Hello.",
+                content: "bold",
+              },
+              {
+                text: " - En Scala, los objetos son una forma de declarar una única instancia de una clase.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "def main(args: Array[String]) {",
+                content: "bold",
+              },
+              {
+                text: " - Define un método principal llamado ",
+                content: "plain",
+              },
+              {
+                text: "main() ",
+                content: "bold",
+              },
+              {
+                text: "que es el punto de entrada de un programa Scala. Este método toma un argumento, ",
+                content: "plain",
+              },
+              {
+                text: "args ",
+                content: "bold",
+              },
+              {
+                text: ", que es un arreglo de String.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'println("Hello, World!")',
+                content: "bold",
+              },
+              {
+                text: ' - Imprime "Hello, World!" en la consola. ',
+                content: "plain",
+              },
+              {
+                text: "println ",
+                content: "bold",
+              },
+              {
+                text: "es una función de Scala que imprime un mensaje en la consola.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "}",
+                content: "bold",
+              },
+              {
+                text: " - Cierra el método ",
+                content: "plain",
+              },
+              {
+                text: "main().",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "}",
+                content: "bold",
+              },
+              {
+                text: " - Cierra la clase ",
+                content: "plain",
+              },
+              {
+                text: "Hello.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Ensamblador",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class2/hello_world_ensamblador.png",
+              alt: "HelloWorld.asm",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Veamos la sintaxis y semántica de ensamblador:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "section .data",
+                content: "bold",
+              },
+              {
+                text: " - Define una sección de datos llamada ",
+                content: "plain",
+              },
+              {
+                text: ".data",
+                content: "bold",
+              },
+              {
+                text: ", donde se declaran las variables y datos constantes. que se utilizan en el programa.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'hello db "Hello, World!",0',
+                content: "bold",
+              },
+              {
+                text: " - Define una variable llamada ",
+                content: "plain",
+              },
+              {
+                text: "hello",
+                content: "bold",
+              },
+              {
+                text: " de tipo ",
+                content: "plain",
+              },
+              {
+                text: "db",
+                content: "bold",
+              },
+              {
+                text: ' (byte) que almacena el texto "Hello, World!"  seguida de un byte nulo (0).',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "section .text",
+                content: "bold",
+              },
+              {
+                text: " - Define una sección de código llamada ",
+                content: "plain",
+              },
+              {
+                text: ".text",
+                content: "bold",
+              },
+              {
+                text: ", donde se coloca el código ejecutable.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "global _start",
+                content: "bold",
+              },
+              {
+                text: " - Define un label llamado ",
+                content: "plain",
+              },
+              {
+                text: "_start",
+                content: "bold",
+              },
+              {
+                text: " como una entrada global, indicando el punto de entrada del programa.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "_start:",
+                content: "bold",
+              },
+              {
+                text: " - Etiqueta que marca el comienzo del código de inicio del programa",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Código de impresión:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "mov eax, 4         ; syscall number for sys_write",
+                content: "bold",
+              },
+              {
+                text: " - Coloca el número de syscall para sys_write en el registro ",
+                content: "plain",
+              },
+              {
+                text: "eax.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "mov ebx, 1         ; file descriptor 1 (stdout)",
+                content: "bold",
+              },
+              {
+                text: " - Coloca el descriptor de archivo 1 (stdout) en el registro ",
+                content: "plain",
+              },
+              {
+                text: "ebx.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "mov ecx, hello     ; pointer to the message",
+                content: "bold",
+              },
+              {
+                text: " - Coloca la dirección de la cadena hello en el registro ",
+                content: "plain",
+              },
+              {
+                text: "ecx.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "mov edx, 13        ; message length",
+                content: "bold",
+              },
+              {
+                text: " - Coloca la longitud del mensaje (13 caracteres) en el registro ",
+                content: "plain",
+              },
+              {
+                text: "edx.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "int 0x80           ; invoke syscall",
+                content: "bold",
+              },
+              {
+                text: ' - Ejecuta una instrucción de sistema que imprime "Hello, World!" en la consola. ',
+                content: "plain",
+              },
+              {
+                text: "int 0x80.",
+                content: "bold",
+              },
+              {
+                text: " es una instrucción de sistema que invoca un syscall.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Código de salida:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "mov eax, 1         ; syscall number for sys_exit",
+                content: "bold",
+              },
+              {
+                text: " - Coloca el número de syscall para sys_exit en el registro ",
+                content: "plain",
+              },
+              {
+                text: "eax.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "xor ebx, ebx       ; exit code 0",
+                content: "bold",
+              },
+              {
+                text: " - Coloca 0 en el registro  ",
+                content: "plain",
+              },
+              {
+                text: "ebx.",
+                content: "bold",
+              },
+              {
+                text: "(código de salida 0) usando el operador XOR.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "int 0x80           ; invoke syscall",
+                content: "bold",
+              },
+              {
+                text: " - Invoca la interrupción del sistema para realizar la llamada al sistema y finalizar el programa.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Resumiendo",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'La impresión de "Hello World" en diferentes lenguajes de programación demuestra la ',
+                content: "plain",
+              },
+              {
+                text: "diversidad en la sintaxis y estructura de cada uno. ",
+                content: "plain",
+              },
+              {
+                text: 'Desde Python, con su simplicidad, hasta ensamblador, con su complejidad, cada lenguaje tiene su propia forma de expresar el mismo concepto. A través de este ejercicio, queda claro que la elección del lenguaje depende de factores como la tarea a realizar, la eficiencia, la legibilidad y las preferencias personales. Sin embargo, independientemente del lenguaje, el objetivo final es el mismo: comunicar el mensaje "Hello World".',
+                content: "plain",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export default classes;
