@@ -59,6 +59,11 @@ let classIndex = [
           topicId: 5,
           link: "/courses/Python/class/2/5"
         },
+        {
+          title: "Bonus track",
+          topicId: 6,
+          link: "/courses/Python/class/2/6"
+        }
       ]
     },
   ]
