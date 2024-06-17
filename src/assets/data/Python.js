@@ -3093,6 +3093,209 @@ let classes = [
       }
     ],
   },
+  {
+    class:  3,
+    topics: 5,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "🐍 Variables en Python 🐍",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "¿Que es una variable?: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En programación, una variable es un espacio en la memoria de tu computadora que se utiliza para almacenar información de un determinado tipo de dato.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Las variables se identifican con un nombre único y sus valores pueden cambiar.",
+                content: "plain",
+              },
+              {
+                text: "Pueden ser un valor:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Numerico,",
+                    content: "bold",
+                  },
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Entero(int): ",
+                            content: "bold",
+                          },
+                          {
+                            text: "Números sin decimales, como 1, 2, 3, etc.",
+                            content: "plain",
+                          }
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "De punto Flotante(float): ",
+                            content: "bold",
+                          },
+                          {
+                            text: "Números con decimales, como 1.5, 2.3123, etc.",
+                            content: "plain",
+                          }
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Complejos (clompex): ",
+                            content: "bold",
+                          },
+                          {
+                            text: "Números con una parte real y una parte imaginaria, como 1+2j, 3-4j, etc.",
+                            content: "plain",
+                          }
+                        ],
+                      },
+                    ],
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Texto (string): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Por Ejemlo \"Hola Mundo\", \"Curso de Programacion\".",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Booleanos (bool): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Valores que solo pueden ser True o False. (Verdadero y Falso)",
+                    content: "plain",
+                  },
+                ],
+              },  
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Fecha y Hora.",
+                    content: "bold",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            tyoe: "p",
+            info: [
+              {
+                text: "Una vez almacenada se puede utilizar para realizar operaciones, mostrar resultados, etc.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Veamos un Ejemplo: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class3/variables.png",
+              alt: "variables",
+            },
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Concatenacion de String y Variables: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class3/concatenacion.png",
+              alt: "concatenacion",
+            },
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Nombres de variables: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En la mayoría de lenguajes de programación existe el concepto de variables. Las variables permiten asignar nombres coherentes a información para ser reutilizada con facilidad.",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
+    ]
+  }
 ];
 
 export default classes;
