@@ -3147,7 +3147,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Numerico,",
+                    text: "Numerico: ",
                     content: "bold",
                   },
                   {
@@ -3452,14 +3452,48 @@ let classes = [
             ],
           },
           {
-            type: "h2",
+            type: "table",
+            columns: 4,
+            title: "Keywords en Python",
             info: [
               {
-                text: "Falta la tabla",
+                row: ["False", "assert", "return", "None"],
                 content: "plain",
               },
+              {
+                row: ["break", "try", "True", "class"],
+                content: "plain",
+              },
+              {
+                row: ["while", "elif", "continue", "with"],
+                content: "plain",
+              },
+              {
+                row: ["else", "def", "yield", "except"],
+                content: "plain",
+              },
+              {
+                row: ["del", "from", "finally", "for"],
+                content: "plain",
+              },
+              {
+                row: ["global", "if", "import", "in"],
+                content: "plain",
+              },
+              {
+                row: ["is", "lambda", "nonlocal", "not"],
+                content: "plain",
+              },
+              {
+                row: ["or", "pass", "raise", "try"],
+                content: "plain",
+              },
+              {
+                row: ["while", "with", " - ", " - "],
+                content: "plain",
+              }
             ],
-          }
+          },
         ]
       },
       {
