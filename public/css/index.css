@@ -299,6 +299,47 @@ iframe{
 	box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
+table {
+	border-collapse: collapse;
+	margin-bottom: 3px;
+	color: var(--darkblue);
+	text-align: center;
+	width: fit-content;
+	margin: auto;
+	border: 1px solid #ebebeb;
+}
+
+table td,
+table th {
+    padding: 5px;
+    border-top: 1px solid #ebebeb;
+	border: 2px solid #225;
+    width: auto;
+	min-width: 100px;
+	
+}
+
+table thead th {
+    vertical-align: bottom;
+	border-bottom-width: 2px;
+}
+
+table td{
+	font-weight: 500;
+}
+
+.table-responsive{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-block: 8px;
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    overflow-x: scroll;
+}
+
+
+
 @media (min-width: 870px){
 	body{
 		overflow: hidden;
@@ -335,6 +376,11 @@ iframe{
 	section{
 		max-width: 500px;
 		margin: auto;
+	}
+
+	table{
+		overflow-x: auto;
+		border: 0;
 	}
 	.hidden{
 		display: none;
