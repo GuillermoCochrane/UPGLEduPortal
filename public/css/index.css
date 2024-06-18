@@ -153,7 +153,6 @@ article ul li::before{
 }
 
 ul ul li{
-	margin-inline: 2em;
 	padding-inline: .5em;
 }
 
