@@ -11,9 +11,10 @@ import Answer from '../../partials/Answer/Answer.jsx';
 import classesIA from  "../../../assets/data/IAChatGPT.js";
 import classesPython from  "../../../assets/data/Python.js";
 import NavButtons from '../../partials/Navbuttons/NavButtons.jsx';
-import NotFound from '../../partials/NotFound/NotFound.jsx';
 import Links from '../../partials/Links/Links.jsx';
 import Youtube from '../../partials/Youtube/Youtube.jsx';
+import Table from '../../partials/Table/Table.jsx';
+import NotFound from '../../partials/NotFound/NotFound.jsx';
 
 function Topics(params) {
   const [classData, setClassData] = useState([]);
@@ -78,7 +79,8 @@ function Topics(params) {
           item.type === "link" ? <Links key={index} Data={item.info} /> :
           item.type === "answer" ? <Answer key={index} Data={item.info} /> :
           item.type === "youtube" ? <Youtube key={index} Data={item.info} /> :
-          item.type === "ol" ? <OL key={index} Data={item.info} /> : null
+          item.type === "table" ? <Table key={index} Data={item.info} Columns={item.columns} Title={item.title} /> :
+          item.type === "ol" ? <OL key={index} Data={item.info}  /> : null
         )})
       }
       {
