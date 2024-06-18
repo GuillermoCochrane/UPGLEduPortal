@@ -3366,7 +3366,7 @@ let classes = [
             },
           },
           {
-            type: "h4",
+            type: "h3",
             info: [
               {
                 text: "Literales y expresiones: ",
@@ -3384,33 +3384,19 @@ let classes = [
             ],
           },
           {
-            type: "ul",
+            type: "h4",
             info: [
               {
-                type: "li",
-                info: [
-                  {
-                    text: "Literales: son datos descritos directamente en el código.",
-                    content: "plain",
-                  },
-                ],
+                text: "Literales: ",
+                content: "plain",
               },
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "Es información estática, puede ser simple o usar instancias de clases.",
-                    content: "plain",
-                  },
-                ],
-              }
             ],
           },
           {
             type: "p",
             info: [
               {
-                text: "La definición clave es que se conoce cuál será el valor asignado analizando el código.",
+                text: "Son datos descritos directamente en el código. Es información estática, puede ser simple o usar instancias de clases. La definición clave es que se conoce cuál será el valor asignado analizando el código.",
                 content: "plain",
               },
             ],
@@ -3435,7 +3421,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "son datos asignados tras la evaluación de una o varias sentencias. Suelen ser dinámicos y no se conoce el valor final analizando el código.",
+                text: "Son datos asignados tras la evaluación de una o varias sentencias. Suelen ser dinámicos y no se conoce el valor final analizando el código.",
                 content: "plain",
               },
             ],
