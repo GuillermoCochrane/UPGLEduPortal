@@ -3483,7 +3483,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "⚠ Nombres de variables en Python ⚠",
+                text: "Nombres de variables en Python",
                 content: "plain",
               },
             ],
@@ -3502,19 +3502,16 @@ let classes = [
             info: [
               {
                 text: "PEP8 ",
-                content: "bold",
-              },
-              {
-                text: "https://peps.python.org/pep-0008/",
                 content: "plain",
-              },
+                link: "https://peps.python.org/pep-0008/",
+              }
             ],
           },
           { 
-            type: "p",
+            type: "h4",
             info: [
               {
-                text: "Los nombres de las variables de Python deben de escribirse en snake_case. 🐍 ejemplo hola_mundo",
+                text: "Los nombres de las variables de Python deben de escribirse en snake_case. 🐍",
                 content: "plain",
               },
             ],
@@ -3522,8 +3519,21 @@ let classes = [
           {
             type: "p",
             info: [
+              { 
+                text: "Ejemplo: ", 
+                content: "bold" 
+              },
               {
-                text: "⚠ Además en deben de cumplir las siguientes características: ⚠",
+                text: "hola_mundo",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Además en deben de cumplir las siguientes características: ",
                 content: "plain",
               },
             ],
@@ -3691,7 +3701,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "POSICION DE MEMORIA",
+                text: "Posición de memoria",
                 content: "plain",
               },
             ],
@@ -3708,8 +3718,8 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class3/asignaciones_simples.png",
-              alt: "Asignaciones Simples",
+              img: "/images/Python/class3/posicion_memoria.png",
+              alt: "Posición de memoria",
             },
           },
           {
@@ -3768,7 +3778,7 @@ let classes = [
                     type: "figure",
                     info: {
                       img: "/images/Python/class3/nombres_reservados.png",
-                      alt: "Nombres Reservados",
+                      alt: "No Usar Nombres Reservados",
                     },
                   }
                 ],
@@ -3807,8 +3817,8 @@ let classes = [
                   {
                     type: "figure",
                     info: {
-                      img: "/images/Python/class3/nombres_validos.png",
-                      alt: "Nombres Validos",
+                      img: "/images/Python/class3/nombres_genericos.png",
+                      alt: "Evita nombres genéricos",
                     },
                   }
                 ],
@@ -3848,7 +3858,7 @@ let classes = [
                     type: "figure",
                     info: {
                       img: "/images/Python/class3/inicializacion.png",
-                      alt: "Inicializacion",
+                      alt: "Inicialización",
                     },
                   }
                 ],

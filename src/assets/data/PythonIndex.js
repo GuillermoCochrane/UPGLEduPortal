@@ -76,7 +76,7 @@ let classIndex = [
           link: "/courses/Python/class/3/1"
         },
         {
-          title: "Tipos de Asignaciones (=)",
+          title: "Tipos de Asignaciones ",
           topicId: 2,
           link: "/courses/Python/class/3/2"
         },
