@@ -4076,6 +4076,132 @@ let classes = [
         ]
       }
     ]
+  },
+  {
+    class:  4,
+    topics: 5,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "👨‍💻 Funcion INPUT en Python 👨‍💻",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "¿Qué es la función input()?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "La función input() en Python se usa para recibir datos del usuario mientras el programa se está ejecutando.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "El programa le pide al usuario que ingrese algo: Cuando el programa alcanza la línea de código que contiene ",
+                    content: "plain",
+                  },
+                  {
+                    text: "input()",
+                    content: "bold",
+                  },
+                  {
+                    text: ", se detiene y muestra un mensaje (si lo incluye entre comillas dentro de los paréntesis), esperando que el usuario escriba algo.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "El usuario ingresa un valor: El usuario escribe lo que quiera y luego presiona la tecla ",
+                    content: "plain",
+                  },
+                  {
+                    text: "Enter",
+                    content: "bold",
+                  },
+                  {
+                    text: " o ",
+                    content: "plain",
+                  },    
+                  {
+                    text: "Intro",
+                    content: "bold",
+                  },
+                  { 
+                    text: ".",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "El programa recibe y guarda lo que el usuario escribió: Lo que el usuario escribió se guarda como una cadena de texto (o string) y el programa lo puede utilizar más adelante.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Por ejemplo: ",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class4/Input.png",
+              alt: "Ejemplo input",
+            },
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "¡No solo se puede usar uno en nuestro codigo, podemos usar y almacenar la cantidad que necesitemos!",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class4/Input2.png",
+              alt: "Ejemplo 2 input ",
+            },
+          }
+        ]
+      },
+    ],
   }
 ];
 
