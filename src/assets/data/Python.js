@@ -4422,6 +4422,203 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Repasando variables",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "¿Te acordas que es una variable?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'En programación, una variable es un espacio en la memoria de tu computadora que se utiliza para almacenar información de un determinado tipo de dato. ¡La sintaxis de una variable es muy simple!',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class4/variables.png",
+              alt: "Variables",
+            },
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Recordá: ',
+                content: "bold",
+              },
+              {
+                text: 'Las variables pueden almacenar cualquier tipo de dato, ya sea:',
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: 'Una cadena de texto(string):',
+                    content: "bold",
+                  },
+                  {
+                    text: 'mi_variable = "Hola Mundo"',
+                    content: "plain",
+                  },
+                  {
+                    text: ', recordá que el texto que nuestra variable va a almacenar siempre tiene que estar entre comillas "TEXTO".',
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: 'Números enteros (Int):',
+                    content: "bold",
+                  },
+                  {
+                    text: 'mi_variable = 150',
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: 'Números decimales (Float):',
+                    content: "bold",
+                  },
+                  {
+                    text: 'mi_variable = 5.5',
+                    content: "plain",
+                  },
+                ],
+              },  
+              {
+                type: "li",
+                info: [
+                  {
+                    text: 'Números imaginarios (Complex):',
+                    content: "bold",
+                  },
+                  {
+                    text: 'mi_variable = 5j',
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: 'Valores Booleanos (Boolean):',
+                    content: "bold",
+                  },
+                  {
+                    text: 'mi_variable = True',
+                    content: "plain",
+                  },
+                  {
+                    text: 'o',
+                    content: "plain",
+                  },
+                  {
+                    text: 'mi_variable = False',
+                    content: "plain",
+                  },
+                  {
+                    text: ', recordá que estos valores son Palabras claves de python y deben estar escritos con la primer letra mayuscula, sino python no entenderá que es un booleano.',
+                    content: "plain",
+                  }  
+                ],
+              }
+
+
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "¡Podemos usar variables en operaciones matematicas!",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class4/operaciones_matematicas.png",
+              alt: "Operaciones matematicas",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "¿Y con cadenas de texto?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Con cadena de texto se puede usar el simbolo ',
+                content: "plain",
+              },
+              {
+                text: '+',
+                content: "bold",
+              },
+              {
+                text: ' para concatenar palabras y el simbolo ',
+                content: "plain",
+              },
+              {
+                text: '*',
+                content: "bold",
+              },
+              {
+                text: ' nos permité multiplicar el texto.',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class4/cadenas_texto.png",
+              alt: "Cadenas de texto",
+            },
+          },
+        ]
+      },
     ],
   }
 ];
