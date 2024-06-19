@@ -3885,8 +3885,95 @@ let classes = [
               },
             ],
           },
+          
         ]
       },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Actividades 💬",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "1 )- Escribir un programa que imprima un mensaje en la pantalla.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+              type: "answer",
+              info: [
+                {
+                  img: "/images/Python/class3/Ejercicio_1.png",
+                  alt: "Solución ejercicio 1",
+                },
+              ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "2 )- Escribir un programa que sume dos números.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+              type: "answer",
+              info: [
+                {
+                  img: "/images/Python/class3/Ejercicio_2.png",
+                  alt: "Solución ejercicio 2",
+                },
+              ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "3 )- Escribir 3 variables para que guarden Apellido y nombre - Email y telefono y mostrarlos en pantalla, con el siguiente mensaje \"Hola, Mi nombre es: ..., te paso mi contacto telefonico: ... y mi email: ...\"",
+                content: "plain",
+              },  
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class3/Ejercicio_3.png",
+                alt: "Solución ejercicio 3",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "4 )- Escribe un programa donde una variable llamada contador cambie a lo largo de la ejecucion del programa, que su primer valor sea 0, cambie a 5 y posteriormente a 25 para al finalizar el programa volver a ser 5.",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class3/Ejercicio_4.png",
+                alt: "Solución ejercicio 4",
+              },
+            ]
+          },
+        ]
+      }
     ]
   }
 ];
