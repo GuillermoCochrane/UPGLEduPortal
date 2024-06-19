@@ -96,7 +96,39 @@ let classIndex = [
           link: "/courses/Python/class/3/5"
         }
       ]
+    },
+    {
+      summary: "Funcion INPUT",
+      classId: 4,
+      links: [
+        {
+          title: "Función input()",
+          topicId: 1,
+          link: "/courses/Python/class/4/1"
+        },
+        {
+          title: 'Cadenas Formateadas con print( f" " )',
+          topicId: 2,
+          link: "/courses/Python/class/4/2"
+        },
+        {
+          title: "Repasando variables",
+          topicId: 3,
+          link: "/courses/Python/class/4/3"
+        },
+        {
+          title: "Actividades",
+          topicId: 4,
+          link: "/courses/Python/class/4/4"
+        },
+        {
+          title: "Bonus track",
+          topicId: 5,
+          link: "/courses/Python/class/4/5"
+        },
+      ]
     }
   ]
+
 
 export default  classIndex
