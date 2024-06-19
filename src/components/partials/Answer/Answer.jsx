@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 function Answer({Data}) {
   return (
           <details >
-            <summary>Ver Solución</summary>
+            <summary>{Data[0].alt}</summary>
             {
               Data.map ((item, index) => (
                 <figure key={index}>
