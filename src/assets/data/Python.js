@@ -3973,6 +3973,107 @@ let classes = [
             ]
           },
         ]
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus track 1: Más ejercicios",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Escribir un programa que imprima en pantalla la multiplicación y la división de dos variables.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class3/bonus_track_1.png",
+                alt: "Solución ejercicio 1",
+              },
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus track 2: Más extensiones para VS Code",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Python Development Extensions Pack: ",
+                content: "bold",
+              },
+              {
+                text: "Este paquete de extensiones agrupa algunas de las herramientas más populares y útiles para el desarrollo fullstack con Python y desarrollo web. Incluye 18 extensiones esenciales para evaluar código en tiempo real, depuración, fragmentos de código, corrección de indentación, generación de documentación, y más. Además, incluye el Git Extension Pack, que agrupa algunas de las extensiones de Git más populares. Este pack es una herramienta imprescindible para cualquier desarrollador de Python.",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class3/bonus_track_2.png",
+              alt: "Python Development Extensions Pack",
+            },
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus track 3: Tip para terminal",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Si hacen click derecho en un carpeta y seleccionan la opción ",
+                content: "plain",
+              },
+              {
+                text: '"open in integrated terminal"',
+                content: "bold",
+              },
+              {
+                text: ", se abrirá la consola de terminal en ese directorio.",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class3/bonus_track_3_1.png",
+              alt: "Opción de menú contextual",
+            },
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class3/bonus_track_3_2.png",
+              alt: "Consola de terminal",
+            },
+          }
+        ]
       }
     ]
   }
