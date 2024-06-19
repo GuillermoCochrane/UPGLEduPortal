@@ -4619,6 +4619,97 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Actividades: 💬",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Es hora de usar el metodo input para resolver ejercicios!",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "1 )- Escribir un programa que pida al usuario su nombre y lo salude por su nombre.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class4/Ejercicio_1.png",
+                alt: "Solución ejercicio 1",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "2 )- Escribir 3 variables para que guarden Apellido y nombre - Email y telefono y mostrarlos en pantalla, con el siguiente mensaje \"Hola, Mi nombre es: ..., te paso mi contacto telefonico: ... y mi email: ...\"",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: 'Pedirle al usuario que ponga como estuvo su dia (del 1 al 10) y luego mostrar el texto "Mi dia estuivo de: " y el valor ingresado',
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Pedir al usuario que ingrese su edad y su ciudad de residencia, y luego mostrar estos datos en una frase.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Solicitar al usuario que ingrese su comida favorita y su bebida favorita, luego mostrar un mensaje que contenga ambas respuestas.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class4/Ejercicio_2.png",
+                alt: "Solución ejercicio 2",
+              },
+            ]
+          },
+          ]
+      }
     ],
   }
 ];
