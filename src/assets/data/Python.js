@@ -4705,6 +4705,136 @@ let classes = [
           },
         ],
       },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus track",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Trivia 1",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Dado el siguiente Código, seleccione la opción correcta: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: 
+                  {
+                    img: "/images/Python/class4/trivia_1.png",
+                    alt: "Trivia 1",
+                  }
+          },
+          {
+            type: "trivia",
+            info: [
+              {
+                text: "Verdadero",
+                content: "plain",
+                name: "trivia1",
+                message: 'La respuesta es incorrecta, porque  si bien los procesos están bien pero lo mostrado en pantalla es: "hola mundo hermosa mañana verdad?hermosa mañana verdad?"',
+              },
+              {
+                text: "Falso",
+                content: "plain",
+                name: "trivia1",
+                correct: true,
+                message: "La respuesta es correcta",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Trivia 2",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Dado el siguiente Código, seleccione la opción correcta: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: 
+                  {
+                    img: "/images/Python/class4/trivia_2.png",
+                    alt: "Trivia 2",
+                  }
+          },
+          {
+            type: "trivia",
+            info: [
+              {
+                text: "Verdadero",
+                content: "plain",
+                name: "trivia2",
+                message: 'La respuesta es incorrecta, porque el tipo de dato ingresado es string. Por lo tanto, lo que nos muestra en consola es 1050, la concatenación de las 2 entradas',
+              },
+              {
+                text: "Falso",
+                content: "plain",
+                name: "trivia2",
+                correct: true,
+                message: "La respuesta es correcta",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Editor de codigo online",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En la siguiente página encontrarás un editor de código online que te permite escribir y ejecutar tu código en Python. Puedes usar este editor para resolver los ejercicios de la clase y para practicar tus habilidades en Python.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "link",
+            info: [
+              {
+                text: "Editor de código online",
+                content: "plain",
+                link: "https://www.online-python.com/",
+              },
+            ],
+          },
+        ]
+      }
     ],
   },
 ];
