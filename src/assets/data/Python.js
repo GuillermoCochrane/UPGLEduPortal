@@ -1283,7 +1283,7 @@ let classes = [
                   {
                     text: ". Si la instalación fue correcta, debería mostrar la versión de Python que instalaste.",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -2960,7 +2960,7 @@ let classes = [
               },
               {
                 text: " (Atajo por defecto)",
-              }
+              },
             ],
           },
           {
@@ -3041,12 +3041,12 @@ let classes = [
                       img: "/images/Python/class2/Bouns_track2.jpg",
                       alt: "Ejecutar el archivo de Python en terminal",
                     },
-                  },  
+                  },
                   {
-                    text: 'python 1.py',
+                    text: "python 1.py",
                     content: "bold",
                   },
-                ]
+                ],
               },
               {
                 type: "li",
@@ -3061,8 +3061,8 @@ let classes = [
                       img: "/images/Python/class2/Bouns_track3.jpg",
                       alt: "Ejecutar el archivo desde el ícono",
                     },
-                  }
-                ]
+                  },
+                ],
               },
             ],
           },
@@ -3085,16 +3085,15 @@ let classes = [
               {
                 text: "Windows + .",
                 content: "bold",
-              }
+              },
             ],
-          }
-
+          },
         ],
-      }
+      },
     ],
   },
   {
-    class:  3,
+    class: 3,
     topics: 5,
     title: {
       type: "h2",
@@ -3163,7 +3162,7 @@ let classes = [
                           {
                             text: "Números sin decimales, como 1, 2, 3, etc.",
                             content: "plain",
-                          }
+                          },
                         ],
                       },
                       {
@@ -3176,7 +3175,7 @@ let classes = [
                           {
                             text: "Números con decimales, como 1.5, 2.3123, etc.",
                             content: "plain",
-                          }
+                          },
                         ],
                       },
                       {
@@ -3189,11 +3188,11 @@ let classes = [
                           {
                             text: "Números con una parte real y una parte imaginaria, como 1+2j, 3-4j, etc.",
                             content: "plain",
-                          }
+                          },
                         ],
                       },
                     ],
-                  }
+                  },
                 ],
               },
               {
@@ -3204,7 +3203,7 @@ let classes = [
                     content: "bold",
                   },
                   {
-                    text: "Por Ejemlo \"Hola Mundo\", \"Curso de Programacion\".",
+                    text: 'Por Ejemlo "Hola Mundo", "Curso de Programacion".',
                     content: "plain",
                   },
                 ],
@@ -3221,7 +3220,7 @@ let classes = [
                     content: "plain",
                   },
                 ],
-              },  
+              },
               {
                 type: "li",
                 info: [
@@ -3292,7 +3291,7 @@ let classes = [
               },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 2,
@@ -3491,10 +3490,10 @@ let classes = [
               {
                 row: ["while", "with", " - ", " - "],
                 content: "plain",
-              }
+              },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 3,
@@ -3524,10 +3523,10 @@ let classes = [
                 text: "PEP8 ",
                 content: "plain",
                 link: "https://peps.python.org/pep-0008/",
-              }
+              },
             ],
           },
-          { 
+          {
             type: "h4",
             info: [
               {
@@ -3539,14 +3538,14 @@ let classes = [
           {
             type: "p",
             info: [
-              { 
-                text: "Ejemplo: ", 
-                content: "bold" 
+              {
+                text: "Ejemplo: ",
+                content: "bold",
               },
               {
                 text: "hola_mundo",
                 content: "plain",
-              }
+              },
             ],
           },
           {
@@ -3586,7 +3585,7 @@ let classes = [
                     text: "Los nombres deben de ser descriptivos.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -3694,7 +3693,7 @@ let classes = [
                   {
                     text: "0number",
                     content: "plain",
-                  },  
+                  },
                 ],
               },
               {
@@ -3780,7 +3779,7 @@ let classes = [
                       img: "/images/Python/class3/nombres_descriptivos.png",
                       alt: "Nombres Descriptivos",
                     },
-                  }
+                  },
                 ],
               },
               {
@@ -3800,7 +3799,7 @@ let classes = [
                       img: "/images/Python/class3/nombres_reservados.png",
                       alt: "No Usar Nombres Reservados",
                     },
-                  }
+                  },
                 ],
               },
               {
@@ -3820,9 +3819,9 @@ let classes = [
                       img: "/images/Python/class3/convenciones_estilo.png",
                       alt: "Convenciones Estilo",
                     },
-                  }
+                  },
                 ],
-              }, 
+              },
               {
                 type: "li",
                 info: [
@@ -3840,7 +3839,7 @@ let classes = [
                       img: "/images/Python/class3/nombres_genericos.png",
                       alt: "Evita nombres genéricos",
                     },
-                  }
+                  },
                 ],
               },
               {
@@ -3860,7 +3859,7 @@ let classes = [
                       img: "/images/Python/class3/constantes.png",
                       alt: "Constantes",
                     },
-                  }
+                  },
                 ],
               },
               {
@@ -3880,13 +3879,12 @@ let classes = [
                       img: "/images/Python/class3/inicializacion.png",
                       alt: "Inicialización",
                     },
-                  }
+                  },
                 ],
               },
             ],
           },
-          
-        ]
+        ],
       },
       {
         topic: 4,
@@ -3910,13 +3908,13 @@ let classes = [
             ],
           },
           {
-              type: "answer",
-              info: [
-                {
-                  img: "/images/Python/class3/Ejercicio_1.png",
-                  alt: "Solución ejercicio 1",
-                },
-              ],
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class3/Ejercicio_1.png",
+                alt: "Solución ejercicio 1",
+              },
+            ],
           },
           {
             type: "p",
@@ -3928,21 +3926,21 @@ let classes = [
             ],
           },
           {
-              type: "answer",
-              info: [
-                {
-                  img: "/images/Python/class3/Ejercicio_2.png",
-                  alt: "Solución ejercicio 2",
-                },
-              ],
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class3/Ejercicio_2.png",
+                alt: "Solución ejercicio 2",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: "3 )- Escribir 3 variables para que guarden Apellido y nombre - Email y telefono y mostrarlos en pantalla, con el siguiente mensaje \"Hola, Mi nombre es: ..., te paso mi contacto telefonico: ... y mi email: ...\"",
+                text: '3 )- Escribir 3 variables para que guarden Apellido y nombre - Email y telefono y mostrarlos en pantalla, con el siguiente mensaje "Hola, Mi nombre es: ..., te paso mi contacto telefonico: ... y mi email: ..."',
                 content: "plain",
-              },  
+              },
             ],
           },
           {
@@ -3952,7 +3950,7 @@ let classes = [
                 img: "/images/Python/class3/Ejercicio_3.png",
                 alt: "Solución ejercicio 3",
               },
-            ]
+            ],
           },
           {
             type: "p",
@@ -3961,7 +3959,7 @@ let classes = [
                 text: "4 )- Escribe un programa donde una variable llamada contador cambie a lo largo de la ejecucion del programa, que su primer valor sea 0, cambie a 5 y posteriormente a 25 para al finalizar el programa volver a ser 5.",
                 content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "answer",
@@ -3970,9 +3968,9 @@ let classes = [
                 img: "/images/Python/class3/Ejercicio_4.png",
                 alt: "Solución ejercicio 4",
               },
-            ]
+            ],
           },
-        ]
+        ],
       },
       {
         topic: 5,
@@ -4002,7 +4000,7 @@ let classes = [
                 img: "/images/Python/class3/bonus_track_1.png",
                 alt: "Solución ejercicio 1",
               },
-            ]
+            ],
           },
           {
             type: "h3",
@@ -4023,7 +4021,7 @@ let classes = [
               {
                 text: "Este paquete de extensiones agrupa algunas de las herramientas más populares y útiles para el desarrollo fullstack con Python y desarrollo web. Incluye 18 extensiones esenciales para evaluar código en tiempo real, depuración, fragmentos de código, corrección de indentación, generación de documentación, y más. Además, incluye el Git Extension Pack, que agrupa algunas de las extensiones de Git más populares. Este pack es una herramienta imprescindible para cualquier desarrollador de Python.",
                 content: "plain",
-              }
+              },
             ],
           },
           {
@@ -4040,7 +4038,7 @@ let classes = [
                 text: "Bonus track 3: Tip para terminal",
                 content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "p",
@@ -4056,8 +4054,8 @@ let classes = [
               {
                 text: ", se abrirá la consola de terminal en ese directorio.",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "figure",
@@ -4072,13 +4070,13 @@ let classes = [
               img: "/images/Python/class3/bonus_track_3_2.png",
               alt: "Consola de terminal",
             },
-          }
-        ]
-      }
-    ]
+          },
+        ],
+      },
+    ],
   },
   {
-    class:  4,
+    class: 4,
     topics: 5,
     title: {
       type: "h2",
@@ -4145,12 +4143,12 @@ let classes = [
                   {
                     text: " o ",
                     content: "plain",
-                  },    
+                  },
                   {
                     text: "Intro",
                     content: "bold",
                   },
-                  { 
+                  {
                     text: ".",
                     content: "plain",
                   },
@@ -4165,7 +4163,7 @@ let classes = [
                   },
                 ],
               },
-            ]
+            ],
           },
           {
             type: "p",
@@ -4174,12 +4172,12 @@ let classes = [
                 text: "Por ejemplo: ",
                 content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "figure",
             info: {
-              img: "/images/Python/class4/Input.png",
+              img: "/images/Python/class4/Input_1.png",
               alt: "Ejemplo input",
             },
           },
@@ -4195,11 +4193,11 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class4/Input2.png",
+              img: "/images/Python/class4/Input_2.png",
               alt: "Ejemplo 2 input ",
             },
-          }
-        ]
+          },
+        ],
       },
       {
         topic: 2,
@@ -4217,15 +4215,15 @@ let classes = [
             type: "p",
             info: [
               {
-                text: 'En Python, ',
+                text: "En Python, ",
                 content: "plain",
               },
               {
-                text: 'print()',
+                text: "print()",
                 content: "bold",
-              } ,
+              },
               {
-                text: ' es una función que se usa para mostrar información en la consola. El código ',
+                text: " es una función que se usa para mostrar información en la consola. El código ",
                 content: "plain",
               },
               {
@@ -4233,7 +4231,7 @@ let classes = [
                 content: "bold",
               },
               {
-                text: ' utiliza cadenas formateadas con f (f-strings en inglés), una característica poderosa introducida en Python 3.6, para crear cadenas con formato que integran variables sin problemas.',
+                text: " utiliza cadenas formateadas con f (f-strings en inglés), una característica poderosa introducida en Python 3.6, para crear cadenas con formato que integran variables sin problemas.",
                 content: "plain",
               },
             ],
@@ -4242,7 +4240,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: 'Desglose del código:',
+                text: "Desglose del código:",
                 content: "plain",
               },
             ],
@@ -4251,11 +4249,11 @@ let classes = [
             type: "p",
             info: [
               {
-                text: 'print()',
+                text: "print()",
                 content: "bold",
               },
               {
-                text: ': Esta función envía los datos proporcionados a la consola para su visualización.',
+                text: ": Esta función envía los datos proporcionados a la consola para su visualización.",
                 content: "plain",
               },
             ],
@@ -4277,36 +4275,35 @@ let classes = [
             type: "p",
             info: [
               {
-                text: '{...variable}',
+                text: "{...variable}",
                 content: "bold",
               },
               {
-                text: ': Dentro de las llaves ',
+                text: ": Dentro de las llaves ",
                 content: "plain",
               },
               {
-                text: '{}',
+                text: "{}",
                 content: "bold",
               },
               {
-                text: ', se coloca el nombre de la variable cuyo valor desea insertar en la cadena.',
+                text: ", se coloca el nombre de la variable cuyo valor desea insertar en la cadena.",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
-            info: 
-              {
-                img: "/images/Python/class4/print_f.png",
-                alt: 'Cadenas formateadas con print(f"")',
-              }
-          }, 
+            info: {
+              img: "/images/Python/class4/print_f.png",
+              alt: 'Cadenas formateadas con print(f"")',
+            },
+          },
           {
             type: "h4",
             info: [
               {
-                text: 'Cómo funciona:',
+                text: "Cómo funciona: ",
                 content: "plain",
               },
             ],
@@ -4318,15 +4315,15 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: 'Python evalúa la expresión dentro de las llaves (',
+                    text: "Python evalúa la expresión dentro de las llaves (",
                     content: "plain",
                   },
                   {
-                    text: '{...variable}',
+                    text: "{...variable}",
                     content: "bold",
-                  },  
+                  },
                   {
-                    text: ') y recupera el valor de la variable.',
+                    text: ") y recupera el valor de la variable.",
                     content: "plain",
                   },
                 ],
@@ -4335,7 +4332,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: 'El valor de la variable reemplaza la ubicación correspondiente de las llaves dentro de la cadena formateada con f.',
+                    text: "El valor de la variable reemplaza la ubicación correspondiente de las llaves dentro de la cadena formateada con f.",
                     content: "plain",
                   },
                 ],
@@ -4344,26 +4341,26 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: 'La cadena formateada completa se envía luego a la función ',
+                    text: "La cadena formateada completa se envía luego a la función ",
                     content: "plain",
                   },
                   {
-                    text: 'print()',
+                    text: "print()",
                     content: "bold",
                   },
                   {
-                    text: ' para que se muestre en la consola.',
+                    text: " para que se muestre en la consola.",
                     content: "plain",
                   },
                 ],
               },
-            ]
+            ],
           },
           {
             type: "h4",
             info: [
               {
-                text: 'Beneficios de las cadenas formateadas con f:',
+                text: "Beneficios de las cadenas formateadas con f:",
                 content: "plain",
               },
             ],
@@ -4375,11 +4372,11 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: 'Legibilidad:',
+                    text: "Legibilidad: ",
                     content: "bold",
                   },
                   {
-                    text: 'Mejoran la legibilidad del código al dejar en claro dónde se usan las variables.',
+                    text: "Mejoran la legibilidad del código al dejar en claro dónde se usan las variables.",
                     content: "plain",
                   },
                 ],
@@ -4388,19 +4385,19 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: 'Concisión:',
+                    text: "Concisión: ",
                     content: "bold",
                   },
                   {
-                    text: 'Ofrecen una forma compacta de formatear cadenas sin necesidad de concatenación de cadenas o el método ',
+                    text: "Ofrecen una forma compacta de formatear cadenas sin necesidad de concatenación de cadenas o el método ",
                     content: "plain",
                   },
                   {
-                    text: '.format()',
+                    text: ".format()",
                     content: "bold",
                   },
                   {
-                    text: '.',
+                    text: ".",
                     content: "plain",
                   },
                 ],
@@ -4409,18 +4406,18 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: 'Flexibilidad:',
+                    text: "Flexibilidad: ",
                     content: "bold",
                   },
                   {
-                    text: 'Puede incorporar expresiones y otras opciones de formato dentro de las llaves.',
+                    text: "Puede incorporar expresiones y otras opciones de formato dentro de las llaves.",
                     content: "plain",
                   },
                 ],
               },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 3,
@@ -4447,7 +4444,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: 'En programación, una variable es un espacio en la memoria de tu computadora que se utiliza para almacenar información de un determinado tipo de dato. ¡La sintaxis de una variable es muy simple!',
+                text: "En programación, una variable es un espacio en la memoria de tu computadora que se utiliza para almacenar información de un determinado tipo de dato. ¡La sintaxis de una variable es muy simple!",
                 content: "plain",
               },
             ],
@@ -4463,14 +4460,14 @@ let classes = [
             type: "p",
             info: [
               {
-                text: 'Recordá: ',
+                text: "Recordá: ",
                 content: "bold",
               },
               {
-                text: 'Las variables pueden almacenar cualquier tipo de dato, ya sea:',
+                text: "Las variables pueden almacenar cualquier tipo de dato, ya sea:",
                 content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "ul",
@@ -4479,7 +4476,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: 'Una cadena de texto(string):',
+                    text: "Una cadena de texto(string):",
                     content: "bold",
                   },
                   {
@@ -4496,11 +4493,11 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: 'Números enteros (Int):',
+                    text: "Números enteros (Int):",
                     content: "bold",
                   },
                   {
-                    text: 'mi_variable = 150',
+                    text: "mi_variable = 150",
                     content: "plain",
                   },
                 ],
@@ -4509,24 +4506,11 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: 'Números decimales (Float):',
+                    text: "Números decimales (Float):",
                     content: "bold",
                   },
                   {
-                    text: 'mi_variable = 5.5',
-                    content: "plain",
-                  },
-                ],
-              },  
-              {
-                type: "li",
-                info: [
-                  {
-                    text: 'Números imaginarios (Complex):',
-                    content: "bold",
-                  },
-                  {
-                    text: 'mi_variable = 5j',
+                    text: "mi_variable = 5.5",
                     content: "plain",
                   },
                 ],
@@ -4535,30 +4519,41 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: 'Valores Booleanos (Boolean):',
+                    text: "Números imaginarios (Complex):",
                     content: "bold",
                   },
                   {
-                    text: 'mi_variable = True',
+                    text: "mi_variable = 5j",
                     content: "plain",
                   },
-                  {
-                    text: 'o',
-                    content: "plain",
-                  },
-                  {
-                    text: 'mi_variable = False',
-                    content: "plain",
-                  },
-                  {
-                    text: ', recordá que estos valores son Palabras claves de python y deben estar escritos con la primer letra mayuscula, sino python no entenderá que es un booleano.',
-                    content: "plain",
-                  }  
                 ],
-              }
-
-
-            ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Valores Booleanos (Boolean):",
+                    content: "bold",
+                  },
+                  {
+                    text: "mi_variable = True",
+                    content: "plain",
+                  },
+                  {
+                    text: "o",
+                    content: "plain",
+                  },
+                  {
+                    text: "mi_variable = False",
+                    content: "plain",
+                  },
+                  {
+                    text: ", recordá que estos valores son Palabras claves de python y deben estar escritos con la primer letra mayuscula, sino python no entenderá que es un booleano.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
@@ -4589,23 +4584,23 @@ let classes = [
             type: "p",
             info: [
               {
-                text: 'Con cadena de texto se puede usar el simbolo ',
+                text: "Con cadena de texto se puede usar el simbolo ",
                 content: "plain",
               },
               {
-                text: '+',
+                text: "+",
                 content: "bold",
               },
               {
-                text: ' para concatenar palabras y el simbolo ',
+                text: " para concatenar palabras y el simbolo ",
                 content: "plain",
               },
               {
-                text: '*',
+                text: "*",
                 content: "bold",
               },
               {
-                text: ' nos permité multiplicar el texto.',
+                text: " nos permité multiplicar el texto.",
                 content: "plain",
               },
             ],
@@ -4617,7 +4612,7 @@ let classes = [
               alt: "Cadenas de texto",
             },
           },
-        ]
+        ],
       },
       {
         topic: 4,
@@ -4662,7 +4657,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "2 )- Escribir 3 variables para que guarden Apellido y nombre - Email y telefono y mostrarlos en pantalla, con el siguiente mensaje \"Hola, Mi nombre es: ..., te paso mi contacto telefonico: ... y mi email: ...\"",
+                text: '2 )- Escribir 3 variables para que guarden Apellido y nombre - Email y telefono y mostrarlos en pantalla, con el siguiente mensaje "Hola, Mi nombre es: ..., te paso mi contacto telefonico: ... y mi email: ..."',
                 content: "plain",
               },
             ],
@@ -4697,7 +4692,7 @@ let classes = [
                   },
                 ],
               },
-            ]
+            ],
           },
           {
             type: "answer",
@@ -4706,12 +4701,12 @@ let classes = [
                 img: "/images/Python/class4/Ejercicio_2.png",
                 alt: "Solución ejercicio 2",
               },
-            ]
+            ],
           },
-          ]
-      }
+        ],
+      },
     ],
-  }
+  },
 ];
 
 export default classes;
