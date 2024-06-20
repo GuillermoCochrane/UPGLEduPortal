@@ -14,6 +14,7 @@ import NavButtons from '../../partials/Navbuttons/NavButtons.jsx';
 import Links from '../../partials/Links/Links.jsx';
 import Youtube from '../../partials/Youtube/Youtube.jsx';
 import Table from '../../partials/Table/Table.jsx';
+import Trivia from '../../partials/Trivia/Trivia.jsx';
 import NotFound from '../../partials/NotFound/NotFound.jsx';
 
 function Topics(params) {
@@ -79,6 +80,7 @@ function Topics(params) {
           item.type === "link" ? <Links key={index} Data={item.info} /> :
           item.type === "answer" ? <Answer key={index} Data={item.info} /> :
           item.type === "youtube" ? <Youtube key={index} Data={item.info} /> :
+          item.type === "trivia" ? <Trivia key={index} Data={item.info} /> :
           item.type === "table" ? <Table key={index} Data={item.info} Columns={item.columns} Title={item.title} /> :
           item.type === "ol" ? <OL key={index} Data={item.info}  /> : null
         )})
