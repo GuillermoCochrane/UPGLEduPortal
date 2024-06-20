@@ -341,6 +341,30 @@ table td{
     overflow-x: scroll;
 }
 
+form{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	min-width: 300px;
+	width: 50%;
+	margin-inline: auto;
+}
+form section{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: left;
+	gap: 5px;
+}
+
+form button{
+	max-width: fit-content;
+	margin-inline: auto;
+}
+form strong{
+	display: block;
+	margin: auto;
+}
 
 
 @media (min-width: 870px){
