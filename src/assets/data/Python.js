@@ -4837,6 +4837,294 @@ let classes = [
       }
     ],
   },
+  {
+    class: 5,
+    topics: 7,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "🛑 Tipos de datos en Python 🛑",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Tipos de datos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En Python, los tipos de datos son esenciales para organizar y manipular información. Dominarlos es crucial para escribir código eficiente y preciso. En esta guía, exploraremos los tipos de datos básicos y avanzados, sus características y ejemplos prácticos para ayudarte a dominar este tema fundamental.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Tipos de datos básicos:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Numéricos:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Enteros (int): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Números sin decimales, como 1, 2, 3. Ejemplo: edad = 25",
+                    content: "plain",
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Punto flotante (float): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Números con decimales, como 3.14, 1.5.",
+                    content: "plain",
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Complejos (complex): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Números con parte real e imaginaria, como 1+2j. Ejemplo: z = 1 + 2j",
+                    content: "plain",
+                  }
+                ],
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo de Enteros:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: 
+                  {
+                    img: "/images/Python/class5/tipos_de_datos/enteros.png",
+                    alt: "Tipos de datos: Enteros",
+                  }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo de Punto flotante:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: 
+                  {
+                    img: "/images/Python/class4/tipos_de_datos/punto_flotante.png",
+                    alt: "Tipos de datos: Punto flotante",
+                  }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Cadena",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Cadenas (str): ",
+                    content: "bold",
+                  },
+                  {
+                    text: 'Secuencias de caracteres, como "Hola mundo", "Python 3". Ejemplo: nombre = "Juan Pérez"',
+                    content: "plain",
+                  }
+                ],
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo de cadena:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: 
+                  {
+                    img: "/images/Python/class4/tipos_de_datos/cadena.png",
+                    alt: "Tipos de datos: Cadena",
+                  }
+          },
+          {
+            type: "h4", 
+            info: [
+              {
+                text: "Booleanos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Booleanos (bool): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Valores True o False que representan condiciones. Ejemplo: esta_activo = True",
+                    content: "plain",
+                  }
+                ],
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: 
+                  {
+                    img: "/images/Python/class4/tipos_de_datos/booleanos.png",
+                    alt: "Tipos de datos: Booleanos",
+                  }
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Tipos de datos avanzados",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Listas (list): ",
+                    content: "bold",
+                  },
+                  {
+                    text: 'Colecciones ordenadas y mutables de cualquier tipo de dato. Ejemplo: lista_nombres = ["Ana", "Pedro", "María"]',
+                    content: "plain",
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Tuplas (tuple): ",
+                    content: "bold",
+                  },
+                  {
+                    text: 'Colecciones ordenadas e inmutables de cualquier tipo de dato. Ejemplo: coordenadas = (10, 20, 30)',
+                    content: "plain",
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Diccionarios (dict): ",
+                    content: "bold",
+                  },
+                  {
+                    text: 'Colecciones no ordenadas que mapean claves a valores. Ejemplo: diccionario_edades = {"Ana": 25, "Pedro": 30}',
+                    content: "plain",
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Conjuntos (set): ",
+                    content: "bold",
+                  },
+                  {
+                    text: 'Colecciones no ordenadas y sin duplicados de cualquier tipo de dato. Ejemplo: conjunto_colores = {"azul", "verde", "rojo"}',
+                    content: "plain",
+                  }
+                ],
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Todos los tipos de datos son almacenados en python como objetos. Un objeto es una entidad que contiene datos y métodos. los datos de un objeto se almacenan en atributos, mientras que los metodos son las acciones que el objeto puede realizar",
+                content: "plain",
+              },
+            ],
+          },
+        ],
+      },
+    ]
+  }
 ];
 
 export default classes;
