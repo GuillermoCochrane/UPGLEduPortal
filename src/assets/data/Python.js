@@ -4946,7 +4946,7 @@ let classes = [
             type: "figure",
             info: 
                   {
-                    img: "/images/Python/class5/tipos_de_datos/enteros.png",
+                    img: "/images/Python/class5/enteros.png",
                     alt: "Tipos de datos: Enteros",
                   }
           },
@@ -4963,7 +4963,7 @@ let classes = [
             type: "figure",
             info: 
                   {
-                    img: "/images/Python/class4/tipos_de_datos/punto_flotante.png",
+                    img: "/images/Python/class5/punto_flotante.png",
                     alt: "Tipos de datos: Punto flotante",
                   }
           },
@@ -5007,7 +5007,7 @@ let classes = [
             type: "figure",
             info: 
                   {
-                    img: "/images/Python/class4/tipos_de_datos/cadena.png",
+                    img: "/images/Python/class5/cadena.png",
                     alt: "Tipos de datos: Cadena",
                   }
           },
@@ -5039,10 +5039,19 @@ let classes = [
             ],
           },
           {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo de Booleanos:",
+                content: "plain",
+              },
+            ],
+          },
+          {
             type: "figure",
             info: 
                   {
-                    img: "/images/Python/class4/tipos_de_datos/booleanos.png",
+                    img: "/images/Python/class5/booleanos.png",
                     alt: "Tipos de datos: Booleanos",
                   }
           },
