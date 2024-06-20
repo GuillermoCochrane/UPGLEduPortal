@@ -127,6 +127,47 @@ let classIndex = [
           link: "/courses/Python/class/4/5"
         },
       ]
+    },
+    {
+      summary: "Tipos de datos en Python",
+      classId: 7,
+      links: [
+        {
+          title: "Tipos de datos",
+          topicId: 1,
+          link: "/courses/Python/class/5/1"
+        },
+        {
+          title: "Operando con datos",
+          topicId: 2,
+          link: "/courses/Python/class/5/2" 
+        },
+        {
+          title: "Errores",
+          topicId: 3,
+          link: "/courses/Python/class/5/3"
+        },
+        {
+          title: "Manejo de cadenas",
+          topicId: 4,
+          link: "/courses/Python/class/5/4"
+        },
+        {
+          title: "Conversion de tipos de datos",
+          topicId: 5,
+          link: "/courses/Python/class/5/5"
+        },
+        {
+          title: "Actividades",
+          topicId: 6,
+          link: "/courses/Python/class/5/6"
+        },
+        {
+          title: "Bonus track",
+          topicId: 7,
+          link: "/courses/Python/class/5/7"
+        },
+      ],
     }
   ]
 
