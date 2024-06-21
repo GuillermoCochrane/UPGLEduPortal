@@ -5500,7 +5500,7 @@ let classes = [
             }
           },
           {
-            type: "h3",
+            type: "h4",
             info: [
               {
                 text: "Convertir los datos",
@@ -5509,7 +5509,7 @@ let classes = [
             ],
           },
           {
-            type: "h4",
+            type: "p",
             info: [
               {
                 text: "Ya que la funcion INPUT entrega un string",
@@ -5525,7 +5525,7 @@ let classes = [
             }
           },
           {
-            type: "h4",
+            type: "p",
             info: [
               {
                 text: "Otra Manera de Hacerlo",
