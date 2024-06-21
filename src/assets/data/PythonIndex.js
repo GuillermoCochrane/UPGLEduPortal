@@ -158,15 +158,20 @@ let classIndex = [
           link: "/courses/Python/class/5/5"
         },
         {
-          title: "Actividades",
+          title: "Procesar entrada de datos del usuario",
           topicId: 6,
           link: "/courses/Python/class/5/6"
         },
         {
-          title: "Bonus track",
+          title: "Actividades",
           topicId: 7,
           link: "/courses/Python/class/5/7"
         },
+        {
+          title: "Bonus track",
+          topicId: 8,
+          link: "/courses/Python/class/5/8"
+        }
       ],
     }
   ]
