@@ -5395,7 +5395,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "Manejo de cadenas - sumas (contatenacion vs suma - Sobre carga de operadores)",
+                text: "Manejo de cadenas - sumas (contatenación vs suma - Sobre carga de operadores)",
                 content: "plain",
               },
             ],
@@ -5404,14 +5404,14 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class5/contatenacion_vs_suma.png",
-              alt: "Contatenacion vs Suma",
+              alt: "Contatenación vs Suma",
             }
           },
           {
             type: "h3",
             info: [
               {
-                text: "Conversion de tipos de datos",
+                text: "Conversión de tipos de datos",
                 content: "plain",
               },
             ],
@@ -5429,7 +5429,7 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class5/conversion.png",
-              alt: "Conversion de tipos de datos",
+              alt: "Conversión de tipos de datos",
             }
           },
         ]
