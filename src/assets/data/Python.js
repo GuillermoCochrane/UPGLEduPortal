@@ -5407,6 +5407,68 @@ let classes = [
               alt: "Contatenacion vs Suma",
             }
           },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Conversion de tipos de datos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "String a entero",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/conversion.png",
+              alt: "Conversion de tipos de datos",
+            }
+          },
+        ]
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Tipos de datos Bool (boolean)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/tipos_boolean.png",
+              alt: "Tipos de datos Bool (boolean)",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En Python, if y else son dos palabras clave (que veremos más adelante) que se usan para crear sentencias condicionales. Estas permiten ejecutar diferentes bloques de código dependiendo de si una condición se cumple o no. Por ejemplo, Imaginen que queremos saber si un número es mayor que 10.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/if_else.png",
+              alt: "if y else",
+            }
+          }
         ]
       }
     ]
