@@ -130,7 +130,7 @@ let classIndex = [
     },
     {
       summary: "Tipos de datos en Python",
-      classId: 7,
+      classId: 5,
       links: [
         {
           title: "Tipos de datos",
