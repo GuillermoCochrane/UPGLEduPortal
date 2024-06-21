@@ -5358,7 +5358,7 @@ let classes = [
                 content: "bold",
               },
               {
-                text: "poner valor booleano en minuscula ",
+                text: "poner valor booleano en minúscula ",
                 content: "plain",
               }
             ],
@@ -5367,7 +5367,7 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class5/error_minuscula.png",
-              alt: "Error: poner valor booleano en minuscula"
+              alt: "Error: poner valor booleano en minúscula"
             }
           }
         ]
