@@ -5541,7 +5541,210 @@ let classes = [
             }
           },
         ]
-      }
+      },
+      {
+        topic: 7,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Actividades 💬",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 1:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Objetivo: Pedir al usuario dos números, convertirlos a enteros y mostrar la suma.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class5/Ejercicio_1.png",
+                alt: "Solución ejercicio 1",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 2:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Pedirle al usuario que ponga como estuvo su dia (del 1 al 10 ) y luego mostrar el texto "Mi dia estuivo de:" y el valor ingreseado',
+              }
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class5/Ejercicio_2.png",
+                alt: "Solución ejercicio 2",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 3:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Se solicita incluir la siguiente informacion acerca de un libro :",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Título, autor, número de páginas, año de publicación.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Pedir al usuario que ingrese la información solicitada de la siguiente manera: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ingrese el Titulo del libro: ",
+                    content: "plain",
+                  },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ingrese el Autor: ",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ingrese el Numero de Paginas: ",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ingrese el Año de publicación: ",
+                    content: "plain",
+                  },
+                ]
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: 'Imprimir:  ',
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: '"El libro ',
+                content: "plain",
+              },
+              {
+                text: "<nombre del libro>",
+                content: "bold",
+              },
+              {
+                text: ' fue escrito por ',
+                content: "plain",
+              },
+              {
+                text: "<autor>",
+                content: "bold",
+              },
+              {
+                text: " y tiene ",
+                content: "plain",
+              },
+              {
+                text: "<numero de paginas>",
+                content: "bold",
+              },
+              {
+                text:  " paginas, y fue publicado en el año ",
+                content: "plain",
+              },
+              {
+                text:"<año de publicacion>",
+                content: "bold",
+              },
+              {
+                text: '."',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class5/Ejercicio_3.png",
+                alt: "Solución ejercicio 3",
+              },
+            ],
+          }
+        ]
+      },
     ]
   }
 ];
