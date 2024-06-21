@@ -153,7 +153,7 @@ let classIndex = [
           link: "/courses/Python/class/5/4"
         },
         {
-          title: "Conversion de tipos de datos",
+          title: "Tipos de datos Boolean",
           topicId: 5,
           link: "/courses/Python/class/5/5"
         },
