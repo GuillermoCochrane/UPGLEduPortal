@@ -5371,6 +5371,43 @@ let classes = [
             }
           }
         ]
+      },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Manejo de cadenas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/manejo_cadenas.png",
+              alt: "Manejo de cadenas",
+            }
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Manejo de cadenas - sumas (contatenacion vs suma - Sobre carga de operadores)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/contatenacion_vs_suma.png",
+              alt: "Contatenacion vs Suma",
+            }
+          },
+        ]
       }
     ]
   }
