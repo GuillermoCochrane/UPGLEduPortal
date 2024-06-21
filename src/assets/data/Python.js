@@ -4839,7 +4839,7 @@ let classes = [
   },
   {
     class: 5,
-    topics: 7,
+    topics: 8,
     title: {
       type: "h2",
       info: [
@@ -5469,6 +5469,77 @@ let classes = [
               alt: "if y else",
             }
           }
+        ]
+      },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Procesar entrada de datos del usuario",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Función Input",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/funcion_input.png",
+              alt: "Función Input",
+            }
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Convertir los datos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ya que la funcion INPUT entrega un string",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/convertir_datos.png",
+              alt: "Convertir los datos",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Otra Manera de Hacerlo",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/otra_manera.png",
+              alt: "Otra Manera de Hacerlo",
+            }
+          },
         ]
       }
     ]
