@@ -5277,6 +5277,100 @@ let classes = [
             }
           },
         ]
+      },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Ejemplos de errores:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Error: ",
+                content: "bold",
+              },
+              {
+                text: "usar un entero para almacenar un precio con decimales",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/error_entero.png",
+              alt: "Error: usar un entero para almacenar decimales"
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Error: ",
+                content: "bold",
+              },
+              {
+                text: "usar una cadena para realizar cálculos matemáticos",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/error_cadena.png",
+              alt: "Error: usar una cadena para realizar cálculos matemáticos"
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Error: ",
+                content: "bold ",
+              },
+              {
+                text: "usar un booleano para almacenar una lista de nombres",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/error_booleano.png",
+              alt: "Error: usar un booleano para almacenar una lista"
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Error: ",
+                content: "bold",
+              },
+              {
+                text: "poner valor booleano en minuscula ",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/error_minuscula.png",
+              alt: "Error: poner valor booleano en minuscula"
+            }
+          }
+        ]
       }
     ]
   }
