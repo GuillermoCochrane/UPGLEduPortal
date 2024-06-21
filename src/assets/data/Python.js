@@ -5132,6 +5132,152 @@ let classes = [
           },
         ],
       },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Operando con Datos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "String",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Mostramos una parte de la variable cadena",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/string.png",
+              alt: "Recorte de string"
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Mostramos una parte de la variable cadena",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/string2.png",
+              alt: "Recorte de string"
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Mostramos una parte de la variable cadena",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/string3.png",
+              alt: "Recorte de string"
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Booleanos",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Booleano como interruptor para controlar el flujo",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/boolean.png",
+              alt: "Booleano para controlar el flujo"
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Listas",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Lista como caja de herramientas para almacenar herramientas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/lista.png",
+              alt: "Lista como caja de herramientas"
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Diccionario",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Diccionario como manual de instrucciones para buscar información",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class5/diccionario.png",
+              alt: "Diccionario como manual de instrucciones"
+            }
+          },
+        ]
+      }
     ]
   }
 ];
