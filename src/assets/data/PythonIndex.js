@@ -200,12 +200,12 @@ let classIndex = [
           link: "/courses/Python/class/6/4"
         },
         {
-          title: "Comentarios e interpolacion de cadenas",
+          title: "Sentencia if y else",
           topicId: 5,
           link: "/courses/Python/class/6/5"
         },
         {
-          title: "Sentencia if y else",
+          title: "Comentarios e interpolacion de cadenas",
           topicId: 6,
           link: "/courses/Python/class/6/6"
         },
