@@ -173,7 +173,55 @@ let classIndex = [
           link: "/courses/Python/class/5/8"
         }
       ],
-    }
+      
+    },
+    {
+      summary: "Operadores. If y  Else",
+      classId: 6,
+      links: [
+        {
+          title: "Operadores Aritméticos",
+          topicId: 1,
+          link: "/courses/Python/class/6/1"
+        },
+        {
+          title: "Operadores de asignación",
+          topicId: 2,
+          link: "/courses/Python/class/6/2"
+        },
+        {
+          title: "Operadores de comparación",
+          topicId: 3,
+          link: "/courses/Python/class/6/3"
+        },
+        {
+          title: "Operadores lógicos",
+          topicId: 4,
+          link: "/courses/Python/class/6/4"
+        },
+        {
+          title: "Comentarios e interpolacion de cadenas",
+          topicId: 5,
+          link: "/courses/Python/class/6/5"
+        },
+        {
+          title: "Sentencia if y else",
+          topicId: 6,
+          link: "/courses/Python/class/6/6"
+        },
+        {
+          title: "Actividades",
+          topicId: 7,
+          link: "/courses/Python/class/6/7"
+        },
+        {
+          title: "Bonus track",
+          topicId: 8,
+          link: "/courses/Python/class/6/8"
+        }
+      ],
+      
+    },
   ]
 
 
