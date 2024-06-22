@@ -5849,7 +5849,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Multiplicacion ( * ) ",
+                text: "Multiplicación ( * ) ",
                 content: "plain",
               },
             ],
@@ -5881,7 +5881,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Modulo ( % ) ",
+                text: "Módulo ( % ) ",
                 content: "plain",
               },
             ],
@@ -5897,7 +5897,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Exponenciacion ( ** ) ",
+                text: "Exponenciación ( ** ) ",
                 content: "plain",
               },
             ],  
@@ -6691,6 +6691,20 @@ let classes = [
               {
                 img: "/images/Python/class6/Ejercicio_4.png",
                 alt: "Solución Ejercicio 4",
+              },
+            ],
+          },
+        ]
+      },
+      {
+        topic: 8,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus Track:",
+                content: "plain",
               },
             ],
           },
