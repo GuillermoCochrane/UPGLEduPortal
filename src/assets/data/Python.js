@@ -5927,6 +5927,157 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Operadores de Asignación",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Los operadores de asignación son los operadores que se usan para asignar un valor a una variable. En Python, los operadores de asignación son los siguientes:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "( = ) Asignación (el igual es el operador de asignación)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/asignacion.png",
+              alt: "Asignación",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "( += ) Incremento",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/incremento.png",
+              alt: "Incremento",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "( -= ) Decremento",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/decremento.png",
+              alt: "Decremento",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "( *= ) Multiplicación",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/multiplicacion.png",
+              alt: "Multiplicación",
+            }
+          },  
+          {
+            type: "h4",
+            info: [
+              {
+                text: "( /= ) División",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/division.png",
+              alt: "División",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "( %= ) Modulo",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/modulo.png",
+              alt: "Modulo",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "( **= ) Exponenciación",
+                content: "plain",
+              },
+            ],
+          },  
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/exponentacion.png",
+              alt: "Exponenciación",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "( //= ) Division Entera",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/division_entera.png",
+              alt: "Division Entera",
+            }
+          },
+        ]
+      }
     ],
   },
 ];
