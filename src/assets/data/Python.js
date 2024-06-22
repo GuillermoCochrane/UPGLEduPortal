@@ -6008,7 +6008,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class6/multiplicacion.png",
+              img: "/images/Python/class6/asigancion_multiplicacion.png",
               alt: "Multiplicación",
             }
           },  
@@ -6024,7 +6024,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class6/division.png",
+              img: "/images/Python/class6/asignacion_division.png",
               alt: "División",
             }
           },
@@ -6040,7 +6040,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class6/modulo.png",
+              img: "/images/Python/class6/asignacion_modulo.png",
               alt: "Modulo",
             }
           },
@@ -6056,7 +6056,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class6/exponentacion.png",
+              img: "/images/Python/class6/asignacion_exponentacion.png",
               alt: "Exponenciación",
             }
           },
@@ -6072,7 +6072,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class6/division_entera.png",
+              img: "/images/Python/class6/asignacion_division_entera.png",
               alt: "Division Entera",
             }
           },
