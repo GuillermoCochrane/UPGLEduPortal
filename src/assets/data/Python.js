@@ -5778,7 +5778,157 @@ let classes = [
         ]
       }
     ]
-  }
+  },
+  {
+    class: 6,
+    topics: 8,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "💥Distintos tipos de operadores. If y else. 💥",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Operadores Aritméticos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Los operadores aritméticos son los operadores que se usan para realizar operaciones matemáticas en los números. En Python, los operadores aritméticos son los siguientes:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Suma ( + ) ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/suma.png",
+              alt: "Suma",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Resta ( - ) ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/resta.png",
+              alt: "Resta",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Multiplicacion ( * ) ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/multiplicacion.png",
+              alt: "Multiplicacion",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "División ( / ) ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/division.png",
+              alt: "Division",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Modulo ( % ) ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/modulo.png",
+              alt: "Modulo",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Exponenciacion ( ** ) ",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/exponentacion.png",
+              alt: "Exponenciacion",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "División Entera ( // ) ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/division_entera.png",
+              alt: "División Entera",
+            }
+          },
+        ]
+      },
+    ],
+  },
 ];
 
 export default classes;
