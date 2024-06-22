@@ -6283,7 +6283,46 @@ let classes = [
             }
           },
         ]
-      }
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Sentencia If y Else",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Las sentencias de control son estructuras en programación que permiten modificar el flujo de ejecución de un programa. Estas sentencias permiten tomar decisiones, ejecutar bloques de código de manera condicional o repetir ciertas operaciones mientras se cumpla una condición.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo de sentencia if",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/ifelse.png",
+              alt: "Ejemplo de sentencia if y else",
+            }
+          },
+        ]
+      },
     ],
   },
 ];
