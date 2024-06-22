@@ -6077,7 +6077,126 @@ let classes = [
             }
           },
         ]
-      }
+      },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Operadores de comparación",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Nos permite saber si los valores son igual o distintos, mayores o menores que otros. Los operadores de comparación son los siguientes:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "== (igualdad)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/igualdad.png",
+              alt: "Igualdad",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "!= (desigualdad)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/desigualdad.png",
+              alt: "Desigualdad",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "> (mayor)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/mayor.png",
+              alt: "Mayor",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "< (menor)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/menor.png",
+              alt: "Menor",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: ">=  (mayor o igual)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/mayor_igual.png",
+              alt: "Mayor o igual",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "<=  (menor o igual)",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/menor_igual.png",
+              alt: "Menor o igual",
+            }
+          },
+        ]
+      },
     ],
   },
 ];
