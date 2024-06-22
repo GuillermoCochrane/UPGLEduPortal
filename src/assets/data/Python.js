@@ -6103,7 +6103,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "== (igualdad)",
+                text: "Igualdad ( == )",
                 content: "plain",
               },
             ],
@@ -6119,7 +6119,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "!= (desigualdad)",
+                text: "Desigualdad ( != )",
                 content: "plain",
               },
             ],
@@ -6135,7 +6135,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "> (mayor)",
+                text: "Mayor ( > )",
                 content: "plain",
               },
             ],
@@ -6151,7 +6151,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "< (menor)",
+                text: "Menor ( < )",
                 content: "plain",
               },
             ],
@@ -6167,7 +6167,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: ">=  (mayor o igual)",
+                text: "Mayor o igual ( >= )",
                 content: "plain",
               },
             ],
@@ -6183,7 +6183,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "<=  (menor o igual)",
+                text: "Menor o igual ( <= )",
                 content: "plain",
               },
             ],  
@@ -6197,6 +6197,93 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Operadores lógicos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Los operadores lógicos son los operadores que se usan para crear sentencias de control. Nos permiten trabajar con valores booleanos (verdadero o falso) y combinar o negar expresiones lógicas. Aquí tienes los principales operadores:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "AND ( and ): devuelve True si ambos valores son verdaderos",
+                content: "plain",
+              },
+            ],
+          },  
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/and.png",
+              alt: "AND",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "OR ( or ): devuelve True si al menos uno de los valores es verdadero",
+                content: "plain",
+              },
+            ],
+          },  
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/or.png",
+              alt: "OR",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "NOT ( not ): devuelve True si el valor es falso",
+                content: "plain",
+              },
+            ],
+          },  
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/not.png",
+              alt: "NOT",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "XOR ( xor ): devuelve True si solo uno de los valores es verdadero",
+                content: "plain",
+              },
+            ],
+          },  
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/xor.png",
+              alt: "XOR",
+            }
+          },
+        ]
+      }
     ],
   },
 ];
