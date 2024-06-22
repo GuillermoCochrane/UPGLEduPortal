@@ -6323,6 +6323,97 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Comentarios en Python",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "El codigo comentado en Python es ignorado por el intérprete. Esto es útil para documentar el código y hacerlo más entendible.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Almohadilla ( # )",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "El caracter # en Python se utiliza para comentar el resto de la línea. A partir de la misma el intérprete no procesará el código.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: 'Triple Comillas ( """ )',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'En Python podemos usar las triples comillas ( """ )  para comentar varios renglones. Se debe usar al comienzo y al final del bloque de código que se desea comentar.',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/comentarios.png",
+              alt: "Comentarios en Python",
+            }
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Interpolación de cadenas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Poniendo "f" antes de la cadena, nos permite concatenar un texto con la variable que se encuentra entre llaves.',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/interpolacion.png",
+              alt: "Interpolación de cadenas",
+            }
+          },
+        ]
+      }
     ],
   },
 ];
