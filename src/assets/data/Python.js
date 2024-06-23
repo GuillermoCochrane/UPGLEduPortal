@@ -6436,96 +6436,13 @@ let classes = [
             ],
           },
           {
-            type: "ol",
+            type: "p",
             info: [
               {
-                type: "li",
-                info: [
-                  {
-                    text: "Se solicita realizar un programa para mostrar el resultado de la division de dos números enteros",
-                    content: "plain",
-                  },
-                ],
+                text: "Se solicita realizar un programa para mostrar el resultado de la division de dos números enteros",
+                content: "plain",
               },
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "Se solicita realizar un programa para calcular el residuo de la division de dos números enteros",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "Se solicita realizar un programa para calcular el area y el perimetro de un rectangulo, para ello debera crear las siguiente variables: ",
-                    content: "plain",
-                  },
-                  {
-                    type: "ul",
-                    info: [
-                      {
-                        type: "li",
-                        info: [
-                          {
-                            text: "Alto (int)",
-                            content: "bold",
-                          },
-                        ],
-                      },
-                      {
-                        type: "li",
-                        info: [
-                          {
-                            text: "Ancho (int)",
-                            content: "bold",
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                  {
-                    text: "El usuario debera proporcionar los valores de largo y ancho y despues imprimiro el resultado del area y el perimetro:",
-                    content: "plain",
-                  },
-                  {
-                    type: "ul",
-                    info: [
-                      {
-                        type: "li",
-                        info: [
-                          {
-                            text: "Area: ",
-                            content: "bold",
-                          },
-                          {
-                            text: "alto * ancho",
-                            content: "plain",
-                          }
-                        ],
-                      },
-                      {
-                        type: "li",
-                        info: [
-                          {
-                            text: "Perimetro: ",
-                            content: "bold",
-                          },
-                          {
-                            text: "(alto + ancho) * 2",
-                            content: "plain",
-                          }
-                        ],
-                      },
-                    ]
-                  },
-                    
-                    ]
-                  }
-
-                ],
+            ],
           },
           {
             type: "answer",
@@ -6546,45 +6463,13 @@ let classes = [
             ],
           },
           {
-            type: "ol",
+            type: "p",
             info: [
               {
-                type: "li",
-                info: [
-                  {
-                    text: "Se solicita realizar un programa para mostrar su el numero ingresado es par o impar (Usando operadores logicos)",
-                    content: "plain",
-                  },
-                ],
+                text: "Se solicita realizar un programa para mostrar el residuo de la division de dos números enteros",
+                content: "plain",
               },
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "Se solicita realizar un programa para mostrar el resultado de la division de dos números enteros",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "Se solicita realizar un programa para mostrar si el numero es positivo o negativo",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "Se solicita realizar un programa que pida la edad de una persona y determine si es mayor o menor de edad (18)",
-                    content: "plain",
-                  },
-                ],
-              },
-            ]
+            ],
           },
           {
             type: "answer",
@@ -6594,7 +6479,7 @@ let classes = [
                 alt: "Solución Ejercicio 2",
               },
             ],
-          },
+          },  
           {
             type: "h4",
             info: [
@@ -6603,15 +6488,78 @@ let classes = [
                 content: "plain",
               },
             ],
+          },  
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Se solicita realizar un programa para calcular el area y el perimetro de un rectangulo, para ello debera crear las siguiente variables: ',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Alto (int)",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ancho (int)",
+                    content: "bold",
+                  },
+                ],
+              },
+            ]
           },
           {
             type: "p",
             info: [
               {
-                text: "Se solicita realizar un programa que determine si un numero determine si es se encuentra entre 0 y 10",
+                text: "El usuario debera proporcionar los valores de largo y ancho y despues imprimiro el resultado del area y el perimetro:",
                 content: "plain",
               },
             ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Area: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "alto * ancho",
+                    content: "plain",
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Perimetro: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "(alto + ancho) * 2",
+                    content: "plain",
+                  }
+                ],
+              },
+            ]
           },
           {
             type: "answer",
@@ -6632,56 +6580,11 @@ let classes = [
             ],
           },
           {
-            type: "ol",
+            type: "p",
             info: [
               {
-                type: "li",
-                info: [
-                  {
-                    text: "Crear un programa que permita saber si un padre puede ir a ver como juega su hijo dependiendo si es un dia de descanso o si esta de vacaciones (usar operadores logicos)- de lo contrario no puede ir.",
-                    content: "plain",
-                  },
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "Ejemplo NOT (mismo ejercicio pero invierta el resultado)",
-                        content: "plain",
-                      },
-                    ],
-                  },
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "Crear un programa que permita al usuario ingresar su edad y determine si esta entre los 20 (de 20 a 30 años) y los 40 años(de 40 a 50 años).",
-                        content: "plain",
-                      },
-                    ],
-                  },
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "crear un progrmaa que permita que usuario ingrese dos numeros enteeros y nos imprima cual es el mayor de los dos numeros ingresados",
-                        content: "plain",
-                      },
-                    ],
-                  },
-                  {
-                    type: "li",
-                    info: [
-                      {
-                        text: "TIENDA DE LIBROS: ",
-                        content: "bold",
-                      },
-                      {
-                        text: "Crear un programa que permita ingresar un libro y su autor, muestre el precio (float) y deje escribir si el envio es gratis(true o false)",
-                        content: "plain",
-                      },
-                    ],
-                  }
-                ],
+                text: 'Se solicita realizar un programa para mostrar si el número ingresado es par o impar (Usando operadores logicos)',
+                content: "plain",
               },
             ],
           },
@@ -6694,6 +6597,227 @@ let classes = [
               },
             ],
           },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 5:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Se solicita realizar un programa para mostrar si el numero es positivo o negativo",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class6/Ejercicio_5.png",
+                alt: "Solución Ejercicio 5",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 6:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Se solicita realizar un programa que pida la edad de una persona y determine si es mayor o menor de edad (18)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class6/Ejercicio_6.png",
+                alt: "Solución Ejercicio 6",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 7:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Se solicita realizar un programa que determine si un numero determine si es se encuentra entre 0 y 10",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class6/Ejercicio_7.png",
+                alt: "Solución Ejercicio 7",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 8:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear un programa que permita saber si un padre puede ir a ver como juega su hijo dependiendo si es un dia de descanso o si esta de vacaciones (usar operadores logicos) - de lo contrario no puede ir.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class6/Ejercicio_8.png",
+                alt: "Solución Ejercicio 8",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 9:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo NOT (mismo ejercicio pero invierta el resultado)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class6/Ejercicio_9.png",
+                alt: "Solución Ejercicio 9",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 10:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear un programa que permita al usuario ingresar su edad y determine si esta entre los 20 (de 20 a 30 años) y los 40 años(de 40 a 50 años).",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class6/Ejercicio_10.png",
+                alt: "Solución Ejercicio 10",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 11:",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear un programa que permita que el usuario ingrese dos numeros enteros y nos imprima cual es el mayor de los dos numeros ingresados",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class6/Ejercicio_11.png",
+                alt: "Solución Ejercicio 11",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 12:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "TIENDA DE LIBROS: ",
+                content: "bold",
+              },
+              {
+                text: "Crear un programa que permita ingresar un libro y su autor, muestre el precio (float) y deje escribir si el envio es gratis(true o false)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class6/Ejercicio_12.png",
+                alt: "Solución Ejercicio 12",
+              },
+            ],
+          },
+            
         ]
       },
       {
