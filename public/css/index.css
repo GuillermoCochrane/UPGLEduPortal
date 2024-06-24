@@ -345,9 +345,11 @@ form{
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
-	min-width: 300px;
-	width: 50%;
+	width: fit-content;
+	min-width: 200px;
 	margin-inline: auto;
+	margin-block: 2em;
+	padding: 1em;
 }
 form section{
 	display: flex;
@@ -355,6 +357,7 @@ form section{
 	align-items: center;
 	text-align: left;
 	gap: 5px;
+	margin: 0;
 }
 
 form button{
