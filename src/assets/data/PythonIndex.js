@@ -220,8 +220,33 @@ let classIndex = [
           link: "/courses/Python/class/6/8"
         }
       ],
-      
     },
+    {
+      summary: "Métodos. Contadores y Acumuladores",
+      classId: 7,
+      links: [
+        {
+          title: "Contadores y acumuladores",
+          topicId: 1,
+          link: "/courses/Python/class/7/1"
+        },
+        {
+          title: "Métodos y Validaciones",
+          topicId: 2,
+          link: "/courses/Python/class/7/2"
+        },
+        {
+          title: "Actividades",
+          topicId: 3,
+          link: "/courses/Python/class/7/3"
+        },
+        {
+          title: "Bonus track",
+          topicId: 4,
+          link: "/courses/Python/class/7/4"
+        }
+      ],
+    }
   ]
 
 
