@@ -4745,19 +4745,25 @@ let classes = [
           },
           {
             type: "trivia",
+            answer:{
+              correct: "La respuesta es correcta",
+              incorrect: 'La respuesta es incorrecta, porque  si bien los procesos están bien pero lo mostrado en pantalla es: "hola mundo hermosa mañana verdad?hermosa mañana verdad?"',
+            },
+            
             info: [
               {
                 text: "Verdadero",
                 content: "plain",
                 name: "trivia1",
-                message: 'La respuesta es incorrecta, porque  si bien los procesos están bien pero lo mostrado en pantalla es: "hola mundo hermosa mañana verdad?hermosa mañana verdad?"',
+                correct: false,
+                value: "1"
               },
               {
                 text: "Falso",
                 content: "plain",
                 name: "trivia1",
                 correct: true,
-                message: "La respuesta es correcta",
+                value: "2"
               },
             ],
           },
@@ -4789,19 +4795,24 @@ let classes = [
           },
           {
             type: "trivia",
+            answer: {
+              correct: "La respuesta es correcta",
+              incorrect: 'La respuesta es incorrecta, porque el tipo de dato ingresado es string. Por lo tanto, lo que nos muestra en consola es 1050, la concatenación de las 2 entradas',
+            },
             info: [
               {
                 text: "Verdadero",
                 content: "plain",
                 name: "trivia2",
-                message: 'La respuesta es incorrecta, porque el tipo de dato ingresado es string. Por lo tanto, lo que nos muestra en consola es 1050, la concatenación de las 2 entradas',
+                correct: false,
+                value: "1"
               },
               {
                 text: "Falso",
                 content: "plain",
                 name: "trivia2",
                 correct: true,
-                message: "La respuesta es correcta",
+                value: "2"
               },
             ],
           },
@@ -6827,8 +6838,298 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "Bonus Track:",
+                text: "Bonus Track: Trivias",
                 content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Trivia 1:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "¿Qué hace el siguiente código?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/trivia_1.png",
+              alt: "Trivia 1",
+            }
+          },
+          {
+            type: "trivia",
+            answer:{
+              correct: "La respuesta es correcta",
+              incorrect: 'La respuesta es incorrecta',
+            },
+            info: [
+              {
+                text: "Comprueba si la temperatura es inferior a 0 grados.",
+                content: "plain",
+                name: "trivia1",
+                correct: false,
+                value: "1"
+              },
+              {
+                text: "Invierte el valor de la variable temperatura.",
+                content: "plain",
+                name: "trivia1",
+                correct: false,
+                value: "2"
+              },
+              {
+                text: "Imprime un mensaje en la consola dependiendo del valor de temperatura.",
+                content: "plain",
+                name: "trivia1",
+                correct: true,
+                value: "3"
+              },
+              {
+                text: "Todas las anteriores",
+                content: "plain",
+                name: "trivia1",
+                correct: false,
+                value: "4"
+              }
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Trivia 2:",
+                content: "plain",
+              },
+            ]   
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "¿Cuál de estás instrucciones comprobará si a es menor que b?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "trivia",
+            answer: {
+              correct: "La respuesta es correcta",
+              incorrect: 'La respuesta es incorrecta',
+            },
+            info: [
+              {
+                text: "if a <= b:",
+                context: "plain",
+                name: "trivia2",
+                correct: false,
+                value: "1"
+              },
+              {
+                text: "if a > b",
+                context: "plain",
+                name: "trivia2",
+                correct: false,
+                value: "2"
+              },
+              {
+                text: "if a < b:",
+                context: "plain",
+                name: "trivia2",
+                correct: true,
+                value: "3"
+              },
+              {
+                text: "if a < b",
+                context: "plain",
+                name: "trivia2",
+                correct: false,
+                value: "4"
+              },
+              {
+                text: "if a >= b",
+                context: "plain",
+                name: "trivia2",
+                correct: false,
+                value: "5"
+              },
+              {
+                text: "if (a < b)",
+                context: "plain",
+                name: "trivia2",
+                correct: false,
+                value: "6"
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Trivia 3:",
+                context: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "¿Cuál de estás instrucciones comprobará si a es igual a b?",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "trivia",
+            answer: {
+              correct: "La respuesta es correcta",
+              incorrect: 'La respuesta es incorrecta',
+            },
+            info: [
+              {
+                text: "if a == b",
+                context: "plain",
+                name: "trivia3",
+                correct: false,
+                value: "1"
+              },
+              {
+                text: "if a = b",
+                context: "plain",
+                name: "trivia3",
+                correct: false,
+                value: "2"
+              },
+              {
+                text: "if a equals b:",
+                context: "plain",
+                name: "trivia3",
+                correct: false,
+                value: "3"
+              },
+              {
+                text: "if a === b:",
+                context: "plain",
+                name: "trivia3",
+                correct: false,
+                value: "4"
+              },
+              {
+                text: "if a === b",
+                context: "plain",
+                name: "trivia3",
+                correct: false,
+                value: "5"
+              },
+              {
+                text: "if a == b:",
+                context: "plain",
+                name: "trivia3",
+                correct: true,
+                value: "6"
+              },
+              {
+                text: "if a = b:",
+                context: "plain",
+                name: "trivia3",
+                correct: false,
+                value: "7"
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Trivia 4: ",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Dado el siguiente Codigo, ¿cuál es la salida que se imprimirá en la consola?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class6/trivia_4.png",
+              alt: "Trivia 4",
+            }
+          },
+          {
+            type: "trivia",
+            answer: {
+              correct: "La respuesta es correcta",
+              incorrect: 'La respuesta es incorrecta',
+            },
+            info: [
+              {
+                text: "B C",
+                content: "plain",
+                name: "trivia4",
+                correct: false,
+                value: "1"
+              },
+              {
+                text: "B",
+                content: "plain",
+                name: "trivia4",
+                correct: false,
+                value: "2"
+              },
+              {
+                text: "A B C",
+                content: "plain",
+                name: "trivia4",
+                correct: false,
+                value: "3"
+              },
+              {
+                text: "A B",
+                content: "plain",
+                name: "trivia4",
+                correct: false,
+                value: "4"
+              },
+              {
+                text: "Nada, el código no se ejecuta.",
+                content: "plain",
+                name: "trivia4",
+                correct: false,
+                value: "5"
+              },
+              {
+                text: "A C",
+                content: "plain",
+                name: "trivia4",
+                correct: false,
+                value: "6"
+              },
+              {
+                text: "A",
+                content: "plain",
+                name: "trivia4",
+                correct: true,
+                value: "7"
               },
             ],
           },
