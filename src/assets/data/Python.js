@@ -6979,9 +6979,9 @@ let classes = [
             info: [
               {
                 text: "Trivia 3:",
-                context: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ]   
           },
           {
             type: "p",
@@ -7137,6 +7137,174 @@ let classes = [
       }
     ],
   },
+  {
+    class: 7,
+    topics: 4,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Contadores y Acumuladores. Métodos y Validaciones de datos",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Diferencia entre un contador y un acumulador",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Contador",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Se utiliza para ",
+                content: "plain",
+              },
+              {
+                text: "contar la cantidad de veces ",
+                content: "bold",
+              },
+              {
+                text: "que ocurre un evento específico.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Se inicializa a un valor inicial (comúnmente 0).",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Se incrementa en 1 cada vez que ocurre el evento que se está contando.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Se utiliza principalmente dentro de bucles.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class7/contador.png",
+              alt: "Contador",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Acumulador",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Se utiliza para ",
+                content: "plain",
+              },
+              {
+                text: "acumular un valor ",
+                content: "bold",
+              },
+              {
+                text: "a lo largo de un proceso.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Se inicializa a un valor inicial (comúnmente 0).",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Se actualiza sumándole un nuevo valor cada vez que se repite el proceso.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class7/acumulador.png",
+              alt: "Acumulador",
+            }
+          },
+        ]
+      },
+    ],
+  }
 ];
 
 export default classes;
