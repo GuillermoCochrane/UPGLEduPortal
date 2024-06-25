@@ -305,21 +305,20 @@ iframe{
 table {
 	border-collapse: collapse;
 	margin-bottom: 3px;
-	color: var(--darkblue);
+	/* color: var(--darkblue); */
 	text-align: center;
 	width: fit-content;
 	margin: auto;
-	border: 1px solid #ebebeb;
+	/* border: 1px solid #ebebeb; */
 }
 
 table td,
 table th {
     padding: 5px;
     border-top: 1px solid #ebebeb;
-	border: 2px solid #225;
+    border: 2px solid #225;
     width: auto;
-	min-width: 100px;
-	
+    min-width: 95px;
 }
 
 table thead th {
@@ -336,8 +335,9 @@ table td{
     align-items: center;
     margin: auto;
     margin-block: 8px;
-    border-radius: 10px;
-    width: -webkit-fill-available;
+    /* border-radius: 10px; */
+    /* padding: 5px; */
+    width: fit-content;
     overflow-x: auto;
 }
 
@@ -404,7 +404,7 @@ form strong{
 	}
 
 	section{
-		max-width: 500px;
+		max-width: 90%;
 		margin: auto;
 	}
 
