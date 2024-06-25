@@ -7354,7 +7354,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class6/numeros.png",
+              img: "/images/Python/class7/numeros.png",
               alt: "Solo números",
             }
           },
@@ -7370,7 +7370,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class6/texto.png",
+              img: "/images/Python/class7/texto.png",
               alt: "Solo texto",
             }
           },
@@ -7574,21 +7574,21 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class6/numeros.png",
+              img: "/images/Python/class7/ejemplo_numeros.png",
               alt: "Solo números",
             }
           },
           {
             type: "figure",
             info: {
-              img: "/images/Python/class6/texto.png",
+              img: "/images/Python/class7/ejemplo_texto.png",
               alt: "Solo texto",
             }
           },
           {
             type: "figure",
             info: {
-              img: "/images/Python/class6/metodos.png",
+              img: "/images/Python/class7/metodos.png",
               alt: "Métodos de la clase STR",
             }
           },
