@@ -1,11 +1,20 @@
 import Proptypes from 'prop-types'
 function Table({ Data, Columns, Title }) {
+    
     return (
         <section className="table-responsive">
             <table cellSpacing="0">
                 <thead>
                     <tr>
-                        <th colSpan={Columns}>{Title}</th>
+                        { Columns != 0 &&
+                            <th colSpan={ Columns }>{ Title[0] }</th>
+                        }
+                        {
+                            Columns == 0 &&
+                                Title.map((title, index) => (
+                                    <th key={ index }>{ title }</th>
+                                ))
+                        }
                     </tr>
                 </thead>
                 <tbody>
@@ -24,7 +33,7 @@ function Table({ Data, Columns, Title }) {
 
 Table.propTypes = {
     Data: Proptypes.array.isRequired,
-    Columns: Proptypes.number,
-    Title: Proptypes.string
+    Columns: Proptypes.number.isRequired,
+    Title: Proptypes.array.isRequired
 }
 export default Table
