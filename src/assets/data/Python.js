@@ -7698,6 +7698,185 @@ let classes = [
             ],
           },
         ]
+      },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus track",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Trivia",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Dado el siguiente código:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class7/trivia.png",
+              alt: "Trivia",
+            }
+          },
+          {
+            type: "trivia",
+            answer: {
+              correct: "La respuesta es correcta",
+              incorrect: 'La respuesta es incorrecta',
+            },
+            info: [
+              {
+                text: "Se imprime la variable: mensaje_true",
+                content: "plain",
+                name: "trivia1",
+                correct: true,
+                value: "1"
+              },
+              {
+                text: "Se imprime la variable: mensaje_false",
+                content: "plain",
+                name: "trivia1",
+                correct: false,
+                value: "2"
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 1:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Realizar un programa que permita el ingreso de 4 personas con su nombre y apellido, su dirección y la edad y muestre en pantalla cual es la persona(con todos los datos ingresados) ,  con mayor edad (y en que posición se cargo) y la de menor edad y en que posición se cargo (Por ejemplo Diego Markiewicz de 44 años, vive en General Levalle y  fue cargado en el registro número 3 y Robb Stark de 28 años vive en Winterfell y fue cargado en el registro número 1). También se deberá el promedio de las edades ingresadas. Se deberá validar que los datos ingresados sean correctos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class7/ejercicio_1_clase_1.png",
+                alt: "Solución Ejercicio 1, clase 1",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class7/ejercicio_1_clase_2.png",
+                alt: "Solución Ejercicio 1, clase 2",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 2:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Realizar un programa que me permita ingresar tres valores, siendo los primeros dos los números a utilizar y el tercero indicará la operación matemática a realizar(S, R, M, D) necesitaría que cuando me imprima el resultado tenga el siguiente formato de salida: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Operación realizada con éxito, el resultado de (Aquí debe mostrar que operación se realizó) es (aquí debe mostrar el resultado). ",
+                content: "bold",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Tengan en cuenta que no se puede dividir por CERO así que me debería advertir si lo coloco en el segundo número.Se deberá validar que los datos ingresados sean correctos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class7/ejercicio_2_clase_1.png",
+                alt: "Solución Ejercicio 2, clase 1",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class7/ejercicio_2_clase_2.png",
+                alt: "Solución Ejercicio 2, clase 2",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 3:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Realizar un programa que me diga si el número ingresado es par o impar",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class7/ejercicio_3.png",
+                alt: "Solución Ejercicio 3",
+              },
+            ],
+          },
+        ]
       }
     ],
   }
