@@ -7876,6 +7876,26 @@ let classes = [
               },
             ],
           },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Atajos de VS Code",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "youtube",
+            info: [
+              {
+                link: "https://www.youtube.com/embed/G7p6GwCxXY4",
+                title: "Atajos de VSCode",
+                width: "718",
+                height: "404",
+              },
+            ],
+          }
         ]
       }
     ],
