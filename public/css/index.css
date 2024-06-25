@@ -338,7 +338,7 @@ table td{
     margin-block: 8px;
     border-radius: 10px;
     width: -webkit-fill-available;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 form{
@@ -409,7 +409,7 @@ form strong{
 	}
 
 	table{
-		overflow-x: auto;
+		/* overflow-x: auto; */
 		border: 0;
 	}
 	.hidden{
