@@ -7638,7 +7638,7 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class6/Ejercicio_1.png",
+                img: "/images/Python/class7/ejercicio1.png",
                 alt: "Solución Ejercicio 1",
               },
             ],
@@ -7665,7 +7665,7 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class6/Ejercicio_2.png",
+                img: "/images/Python/class7/ejercicio2.png",
                 alt: "Solución Ejercicio 2",
               },
             ],
@@ -7692,7 +7692,7 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class6/Ejercicio_3.png",
+                img: "/images/Python/class7/ejercicio3.png",
                 alt: "Solución Ejercicio 3",
               },
             ],
