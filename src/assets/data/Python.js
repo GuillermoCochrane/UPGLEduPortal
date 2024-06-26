@@ -7144,7 +7144,7 @@ let classes = [
       type: "h2",
       info: [
         {
-          text: "Contadores y Acumuladores. Métodos y Validaciones de datos",
+          text: "Contadores y Acumuladores. Métodos y Validaciones. Import",
           content: "plain",
         },
       ],
@@ -7611,6 +7611,119 @@ let classes = [
             type: "h3",
             info: [
               {
+                text: "Import en Python:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "¿Qué es import?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Una palabra clave para incluir código de un módulo en otro. ",
+                    content: "plain",
+                  },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Útil para organizar el código y reutilizarlo. ",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "¿Qué es un módulo?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Un archivo .py que contiene código Python. ",
+                    content: "plain",
+                  },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Puede incluir funciones, clases, variables y código ejecutable. ",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Sirve para agrupar código relacionado y facilitar la reutilización. ",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "El módulo random en Python proporciona funciones para generar números aleatorios.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class7/import.png",
+              alt: "Import en Python",
+            }
+          },
+          
+        ]
+      },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
                 text: "Actividades 💬",
                 content: "plain",
               },
@@ -7700,7 +7813,7 @@ let classes = [
         ]
       },
       {
-        topic: 4,
+        topic: 5,
         topicData: [
           {
             type: "h3",
