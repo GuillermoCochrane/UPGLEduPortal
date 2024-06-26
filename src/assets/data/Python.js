@@ -7139,7 +7139,7 @@ let classes = [
   },
   {
     class: 7,
-    topics: 4,
+    topics: 5,
     title: {
       type: "h2",
       info: [
@@ -7885,7 +7885,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Realizar un programa que permita el ingreso de 4 personas con su nombre y apellido, su dirección y la edad y muestre en pantalla cual es la persona(con todos los datos ingresados) ,  con mayor edad (y en que posición se cargo) y la de menor edad y en que posición se cargo (Por ejemplo Diego Markiewicz de 44 años, vive en General Levalle y  fue cargado en el registro número 3 y Robb Stark de 28 años vive en Winterfell y fue cargado en el registro número 1). También se deberá el promedio de las edades ingresadas. Se deberá validar que los datos ingresados sean correctos",
+                text: "Realizar un programa que permita el ingreso de 4 personas con su nombre y apellido, su dirección y la edad y muestre en pantalla cual es la persona(con todos los datos ingresados) ,  con mayor edad (y en que posición se cargo) y la de menor edad y en que posición se cargo (Por ejemplo Diego Markiewicz de 44 años, vive en General Levalle y  fue cargado en el registro número 3 y Robb Stark de 28 años vive en Winterfell y fue cargado en el registro número 1)",
                 content: "plain",
               },
             ],
@@ -7939,7 +7939,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Tengan en cuenta que no se puede dividir por CERO así que me debería advertir si lo coloco en el segundo número.Se deberá validar que los datos ingresados sean correctos",
+                text: "Tengan en cuenta que no se puede dividir por CERO así que me debería advertir si lo coloco en el segundo número",
                 content: "plain",
               },
             ],
@@ -7986,6 +7986,117 @@ let classes = [
               {
                 img: "/images/Python/class7/ejercicio_3.png",
                 alt: "Solución Ejercicio 3",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 4:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Realizar un juego donde la computadora seleccione un numero aleatorio del 1 al 10 y nosotros como jugadores tengamos hasta tres oportunidades de adivinar el numero, si ganamos que nos muestre un mensaje felicitándonos y mostrando el numero aleatorio seleccionado. Tener en cuenta que el numero seleccionado por la computadora al inicio es el mismo que deben evaluar en los tres intentos!. El programa deberá mostrar en que numero de intento lo acerte. Tambien deberá mostrar un mensaje como un "Frio" cuando estoy mas alla de 3 numeros o "Caliente" cuando estoy a menos de 3.',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class7/ejercicio_4_clase_1.png",
+                alt: "Solución Ejercicio 4, clase 1",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class7/ejercicio_4_clase_2.png",
+                alt: "Solución Ejercicio 4, clase 2",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 5:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Realizar un juego de piedra, papel y tijera.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class7/ejercicio_5.png",
+                alt: "Solución Ejercicio 5",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Trivia 2: ",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Dado el siguiente código, quiero saber si es Verdadero decir que el envío va a ser "gratis" si escribo algo distinto a SI o a NO',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class7/trivia_2.png",
+              alt: "Trivia 2",
+            }
+          },
+          {
+            type: "trivia",
+            answer: {
+              correct: "La respuesta es correcta",
+              incorrect: 'La respuesta es incorrecta',
+            },
+            info: [
+              {
+                text: "Verdadero",
+                content: "plain",
+                name: "trivia2",
+                correct: true,
+                value: "1"
+              },
+              {
+                text: "Falso",
+                content: "plain",
+                name: "trivia2",
+                correct: false,
+                value: "2"
               },
             ],
           },
