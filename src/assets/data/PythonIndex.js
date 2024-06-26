@@ -222,7 +222,7 @@ let classIndex = [
       ],
     },
     {
-      summary: "Métodos. Contadores y Acumuladores",
+      summary: "Métodos. Contadores. Import. ",
       classId: 7,
       links: [
         {
@@ -236,14 +236,19 @@ let classIndex = [
           link: "/courses/Python/class/7/2"
         },
         {
-          title: "Actividades",
+          title: "Import",
           topicId: 3,
           link: "/courses/Python/class/7/3"
         },
         {
-          title: "Bonus track",
+          title: "Actividades",
           topicId: 4,
           link: "/courses/Python/class/7/4"
+        },
+        {
+          title: "Bonus track",
+          topicId: 5,
+          link: "/courses/Python/class/7/5"
         }
       ],
     }
