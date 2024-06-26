@@ -63,7 +63,6 @@ h1 {
 }
 
 h2 {
-	font-family: var(--conSerif);
 	font-weight: 400;
 	color: #444;
 	margin-block: 0.5em;
@@ -306,11 +305,10 @@ iframe{
 table {
 	border-collapse: collapse;
 	margin-bottom: 3px;
-	/* color: var(--darkblue); */
+	color: #225;
 	text-align: center;
 	width: fit-content;
 	margin: auto;
-	/* border: 1px solid #ebebeb; */
 }
 
 table td,
@@ -336,8 +334,6 @@ table td{
     align-items: center;
     margin: auto;
     margin-block: 8px;
-    /* border-radius: 10px; */
-    /* padding: 5px; */
     width: fit-content;
     overflow-x: auto;
 }
@@ -410,7 +406,6 @@ form strong{
 	}
 
 	table{
-		/* overflow-x: auto; */
 		border: 0;
 	}
 	.hidden{
