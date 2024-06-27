@@ -8179,7 +8179,195 @@ let classes = [
         ]
       }
     ],
-  }
+  },
+  {
+    class: 8,
+    topics: 3,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Ciclo While",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Ciclo While",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "El ciclo while en programación se utiliza para ejecutar repetidamente un bloque de código mientras una condición específica sea verdadera. Esto es especialmente útil cuando no sabés de antemano cuántas veces necesitas repetir una tarea y quieres seguir ejecutando el código hasta que se cumpla una condición de salida.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "While condicion:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Bloque de código a ejecutar mientras la condición sea verdadera",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Flujo de ejecución:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "La condición se evalúa antes de cada iteración del bucle.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Si la condición es verdadera, el bloque de código dentro del while se ejecuta.",
+                    content: "plain",
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Después de la ejecución del bloque de código, la condición se vuelve a evaluar.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Si la condición sigue siendo verdadera, el ciclo se repite; de lo contrario, el programa continúa con la siguiente instrucción después del while.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo sencillo:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class8/while.png",
+              alt: "Ejemplo sencillo",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Usos típicos:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Procesamiento de datos mientras se cumpla cierta condición.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Interacción con el usuario hasta que se ingrese un valor específico.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Implementación de bucles controlados por eventos.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "¡¡¡Importante!!!",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Tener cuidado al usar ciclos while para evitar caer en bucles infinitos. Asegúrate de que la condición se modifique en algún punto dentro del bloque de código o de lo contrario, el bucle continuará ejecutándose indefinidamente.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class8/while.png",
+              alt: "Ejemplo sencillo",
+            }
+          },
+        ]
+      },
+    ]
+  },
 ];
 
 export default classes;
