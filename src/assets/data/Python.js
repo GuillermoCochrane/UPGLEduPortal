@@ -8504,6 +8504,20 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus Track",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      }
     ]
   },
 ];
