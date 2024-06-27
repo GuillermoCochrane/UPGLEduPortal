@@ -251,7 +251,28 @@ let classIndex = [
           link: "/courses/Python/class/7/5"
         }
       ],
-    }
+    },
+    {
+      summary: "Ciclo While",
+      classId: 8,
+      links: [
+        {
+          title: "Ciclo While",
+          topicId: 1,
+          link: "/courses/Python/class/8/1"
+        },
+        {
+          title: "Actividades",
+          topicId: 2,
+          link: "/courses/Python/class/8/2"
+        },
+        {
+          title: "Bonus track",
+          topicId: 3,
+          link: "/courses/Python/class/8/3"
+        }
+      ],
+    },
   ]
 
 
