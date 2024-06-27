@@ -8286,7 +8286,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Ejemplo sencillo:",
+                text: "Ejemplo: ",
                 content: "plain",
               },
             ],
@@ -8295,7 +8295,7 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class8/while.png",
-              alt: "Ejemplo sencillo",
+              alt: "Ejemplo while",
             }
           },
           {
@@ -8360,9 +8360,147 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class8/while.png",
-              alt: "Ejemplo sencillo",
+              img: "/images/Python/class8/while_infinite_loop.png",
+              alt: "Ejemplo ciclo infinito",
             }
+          },
+        ]
+      },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Actividades 💬",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 1:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Realiza el programa para la nasa que cuente regresviamente de 10 a 0 y luego muestre un mensaje de despegue",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo de salida: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class8/ejemplo_ejercicio_1.png",
+              alt: "Ejemplo Ejercicio 1",
+            }
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class8/ejercicio_1.png",
+                alt: "Solución Ejercicio 1",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 2:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "🔮 Adivina el numero: Realizar un programa que adivine un numero con 3 intentos para adivinar el numero secreto entre 1 y 10",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class8/ejercicio_2.png",
+                alt: "Solución Ejercicio 2",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 3:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "💻 SUMADORA: Realizar un programa que permita sumar numeros hasta que se ingrese un 0",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class8/ejercicio_3.png",
+                alt: "Solución Ejercicio 3",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 4:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "❎ Tabla de Multiplicar: Realizar un programa que muestre la tabla de multiplicar de un número ingresado por el usuario.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class8/ejercicio_4.png",
+                alt: "Solución Ejercicio 4",
+              },
+            ],
           },
         ]
       },
