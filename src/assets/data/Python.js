@@ -7876,6 +7876,54 @@ let classes = [
             type: "h4",
             info: [
               {
+                text: "Trivia 2: ",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Dado el siguiente código, quiero saber si es Verdadero decir que el envío va a ser "gratis" si escribo algo distinto a SI o a NO',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class7/trivia_2.png",
+              alt: "Trivia 2",
+            }
+          },
+          {
+            type: "trivia",
+            answer: {
+              correct: "La respuesta es correcta",
+              incorrect: 'La respuesta es incorrecta',
+            },
+            info: [
+              {
+                text: "Verdadero",
+                content: "plain",
+                name: "trivia2",
+                correct: true,
+                value: "1"
+              },
+              {
+                text: "Falso",
+                content: "plain",
+                name: "trivia2",
+                correct: false,
+                value: "2"
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
                 text: "Ejercicio 1:",
                 content: "plain",
               },
@@ -8056,7 +8104,35 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Trivia 2: ",
+                text: "Ejercicio 6:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Realizar un juego de Cara o Cruz donde el usuario tenga 2 opciones para elegir, si jugar contra la computadora o un amigo. Si elige la segunda deberíamos preguntarle el nombre a ambos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class7/ejercicio_6.png",
+                alt: "Solución Ejercicio 6",
+              },
+            ],
+          },
+
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Generador de Arte ASCII",
                 content: "plain",
               },
             ]
@@ -8065,40 +8141,20 @@ let classes = [
             type: "p",
             info: [
               {
-                text: 'Dado el siguiente código, quiero saber si es Verdadero decir que el envío va a ser "gratis" si escribo algo distinto a SI o a NO',
+                text: "Con esta herramienta, la transformación de texto en arte ASCII nunca ha sido tan simple y rápida. Ya sea para destacar tu perfil en las redes sociales, añadir un toque artístico a tu sitio web o personalizar tus comunicaciones personales, nuestro generador de arte ASCII está siempre disponible para satisfacer tus necesidades. Pruébalo y descubre lo fácil que es dar vida a tus textos con un toque de arte ASCII.",
                 content: "plain",
               },
-            ],
+            ]
           },
           {
-            type: "figure",
-            info: {
-              img: "/images/Python/class7/trivia_2.png",
-              alt: "Trivia 2",
-            }
-          },
-          {
-            type: "trivia",
-            answer: {
-              correct: "La respuesta es correcta",
-              incorrect: 'La respuesta es incorrecta',
-            },
+            type: "link",
             info: [
               {
-                text: "Verdadero",
+                text: "Generador de Arte ASCII",
                 content: "plain",
-                name: "trivia2",
-                correct: true,
-                value: "1"
+                link: "https://www.freetool.dev/es/generador-de-letras-ascii",
               },
-              {
-                text: "Falso",
-                content: "plain",
-                name: "trivia2",
-                correct: false,
-                value: "2"
-              },
-            ],
+            ]
           },
           {
             type: "h4",
