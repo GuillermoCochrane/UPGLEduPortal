@@ -253,7 +253,7 @@ let classIndex = [
       ],
     },
     {
-      summary: "Ciclo While",
+      summary: "Ciclo While. Debugger",
       classId: 8,
       links: [
         {
@@ -262,14 +262,19 @@ let classIndex = [
           link: "/courses/Python/class/8/1"
         },
         {
-          title: "Actividades",
+          title: "Debugger en Python",
           topicId: 2,
           link: "/courses/Python/class/8/2"
         },
         {
-          title: "Bonus track",
+          title: "Actividades",
           topicId: 3,
           link: "/courses/Python/class/8/3"
+        },
+        {
+          title: "Bonus track",
+          topicId: 4,
+          link: "/courses/Python/class/8/4"
         }
       ],
     },
