@@ -9168,7 +9168,7 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class8/ejercicio_1.png",
+                img: "/images/Python/class8/ejercicio_bonus_1.png",
                 alt: "Solución del Ejercicio 1",
               },
             ],
