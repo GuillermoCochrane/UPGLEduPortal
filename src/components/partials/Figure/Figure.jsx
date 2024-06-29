@@ -2,7 +2,13 @@ import PropTypes from "prop-types";
 function Figure({Data}) {
   return (
     <figure>
-        <img src={Data.img} alt={Data.alt} />
+        <img 
+          src={Data.img} 
+          alt={Data.alt}
+          className={ 
+            Data.style == "icon" ? "icon" : 
+            Data.style == "info" ? "info" : 
+            ""} />
     </figure>
   );
 }
