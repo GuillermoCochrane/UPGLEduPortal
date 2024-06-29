@@ -7924,6 +7924,54 @@ let classes = [
             type: "h4",
             info: [
               {
+                text: "Trivia 3:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "¿Cual de los 3 if es correcto?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "trivia",
+            answer: {
+              correct: "La respuesta es correcta",
+              incorrect: 'La respuesta es incorrecta',
+            },
+            info: [
+              {
+                text: "if frio >= 3",
+                content: "plain",
+                name: "trivia3",
+                correct: false,
+                value: "1"
+              },
+              {
+                text: "if frio => 3 :",
+                content: "plain",
+                name: "trivia3",
+                correct: false,
+                value: "2"
+              },
+              {
+                text: "if frio >= 3:",
+                content: "plain",
+                name: "trivia3",
+                correct: true,
+                value: "3"
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
                 text: "Ejercicio 1:",
                 content: "plain",
               },
