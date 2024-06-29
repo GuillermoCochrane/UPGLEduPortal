@@ -165,11 +165,29 @@ figure{
 	align-items: center;
 }
 
+ol li figure:has(img.icon) {
+    margin: 6px;
+    display: inline;
+    margin-block: 0;
+}
+
 figure img{
 	width: 90%;
 	margin: auto;
 	border-radius: 14px;
 	box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+figure img.icon{
+	width: fit-content;
+	border-radius: 3px;
+	margin: 0
+}
+
+figure img.info{
+	width: fit-content;
+	margin: 0;
+	border-radius: 10px;
 }
 
 a[role="button"],
