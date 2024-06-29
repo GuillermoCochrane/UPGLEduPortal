@@ -8230,7 +8230,7 @@ let classes = [
   },
   {
     class: 8,
-    topics: 3,
+    topics: 4,
     title: {
       type: "h2",
       info: [
@@ -8945,6 +8945,234 @@ let classes = [
               },
             ],
           },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo de bucles anidados o encapsulados (while dentro de otro while)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class8/bucles_anidados.png",
+              alt: "Bucles anidados",
+              style: "info"
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Un ejemplo de la utilización de bucles anidados puede ser un menú con opciones. En este caso, se tiene un bucle principal que se ejecuta mientras la variable ",
+                content: "plain",
+              },
+              {
+                text: "desea_volver_a_empezar",
+                content: "bold",
+              },
+              {
+                text: " sea ",
+                content: "plain",
+              },
+              {
+                text: "true",
+                content: "bold",
+              },
+              {
+                text: ". Dentro de este bucle, se muestra un menú de opciones para que el usuario elija. Luego, hay otro bucle ",
+                content: "plain",
+              },
+              {
+                text: "while",
+                content: "bold",
+              },
+              {
+                text: " que valida la opción seleccionada. Finalmente, se ejecuta la opción seleccionada utilizando una estructura ",
+                content: "plain",
+              },
+              {
+                text: "if",
+                content: "bold",
+              },
+              {
+                text: ". Si se elige la opción 3, la variable del primer bucle se cambia a ",
+                content: "plain",
+              },
+              {
+                text: "false",
+                content: "bold",
+              },
+              {
+                text: ", lo que termina el programa.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 1:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Escribe un programa que cuente una historia interactiva (del estilo de los libros ",
+                content: "plain",
+              },
+              {
+                text: ' "Elije tu propia aventura" ',
+                content: "bold",
+              },
+              {
+                text: "), en el que el lector vaya leyendo la historia y llegado a cierto punto, tenga que elegir como sigue la historia. Dependiendo de las elecciones tomadas,  tendra diferentes finales. ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo: ",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "El Viaje de Programación en Python",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Eres un estudiante de la UBP en General Levalle y te has inscrito en el curso de programación I en Python. Estás emocionado por aprender un nuevo lenguaje de programación y explorar el mundo de la informática.',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Capítulo 1: El Comienzo",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: " Comienzas el curso de programación y te encuentras con dos profesores ntusiastas que te introducen a los conceptos básicos de Python. Te enfrentas a desafíos emocionantes y aprendes a escribir tus primeros programas. ¿Quieres seguir adelante con el curso? ",
+                content: "plain",
+              },
+              {
+                text: "(Ve al Capítulo 2 apretando la tecla 2 y Enter ) ",
+                content: "bold",
+              },
+              {
+                text: "¿O te sientes abrumado y decides abandonar? ",
+                content: "plain",
+              },
+              {
+                text: "(Aprieta la tecla 3 y Enter)",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Capítulo 2: La Aventura Continúa",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Decides continuar con el curso y te sumerges más profundamente en el mundo de Python. Aprendes sobre estructuras de datos, funciones y bucles mientras resuelves problemas cada vez más complejos. Tu entusiasmo por la programación crece a medida que adquieres nuevas habilidades. ¿Quieres seguir adelante con el curso y enfrentar el desafío final del proyecto final? ',
+                content: "plain",
+              },
+              {
+                text: "(Aprieta la tecla 4 Enter ) ",
+                content: "bold",
+              },
+              {
+                text: "¿O te sientes frustrado y decides renunciar? ",
+                content: "plain",
+              },
+              {
+                text: "(Aprieta la tecla 3 y Enter)",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Capítulo 3: El Desafío Final",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Llega el momento de enfrentar el proyecto final del curso. Te enfrentas a un problema complicado que requiere todas las habilidades que has aprendido hasta ahora. Trabajas duro y, con determinación, logras completar el proyecto con éxito. Tu confianza en tus habilidades de programación está en su punto más alto y estás listo para enfrentar nuevos desafíos en el futuro. ¡Felicidades, has alcanzado el Final Feliz!',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Capitulo 3: El triste final",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Final Triste: ",
+                content: "bold",
+              },
+              {
+                text: "Decides abandonar el curso de programación y te sientes desanimado por no haber alcanzado tus metas. Sin embargo, con el tiempo, te das cuenta de que todavía hay oportunidades para aprender y crecer en el mundo de la informática.",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class8/ejercicio_1.png",
+                alt: "Solución del Ejercicio 1",
+              },
+            ],
+          }
         ]
       }
     ]
