@@ -8435,6 +8435,7 @@ let classes = [
                     info: {
                       img: "/images/Python/class8/punto_de_control.png",
                       alt: "Puntos de control",
+                      style: "info"
                     } 
                   }
                 ],
@@ -8503,6 +8504,7 @@ let classes = [
             info: {
               img: "/images/Python/class8/barra_depurador.png",
               alt: "Barra de depuración",
+              style: "icon"
             }
           },
           {
@@ -8525,6 +8527,7 @@ let classes = [
                     info: {
                       img: "/images/Python/class8/continuar.png",
                       alt: "Continuar",
+                      style: "icon"
                     }
                   },
                   {
@@ -8545,6 +8548,7 @@ let classes = [
                       info: {
                         img: "/images/Python/class8/depurar_pp_procedimientos.png",
                         alt: "Depurar paso a paso por procedimientos",
+                        style: "icon"
                       },
                     },
                     {
@@ -8565,6 +8569,7 @@ let classes = [
                       info: {
                         img: "/images/Python/class8/depurar_pp_instrucciones.png",
                         alt: "Depurar paso a paso por instrucciones",
+                        style: "icon"
                       },
                     },
                     {
@@ -8585,6 +8590,7 @@ let classes = [
                       info: {
                         img: "/images/Python/class8/salir.png",
                         alt: "Salir",
+                        style: "icon"
                       },
                     },
                     {
@@ -8605,6 +8611,7 @@ let classes = [
                       info: {
                         img: "/images/Python/class8/reiniciar.png",
                         alt: "Reiniciar",
+                        style: "icon"
                       },
                     },
                     {
@@ -8625,6 +8632,7 @@ let classes = [
                       info: {
                         img: "/images/Python/class8/detener.png",
                         alt: "Detener",
+                        style: "icon"
                       },
                     },
                     {
@@ -8669,6 +8677,7 @@ let classes = [
             info: {
               img: "/images/Python/class8/ejemplo_barra_variables.png",
               alt: "Ejemplo barra de variables",
+              style: "info"
             }
           },
           {
