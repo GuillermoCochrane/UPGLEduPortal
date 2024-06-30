@@ -9420,6 +9420,205 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Operadores con listas",
+                content: "plain",
+              },
+            ] 
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Agregar elementos: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Se puede agregar un elemento a una lista utilizando usando el método ",
+                    content: "plain",
+                  },
+                  {
+                    text: "append()",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eliminar elementos: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Se puede eliminar un elemento de una lista utilizando el método  ",
+                    content: "plain",
+                  },
+                  {
+                    text: "remove()",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Encontrar elementos: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Se puede buscar un elemento en una lista utilizando el operador ",
+                    content: "plain",
+                  },
+                  {
+                    text: "in",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ordenar la lista: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Se puede ordenar la lista utilizando el método ",
+                    content: "plain",
+                  },
+                  {
+                    text: "sort()",
+                    content: "bold",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Ejemplo de uso:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Crear una lista de compras",
+                content: "plain",
+              },
+            ],
+          },  
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_compras.png",
+              alt: "Lista de compras",
+            } 
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Agregar un elemento a la lista",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/agregar_elemento.png",
+              alt: "Agregar un elemento a la lista",
+            } 
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Eliminar un elemento de la lista",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/eliminar_elemento.png",
+              alt: "Eliminar un elemento de la lista",
+            } 
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Buscar un elemento en la lista",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/buscar_elemento.png",
+              alt: "Buscar un elemento en la lista",
+            } 
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Comprobar si un elemento está en la lista",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/comprobar_elemento_numeros.png",
+              alt: "Comprobar si un elemento está en la lista (números)",
+            } 
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/comprobar_elemento_nombres.png",
+              alt: "Comprobar si un elemento está en la lista (nombres)",
+            } 
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ordenar la lista",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/ordenar_lista.png",
+              alt: "Ordenar la lista",
+            } 
+          },
+        ]
+      },
     ]
   },
 ];
