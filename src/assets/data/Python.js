@@ -9177,6 +9177,251 @@ let classes = [
       }
     ]
   },
+  {
+    class: 9,
+    topics: 7,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Listas [🛒]",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "¿Qué son las listas?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Las listas en Python son estructuras de datos que se utilizan para almacenar una colección de elementos ordenados, estos elementos pueden ser de cualquier tipo, como números, cadenas de texto, booleanos, etc.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Características de las listas:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: " Ordenadas: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Las listas mantienen el orden en el que se agregan los elementos.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: " Mutables: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Los elementos de una lista se pueden modificar, agregar o eliminar.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: " Heterogéneas: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Una lista puede contener elementos de diferentes tipos.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: " Anidadas: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Se pueden crear listas dentro de otras listas.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Crear una lista",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Las listas se pueden crear utilizando corchetes [] y separando los elementos por comas.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Lista de números",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_numeros.png",
+              alt: "Lista de números",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Lista de cadenas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_cadenas.png",
+              alt: "Lista de cadenas",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Lista mixta",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_mixta.png",
+              alt: "Lista mixta",
+            }
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Acceder a elementos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Se puede acceder a un elemento específico de una lista utilizando su índice, el índice comienza en 0 para el primer elemento.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplos:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Acceder al segundo elemento de la lista \"numeros\"",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/acceder_lista_numeros.png",
+              alt: "Acceder al segundo elemento de la lista \"numeros\"",
+            }
+          },
+          {
+            type: "h4",
+            info: [ 
+              {
+                text: "Acceder al último elemento de la lista \"nombres\"",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/acceder_lista_nombres.png",
+              alt: "Acceder al último elemento de la lista \"nombres\"",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Cambiar el valor de la lista \"nombres\"",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/cambiar_lista_nombres.png",
+              alt: "Cambiar el valor de la lista \"nombres\"",
+            }
+          },
+        ]
+      },
+    ]
+  },
 ];
 
 export default classes;
