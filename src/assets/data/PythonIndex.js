@@ -278,6 +278,52 @@ let classIndex = [
         }
       ],
     },
+    {
+      summary: "Listas",
+      classId: 9,
+      links: [
+        {
+          title: "Listas",
+          topicId: 1,
+          link: "/courses/Python/class/9/1"
+        },
+        {
+          title: "Operaciones con listas",
+          topicId: 2,
+          link: "/courses/Python/class/9/2"
+        },
+        {
+          title: "Funciones de las listas",
+          topicId: 3,
+          link: "/courses/Python/class/9/3"
+        },
+        {
+          title: "Operadores con listas",
+          topicId: 4,
+          link: "/courses/Python/class/9/4"
+        },
+        {
+          title: "Slicing",
+          topicId: 5,
+          link: "/courses/Python/class/9/5"
+        },
+        {
+          title: "Listas anidadas",
+          topicId: 6,
+          link: "/courses/Python/class/9/6"
+        },
+        {
+          title: "Actividades",
+          topicId: 7,
+          link: "/courses/Python/class/9/7"
+        },
+        {
+          title: "Bonus track",
+          topicId: 8,
+          link: "/courses/Python/class/9/8"
+        }
+      ],
+    }
   ]
 
 
