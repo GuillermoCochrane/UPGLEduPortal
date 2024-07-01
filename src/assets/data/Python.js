@@ -10113,6 +10113,301 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 7,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Actividades 💬",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 1:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear una lista de nombres y luego:",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Imprimir la longitud de la lista.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Agregar un nuevo nombre al final de la lista.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eliminar el primer nombre de la lista.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Buscar un nombre en la lista e imprimir si está o no presente.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ordenar la lista alfabéticamente.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class9/ejercicio_1.png",
+                alt: "Solución Ejercicio 1",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 2:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear una lista de números y luego:",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Calcular la suma de todos los números de la lista.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Encontrar el número máximo y mínimo de la lista.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Multiplicar cada número de la lista por 2.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Imprimir los números pares de la lista.",
+                    content: "plain",
+                  },
+                ],  
+              },
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class9/ejercicio_2.png",
+                alt: "Solución Ejercicio 2",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 3:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear una lista de palabras y luego:",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Contar cuántas veces aparece una palabra específica en la lista.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Invertir el orden de la lista.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Unir dos listas en una sola.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Dividir una lista en dos sublistas.",
+                    content: "plain",
+                  },
+                ],  
+              },
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class9/ejercicio_3.png",
+                alt: "Solución Ejercicio 3",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 4:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Simular una cesta de la compra:",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Crear una lista con los productos que se van a comprar.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Agregar un nuevo producto a la lista.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eliminar un producto de la lista.",
+                    content: "plain",
+                  },
+                ],  
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Imprimir la lista",
+                    content: "plain",
+                  },
+                ],  
+              },
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class9/ejercicio_4.png",
+                alt: "Solución Ejercicio 4",
+              },
+            ],
+          }
+        ]
+      }
     ]
   },
 ];
