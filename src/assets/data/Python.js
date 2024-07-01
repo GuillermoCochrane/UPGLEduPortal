@@ -10067,6 +10067,52 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Listas anidadas: 🧶",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Se pueden crear listas dentro de otras listas.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_anidada.png",
+              alt: "Se pueden crear listas dentro de otras listas.",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Acceder a un elemento de la lista anidada",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/acceso_lista_anidada.png",
+              alt: "Acceder a un elemento de la lista anidada",
+            }
+          },
+        ]
+      },
     ]
   },
 ];
