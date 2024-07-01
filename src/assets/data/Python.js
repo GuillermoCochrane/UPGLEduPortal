@@ -9779,7 +9779,7 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class9/len_lista.png",
-              alt: "len(lista): Devuelve la longitud de la lista.",
+              alt: "Devuelve la longitud de la lista.",
             }
           },
           {
@@ -9795,7 +9795,7 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class9/lista_count.png",
-              alt: "list.count(elemento): Devuelve el numero de veces que aparece un elemento en la lista.",
+              alt: "Devuelve el numero de veces que aparece un elemento en la lista.",
             }
           },
           {
@@ -9811,7 +9811,7 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class9/lista_index.png",
-              alt: "list.index(elemento): Devuelve el índice de la primera aparición de un elemento en la lista.",
+              alt: "Devuelve el índice de la primera aparición de un elemento en la lista.",
             }
           },
           {
@@ -9827,7 +9827,7 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class9/lista_reverse.png",
-              alt: "list.reverse(): Devuelve la lista con orden inverso",
+              alt: "Devuelve la lista con orden inverso",
             }
           },
           {
@@ -9843,7 +9843,7 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class9/lista_copy.png",
-              alt: "list.copy(): Crea una copia de la lista.",
+              alt: "Crea una copia de la lista.",
             }
           },
           {
@@ -9949,7 +9949,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "+: Concatenar dos listas. ➕",
+                text: ' + : Concatenar dos listas.',
                 content: "plain",
               },
             ],  
@@ -9958,14 +9958,14 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class9/concatenar_listas.png",
-              alt: "+: Concatenar dos listas. ➕",
+              alt: "Concatenar dos listas.",
             }
           },
           {
             type: "h4",
             info: [
               {
-                text: "*: Repetir una lista un número de veces. ♻",
+                text: "* : Repetir una lista un número de veces.",
                 content: "plain",
               },
             ],  
@@ -9974,7 +9974,7 @@ let classes = [
             type: "figure",
             info: {
               img: "/images/Python/class9/repetir_lista.png",
-              alt: "*: Repetir una lista un número de veces. ♻",
+              alt: "Repetir una lista un número de veces.",
             }
           },
           {
@@ -9991,6 +9991,38 @@ let classes = [
             info: {
               img: "/images/Python/class9/iterar_lista.png",
               alt: "Iterar listas",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Multiplicar cada número de la lista por 2",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/multiplicar_lista_numeros.png",
+              alt: "Multiplicar cada número de la lista por 2",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Imprimir los números pares de la lista",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/imprimir_pares_lista.png",
+              alt: "Imprimir los números pares de la lista",
             }
           },
         ]
