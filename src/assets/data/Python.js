@@ -9290,7 +9290,15 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Las listas se pueden crear utilizando corchetes [] y separando los elementos por comas.",
+                text: "Las listas se pueden crear utilizando corchetes ",
+                content: "plain",
+              },
+              {
+                text: "[  ] ",
+                content: "bold",
+              },
+              {
+                text: "y separando los elementos por comas.",
                 content: "plain",
               },
             ],
@@ -9582,7 +9590,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Comprobar si un elemento está en la lista",
+                text: "Comprobar si un elemento está en la lista (numérica)",
                 content: "plain",
               },
             ],  
@@ -9593,6 +9601,15 @@ let classes = [
               img: "/images/Python/class9/comprobar_elemento_numeros.png",
               alt: "Comprobar si un elemento está en la lista (números)",
             } 
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Comprobar si un elemento está en la lista (palabras)",
+                content: "plain",
+              },
+            ],  
           },
           {
             type: "figure",
@@ -9699,6 +9716,45 @@ let classes = [
                   },
                 ],
               },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "sum(lista): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Suma todos los elementos de la lista.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "max(lista): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Devuelve el elemento máximo de la lista.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "min(lista): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Devuelve el elemento mínimo de la lista.",
+                    content: "plain",
+                  },
+                ],
+              },
             ],
           },
           {
@@ -9714,17 +9770,81 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Crear una lista de números",
+                text: "Calcula la longitud de la lista.",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
             info: {
-              img: "/images/Python/class9/lista_numeros_funciones.png",
-              alt: "Lista de números",
-            } 
+              img: "/images/Python/class9/len_lista.png",
+              alt: "len(lista): Devuelve la longitud de la lista.",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Calcula el numero de veces que aparece un elemento en la lista.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_count.png",
+              alt: "list.count(elemento): Devuelve el numero de veces que aparece un elemento en la lista.",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Devuelve el índice de la primera aparición de un elemento en la lista.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_index.png",
+              alt: "list.index(elemento): Devuelve el índice de la primera aparición de un elemento en la lista.",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Devuelve la lista con orden inverso",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_reverse.png",
+              alt: "list.reverse(): Devuelve la lista con orden inverso",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Crea una copia de la lista.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_copy.png",
+              alt: "list.copy(): Crea una copia de la lista.",
+            }
           },
           {
             type: "h4",
@@ -9756,118 +9876,6 @@ let classes = [
             info: {
               img: "/images/Python/class9/maximo_minimo_lista_numeros.png",
               alt: "Encontrar el número máximo y mínimo de la lista",
-            }
-          },
-          {
-            type: "h4",
-            info: [
-              {
-                text: "Multiplicar cada número de la lista por 2",
-                content: "plain",
-              },
-            ],  
-          },
-          {
-            type: "figure",
-            info: {
-              img: "/images/Python/class9/multiplicar_lista_numeros.png",
-              alt: "Multiplicar cada número de la lista por 2",
-            }
-          },
-          {
-            type: "h4",
-            info: [
-              {
-                text: "Imprimir los números pares de la lista",
-                content: "plain",
-              },
-            ],  
-          },
-          {
-            type: "figure",
-            info: {
-              img: "/images/Python/class9/imprimir_pares_lista.png",
-              alt: "Imprimir los números pares de la lista",
-            }
-          },
-          {
-            type: "h4",
-            info: [
-              {
-                text: "len(lista): Devuelve la longitud de la lista.",
-                content: "plain",
-              },
-            ],
-          },
-          {
-            type: "figure",
-            info: {
-              img: "/images/Python/class9/len_lista.png",
-              alt: "len(lista): Devuelve la longitud de la lista.",
-            }
-          },
-          {
-            type: "h4",
-            info: [
-              {
-                text: "list.count(elemento): Devuelve el numero de veces que aparece un elemento en la lista.",
-                content: "plain",
-              },
-            ],
-          },
-          {
-            type: "figure",
-            info: {
-              img: "/images/Python/class9/lista_count.png",
-              alt: "list.count(elemento): Devuelve el numero de veces que aparece un elemento en la lista.",
-            }
-          },
-          {
-            type: "h4",
-            info: [
-              {
-                text: "list.index(elemento): Devuelve el índice de la primera aparición de un elemento en la lista.",
-                content: "plain",
-              },
-            ],
-          },
-          {
-            type: "figure",
-            info: {
-              img: "/images/Python/class9/lista_index.png",
-              alt: "list.index(elemento): Devuelve el índice de la primera aparición de un elemento en la lista.",
-            }
-          },
-          {
-            type: "h4",
-            info: [
-              {
-                text: "list.reverse(): Devuelve la lista con orden inverso",
-                content: "plain",
-              },
-            ],
-          },
-          {
-            type: "figure",
-            info: {
-              img: "/images/Python/class9/lista_reverse.png",
-              alt: "list.reverse(): Devuelve la lista con orden inverso",
-            }
-          },
-          {
-            type: "h4",
-            info: [
-              {
-                text: "list.copy(): Crea una copia de la lista.",
-                content: "plain",
-              },
-            ],
-          },
-          {
-            type: "figure",
-            info: {
-              img: "/images/Python/class9/lista_copy.png",
-              alt: "list.copy(): Crea una copia de la lista.",
             }
           },
         ]
