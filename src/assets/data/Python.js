@@ -9792,6 +9792,105 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Operadores con listas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "+: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Concatenar dos listas.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "*: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Repetir una lista un número de veces.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "in: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Comprobar si un elemento está en la lista.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Ejemplo de uso:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "+: Concatenar dos listas. ➕",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/concatenar_listas.png",
+              alt: "+: Concatenar dos listas. ➕",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "*: Repetir una lista un número de veces. ♻",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/repetir_lista.png",
+              alt: "*: Repetir una lista un número de veces. ♻",
+            }
+          }
+        ]
+      },
     ]
   },
 ];
