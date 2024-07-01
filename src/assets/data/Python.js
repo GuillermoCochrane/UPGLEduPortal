@@ -9987,7 +9987,86 @@ let classes = [
           },
         ]
       },
-      
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Slicing: 🔪",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "La operación de slicing en Python es una forma eficiente de extraer elementos de una secuencia, como una lista o una cadena de texto, de acuerdo con una cierta lógica. La sintaxis del slicing es la siguiente: secuencia [inicio : final : paso]",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Ejemplos:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Obtener los primeros dos elementos de la lista \"numeros\"",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/slice_numeros.png",
+              alt: "Obtener los primeros dos elementos de la lista \"numeros\"",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Obtener los últimos tres elementos de la lista \"nombres\"",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/slice_nombres.png",
+              alt: "Obtener los últimos tres elementos de la lista \"nombres\"",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Obtener los elementos del 1 al 4 de la lista \"mixta\"",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/slice_mixta.png",
+              alt: "Obtener los elementos del 1 al 4 de la lista \"mixta\"",
+            }
+          },
+        ]
+      },
     ]
   },
 ];
