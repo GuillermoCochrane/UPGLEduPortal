@@ -10069,7 +10069,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class11/slice_numeros.png",
+              img: "/images/Python/class9/slice_numeros.png",
               alt: "Obtener los primeros dos elementos de la lista \"numeros\"",
             }
           },
@@ -10085,7 +10085,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class11/slice_nombres.png",
+              img: "/images/Python/class9/slice_nombres.png",
               alt: "Obtener los últimos tres elementos de la lista \"nombres\"",
             }
           },
@@ -10101,7 +10101,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class11/slice_mixta.png",
+              img: "/images/Python/class9/slice_mixta.png",
               alt: "Obtener los elementos del 1 al 4 de la lista \"mixta\"",
             }
           },
