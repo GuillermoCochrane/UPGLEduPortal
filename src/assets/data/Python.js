@@ -9790,6 +9790,86 @@ let classes = [
               alt: "Imprimir los números pares de la lista",
             }
           },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "len(lista): Devuelve la longitud de la lista.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/len_lista.png",
+              alt: "len(lista): Devuelve la longitud de la lista.",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "list.count(elemento): Devuelve el numero de veces que aparece un elemento en la lista.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_count.png",
+              alt: "list.count(elemento): Devuelve el numero de veces que aparece un elemento en la lista.",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "list.index(elemento): Devuelve el índice de la primera aparición de un elemento en la lista.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_index.png",
+              alt: "list.index(elemento): Devuelve el índice de la primera aparición de un elemento en la lista.",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "list.reverse(): Devuelve la lista con orden inverso",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_reverse.png",
+              alt: "list.reverse(): Devuelve la lista con orden inverso",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "list.copy(): Crea una copia de la lista.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_copy.png",
+              alt: "list.copy(): Crea una copia de la lista.",
+            }
+          },
         ]
       },
       {
@@ -9888,9 +9968,26 @@ let classes = [
               img: "/images/Python/class9/repetir_lista.png",
               alt: "*: Repetir una lista un número de veces. ♻",
             }
-          }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Iterar listas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/iterar_lista.png",
+              alt: "Iterar listas",
+            }
+          },
         ]
       },
+      
     ]
   },
 ];
