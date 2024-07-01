@@ -9619,6 +9619,179 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Funciones de las listas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "len(lista): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Devuelve la longitud de la lista.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "list.count(elemento): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Devuelve el número de veces que aparece un elemento en la lista.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "list.index(elemento): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Devuelve el índice de la primera aparición de un elemento en la lista.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "list.reverse(): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Invierte el orden de la lista.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "list.copy(): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Crea una copia de la lista.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Ejemplos de Funciones",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Crear una lista de números",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/lista_numeros_funciones.png",
+              alt: "Lista de números",
+            } 
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Calcular la suma de todos los números de la lista",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/suma_lista_numeros.png",
+              alt: "Calcular la suma de todos los números de la lista",
+            } 
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Encontrar el número máximo y mínimo de la lista",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/maximo_minimo_lista_numeros.png",
+              alt: "Encontrar el número máximo y mínimo de la lista",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Multiplicar cada número de la lista por 2",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/multiplicar_lista_numeros.png",
+              alt: "Multiplicar cada número de la lista por 2",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Imprimir los números pares de la lista",
+                content: "plain",
+              },
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class9/imprimir_pares_lista.png",
+              alt: "Imprimir los números pares de la lista",
+            }
+          },
+        ]
+      },
     ]
   },
 ];
