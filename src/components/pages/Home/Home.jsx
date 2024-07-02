@@ -6,9 +6,7 @@ function Home() {
 
   return (
     <article className="home">
-      <figure >
         <img src={Logo} alt="Logo de UPGL" className="logo" />
-      </figure>
         <h1 className="UPGL" >Universidad Popular General Levalle</h1>
         <h2>Seleccione su curso</h2>
         <section>
