@@ -597,7 +597,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/timeline.png",
+              img: "/images/IA/timeline.png",
               alt: "Linea de tiempo de la historia de la IA",
             },
           },
