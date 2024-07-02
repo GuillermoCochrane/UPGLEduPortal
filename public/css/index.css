@@ -54,7 +54,7 @@ main{
 article {
 	scroll-behavior: smooth;
 	background: #ebebeb;
-	padding: 0 1rem 1rem .5rem;
+	/* padding: 0 1rem 1rem .5rem; */
 	height: max-content;
 	overflow: visible;
 }
@@ -81,7 +81,6 @@ h4,
 h3 {
 	font-weight: 500;
 	margin-top: .5rem;
-	padding-left: 1rem;
 	margin-bottom: .5rem;
 }
 
@@ -290,18 +289,20 @@ article.home{
 .logo{
 	width: 40%;
 	display: block;
-	margin-block: 1em;
+	margin: auto;
 }
 
 .UPGL{
 	text-align: center;
-	margin: auto;
+	margin: 0;
+	margin-inline: auto;
 	font-size: 30px;
 	width: fit-content;
 }
 
 section h3{
 	text-align: center;
+	margin-block: 1em;
 }
 
 .current{
