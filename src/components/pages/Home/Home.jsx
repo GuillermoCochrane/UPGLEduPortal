@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import coursesIndex from '../../../assets/data/CoursesIndex'
-import Logo from "../../../assets/images/icon.png";
+import Logo from "../../../assets/images/logoUPGL.png";
 
 function Home() {
 
