@@ -10546,6 +10546,201 @@ let classes = [
           },
         ],
       },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Filtros con comprensiones",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Podemos filtrar los alumnos(en este caso) dependiendo la letra con la que empieza o termina. El metodo a utilizar es ",
+                content: "plain",
+              },
+              {
+                text: ".startswith() ",
+                content: "bold",
+              },
+              {
+                text: "o ",
+                content: "plain", 
+              },
+              {
+                text: ".endswith() ",
+                content: "bold",
+              },
+              {
+                text: "donde en el parentesis le pasaremos como cadena de texto lo que tiene que buscar adelante o atras de cada iteracion.",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Por ejemplo si colocamos ",
+                content: "plain",
+              },
+              {
+                text: ".startswith('s')",
+                content: "bold",
+              },
+              {
+                text: ", filtrara todos los nombres que empiecen con S",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class10/filtros_comprensiones.png",
+              alt: "Filtros con comprensiones",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: 'Tambien podemos filtrar por contenido de una palabra, generando una nueva lista a partir de por ejemplo palabras que contengan tanto la letra "a" como la letra "o".',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class10/filtro_comprensiones.png",
+              alt: "Filtro con comprensiones",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En este caso tambien podemos agregarle más condiciones ya que trabajamos con la estructura del if",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Podemos filtrar y aplicar una funcion!",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class10/filtro_comprensiones_funcion.png",
+              alt: "Filtro con comprensiones",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Podemos crear Listas de listas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class10/lista_listas.png",
+              alt: "Listas de listas",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Siendo un if podemos incluir un else: Aunque no es tan común, se puede incluir un bloque else en la comprensión de lista,pero esto suele hacerse más en comprensiones de listas que están aplicando una función o transformación a los elementos.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class10/lista_listas_else.png",
+              alt: "Listas de listas, uso de if y else",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Este caso es espectacular, convierte mediante el >= 'g' todas las palabras que comiencen con una letra que alfabeticamente se encuentre despues de la G en mayusculas y el resto en minusculas.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Podemos usar una comprensión de listas con la función range:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class10/lista_listas_range.png",
+              alt: "Listas de listas, uso de range",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Otro ejemplo:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Obtener el índice y el elemento de una lista:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Queremos crear una lista de tuplas donde cada tupla contenga el índice y el elemento de la lista original. Podemos usar la función enumerate:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class10/enumerate.png",
+              alt: "Enumerate",
+            }
+          }
+        ]
+      },
     ]
   },
 ];
