@@ -39,8 +39,8 @@ function Courses({ match }) {
               ))
             }
           </ol>
-          <Link to="/">
-            <button>Volver al inicio</button>
+          <Link to={`/courses/${courseId}`}>	
+            <button>Inicio del curso</button>
           </Link> 
         </nav>
         <Switch>
