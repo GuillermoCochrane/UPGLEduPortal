@@ -323,7 +323,33 @@ let classIndex = [
           link: "/courses/Python/class/9/8"
         }
       ],
-    }
+    },
+    {
+      summary: "Comprensión de listas",
+      classId: 10,
+      links: [
+        {
+          title: "Comprensión de listas",
+          topicId: 1,
+          link: "/courses/Python/class/10/1"
+        },
+        {
+          title: "Filtros con comprensiones",
+          topicId: 2,
+          link: "/courses/Python/class/10/2"
+        },
+        {
+          title: "Actividades",
+          topicId: 3,
+          link: "/courses/Python/class/10/3"
+        },
+        {
+          title: "Bonus track",
+          topicId: 4,
+          link: "/courses/Python/class/10/4"
+        }
+      ],
+    },
   ]
 
 
