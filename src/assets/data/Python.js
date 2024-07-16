@@ -10450,6 +10450,104 @@ let classes = [
       }
     ]
   },
+  {
+    class: 10,
+    topics: 4,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Comprensiones de listas",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "¿Qué son las comprensiones de listas?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Las comprensiones en Python son una forma concisa y eficiente de crear listas, conjuntos y diccionarios. Permiten realizar operaciones de filtrado, mapeo y transformación de elementos en una sola línea de código, lo que facilita la lectura y escritura del código.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Siguiendo el ejemplo que vimos en clase las podemos observar en la nueva lista llamada alumnos_restamtes:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class10/comprensiones.png",
+              alt: "Comprensiones en Python",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "¿Qué hace en este caso?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Lo que esta haciendo nuestra comprension es generar una lista nueva donde en cada iteracion va comprobando si el alumno no esta en la lista de alumnos_pasados y lo agrega en la nueva lista de alumnos restantes.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Siguiendo este caso, en la primer iteracion agregaria a salvador, en la segunda ",
+                content: "plain",
+              },
+              {
+                text: "NO ",
+                content: "plain",
+              },
+              {
+                text: "agregaria a brisa(ya que esta en alumnos_pasados) y despues de la tercera agregaria a todos los alumnos hasta finalizar la lista.",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Vale aclarar que la lista nueva no se genera hasta que finaliza el ciclo for que nos encontramos en su interior, si nos paramos en la lista con el debbuger no la vamos a ver hasta que termine de ejecutarse la linea de codigo en su totalidad.",
+                content: "plain",
+              },
+            ],
+          },
+        ],
+      },
+    ]
+  },
 ];
 
 export default classes;
