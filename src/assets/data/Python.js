@@ -10619,7 +10619,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class10/filtro_comprensiones.png",
+              img: "/images/Python/class10/filtro_comprensiones_ao.png",
               alt: "Filtro con comprensiones",
             }
           },
