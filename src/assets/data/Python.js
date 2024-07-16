@@ -10527,10 +10527,10 @@ let classes = [
               },
               {
                 text: "NO ",
-                content: "plain",
+                content: "bold",
               },
               {
-                text: "agregaria a brisa(ya que esta en alumnos_pasados) y despues de la tercera agregaria a todos los alumnos hasta finalizar la lista.",
+                text: "agregaria a brisa (ya que esta en alumnos_pasados) y despues de la tercera agregaria a todos los alumnos hasta finalizar la lista.",
                 content: "plain",
               },
             ]
@@ -10608,11 +10608,11 @@ let classes = [
             }
           },
           {
-            type: "h4",
+            type: "p",
             info: [
               {
                 text: 'Tambien podemos filtrar por contenido de una palabra, generando una nueva lista a partir de por ejemplo palabras que contengan tanto la letra "a" como la letra "o".',
-                content: "plain",
+                content: "bold",
               },
             ],
           },
@@ -10636,7 +10636,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Podemos filtrar y aplicar una funcion!",
+                text: "Podemos filtrar y aplicar una funcion:",
                 content: "plain",
               },
             ],
@@ -10665,11 +10665,11 @@ let classes = [
             }
           },
           {
-            type: "h4",
+            type: "p",
             info: [
               {
                 text: "Siendo un if podemos incluir un else: Aunque no es tan común, se puede incluir un bloque else en la comprensión de lista,pero esto suele hacerse más en comprensiones de listas que están aplicando una función o transformación a los elementos.",
-                content: "plain",
+                content: "bold",
               },
             ],
           },
@@ -10719,7 +10719,7 @@ let classes = [
             info: [
               {
                 text: "Obtener el índice y el elemento de una lista:",
-                content: "plain",
+                content: "bold",
               },
             ],
           },
