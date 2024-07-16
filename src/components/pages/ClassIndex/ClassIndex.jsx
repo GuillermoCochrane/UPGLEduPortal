@@ -47,7 +47,7 @@ function ClassIndex(params) {
                 data && data.length == 0 ? <NotFound  /> :
                 data.map((item, index) => (
                     <section key={index}>
-                        <h2>{item.summary}</h2>
+                        <h2 className='index-subtitle'>{item.summary}</h2>
                         <ol className='topics-index'>
                             {
                                 item.links.map((item, index) => (

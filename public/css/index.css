@@ -157,6 +157,7 @@ article ul li::before{
 
 ul ul li{
 	/* padding-inline: .5em; */
+	color: inherit;
 }
 
 figure{
@@ -267,6 +268,10 @@ h2.index-title{
 	text-align: center;
 	margin-inline: auto;
 	margin-block: 1em;
+}
+
+h2.index-subtitle{
+	text-align: left;
 }
 
 ol.topics-index{
