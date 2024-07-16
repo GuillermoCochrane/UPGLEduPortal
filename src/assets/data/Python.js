@@ -10755,6 +10755,70 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus Track: ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Uso de la función pprint (pretty print)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "La función pprint es un módulo en Python que proporciona una forma de imprimir estructuras de datos complejas (como listas, diccionarios, etc.) de manera más legible y organizada. Al usar pprint, los datos se formatean con saltos de línea y sangrías apropiadas, facilitando su comprensión y análisis visual. Es especialmente útil cuando trabajas con datos anidados o grandes volúmenes de información.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class10/pprint.png",
+              alt: "Uso de la función pprint",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Otro ejemplo:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Podemos usar la función pprint para imprimir diccionarios de manera más legible:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class10/pprint_diccionario.png",
+              alt: "Uso de la función pprint",
+            }
+          }
+        ]
+      },
     ]
   },
 ];
