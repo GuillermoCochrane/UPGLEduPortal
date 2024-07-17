@@ -11045,8 +11045,8 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class11/lista_compras.png",
-              alt: "Lista de compras",
+              img: "/images/Python/class11/deteccion.png",
+              alt: "Detección de Palabras Clave",
             }
           },
           {
@@ -11191,7 +11191,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Ejemplo 4: ",
+                text: "Ejemplo 3: ",
                 content: "plain",
               },
               {
@@ -11211,7 +11211,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Ejemplo 5: ",
+                text: "Ejemplo : ",
                 content: "plain",
               },
               {
