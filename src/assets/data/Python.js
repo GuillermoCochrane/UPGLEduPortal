@@ -11238,6 +11238,102 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: 'Uso de "map" y "join"',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "map",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "La función ",
+                content: "plain",
+              },
+              {
+                text: "map",
+                content: "bold",
+              },
+              {
+                text: " toma dos argumentos: una función y un iterable. En este caso, la función ",
+                content: "plain",
+              },
+              {
+                text: "str",
+                content: "bold",
+              },
+              {
+                text: " convierte cada número al cuadrado en una cadena de texto. El resultado es un nuevo iterable que contiene las cadenas de texto de los cuadrados.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/map.png",
+              alt: "Conversor a string usando map",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "join",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "La función ",
+                content: "plain",
+              },
+              {
+                text: "join",
+                content: "bold",
+              },
+              {
+                text: " concatena elementos de un iterable en una cadena, separándolos por un delimitador especificado. En este caso, utilizamos ",
+                content: "plain",
+              },
+              {
+                text: '" , "',
+                content: "bold",
+              },
+              {
+                text: " como delimitador para unir las cadenas de texto de los cuadrados.",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/join.png",
+              alt: "Unir strings usando join",
+            }
+          },
+        ]
+      },
     ]
   }
 ];
