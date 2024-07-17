@@ -370,7 +370,7 @@ let classIndex = [
           link: "/courses/Python/class/11/3"
         },
         {
-          title: "Comprensiones de Listas vs Generadores de Expresiones",
+          title: "Comprensiones vs Generadores",
           topicId: 4,
           link: "/courses/Python/class/11/4"
         },
