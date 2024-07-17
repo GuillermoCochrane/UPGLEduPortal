@@ -10823,7 +10823,7 @@ let classes = [
   },
   {
     class: 11,
-    topics: 5,
+    topics: 6,
     title: {
       type: "h2",
       info: [
@@ -11334,6 +11334,202 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Comprensiones de Listas vs Generadores de Expresiones",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Comprensiones de Listas:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Crean listas: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Su objetivo principal es crear una lista de elementos en memoria.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Sintaxis más concisa: ",
+                    content: "bold",
+                  },
+                  {
+                    texte: "Utilizan una sintaxis compacta similar a las listas para definir la lógica de creación.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eficiencia para conjuntos de datos pequeños: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Adecuadas para conjuntos de datos pequeños que caben en la memoria.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Resultado completo: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Almacena la lista completa en la memoria antes de devolverla.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [ 
+              {
+                text: "Generadores de Expresiones:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Crean iterables: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Su objetivo principal es generar elementos uno a uno, sin almacenar toda la secuencia.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Sintaxis similar a las comprensiones de listas: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Utilizan una sintaxis similar a las comprensiones de listas, pero con paréntesis en lugar de corchetes o llaves.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eficiencia para conjuntos de datos grandes: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Ideales para procesar grandes conjuntos de datos de forma iterativa, liberando memoria.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Resultado progresivo: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Devuelven un objeto iterable que genera elementos uno a uno, sin almacenar la secuencia completa.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear una lista de cuadrados de 1 a 110000 para ver la diferencia de tiempo en ejecución:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Comprensión de Lista: ",
+                content: "bold",
+              },
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/comprensiones_lista.png",
+              alt: "Comprensión de lista",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Generador de Expresión: ",
+                content: "bold",
+              },
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/generadores_de_exp.png",
+              alt: "Generador de expresión",
+            }
+          },
+        ]
+      }
     ]
   }
 ];
