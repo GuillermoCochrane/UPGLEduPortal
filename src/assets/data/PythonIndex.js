@@ -350,6 +350,42 @@ let classIndex = [
         }
       ],
     },
+    {
+      summary: "Generadores de Expresiones",
+      classId: 11,
+      links: [
+        {
+          title: "Generadores de Expresiones",
+          topicId: 1,
+          link: "/courses/Python/class/11/1"
+        },
+        {
+          title: "Ejemplos",
+          topicId: 2,
+          link: "/courses/Python/class/11/2"
+        },
+        {
+          title: "Uso de map y join",
+          topicId: 3,
+          link: "/courses/Python/class/11/3"
+        },
+        {
+          title: "Comprensiones de Listas vs Generadores de Expresiones",
+          topicId: 4,
+          link: "/courses/Python/class/11/4"
+        },
+        {
+          title: "Actividades",
+          topicId: 5,
+          link: "/courses/Python/class/11/5"
+        },
+        {
+          title: "Bonus track",
+          topicId: 6,
+          link: "/courses/Python/class/11/6"
+        }
+      ]
+    }
   ]
 
 
