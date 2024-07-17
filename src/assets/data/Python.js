@@ -11020,7 +11020,224 @@ let classes = [
             ]
           },
         ]
-      }
+      },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Ejemplos de Generadores de Expresiones",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo 1: Detección de Palabras Clave",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/lista_compras.png",
+              alt: "Lista de compras",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo 2: Generador de Cuadrados",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Definimos el generador de expresiones:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/generador_de_cuadrados.png",
+              alt: "Generador de Cuadrados",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Método 1: ",
+                content: "bold",
+              },
+              {
+                text: "Usando un bucle for",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/generador_de_cuadrados_for.png",
+              alt: "Generador de Cuadrados usando bucle for para imprimir",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Nota: ",
+                content: "bold",
+              },
+              {
+                text: "El generador se ha agotado después del bucle for anterior. Para los siguientes métodos, necesitamos recrear el generador.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Método 2: ",
+                content: "bold",
+              },
+              {
+                text: "Convertir a lista y luego imprimir",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/generador_de_cuadrados_lista.png",
+              alt: "Generador de Cuadrados convertido a lista para imprimir",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Método 3: ",
+                content: "bold",
+              },
+              {
+                text: "Usar la función print con desempaquetado",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/generador_de_cuadrados_desempaquetado.png",
+              alt: "Generador de Cuadrados usando print con desempaquetado",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Método 4: ",
+                content: "bold",
+              },
+              {
+                text: "Usar comprensión de lista en print (crea una lista temporal)",
+                content: "plain",
+              }
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/generador_de_cuadrados_compresion.png",
+              alt: "Generador de Cuadrados usando comprensión de lista para imprimir",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Método 5: ",
+                content: "bold",
+              },
+              {
+                text: "Usar join con map (para grandes conjuntos de datos)",
+                content: "plain",
+              }
+            ],  
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/generador_de_cuadrados_map.png",
+              alt: "Generador de Cuadrados usando map y join para imprimir",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo 4: ",
+                content: "plain",
+              },
+              {
+                text: "Generador de Números Pares",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/generador_de_numeros_pares.png",
+              alt: "Generador de Números Pares",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo 5: ",
+                content: "plain",
+              },
+              {
+                text: "Generador con Filtro",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Este generador filtra los números pares del 0 al 10:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/generador_de_numeros_pares_filtrados.png",
+              alt: "Generador de Números Pares filtrados",
+            }
+          },
+        ]
+      },
     ]
   }
 ];
