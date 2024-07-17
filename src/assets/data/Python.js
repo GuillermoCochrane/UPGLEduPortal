@@ -11529,7 +11529,35 @@ let classes = [
             }
           },
         ]
-      }
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Actividades 💬",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus Track: ",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
     ]
   }
 ];
