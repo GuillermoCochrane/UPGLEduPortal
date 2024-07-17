@@ -10821,6 +10821,208 @@ let classes = [
       },
     ]
   },
+  {
+    class: 11,
+    topics: 5,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Generadores de Expresiones en Python",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "¿Qué son los generadores de expresiones?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: 'Los generadores de expresiones son una característica poderosa y eficiente en Python para crear secuencias de datos de manera concisa. Son similares a las "comprensiones de lista", pero con algunas diferencias clave en términos de sintaxis y comportamiento. A diferencia de las listas, que almacenan todos los elementos a la vez, los generadores liberan memoria al generar elementos uno a uno. Esto los hace ideales para trabajar con grandes conjuntos de datos o cuando la memoria es limitada.',
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Sintaxis Básica",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "La sintaxis de un generador de expresiones es:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class11/generadores_de_expr.png",
+              alt: "Sintaxis Básica de Generadores de Expresiones",
+            }
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "expresion: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Es el valor que se generará para cada item.",
+                    content: "plain",
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "item: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Variable que toma cada valor del iterable.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "iterable: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Secuencia sobre la que iterará el generador.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "if condicion: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "(Opcional) Condición que debe cumplirse para que el generador genere un valor.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Características Principales",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Paréntesis: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Usan paréntesis ",
+                    content: "plain",
+                  },
+                  {
+                    text: ' "(  )" ',
+                    content: "bold",
+                  },
+                  {
+                    text: " en lugar de corchetes ",
+                    content: "plain",
+                  },
+                  {
+                    text: ' "[  ]" ',
+                    content: "bold",
+                  },
+                  {
+                    text: ", que se usan en comprensiones de lista.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Evaluación Perezosa: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Los valores se generan solo cuando se solicitan, lo que ahorra memoria.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Uso Único: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Una vez que se han consumido todos los elementos, el generador se agota y no puede reutilizarse.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eficiencia de Memoria: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Ideal para trabajar con grandes conjuntos de datos o secuencias infinitas.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+        ]
+      }
+    ]
+  }
 ];
 
 export default classes;
