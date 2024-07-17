@@ -10876,7 +10876,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class11/generadores_de_expr.png",
+              img: "/images/Python/class11/generadores_de_expresiones.png",
               alt: "Sintaxis Básica de Generadores de Expresiones",
             }
           },
