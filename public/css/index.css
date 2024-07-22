@@ -167,10 +167,12 @@ figure{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow-x: scroll;
+	border-radius: 14px;
 }
 
 ol li figure:has(img.icon) {
-    margin: 6px;
+    margin: auto;
     display: inline;
     margin-block: 0;
 }
@@ -195,6 +197,19 @@ figure img.info{
 	margin: 0;
 	border-radius: 10px;
 	max-width: 90%;
+}
+
+.enlarged {
+	width: 200%;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow-x:scroll;
+	overflow-y: scroll;
+	margin-inline: 0;
+	cursor: zoom-out;
+	scale: 1.5;
+	transform-origin: top left;
 }
 
 a[role="button"],
