@@ -11779,6 +11779,186 @@ let classes = [
               },
             ],
           },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplos de Uso",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Una simple funcion que suma dos números:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class15/funciones_sumar.png",
+              alt: "Función que suma 2 números",
+            }
+          },
+        ],
+      },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Decoradores de Funciones",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Dentro de las funciones podemos ",
+                content: "plain",
+              },
+              {
+                text: "decorarla",
+                content: "italic",
+              },
+              {
+                text: " para ayudarnos en un futuro a recordar que hace, declarando los datos que espera y la salida que pensamos darle, esto es simplemente visual ya que Python no es fuertemente tipado, por lo que dentro de la funcion tendremos que hacer la logica para que por ejemplo de un str obtengamos en el return un int.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Estos decoradores van en los parámetros donde después del nombre de la variable colocamos ",
+                content: "plain",
+              },
+              {
+                text: ":",
+                content: "bold",
+              },
+              {
+                text: " y el tipo de dato esperado y al final de la declaración con ",
+                content: "plain",
+              },
+              {
+                text: ":",
+                content: "bold",
+              },
+              {
+                text: " podemos colocar la salida esperada, en este caso texto esperamos que sea un str y ",
+                content: "plain",
+              },
+              {
+                text: "valor_de_retorno",
+                content: "italic",
+              },
+              {
+                text: " un int.",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class15/decoradores.png",
+              alt: "Decoradores de Funciones",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Pero no solo eso, tambien podemos agregarle un atributo extra en los parámetros para poner por defecto en caso de que el usuario no coloque nada y sean si o si necesarios para la lógica de la función, usando la siguiente expresión: ",
+                content: "plain",
+              },
+              {
+                text: "| None = (valor por defecto).",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class15/decoradores2.png",
+              alt: "Decoradores de Funciones",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En este caso, cuando le pasamos un parametro a nuestra función ",
+                content: "plain",
+              },
+              {
+                text: "numero()",
+                content: "italic",
+              },
+              {
+                text: " tomará lo que tiene dentro de los parentesis como parametro para imprimir el primer mensaje.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class15/decoradores3.png",
+              alt: "Decoradores de Funciones",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En este otro ejemplo realizamos una función que se encargue de hacer bucles y buscar el mayor entre X cantidad de números, en caso de no especificárselo dentro de los parentesis nos dará dos como predeterminado.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "calcular(): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Da dos Intentos.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "calcular(5): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Da cinco Intentos.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
         ],
       },
     ]
