@@ -736,7 +736,7 @@ let classes = [
                 info: [
                   { text: "Funciones: ", content: "bold" },
                   {
-                    text: "Las funciónes son bloques de código que se pueden reutilizar para realizar tareas específicas.",
+                    text: "Las funciones son bloques de código que se pueden reutilizar para realizar tareas específicas.",
                     content: "plain",
                   },
                 ],
@@ -1109,7 +1109,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Python está en todo, desde programación de instrumentos hasta software de computadoras,desarrollo web y aplicaciones móviles. Incluso, te permite hacer comentarios para que tengas recordatorios para funciónes futuras o indicar problemas en una línea de código. Python es genial para casi cualquier necesidad de desarrollo, ya sea programación de servidores, operación de sistemas, software, juegos y mucho más. A continuación, repasamos los usos más comunes:",
+                text: "Python está en todo, desde programación de instrumentos hasta software de computadoras,desarrollo web y aplicaciones móviles. Incluso, te permite hacer comentarios para que tengas recordatorios para funciones futuras o indicar problemas en una línea de código. Python es genial para casi cualquier necesidad de desarrollo, ya sea programación de servidores, operación de sistemas, software, juegos y mucho más. A continuación, repasamos los usos más comunes:",
                 content: "plain",
               },
             ],
@@ -1383,7 +1383,7 @@ let classes = [
                         info: [
                           { text: "Better Comments: ", content: "bold" },
                           {
-                            text: "Esta extensión te ayuda a escribir comentarios más claros y descriptivos en tu código Python. Ofrece diferentes plantillas de comentarios, resaltado de sintaxis y otras funciónes útiles.",
+                            text: "Esta extensión te ayuda a escribir comentarios más claros y descriptivos en tu código Python. Ofrece diferentes plantillas de comentarios, resaltado de sintaxis y otras funciones útiles.",
                             content: "plain",
                           },
                           {
@@ -2321,7 +2321,7 @@ let classes = [
                 content: "bold",
               },
               {
-                text: ", que incluye funciónes de formato de E/S, como ",
+                text: ", que incluye funciones de formato de E/S, como ",
                 content: "plain",
               },
               {
@@ -7505,7 +7505,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Las funciónes ",
+                    text: "Las funciones ",
                     content: "plain",
                   },
                   {
@@ -7673,7 +7673,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Puede incluir funciónes, clases, variables y código ejecutable. ",
+                    text: "Puede incluir funciones, clases, variables y código ejecutable. ",
                     content: "plain",
                   },
                 ],
@@ -7693,7 +7693,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "El módulo random en Python proporciona funciónes para generar números aleatorios.",
+                text: "El módulo random en Python proporciona funciones para generar números aleatorios.",
                 content: "plain",
               },
             ],
@@ -9107,7 +9107,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: 'Decides continuar con el curso y te sumerges más profundamente en el mundo de Python. Aprendes sobre estructuras de datos, funciónes y bucles mientras resuelves problemas cada vez más complejos. Tu entusiasmo por la programación crece a medida que adquieres nuevas habilidades. ¿Quieres seguir adelante con el curso y enfrentar el desafío final del proyecto final? ',
+                text: 'Decides continuar con el curso y te sumerges más profundamente en el mundo de Python. Aprendes sobre estructuras de datos, funciones y bucles mientras resuelves problemas cada vez más complejos. Tu entusiasmo por la programación crece a medida que adquieres nuevas habilidades. ¿Quieres seguir adelante con el curso y enfrentar el desafío final del proyecto final? ',
                 content: "plain",
               },
               {
@@ -11580,7 +11580,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "Definición de funciónes",
+                text: "Definición de funciones",
                 content: "plain",
               },
             ],
@@ -11589,7 +11589,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Las funciónes en python son bloques de codigo reutilizables que se ejecutan cuando son llamadas. Ayudan a organizar el codigo, lo hacen mas legible y ¡permiten reutilizar código!",
+                text: "Las funciones en python son bloques de código reutilizables que se ejecutan cuando son llamadas. Ayudan a organizar el codigo, lo hacen mas legible y ¡permiten reutilizar código!",
                 content: "plain",
               },
             ],
@@ -11610,11 +11610,11 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Reutilizacion de Código: ",
+                    text: "Reutilización de Código: ",
                     content: "bold",
                   },
                   {
-                    text: "Las funciónes permiten escribir una vez y se pueden usar en cualquier parte del codigo.Esto evita duplicación de código y facilita el mantenimiento.",
+                    text: "Las funciones permiten escribir una vez y se pueden usar en cualquier parte del codigo. Esto evita duplicación de código y facilita el mantenimiento.",
                     content: "plain",
                   },
                 ],
@@ -11627,7 +11627,7 @@ let classes = [
                     content: "bold",
                   },
                   {
-                    text: "Las funciónes ayudan a organizar el código en bloques lógicos. Al dar nombres descriptivos a las funciónes, el código se vuelve más legible y comprensible.",
+                    text: "Las funciones ayudan a organizar el código en bloques lógicos. Al dar nombres descriptivos a las funciones, el código se vuelve más legible y comprensible.",
                     content: "plain",
                   },
                 ],
@@ -11640,7 +11640,7 @@ let classes = [
                     content: "bold",
                   },
                   {
-                    text: "Las funciónes ocultan los detalles de implementacion.",
+                    text: "Las funciones ocultan los detalles de implementacion.",
                     content: "plain",
                   },
                 ],
@@ -11664,7 +11664,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "En resumen, las funciónes son una herramienta poderosa en Python. Usalas con moderación y de manera inteligente para aprovechar sus beneficios mientras evitas sus desventajas.",
+                text: "En resumen, las funciones son una herramienta poderosa en Python. Usalas con moderación y de manera inteligente para aprovechar sus beneficios mientras evitas sus desventajas.",
                 content: "plain",
               },
             ],
@@ -11686,7 +11686,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class12/funciónes_sintaxis.png",
+              img: "/images/Python/class12/funciones_sintaxis.png",
               alt: "Sintaxis de una Función",
             }
           },
@@ -11734,7 +11734,7 @@ let classes = [
                     content: "plain",
                   },
                   {
-                    text: "\nEn Python, la convención para nombrar funciónes es usar letras minúsculas con palabras separadas por guiones bajos. Esto se conoce como ",
+                    text: "\nEn Python, la convención para nombrar funciones es usar letras minúsculas con palabras separadas por guiones bajos. Esto se conoce como ",
                     content: "plain",
                   },
                   {
@@ -11800,7 +11800,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/funciónes_sumar.png",
+              img: "/images/Python/class12/funciones_sumar.png",
               alt: "Función que suma 2 números",
             }
           },
@@ -11822,7 +11822,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Dentro de las funciónes podemos ",
+                text: "Dentro de las funciones podemos ",
                 content: "plain",
               },
               {
@@ -12010,7 +12010,7 @@ let classes = [
                     content: "bold",
                   },
                   {
-                    text: "Manten las funciónes enfocadas en una sola acción o propósito.",
+                    text: "Manten las funciones enfocadas en una sola acción o propósito.",
                     content: "plain",
                   },
                 ],
@@ -12019,7 +12019,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Las funciónes son herramientas esenciales que te permiten escribir código más modular y mantenible.",
+                    text: "Las funciones son herramientas esenciales que te permiten escribir código más modular y mantenible.",
                     content: "plain",
                   },
                 ],
@@ -12061,7 +12061,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: " Las funciónes lambda son una forma de crear funciónes anónimas en una sola línea. Son utiles cuando necesitas una función por corto periodo de tiempo y no queres definirla con ",
+                text: " Las funciones lambda son una forma de crear funciones anónimas en una sola línea. Son utiles cuando necesitas una función por corto periodo de tiempo y no queres definirla con ",
                 content: "plain",
               },
               {
@@ -12082,7 +12082,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/funciónes_lambda.png",
+              img: "/images/Python/class15/funciones_lambda.png",
               alt: "Funciones Lambda",
             }
           },
@@ -12106,7 +12106,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/funciónes_lambda2.png",
+              img: "/images/Python/class15/funciones_lambda2.png",
               alt: "Funciones Lambda",
             }
           },
@@ -12114,7 +12114,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "🛑Ventajas de las funciónes Lambda🛑",
+                text: "🛑Ventajas de las funciones Lambda🛑",
                 content: "plain",
               },
             ],
@@ -12126,7 +12126,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Son útiles para funciónes simples y temporales.",
+                    text: "Son útiles para funciones simples y temporales.",
                     content: "plain",
                   },
                 ],
@@ -12135,7 +12135,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Se pueden usar en expresiones como argumentos de otras funciónes.",
+                    text: "Se pueden usar en expresiones como argumentos de otras funciones.",
                     content: "plain",
                   },
                 ],
@@ -12144,7 +12144,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Reducen la necesidad de declarar funciónes completas.",
+                    text: "Reducen la necesidad de declarar funciones completas.",
                     content: "plain",
                   },
                 ],
@@ -12155,7 +12155,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "🚫Desventajas de las funciónes Lambda🚫",
+                text: "🚫Desventajas de las funciones Lambda🚫",
                 content: "plain",
               },
             ],
@@ -12176,7 +12176,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "No son tan legibles como las funciónes regulares.",
+                    text: "No son tan legibles como las funciones regulares.",
                     content: "plain",
                   },
                 ],
