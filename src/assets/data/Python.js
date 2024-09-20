@@ -11559,7 +11559,120 @@ let classes = [
         ]
       },
     ]
-  }
+  },
+  {
+    class: 12,
+    topics: 7,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Funciones en Python 🐍 (⚙)",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Definicon de funciones",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Las funciones en python son bloques de codigo reutilizables que se ejecutan cuando son llamadas. Ayudan a organizar el codigo, lo hacen mas legible y ¡permiten reutilizar código!",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🛑Las Funciones tienen las siguientes ventajas: 🛑",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Reutilizacion de Código: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Las funciones permiten escribir una vez y se pueden usar en cualquier parte del codigo.Esto evita duplicación de código y facilita el mantenimiento.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Organizacion y Legibilidad: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Las funciones ayudan a organizar el código en bloques lógicos. Al dar nombres descriptivos a las funciones, el código se vuelve más legible y comprensible.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Abstraccion: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Las funciones ocultan los detalles de implementacion.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Modularidad: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Divide un problema grande en problemas más pequeños.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En resumen, las funciones son una herramienta poderosa en Python. Usalas con moderación y de manera inteligente para aprovechar sus beneficios mientras evitas sus desventajas.",
+                content: "plain",
+              },
+            ],
+          },          
+        ]
+      }
+    ]
+  },
 ];
 
 export default classes;
