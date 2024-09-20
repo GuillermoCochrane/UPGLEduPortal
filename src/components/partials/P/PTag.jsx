@@ -13,6 +13,9 @@ function PTag({Data}) {
                         {
                             item.content == "bold" && <Bold key = {index} Data = {item.text} />
                         }
+                        {
+                            item.content == "italic" && <Bold key = {index} Data = {item.text} />
+                        }
                     </Fragment>
                 ))
             }
