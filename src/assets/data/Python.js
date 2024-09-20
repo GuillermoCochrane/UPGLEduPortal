@@ -11826,7 +11826,7 @@ let classes = [
                 content: "plain",
               },
               {
-                text: "decorarla",
+                text: '"decorarla"',
                 content: "italic",
               },
               {
@@ -11871,7 +11871,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/decoradores.png",
+              img: "/images/Python/class12/decoradores.png",
               alt: "Decoradores de Funciones",
             }
           },
@@ -11891,7 +11891,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/decoradores2.png",
+              img: "/images/Python/class12/decoradores2.png",
               alt: "Decoradores de Funciones",
             }
           },
@@ -11915,7 +11915,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/decoradores3.png",
+              img: "/images/Python/class12/decoradores3.png",
               alt: "Decoradores de Funciones",
             }
           },
