@@ -385,7 +385,48 @@ let classIndex = [
           link: "/courses/Python/class/11/6"
         }
       ]
-    }
+    },
+    {
+      summary: "Funciones en Python",
+      classId: 12,
+      links: [
+        {
+          title: "Definición de funciones",
+          topicId: 1,
+          link: "/courses/Python/class/12/1"
+        },
+        {
+          title: "Sintaxis de una función",
+          topicId: 2,
+          link: "/courses/Python/class/12/2"
+        },
+        {
+          title: "Decoradores de funciones",
+          topicId: 3,
+          link: "/courses/Python/class/12/3"
+        },
+        {
+          title: "Buenas practicas con funciones",
+          topicId: 4,
+          link: "/courses/Python/class/12/4"
+        },
+        {
+          title: "Funciones lambda",
+          topicId: 5,
+          link: "/courses/Python/class/12/5"
+        },
+        {
+          title: "Actividades",
+          topicId: 6,
+          link: "/courses/Python/class/12/6"
+        },
+        {
+          title: "Bonus track",
+          topicId: 7,
+          link: "/courses/Python/class/12/7"
+        }
+      ]
+    },
   ]
 
 
