@@ -16,7 +16,10 @@ function LITag({Data}) {
                             item.content == "plain" && item.text
                         }
                         {
-                            item.content == "bold" && <Bold key = {index} Data = {item.text} />
+                            item.content == ("bold") && <Bold key = {index} Data = {item.text} />
+                        }
+                        {
+                            item.content == "italic" && <Bold key = {index} Data = {item.text} />
                         }
                         {
                             item.type == "ul" && <UL Data = {item.info}  key = {index} />
