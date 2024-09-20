@@ -11961,6 +11961,239 @@ let classes = [
           },
         ],
       },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Buenas Prácticas con Funciones",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Nombres Descriptivos: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Recuerda elegir nombres que describan claramente lo que hace la función.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Documentación: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Usa documentos o comentarios para explicar que hace la función y que parámetros espera(te será de ayuda dias después de programar algo).",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Código limpio: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Manten las funciones enfocadas en una sola acción o propósito.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Las funciones son herramientas esenciales que te permiten escribir código más modular y mantenible.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Recorda que los nombres van en ",
+                    content: "plain",
+                  },
+                  {
+                    text: "snake_case:",
+                    content: "italic",
+                  },
+                  {
+                    text: " (ej: mi_funcion)",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+        ]
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Funciones Lambda",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: " Las funciones lambda son una forma de crear funciones anónimas en una sola línea. Son utiles cuando necesitas una funcion por corto periodo de tiempo y no queres definirla con ",
+                content: "plain",
+              },
+              {
+                text: "_def_ .",
+                content: "italic",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Su Sintaxis es:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class15/funciones_lambda.png",
+              alt: "Funciones Lambda",
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Para ver la diferencia con una funcion normal, volveremos a usar la que ya vimos ",
+                content: "plain",
+              },
+              {
+                text: "sumar.",
+                content: "italic",
+              },
+              {
+                text: " Con lambda se veria asi:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class15/funciones_lambda2.png",
+              alt: "Funciones Lambda",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🛑Ventajas de las funciones Lambda🛑",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Son útiles para funciones simples y temporales.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Se pueden usar en expresiones como argumentos de otras funciones.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Reducen la necesidad de declarar funciones completas.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🚫Desventajas de las funciones Lambda🚫",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Son limitadas en funcionalidad(solo una expresión)",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "No son tan legibles como las funciones regulares.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "No tienen nombres descriptivos.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+        ]
+      }
     ]
   },
 ];
