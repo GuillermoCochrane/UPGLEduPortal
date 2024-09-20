@@ -736,7 +736,7 @@ let classes = [
                 info: [
                   { text: "Funciones: ", content: "bold" },
                   {
-                    text: "Las funciones son bloques de código que se pueden reutilizar para realizar tareas específicas.",
+                    text: "Las funciónes son bloques de código que se pueden reutilizar para realizar tareas específicas.",
                     content: "plain",
                   },
                 ],
@@ -1109,7 +1109,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Python está en todo, desde programación de instrumentos hasta software de computadoras,desarrollo web y aplicaciones móviles. Incluso, te permite hacer comentarios para que tengas recordatorios para funciones futuras o indicar problemas en una línea de código. Python es genial para casi cualquier necesidad de desarrollo, ya sea programación de servidores, operación de sistemas, software, juegos y mucho más. A continuación, repasamos los usos más comunes:",
+                text: "Python está en todo, desde programación de instrumentos hasta software de computadoras,desarrollo web y aplicaciones móviles. Incluso, te permite hacer comentarios para que tengas recordatorios para funciónes futuras o indicar problemas en una línea de código. Python es genial para casi cualquier necesidad de desarrollo, ya sea programación de servidores, operación de sistemas, software, juegos y mucho más. A continuación, repasamos los usos más comunes:",
                 content: "plain",
               },
             ],
@@ -1198,7 +1198,7 @@ let classes = [
                     content: "bold",
                   },
                   {
-                    text: "Python es adecuado para el análisis de datos porque funciona bien al crear representaciones visuales efectivas de bloques de datos complejos y al examinar datos. Estos dos aspectos de sus capacidades lo convierten en una herramienta básica en la industria de la ciencia de datos.",
+                    text: "Python es adecuado para el análisis de datos porque funcióna bien al crear representaciones visuales efectivas de bloques de datos complejos y al examinar datos. Estos dos aspectos de sus capacidades lo convierten en una herramienta básica en la industria de la ciencia de datos.",
                     content: "plain",
                   },
                 ],
@@ -1383,7 +1383,7 @@ let classes = [
                         info: [
                           { text: "Better Comments: ", content: "bold" },
                           {
-                            text: "Esta extensión te ayuda a escribir comentarios más claros y descriptivos en tu código Python. Ofrece diferentes plantillas de comentarios, resaltado de sintaxis y otras funciones útiles.",
+                            text: "Esta extensión te ayuda a escribir comentarios más claros y descriptivos en tu código Python. Ofrece diferentes plantillas de comentarios, resaltado de sintaxis y otras funciónes útiles.",
                             content: "plain",
                           },
                           {
@@ -2321,7 +2321,7 @@ let classes = [
                 content: "bold",
               },
               {
-                text: ", que incluye funciones de formato de E/S, como ",
+                text: ", que incluye funciónes de formato de E/S, como ",
                 content: "plain",
               },
               {
@@ -4303,7 +4303,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Cómo funciona: ",
+                text: "Cómo funcióna: ",
                 content: "plain",
               },
             ],
@@ -5506,7 +5506,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class5/funcion_input.png",
+              img: "/images/Python/class5/función_input.png",
               alt: "Función Input",
             }
           },
@@ -5523,7 +5523,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Ya que la funcion INPUT entrega un string",
+                text: "Ya que la función INPUT entrega un string",
                 content: "plain",
               },
             ],
@@ -7505,7 +7505,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Las funciones ",
+                    text: "Las funciónes ",
                     content: "plain",
                   },
                   {
@@ -7673,7 +7673,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Puede incluir funciones, clases, variables y código ejecutable. ",
+                    text: "Puede incluir funciónes, clases, variables y código ejecutable. ",
                     content: "plain",
                   },
                 ],
@@ -7693,7 +7693,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "El módulo random en Python proporciona funciones para generar números aleatorios.",
+                text: "El módulo random en Python proporciona funciónes para generar números aleatorios.",
                 content: "plain",
               },
             ],
@@ -8763,7 +8763,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "El término \"debugger\" proviene del verbo inglés \"to debug\", que significa eliminar errores o fallos de un sistema. La etimología de \"debug\" se remonta a la palabra \"bug\" que, en inglés, significa \"bicho\" o \"insecto\". En el contexto de la informática, \"bug\" se refiere a un error o fallo en el software o hardware. La historia cuenta que uno de los primeros usos del término \"bug\" en la informática se debe a Grace Hopper, una pionera de la programación. En 1947, mientras trabajaba en la computadora Mark II en la Universidad de Harvard, Hopper y su equipo descubrieron que un error en el funcionamiento de la máquina se debía a una polilla atrapada dentro de uno de los relés.",
+                text: "El término \"debugger\" proviene del verbo inglés \"to debug\", que significa eliminar errores o fallos de un sistema. La etimología de \"debug\" se remonta a la palabra \"bug\" que, en inglés, significa \"bicho\" o \"insecto\". En el contexto de la informática, \"bug\" se refiere a un error o fallo en el software o hardware. La historia cuenta que uno de los primeros usos del término \"bug\" en la informática se debe a Grace Hopper, una pionera de la programación. En 1947, mientras trabajaba en la computadora Mark II en la Universidad de Harvard, Hopper y su equipo descubrieron que un error en el funciónamiento de la máquina se debía a una polilla atrapada dentro de uno de los relés.",
                 content: "plain",
               },
             ]
@@ -8781,7 +8781,7 @@ let classes = [
             type: "p",
             info: [ 
               {
-                text: "Por lo tanto, \"debugging\" se refiere al proceso de identificar y eliminar estos \"bugs\" o errores en los programas. El \"debugger\" es la herramienta o el programa utilizado para llevar a cabo esta tarea, permitiendo a los programadores ejecutar y revisar su código para encontrar y corregir errores. Así, el nombre \"debugger\" refleja su función principal de \"depurar\" el código, eliminando los errores para asegurar su correcto funcionamiento.",
+                text: "Por lo tanto, \"debugging\" se refiere al proceso de identificar y eliminar estos \"bugs\" o errores en los programas. El \"debugger\" es la herramienta o el programa utilizado para llevar a cabo esta tarea, permitiendo a los programadores ejecutar y revisar su código para encontrar y corregir errores. Así, el nombre \"debugger\" refleja su función principal de \"depurar\" el código, eliminando los errores para asegurar su correcto funciónamiento.",
                 content: "plain",
               }
             ]
@@ -9107,7 +9107,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: 'Decides continuar con el curso y te sumerges más profundamente en el mundo de Python. Aprendes sobre estructuras de datos, funciones y bucles mientras resuelves problemas cada vez más complejos. Tu entusiasmo por la programación crece a medida que adquieres nuevas habilidades. ¿Quieres seguir adelante con el curso y enfrentar el desafío final del proyecto final? ',
+                text: 'Decides continuar con el curso y te sumerges más profundamente en el mundo de Python. Aprendes sobre estructuras de datos, funciónes y bucles mientras resuelves problemas cada vez más complejos. Tu entusiasmo por la programación crece a medida que adquieres nuevas habilidades. ¿Quieres seguir adelante con el curso y enfrentar el desafío final del proyecto final? ',
                 content: "plain",
               },
               {
@@ -10636,7 +10636,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Podemos filtrar y aplicar una funcion:",
+                text: "Podemos filtrar y aplicar una función:",
                 content: "plain",
               },
             ],
@@ -10644,7 +10644,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class10/filtro_comprensiones_funcion.png",
+              img: "/images/Python/class10/filtro_comprensiones_función.png",
               alt: "Filtro con comprensiones",
             }
           },
@@ -11567,7 +11567,7 @@ let classes = [
       type: "h2",
       info: [
         {
-          text: "Funciones en Python ⚙",
+          text: "Funciones en Python (⚙)",
           content: "plain",
         },
       ],
@@ -11580,7 +11580,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "Definición de funciones",
+                text: "Definición de funciónes",
                 content: "plain",
               },
             ],
@@ -11589,7 +11589,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Las funciones en python son bloques de codigo reutilizables que se ejecutan cuando son llamadas. Ayudan a organizar el codigo, lo hacen mas legible y ¡permiten reutilizar código!",
+                text: "Las funciónes en python son bloques de codigo reutilizables que se ejecutan cuando son llamadas. Ayudan a organizar el codigo, lo hacen mas legible y ¡permiten reutilizar código!",
                 content: "plain",
               },
             ],
@@ -11614,7 +11614,7 @@ let classes = [
                     content: "bold",
                   },
                   {
-                    text: "Las funciones permiten escribir una vez y se pueden usar en cualquier parte del codigo.Esto evita duplicación de código y facilita el mantenimiento.",
+                    text: "Las funciónes permiten escribir una vez y se pueden usar en cualquier parte del codigo.Esto evita duplicación de código y facilita el mantenimiento.",
                     content: "plain",
                   },
                 ],
@@ -11627,7 +11627,7 @@ let classes = [
                     content: "bold",
                   },
                   {
-                    text: "Las funciones ayudan a organizar el código en bloques lógicos. Al dar nombres descriptivos a las funciones, el código se vuelve más legible y comprensible.",
+                    text: "Las funciónes ayudan a organizar el código en bloques lógicos. Al dar nombres descriptivos a las funciónes, el código se vuelve más legible y comprensible.",
                     content: "plain",
                   },
                 ],
@@ -11640,7 +11640,7 @@ let classes = [
                     content: "bold",
                   },
                   {
-                    text: "Las funciones ocultan los detalles de implementacion.",
+                    text: "Las funciónes ocultan los detalles de implementacion.",
                     content: "plain",
                   },
                 ],
@@ -11664,7 +11664,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "En resumen, las funciones son una herramienta poderosa en Python. Usalas con moderación y de manera inteligente para aprovechar sus beneficios mientras evitas sus desventajas.",
+                text: "En resumen, las funciónes son una herramienta poderosa en Python. Usalas con moderación y de manera inteligente para aprovechar sus beneficios mientras evitas sus desventajas.",
                 content: "plain",
               },
             ],
@@ -11686,7 +11686,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class12/funciones_sintaxis.png",
+              img: "/images/Python/class12/funciónes_sintaxis.png",
               alt: "Sintaxis de una Función",
             }
           },
@@ -11734,7 +11734,7 @@ let classes = [
                     content: "plain",
                   },
                   {
-                    text: "\nEn Python, la convención para nombrar funciones es usar letras minúsculas con palabras separadas por guiones bajos. Esto se conoce como ",
+                    text: "\nEn Python, la convención para nombrar funciónes es usar letras minúsculas con palabras separadas por guiones bajos. Esto se conoce como ",
                     content: "plain",
                   },
                   {
@@ -11792,7 +11792,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Una simple funcion que suma dos números:",
+                text: "Una simple función que suma dos números:",
                 content: "plain",
               },
             ],
@@ -11800,7 +11800,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/funciones_sumar.png",
+              img: "/images/Python/class15/funciónes_sumar.png",
               alt: "Función que suma 2 números",
             }
           },
@@ -11822,7 +11822,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Dentro de las funciones podemos ",
+                text: "Dentro de las funciónes podemos ",
                 content: "plain",
               },
               {
@@ -11830,7 +11830,7 @@ let classes = [
                 content: "italic",
               },
               {
-                text: " para ayudarnos en un futuro a recordar que hace, declarando los datos que espera y la salida que pensamos darle, esto es simplemente visual ya que Python no es fuertemente tipado, por lo que dentro de la funcion tendremos que hacer la logica para que por ejemplo de un str obtengamos en el return un int.",
+                text: " para ayudarnos en un futuro a recordar que hace, declarando los datos que espera y la salida que pensamos darle, esto es simplemente visual ya que Python no es fuertemente tipado, por lo que dentro de la función tendremos que hacer la logica para que por ejemplo de un str obtengamos en el return un int.",
                 content: "plain",
               },
             ],
@@ -12010,7 +12010,7 @@ let classes = [
                     content: "bold",
                   },
                   {
-                    text: "Manten las funciones enfocadas en una sola acción o propósito.",
+                    text: "Manten las funciónes enfocadas en una sola acción o propósito.",
                     content: "plain",
                   },
                 ],
@@ -12019,7 +12019,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Las funciones son herramientas esenciales que te permiten escribir código más modular y mantenible.",
+                    text: "Las funciónes son herramientas esenciales que te permiten escribir código más modular y mantenible.",
                     content: "plain",
                   },
                 ],
@@ -12036,7 +12036,7 @@ let classes = [
                     content: "italic",
                   },
                   {
-                    text: " (ej: mi_funcion)",
+                    text: " (ej: mi_función)",
                     content: "plain",
                   },
                 ],
@@ -12061,7 +12061,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: " Las funciones lambda son una forma de crear funciones anónimas en una sola línea. Son utiles cuando necesitas una funcion por corto periodo de tiempo y no queres definirla con ",
+                text: " Las funciónes lambda son una forma de crear funciónes anónimas en una sola línea. Son utiles cuando necesitas una función por corto periodo de tiempo y no queres definirla con ",
                 content: "plain",
               },
               {
@@ -12082,7 +12082,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/funciones_lambda.png",
+              img: "/images/Python/class15/funciónes_lambda.png",
               alt: "Funciones Lambda",
             }
           },
@@ -12090,7 +12090,7 @@ let classes = [
             type: "p",
             info: [
               {
-                text: "Para ver la diferencia con una funcion normal, volveremos a usar la que ya vimos ",
+                text: "Para ver la diferencia con una función normal, volveremos a usar la que ya vimos ",
                 content: "plain",
               },
               {
@@ -12106,7 +12106,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/funciones_lambda2.png",
+              img: "/images/Python/class15/funciónes_lambda2.png",
               alt: "Funciones Lambda",
             }
           },
@@ -12114,7 +12114,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "🛑Ventajas de las funciones Lambda🛑",
+                text: "🛑Ventajas de las funciónes Lambda🛑",
                 content: "plain",
               },
             ],
@@ -12126,7 +12126,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Son útiles para funciones simples y temporales.",
+                    text: "Son útiles para funciónes simples y temporales.",
                     content: "plain",
                   },
                 ],
@@ -12135,7 +12135,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Se pueden usar en expresiones como argumentos de otras funciones.",
+                    text: "Se pueden usar en expresiones como argumentos de otras funciónes.",
                     content: "plain",
                   },
                 ],
@@ -12144,7 +12144,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Reducen la necesidad de declarar funciones completas.",
+                    text: "Reducen la necesidad de declarar funciónes completas.",
                     content: "plain",
                   },
                 ],
@@ -12155,7 +12155,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "🚫Desventajas de las funciones Lambda🚫",
+                text: "🚫Desventajas de las funciónes Lambda🚫",
                 content: "plain",
               },
             ],
@@ -12167,7 +12167,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Son limitadas en funcionalidad(solo una expresión)",
+                    text: "Son limitadas en funciónalidad(solo una expresión)",
                     content: "plain",
                   },
                 ],
@@ -12176,7 +12176,7 @@ let classes = [
                 type: "li",
                 info: [
                   {
-                    text: "No son tan legibles como las funciones regulares.",
+                    text: "No son tan legibles como las funciónes regulares.",
                     content: "plain",
                   },
                 ],
@@ -12193,7 +12193,411 @@ let classes = [
             ],
           },
         ]
-      }
+      },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Actividades 💬", 
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 1:",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crea una función que nos salude por consola.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class12/ejercicio_1.png",
+                alt: "Solución Ejercicio 1",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 2:",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crea una función para calcular el área de un cuadrado.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class12/ejercicio_2.png",
+                alt: "Solución Ejercicio 2",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 3:",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crea una función para ordenar una lista de palabras.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class12/ejercicio_3.png",
+                alt: "Solución Ejercicio 3",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 4:",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Función Verificar si un número es par o impar.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class12/ejercicio_4.png",
+                alt: "Solución Ejercicio 4",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 5:",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Función de conversión de Temperatura. (Facil): ",
+                content: "bold",
+              },
+              {
+                text: "Escribe una función que convierta la temperatura de Celsius a Fahrenheit y viceversa. ",
+                content: "plain",
+              },
+              {
+                text: "La función debe aceptar dos argumentos: ",
+                content: "plain",
+              },
+              {
+                text: "el valor de la temperatura",
+                content: "italic",
+              },
+              {
+                text: " y ",
+                content: "plain",
+              },
+              {
+                text: "una cadena",
+                content: "italic",
+              },
+              {
+                text: " que indique si se está convirtiendo a ",
+                content: "plain",
+              },
+              {
+                text: "Celsius('C') ",
+                content: "bold"
+              },
+              {
+                text: "o a ",
+                content: "plain"
+              },
+              {
+                text: "Fahrenheit('F').",
+                content: "bold"
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Una ayuda practica ¡se necesita usar if, elif y else!",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Fórmula celsius: ",
+                content: "bold",
+              },
+              {
+                text: " (temperatura - 32) * 5/9",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Fórmula Fahrenheit: ",
+                content: "bold",
+              },
+              {
+                text: " temperatura * 9/5 + 32",
+                content: "plain",
+              }
+            ] 
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class12/ejercicio_5.png",
+                alt: "Solución Ejercicio 5",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 6:",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Función de Calculo Factorial. (Facil): ",
+                content: "bold",
+              },
+              {
+                text: "Escribe una función que calcule el factorial de un numero dado. El factorial de un número entero positivo se define como el producto de todos los enteros positivos menores o iguales al número. ",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo: ",
+                content: "bold",
+              },
+              {
+                text: "Factorial de 4 = 24(4 x 3 x 2 x 1)",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class12/ejercicio_6.png",
+                alt: "Solución Ejercicio 6",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 7:",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Función de Secuencia Fibonacci (Medio): ",
+                content: "bold",
+              },
+              {
+                text: "Desarrolla una función que genere una lista con los primeros ",
+                content: "plain",
+              },
+              {
+                text: " 'n' ",
+                content: "bold",
+              },
+              {
+                text: "números de la secuencia de Fibonacci, donde cada número es la suma de los dos anteriores comenzando con ",
+                content: "plain",
+              },
+              {
+                text: "0 ",
+                content: "bold",
+              },
+              {
+                text: "y ",
+                content: "plain",
+              },
+              {
+                text: "1. ",
+                content: "bold",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo: ",
+                content: "bold",
+              },
+              {
+                text: "el décimo número de la secuencia es: 34",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class12/ejercicio_7.png",
+                alt: "Solución Ejercicio 7",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 8:",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Función de encontrar el maximo entre 3 numeros: ",
+                content: "bold",
+              },
+              {
+                text: "Cree una función que permita ingresar 3 números y nos muestre cual es el mayor",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class12/ejercicio_8.png",
+                alt: "Solución Ejercicio 8",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 9:",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Generar una lista de números aleatorios: ",
+                content: "bold",
+              },
+              {
+                text: "Generar un programa que permita el ingreso de la cantidad de numeros aleatorios a generar y los muestre.",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class12/ejercicio_9.png",
+                alt: "Solución Ejercicio 9",
+              },
+            ],
+          },
+        ]
+      },
+      {
+        topic: 7,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus Track: ",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
     ]
   },
 ];
