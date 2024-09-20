@@ -11567,7 +11567,7 @@ let classes = [
       type: "h2",
       info: [
         {
-          text: "Funciones en Python 🐍 (⚙)",
+          text: "Funciones en Python ⚙",
           content: "plain",
         },
       ],
@@ -11580,7 +11580,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "Definicon de funciones",
+                text: "Definición de funciones",
                 content: "plain",
               },
             ],
@@ -11598,7 +11598,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "🛑Las Funciones tienen las siguientes ventajas: 🛑",
+                text: "Las Funciones tienen las siguientes ventajas: ",
                 content: "plain",
               },
             ],
@@ -11670,7 +11670,117 @@ let classes = [
             ],
           },          
         ]
-      }
+      },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Sintaxis de una Función",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class12/funciones_sintaxis.png",
+              alt: "Sintaxis de una Función",
+            }
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "def: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "es la ",
+                    content: "plain",
+                  },
+                  {
+                    text: "palabra clave",
+                    content: "italic",
+                  },
+                  {
+                    text: " que indica la definicion de una función.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "nombre_de_la_función: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "es el identificador ",
+                    content: "plain",
+                  },
+                  {
+                    text: "único",
+                    content: "italic",
+                  },
+                  {
+                    text: " que usamos para llamar a la función.",
+                    content: "plain",
+                  },
+                  {
+                    text: "\nEn Python, la convención para nombrar funciones es usar letras minúsculas con palabras separadas por guiones bajos. Esto se conoce como ",
+                    content: "plain",
+                  },
+                  {
+                    text: "snake_case.",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "parametros: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "son variables opcionales que pasamos a la función.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "return: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "es la ",
+                    content: "plain",
+                  },
+                  {
+                    text: "palabra clave",
+                    content: "italic",
+                  },
+                  {
+                    text: " que devuelve valor desde la función al llamador.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ]
   },
 ];
