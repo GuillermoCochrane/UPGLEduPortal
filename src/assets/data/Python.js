@@ -12082,7 +12082,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/funciones_lambda.png",
+              img: "/images/Python/class12/funciones_lambda.png",
               alt: "Funciones Lambda",
             }
           },
@@ -12106,7 +12106,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class15/funciones_lambda2.png",
+              img: "/images/Python/class12/funciones_lambda2.png",
               alt: "Funciones Lambda",
             }
           },
