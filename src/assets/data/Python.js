@@ -13096,6 +13096,52 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Ejemplos Prácticos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Creando una Clase de Vehículo",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class13/vehiculo.png",
+              alt: "Definimos el objeto de vehículo",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Creando una Clase de Persona",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Python/class13/persona.png",
+              alt: "Definimos la clase de persona",
+            }
+          },
+        ] 
+      }
     ]
   },
 ];
