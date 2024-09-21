@@ -13141,7 +13141,143 @@ let classes = [
             }
           },
         ] 
-      }
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Actividades 💬",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 1:",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear una clase llamada Rectangulo que tenga dos atributos: ancho y alto.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class13/ejercicio_1.png",
+                alt: "Solución Ejercicio 1",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 2:",
+                content: "plain",
+              }
+            ],
+          },          
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear una clase llamada CuentaBancaria que permita a los usuarios realizar operaciones bancarias básicas como depositar, retirar y consultar el saldo.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class13/ejercicio_2.png",
+                alt: "Solución Ejercicio 2",
+              },
+            ],
+          },          
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 3:",
+                content: "plain",
+              }
+            ],
+          },          
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear una clase llamada Producto que tenga tres atributos: nombre, precio y cantidad. Y tenga 3 metodos, Actualizar Precio, Actualizar Cantidad y Calcular valor total, el primero modificara el precio del producto, el segundo la cantidad y el ultimo debera multiplicar la cantidad por el precio del producto seleccionado para saber el valor total del inventario. Y agregar un metodo más para comprar alguno.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class13/ejercicio_3.png",
+                alt: "Solución Ejercicio 3",
+              },
+            ],
+          },          
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejercicio 4:",
+                content: "plain",
+              }
+            ],
+          },          
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crear una clase llamada Contador que tenga un atributo cuenta que empieza en 0. Y que posea 4 metodos, Incrementar(sumará 1), Decrementar(restará 1, no admite negativos osea hasta maximo 0), Mostrar Contador(deberá devolver el valor actual de contador) y Reiniciar(volverá a cero el contador)",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Python/class13/ejercicio_4.png",
+                alt: "Solución Ejercicio 4",
+              },
+            ],
+          },
+        ]
+      },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Bonus Track: ",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
     ]
   },
 ];
