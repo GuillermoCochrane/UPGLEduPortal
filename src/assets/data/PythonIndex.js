@@ -427,6 +427,42 @@ let classIndex = [
         }
       ]
     },
+    {
+      summary: "Programación Orientada a Objetos",
+      classId: 13,
+      links: [
+        {
+          title: "Programación Orientada a Objetos (POO)",
+          topicId: 1,
+          link: "/courses/Python/class/13/1"
+        },
+        {
+          title: "Creación y Uso de Objetos",
+          topicId: 2,
+          link: "/courses/Python/class/13/2"
+        },
+        {
+          title: "Caracteristicas Principales de POO",
+          topicId: 3,
+          link: "/courses/Python/class/13/3"
+        },
+        {
+          title: "Ejemplos Prácticos",
+          topicId: 4,
+          link: "/courses/Python/class/13/4"
+        },
+        {
+          title: "Actividades",
+          topicId: 5,
+          link: "/courses/Python/class/13/5"
+        },
+        {
+          title: "Bonus track",
+          topicId: 6,
+          link: "/courses/Python/class/13/6"
+        }
+      ]
+    }
   ]
 
 
