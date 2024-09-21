@@ -12870,6 +12870,232 @@ let classes = [
           },
         ]
       },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Caracteristicas Principales de POO",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Encapsulación",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "La encapsulación es el mecanismo para ocultar la implementación interna de una clase y solo exponer los métodos y atributos necesarios para su uso. Promueve la modularidad y protege los datos internos de modificaciones accidentales.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Niveles de Acceso",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Python no tiene modificadores de acceso estrictos como público, privado y protegido. Se pueden simular utilizando convenciones:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Público: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Atributos y métodos sin guiones bajos iniciales.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Privado: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Atributos y métodos con un guion bajo inicial (",
+                    content: "plain",
+                  },
+                  {
+                    text: "_",
+                    content: "bold",
+                  },
+                  {
+                    text: ").",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Protegido: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Atributos y métodos con dos guiones bajos iniciales (",
+                    content: "plain",
+                  },
+                  {
+                    text: "__",
+                    content: "bold",
+                  },
+                  {
+                    text: ").",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Herencia",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "La herencia permite crear clases que heredan atributos y métodos de otras clases existentes (clases base). Promueve la reutilización de código y la organización jerárquica de clases.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Clases Base y Subclases",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Una clase que hereda de otra se denomina subclase. La subclase hereda todos los atributos y métodos públicos de la clase base. Se puede extender o modificar la funcionalidad heredada en la subclase.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Polimorfismo",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "El polimorfismo permite que objetos de diferentes clases respondan al mismo mensaje de manera diferente. Se basa en la sobreescritura de métodos en clases derivadas.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Métodos Sobreescritos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Cuando una subclase define un método con el mismo nombre que un método heredado de la clase base, se produce una sobreescritura. La subclase proporciona su propia implementación del método, redefiniendo el comportamiento heredado.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Abstracción",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "La abstracción se centra en las características esenciales de un objeto o proceso, ignorando detalles de implementación. Permite crear clases que definen interfaces sin proporcionar implementaciones completas.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Clases Abstractas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Python no posee clases abstractas como tal, pero se puede simular su comportamiento mediante clases base que definen métodos sin implementar (usando ",
+                content: "plain",
+              },
+              {
+                text: "pass",
+                content: "bold",
+              },
+              {
+                text: "). Las subclases deben implementar estos métodos para proporcionar funcionalidad completa.",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
     ]
   },
 ];
