@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from "react";
+import { useLocation } from 'react-router-dom';
 import OL from '../../partials/OL/OLTag.jsx';
 import UL from '../../partials/UL/ULTag.jsx';
 import PTag from '../../partials/P/PTag.jsx';
@@ -25,6 +26,8 @@ function Topics(params) {
   const course = params.match.path.split("/")[2];
   const classID  = parseInt(params.match.params.classId);
   const topicID = parseInt(params.match.params.topicId);
+  const H2Title = useRef(null);
+  const location = useLocation();
   
   let classes = [];
 
@@ -64,9 +67,16 @@ function Topics(params) {
       setData(newData[0].topicData);
   }, [classData, topicID]);
 
+  useEffect(() => {
+    if (H2Title.current) {
+      // Realiza el scroll suave hacia el elemento referenciado
+      H2Title.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [location.pathname]);
+
   return (
     <article>
-      <H2  Data={title} />
+      <H2  Data={title} Selector={H2Title} />
       {
         data.length == 0 ? <NotFound /> :
         data.map((item, index) => {
