@@ -33,8 +33,8 @@ const classes = [
           {
             type: "figure",
             info: {
-              img: "/",
-              alt: "Ejemplo de código",
+              img: "/images/Frontend/class1/script.png",
+              alt: "Ejemplo de Script Python",
             }
           },
           {
