@@ -4,7 +4,7 @@ let classIndex = [
       classId: 1,
       links: [
         {
-          title: "¿¿Qué es la programación??",
+          title: "¿Qué es la programación?",
           topicId: 1,
           link: "/courses/Frontend/class/1/1"
         },
