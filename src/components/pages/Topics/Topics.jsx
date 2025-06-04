@@ -11,6 +11,7 @@ import Figure from '../../partials/Figure/Figure.jsx';
 import Answer from '../../partials/Answer/Answer.jsx';
 import classesIA from  "../../../assets/data/IAChatGPT.js";
 import classesPython from  "../../../assets/data/Python.js";
+import classesFrontend from  "../../../assets/data/FrontEnd.js";
 import NavButtons from '../../partials/Navbuttons/NavButtons.jsx';
 import Links from '../../partials/Links/Links.jsx';
 import Youtube from '../../partials/Youtube/Youtube.jsx';
@@ -37,6 +38,10 @@ function Topics(params) {
 
   if (course.toUpperCase() == "PYTHON") {
     classes = classesPython;
+  }
+
+  if (course.toUpperCase() == "FRONTEND") {
+    classes = classesFrontend;
   }
 
   useEffect(() => {

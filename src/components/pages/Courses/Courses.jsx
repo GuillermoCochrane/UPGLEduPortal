@@ -33,7 +33,7 @@ function Courses({ match }) {
           <button onClick={handleClick} id="index">Índice</button>
           {courseId.toUpperCase() == "IA" && <h1>Curso de ChatGPT e Inteligencia Artificial</h1>}
           {courseId.toUpperCase() == "PYTHON" && <h1>Curso de Python</h1>}
-          {courseId.toUpperCase() == "PYTHON" && <h1>Curso de Python</h1>}
+          {courseId.toUpperCase() == "FRONTEND" && <h1>Curso de Frontend</h1>}
       </header>
       <main>
         <nav className='sumario' ref={navBar}>
