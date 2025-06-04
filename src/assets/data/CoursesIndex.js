@@ -15,7 +15,15 @@ const CoursesIndex = [
                 title: "Curso de Python",
                 link : "/courses/Python"
             }
-    }
+    }, 
+    {
+        courseId : 3,
+        links :    
+            {
+                title: "Curso de Desarrollo FullStack - Frontend",
+                link : "/courses/Frontend"
+            }
+    },
 ]
 
 export default CoursesIndex;

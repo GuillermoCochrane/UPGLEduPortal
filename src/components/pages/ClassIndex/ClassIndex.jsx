@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import NotFound from '../../partials/NotFound/NotFound';
 import classIndexIA from  "../../../assets/data/IAChatGPTIndex"
 import classIndexPython from  "../../../assets/data/PythonIndex"
+import classIndexFrontend from  "../../../assets/data/FrontendIndex"
 import HomeData from '../../partials/HomeData/HomeData';
 
 function ClassIndex(params) {
@@ -18,6 +19,10 @@ function ClassIndex(params) {
 
     if (course.toUpperCase() == "PYTHON") {
         classIndex = classIndexPython;
+    }
+
+    if (course.toUpperCase() == "FRONTEND") {
+        classIndex = classIndexFrontend;
     }
     
     useEffect(() => {

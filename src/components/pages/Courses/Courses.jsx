@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Route, Switch, Link } from "react-router-dom";
 import indexIA from  "../../../assets/data/IAChatGPTIndex.js";
 import indexPython from  "../../../assets/data/PythonIndex.js";
+import indexFrontend from  "../../../assets/data/FrontendIndex.js";
 import Error404 from "../Error404/Error404.jsx";
 import ClassIndex from "../ClassIndex/ClassIndex.jsx"; //modiicarlo para que cargue de acuerdo a la url
 import Topics from '../Topics/Topics';
@@ -22,12 +23,16 @@ function Courses({ match }) {
   if (courseId.toUpperCase() == "PYTHON") {
     index = indexPython;
   }
+  if (courseId.toUpperCase() == "FRONTEND") {
+    index = indexFrontend;
+  }
   
   return (
     <>
       <header>
           <button onClick={handleClick} id="index">Índice</button>
           {courseId.toUpperCase() == "IA" && <h1>Curso de ChatGPT e Inteligencia Artificial</h1>}
+          {courseId.toUpperCase() == "PYTHON" && <h1>Curso de Python</h1>}
           {courseId.toUpperCase() == "PYTHON" && <h1>Curso de Python</h1>}
       </header>
       <main>
