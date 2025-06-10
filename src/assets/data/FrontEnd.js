@@ -1126,9 +1126,10 @@ const classes = [
                     type: "link",
                     info: [
                       {
-                        text: "Descargar VS Code",
-                        content: "plain",
+                        text: "Descargar VS Code ",
+                        content: "bold",
                         link: "https://code.visualstudio.com/",
+                        type: "link",
                       }
                     ]
                   }
@@ -1142,16 +1143,17 @@ const classes = [
                     content: "bold" 
                   },
                   {
-                    text: "Chrome, Firefox, Safari, Edge, Opera. Recomiendo ",
+                    text: "Chrome, Firefox, Safari, Edge, Opera. Recomiendo: ",
                     content: "plain",
                   },
                   {
                     type: "link",
                     info: [
                       {
-                        text: "¿Puedo Usarlo?",
-                        content: "plain",
+                        text: "¿Puedo Usarlo? ",
+                        content: "bold",
                         link: "https://caniuse.com/",
+                        type: "link",
                       }
                     ]
                   },

@@ -5,7 +5,12 @@ function Links({Data}) {
             <>
             {
                 Data.map((item, index) => (
-                    <a href={item.link} target="_blank" rel="noopener noreferrer" role='button' key={index}>
+                    <a 
+                        href={item.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        role={item.type !== "link" && "button"}
+                        key={index}>
                         {
                             item.content == "plain" && item.text
                         }
