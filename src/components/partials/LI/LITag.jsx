@@ -6,6 +6,7 @@ import UL from "../UL/ULTag";
 import H4 from "../H4/H4Tag";
 import P from "../P/PTag";
 import Figure from "../Figure/Figure";
+import Link from "../Links/Links"
 function LITag({Data}) {
     return (
         <li>
@@ -35,6 +36,9 @@ function LITag({Data}) {
                         }
                         {
                             item.type == "figure" && <Figure  Data = {item.info}  key = {index} />
+                        }
+                        {
+                            item.type == "link" && <Link  Data = {item.info}  key = {index} />
                         }
                     </Fragment>
                 ))
