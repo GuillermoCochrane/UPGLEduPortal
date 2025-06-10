@@ -829,6 +829,261 @@ const classes = [
             ],
           },
         ]
+      },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "Frontend vs Backend", content: "plain" },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "El desarrollo web se divide en dos áreas principales que trabajan juntas para crear una aplicación web funcional:",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Frontend (Lado del Cliente)",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Es todo lo que el usuario ve e interactúa directamente en el navegador.",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "strong",
+            info: [
+              {
+                text: "Tecnologías clave:",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "HTML: ", content: "bold" },
+                  {
+                    text: "Estructura el contenido.",
+                    content: "plain",
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "CSS: ", content: "bold" },
+                  {
+                    text: "Da estilo y diseño visual.",
+                    content: "plain",
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "JavaScript: ", content: "bold" },
+                  {
+                    text: "Añade interactividad y dinamismo.",
+                    content: "plain",
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo: ",
+                content: "bold",
+              },
+              {
+                text: "Un botón en el que haces clic, un formulario que rellenas, la animación de un menú.",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Frontend/class1/ejemplo_HTML.png",
+              alt: "Ejemplo HTML",
+            }
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Frontend/class1/ejemplo_CSS.png",
+              alt: "Ejemplo CSS",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Backend (Lado del Servidor)",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Es la lógica \"detrás de cámaras\" que procesa datos, gestiona usuarios y se conecta a bases de datos.",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "strong",
+            info: [
+              {
+                text: "Tecnologías clave (ejemplos):",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "PHP", content: "bold" },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Python", content: "bold" },
+                  {
+                    text: "(Django, Flask)",
+                    content: "plain",
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Node.js", content: "bold" },
+                  {
+                    text: "(JavaScript)",
+                    content: "plain",
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Bases de Datos", content: "bold" },
+                  {
+                    text: "(SQL, NoSQL)",
+                    content: "plain",
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ejemplo: ",
+                content: "bold",
+              },
+              {
+                text: "Cuando te registras en un sitio, el backend guarda tu información en la base de datos. Cuando inicias sesión, verifica tus credenciales.",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Frontend/class1/ejemplo_PHP.png",
+              alt: "Ejemplo Backend",
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Tecnologías que aprenderás en este curso",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Este programa te permitirá dominar las tecnologías esenciales para convertirte en desarrollador Full Stack: ",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "HTML 5: ", content: "bold" },
+                  { text: "Estructura y organización de contenidos web mediante etiquetas semánticas.", content: "plain" },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "CSS 3: ", content: "bold" },
+                  { text: "Diseño visual, maquetación y estilos para crear interfaces atractivas y responsivas.", content: "plain" },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "JavaScript: ", content: "bold" },
+                  { text: "Interactividad en el cliente, manipulación del DOM y funcionalidades dinámicas.", content: "plain" },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "PHP: ", content: "bold" },
+                  { text: "Programación del lado del servidor para gestionar datos y lógica de negocio.", content: "plain" },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "MySQL: ", content: "bold" },
+                  { text: "Base de datos relacional para almacenar y consultar información de manera estructurada.", content: "plain" },
+                ]
+              },
+            ]
+          }
+        ]
       }
     ],
   }
