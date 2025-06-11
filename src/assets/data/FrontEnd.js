@@ -35,7 +35,7 @@ const classes = [
             info: {
               img: "/images/Frontend/class1/script.png",
               alt: "Ejemplo de Script Python",
-            }
+            },
           },
           {
             type: "h4",
@@ -115,12 +115,12 @@ const classes = [
           },
           {
             type: "h4",
-            info: [ 
+            info: [
               {
                 text: "¿Qué se necesita para programar?",
                 content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "ul",
@@ -128,33 +128,29 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Computadora ", 
-                    content: "bold" 
+                  {
+                    text: "Computadora ",
+                    content: "bold",
                   },
                 ],
               },
               {
                 type: "li",
                 info: [
-                  { 
+                  {
                     text: "Editor de código ",
-                    content: "bold" 
+                    content: "bold",
                   },
                 ],
               },
               {
                 type: "li",
-                info: [
-                  { text: "Lógica ", content: "bold" },
-                ],
+                info: [{ text: "Lógica ", content: "bold" }],
               },
               {
                 type: "li",
-                info: [
-                  { text: "Aprendizaje constante ", content: "bold" },
-                ],
-              }
+                info: [{ text: "Aprendizaje constante ", content: "bold" }],
+              },
             ],
           },
           {
@@ -185,7 +181,7 @@ const classes = [
                   {
                     text: "Empieza con lo básico",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -195,7 +191,7 @@ const classes = [
                   {
                     text: "Practica regularmente",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -205,7 +201,7 @@ const classes = [
                   {
                     text: "Domina conceptos complejos",
                     content: "plain",
-                  }
+                  },
                 ],
               },
             ],
@@ -234,8 +230,9 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Desarrolla la creatividad ", content: "bold" 
+                  {
+                    text: "Desarrolla la creatividad ",
+                    content: "bold",
                   },
                 ],
               },
@@ -266,9 +263,7 @@ const classes = [
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "¿Qué es un programador?", content: "plain" },
-            ],
+            info: [{ text: "¿Qué es un programador?", content: "plain" }],
           },
           {
             type: "p",
@@ -303,14 +298,14 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  { 
+                  {
                     text: "Desarrollador web: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Crea y mantiene sitios web y aplicaciones web",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -318,12 +313,12 @@ const classes = [
                 info: [
                   {
                     text: " Desarrollador móvil: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Crea aplicaciones para dispositivos móviles",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -331,12 +326,12 @@ const classes = [
                 info: [
                   {
                     text: "Desarrollador de software: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Crea software para diferentes plataformas",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -344,12 +339,12 @@ const classes = [
                 info: [
                   {
                     text: "Desarrollador de videojuegos: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Crea videojuegos para diferentes plataformas",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -357,12 +352,12 @@ const classes = [
                 info: [
                   {
                     text: "Ingeniero de datos: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Trabaja con grandes conjuntos de datos",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -370,12 +365,12 @@ const classes = [
                 info: [
                   {
                     text: "Científico de datos: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Analiza datos y desarrolla modelos predictivos",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -383,12 +378,12 @@ const classes = [
                 info: [
                   {
                     text: "Ingeniero de IA: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Desarrolla sistemas de aprendizaje autónomo",
                     content: "plain",
-                  }
+                  },
                 ],
               },
             ],
@@ -410,12 +405,12 @@ const classes = [
                 info: [
                   {
                     text: "Desarrollador Java: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Especializado en aplicaciones empresariales",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -423,12 +418,12 @@ const classes = [
                 info: [
                   {
                     text: "Desarrollador Python: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Análisis de datos, IA, web y desarrollo general",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -436,12 +431,12 @@ const classes = [
                 info: [
                   {
                     text: "Desarrollador C++: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Sistemas de bajo nivel, juegos y alto rendimiento",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -449,12 +444,12 @@ const classes = [
                 info: [
                   {
                     text: "Desarrollador JavaScript: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Aplicaciones web, móviles y de servidor",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -462,12 +457,12 @@ const classes = [
                 info: [
                   {
                     text: "Desarrollador PHP: ",
-                    content: "bold" 
+                    content: "bold",
                   },
                   {
                     text: "Aplicaciones web y gestión de contenidos",
                     content: "plain",
-                  }
+                  },
                 ],
               },
             ],
@@ -487,53 +482,53 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Junior: ", 
-                    content: "bold" 
+                  {
+                    text: "Junior: ",
+                    content: "bold",
                   },
                   {
                     text: "Poca experiencia, generalmente recién graduado",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Semi Senior: ", 
-                    content: "bold" 
+                  {
+                    text: "Semi Senior: ",
+                    content: "bold",
                   },
                   {
                     text: "Conocimientos medios del rubro y programación",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Senior: ", 
-                    content: "bold" 
+                  {
+                    text: "Senior: ",
+                    content: "bold",
                   },
                   {
                     text: "Mucha experiencia y conocimiento en su especialización",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Lead: ", 
-                    content: "bold" 
+                  {
+                    text: "Lead: ",
+                    content: "bold",
                   },
                   {
                     text: "Lidera equipos y toma decisiones técnicas",
                     content: "plain",
-                  }
+                  },
                 ],
               },
             ],
@@ -553,71 +548,71 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Desarrollador: ", 
-                    content: "bold" 
+                  {
+                    text: "Desarrollador: ",
+                    content: "bold",
                   },
                   {
                     text: "Se encarga de escribir el código",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "QA: ", 
-                    content: "bold" 
+                  {
+                    text: "QA: ",
+                    content: "bold",
                   },
                   {
                     text: "Se encarga de probar el software",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "DevOps: ", 
-                    content: "bold" 
+                  {
+                    text: "DevOps: ",
+                    content: "bold",
                   },
                   {
                     text: "Automatiza implementación y mantenimiento",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Gerente de proyecto: ", 
-                    content: "bold" 
+                  {
+                    text: "Gerente de proyecto: ",
+                    content: "bold",
                   },
                   {
                     text: "Planifica y gestiona el desarrollo",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Arquitecto de software: ", 
-                    content: "bold" 
+                  {
+                    text: "Arquitecto de software: ",
+                    content: "bold",
                   },
                   {
                     text: "Diseña la estructura del sistema",
                     content: "plain",
-                  }
+                  },
                 ],
               },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 3,
@@ -626,7 +621,7 @@ const classes = [
             type: "h3",
             info: [
               { text: "Historia y Evolución de la Web", content: "plain" },
-            ]
+            ],
           },
           {
             type: "p",
@@ -634,8 +629,8 @@ const classes = [
               {
                 text: "La web ha experimentado una notable evolución desde sus inicios.",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "h4",
@@ -643,8 +638,8 @@ const classes = [
               {
                 text: "Evolución de la Web",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "link",
@@ -653,8 +648,8 @@ const classes = [
                 text: "Primera Web: CERN",
                 content: "plain",
                 link: "http://info.cern.ch/hypertext/WWW/TheProject.html",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "h4",
@@ -662,8 +657,8 @@ const classes = [
               {
                 text: "Web 1.0",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "ul",
@@ -671,14 +666,17 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  { text: "Fue la primera versión de Internet, desarrollada en los años 90", content: "plain" },
-                ]
+                  {
+                    text: "Fue la primera versión de Internet, desarrollada en los años 90",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { text: "Conocida como \"World Wide Web\"", content: "plain" },
-                ]
+                  { text: 'Conocida como "World Wide Web"', content: "plain" },
+                ],
               },
               {
                 type: "li",
@@ -690,31 +688,43 @@ const classes = [
                       {
                         type: "li",
                         info: [
-                          { text: "Era estática y de solo lectura", content: "plain" },
-                        ]
-                      },
-                      {
-                        type: "li",
-                        info: [
-                          { text: "Contenidos unidireccionales y estáticos", content: "plain" },
-                        ]
-                      },
-                      {
-                        type: "li",
-                        info: [
-                          { text: "Los sitios almacenaban contenidos directamente en archivos", content: "plain" },
+                          {
+                            text: "Era estática y de solo lectura",
+                            content: "plain",
+                          },
                         ],
                       },
                       {
                         type: "li",
                         info: [
-                          { text: "Formularios vinculados a correo electrónico", content: "plain" },
+                          {
+                            text: "Contenidos unidireccionales y estáticos",
+                            content: "plain",
+                          },
                         ],
                       },
-                    ]
-                  }
-                ]
-              }
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Los sitios almacenaban contenidos directamente en archivos",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Formularios vinculados a correo electrónico",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
             ],
           },
           {
@@ -723,8 +733,8 @@ const classes = [
               {
                 text: "Web 2.0",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "ul",
@@ -732,27 +742,39 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  { text: "Permitió la interacción y colaboración entre usuarios", content: "plain" },
-                ]
+                  {
+                    text: "Permitió la interacción y colaboración entre usuarios",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { text: "Incluyó redes sociales, blogs y wikis", content: "plain" },
-                ]
+                  {
+                    text: "Incluyó redes sociales, blogs y wikis",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { text: "Los usuarios se convirtieron en \"prosumidores\"", content: "plain" },
-                ]
+                  {
+                    text: 'Los usuarios se convirtieron en "prosumidores"',
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { text: "Fomenta la creación y compartición colaborativa de contenido", content: "plain" },
-                ]
-              }
+                  {
+                    text: "Fomenta la creación y compartición colaborativa de contenido",
+                    content: "plain",
+                  },
+                ],
+              },
             ],
           },
           {
@@ -761,8 +783,8 @@ const classes = [
               {
                 text: "Web 3.0",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "ul",
@@ -770,32 +792,39 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  { text: "Se centra en la inteligencia artificial", content: "plain" },
-                ]
+                  {
+                    text: "Se centra en la inteligencia artificial",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
-                info: [
-                  { text: "Implementa web semántica", content: "plain" },
-                ]
+                info: [{ text: "Implementa web semántica", content: "plain" }],
               },
               {
                 type: "li",
                 info: [
                   { text: "Evoluciona hacia espacios 3D", content: "plain" },
-                ]
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { text: "Los usuarios son dueños de sus datos", content: "plain" },
-                ]
+                  {
+                    text: "Los usuarios son dueños de sus datos",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { text: "Control sobre cómo compartir la información", content: "plain" },
-                ]
+                  {
+                    text: "Control sobre cómo compartir la información",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
@@ -806,38 +835,30 @@ const classes = [
                     info: [
                       {
                         type: "li",
-                        info: [
-                          { text: "Blockchain", content: "plain" },
-                        ]
+                        info: [{ text: "Blockchain", content: "plain" }],
                       },
                       {
                         type: "li",
-                        info: [
-                          { text: "Criptomonedas", content: "plain" },
-                        ]
+                        info: [{ text: "Criptomonedas", content: "plain" }],
                       },
                       {
                         type: "li",
-                        info: [
-                          { text: "Metaversos", content: "plain" },
-                        ]
+                        info: [{ text: "Metaversos", content: "plain" }],
                       },
-                    ]
-                  }
-                ]
-              }
+                    ],
+                  },
+                ],
+              },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 4,
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "Frontend vs Backend", content: "plain" },
-            ]
+            info: [{ text: "Frontend vs Backend", content: "plain" }],
           },
           {
             type: "p",
@@ -845,8 +866,8 @@ const classes = [
               {
                 text: "El desarrollo web se divide en dos áreas principales que trabajan juntas para crear una aplicación web funcional:",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "h4",
@@ -854,8 +875,8 @@ const classes = [
               {
                 text: "Frontend (Lado del Cliente)",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "p",
@@ -863,8 +884,8 @@ const classes = [
               {
                 text: "Es todo lo que el usuario ve e interactúa directamente en el navegador.",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "strong",
@@ -872,8 +893,8 @@ const classes = [
               {
                 text: "Tecnologías clave:",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "ul",
@@ -885,8 +906,8 @@ const classes = [
                   {
                     text: "Estructura el contenido.",
                     content: "plain",
-                  }
-                ]
+                  },
+                ],
               },
               {
                 type: "li",
@@ -895,8 +916,8 @@ const classes = [
                   {
                     text: "Da estilo y diseño visual.",
                     content: "plain",
-                  }
-                ]
+                  },
+                ],
               },
               {
                 type: "li",
@@ -905,10 +926,10 @@ const classes = [
                   {
                     text: "Añade interactividad y dinamismo.",
                     content: "plain",
-                  }
-                ]
-              }
-            ]
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
@@ -920,22 +941,22 @@ const classes = [
               {
                 text: "Un botón en el que haces clic, un formulario que rellenas, la animación de un menú.",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "figure",
             info: {
               img: "/images/Frontend/class1/ejemplo_HTML.png",
               alt: "Ejemplo HTML",
-            }
+            },
           },
           {
             type: "figure",
             info: {
               img: "/images/Frontend/class1/ejemplo_CSS.png",
               alt: "Ejemplo CSS",
-            }
+            },
           },
           {
             type: "h4",
@@ -943,17 +964,17 @@ const classes = [
               {
                 text: "Backend (Lado del Servidor)",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: "Es la lógica \"detrás de cámaras\" que procesa datos, gestiona usuarios y se conecta a bases de datos.",
+                text: 'Es la lógica "detrás de cámaras" que procesa datos, gestiona usuarios y se conecta a bases de datos.',
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "strong",
@@ -961,17 +982,15 @@ const classes = [
               {
                 text: "Tecnologías clave (ejemplos):",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "ul",
             info: [
               {
                 type: "li",
-                info: [
-                  { text: "PHP", content: "bold" },
-                ]
+                info: [{ text: "PHP", content: "bold" }],
               },
               {
                 type: "li",
@@ -980,8 +999,8 @@ const classes = [
                   {
                     text: "(Django, Flask)",
                     content: "plain",
-                  }
-                ]
+                  },
+                ],
               },
               {
                 type: "li",
@@ -990,8 +1009,8 @@ const classes = [
                   {
                     text: "(JavaScript)",
                     content: "plain",
-                  }
-                ]
+                  },
+                ],
               },
               {
                 type: "li",
@@ -1000,10 +1019,10 @@ const classes = [
                   {
                     text: "(SQL, NoSQL)",
                     content: "plain",
-                  }
-                ]
-              }
-            ]
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
@@ -1015,15 +1034,15 @@ const classes = [
               {
                 text: "Cuando te registras en un sitio, el backend guarda tu información en la base de datos. Cuando inicias sesión, verifica tus credenciales.",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "figure",
             info: {
               img: "/images/Frontend/class1/ejemplo_PHP.png",
               alt: "Ejemplo Backend",
-            }
+            },
           },
           {
             type: "h4",
@@ -1031,8 +1050,8 @@ const classes = [
               {
                 text: "Tecnologías que aprenderás en este curso",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "p",
@@ -1040,8 +1059,8 @@ const classes = [
               {
                 text: "Este programa te permitirá dominar las tecnologías esenciales para convertirte en desarrollador Full Stack: ",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "ul",
@@ -1050,49 +1069,62 @@ const classes = [
                 type: "li",
                 info: [
                   { text: "HTML 5: ", content: "bold" },
-                  { text: "Estructura y organización de contenidos web mediante etiquetas semánticas.", content: "plain" },
-                ]
+                  {
+                    text: "Estructura y organización de contenidos web mediante etiquetas semánticas.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "CSS 3: ", content: "bold" },
-                  { text: "Diseño visual, maquetación y estilos para crear interfaces atractivas y responsivas.", content: "plain" },
-                ]
+                  {
+                    text: "Diseño visual, maquetación y estilos para crear interfaces atractivas y responsivas.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "JavaScript: ", content: "bold" },
-                  { text: "Interactividad en el cliente, manipulación del DOM y funcionalidades dinámicas.", content: "plain" },
-                ]
+                  {
+                    text: "Interactividad en el cliente, manipulación del DOM y funcionalidades dinámicas.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "PHP: ", content: "bold" },
-                  { text: "Programación del lado del servidor para gestionar datos y lógica de negocio.", content: "plain" },
-                ]
+                  {
+                    text: "Programación del lado del servidor para gestionar datos y lógica de negocio.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "MySQL: ", content: "bold" },
-                  { text: "Base de datos relacional para almacenar y consultar información de manera estructurada.", content: "plain" },
-                ]
+                  {
+                    text: "Base de datos relacional para almacenar y consultar información de manera estructurada.",
+                    content: "plain",
+                  },
+                ],
               },
-            ]
-          }
-        ]
+            ],
+          },
+        ],
       },
       {
         topic: 5,
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "Entorno de Trabajo", content: "plain" },
-            ]
+            info: [{ text: "Entorno de Trabajo", content: "plain" }],
           },
           {
             type: "h4",
@@ -1104,8 +1136,8 @@ const classes = [
               {
                 text: "Editores de Código, Navegadores y el Inspector de Elementos",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "ul",
@@ -1130,17 +1162,17 @@ const classes = [
                         content: "bold",
                         link: "https://code.visualstudio.com/",
                         type: "link",
-                      }
-                    ]
-                  }
-                ]
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Navegadores Web: ", 
-                    content: "bold" 
+                  {
+                    text: "Navegadores Web: ",
+                    content: "bold",
                   },
                   {
                     text: "Chrome, Firefox, Safari, Edge, Opera. Recomiendo: ",
@@ -1154,14 +1186,14 @@ const classes = [
                         content: "bold",
                         link: "https://caniuse.com/",
                         type: "link",
-                      }
-                    ]
+                      },
+                    ],
                   },
                   {
                     text: "Página para consultar compatibilidad.",
                     content: "plain",
-                  }
-                ]
+                  },
+                ],
               },
               {
                 type: "li",
@@ -1174,20 +1206,18 @@ const classes = [
                     text: "Herramienta integrada (tecla F12) para depurar HTML/CSS y experimentar en tiempo real. ",
                     content: "plain",
                   },
-                ]
-              }
-            ]
-          }
-        ]
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 6,
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "¿Qué es HTML?", content: "plain" },
-            ]
+            info: [{ text: "¿Qué es HTML?", content: "plain" }],
           },
           {
             type: "p",
@@ -1200,7 +1230,7 @@ const classes = [
                 text: "(HyperText Markup Language) es el lenguaje estándar para crear y estructurar páginas web a través de etiquetas y atributos.",
                 content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "h3",
@@ -1208,8 +1238,8 @@ const classes = [
               {
                 text: "Principales etiquetas HTML",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "p",
@@ -1217,8 +1247,8 @@ const classes = [
               {
                 text: "Las etiquetas HTML son los bloques fundamentales para construir páginas web. Cada tipo cumple una función específica en la estructura de tu documento.",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "ul",
@@ -1234,34 +1264,34 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<h1>",
                             content: "bold",
                           },
                           {
                             text: " – Encabezado principal",
                             content: "plain",
-                          }
-                        ] 
+                          },
+                        ],
                       },
-                      { 
-                        type: "li", 
+                      {
+                        type: "li",
                         info: [
-                          { 
+                          {
                             text: "<h2>",
                             content: "bold",
                           },
                           {
                             text: " – Segundo nivel",
                             content: "plain",
-                          }
-                        ] 
+                          },
+                        ],
                       },
-                      { 
-                        type: "li", 
+                      {
+                        type: "li",
                         info: [
                           {
                             text: "<h3>",
@@ -1270,25 +1300,25 @@ const classes = [
                           {
                             text: " – Tercer nivel",
                             content: "plain",
-                          }
-                        ] 
+                          },
+                        ],
                       },
                       {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "… hasta ",
                             content: "plain",
                           },
                           {
                             text: "<h6>",
                             content: "bold",
-                          }
-                        ] 
+                          },
+                        ],
                       },
-                    ]
+                    ],
                   },
-                ]
+                ],
               },
               {
                 type: "li",
@@ -1301,59 +1331,59 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<p>",
                             content: "bold",
                           },
                           {
                             text: " – Párrafo",
                             content: "plain",
-                          }
-                        ] 
+                          },
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
-                            text: "<a href=\"#\">",
+                          {
+                            text: '<a href="#">',
                             content: "bold",
                           },
                           {
                             text: " – Enlace",
-                            content: "plain"
-                          }
-                        ] 
+                            content: "plain",
+                          },
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
                           {
-                            text: "<img src=\"…\" alt=\"…\">",
+                            text: '<img src="…" alt="…">',
                             content: "bold",
                           },
                           {
                             text: " – Imagen",
-                            content: "plain"
-                          }
-                        ] 
+                            content: "plain",
+                          },
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<strong>",
                             content: "bold",
                           },
                           {
                             text: " – Texto en negrita",
-                            content: "plain"  
-                          }
-                        ] 
+                            content: "plain",
+                          },
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
                           {
@@ -1362,62 +1392,62 @@ const classes = [
                           },
                           {
                             text: " – Texto con cursiva",
-                            content: "plain"
-                          }
-                        ] 
+                            content: "plain",
+                          },
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<br>",
                             content: "bold",
                           },
                           {
                             text: " – Salto de línea",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { "text": "<hr>", content: "bold" },
+                          { text: "<hr>", content: "bold" },
                           {
                             text: " – Línea horizontal",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<span>",
                             content: "bold",
                           },
                           {
                             text: " – Contenedor en línea",
-                            content: "plain"
-                          }
-                        ] 
+                            content: "plain",
+                          },
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<div>",
                             content: "bold",
                           },
                           {
                             text: " – Contenedor en bloque",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                    ]
+                    ],
                   },
-                  ]
+                ],
               },
               {
                 type: "li",
@@ -1430,33 +1460,33 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<ul>",
                             content: "bold",
                           },
                           {
                             text: " – Lista desordenada",
-                            content: "plain"
-                          }
-                        ] 
+                            content: "plain",
+                          },
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<ol>",
                             content: "bold",
                           },
                           {
                             text: " – Lista ordenada",
-                            content: "plain"
-                          }
-                        ] 
+                            content: "plain",
+                          },
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
                           {
@@ -1465,13 +1495,13 @@ const classes = [
                           },
                           {
                             text: " – Elemento de lista",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                    ]
+                    ],
                   },
-                ]
+                ],
               },
               {
                 type: "li",
@@ -1484,61 +1514,61 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<table>",
                             content: "bold",
                           },
                           {
                             text: " – Tabla",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<tr>",
                             content: "bold",
                           },
                           {
                             text: " – Fila de tabla",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<td>",
                             content: "bold",
                           },
                           {
                             text: " – Celda",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<th>",
                             content: "bold",
                           },
                           {
                             text: " – Encabezado de celda",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                    ]
+                    ],
                   },
-                ]
+                ],
               },
               {
                 type: "li",
@@ -1551,75 +1581,74 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<form>",
                             content: "bold",
                           },
                           {
                             text: " – Formulario",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
-                            text: "<input type=\"...\">",
+                          {
+                            text: '<input type="...">',
                             content: "bold",
                           },
                           {
                             text: " – Campos de entrada",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<button>",
                             content: "bold",
                           },
                           {
                             text: " – Botón",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<select> y <option>",
                             content: "bold",
                           },
                           {
                             text: " – Menú desplegable",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<textarea>",
                             content: "bold",
                           },
                           {
                             text: " – Área de texto",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                    ]
+                    ],
                   },
-                  
-                ]
+                ],
               },
               {
                 type: "li",
@@ -1632,61 +1661,61 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<audio>",
                             content: "bold",
                           },
                           {
                             text: " – Audio",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<video>",
                             content: "bold",
                           },
                           {
                             text: " – Video",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<source>",
                             content: "bold",
                           },
                           {
                             text: " – Fuente multimedia",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<iframe>",
                             content: "bold",
                           },
                           {
                             text: " – Contenido externo",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                    ]
+                    ],
                   },
-                ]
+                ],
               },
               {
                 type: "li",
@@ -1699,68 +1728,439 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<script>",
                             content: "bold",
                           },
                           {
                             text: " – JavaScript",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<link>",
                             content: "bold",
                           },
                           {
                             text: " – Hojas de estilo o iconos",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<style>",
                             content: "bold",
                           },
                           {
                             text: " – CSS interno",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                      { 
+                      {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "<noscript>",
                             content: "bold",
                           },
                           {
                             text: " – Contenido sin JS",
-                            content: "plain"
+                            content: "plain",
                           },
-                        ] 
+                        ],
                       },
-                    ]
+                    ],
                   },
-                ]
-              }
-            ]
+                ],
+              },
+            ],
           },
-        ]
-      }
+        ],
+      },
+      {
+        topic: 7,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "Actividades 💬", content: "plain" }],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Actividad 1: ",
+                content: "bold",
+              },
+              {
+                text: "Mi primera página web",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ol",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Crear un archivo ",
+                    content: "plain",
+                  },
+                  {
+                    text: "nombre_del_alumno.html",
+                    content: "bold",
+                  },
+                  {
+                    text: ".",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Escribir la estructura básica de un documento ",
+                    content: "plain",
+                  },
+                  {
+                    text: "HTML.",
+                    content: "bold",  
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Crear un encabezado saludando.", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Crear un encabezado de segundo nivel con tu nombre y apellido.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Crear un párrafo con el texto: ",
+                    content: "plain",
+                  },
+                  {
+                    text: "Esta es mi primera página web.",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { 
+                    text: "Abrirlo en el navegador.", 
+                    content: "plain" 
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Frontend/class1/ejercicio_1.png",
+                alt: "Solución ejercicio 1",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Actividad 2: ",
+                content: "bold",
+              },
+              {
+                text: "Descargar VS Code",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ol",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Visitar el sitio oficial de ",
+                    content: "plain",
+                  },
+{
+                    type: "link",
+                    info: [
+                      {
+                        text: "Visual Studio Code",
+                        content: "bold",
+                        link: "https://code.visualstudio.com/",
+                        type: "link",
+                      },
+                    ],
+                  },
+                  {
+                    text: ".",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Descargar la versión estable adecuada para tu sistema operativo.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Instalar el editor siguiendo los pasos del asistente de instalación.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { 
+                    text: "Explorar la interfaz del editor:", 
+                    content: "plain" 
+                  },
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Barra lateral izquierda ",
+                            content: "bold",
+                          },
+                          {
+                            text: "(explorador de archivos, búsqueda, extensiones)",
+                            content: "plain",
+                          },
+                          
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Editor central",
+                            content: "bold",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { 
+                            text: "Terminal integrada ",
+                            content: "bold",
+                          },
+
+                          {
+                            text: "( Ctrl",
+                            content: "bold",
+                          },
+                          {
+                            text: " + ",
+                            content: "plain",
+                          },
+                          {
+                            text: "` )",
+                            content: "bold",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Abrir la página ",
+                    content: "plain",
+                  },
+                  {
+                    text: "HTML",
+                    content: "bold",
+                  },
+                  {
+                    text: " creada en la Actividad 1 usando ",
+                    content: "plain",
+                  },
+                  {
+                    text: "VS Code",
+                    content: "bold",
+                  },
+                  {
+                    text: ".",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Actividad 3: ",
+                content: "bold",
+              },
+              {
+                text: "Descargar Live Server",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Extensión que recarga automáticamente la página al guardar cambios en ",
+                content: "plain",
+              },
+              {
+                text: "HTML, CSS o JS.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "ol",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Abrir ",
+                    content: "plain",
+                  },
+                  {
+                    text: "VS Code",
+                    content: "bold",
+                  },
+                  {
+                    text: " y hacer clic en el icono de extensiones en la barra lateral izquierda.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Buscar ",
+                    content: "plain",
+                  },
+                  { 
+                    text: "Live Server",
+                    content: "bold",
+                  },
+                  {
+                    text: " en el marketplace de extensiones.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Instalar la extensión desarrollada por ",
+                    content: "plain",
+                  },
+                  {
+                    text: "Ritwick Dey",
+                    content: "bold",
+                  },
+                  {
+                    text: ".",
+                    content: "plain",
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Reiniciar ",
+                    content: "plain",
+                  },
+                  {
+                    text: "VS Code",
+                    content: "bold",
+                  },
+                  {
+                    text: " si es necesario.",
+                    content: "plain",
+                  }
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Para usar Live Server, haz clic derecho en un archivo  ",
+                    content: "plain",
+                  },
+                  {
+                    text: "HTML",
+                    content: "bold",
+                  },
+                  {
+                    text: " y selecciona ",
+                    content: "plain",
+                  },
+                  {
+                    text: "Abrir con Live Server",
+                    content: "bold",
+                  },
+                  {
+                    text: ".",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
-  }
+  },
 ];
 
 export default classes;
