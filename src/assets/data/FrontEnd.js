@@ -1837,8 +1837,8 @@ const classes = [
                   },
                   {
                     text: "HTML.",
-                    content: "bold",  
-                  }
+                    content: "bold",
+                  },
                 ],
               },
               {
@@ -1872,9 +1872,9 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Abrirlo en el navegador.", 
-                    content: "plain" 
+                  {
+                    text: "Abrirlo en el navegador.",
+                    content: "plain",
                   },
                 ],
               },
@@ -1912,7 +1912,7 @@ const classes = [
                     text: "Visitar el sitio oficial de ",
                     content: "plain",
                   },
-{
+                  {
                     type: "link",
                     info: [
                       {
@@ -1950,9 +1950,9 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Explorar la interfaz del editor:", 
-                    content: "plain" 
+                  {
+                    text: "Explorar la interfaz del editor:",
+                    content: "plain",
                   },
                   {
                     type: "ul",
@@ -1968,7 +1968,6 @@ const classes = [
                             text: "(explorador de archivos, búsqueda, extensiones)",
                             content: "plain",
                           },
-                          
                         ],
                       },
                       {
@@ -1983,11 +1982,10 @@ const classes = [
                       {
                         type: "li",
                         info: [
-                          { 
+                          {
                             text: "Terminal integrada ",
                             content: "bold",
                           },
-
                           {
                             text: "( Ctrl",
                             content: "bold",
@@ -2086,7 +2084,7 @@ const classes = [
                     text: "Buscar ",
                     content: "plain",
                   },
-                  { 
+                  {
                     text: "Live Server",
                     content: "bold",
                   },
@@ -2110,7 +2108,7 @@ const classes = [
                   {
                     text: ".",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -2127,7 +2125,7 @@ const classes = [
                   {
                     text: " si es necesario.",
                     content: "plain",
-                  }
+                  },
                 ],
               },
               {
@@ -2161,6 +2159,69 @@ const classes = [
       },
     ],
   },
+  {
+    class: 2,
+    topics: 4,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Estructura HTML, Enlaces y Formularios",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { 
+                text: "📚 Estructura HTML, Enlaces y Formularios", 
+                content: "plain" 
+              }
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Objetivo de la clase",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ampliar los conocimientos de ",
+                content: "plain",
+              },
+              {
+                text: "HTML",
+                content: "bold",
+              },
+              {
+                text: " mediante la creación de formularios y listas. A través de ejercicios guiados, se busca que los estudiantes adquieran confianza en el uso de estas etiquetas y desarrollen una estructura ",
+                content: "plain",
+              },
+              {
+                text: "HTML",
+                content: "bold",
+              },
+              {
+                text: " más completa.",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
+    ],
+  }
 ];
 
 export default classes;
