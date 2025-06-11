@@ -2220,6 +2220,176 @@ const classes = [
           },
         ]
       },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { 
+                text: "👩‍💻 ¿ Cómo funcionan las etiquetas HTML?",
+                content: "plain" 
+              }
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Estructura de las etiquetas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Las etiquetas ",
+                content: "plain",
+              },
+              {
+                text: "HTML",
+                content: "bold",
+              },
+              {
+                text: " son los bloques básicos que definen la estructura y el contenido de una página web. La mayoría de etiquetas tienen una estructura de apertura y cierre que envuelve el contenido.",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "(<a>) Etiqueta de apertura ",
+                    content: "bold",
+                  },
+                  {
+                    text: ": Indica dónde comienza el enlace.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Frontend/class2/etiqueta-apertura.png",
+                      alt: "Ejemplo de etiqueta de apertura",
+                    },
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "(</a>) Etiqueta de cierre",
+                    content: "bold",
+                  },
+                  {
+                    text: ": Indica dónde termina el enlace.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Frontend/class2/etiqueta-cierre.png",
+                      alt: "Ejemplo de etiqueta de cierre",
+                    },
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "(href) Atributo",
+                    content: "bold",
+                  },
+                  {
+                    text: ": Define la URL de destino del enlace.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Frontend/class2/atributo.png",
+                      alt: "Ejemplo de atributo",
+                    },
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo completo de estructura:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Frontend/class2/ejemplo-estructura.png",
+              alt: "Ejemplo estructura",
+            },
+          },
+          {
+            type: "p",
+            info:[
+              {
+                text: "Algunas etiquetas como ",
+                content: "plain",
+              },
+              {
+                text: "<img>",
+                content: "bold",
+              },
+              {
+                text: ", ",
+                content: "plain",
+              },
+              {
+                text: "<br>",
+                content: "bold",
+              },
+              {
+                text: " o ",
+                content: "plain",
+              },
+              {
+                text: "<input>",
+                content: "bold",
+              },
+              {
+                text: " son auto-cerradas y no necesitan etiqueta de cierre: ",
+                content: "plain",
+              },
+              {
+                text: "<img src=\"imagen.jpg\">",
+                content: "bold",
+              },
+              {
+                text: " o en formato ",
+                content: "plain",
+              },
+              { 
+                text: "XHTML: ",
+                content: "bold",
+              },
+              {
+                text: "<img src=\"imagen.jpg\"/>",
+                content: "bold",
+              },
+            ]
+          }
+        ]
+      }
     ],
   }
 ];
