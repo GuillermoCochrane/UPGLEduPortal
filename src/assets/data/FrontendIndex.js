@@ -40,6 +40,37 @@ let classIndex = [
         },
       ]
     },
+    {
+      summary: "Estructura HTML, Enlaces y Formularios",
+      classId: 2,
+      links: [
+        {
+          title: "Objetivos de la clase",
+          topicId: 1,
+          link: "/courses/Frontend/class/2/1"
+        },
+        {
+          title: "¿Cómo funcionan las etiquetas HTML?",
+          topicId: 2,
+          link: "/courses/Frontend/class/2/2"
+        },
+        {
+          title: "¿Qué son los formularios",
+          topicId: 3,
+          link: "/courses/Frontend/class/2/3"
+        },
+        {
+          title: "¿Qué son las listas?",
+          topicId: 4,
+          link: "/courses/Frontend/class/2/4"
+        },
+        {
+          title: "Actividades",
+          topicId: 5,
+          link: "/courses/Frontend/class/2/5"
+        },
+      ]
+    }
   ]
 
 
