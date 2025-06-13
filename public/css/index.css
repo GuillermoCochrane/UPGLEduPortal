@@ -146,13 +146,20 @@ a {
 
 article ul,
 article ol{
+	counter-reset: none !important;
 	margin-block: 1em;
 	padding-inline-start: 1em;
 	margin-inline: 5px;
 }
 
-article ul li::before{
-	content: "";
+article ol{
+	list-style-type: decimal !important;
+}
+
+article li::before{
+	content: none;
+  display: none;
+  counter-increment: none;
 }
 
 ul ul li{
