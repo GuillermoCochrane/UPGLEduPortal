@@ -2533,6 +2533,123 @@ const classes = [
             },
           }
         ]
+      },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { 
+                text: "📋 ¿Qué son las Listas?",
+                content: "plain" 
+              }
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Listas",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Las listas se utilizan para ",
+                content: "plain",
+              },
+              {
+                text: "organizar elementos relacionados",
+                content: "bold",
+              },
+              {
+                text: ". Pueden ser ordenadas ",
+                content: "plain",
+              },
+              {
+                text: "(con números)",
+                content: "bold",
+              },
+              {
+                text: " o desordenadas ",
+                content: "plain",
+              },
+              {
+                text: "(con viñetas).",
+                content: "bold",
+              }
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Lista desordenada: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Cada elemento aparece con una viñeta o bullet point.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Frontend/class2/lista-desordenada.png",
+                      alt: "Ejemplo de lista desordenada",
+                    },
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Lista ordenada: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Cada elemento aparece con un número o letra secuencial.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Frontend/class2/lista-ordenada.png",
+                      alt: "Ejemplo de lista ordenada",
+                    },
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Lista de links: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Cada elemento aparece con un enlace.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Frontend/class2/lista-de-links.png",
+                      alt: "Ejemplo de lista de links",
+                    },
+                  },
+                ],
+              }
+            ],
+          },
+        ]
       }
     ],
   },
