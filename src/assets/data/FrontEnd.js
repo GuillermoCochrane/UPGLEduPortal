@@ -2631,18 +2631,34 @@ const classes = [
                 type: "li",
                 info: [
                   {
-                    text: "Lista de links: ",
+                    text: "Elemento de lista: ",
                     content: "bold",
                   },
                   {
-                    text: "Cada elemento aparece con un enlace.",
+                    text: "Se usa dentro de ",
+                    content: "plain",
+                  },
+                  {
+                    text: "<ul>",
+                    content: "bold",
+                  },
+                  {
+                    text: " o ",
+                    content: "plain",
+                  },
+                  {
+                    text: "<ol>",
+                    content: "bold",
+                  },
+                  {
+                    text: " para cada ítem.",
                     content: "plain",
                   },
                   {
                     type: "figure",
                     info: {
-                      img: "/images/Frontend/class2/lista-de-links.png",
-                      alt: "Ejemplo de lista de links",
+                      img: "/images/Frontend/class2/elemeneto-de-lista.png",
+                      alt: "Ejemplo de elemento de lista",
                     },
                   },
                 ],
