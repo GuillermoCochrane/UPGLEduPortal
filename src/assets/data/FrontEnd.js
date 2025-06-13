@@ -2161,7 +2161,7 @@ const classes = [
   },
   {
     class: 2,
-    topics: 4,
+    topics: 5,
     title: {
       type: "h2",
       info: [
@@ -2665,6 +2665,307 @@ const classes = [
               }
             ],
           },
+        ]
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { 
+                text: "Actividades 💬",
+                content: "plain" 
+              }
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Actividad 1: ",
+                content: "bold",
+              },
+              {
+                text: "Formulario de contacto",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Objetivo: ",
+                content: "bold",
+              },
+              {
+                text: "Familiarizarse con la estructura y componentes de un formulario en ",
+              },
+              {
+                text: "HTML",
+                content: "bold",
+              },
+            ]
+          },
+          {
+            type: "ol",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Crear un archivo llamado ",
+                    content: "plain",
+                  },
+                  {
+                    text: "formulario_contacto.html",
+                    content: "bold",
+                  },
+                  {
+                    text: ".",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Dentro del body, crear un formulario con los siguientes campos:",
+                    content: "plain",
+                  },
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Nombre ",
+                            content: "plain",
+                          },
+                          {
+                            text: "(type =\"text\")",
+                            content: "bold",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Correo electrónico ",
+                            content: "plain",
+                          },
+                          {
+                            text: "(type =\"email\")",
+                            content: "bold",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Mensaje ",
+                            content: "plain",
+                          },
+                          {
+                            text: "(type =\"textarea\")",
+                            content: "bold",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Un botón para enviar",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
+                  }
+                ],
+              }, 
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Agregar etiquetas ",
+                    content: "plain",
+                  },
+                  {
+                    text: "<label>",
+                    content: "bold",
+                  },
+                  {
+                    text: " asociadas a cada campo.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Probar el formulario en el navegador.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Bonus: ",
+                content: "bold",
+              },
+              {
+                text: "Usar el atributo ",
+                content: "plain",
+              },
+              {
+                text: '"required"',
+                content: "bold",
+              },
+              {
+                text: " para validar que los campos no estén vacíos.",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Frontend/class2/formulario_contacto.png",
+                alt: "Solución formulario de contacto",
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Actividad 2: ",
+                content: "bold",
+              },
+              {
+                text: "Listas desordenadas y ordenadas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Objetivo: ",
+                content: "bold",
+              },
+              {
+                text: "Entender cómo organizar información de manera clara y ordenada utilizando listas.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ol",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Crear un archivo llamado ",
+                    content: "plain",
+                  },
+                  {
+                    text: "listas.html",
+                    content: "bold",
+                  },
+                  {
+                    text: ".",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Crear:",
+                    content: "plain",
+                  },
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Una lista desordenada con al menos 5 cosas favoritas ",
+                            content: "plain",
+                          },
+                          {
+                            text: "(películas, comidas, etc.)",
+                            content: "bold",
+                          },
+                          {
+                            text: ".",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Una lista ordenada con los pasos para hacer una receta.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Bonus: ",
+                content: "bold",
+              },
+              {
+                text: "Agregar un título usando ",
+                content: "plain",
+              },
+              {
+                text: "<h2>",
+                content: "bold",
+              },
+              {
+                text: " encima de cada sección.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Frontend/class2/listas.png",
+                alt: "Solución listas",
+              },
+            ]
+          }
         ]
       }
     ],
