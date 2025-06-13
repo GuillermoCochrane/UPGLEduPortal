@@ -2387,9 +2387,97 @@ const classes = [
                 content: "bold",
               },
             ]
-          }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🔗 Enlaces ",
+                content: "plain",
+              },
+              {
+                text: "( <a> )",
+                content: "bold",
+              },
+              
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Los enlaces permiten conectar diferentes páginas o recursos en la web. Se crean con la etiqueta ",
+                content: "plain",
+              },
+              {
+                text: "<a>",
+                content: "bold",
+              },
+              {
+                text: " y el atributo ",
+                content: "plain",
+              },
+              {
+                text: "href",
+                content: "bold",
+              },
+             ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Tipos de enlaces",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Enlace interno: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "<a href=\"pagina2.html\">Ir a Página 2</a>",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Enlace externo: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "<a href=\"https://www.google.com\" target=\"_blank\">Google</a>",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Enlace a correo: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "<a href=\"mailto:correo@ejemplo.com\">Enviar correo</a>",
+                    content: "plain",
+                  },
+                ],
+              },  
+            ],
+          },
         ]
-      }
+      },
     ],
   }
 ];
