@@ -2421,7 +2421,7 @@ const classes = [
                 text: "href",
                 content: "bold",
               },
-             ],
+            ],
           },
           {
             type: "h4",
@@ -2478,8 +2478,64 @@ const classes = [
           },
         ]
       },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { 
+                text: "📝 ¿Qué son los Formularios?",
+                content: "plain" 
+              }
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Formularios",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Los formularios son elementos que permiten al usuario ",
+                content: "plain",
+              },
+              {
+                text: "introducir y enviar datos",
+                content: "bold",
+              },
+              {
+                text: " a través de una página web. Son esenciales para crear sistemas de contacto, registro, búsquedas, encuestas, etc.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Estructura básica de un formulario",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Frontend/class2/formulario.png",
+              alt: "Ejemplo de formulario",
+            },
+          }
+        ]
+      }
     ],
-  }
+  },
 ];
 
 export default classes;

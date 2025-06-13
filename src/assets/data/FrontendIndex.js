@@ -55,7 +55,7 @@ let classIndex = [
           link: "/courses/Frontend/class/2/2"
         },
         {
-          title: "¿Qué son los formularios",
+          title: "¿Qué son los formularios?",
           topicId: 3,
           link: "/courses/Frontend/class/2/3"
         },
