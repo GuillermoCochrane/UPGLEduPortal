@@ -70,6 +70,32 @@ let classIndex = [
           link: "/courses/Frontend/class/2/5"
         },
       ]
+    }, 
+    {
+      summary: "Tablas, Imágenes y Semántica HTML",
+      classId: 3,
+      links: [
+        {
+          title: "Objetivos de la clase",
+          topicId: 1,
+          link: "/courses/Frontend/class/3/1"
+        },
+        {
+          title: "Tablas",
+          topicId: 2,
+          link: "/courses/Frontend/class/3/2"
+        },
+        {
+          title: "Manejo de imágenes",
+          topicId: 3,
+          link: "/courses/Frontend/class/3/3"
+        },
+        {
+          title: "Actividades",
+          topicId: 4,
+          link: "/courses/Frontend/class/3/4"
+        },
+      ]
     }
   ]
 
