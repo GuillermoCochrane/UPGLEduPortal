@@ -2970,6 +2970,66 @@ const classes = [
       }
     ],
   },
+  {
+    class: 3,
+    topics: 4,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Tablas, Imágenes y Semántica HTML",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "📚 Tablas", content: "plain" },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Objetivo de la clase",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Contiunar ampliando los conocimientos de ",
+                content: "plain",
+              },
+              {
+                text: "HTML",
+                content: "bold",
+              },
+              {
+                text: " mediante la creación de tablas, insertar imágenes y usar etiquetas semánticas. A través de ejercicios guiados, se busca que los estudiantes adquieran confianza en el uso de estas etiquetas y desarrollen una estructura ",
+                content: "plain",
+              },
+              {
+                text: "HTML",
+                content: "bold",
+              },
+              {
+                text: " más completa.",
+                content: "plain",
+              },
+            ],
+          },
+        ],
+      }
+    ],
+  },
 ];
 
 export default classes;
