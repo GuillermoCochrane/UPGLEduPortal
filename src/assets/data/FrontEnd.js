@@ -3394,6 +3394,372 @@ const classes = [
             ],
           },
         ]
+      },
+      {
+        topic : 4,
+        topicData : [
+          {
+            type : "h3",
+            info : [
+              { text: "Actividades 💬", content: "plain" },
+            ],
+          },
+          {
+            type : "h4",
+            info : [
+              {
+                text: "Actividad 1: ",
+                content: "bold",
+              },
+              {
+                text: "Tablas de contactos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type : "p",
+            info : [
+              {
+                text: "Objetivo: ",
+                content: "bold",
+              },
+              {
+                text: "Practicar la creación y estructura básica de tablas en ",
+                content: "plain",
+              },
+              {
+                text: "HTML",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type : "ol",
+            info : [
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "Crear un archivo llamado ",
+                    content: "plain",
+                  },
+                  {
+                    text: "tablas_contactos.html",
+                    content: "bold",
+                  },
+                  {
+                    text: ".",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "Crear una tabla de contactos con cinco columnas:",
+                    content: "plain",
+                  },
+                  {
+                    type : "ul",
+                    info : [
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Nombre",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Apellido",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Dirección",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Correo electrónico",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Teléfono",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "Completar la tabla con datos de al menos 3 personas ",
+                    content: "plain",
+                  },
+                  {
+                    text: "(pueden ser ficticios).",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "Usar las etiquetas ",
+                    content: "plain",
+                  },
+                  {
+                    text: "<th>",
+                    content: "bold",
+                  },
+                  {
+                    text: " para los encabezados y ",
+                    content: "plain",
+                  },
+                  {
+                    text: "<td>",
+                    content: "bold",
+                  },
+                  {
+                    text: " para los datos.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type : "p",
+            info : [
+              {
+                text: "Bonus: ",
+                content: "bold",
+              },
+              {
+                text: "Añadir el atributo ",
+                content: "plain",
+              },
+              {
+                text: "border=\"1\"",
+                content: "bold",
+              },
+              {
+                text: " a la tabla.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type : "answer",
+            info : [
+              {
+                img : "/images/Frontend/class3/tablas_contactos.png",
+                alt : "Solución tablas de contactos",
+              },
+            ],
+          },
+          {
+            type : "h4",
+            info : [
+              {
+                text: "Actividad 2: ",
+                content: "bold",
+              },
+              {
+                text: "Imágenes y enlaces",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type : "p",
+            info : [
+              {
+                text: "Objetivo: ",
+                content: "bold",
+              },
+              {
+                text: "Practicar la inserción de imágenes y la creación de diversos tipos de enlaces.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type : "ol",
+            info : [
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "Crear un archivo llamado ",
+                    content: "plain",
+                  },
+                  {
+                    text: "galeria.html",
+                    content: "bold",
+                  },
+                  {
+                    text: ".",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "Crear una galería simple con:",
+                    content: "plain",
+                  },
+                  {
+                    type : "ul",
+                    info : [
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Al menos 3 imágenes ",
+                            content: "plain",
+                          },
+                          {
+                            text: "(usar URLs de internet si no tienes imágenes propias)",
+                            content: "bold",
+                          },
+                        ],
+                      },
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Cada imagen debe tener un texto alternativo descriptivo",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Debajo de cada imagen, añadir un enlace que abra la imagen en una nueva pestaña",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                type : "li",  
+                info : [
+                  {
+                    text: "Al final de la página, crear una sección de ",
+                    content: "plain",
+                  },
+                  {
+                    text: "Contacto",
+                    content: "bold",
+                  },
+                  {
+                    text: " con:",
+                    content: "plain",
+                  },
+                  {
+                    type : "ul",
+                    info : [
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Un enlace para enviar un correo electrónico",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Un enlace a una red social",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type : "li",
+                        info : [
+                          {
+                            text: "Un enlace interno que regrese al principio de la página ",
+                            content: "plain",
+                          },
+                          {
+                            text: "(usar el atributo ",
+                            content: "bold",
+                          },
+                          {
+                            text: "id",
+                            content: "bold",
+                          },
+                          {
+                            text: ")",
+                            content: "bold",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type : "p",
+            info : [
+              {
+                text: "Bonus: ",
+                content: "bold",
+              },
+              {
+                text: "Organizar las imágenes en una tabla para que queden en filas de 2 imágenes.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type : "answer",
+            info : [
+              {
+                img : "/images/Frontend/class3/galeria.png",
+                alt : "Solución galería",
+              },
+            ],
+          },
+        ]
       }
     ],
   },
