@@ -2989,7 +2989,10 @@ const classes = [
           {
             type: "h3",
             info: [
-              { text: "📚 Tablas", content: "plain" },
+              {
+                text: "💹 Tablas, Imágenes y Semántica HTML",
+                content: "plain",
+              }
             ],
           },
           {
@@ -3027,6 +3030,144 @@ const classes = [
             ],
           },
         ],
+      },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "📋 Tablas", content: "plain" },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Las tablas permiten ",
+                content: "plain",
+              },
+              {
+                text: "mostrar datos de forma estructurada",
+                content: "bold",
+              },
+              {
+                text: ", en filas y columnas. Son útiles para mostrar comparativas, horarios, datos personales, etc.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Tablas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Contenedor principal: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Define el inicio y fin de una tabla en el documento.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Frontend/class3/tabla-contenedor.png",
+                      alt: "Ejemplo de tabla contenedor",
+                    },
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Fila de tabla: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Agregar celdas horizontalmente formando una fila.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Frontend/class3/tabla-fila.png",
+                      alt: "Ejemplo de tabla fila",
+                    },
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Celda de encabezado: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Define celdas de título para columnas o filas.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Frontend/class3/celda-encabezado.png",
+                      alt: "Ejemplo de celda encabezado",
+                    },
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Celda de datos: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Contiene los datos individuales de la tabla.",
+                    content: "plain",
+                  },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Frontend/class3/celda-datos.png",
+                      alt: "Ejemplo de celda datos",
+                    },
+                  },
+                ],
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo de tabla básica:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Frontend/class3/ejemplo-tabla.png",
+              alt: "Ejemplo de tabla básica",
+            },
+          },
+        ]
       }
     ],
   },
