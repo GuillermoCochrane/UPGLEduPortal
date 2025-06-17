@@ -3168,6 +3168,232 @@ const classes = [
             },
           },
         ]
+      },
+      {
+        topic : 3,
+        topicData : [
+          {
+            type : "h3",
+            info : [
+              { text: "📷 Manejo de imágenes", content: "plain" },
+            ],
+          },
+          {
+            type : "p",
+            info : [
+              {
+                text: "Las imágenes se insertan en  ",
+                content: "plain",
+              },
+              {
+                text: "HTML",
+                content: "bold",
+              },
+              {
+                text: " con la etiqueta ",
+                content: "plain",
+              },
+              {
+                text: "<img>",
+                content: "bold",
+              },
+              {
+                text: ". Es importante usar el atributo ",
+                content: "plain",
+              },
+              {
+                text: "alt",
+                content: "bold",
+              },
+              {
+                text: " para describir la imagen por accesibilidad.",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type : "h4",
+            info : [
+              {
+                text: "Ejemplo de imagen:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type : "figure",
+            info : {
+              img : "/images/Frontend/class3/ejemplo-imagen.png",
+              alt : "Ejemplo de imagen",
+            },
+          },
+          {
+            type : "ul",
+            info : [
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "src",
+                    content: "bold",
+                  },
+                  {
+                    text: ": Ruta de la imagen.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "alt",
+                    content: "bold",
+                  },
+                  {
+                    text: ": Texto alternativo descriptivo.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "width/height",
+                    content: "bold",
+                  },
+                  {
+                    text: ": Tamaño de la imagen ",
+                    content: "plain",
+                  },
+                  {
+                    text: "(opcional)",
+                    content: "bold",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type : "h4",
+            info : [
+              {
+                text: "Curiosidad: ",
+                content: "bold",
+              },
+              {
+                text: " Comportamiento de imágenes y párrafos",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type : "p",
+            info : [
+              {
+                text: "¿Has notado que cuando colocas un párrafo ",
+                content: "plain",
+              },
+              {
+                text: "<p>",
+                content: "bold",
+              },
+              {
+                text: " debajo de una imagen, el texto siempre aparece debajo, pero si escribes texto directamente después de la imagen, se coloca al lado? Esto ocurre porque:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type : "ul",
+            info : [
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "Las imágenes ",
+                    content: "plain",
+                  },
+                  {
+                    text: "<img>",
+                    content: "bold",
+                  },
+                  {
+                    text: " son elementos ",
+                    content: "plain",
+                  },
+                  {
+                    text: "inline",
+                    content: "bold",
+                  },
+                  {
+                    text: ", por defecto ",
+                    content: "plain",
+                  },
+                  {
+                    text: "(display: inline).",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type : "li",
+                info : [
+                  {
+                    text: "Los párrafos ",
+                    content: "plain",
+                  },
+                  {
+                    text: "<p>",
+                    content: "bold",
+                  },
+                  {
+                    text: " son elementos ",
+                    content: "plain",
+                  },
+                  {
+                    text: "block",
+                    content: "bold",
+                  },
+                  {
+                    text: ", por defecto ",
+                    content: "plain",
+                  },
+                  {
+                    text: "(display: block).",
+                    content: "bold",
+                  }
+                ],
+              },
+            ],
+          },
+          {
+            type : "p",
+            info : [
+              {
+                text: "Los elementos ",
+                content: "plain",
+              },
+              {
+                text: "block",
+                content: "bold",
+              },
+              {
+                text: " siempre comienzan en una nueva línea y ocupan todo el ancho disponible, mientras que los elementos ",
+                content: "plain",
+              },
+              {
+                text: "inline",
+                content: "bold",
+              },
+              {
+                text: " solo ocupan el espacio necesario para su contenido y no fuerzan saltos de línea.",
+                content: "plain",
+              },
+            ],
+          },
+        ]
       }
     ],
   },
