@@ -96,6 +96,37 @@ let classIndex = [
           link: "/courses/Frontend/class/3/4"
         },
       ]
+    }, 
+    {
+      summary: "Semántica HTML e inputs",
+      classId: 4,
+      links: [
+        {
+          title: "Etiquetas semánticas",
+          topicId: 1,
+          link: "/courses/Frontend/class/4/1"
+        },
+        {
+          title: "Tipos de Inputs en HTML",
+          topicId: 2,
+          link: "/courses/Frontend/class/4/2"
+        },
+        {
+          title: " Atributos importantes para inputs",
+          topicId: 3,
+          link: "/courses/Frontend/class/4/3"
+        },
+        {
+          title: "Buenas Prácticas para Inputs",
+          topicId: 4,
+          link: "/courses/Frontend/class/4/4"
+        },
+        {
+          title: "Actividades",
+          topicId: 5,
+          link: "/courses/Frontend/class/4/5"
+        },
+      ]
     }
   ]
 
