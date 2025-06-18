@@ -3763,6 +3763,240 @@ const classes = [
       }
     ],
   },
+  {
+    class: 4,
+    topics: 5,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Semántica HTML e Inputs",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "💬 Etiquetas semánticas", content: "plain" },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Las etiquetas semánticas en HTML5 ayudan a dar significado al contenido de la página, facilitando la comprensión tanto para los desarrolladores como para los navegadores y motores de búsqueda.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "<header>: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Encabezado principal de la página o sección.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "<nav>: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Menú de navegación.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "<main>: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Contenedor principal de la página.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "<section>: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Sección temática del contenido.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "<article>: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Contenido independiente y auto-contenido.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "<aside>: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Información complementaria o lateral.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "<footer>: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Pie de página.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "<figure>: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Contenedor para ilustraciones, diagramas, fotos u otro contenido independiente.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "<figcaption>: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Descripción o leyenda para el contenido de un elemento <figure>.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "<time>: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Representa una fecha u hora en un formato entendible para humanos y máquinas.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo visual de estructura semántica:",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Frontend/class4/class4-1.png",
+              alt: "Ejemplo de estructura semántica",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo práctico de etiqueta",
+                content: "plain",
+              },
+              {
+                text: "time ",
+                content: "bold",
+              }, 
+              {
+                text: "y ",
+                content: "plain",
+              },
+              {
+                text: "figure:",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Frontend/class4/class4-2.png",
+              alt: "Ejemplo de etiqueta time y figure",
+            },
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Ejemplo de estructura semántica ",
+                content: "plain",
+              },
+              {
+                text: "(código):",
+                content: "bold",
+              }
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Frontend/class4/class4-3.png",
+              alt: "Ejemplo de estructura semántica",
+            }
+          }
+        ], 
+      }
+    ],
+  }
 ];
 
 export default classes;
