@@ -1,16 +1,21 @@
 import PropTypes from 'prop-types';
+import Code from '"../Code/Code"';
+import Figure from '../Figure/Figure';
 
 function InputExample({ Data }) {
   return (
-      <>
-        {Data.inputs.map((input, idx) => (
-          <section className="input-item" key={idx}>
-            <label><strong>{input.label}</strong></label>
-            <input type={input.type} placeholder={input.placeholder} />
-            {input.code &&  <code>{input.code}</code>}
-          </section>
-        ))}
-      </>
+      <section className="input-item">
+        <label>
+          <strong>{Data.label}</strong>
+          <input 
+              type={Data.type} 
+              placeholder={Data.placeholder || ""}
+              {...Data.attributes}
+            />
+        </label>
+        {Data.code &&  <Code Data={Data.code} />}
+        {Data.figure &&  <Figure Data={Data.figure} />}
+      </section>
   );
 }
 
