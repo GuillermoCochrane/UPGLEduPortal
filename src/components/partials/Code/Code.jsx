@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './Code.css';
 
 function Code({ data }) {
   return (
