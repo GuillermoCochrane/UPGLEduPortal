@@ -1,31 +1,22 @@
 import PropTypes from 'prop-types';
-import {Fragment} from 'react';
-import Bold from '../Bold/Bold'
 
-function LITag({Data}) {
-    return (
-        <code>
-            {
-                Data.info.map((item, index) => (
-                    <Fragment key = {index}>
-                        {
-                            item.content == "plain" && item.text
-                        }
-                        {
-                            item.content == ("bold") && <Bold key = {index} Data = {item.text} />
-                        }
-                        {
-                            item.content == "italic" && <Bold key = {index} Data = {item.text} />
-                        }
-                    </Fragment>
-                ))
-            }
+function Code({ data }) {
+  return (
+    <div className="code-container">
+      <pre>
+        <code className={`language-${data.language || 'html'}`}>
+          {data.content}
         </code>
-    );
+      </pre>
+    </div>
+  );
 }
 
-LITag.propTypes = {
-    Data: PropTypes.object.isRequired
+Code.propTypes = {
+  data: PropTypes.shape({
+    language: PropTypes.string, // html, css, javascript, etc.
+    content: PropTypes.string.isRequired
+  }).isRequired
 };
 
-export default LITag;
+export default Code;
