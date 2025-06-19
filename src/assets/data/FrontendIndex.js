@@ -112,19 +112,39 @@ let classIndex = [
           link: "/courses/Frontend/class/4/2"
         },
         {
-          title: " Atributos importantes para inputs",
+          tilte: "Inputs Numéricos y de Fecha/Hora",
           topicId: 3,
           link: "/courses/Frontend/class/4/3"
-        },
+        }, 
         {
-          title: "Buenas Prácticas para Inputs",
+          title: "Inputs de Selección",
           topicId: 4,
           link: "/courses/Frontend/class/4/4"
         },
         {
-          title: "Actividades",
+          title: "Inputs de Botones",
           topicId: 5,
           link: "/courses/Frontend/class/4/5"
+        },
+        {
+          title: "Inputs Especiales",
+          topicId: 6,
+          link: "/courses/Frontend/class/4/6"
+        },
+        {
+          title: " Atributos importantes para inputs",
+          topicId: 7,
+          link: "/courses/Frontend/class/4/7"
+        },
+        {
+          title: "Buenas Prácticas para Inputs",
+          topicId: 8,
+          link: "/courses/Frontend/class/4/8"
+        },
+        {
+          title: "Actividades",
+          topicId: 9,
+          link: "/courses/Frontend/class/4/9"
         },
       ]
     }
