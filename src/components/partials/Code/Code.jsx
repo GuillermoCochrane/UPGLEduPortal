@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-import './Code.css';
+import './code.css';
 
-function Code({ data }) {
+function Code({ Data }) {
   return (
     <div className="code-container">
       <pre>
-        <code className={`language-${data.language || 'html'}`}>
-          {data.content}
+        <code className={`language-${ 'html'}`}>
+          {Data.content}
         </code>
       </pre>
     </div>
@@ -14,10 +14,7 @@ function Code({ data }) {
 }
 
 Code.propTypes = {
-  data: PropTypes.shape({
-    language: PropTypes.string, // html, css, javascript, etc.
-    content: PropTypes.string.isRequired
-  }).isRequired
+  Data: PropTypes.object
 };
 
 export default Code;
