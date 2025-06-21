@@ -112,10 +112,10 @@ let classIndex = [
           link: "/courses/Frontend/class/4/2"
         },
         {
-          tilte: "Inputs Numéricos y de Fecha/Hora",
+          title: "Inputs Numéricos y de Fecha/Hora",
           topicId: 3,
           link: "/courses/Frontend/class/4/3"
-        }, 
+        },
         {
           title: "Inputs de Selección",
           topicId: 4,
