@@ -4244,6 +4244,83 @@ const classes = [
             }
           }
         ]
+      },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "Inputs de Selección", content: "plain" }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Los inputs de selección permiten al usuario elegir entre varias opciones, ya sea de forma múltiple o única, y en distintos formatos visuales.", content: "plain" }
+            ]
+          },
+
+          { type: "h4", info: [{ text: "Casillas de verificación (Checkbox):", content: "plain" }] },
+
+          {
+            type: "inputCard",
+            info: {
+              label: [
+                { text: "Checkbox:", content: "bold" },
+                { text: " Casilla de verificación", content: "plain" }
+              ],
+              type: "checkbox",
+              attributes: { id: "check1" },
+              code: { content: "<input type=\"checkbox\">" }
+            }
+          },
+
+          { type: "h4", info: [{ text: "Botones de opción (Radio):", content: "plain" }] },
+
+          {
+            type: "inputCard",
+            info: {
+              label: [
+                { text: "Radio:", content: "bold" },
+                { text: " Botones de opción", content: "plain" }
+              ],
+              type: "radio",
+              attributes: { id: "radio1", name: "grupo1", value: "opcion1" },
+              code: { content: "<input type=\"radio\" name=\"grupo\">" }
+            }
+          },
+
+          { type: "h4", info: [{ text: "Selector de color:", content: "plain" }] },
+
+          {
+            type: "inputCard",
+            info: {
+              label: [
+                { text: "Color:", content: "bold" },
+                { text: " Selector de color", content: "plain" }
+              ],
+              type: "color",
+              attributes: { value: "#ff6b6b" },
+              code: { content: "<input type=\"color\" value=\"#ff6b6b\">" }
+            }
+          },
+
+          { type: "h4", info: [{ text: "Selector de archivos:", content: "plain" }] },
+
+          {
+            type: "inputCard",
+            info: {
+              label: [
+                { text: "File:", content: "bold" },
+                { text: " Selector de archivos", content: "plain" }
+              ],
+              type: "file",
+              attributes: { accept: "image/*" },
+              code: { content: "<input type=\"file\" accept=\"image/*\">" }
+            }
+          }
+        ]
       }
     ]
   },
