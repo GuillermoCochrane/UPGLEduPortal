@@ -4321,6 +4321,68 @@ const classes = [
             }
           }
         ]
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "Inputs de Botones", content: "plain" }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Los inputs de tipo botón permiten enviar formularios, reiniciar campos o ejecutar acciones específicas cuando el usuario interactúa con ellos.", content: "plain" }
+            ]
+          },
+
+          { type: "h4", info: [{ text: "Botón de envío (Submit):", content: "plain" }] },
+
+          {
+            type: "inputCard",
+            info: {
+              label: [
+                { text: "Submit:", content: "bold" },
+                { text: " Botón de envío", content: "plain" }
+              ],
+              type: "submit",
+              attributes: { value: "Enviar formulario" },
+              code: { content: "<input type=\"submit\" value=\"Enviar formulario\">" }
+            }
+          },
+
+          { type: "h4", info: [{ text: "Botón de reinicio (Reset):", content: "plain" }] },
+
+          {
+            type: "inputCard",
+            info: {
+              label: [
+                { text: "Reset:", content: "bold" },
+                { text: " Botón de reinicio", content: "plain" }
+              ],
+              type: "reset",
+              attributes: { value: "Limpiar formulario" },
+              code: { content: "<input type=\"reset\" value=\"Limpiar formulario\">" }
+            }
+          },
+
+          { type: "h4", info: [{ text: "Botón genérico (Button):", content: "plain" }] },
+
+          {
+            type: "inputCard",
+            info: {
+              label: [
+                { text: "Button:", content: "bold" },
+                { text: " Botón genérico", content: "plain" }
+              ],
+              type: "button",
+              attributes: { value: "Hacer clic", onClick: () => alert('hola') }, // podés dejar esto vacío si no querés que sea funcional
+              code: { content: "<input type=\"button\" value=\"Hacer clic\">" }
+            }
+          }
+        ]
       }
     ]
   },
