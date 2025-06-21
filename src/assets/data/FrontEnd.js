@@ -3765,7 +3765,7 @@ const classes = [
   },
   {
     class: 4,
-    topics: 5,
+    topics: 9,
     title: {
       type: "h2",
       info: [
@@ -3949,7 +3949,7 @@ const classes = [
             type: "h4",
             info: [
               {
-                text: "Ejemplo práctico de etiqueta",
+                text: "Ejemplo práctico de etiqueta ",
                 content: "plain",
               },
               {
@@ -3994,9 +3994,152 @@ const classes = [
             }
           }
         ], 
+      },
+      {
+        topic: 2,
+        topicData: [
+          { 
+            type: "h3", 
+            info: [
+              {
+                text: "Tipos de Inputs en HTML",
+                content: "plain"
+              } ]
+          },
+          { 
+            type: "p", 
+            info:  [
+              {
+                text: "HTML ofrece una amplia variedad de tipos de inputs que permiten capturar diferentes tipos de datos del usuario. Cada tipo tiene características específicas y se adapta a diferentes necesidades.",
+                content: "plain"
+              } 
+            ]
+          },
+          
+          { 
+            type: "h4", 
+            info: [
+              {
+                text: "Inputs de Texto:",
+                content: "plain"
+              } 
+            ]
+          },
+          { 
+            type: "inputCard", 
+            info: {
+              label: [
+                  {
+                    text: "Text:",
+                    content: "bold"
+                  },
+                  {
+                    text: " Campo de texto básico",
+                    content: "plain"
+                  }
+                ], 
+              type: "text", 
+              placeholder: "Escribe aquí...", 
+              code: { 
+                content: "<input type=\"text\">" 
+              } 
+            }
+          },
+          {
+            type: "inputCard",
+            info: {
+              label: [{
+                text: "Password:",
+                content: "bold"
+              },
+              {
+                text: " Campo para contraseñas",
+                content: "plain"
+              }],
+              type: "password",
+              placeholder: "Tu contraseña",
+              code: {
+                content: "<input type=\"password\">"
+              }
+            }
+          },
+          {
+            type: "inputCard",
+            info: {
+              label: [{
+                text: "Email:",
+                content: "bold"
+              },
+              {
+                text: " Campo para correos electrónicos",
+                content: "plain"
+              }],
+              type: "email",
+              placeholder: "correo@ejemplo.com",
+              code: {
+                content: "<input type=\"email\">"
+              }
+            }
+          },
+          {
+            type: "inputCard",
+            info: {
+              label: [{
+                text: "Url:",
+                content: "bold"
+              },
+              {
+                text: " Campo para URLs",
+                content: "plain"
+              }],
+              type: "url",
+              placeholder: "https://ejemplo.com",
+              code: {
+                content: "<input type=\"url\">"
+              }
+            }
+          },
+          {
+            type: "inputCard",
+            info: {
+              label: [{
+                text: "Tel:",
+                content: "bold"
+              },
+              {
+                text: " Campo para números telefónicos",
+                content: "plain"
+              }],
+              type: "tel",
+              placeholder: "+1234567890",
+              code: {
+                content: "<input type=\"tel\">"
+              }
+            }
+          },
+          {
+            type: "inputCard",
+            info: {
+              label: [{
+                text: "Search:",
+                content: "bold"
+              },
+              {
+                text: " Campo de búsqueda",
+                content: "plain"
+              }],
+              type: "search",
+              placeholder: "Buscar...",
+              code: {
+                content: "<input type=\"search\">"
+              }
+            }
+          },
+        ]
       }
-    ],
-  }
-];
+    ]
+  },
+]
+
 
 export default classes;
