@@ -1,12 +1,14 @@
 import PropTypes from 'prop-types';
-import Code from '"../Code/Code"';
+import Code from "../Code/Code";
 import Figure from '../Figure/Figure';
+import P from '../P/PTag';
 
 function InputExample({ Data }) {
   return (
       <section className="input-item">
         <label>
-          <strong>{Data.label}</strong>
+          <P Data={Data.label} />
+          <br />
           <input 
               type={Data.type} 
               placeholder={Data.placeholder || ""}
