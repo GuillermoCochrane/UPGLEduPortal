@@ -419,6 +419,13 @@ form strong{
 	margin: auto;
 }
 
+label input{
+	margin-inline: 15px;
+	padding: 5px;
+	border: 2px solid #225;
+	border-radius: 5px;
+}
+
 
 @media (min-width: 870px){
 	body{
