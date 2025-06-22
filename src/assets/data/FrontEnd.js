@@ -5088,6 +5088,187 @@ const classes = [
             ]
           }
         ]
+      },
+      {
+        topic: 8,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "Mejores Prácticas para inputs", content: "plain" } 
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              { text: "Usa el tipo correcto", content: "plain" }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { 
+                text: "Cada tipo de input tiene un propósito específico. Usar ", 
+                content: "plain" 
+              },
+              {
+                text: "type=\"email\"",
+                content: "bold"
+              },
+              {
+                text: " para emails activa la validación automática y mejora la experiencia en móviles.", 
+                content: "plain" 
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              { text: "Piensa en móviles", content: "plain" } 
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { 
+                text: "Los tipos ", 
+                content: "plain" 
+              },
+              {
+                text: "tel",
+                content: "bold"
+              },
+              {
+                text: ", ", 
+                content: "plain" 
+              },
+              {
+                text: "email",
+                content: "bold"
+              },
+              { 
+                text: " y ", 
+                content: "plain" 
+              },
+              {
+                text: "number",
+                content: "bold"
+              },
+              {
+                text: " muestran teclados específicos en dispositivos móviles, facilitando la entrada de datos.", 
+                content: "plain" 
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              { text: "Valida siempre", content: "plain" }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { 
+                text: "Combina validación HTML (required, pattern) con validación en el servidor. HTML es rápido pero no es seguro como única validación.", 
+                content: "plain" 
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              { text: "Ayuda al usuario", content: "plain" }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { 
+                text: "Usa ", 
+                content: "plain" 
+              },
+              {
+                text: "placeholder",
+                content: "bold"
+              },
+              {
+                text: " para ejemplos, ", 
+                content: "plain" 
+              },
+              {
+                text: "title",
+                content: "bold"
+              },
+              {
+                text: " para instrucciones y ", 
+                content: "plain" 
+              },
+              {
+                text: "label",
+                content: "bold"
+              },
+              {
+                text: " asociadas a cada campo.",
+                content: "plain" 
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              { text: "Mejora la UX", content: "plain" }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { 
+                text: "Usa ", 
+                content: "plain" 
+              },
+              {
+                text: "autofocus",
+                content: "bold"
+              },
+              {
+                text: " en el campo principal, ", 
+                content: "plain" 
+              },
+              {
+                text: "autocomplete",
+                content: "bold"
+              },
+              {
+                text: " para datos comunes y ", 
+                content: "plain" 
+              },
+              {
+                text: "list",
+                content: "bold"
+              },
+              {
+                text: " para sugerencias.", 
+                content: "plain" 
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              { text: "Seguridad", content: "plain" }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { 
+                text: "Nunca confíes solo en validación del cliente. Siempre valida y sanitiza datos en el servidor para evitar ataques.", 
+                content: "plain" 
+              }
+            ]
+          }
+        ] 
       }
     ]
   },
