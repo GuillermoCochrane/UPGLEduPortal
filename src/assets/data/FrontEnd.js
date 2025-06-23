@@ -4771,8 +4771,8 @@ const classes = [
                 { text: " Tipos de archivo permitidos", content: "plain" }
               ],
               type: "file",
-              attributes: { accept: "image/*" },
-              code: { content: "<input type=\"file\" accept=\"image/*\">" }
+              attributes: { accept: ".pdf" },
+              code: { content: '<input type="file" accept=".pdf">' }
             }
           },
           {
@@ -5073,7 +5073,7 @@ const classes = [
                 { text: "formnovalidate:", content: "bold" },
                 { text: " Omitir validación", content: "plain" }
               ],
-              type: "submit", /* revisra xq falta 1 */
+              type: "submit",
               attributes: { formnovalidate: true },
               code: { content: "<input type=\"submit\" formnovalidate> " }
             }
@@ -5082,7 +5082,7 @@ const classes = [
             type: "p",
             info: [
               {
-                text: "El segundo botón no validará el email",
+                text: "En el ejemplo original había dos botones: uno con validación y otro sin validación. Aquí mostramos solo el botón sin validación para simplificar.",
                 content: "plain"
               }
             ]
