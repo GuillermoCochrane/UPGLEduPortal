@@ -5276,7 +5276,7 @@ const classes = [
           {
             type: "h3",
             info: [
-              { text: "Actividades Prácticas", content: "plain" } 
+              { text: "📝 Actividades Prácticas", content: "plain" }
             ]
           },
           {
@@ -5288,14 +5288,8 @@ const classes = [
           {
             type: "p",
             info: [
-              { 
-                text: "Objetivo: ",
-                content: "bold"
-              },
-              {
-                text: "Aplicar etiquetas semánticas para estructurar adecuadamente una página.", 
-                content: "plain" 
-              },
+              { text: "Objetivo: ", content: "bold" },
+              { text: "Aplicar etiquetas semánticas para estructurar adecuadamente una página web.", content: "plain" }
             ]
           },
           {
@@ -5304,114 +5298,59 @@ const classes = [
               {
                 type: "li",
                 info: [
-                  {
-                    text: "Crear un archivo llamado ", 
-                    content: "plain"
-                  },
-                  {
-                    text: "pagina_semantica.html",
-                    content: "bold"
-                  },
-                  {
-                    text: ".",
-                    content: "plain"
-                  }
+                  { text: "Crear un archivo llamado ", content: "plain" },
+                  { text: "pagina_semantica.html", content: "bold" },
+                  { text: ".", content: "plain" }
                 ]
               },
               {
                 type: "li",
                 info: [
-                  {
-                    text: "Construir una página con la siguiente estructura:",
-                    content: "plain"
-                  },
+                  { text: "Construir una página con la siguiente estructura:", content: "plain" },
                   {
                     type: "ul",
                     info: [
                       {
                         type: "li",
                         info: [
-                          {
-                            text: "Un ",
-                            content: "plain"
-                          },
-                          {
-                            text: "<header>",
-                            content: "bold"
-                          },
-                          {
-                            text: " que contenga un título y una pequeña descripción",
-                            content: "plain"
-                          }
+                          { text: "Un ", content: "plain" },
+                          { text: "<header>", content: "bold" },
+                          { text: " que contenga un título y una pequeña descripción.", content: "plain" }
                         ]
                       },
                       {
                         type: "li",
                         info: [
-                          {
-                            text: "Un ",
-                            content: "plain"
-                          },
-                          {
-                            text: "<nav>",
-                            content: "bold"
-                          },
-                          {
-                            text: " con al menos 4 enlaces (pueden ser ficticios)",
-                            content: "plain"
-                          }
+                          { text: "Un ", content: "plain" },
+                          { text: "<nav>", content: "bold" },
+                          { text: " con al menos 4 enlaces (pueden ser ficticios).", content: "plain" }
                         ]
                       },
                       {
                         type: "li",
                         info: [
-                          {
-                            text: "Un ",
-                            content: "plain"
-                          },
-                          {
-                            text: "<main>",
-                            content: "bold"
-                          },
-                          {
-                            text: " dividido en 2 ",
-                            content: "plain"
-                          },
-                          {
-                            text: "<section>",
-                            content: "bold"
-                          },
-                          {
-                            text: ":",
-                            content: "plain"
-                          },
+                          { text: "Un ", content: "plain" },
+                          { text: "<main>", content: "bold" },
+                          { text: " dividido en 2 ", content: "plain" },
+                          { text: "<section>", content: "bold" },
+                          { text: ":", content: "plain" },
                           {
                             type: "ul",
                             info: [
                               {
                                 type: "li",
                                 info: [
-                                  {
-                                    text: "Primera sección: 2 ",
-                                    content: "plain"
-                                  },
-                                  {
-                                    text: "<article>",
-                                    content: "bold"
-                                  },
-                                  {
-                                    text: " con contenido breve",
-                                    content: "plain"
-                                  }
+                                  { text: "Primera sección:  ", content: "bold" },
+                                  { text: "2 ", content: "plain" },
+                                  { text: "<article>", content: "bold" },
+                                  { text: " con contenido breve.", content: "plain" }
                                 ]
                               },
                               {
                                 type: "li",
                                 info: [
-                                  {
-                                    text: "Segunda sección: Un formulario simple",
-                                    content: "plain"
-                                  }
+                                  { text: "Segunda sección: ", content: "bold" },
+                                  { text: "Un formulario simple.", content: "plain" }
                                 ]
                               }
                             ]
@@ -5421,35 +5360,17 @@ const classes = [
                       {
                         type: "li",
                         info: [
-                          {
-                            text: "Un ",
-                            content: "plain"
-                          },
-                          {
-                            text: "<aside>",
-                            content: "bold"
-                          },
-                          {
-                            text: " con \"contenido relacionado\" o \"publicidad\"",
-                            content: "plain"
-                          }
+                          { text: "Un ", content: "plain" },
+                          { text: "<aside>", content: "bold" },
+                          { text: " con \"contenido relacionado\" o \"publicidad\".", content: "plain" }
                         ]
                       },
                       {
                         type: "li",
                         info: [
-                          {
-                            text: "Un ",
-                            content: "plain"
-                          },
-                          {
-                            text: "<footer>",
-                            content: "bold"
-                          },
-                          {
-                            text: " con derechos de autor y año",
-                            content: "plain"
-                          }
+                          { text: "Un ", content: "plain" },
+                          { text: "<footer>", content: "bold" },
+                          { text: " con derechos de autor y año.", content: "plain" }
                         ]
                       }
                     ]
@@ -5459,37 +5380,180 @@ const classes = [
               {
                 type: "li",
                 info: [
+                  { text: "Bonus: ", content: "bold" },
+                  { text: "Utiliza ", content: "plain" },
+                  { text: "<time>", content: "bold" },
+                  { text: ", ", content: "plain" },
+                  { text: "<figure>", content: "bold" },
+                  { text: " y ", content: "plain" },
+                  { text: "<figcaption>", content: "bold" },
+                  { text: " en alguna parte de la página.", content: "plain" }
+                ]
+              }
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Frontend/class4/class4-9-1.png",
+                alt: "Solución de la página semántica",
+              },
+            ], 
+          },
+          {
+            type: "h4",
+            info: [
+              { text: "Actividad 2: Proyecto - Mi blog personal", content: "plain" }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Objetivo: ", content: "bold" },
+              { text: "Integrar todos los conocimientos adquiridos en un pequeño proyecto de blog o sitio de noticias personal.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              { text: "Descripción del proyecto:", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "Crear una carpeta llamada ", content: "plain" },
+                  { text: "mi-blog", content: "bold" },
+                  { text: " con los siguientes archivos:", content: "plain" },
                   {
-                    text: "Bonus ",
-                    content: "Bold"
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [ { text: "index.html ", content: "bold" }, { text: "(página principal)", content: "plain" } ] },
+                      { type: "li", info: [ { text: "articulo1.html ", content: "bold" }, { text: "(un artículo completo)", content: "plain" } ] },
+                      { type: "li", info: [ { text: "sobre-mi.html ", content: "bold" }, { text: "(información personal)", content: "plain" } ] },
+                      { type: "li", info: [ { text: "contacto.html ", content: "bold" }, { text: "(formulario de contacto)", content: "plain" } ] }
+                    ]
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "En ", content: "plain" },
+                  { text: "index.html:", content: "bold" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [ { text: "Header con el nombre de tu blog y un lema.", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Menú de navegación con enlaces a todas las páginas.", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Sección principal con 3 tarjetas de artículos (título, fecha, imagen y resumen).", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Barra lateral con 'sobre mí' resumido y categorías (lista).", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Pie de página con derechos, año y redes sociales.", content: "plain" } ] }
+                    ]
                   },
                   {
-                    text: ": Utiliza ",
-                    content: "plain"
+                    type: "answer",
+                    info: [
+                      {
+                        img: "/images/Frontend/class4/class4-9-2.png",
+                        alt: "Solución de la página principal",
+                      },
+                    ],
+                  },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "En ", content: "plain" },
+                  { text: "articulo1.html:", content: "bold" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [ { text: "Mismo header y navegación que en index.", content: "plain" } ] },
+                      { 
+                        type: "li", 
+                        info: [
+                          { text: "Contenido del artículo completo:", content: "plain" },
+                          {
+                            type: "ul",
+                            info: [
+                              { type: "li", info: [ { text: "Título principal y fecha.", content: "plain" } ] },
+                              { type: "li", info: [ { text: "Imagen destacada.", content: "plain" } ] },
+                              { type: "li", info: [ { text: "Texto dividido en párrafos.", content: "plain" } ] },
+                              { type: "li", info: [ { text: "Una lista (ordenada o desordenada).", content: "plain" } ] },
+                              { type: "li", info: [ { text: "Una tabla con datos relevantes.", content: "plain" } ] }
+                            ]
+                          }
+                        ]
+                      },
+                      { type: "li", info: [ { text: "Sección de comentarios (simulada con un comentario ya hecho).", content: "plain" } ] },
+                      { type: "li", info: [ { text: "El mismo pie de página.", content: "plain" } ] }
+                    ]
                   },
                   {
-                    text: "<time>",
-                    content: "bold"
+                    type: "answer",
+                    info: [
+                      {
+                        img: "/images/Frontend/class4/class4-9-3.png",
+                        alt: "Solución de la página de un artículo",
+                      },
+                    ],
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "En ", content: "plain" },
+                  { text: "sobre-mi.html:", content: "bold" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [ { text: "Tu foto (o avatar).", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Información personal (puede ser ficticia).", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Lista de habilidades o intereses.", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Enlaces a redes sociales.", content: "plain" } ] }
+                    ]
                   },
                   {
-                    text: ", ",
-                    content: "plain"
+                    type: "answer",
+                    info: [
+                      {
+                        img: "/images/Frontend/class4/class4-9-4.png",
+                        alt: "Solución de la página de sobre mí",
+                      },
+                    ],
+                  },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "En ", content: "plain" },
+                  { text: "contacto.html:", content: "bold" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [ { text: "Formulario de contacto completo.", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Campos para nombre, email, asunto y mensaje.", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Casillas de verificación para suscripción.", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Botón de envío.", content: "plain" } ] },
+                      { type: "li", info: [ { text: "Información alternativa de contacto.", content: "plain" } ] }
+                    ]
                   },
                   {
-                    text: "<figure>",
-                    content: "bold"
-                  },
-                  {
-                    text: " y ",
-                    content: "plain"
-                  },
-                  {
-                    text: "<figcaption>",
-                    content: "bold"
-                  },
-                  {
-                    text: " en alguna parte de la página.",
-                    content: "plain"
+                    type: "answer",
+                    info: [
+                      {
+                        img: "/images/Frontend/class4/class4-9-5.png",
+                        alt: "Solución de la página de contacto",
+                      },
+                    ],
                   }
                 ]
               }
@@ -5498,152 +5562,28 @@ const classes = [
           {
             type: "h4",
             info: [
-              {
-                text: "Actividad 2: Proyecto - Mi blog personal",
-                content: "plain"
-              }
+              { text: "Sugerencias:", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              { type: "li", info: [ { text: "Usa etiquetas semánticas para toda la estructura.", content: "plain" } ] },
+              { type: "li", info: [ { text: "No te preocupes aún por el diseño visual, nos enfocaremos en la estructura HTML.", content: "plain" } ] },
+              { type: "li", info: [ { text: "Puedes usar contenido ficticio o generado para los textos.", content: "plain" } ] },
+              { type: "li", info: [ { text: "Utiliza imágenes gratuitas de internet o tus propias imágenes.", content: "plain" } ] },
+              { type: "li", info: [ { text: "Revisa tu código en el validador de HTML para asegurarte de que es correcto.", content: "plain" } ] }
             ]
           },
           {
             type: "p",
             info: [
-              {
-                text: "Objetivo: ",
-                content: "bold"
-              },
-              {
-                text: "Integrar todos los conocimientos adquiridos en un pequeño proyecto de blog o sitio de noticias personal.",
-                content: "plain"
-              }
+              { text: "Bonus: ", content: "bold" },
+              { text: "Añade metadatos en el head como autor, descripción y palabras clave.", content: "plain" }
             ]
           },
-          {
-            type: "h4",
-            info: [
-              {
-                text: "Descripción del proyecto:",
-                content: "plain"
-              }
-            ]
-          },
-          {
-            type: "p",
-            info: [
-              {
-                text: "Crearás la primera versión de un blog personal donde podrás compartir artículos, noticias o temas de tu interés. Este proyecto lo iremos mejorando en clases posteriores añadiendo CSS y JavaScript.",
-                content: "plain"
-              }
-            ]
-          },          
-          {
-            type: "ol",
-            info: [              
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "Crear una carpeta llamada ",
-                    content: "plain"
-                  },
-                  {
-                    text: "mi-blog",
-                    content: "bold"
-                  },
-                  {
-                    text: " con los siguientes archivos:",
-                    content: "plain"
-                  }
-                ]
-              },
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "index.html (página principal)",
-                    content: "plain"
-                  }
-                ]
-              },              
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "articulo1.html (un artículo completo)",
-                    content: "plain"
-                  }
-                ]
-              },
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "sobre-mi.html (página con información personal)",
-                    content: "plain"
-                  }
-                ]
-              },
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "contacto.html (formulario de contacto)",
-                    content: "plain"
-                  }
-                ]
-              } 
-            ]
-          },
-          {
-            type: "p",
-            info: [
-              {
-                text: "Bonus: ",
-                content: "bold"
-              },
-              {
-                text: "Utiliza etiquetas semánticas para toda la estructura",
-                content: "plain"
-              }
-            ]
-          },
-          {
-            type: "p",
-            info: [
-              {
-                text: "No te preocupes aún por el diseño visual, nos enfocaremos en la estructura HTML",
-                content: "plain"
-              }
-            ]
-          },
-          {
-            type: "p",
-            info: [
-              {
-                text: "Puedes usar contenido ficticio o generado para los textos",
-                content: "plain"
-              }
-            ]
-          },
-          {
-            type: "p",
-            info: [
-              {
-                text: "Utiliza imágenes gratuitas de internet o tus propias imágenes",
-                content: "plain"
-              }
-            ]
-          },
-          {
-            type: "p",
-            info: [
-              {
-                text: "Revisa tu código en el validador de HTML para asegurarte de que es correcto",
-                content: "plain"
-              }
-            ]
-          }
-        ] 
-      },
+        ]
+      }
     ]
   },
 ]
