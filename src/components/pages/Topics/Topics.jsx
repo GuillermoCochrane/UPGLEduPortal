@@ -18,6 +18,7 @@ import Youtube from '../../partials/Youtube/Youtube.jsx';
 import Table from '../../partials/Table/Table.jsx';
 import Trivia from '../../partials/Trivia/Trivia.jsx';
 import ImputCard from '../../partials/InputCard/InputCard.jsx';
+import Code from "../../partials/Code/Code.jsx";
 import NotFound from '../../partials/NotFound/NotFound.jsx';
 
 function Topics(params) {
@@ -99,6 +100,7 @@ function Topics(params) {
           item.type === "trivia" ? <Trivia key={index} Data={item.info} Answer={item.answer} /> :
           item.type === "table" ? <Table key={index} Data={item.info} Columns={item.columns} Title={item.title} /> :
           item.type === "inputCard" ? <ImputCard key={index} Data={item.info} /> :
+          item.type === "code" ? <Code key={index} Data={item.info} /> :
           item.type === "ol" ? <OL key={index} Data={item.info}  /> : null
         )})
       }
