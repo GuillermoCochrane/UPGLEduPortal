@@ -98,7 +98,7 @@ let classIndex = [
       ]
     }, 
     {
-      summary: "Formularios avanzados: Tipos de Inputs",
+      summary: "Tipos de Inputs",
       classId: 4,
       links: [
         {
@@ -139,7 +139,7 @@ let classIndex = [
       ]
     }, 
     {
-      summary: "Clase 5 – Semántica HTML y Fundamentos CSS",
+      summary: "Semántica HTML y Fundamentos CSS",
       classId: 5,
       links: [
         {
