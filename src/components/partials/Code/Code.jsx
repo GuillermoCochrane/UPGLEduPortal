@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import 'prismjs';
 import 'prismjs/themes/prism-okaidia.css'; // o el tema que elijas
-import 'prismjs/components/prism-http.min'; 
+import 'prismjs/components/prism-http.min'; //podemos añadir mas lenguajes
 import './code.css';
 
 function Code({ Data }) {

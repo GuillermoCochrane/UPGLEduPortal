@@ -1,29 +1,22 @@
-/* Contenedor principal */
+/* Estilo contenedor */
 .code-container {
-  background: #282c34; /* Fondo oscuro para mejor contraste */
+  background: transparent; /* el tema ya aplica el fondo */
   border-radius: 8px;
   padding: 1rem;
   margin: 1.5rem 0;
   overflow-x: auto;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   font-size: 0.9rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Código interno */
+/* Fuente base */
 .code-container code {
-  font-family: 'Fira Code', 'Courier New', monospace; /* Fuente monoespaciada */
-  color: #abb2bf; /* Color base del texto */
+  font-family: 'Fira Code', 'Courier New', monospace;
   line-height: 1.5;
   display: block;
 }
 
-/* Colores para sintaxis (personaliza según lenguaje) */
-.code-container .language-html { color: #e06c75; } /* Etiquetas HTML */
-.code-container .language-css { color: #61afef; } /* Propiedades CSS */
-.code-container .token.attr-value { color: #98c379; } /* Valores de atributos */
-.code-container .token.punctuation { color: #d19a66; } /* Signos de puntuación */
-
-/* Scroll horizontal (útil para código largo) */
+/* Scroll */
 .code-container::-webkit-scrollbar {
   height: 6px;
   background: #1e2227;
@@ -33,9 +26,10 @@
   border-radius: 3px;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .code-container {
-    font-size: 0.8rem; /* Texto más pequeño en móviles */
+    font-size: 0.8rem;
     padding: 0.8rem;
   }
 }
