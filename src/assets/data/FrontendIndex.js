@@ -72,7 +72,7 @@ let classIndex = [
       ]
     }, 
     {
-      summary: "Tablas, Imágenes y Semántica HTML",
+      summary: "Tablas e Imagenes",
       classId: 3,
       links: [
         {
@@ -98,56 +98,72 @@ let classIndex = [
       ]
     }, 
     {
-      summary: "Semántica HTML e inputs",
+      summary: "Formularios avanzados: Tipos de Inputs",
       classId: 4,
       links: [
         {
-          title: "Etiquetas semánticas",
+          title: "Tipos de Inputs en HTML",
           topicId: 1,
           link: "/courses/Frontend/class/4/1"
         },
         {
-          title: "Tipos de Inputs en HTML",
+          title: "Tipos de Inputs Numéricos y de Fecha/Hora",
           topicId: 2,
           link: "/courses/Frontend/class/4/2"
         },
         {
-          title: "Inputs Numéricos y de Fecha/Hora",
+          title: "Tipos de Inputs de Selección",
           topicId: 3,
           link: "/courses/Frontend/class/4/3"
         },
         {
-          title: "Inputs de Selección",
+          title: "Tipos de Inputs de Botones",
           topicId: 4,
           link: "/courses/Frontend/class/4/4"
         },
         {
-          title: "Inputs de Botones",
+          title: "Tipos de Inputs Especiales",
           topicId: 5,
           link: "/courses/Frontend/class/4/5"
         },
         {
-          title: "Inputs Especiales",
+          title: "Atributos importantes para inputs",
           topicId: 6,
           link: "/courses/Frontend/class/4/6"
         },
         {
-          title: " Atributos importantes para inputs",
-          topicId: 7,
-          link: "/courses/Frontend/class/4/7"
-        },
-        {
           title: "Buenas Prácticas para Inputs",
-          topicId: 8,
-          link: "/courses/Frontend/class/4/8"
+          topicId: 7,
+          link: "/courses/Frontend/class/4/7" 
+        }
+      ]
+    }, 
+    {
+      summary: "Clase 5 – Semántica HTML y Fundamentos CSS",
+      classId: 5,
+      links: [
+        {
+          title: "Etiquetas semánticas",
+          topicId: 1,
+          link: "/courses/Frontend/class/5/1"
         },
         {
-          title: "Actividades",
-          topicId: 9,
-          link: "/courses/Frontend/class/4/9"
+          title: "Introducción a CSS – Fundamentos",
+          topicId: 2,
+          link: "/courses/Frontend/class/5/2"
+        },
+        {
+          title: "Selectores y estilización básica",
+          topicId: 3,
+          link: "/courses/Frontend/class/5/3"
+        },
+        {
+          title: "Actividades prácticas",
+          topicId: 4,
+          link: "/courses/Frontend/class/5/4"
         },
       ]
-    }
+    },
   ]
 
 
