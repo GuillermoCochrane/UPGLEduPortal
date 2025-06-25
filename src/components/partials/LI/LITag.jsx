@@ -40,7 +40,7 @@ function LITag({Data}) {
                         }
                         {
                             item.type == "link" && <Link  Data = {item.info}  key = {index} />
-                        },
+                        }
                         { item.type == "answer" && <Answer  Data = {item.info}  key = {index} /> }
                     </Fragment>
                 ))
