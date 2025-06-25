@@ -5285,6 +5285,233 @@ const classes = [
           }
         ], 
       },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "🎨 Introducción a CSS – Fundamentos", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Objetivo: ", content: "bold" },
+              { text: "Introducir los conceptos básicos de CSS y aprender a aplicar estilos a las páginas HTML.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🧠 Sintaxis de CSS", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [{ text: "Cada regla CSS tiene una estructura específica:", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: { 
+              language: "css",
+              content: `selector {
+    propiedad: valor;
+    otra-propiedad: otro-valor;
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [{ text: "Componentes:", content: "bold" }]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "Selector: ", content: "bold" },
+                  { text: "Indica qué elementos se van a estilizar.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Llaves { }: ", content: "bold" },
+                  { text: "Delimitan el bloque de declaraciones.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Propiedad: ", content: "bold" },
+                  { text: "Característica a modificar (color, tamaño, etc.).", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Valor: ", content: "bold" },
+                  { text: "Valor que se asigna a la propiedad.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Punto y coma (;): ", content: "bold" },
+                  { text: "Separa cada declaración.", content: "plain" }
+                ]
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "📌 Formas de Incluir CSS en HTML", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "CSS puede aplicarse de distintas maneras según el contexto y el alcance deseado.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "1. CSS en línea ", content: "plain" },{ text: "(inline)", content: "bold" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Se aplican directamente dentro de la etiqueta ", content: "plain" },
+              { text: "HTML, ", content: "bold" },
+              { text: "usando el atributo ", content: "plain" },
+              { text: "style", content: "bold" },
+              { text: ":", content: "plain" }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "html",
+              content: `<p style="color: red; font-size: 20px;">Texto con estilo inline</p>`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ventaja: ",
+                content: "bold"
+              },
+              {
+                text: "Aplicación inmediata y específica",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Desventaja: ",
+                content: "bold"
+              },
+              {
+                text: "Difícil de mantener y reutilizar",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "2. CSS interno ", content: "plain" },{ text: "(en el mismo archivo)", content: "bold" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Se escribe dentro de una etiqueta ", content: "plain" },
+              { text: "<style>", content: "bold" },
+              { text: " ubicada en el ", content: "plain" },
+              { text: "<head>", content: "bold" },
+              { text: " del documento ", content: "plain" },
+              { text: "HTML", content: "bold" }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "html",
+              content: `<head>
+  <style>
+    h1 { color: blue; }
+    .destacado { background: yellow; }
+  </style>
+</head>`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Ventaja: ",
+                content: "bold"
+              },
+              {
+                text: "Estilos organizados en un solo lugar",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Desventaja: ",
+                content: "bold"
+              },
+              {
+                text: "Solo se aplican a esa página específica",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "3. Hojas de estilo CSS ", content: "plain" },{ text: "(en un archivo externo)", content: "bold" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Se escribe en un archivo ", content: "plain" },
+              { text: ".css", content: "bold" },
+              { text: " separado y se vincula al  ", content: "plain" },
+              { text: "HTML", content: "bold" },
+              { text: " con la etiqueta ", content: "plain" },
+              { text: "<link>", content: "bold" },
+              { text: " en el ", content: "plain" },
+              { text: "<head>", content: "bold" },
+              { text: ".", content: "plain" }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "html",
+              content: `<link rel="stylesheet" href="estilos.css">`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Ventaja: ", content: "bold" },
+              { text: "Reutilizable, organizado, fácil mantenimiento", content: "plain" }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Recomendación: ", content: "bold" },
+              { text: "Método preferido para proyectos profesionales, ya que separa contenido de presentación.", content: "plain" }
+            ]
+          }
+        ]
+      }
     ],
   }
 ]
