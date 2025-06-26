@@ -10,11 +10,10 @@ function NabBarIndex({data}) {
     classIDParams ? setClassID(classIDParams) : null;
   }, [classIDParams]);
 
-
   return (
-          <li>
+          <li className={data.classId === classID ? 'current' : ''}>
             <details open={data.classId === classID}>
-              <summary>{data.summary}</summary>
+              <summary className={data.classId === classID ? 'current' : ''}>{data.summary}</summary>
               <ol>
                 {
                   data.links.map((linkData,index) => 

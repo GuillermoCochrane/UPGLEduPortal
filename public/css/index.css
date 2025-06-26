@@ -127,7 +127,20 @@ ol ol {
 	padding-left: 1rem;
 	font-size: .9rem;
 }
+/* 
+  🎯 Estilo aplicado a los numerales generados con ::before en la lista del índice.
 
+  Por qué esto está así:
+  Cuando un <li> tiene la clase .current, se le aplica color 'goldenrod' para resaltarlo.
+  Pero como usamos ::before para generar los números (en lugar de list-style),
+  ese color también se hereda por los numerales de los demás <li> siguientes.
+
+  Esta regla asegura que solo el numeral del .current se pinte dorado,
+  y que los demás mantengan su color normal.
+
+  🧠 Nota para mi yo del futuro (o para devs curiosos): sí, esto me volvió loco un rato.
+  Gracias Neo por la pista ;)
+*/
 li::before {
 	content: counters(numerar, '.') "";
 	counter-increment: numerar;
@@ -135,6 +148,11 @@ li::before {
 	left: -2.5rem;
 	width: 2rem;
 	text-align: right;
+	color: #ccc
+}
+
+li.current::before {
+  color: goldenrod;
 }
 
 a {
