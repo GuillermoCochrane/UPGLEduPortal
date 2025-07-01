@@ -6212,6 +6212,151 @@ const classes = [
           }
         ]
       },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "⚡ Cheatsheet de Propiedades CSS", content: "plain" }]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🔤 Font / Tipografía", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `font-family: "Arial", sans-serif; /* Fuente */
+font-size: 16px; /* Tamaño */
+font-weight: bold; /* Peso (normal, bold, 100–900) */
+font-style: italic; /* Estilo (normal, italic, oblique) */
+line-height: 1.5; /* Altura de línea */
+letter-spacing: 1px; /* Espaciado entre letras */
+word-spacing: 5px; /* Espaciado entre palabras */`
+            }
+          },
+          {
+            type: "h4",
+            info: [{ text: "✏️ Text", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `text-transform: uppercase; /* Texto en mayúsculas: none, uppercase, lowercase, capitalize  */
+text-align: left; /* Alineación del texto: left, right, center, justify */
+text-decoration: underline; /* Texto con subrayado: none, underline, overline, line-through */
+text-shadow: 2px 2px 4px gray; /* Sombra en el texto*/`
+            }
+          },
+          {
+            type: "h4",
+            info: [{ text: "📐 Espaciado y flujo", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `white-space: nowrap; /* Controla espacios y saltos */
+overflow-wrap: break-word; /* Corta palabras largas */
+direction: rtl; /* Dirección del texto: ltr, rtl*/`
+            }
+          },
+          {
+            type: "h4",
+            info: [{ text: "📦 Margin / Padding / Border", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `margin: 10px; /* Margen en todos los lados */
+margin: 10px 5px; /* Top-Bottom 10px, Left-Right 5px */
+padding: 20px; /* Relleno interno */
+border: 1px solid black; /* Borde completo: grosor, estilo y color  */
+border-radius: 10px; /* Bordes redondeados */`
+            }
+          },
+          {
+            type: "h4",
+            info: [{ text: " 🗃 Sombra y caja", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Sombra del elemento */
+box-sizing: border-box; /* Incluye padding y border en el ancho total */`
+            }
+          },
+          {
+            type: "h4",
+            info: [{ text: "🎨 Background", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `background-color: #f0f0f0; /* Color de fondo */
+background-image: url("img.jpg"); /* Imagen de fondo */
+background-repeat: no-repeat; /* Repetición: repeat, no-repeat, repeat-x, repeat-y  */
+background-size: cover; /* Escalado: cover, contain, auto*/
+background-position: center center; /* Posición de la imagen */
+background-attachment: fixed; /* Fijar al hacer scroll */`
+            }
+          },
+          {
+            type: "h4",
+            info: [{ text: "📏 Tamaño / Display / Posición", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `width: 100px; /* Ancho */
+height: 200px; /* Alto */
+max-width: 100%; /* Ancho máximo */
+display: block; /* Bloque:  block, inline, inline-block, none  */
+visibility: hidden; /* Visiblidad sin quitar el espacio */
+position: relative; /* Posición: static, relative, absolute, fixed  */
+top: 10px; left: 20px; /* Posiciónamineto */
+z-index: 1; /* Posición en el eje Z */`
+            }
+          },
+          {
+            type: "h4",
+            info: [{ text: "🖱️ Cursor / Interacción", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `cursor: pointer; /* Cursor: default, pointer, wait, text, move, not-allowed */
+pointer-events: none /* Habilita o deshabilita eventos del puntero */;
+user-select: none /* Deshabilita la selección de texto */;`
+            }
+          },
+          {
+            type: "h4",
+            info: [{ text: "🔧 Otros", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `overflow: hidden /* Controla el desbordado */;
+opacity: 0.5; /* Controla la transparencia: de 0 a 1 */;
+visibility: visible /* Controla la visibilidad: visible,  hidden */;
+clip-path: circle(50%); /* Recorta formas */
+::selection { /* Cambia el color del texto seleccionado */
+  color: white;
+  background: #3498db;
+}`
+            }
+          }
+        ]
+      }
     ],
   }
 ]
