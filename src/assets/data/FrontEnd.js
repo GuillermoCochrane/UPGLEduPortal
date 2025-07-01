@@ -6356,6 +6356,394 @@ clip-path: circle(50%); /* Recorta formas */
             }
           }
         ]
+      },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "🔎 Tipos de Selectores en CSS", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Los selectores de CSS permiten apuntar a elementos HTML específicos para aplicarles estilos. Existen distintos tipos de selectores según su nivel de precisión y contexto.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🎯 Selector universal", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `* {
+  margin: 0;
+  padding: 0;
+}` 
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Aplica estilos a todos los elementos del documento. Se usa comúnmente para reiniciar márgenes y paddings.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "📛 Selector de etiqueta ", content: "plain" }, { text: "(Type Selector)", content: "bold" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `p {
+  color: blue;
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Apunta a todas las etiquetas del mismo tipo. En el ejemplo, a todos los párrafos.", content: "plain" },
+              {text:"<p> </p>",content:"bold" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "✅ Selector de clase ", content: "plain" },{ text: "(Class Selector)", content: "bold" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `.card {
+  border: 1px solid black;
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Aplica a cualquier elemento con la clase indicada. Se define en  ", content: "plain" },
+              { text: "HTML", content: "bold" },
+              { text: " como ", content: "plain" },
+              { text: 'class="card"', content: "bold" },
+              { text: ".", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🔗 Selector de atributo ", content: "plain" },{ text: "(Attribute Selector)", content: "bold" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `input[type="text"] {
+    border: 1px solid green;
+}
+
+a[target] {
+    text-decoration: none;
+}
+
+img[alt="logo"] {
+    width: 100px;
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Selecciona elementos que tengan un atributo específico o un valor determinado. En el ejemplo, selecciona todos los elementos ", content: "plain" },
+              {
+                text: "input ",
+                content: "bold"
+              },
+              { text: "de tipo ", content: "plain" },
+              {
+                text: '"text", ',
+                content: "bold"
+              },
+              {
+                text: "a todos los ",
+                content: "plain"
+              },
+              {
+                text: "enlaces (<a>) ",
+                content: "bold"
+              },
+              { text: " que tengan el atributo ", content: "plain" },
+              {
+                text: '"target" ',
+                content: "bold"
+              },
+              {
+                text: "y las ",
+                content: "plain"
+              },
+              {
+                text: `imágenes (<img>) `,
+                content: "bold"
+              },
+              { text: "que tengan el atributo ", content: "plain" },
+              {
+                text: `"alt" `,
+                content: "bold"
+              },
+              { text: "con el valor ", content: "plain" },
+              { text: '"logo"', content: "bold" },
+              { text: ".", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "Selectores de relación ", content: "plain" },{ text: "(Combinadores)", content: "bold" }]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🧬 Selector descendente ", content: "plain" }, { text: "(Descendant Selector)", content: "bold" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `div p {
+  color: red;
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Aplica a todos los .", content: "plain" },
+              {
+                text: "<p>",
+                content: "bold"
+              },
+              { text: " que están dentro de un ", content: "plain" },
+              {
+                text: "<div>",
+                content: "bold"
+              },
+              { text: ". Define relación jerárquica.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "👨‍👩‍👧 Selector hijo directo ", content: "plain" }, { text: "(Child Selector)", content: "bold" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `ul > li {
+  list-style: square;
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Aplica solo a los ", content: "plain" },
+              {
+                text: "<li>",
+                content: "bold"
+              },
+              { text: " que son hijos directos de ", content: "plain" },
+              {
+                text: "<ul>",
+                content: "bold"
+              },
+              { text: ", no a los anidados.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🧩 Selector de hermanos adyacentes ", content: "plain" }, { text: "(Adjacent Sibling Selector)", content: "bold" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `h1 + p {
+  margin-top: 0;
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Aplica al primer ", content: "plain" },
+              {
+                text: "<p>",
+                content: "bold"
+              },
+              { text: " que sigue inmediatamente a un ", content: "plain" },
+              {
+                text: "<h1>",
+                content: "bold"
+              },
+              { text: ".", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🧩 Selector de hermanos generales ", content: "plain" }, { text: "(General Sibling Selector)", content: "bold" }]
+          },
+          {
+            type: "code",
+            info: { language: "css", content: `h2 ~ p {
+  color: gray;
+}` 
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Aplica a todos los ", content: "plain" },
+              {
+                text: "<p>",
+                content: "bold"
+              },
+              { text: " que siguen a un ", content: "plain" },
+              {
+                text: "<h2>",
+                content: "bold"
+              },
+              { text: " y comparten el mismo padre.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🌐 Selectores de grupo ", content: "plain" }, { text: "(Group Selector)", content: "bold" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `h1, h2, h3 {
+  font-family: sans-serif;
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Permiten aplicar estilos comunes a múltiples elementos a la vez.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "💅 Pseudo-clases", content: "plain" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `a:hover {
+  text-decoration: underline;
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Se usan para definir estados como ", content: "plain" },
+              {
+                text: "hover",
+                content: "bold"
+              },
+              { text: ", ", content: "plain" },
+              {
+                text: "focus",
+                content: "bold"
+              },
+              { text: ", ", content: "plain" },
+              {
+                text: "visited",
+                content: "bold"
+              },
+              { text: ", etc.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "Selectores convinados ", content: "plain" }, { text: "(Combinators)", content: "bold" }]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `div.card#producto[destacado] > h3.titulo {
+  color: gold;
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Aplica a un ", content: "plain" },
+              {
+                text: "<h3>",
+                content: "bold"
+              },
+              { text: " que está dentro de un ", content: "plain" },
+              {
+                text: "<div>",
+                content: "bold"
+              },  
+              { text: " con la clase ", content: "plain" },
+              {
+                text: ".card",
+                content: "bold"
+              },
+              { text: " y el id ", content: "plain" },
+              {
+                text: "#producto",
+                content: "bold"
+              },
+              { text: " y el atributo ", content: "plain" },
+              {
+                text: "destacado",
+                content: "bold"
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🧠 Bonus: especificidad", content: "plain" }, ]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Cuando múltiples reglas aplican al mismo elemento, CSS usa una jerarquía de especificidad para decidir cuál aplicar. En orden:", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [{ text: "Estilos inline ", content: "bold" },{ text: "(atributo style)", content: "plain" }]
+              },
+              {
+                type: "li",
+                info: [{ text: "ID ", content: "bold" },{ text: "(#)", content: "plain" }]
+              },
+              {
+                type: "li",
+                info: [{ text: "Clase, atributo, pseudo-clase ", content: "bold" },{ text: "(.class , [ atributo ], :hover)", content: "plain" }]
+              },
+              {
+                type: "li",
+                info: [{ text: "Etiqueta, pseudo-elemento ", content: "bold" },{ text: "(p, ::before)", content: "plain" }]
+              }
+            ]
+          }
+        ]
       }
     ],
   }
