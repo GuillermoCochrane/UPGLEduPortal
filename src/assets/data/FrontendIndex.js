@@ -164,6 +164,37 @@ let classIndex = [
         },
       ]
     },
+    {
+      summary: "Repaso de CSS, selectores y unidades",
+      classId: 6,
+      links: [
+        {
+          title: "Repaso de CSS",
+          topicId: 1,
+          link: "/courses/Frontend/class/6/1"
+        },
+        {
+          title: "Cheatsheet de Propiedades CSS",
+          topicId: 2,
+          link: "/courses/Frontend/class/6/2"
+        },
+        {
+          title: "Tipos de Selectores en CSS",
+          topicId: 3,
+          link: "/courses/Frontend/class/6/3"
+        },
+        {
+          title: "Unidades de CSS",
+          topicId: 4,
+          link: "/courses/Frontend/class/6/4"
+        },
+        {
+          title: "Actividades prácticas",
+          topicId: 5,
+          link: "/courses/Frontend/class/6/5"
+        },
+      ]
+    }
   ]
 
 
