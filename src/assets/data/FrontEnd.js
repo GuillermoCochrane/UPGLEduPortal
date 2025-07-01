@@ -6070,6 +6070,149 @@ const classes = [
         ]
       },
     ],
+  },
+  {
+    class: 6,
+    topics: 5,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Repaso de CSS, selectores y unidades",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "💬 Repaso: ¿Cómo es la semántica de CSS?", content: "plain" }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "CSS (Cascading Style Sheets) es el lenguaje que usamos para describir la presentación de documentos HTML. Permite separar el contenido de la estructura visual y facilita el mantenimiento y la reutilización de estilos.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              { text: "🧱 Sintaxis básica de CSS", content: "plain" }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `selector {
+        propiedad: valor;
+        otra-propiedad: otro-valor;
+      }`
+            }
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "Selector:", content: "bold" },
+                  { text: " Indica qué elementos se van a estilizar.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Llaves { }:", content: "bold" },
+                  { text: " Delimitan el bloque de declaraciones.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Propiedad:", content: "bold" },
+                  { text: " Característica que queremos modificar (color, tamaño, etc.).", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Valor:", content: "bold" },
+                  { text: " El valor específico que le asignamos a la propiedad.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Punto y coma (;):", content: "bold" },
+                  { text: " Separa cada declaración.", content: "plain" }
+                ]
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              { text: "📌 Formas de incluir CSS", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "Inline:", content: "bold" },
+                  { text: " Directamente en la etiqueta ", content: "plain" },
+                  {
+                    text: ".HTML ",
+                    content: "bold"
+                  },
+                  {
+                    text: "usando el atributo ",
+                    content: "plain"
+                  },
+                  {
+                    text: "style",
+                    content: "bold"
+                  },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Interno:", content: "bold" },
+                  { text: " Dentro de la etiqueta ", content: "plain" },
+                  { text: "<style>", content: "bold" },
+                  { text: " en el ", content: "plain" },
+                  { text: "<head>. ", content: "bold" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Externo:", content: "bold" },
+                  { text: " En un archivo ", content: "plain" },
+                  { text: ".css", content: "bold" },
+                  { text: " separado y vinculado con ", content: "plain" },
+                  { text: "<link>", content: "bold" },
+                  { text: " en el ", content: "plain" },
+                  { text: "<head>.", content: "bold" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+    ],
   }
 ]
 
