@@ -7186,6 +7186,148 @@ img[alt="logo"] {
             ]
           }
         ]
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "🧪 Actividad práctica: Maquetar un DNI argentino", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "En esta actividad vamos a aplicar lo aprendido sobre etiquetas semánticas, estructura ", content: "plain" },
+              { text: "HTML", content: "bold" },
+              { text: " y estilos ", content: "plain" },
+              { text: "CSS", content: "bold" },
+              { text: " básicos para crear una tarjeta visual inspirada en un documento nacional de identidad ", content: "plain" },
+              { text: "(DNI)", content: "bold" },
+              { text: " argentino.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🎯 Objetivo", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "El objetivo es practicar el uso de contenedores, estructura de contenido, clases y selectores, así como propiedades básicas de estilo como ", content: "plain" },
+              { text: "display, margin, padding, font-family, background-color", content: "bold" },
+              { text: " y ", content: "plain" },
+              { text: "box-shadow", content: "bold" },
+              { text: ".", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🧱 Estructura esperada", content: "plain" }]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "Uso de etiquetas semánticas: ", content: "plain" },
+                  { text: "<header>", content: "bold" }, { text: ", ", content: "plain" },
+                  { text: "<main>", content: "bold" }, { text: ", ", content: "plain" },
+                  { text: "<section>", content: "bold" }, { text: ", ", content: "plain" },
+                  { text: "<figure>", content: "bold" }, { text: ", ", content: "plain" },
+                  { text: "<img>", content: "bold" }, { text: ", ", content: "plain" },
+                  { text: "<table>", content: "bold" }
+                ]
+              },
+              {
+                type: "li",
+                info: [{ text: "Estilos aplicados mediante una hoja externa ", content: "plain" }, { text: "(styles.css)", content: "bold" }]
+              },
+              {
+                type: "li",
+                info: [{ text: "Maquetación responsive simple usando unidades relativas y padding", content: "plain" }]
+              },
+              {
+                type: "li",
+                info: [{ text: "Tipografías básicas, colores neutros, bordes redondeados y sombra de tarjeta", content: "plain" }]
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "📌 Requisitos del ejercicio", content: "plain" }]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [{ text: "Crear un archivo llamado ", content: "plain" },{ text: "DNI.html", content: "bold" }] 
+              },
+              {
+                type: "li",
+                info: [{ text: "Utilizar una tabla para la información detallada", content: "plain" }]
+              },
+              {
+                type: "li",
+                info: [{ text: "Agregar una imagen representativa como foto de ", content: "plain" }, { text: "DNI", content: "bold" }]
+              },
+              {
+                type: "li",
+                info: [{ text: "Separar las secciones mediante clases y estilos propios", content: "plain" }]
+              },
+              {
+                type: "li",
+                info: [
+                  { 
+                    text: "Aplicar estilos ", 
+                    content: "plain" 
+                  },
+                  {
+                    text: "CSS", 
+                    content: "bold" 
+                  },
+                  { 
+                    text: " que mejoren la legibilidad y organización visual", 
+                    content: "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "Bonus", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Podés experimentar modificando el ", content: "plain" },
+              { text: "color de fondo", content: "bold" },
+              { text: ", el ", content: "plain" },
+              { text: "box-shadow", content: "bold" },
+              { text: " o reemplazar la imagen por una foto tuya, si querés simular tu propio DNI ", content: "plain" }
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Frontend/class6/class6-1.png",
+                alt: "Solución HTML",
+              },
+            ],
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                img: "/images/Frontend/class6/class6-2.png",
+                alt: "Solución CSS",
+              },
+            ],
+          }
+        ]
       }
     ],
   }
