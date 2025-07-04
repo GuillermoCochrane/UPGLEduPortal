@@ -1,3 +1,4 @@
+
 const classes = [
   {
     class: 1,
@@ -7313,18 +7314,137 @@ img[alt="logo"] {
             type: "answer",
             info: [
               {
-                img: "/images/Frontend/class6/class6-1.png",
                 alt: "Solución HTML",
-              },
+                language: "html",
+                content: `<body>
+  <header>
+    <h1>Mi DNI</h1>
+  </header>
+  <main>
+    <section class="tarjeta-dni">
+      <p class="info-superior" id="pais">
+        <strong>
+          Republica Argentina - Mercosur
+        </strong>
+      </p>
+      <p class="info-superior">Registro Nacional de las Personas</p>
+      <p class="info-superior">Ministerio del Interior, obras públicas y vivienda</p>
+      <table>
+        <tr>
+          <td>
+            <figure>
+              <img src="https://avatars.githubusercontent.com/u/105461619?v=4" alt="Foto DNI" width="250px" align="center">
+            </figure>
+            <p class="titulo-seccion">Documento / Document</p>
+            <p class="info-documento"></p>
+              <strong>
+                28.813.563
+              </strong>
+            </p>
+          </td>
+          <td>
+            <p class="titulo-seccion">Apellido / Surname</p>
+            <p class="info-documento">Cochrane</p>
+            <p class="titulo-seccion">Nombre< / First Name</p>
+            <p>Guillermo Alejandro</p>
+            <table class="info-horizontal">
+              <tr>
+                <td>
+                  <p class="titulo-seccion">Sexo / Sex</p>
+                  <p class="info-documento">M</p>
+                </td>
+                <td>
+                  <p class="titulo-seccion">Nacionalidad / Nationality</p>
+                  <p class="info-documento">Argentina</p>
+                </td>
+                <td>
+                  <p class="titulo-seccion">Ejemplar / Sample</p>
+                  <p class="info-documento">A</p>
+                </td>
+              </tr>
+            </table>
+            <p class="titulo-seccion">Fecha de Nacimiento / Date of Birth</p>
+            <p class="info-documento">12 OCT / OCT 1981</p>
+            <p class="titulo-seccion">Fecha de Emisión / Date of Issue</p>
+            <p class="info-documento">28 OCT / OCT 2021</p>
+            <p class="titulo-seccion">Fecha de Vencimiento / Date of Expiry</p>
+            <p class="info-documento">28 OCT / OCT 2026</p>         
+          </td>
+        </tr>
+      </table>
+    </section>
+  </main>
+</body>`
+              }
             ],
           },
           {
             type: "answer",
             info: [
               {
-                img: "/images/Frontend/class6/class6-2.png",
                 alt: "Solución CSS",
-              },
+                language: "css",
+                content: `body {
+  background-color: #ebebeb;
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh; /* ocupa todo el alto de la ventana */
+  display: flex; /* Contenenedor en modo de diseño de flexible */
+  justify-content: center; /* Alineación horizontal centrada */
+  align-items: center; /* Alineación vertical centrada */
+  margin-block: 5%;
+}
+
+.tarjeta-dni {
+  height: auto;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-superior {
+  color: #666;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: monospace;
+  margin-bottom: -3px;
+  line-height: 0.2;
+  letter-spacing: -0,2px;
+}
+
+.titulo-seccion {
+  font-size: 10px;
+  margin-bottom: -15px;
+  text-transform: capitalize;
+}
+
+.info-documento {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.info-horizontal {
+  margin-bottom: 15px;
+  margin-top: -15px;
+  margin-left: -3px;
+}
+
+.info-horizontal p {
+  margin-right: 2px;
+}
+
+#pais {
+  font-size: 20px;
+  font-weight: bolder;
+}`
+              }
             ],
           }
         ]
