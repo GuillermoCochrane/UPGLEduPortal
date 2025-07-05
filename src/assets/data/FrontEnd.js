@@ -3042,9 +3042,29 @@ const classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Frontend/class2/listas.png",
                 alt: "Solución listas",
-              },
+                language: "html",
+                content: `<body>
+  <h1>Formulario de contacto</h1>
+  <br>
+  <form action="/" method="post">
+    <hr>
+    <label for="nombre">Nombre:</label>
+    <br>
+    <input type="text" id="nombre" name="nombre" required>
+    <hr>
+    <label for="correo">Correo electrónico:</label>
+    <br>
+    <input type="email" id="correo" name="correo" required>
+    <hr>
+    <label for="mensaje">Mensaje:</label>
+    <br>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <hr>
+    <button type="submit">Enviar</button>
+  </form>
+</body>`
+              }
             ]
           }
         ]
