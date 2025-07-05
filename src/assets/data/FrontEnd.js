@@ -5586,6 +5586,42 @@ const classes = [
               { text: "Crear un formulario adicional que demuestre inputs más avanzados como datetime-local, week, month, etc.", content: "plain" }
             ]
           },
+          {
+            type: "h4",
+            info: [{ text: "Resolución de incisos de la Actividad 2: Sistema de encuestas", content: "plain" }]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                alt: "Solución index.html",
+                language: "html",
+                content: `<body>
+  <header>
+    <h1>Formulario Bonus</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="encuesta-personal.html">Encuesta personal</a>
+      <a href="encuesta-trabajo.html">Encuesta de trabajo</a>
+      <a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a>
+      <a href="formulario-bonus.html">Formulario Bonus - Actividades</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Bienvenido a nuestro sitio web de encuestas</h2>
+    <p>Aquí encontrarás una variedad de formularios para que puedas evaluar tus habilidades y experiencia.</p>
+    <p>Por favor, selecciona el formulario que corresponde:</p>
+    <ul>
+      <li><a href="encuesta-personal.html">Encuesta personal</a></li>
+      <li><a href="encuesta-trabajo.html">Encuesta de trabajo</a></li>
+      <li><a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a></li>
+      <li><a href="formulario-bonus.html">Formulario Bonus - Actividades</a></li>
+    </ul>
+  </main>
+</body>`,
+              },
+            ]
+          }
         ]
       }
     ]
