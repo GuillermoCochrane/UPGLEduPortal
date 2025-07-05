@@ -1,4 +1,4 @@
-
+/* eslint-disable no-useless-escape */
 const classes = [
   {
     class: 1,
@@ -5619,6 +5619,108 @@ const classes = [
     </ul>
   </main>
 </body>`,
+              },
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                alt: "Solución encuesta-personal.html",
+                language: "html",
+                content: `<body>
+  <header>
+    <h1>Formulario Bonus</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="encuesta-personal.html">Encuesta personal</a>
+      <a href="encuesta-trabajo.html">Encuesta de trabajo</a>
+      <a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a>
+      <a href="formulario-bonus.html">Formulario Bonus - Actividades</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Encuesta personal</h2>
+    <form action="#" method="POST">
+      <fieldset>
+        <legend>Información básica</legend>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required autofocus placeholder="John Doe"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="ejemplo@ejemplo.com"><br>
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required placeholder="1234567890" pattern="[0-9]{10}" min="10" max="10"><br>
+        <label for="fecha-nacimiento">Fecha de nacimiento:</label><br>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required><br>
+        <fieldset>
+          <legend>Sexo</legend>
+          <label for="sexo-masculino">Masculino</label>
+          <input type="radio" id="sexo-masculino" name="sexo" value="Masculino" required>
+          <label for="sexo-femenino">Femenino</label>
+          <input type="radio" id="sexo-femenino" name="sexo" value="Femenino" >
+          <label for="sexo-otro">Otro</label>
+          <input type="radio" id="sexo-otro" name="sexo" value="Otro" >
+        </fieldset>
+      </fieldset>
+        <fieldset>
+          <legend>Direccion</legend>
+          <label for="pais">País:</label><br>
+          <input type="text" id="pais" name="pais" required list="paises" placeholder="Mexico"><br>
+          <datalist id="paises">
+            <option value="Argentina">
+            <option value="Brasil">
+            <option value="Chile">
+            <option value="Colombia">
+            <option value="Perú">
+            <option value="Ecuador">
+            <option value="Uruguay">
+            <option value="Venezuela">
+            <option value="Paraguay">
+          </datalist>
+          <label for="ciudad">Ciudad:</label><br>
+          <input type="text" id="ciudad" name="ciudad" required placeholder="Ciudad"><br>
+          <label for="calle">Calle:</label><br>
+          <input type="text" id="calle" name="calle" required placeholder="Calle Falsa 123"><br>
+          <label for="codigo-postal">Código postal:</label><br>
+        <input type="text" id="codigo-postal" name="codigo-postal" required pattern="[A-Za-z0-9]\d{5}" min="5" max="5" placeholder="X1234"><br>
+        </fieldset>
+        <fieldset>
+          <legend>Otros datos</legend>
+          <label>Estado civil:</label><br>
+          <div>
+            <input type="radio" id="estado-civil-1" name="estado-civil" value="Soltero" required>
+            <label for="estado-civil-1">Soltero</label>
+            <input type="radio" id="estado-civil-2" name="estado-civil" value="Casado" >
+            <label for="estado-civil-2">Casado</label>
+            <input type="radio" id="estado-civil-3" name="estado-civil" value="Divorciado" >
+            <label for="estado-civil-3">Divorciado</label>
+            <input type="radio" id="estado-civil-4" name="estado-civil" value="Viudo" >
+            <label for="estado-civil-4">Viudo</label>
+          </div>
+          <label for="hobbies">Hobbies:</label><br>
+          <div>
+            <input type="checkbox" id="hobbies-1" name="hobbies" value="Escribir" >
+            <label for="hobbies-1">Escribir</label>
+            <input type="checkbox" id="hobbies-2" name="hobbies" value="Leer" >
+            <label for="hobbies-2">Leer</label>
+            <input type="checkbox" id="hobbies-3" name="hobbies" value="Cine" >
+            <label for="hobbies-3">Series y Peliculas</label>
+            <input type="checkbox" id="hobbies-4" name="hobbies" value="Deportes" >
+            <label for="hobbies-4">Deportes</label>
+            <input type="checkbox" id="hobbies-5" name="hobbies" value="Musica" >
+            <label for="hobbies-5">Musica</label>
+            <input type="checkbox" id="hobbies-6" name="hobbies" value="Otros" >
+            <label for="hobbies-6">Otros</label>
+          </div>
+          <label for="descripcion-personal">Descripción personal:</label><br>
+          <textarea id="descripcion-personal" name="descripcion-personal" required rows="10" cols="70"></textarea><br>
+        </fieldset>
+        <div style="margin-top: 1em;">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </div>
+    </form>
+</body>`
               },
             ]
           }
