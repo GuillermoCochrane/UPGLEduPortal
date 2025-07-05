@@ -135,6 +135,11 @@ let classIndex = [
           title: "Buenas Prácticas para Inputs",
           topicId: 7,
           link: "/courses/Frontend/class/4/7" 
+        },
+        {
+          title: "Actividades",
+          topicId: 8,
+          link: "/courses/Frontend/class/4/8"
         }
       ]
     }, 

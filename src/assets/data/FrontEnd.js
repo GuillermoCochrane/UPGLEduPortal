@@ -3948,7 +3948,7 @@ const classes = [
   },
   {
     class: 4,
-    topics: 7,
+    topics: 8,
     title: {
       type: "h2",
       info: [
@@ -5234,6 +5234,233 @@ const classes = [
           }
         ] 
       },
+      {
+        topic: 8,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "🧪 Actividades Prácticas", content: "plain" }]
+          },
+          {
+            type: "h4",
+            info: [{ text: "Actividad 1: Formulario de registro completo", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Objetivo: ", content: "bold" },
+              { text: "Crear un formulario de registro que utilice diferentes tipos de inputs y sus atributos.", content: "plain" }
+            ]
+          },
+          {
+            type: "ol",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "Crear un archivo llamado ", content: "plain" },
+                  { text: "formulario_registro.html", content: "italic" },
+                  { text: ".", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [{ text: "Construir un formulario que incluya:", content: "plain" },
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Información personal:", content: "bold" },
+                          {
+                            type: "ul",
+                            info: [
+                              { type: "li", info: [{ text: "Nombre completo ", content: "bold" }, { text: "(text, required)", content: "plain" }] },
+                              { type: "li", info: [{ text: "Email ", content: "bold" }, { text: "(email, required)", content: "plain" }] },
+                              { type: "li", info: [{ text: "Teléfono ", content: "bold" }, { text: "(tel)", content: "plain" }] },
+                              { type: "li", info: [{ text: "Fecha de nacimiento ", content: "bold" }, { text: "(date, required)", content: "plain" }] }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Información de cuenta:", content: "bold" },
+                          {
+                            type: "ul",
+                            info: [
+                              { type: "li", info: [{ text: "Nombre de usuario ", content: "bold" }, { text: "(text, required, pattern para solo letras y números)", content: "plain" }] },
+                              { type: "li", info: [{ text: "Contraseña ", content: "bold" }, { text: "(password, required, minlength=8)", content: "plain" }] },
+                              { type: "li", info: [{ text: "Confirmar contraseña ", content: "bold" }, { text: "(password, required)", content: "plain" }] }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Preferencias:", content: "bold" },
+                          {
+                            type: "ul",
+                            info: [
+                              { type: "li", info: [{ text: "Género ", content: "bold" }, { text: "(radio buttons)", content: "plain" }] },
+                              { type: "li", info: [{ text: "Intereses ", content: "bold" }, { text: "(checkboxes múltiples)", content: "plain" }] },
+                              { type: "li", info: [{ text: "País ", content: "bold" }, { text: "(input con datalist)", content: "plain" }] },
+                              { type: "li", info: [{ text: "Sitio web personal ", content: "bold" }, { text: "(url)", content: "plain" }] }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Otros campos:", content: "bold" },
+                          {
+                            type: "ul",
+                            info: [
+                              { type: "li", info: [{ text: "Foto de perfil ", content: "bold" }, { text: "(file, accept imágenes)", content: "plain" }] },
+                              { type: "li", info: [{ text: "Color favorito ", content: "bold" }, { text: "(color)", content: "plain" }] },
+                              { type: "li", info: [{ text: "Nivel de experiencia ", content: "bold" }, { text: "(range, 1-10)", content: "plain" }] }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [{ text: "Botones de enviar y limpiar formulario", content: "plain" }]
+              },
+              {
+                type: "li",
+                info: [{ text: "Usar atributos como placeholder, required, pattern según corresponda", content: "plain" }]
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Bonus: ", content: "bold" },
+              { text: "Añadir un campo oculto con la fecha actual usando JavaScript.", content: "plain" }
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                alt: "Solución formulario de contacto",
+                language: "html",
+                content: `<body>
+  <header>
+    <h1>Formulario de registro</h1>
+  </header>
+  <main>
+    <form action="#" method="post">
+      <section>
+        <h2>Información personal</h2>
+        <article>
+          <label for="nombre">Nombre completo</label><br>
+          <input type="text" id="nombre" name="nombre" required>
+        </article>
+        <article>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required>
+        </article>
+        <article>
+          <label for="telefono">Teléfono</label><br>
+          <input type="tel" id="telefono" name="telefono">
+        </article>
+        <article>
+          <label for="fecha">Fecha de nacimiento</label><br>
+          <input type="date" id="fecha" name="fecha" required>
+        </article>
+      </section>
+
+      <section>
+        <h2>Información de cuenta</h2>
+        <article>
+          <label for="usuario">Nombre de usuario</label><br>
+          <input type="text" id="usuario" name="usuario" required pattern="[a-zA-Z0-9]+">
+        </article>
+        <article>
+          <label for="contraseña">Contraseña</label><br>
+          <input type="password" id="contraseña" name="contraseña" required minlength="8">
+        </article>
+        <article>
+          <label for="confirmar">Confirmar contraseña</label><br>
+          <input type="password" id="confirmar" name="confirmar" required>
+        </article>
+      </section>
+
+      <section>
+        <h2>Preferencias</h2>
+        <article>
+          <input type="radio" id="generoM" name="genero" value="Masculino">
+          <label for="generoM">Masculino</label>
+          <input type="radio" id="generoF" name="genero" value="Femenino">
+          <label for="generoF">Femenino</label>
+        </article>
+        <article>
+          <br><label for="intereses">Intereses</label><br>
+          <input type="checkbox" id="musica" name="intereses" value="Música">
+          <label for="intereses">Música</label>
+          <input type="checkbox" id="fotografia" name="intereses" value="Fotografía">
+          <label for="intereses">Fotografía</label>
+          <input type="checkbox" id="arte" name="intereses" value="Arte">
+          <label for="intereses">Arte</label>
+        </article>
+        <article>
+          <br><label for="pais">País</label><br>
+          <input type="text" id="pais" name="pais" list="paises">
+          <datalist id="paises">
+            <option value="Argentina">
+            <option value="Brasil">
+            <option value="Chile">
+            <option value="Colombia">
+            <option value="Ecuador">
+            <option value="México">
+          </datalist>
+        </article>
+        <article>
+          <br><label for="sitio">Sitio web personal</label><br>
+          <input type="url" id="sitio" name="sitio" placeholder="https://ejemplo.com">
+        </article>
+      </section>
+
+      <section>
+        <h2>Otros campos</h2>
+        <article>
+          <label for="foto">Foto de perfil</label><br>
+          <input type="file" id="foto" name="foto" accept="image/*">
+        </article>
+        <article>
+          <br><label for="color">Color favorito</label><br>
+          <input type="color" id="color" name="color">
+        </article>
+        <article>
+          <br><label for="experiencia">Nivel de experiencia</label><br>
+          <input type="range" id="experiencia" name="experiencia" min="1" max="10">
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </article>
+      </section>
+    </form>
+  </main>
+</body>`
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
