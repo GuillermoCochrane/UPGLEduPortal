@@ -5458,7 +5458,134 @@ const classes = [
 </body>`
               }
             ]
-          }
+          },
+          {
+            type: "h4",
+            info: [{ text: "Actividad 2: Sistema de encuestas", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Objetivo: ", content: "bold" },
+              { text: "Crear múltiples formularios que demuestren el dominio de todos los tipos de inputs.", content: "plain" }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "Descripción del proyecto:", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Desarrollarás un sistema de encuestas con diferentes formularios especializados que cubran todos los tipos de inputs aprendidos.", content: "plain" }
+            ]
+          },
+          {
+            type: "ol",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "Crear una carpeta llamada ", content: "plain" },
+                  { text: "sistema-encuestas", content: "italic" },
+                  { text: " con estos archivos:", content: "plain" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [{ text: "index.html ", content: "bold" }, { text: "(página principal con enlaces)", content: "plain" }] },
+                      { type: "li", info: [{ text: "encuesta-personal.html ", content: "bold" }, { text: "(datos personales)", content: "plain" }] },
+                      { type: "li", info: [{ text: "encuesta-trabajo.html ", content: "bold" }, { text: "(información laboral)", content: "plain" }] },
+                      { type: "li", info: [{ text: "encuesta-satisfaccion.html ", content: "bold" }, { text: "(satisfacción del cliente)", content: "plain" }] }
+                    ]
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "encuesta-personal.html:", content: "bold" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [{ text: "Información básica ", content: "bold" }, { text: "(nombre, email, teléfono, fecha nacimiento)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Dirección completa ", content: "bold" }, { text: "(text inputs para calle, ciudad, código postal)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Estado civil ", content: "bold" }, { text: "(radio buttons)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Hobbies ", content: "bold" }, { text: "(checkboxes múltiples)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Descripción personal ", content: "bold" }, { text: "(textarea)", content: "plain" }] },
+                    ]
+                  },
+              1 ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "encuesta-trabajo.html:", content: "bold" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [{ text: "Empresa actual ", content: "bold" }, { text: "(text)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Salario esperado ", content: "bold" }, { text: "(number con min/max)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Años de experiencia ", content: "bold" }, { text: "(range slider)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Fecha disponible para empezar ", content: "bold" }, { text: "(date)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Horario preferido ", content: "bold" }, { text: "(time inputs para inicio y fin)", content: "plain" }] },
+                      { type: "li", info: [{ text: "CV ", content: "bold" }, { text: "(file upload, solo PDF)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Sitio web profesional ", content: "bold" }, { text: "(url)", content: "plain" }] }
+                    ]
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "encuesta-satisfaccion.html:", content: "bold" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [{ text: "Calificación general ", content: "bold" }, { text: "(range 1-10)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Aspectos a evaluar ", content: "bold" }, { text: "(checkboxes)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Recomendarías el servicio ", content: "bold" }, { text: "(radio sí/no)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Comentarios ", content: "bold" }, { text: "(textarea)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Email para seguimiento ", content: "bold" }, { text: "(email, opcional)", content: "plain" }] }
+                    ]
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [{ text: "Cada formulario debe tener:", content: "plain" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [{ text: "Validación ", content: "plain" }, { text: "HTML ", content: "bold" }, { text: "apropiada", content: "plain" }] },
+                      { type: "li", info: [{ text: "Placeholders informativos", content: "plain" }] },
+                      { type: "li", info: [{ text: "Labels asociados correctamente", content: "plain" }] },
+                      { type: "li", info: [{ text: "Botones de envío y reset", content: "plain" }] }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [{ text: "Características avanzadas:", content: "bold" }]
+          },
+          {
+            type: "ul",
+            info: [
+              { type: "li", info: [{ text: "Usar fieldset y legend para agrupar campos relacionados", content: "plain" }] },
+              { type: "li", info: [{ text: "Implementar datalists para campos con sugerencias", content: "plain" }] },
+              { type: "li", info: [{ text: "Añadir campos con validación custom usando pattern", content: "plain" }] },
+              { type: "li", info: [{ text: "Usar autofocus en el primer campo de cada formulario", content: "plain" }] }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Bonus: ", content: "bold" },
+              { text: "Crear un formulario adicional que demuestre inputs más avanzados como datetime-local, week, month, etc.", content: "plain" }
+            ]
+          },
         ]
       }
     ]
