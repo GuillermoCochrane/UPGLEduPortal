@@ -1883,12 +1883,17 @@ const classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                img: "/images/Frontend/class1/ejercicio_1.png",
-                alt: "Solución ejercicio 1",
-              },
-            ],
+            info: [{
+              alt: "Solución ejercicio 1",
+              language: "html",
+              content: `<body>
+  <h1>Bienvenido al curso de programación Front End de la UPGL</h1>
+  <hr>
+  <h2>¡Hola! Soy Guillermo Cochrane</h2>
+  <br>
+  <p>Esta es mi primera página web</p>
+</body>`
+            }]
           },
           {
             type: "h4",
