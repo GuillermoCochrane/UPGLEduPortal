@@ -3679,8 +3679,43 @@ const classes = [
             type : "answer",
             info : [
               {
-                img : "/images/Frontend/class3/tablas_contactos.png",
                 alt : "Solución tablas de contactos",
+                language: "html",
+                content: `<body>
+  <h1>Clase 3 - Ejercicio 1  - Tablas</h1>
+  <hr>
+  <h2>Objetivo: Practicar la creación y estructura básica de tablas en HTML.</h2>
+  <table border="1">
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Dirección</th>
+      <th>Correo electrónico</th>
+      <th>Teléfono</th>
+    </tr>
+    <tr>
+      <td>Ana</td>
+      <td>Rodríguez</td>
+      <td>French 269</td>
+      <td>ana@gmail.com</td>
+      <td>123456789</td>
+    </tr>
+    <tr>
+      <td>Juan</td>
+      <td>González</td>
+      <td>Belgrano 123</td>
+      <td>juan@gmail.com</td>
+      <td>987654321</td>
+    </tr>
+    <tr>
+      <td>Pedro</td>
+      <td>Perez</td>
+      <td>Moreno 384</td>
+      <td>pedro@gmail.com</td>
+      <td>555555555</td>
+    </tr> 
+  </table>
+</body>`
               },
             ],
           },
