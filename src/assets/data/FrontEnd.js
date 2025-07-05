@@ -3890,8 +3890,55 @@ const classes = [
             type : "answer",
             info : [
               {
-                img : "/images/Frontend/class3/galeria.png",
                 alt : "Solución galería",
+                language: "html",
+                content: `<body>
+  <h1 id="1">Clase 3 - Ejercicio 2  - Imagenes y enlaces</h1>
+  <hr>
+  <h2>Objetivo: Practicar la inserción de imágenes y la creación de diversos tipos de enlaces</h2>
+  <table border="1" align="center">
+    <tr>
+      <td>
+        <img 
+          src="https://img.freepik.com/foto-gratis/arbol-solitario_181624-46361.jpg" 
+          alt="Arbol Solitario"
+          width="400"
+        >
+        <p><a href="https://img.freepik.com/foto-gratis/arbol-solitario_181624-46361.jpg" target="_blank">Arbol solitario</a></p>
+      </td>
+      <td>
+        <img src="https://img.freepik.com/foto-gratis/toma-aerea-hermosa-orilla-mar-colinas-fondo-al-atardecer_181624-24143.jpg" alt="Orilla del Mar" width="400">
+        <p><a href="https://img.freepik.com/foto-gratis/toma-aerea-hermosa-orilla-mar-colinas-fondo-al-atardecer_181624-24143.jpg" target="_blank">Orilla del mar</a></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://img.freepik.com/foto-gratis/paisaje-bosques-lagos-otono_23-2151843646.jpg" alt="Lago en el Bosque" width="400">
+        <p><a href="https://img.freepik.com/foto-gratis/paisaje-bosques-lagos-otono_23-2151843646.jpg" target="_blank">Lago en el bosque</a></p>
+      </td>
+      <td>
+        <img src="https://img.freepik.com/foto-gratis/puesta-sol-misurina_181624-34793.jpg" alt="Puesta de sol" width="400">
+        <p><a href="https://img.freepik.com/foto-gratis/puesta-sol-misurina_181624-34793.jpg" target="_blank">Puesta de sol</a></p>
+      </td>
+    </tr>
+  </table>
+  <footer>
+    <table width="100%">
+      <tr>
+        <td>
+          <a href="mailto:guilleac81@gmail.com">Enviar correo</a>
+        </td>
+        <td>
+          <a href="https://www.instagram.com/liam.cochrane43/">Instagram</a>
+        </td>
+        <td>
+          <a href="#1">Volver al principio</a>
+        </td>
+      </tr>
+    </table>
+  </footer>
+</body>`
+
               },
             ],
           },
