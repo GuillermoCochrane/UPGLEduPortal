@@ -5598,7 +5598,7 @@ const classes = [
                 language: "html",
                 content: `<body>
   <header>
-    <h1>Formulario Bonus</h1>
+    <h1>Índice de encuestas</h1>
     <nav>
       <a href="index.html">Inicio</a>
       <a href="encuesta-personal.html">Encuesta personal</a>
@@ -5630,7 +5630,7 @@ const classes = [
                 language: "html",
                 content: `<body>
   <header>
-    <h1>Formulario Bonus</h1>
+    <h1>Formulario de encuesta personal</h1>
     <nav>
       <a href="index.html">Inicio</a>
       <a href="encuesta-personal.html">Encuesta personal</a>
@@ -5722,6 +5722,66 @@ const classes = [
     </form>
 </body>`
               },
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                alt: "Solución encuesta-trabajo.html",
+                language: "html",
+                content: `<body>
+  <header>
+    <h1>Formulario de encuesta de trabajo</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="encuesta-personal.html">Encuesta personal</a>
+      <a href="encuesta-trabajo.html">Encuesta de trabajo</a>
+      <a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a>
+      <a href="formulario-bonus.html">Formulario Bonus - Actividades</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Encuesta de trabajo</h2>
+    <form action="#" method="POST">
+      <fieldset>
+        <legend>Información básica</legend>
+        <label for="Empresa">Empresa actual:</label><br>
+        <input type="text" id="Empresa" name="Empresa" required placeholder="Globant" list="Empresas" autofocus><br>
+        <datalist id="Empresas">
+          <option value="Globant">
+          <option value="Mercado Libre">
+          <option value="Google">
+          <option value="Facebook">
+          <option value="Amazon">
+        </datalist>
+        <label for="Salario">Salario esperado:</label><br>
+        <input type="number" id="Salario" name="Salario" required placeholder="700000" min="500000" max="1500000"><br>
+        <label for="Años">Años de experiencia: <span id="valorAños">5</span></label><br>
+        <!-- Bonus: cheat con IA  -->
+        <input type="range" id="Años" name="Años" required min="1" max="10" value="5" oninput="valorAños.innerText = this.value" ><br>
+        <label for="Fecha">Fecha disponible para empezar:</label><br>
+        <input type="date" id="Fecha" name="Fecha" required><br>
+        <label for="Horario">Horario preferido:</label><br>
+        <div>
+          <label for="Horario-inicio">Horario de inicio:</label><br>
+          <input type="time" id="Horario-inicio" name="Horario-inicio" required><br>
+          <label for="Horario-fin">Horario de fin:</label><br>
+          <input type="time" id="Horario-fin" name="Horario-fin" required><br>
+        </div>
+        <label for="CV">CV:</label><br>
+        <input type="file" id="CV" name="CV" accept="application/pdf" required><br>
+        <label for="Sitio">Sitio web profesional:</label><br>
+        <input type="url" id="Sitio" name="Sitio" required placeholder="https://www.globant.com"><br>
+      </fieldset>
+      <div style="margin-top: 1em;">
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+      </div>
+    </form>
+  </main>
+</body>`,
+              }
             ]
           }
         ]
