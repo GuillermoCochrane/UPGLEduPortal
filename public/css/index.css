@@ -468,13 +468,14 @@ label input{
 		max-height: 90vh;
 		padding: 0.5em 1.5em;
 		max-width: 333px;
+		flex-shrink: 0;
 	}
 
 	article{
 		height: 90vh;
 		overflow-x: hidden;
 		overflow-y: auto;
-		flex-grow: 1;
+		width: 100%;
 		font-weight: 400;
 	}
 
