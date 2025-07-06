@@ -2852,79 +2852,24 @@ const classes = [
                 alt: "Solución formulario de contacto",
                 language: "html",
                 content: `<body>
-  <h1>Listas</h1>
-  <hr>
-  <h2>Listado de series favoritas</h2>
-  <hr>
-  <ul>
-    <li>La rueda del tiempo</li>
-    <li>El cuento de la criada</li>
-    <li>Los anillos de poder</li>
-    <li>Andor</li>
-    <li>Silo</li>
-    <li>Severance</li>
-  </ul>
-  <hr>
-  <h2>🍕 Pizza Casera Paso a Paso</h2>
-  <hr>
-  <h2><strong>Ingredientes</strong></h2>
-  <hr>
-  <h3>🍚 Masa (2 pizzas medianas)</h3>
-  <ul>
-    <li>500 g de harina de trigo (puede ser harina 000 o de fuerza)</li>
-    <li>300 ml de agua tibia </li>
-    <li>2 cucharadas de aceite de oliva</li>
-    <li>10 g de sal</li>
-    <li>1 cucharadita de azúcar</li>
-    <li>7 g de levadura seca (o 15 g de levadura fresca)</li>
-  </ul>
+  <h1>Formulario de contacto</h1>
   <br>
-  <h3>🍅Salsa de tomate:</h3>
-  <ul>
-    <li>1 lata de tomate triturado (400 g)</li>
-    <li>2 dientes de ajo picados</li>
-    <li>1 cucharadita de orégano</li>
-    <li>1 cucharadita de albahaca</li>
-    <li>Sal y pimienta al gusto</li>
-    <li>1 cucharada de aceite de oliva</li>
-  </ul>
-  <br>
-  <h3>🍜Toppings (a elección):</h3>
-  <ul>
-    <li>Queso mozzarella rallado (200 g aprox.)</li>
-    <li>Jamón, pepperoni, champiñones, pimientos, etc.</li>
-    <li>Albahaca fresca o orégano para decorar</li>
-  </ul>
-  <hr>
-  <h2>Instrucciones</h2>
-  <hr>
-  <h3>1. Preparar la masa</h3>
-  <ol>
-    <li><strong>Activar la levadura:</strong> Mezcla agua tibia, azúcar y levadura. Deja reposar 5-10 minutos hasta que espume.</li>
-    <li><strong>Amasar:</strong> En un bowl, combina harina y sal. Agrega la mezcla de levadura y aceite. Amasa hasta integrar.</li>
-    <li><strong>Reposo:</strong> Forma una bola, tapa con un paño y deja levar 1 hora (hasta que doble su tamaño).</li>
-  </ol>
-  <br>
-  <h3>2. Preparar la salsa</h3>
-  <ol>
-    <li>Sofríe el ajo en aceite hasta dorar.</li>
-    <li>Añade tomate, orégano, albahaca, sal y pimienta. Cocina 10-15 minutos a fuego bajo. Enfría.</li>
-  </ol>
-  <br>
-  <h3>3. Armar la pizza</h3>
-  <ol>
-    <li><strong>Estirar la masa:</strong> Divide en 2 porciones y estírala con rodillo o manos.</li>
-    <li><strong>Colocar en bandeja:</strong> Usa una bandeja enharinada o con papel manteca.</li>
-    <li><strong>Agregar salsa:</strong> Unta la salsa, dejando borde para el crust.</li>
-    <li><strong>Toppings:</strong> Esparce queso e ingredientes elegidos.</li>
-  </ol>
-  <br>
-  <h3>4. Hornear</h3>
-  <ol>
-    <li>Precalienta el horno a 200-220°C (arriba/abajo) por 10 minutos.</li>
-    <li>Hornea 12-15 minutos (hasta que el queso se derrita y la masa dore).</li>
-  </ol>
-  <hr>
+  <form action="/" method="post">
+    <hr>
+    <label for="nombre">Nombre:</label>
+    <br>
+    <input type="text" id="nombre" name="nombre" required>
+    <hr>
+    <label for="correo">Correo electrónico:</label>
+    <br>
+    <input type="email" id="correo" name="correo" required>
+    <hr>
+    <label for="mensaje">Mensaje:</label>
+    <br>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <hr>
+    <button type="submit">Enviar</button>
+  </form>
 </body>`
               }
             ]
@@ -3045,28 +2990,83 @@ const classes = [
                 alt: "Solución listas",
                 language: "html",
                 content: `<body>
-  <h1>Formulario de contacto</h1>
+  <h1>Listas</h1>
+  <hr>
+  <h2>Listado de series favoritas</h2>
+  <hr>
+  <ul>
+    <li>La rueda del tiempo</li>
+    <li>El cuento de la criada</li>
+    <li>Los anillos de poder</li>
+    <li>Andor</li>
+    <li>Silo</li>
+    <li>Severance</li>
+  </ul>
+  <hr>
+  <h2>🍕 Pizza Casera Paso a Paso</h2>
+  <hr>
+  <h2><strong>Ingredientes</strong></h2>
+  <hr>
+  <h3>🍚 Masa (2 pizzas medianas)</h3>
+  <ul>
+    <li>500 g de harina de trigo (puede ser harina 000 o de fuerza)</li>
+    <li>300 ml de agua tibia </li>
+    <li>2 cucharadas de aceite de oliva</li>
+    <li>10 g de sal</li>
+    <li>1 cucharadita de azúcar</li>
+    <li>7 g de levadura seca (o 15 g de levadura fresca)</li>
+  </ul>
   <br>
-  <form action="/" method="post">
-    <hr>
-    <label for="nombre">Nombre:</label>
-    <br>
-    <input type="text" id="nombre" name="nombre" required>
-    <hr>
-    <label for="correo">Correo electrónico:</label>
-    <br>
-    <input type="email" id="correo" name="correo" required>
-    <hr>
-    <label for="mensaje">Mensaje:</label>
-    <br>
-    <textarea id="mensaje" name="mensaje" required></textarea>
-    <hr>
-    <button type="submit">Enviar</button>
-  </form>
+  <h3>🍅Salsa de tomate:</h3>
+  <ul>
+    <li>1 lata de tomate triturado (400 g)</li>
+    <li>2 dientes de ajo picados</li>
+    <li>1 cucharadita de orégano</li>
+    <li>1 cucharadita de albahaca</li>
+    <li>Sal y pimienta al gusto</li>
+    <li>1 cucharada de aceite de oliva</li>
+  </ul>
+  <br>
+  <h3>🍜Toppings (a elección):</h3>
+  <ul>
+    <li>Queso mozzarella rallado (200 g aprox.)</li>
+    <li>Jamón, pepperoni, champiñones, pimientos, etc.</li>
+    <li>Albahaca fresca o orégano para decorar</li>
+  </ul>
+  <hr>
+  <h2>Instrucciones</h2>
+  <hr>
+  <h3>1. Preparar la masa</h3>
+  <ol>
+    <li><strong>Activar la levadura:</strong> Mezcla agua tibia, azúcar y levadura. Deja reposar 5-10 minutos hasta que espume.</li>
+    <li><strong>Amasar:</strong> En un bowl, combina harina y sal. Agrega la mezcla de levadura y aceite. Amasa hasta integrar.</li>
+    <li><strong>Reposo:</strong> Forma una bola, tapa con un paño y deja levar 1 hora (hasta que doble su tamaño).</li>
+  </ol>
+  <br>
+  <h3>2. Preparar la salsa</h3>
+  <ol>
+    <li>Sofríe el ajo en aceite hasta dorar.</li>
+    <li>Añade tomate, orégano, albahaca, sal y pimienta. Cocina 10-15 minutos a fuego bajo. Enfría.</li>
+  </ol>
+  <br>
+  <h3>3. Armar la pizza</h3>
+  <ol>
+    <li><strong>Estirar la masa:</strong> Divide en 2 porciones y estírala con rodillo o manos.</li>
+    <li><strong>Colocar en bandeja:</strong> Usa una bandeja enharinada o con papel manteca.</li>
+    <li><strong>Agregar salsa:</strong> Unta la salsa, dejando borde para el crust.</li>
+    <li><strong>Toppings:</strong> Esparce queso e ingredientes elegidos.</li>
+  </ol>
+  <br>
+  <h3>4. Hornear</h3>
+  <ol>
+    <li>Precalienta el horno a 200-220°C (arriba/abajo) por 10 minutos.</li>
+    <li>Hornea 12-15 minutos (hasta que el queso se derrita y la masa dore).</li>
+  </ol>
+  <hr>
 </body>`
               }
             ]
-          }
+          },
         ]
       }
     ],
