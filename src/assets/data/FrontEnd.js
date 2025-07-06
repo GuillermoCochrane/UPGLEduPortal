@@ -5239,7 +5239,7 @@ const classes = [
         topicData: [
           {
             type: "h3",
-            info: [{ text: "🧪 Actividades Prácticas", content: "plain" }]
+            info: [{ text: "Actividades 💬", content: "plain" }]
           },
           {
             type: "h4",
@@ -6624,7 +6624,7 @@ const classes = [
           {
             type: "h3",
             info: [
-              { text: " Actividades Prácticas 💬", content: "plain" }
+              { text: "Actividades 💬", content: "plain" }
             ]
           },
           {
@@ -6742,12 +6742,62 @@ const classes = [
           },
           {
             type: "answer",
-            info: [
+            info:[
               {
-                img: "/images/Frontend/class5/class5-9-1.png",
                 alt: "Solución de la página semántica",
-              },
-            ], 
+                language: "html",
+                content: `<body>
+  <header>
+    <h1>Clase 3 - Ejercicio 3  - Etiquetas semánticas</h1>
+    <p>Objetivo: Aplicar etiquetas semánticas para estructurar adecuadamente una página web.</p>
+    <hr>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="http://www.google.com">Google</a></li>
+      <li><a href="https://www.facebook.com">Facebbok</a></li>
+      <li><a href="https://www.instagram.com">Instagram</a></li>
+      <li><a href="https://www.twitter.com">Twitter</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <article>
+        <h2>Artículo 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+      </article>
+      <article>
+        <h2>Artículo 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus obcaecati illo nesciunt hic, ipsa eaque nemo laudantium assumenda repudiandae autem reiciendis aspernatur architecto sint eius perferendis cupiditate mollitia adipisci asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil non doloribus reiciendis reprehenderit quae debitis, aut ipsam temporibus beatae doloremque facilis modi quas? Sit aliquam voluptas sed officia repudiandae. Ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus obcaecati illo nesciunt hic, ipsa eaque nemo laudantium assumenda repudiandae autem reiciendis aspernatur architecto sint eius perferendis cupiditate mollitia adipisci asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil non doloribus reiciendis reprehenderit quae debitis, aut ipsam temporibus beatae doloremque facilis modi quas? Sit aliquam voluptas sed officia repudiandae. Ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quisquam.</p>
+      </article>
+    </section>
+    <section>
+      <h2>Contacto: </h2>
+      <form action="/" method="get">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <aside>
+      <figure>
+        <img src="https://armoto.vtexassets.com/arquivos/logoM.svg" alt="Logo Motorola" width="200">
+        <figcaption>Pagina auspiciada por Motorola</figcaption>
+      </figure>
+    </aside>
+  </main>
+  <footer>
+    <hr>
+    <p>Copyright&copy; <time datetime="2021-12-02">2 de diciembre de 2021</time> by <a href="https://ar.linkedin.com/in/guillermo-cochrane">Guillermo Cochrane</a>.</p>
+  </footer> 
+</body>`
+              }
+            ]
           },
           {
             type: "h4",
