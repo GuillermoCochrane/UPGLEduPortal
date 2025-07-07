@@ -6985,8 +6985,238 @@ const classes = [
                     type: "answer",
                     info: [
                       {
-                        img: "/images/Frontend/class5/class5-9-3.png",
                         alt: "Solución de la página de un artículo",
+                        language: "html",
+                        content:  `<body>
+  <header>
+    <div>
+      <button>Barra de Navegación</button>
+      <div>
+        <h1>La guarida del desarrolador</h1>
+        <p>Tu lugar donde mantenerte actualizado sobre tecnologías y programación</p>
+      </div>
+      <button>Barra Lateral</button>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./articulo1.html">Artículos</a>
+        </li>
+        <li>
+          <a href="./sobre-mi.html">Sobre Mi</a>
+        </li>
+        <li>
+          <a href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <hr>
+      <h2>AEO sustituye al SEO como eje estratégico del posicionamiento web mundial en la era de la Inteligencia Artificial</h2>
+      <time datetime="2022-4-7">7 de abril de 2022</time><br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BV2e0AyZf8UqtmyY9-n1XVk36IT-cxHMeQ&s" alt="Imagen Articulo 3" width="400" align="center"><br>
+      <h5>
+        <em>Mientras miles de empresas siguen centrando su estrategia digital en aparecer en los primeros puestos de Google, las reglas del juego están cambiando. Las inteligencias artificiales como ChatGPT, Gemini o Bing ya no ofrecen una lista de enlaces, sino respuestas directas extraídas de contenidos. Esta nueva realidad da paso al AEO (Answer Engine Optimization), una técnica emergente que desarrolladores web internacionales como Nevada 2.0 S.L. a través de consultoriainformatica están implementando</em>
+      </h5>
+      <hr>
+      <p>
+        El AEO, o Answer Engine Optimization, es el proceso de optimizar contenido web para que pueda ser entendido, interpretado y citado por motores de respuesta basados en inteligencia artificial. En lugar de competir por los primeros puestos en los resultados de búsqueda, el objetivo ahora es convertirse en la fuente directa de la respuesta que da la IA.
+      </p>
+      <p>
+        Este cambio de paradigma no elimina la necesidad del SEO tradicional, pero lo complementa con una nueva dimensión: el contenido debe ser tan claro, útil y estructurado que una IA lo seleccione como referencia. Saber cómo aplican esta técnica los desarrolladores web internacionales especializados es fundamental para adaptarse a la nueva realidad.
+      </p>
+
+      <h4>
+        De diseñadores web a generadores de visibilidad en IA
+      </h4>
+      <p>
+        Empresas como Nevada 2.0 S.L. a través de consultoriainformatica, especialistas en desarrollo web internacional, ya están liderando este cambio. A través de una combinación de redacción estratégica, optimización semántica y estructura técnica, sus proyectos van mucho más allá de crear sitios visualmente atractivos. Se enfocan en convertir cada página web en una fuente de respuestas para las principales inteligencias artificiales del mercado. Un ejemplo claro se ve en su línea de diseño web Granada, donde se aplica AEO no solo para mejorar la presencia local, sino también para enseñar a empresas de cualquier parte del mundo cómo adaptarse a este nuevo enfoque.
+      </p>
+
+      <h4>
+        Qué es AEO y cómo aparecer en ChatGPT
+      </h4>
+
+      <p>
+        Aunque Granada es un caso práctico, la estrategia es aplicable globalmente. Un enfoque claro es entender qué es AEO y como aparecer en ChatGPT , y aplicarlo desde la arquitectura del sitio hasta la creación de contenido conversacional.
+      </p>
+
+      <h4>
+        Cómo funciona el AEO en la práctica
+      </h4>
+
+      <p>
+        A diferencia del SEO, que busca mejorar el ranking en buscadores, el AEO trabaja desde una lógica conversacional. Las personas no escriben igual en Google que cuando preguntan a una IA. Mientras en Google alguien puede buscar "mejor abogado en Barcelona", en ChatGPT la pregunta será: "¿Qué abogado recomiendas si hay un problema de herencia en Barcelona?". Esta diferencia cambia por completo la forma de estructurar contenido web.
+      </p>
+
+      <p>
+        Por eso, los desarrolladores web que quieran ofrecer resultados duraderos deben adoptar nuevas prácticas:
+      </p>
+
+      <ul>
+        <li>Responder preguntas de forma directa: encabezados claros con preguntas reales y respuestas bien redactadas.</li>
+        <li>Usar lenguaje natural: sin tecnicismos innecesarios y con un tono humano, comprensible y útil.</li>
+        <li>Incluir datos estructurados: como schema, FAQs, listas, tablas o glosarios.</li>
+        <li>Crear contenido con autoridad: especializado, actualizado y coherente.</li>
+        <li>Optimizar para voz y texto: pensando en cómo una IA interpretará ese contenido.</li>
+      </ul>
+
+      <h4>
+        Una oportunidad para desarrolladores web internacionales
+      </h4>
+
+      <p>
+        Los motores de respuesta como ChatGPT o Gemini no entienden de fronteras. Por eso, la implementación de AEO no es una estrategia local, sino una ventaja competitiva global. Los desarrolladores web con visión internacional, como los del equipo de Consultoría Informática, han entendido que estar visibles en la era de la IA no es una opción, es una necesidad.
+      </p>
+
+      <p>
+        De hecho, muchos proyectos impulsados desde Nevada 2.0 S.L. nacen con enfoque multilingüe, adaptando contenido y estructura a diferentes mercados, culturas y modelos conversacionales. Esto permite que una misma web pueda ser citada por ChatGPT en inglés, español o francés, dependiendo del usuario y el contexto.
+      </p>
+
+      <h4>
+        Diseño web con propósito: el nuevo estándar del desarrollo digital
+      </h4>
+
+      <p>
+        Ya no basta con tener una web "bonita". Una página sin estrategia AEO es, en muchos casos, invisible para el usuario moderno que confía en su asistente de IA para tomar decisiones. El diseño web Granada aplicado por Nevada 2.0 no es un caso aislado: es una muestra de cómo debe funcionar el desarrollo web actual, con foco en la utilidad, la estructura y la capacidad de respuesta. Además, se han desarrollado guías específicas para sectores como:
+      </p>
+
+
+      <ul>
+        <li>Inmobiliarias que quieren aparecer cuando alguien pregunta "¿Cómo vendo mi casa en Granada?"</li>
+        <li>Despachos legales que buscan ser fuente cuando un usuario pregunta "¿Qué derechos tengo tras un despido improcedente?"</li>
+        <li>Comercios online que quieren salir cuando se consulta "¿Cuál es la mejor tienda online de ropa sostenible?"</li>
+      </ul>
+
+      <h4>
+        "Qué puedes hacer hoy para adaptar tu web al AEO"
+      </h4>
+
+      <p>
+        "Si tienes una web o estás pensando en crearla, estos son los pasos clave para aparecer en las respuestas de la IA":
+      </p>
+
+      <ul>
+        <li>Definir bien el público objetivo y las preguntas que suelen hacer.</li>
+        <li>Reescribir el contenido pensando en cómo lo preguntaría una persona a una IA.</li>
+        <li>Agrupar respuestas en secciones tipo FAQ, tutoriales o artículos educativos.</li>
+        <li>Añadir etiquetas semánticas y microdatos para facilitar el trabajo a las máquinas.</li>
+        <li>Trabajar con desarrolladores web especializados en AEO que sepan estructurar bien tu sitio desde la base.</li>
+      </ul> 
+
+      <h4>
+        Conclusión: del SEO al AEO, un cambio inevitable
+      </h4>
+
+      <p>
+        La transición del SEO al AEO no es una moda, es una evolución natural. Las IAs han cambiado la forma en que las personas acceden a la información, y eso obliga a las empresas a replantear cómo se presentan online. Estar primero en Google puede seguir siendo útil, pero ser citado por una IA que responde millones de preguntas al día tiene aún más valor.
+      </p>
+
+      <p>
+        Por eso, contar con el apoyo de desarrolladores web con enfoque internacional es más importante que nunca. Firmas como Nevada 2.0 S.L. están marcando el camino, combinando diseño, estrategia y tecnología para que sus clientes no solo estén en internet, sino que protagonicen la conversación digital del futuro.
+      </p>
+
+      <p>
+        <em>
+          "Si quieres que tu web forme parte de las respuestas de la inteligencia artificial, empieza por preguntarte: ¿estoy optimizando para buscadores o para quien ya está dando las respuestas?"
+        </em>
+      </p>
+      <table border="1">
+        <tr>
+          <th>Técnica</th>
+          <th>Ventajas</th>
+          <th>Desventajas</th>
+        </tr>
+        <tr>
+          <td><strong>SEO (Search Engine Optimization)</strong></td>
+          <td>
+            <ul>
+              <li>Posiciona en motores de búsqueda tradicionales (Google, Bing).</li>
+              <li>Efectivo para tráfico orgánico a largo plazo.</li>
+              <li>Amplia documentación y herramientas disponibles.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Menos relevante cuando los usuarios obtienen respuestas directas de IA.</li>
+              <li>Requiere actualización constante (algoritmos cambiantes).</li>
+              <li>Competitividad alta en palabras clave populares.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>AEO (Answer Engine Optimization)</strong></td>
+          <td>
+            <ul>
+              <li>Optimiza para IA (ChatGPT, Gemini) que generan respuestas directas.</li>
+              <li>Contenido citado como fuente aumenta autoridad.</li>
+              <li>Enfoque en lenguaje natural y preguntas reales de usuarios.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Técnica emergente (pocas herramientas de análisis).</li>
+              <li>Dependencia de plataformas de IA (cambios impredecibles).</li>
+              <li>Difícil medir ROI directamente.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <hr>
+      <h3>Comentarios</h3>
+      <hr>
+      <article>
+        <h4>Roberto dijo: </h4>
+        <p>
+          "Si quieres que tu web forme parte de las respuestas de la inteligencia artificial, empieza por preguntarte: ¿estoy optimizando para buscadores o para quien ya está dando las respuestas?"
+        </p>
+      </article>
+      <hr>
+      <article>
+        <h4>Guillermo dijo: </h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit a fugiat repellat nisi molestias vitae minus ut aspernatur voluptatum deleniti quam, nesciunt error, debitis omnis, at recusandae officiis. Fuga?
+        </p>
+      </article>
+      <hr>
+      <article>
+        <h4>Pedro dijo: </h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, ducimus nemo beatae et quisquam eveniet in mollitia. Dolore, libero, nisi voluptatem iste unde doloribus provident quas recusandae sunt tenetur, accusantium ea exercitationem iure doloremque facilis.
+        </p>
+      </article>
+      <hr>
+      <h3>Añadir comentarios</h3>
+      <form action="/" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="comentario">Comentario:</label><br>
+        <textarea name="comentario" id="comentario" cols="30" rows="10" required></textarea><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright <strong>&copy;<time datetime="2025-6-03">2025</time></strong> by <a href="https://ar.linkedin.com/in/guillermo-cochrane">Guillermo Cochrane</a>.</p>
+    <nav role="contentinfo">
+      <h2>Seguime en:</h2>
+      <ul>
+        <li><a href="https://www.instagram.com/liam.cochrane43/">Instagram</a></li>
+        <li><a href="https://ar.linkedin.com/in/guillermo-cochrane">Linkedin</a></li>
+        <li><a href="https://github.com/GuillermoCochrane">GitHub</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>`
                       },
                     ],
                   }
