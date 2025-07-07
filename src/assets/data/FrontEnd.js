@@ -5497,106 +5497,14 @@ const classes = [
                       { type: "li", info: [{ text: "encuesta-trabajo.html ", content: "bold" }, { text: "(información laboral)", content: "plain" }] },
                       { type: "li", info: [{ text: "encuesta-satisfaccion.html ", content: "bold" }, { text: "(satisfacción del cliente)", content: "plain" }] }
                     ]
-                  }
-                ]
-              },
-              {
-                type: "li",
-                info: [
-                  { text: "encuesta-personal.html:", content: "bold" },
-                  {
-                    type: "ul",
-                    info: [
-                      { type: "li", info: [{ text: "Información básica ", content: "bold" }, { text: "(nombre, email, teléfono, fecha nacimiento)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Dirección completa ", content: "bold" }, { text: "(text inputs para calle, ciudad, código postal)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Estado civil ", content: "bold" }, { text: "(radio buttons)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Hobbies ", content: "bold" }, { text: "(checkboxes múltiples)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Descripción personal ", content: "bold" }, { text: "(textarea)", content: "plain" }] },
-                    ]
                   },
-              1 ]
-              },
-              {
-                type: "li",
-                info: [
-                  { text: "encuesta-trabajo.html:", content: "bold" },
                   {
-                    type: "ul",
+                    type: "answer",
                     info: [
-                      { type: "li", info: [{ text: "Empresa actual ", content: "bold" }, { text: "(text)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Salario esperado ", content: "bold" }, { text: "(number con min/max)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Años de experiencia ", content: "bold" }, { text: "(range slider)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Fecha disponible para empezar ", content: "bold" }, { text: "(date)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Horario preferido ", content: "bold" }, { text: "(time inputs para inicio y fin)", content: "plain" }] },
-                      { type: "li", info: [{ text: "CV ", content: "bold" }, { text: "(file upload, solo PDF)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Sitio web profesional ", content: "bold" }, { text: "(url)", content: "plain" }] }
-                    ]
-                  }
-                ]
-              },
-              {
-                type: "li",
-                info: [
-                  { text: "encuesta-satisfaccion.html:", content: "bold" },
-                  {
-                    type: "ul",
-                    info: [
-                      { type: "li", info: [{ text: "Calificación general ", content: "bold" }, { text: "(range 1-10)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Aspectos a evaluar ", content: "bold" }, { text: "(checkboxes)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Recomendarías el servicio ", content: "bold" }, { text: "(radio sí/no)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Comentarios ", content: "bold" }, { text: "(textarea)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Email para seguimiento ", content: "bold" }, { text: "(email, opcional)", content: "plain" }] }
-                    ]
-                  }
-                ]
-              },
-              {
-                type: "li",
-                info: [{ text: "Cada formulario debe tener:", content: "plain" },
-                  {
-                    type: "ul",
-                    info: [
-                      { type: "li", info: [{ text: "Validación ", content: "plain" }, { text: "HTML ", content: "bold" }, { text: "apropiada", content: "plain" }] },
-                      { type: "li", info: [{ text: "Placeholders informativos", content: "plain" }] },
-                      { type: "li", info: [{ text: "Labels asociados correctamente", content: "plain" }] },
-                      { type: "li", info: [{ text: "Botones de envío y reset", content: "plain" }] }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            type: "p",
-            info: [{ text: "Características avanzadas:", content: "bold" }]
-          },
-          {
-            type: "ul",
-            info: [
-              { type: "li", info: [{ text: "Usar fieldset y legend para agrupar campos relacionados", content: "plain" }] },
-              { type: "li", info: [{ text: "Implementar datalists para campos con sugerencias", content: "plain" }] },
-              { type: "li", info: [{ text: "Añadir campos con validación custom usando pattern", content: "plain" }] },
-              { type: "li", info: [{ text: "Usar autofocus en el primer campo de cada formulario", content: "plain" }] }
-            ]
-          },
-          {
-            type: "p",
-            info: [
-              { text: "Bonus: ", content: "bold" },
-              { text: "Crear un formulario adicional que demuestre inputs más avanzados como datetime-local, week, month, etc.", content: "plain" }
-            ]
-          },
-          {
-            type: "h4",
-            info: [{ text: "Resolución de incisos de la Actividad 2: Sistema de encuestas", content: "plain" }]
-          },
-          {
-            type: "answer",
-            info: [
-              {
-                alt: "Solución index.html",
-                language: "html",
-                content: `<body>
+                      {
+                        alt: "Solución index.html",
+                        language: "html",
+                        content: `<body>
   <header>
     <h1>Índice de encuestas</h1>
     <nav>
@@ -5622,13 +5530,29 @@ const classes = [
               },
             ]
           },
-          {
-            type: "answer",
-            info: [
+                ]
+              },
               {
-                alt: "Solución encuesta-personal.html",
-                language: "html",
-                content: `<body>
+                type: "li",
+                info: [
+                  { text: "encuesta-personal.html:", content: "bold" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [{ text: "Información básica ", content: "bold" }, { text: "(nombre, email, teléfono, fecha nacimiento)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Dirección completa ", content: "bold" }, { text: "(text inputs para calle, ciudad, código postal)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Estado civil ", content: "bold" }, { text: "(radio buttons)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Hobbies ", content: "bold" }, { text: "(checkboxes múltiples)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Descripción personal ", content: "bold" }, { text: "(textarea)", content: "plain" }] },
+                    ]
+                  },
+                  {
+                    type: "answer",
+                    info: [
+                      {
+                        alt: "Solución encuesta-personal.html",
+                        language: "html",
+                        content: `<body>
   <header>
     <h1>Formulario de encuesta personal</h1>
     <nav>
@@ -5721,16 +5645,34 @@ const classes = [
         </div>
     </form>
 </body>`
+                      },
+                    ]
+                  },
+                ]
               },
-            ]
-          },
-          {
-            type: "answer",
-            info: [
               {
-                alt: "Solución encuesta-trabajo.html",
-                language: "html",
-                content: `<body>
+                type: "li",
+                info: [
+                  { text: "encuesta-trabajo.html:", content: "bold" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [{ text: "Empresa actual ", content: "bold" }, { text: "(text)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Salario esperado ", content: "bold" }, { text: "(number con min/max)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Años de experiencia ", content: "bold" }, { text: "(range slider)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Fecha disponible para empezar ", content: "bold" }, { text: "(date)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Horario preferido ", content: "bold" }, { text: "(time inputs para inicio y fin)", content: "plain" }] },
+                      { type: "li", info: [{ text: "CV ", content: "bold" }, { text: "(file upload, solo PDF)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Sitio web profesional ", content: "bold" }, { text: "(url)", content: "plain" }] }
+                    ]
+                  },
+                  {
+                    type: "answer",
+                    info: [
+                      {
+                        alt: "Solución encuesta-trabajo.html",
+                        language: "html",
+                        content: `<body>
   <header>
     <h1>Formulario de encuesta de trabajo</h1>
     <nav>
@@ -5781,71 +5723,126 @@ const classes = [
     </form>
   </main>
 </body>`,
-              }
+                      }
+                    ]
+                  },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "encuesta-satisfaccion.html:", content: "bold" },
+                  {
+                    type: "ul",
+                    info: [
+                      { type: "li", info: [{ text: "Calificación general ", content: "bold" }, { text: "(range 1-10)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Aspectos a evaluar ", content: "bold" }, { text: "(checkboxes)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Recomendarías el servicio ", content: "bold" }, { text: "(radio sí/no)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Comentarios ", content: "bold" }, { text: "(textarea)", content: "plain" }] },
+                      { type: "li", info: [{ text: "Email para seguimiento ", content: "bold" }, { text: "(email, opcional)", content: "plain" }] }
+                    ]
+                  },
+                  {
+                    type: "answer",
+                    info: [
+                      {
+                        alt: "Solución encuesta-satisfaccion.html",
+                        language: "html",
+                        content: `<body>
+          <header>
+            <h1>Formulario de encuesta de satisfacción</h1>
+            <nav>
+              <a href="index.html">Inicio</a>
+              <a href="encuesta-personal.html">Encuesta personal</a>
+              <a href="encuesta-trabajo.html">Encuesta de trabajo</a>
+              <a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a>
+              <a href="formulario-bonus.html">Formulario Bonus - Actividades</a>
+            </nav>
+          </header>
+          <main>
+            <h2>Encuesta de satisfacción</h2>
+            <form action="#" method="POST">
+              <fieldset>
+                <legend>Aspectos a evaluar</legend>
+                <label for="calificacion-general">Calificación general: <span id="valorCalificacion">5</span></label><br>
+                <!-- Bonus: cheat con IA (span con el valor)  -->
+                <input type="range" id="calificacion-general" name="calificacion-general" min="1" max="10" required value="5" oninput="valorCalificacion.innerText = this.value" autofocus><br>
+                <label for="aspectos-evaluar">Aspectos a evaluar:</label><br>
+                <div>
+                  <input type="checkbox" id="aspectos-evaluar-1" name="aspectos-evaluar" value="Calidad del servicio" >
+                  <label for="aspectos-evaluar-1">Calidad del servicio</label>
+                  <input type="checkbox" id="aspectos-evaluar-2" name="aspectos-evaluar" value="Comodidad del ambiente" >
+                  <label for="aspectos-evaluar-2">Comodidad del ambiente</label>
+                  <input type="checkbox" id="aspectos-evaluar-3" name="aspectos-evaluar" value="Servicio al cliente" >
+                  <label for="aspectos-evaluar-3">Servicio al cliente</label>
+                  <input type="checkbox" id="aspectos-evaluar-4" name="aspectos-evaluar" value="Calidad de la atención del cliente" >
+                  <label for="aspectos-evaluar-4">Calidad de la atención del cliente</label>
+                  <input type="checkbox" id="aspectos-evaluar-5" name="aspectos-evaluar" value="Calidad del personal" >
+                  <label for="aspectos-evaluar-5">Calidad del personal</label>
+                  <input type="checkbox" id="aspectos-evaluar-6" name="aspectos-evaluar" value="Calidad del equipo" >
+                  <label for="aspectos-evaluar-6">Calidad del equipo</label>
+                  <input type="checkbox" id="aspectos-evaluar-7" name="aspectos-evaluar" value="Calidad del producto" >
+                  <label for="aspectos-evaluar-7">Calidad del producto</label>
+                </div>
+                <label for="recomendarias-el-servicio">Recomendarías el servicio:</label><br>
+                <div>
+                  <input type="radio" id="recomendarias-el-servicio-1" name="recomendarias-el-servicio" value="Si" >
+                  <label for="recomendarias-el-servicio-1">Si</label>
+                  <input type="radio" id="recomendarias-el-servicio-2" name="recomendarias-el-servicio" value="No" >
+                  <label for="recomendarias-el-servicio-2">No</label>
+                </div>
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea id="comentarios" name="comentarios" required></textarea><br>
+                <label for="email">Email para seguimiento:</label><br>
+                <input type="email" id="email" name="email" placeholder="ejemplo@ejemplo.com"><br>
+              </fieldset>
+              <div style="margin-top: 1em;">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+              </div>
+            </form>
+          </main>
+        </body>`
+                      }
+                    ]
+                  },
+                ]
+              },
             ]
           },
           {
-            type: "answer",
+            type: "p",
+            info: [{ text: "Cada formulario debe tener:", content: "bold" },
+              
+            ]
+          },
+          {
+            type: "ul",
             info: [
-              {
-                alt: "Solución encuesta-satisfaccion.html",
-                language: "html",
-                content: `<body>
-  <header>
-    <h1>Formulario de encuesta de satisfacción</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="encuesta-personal.html">Encuesta personal</a>
-      <a href="encuesta-trabajo.html">Encuesta de trabajo</a>
-      <a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a>
-      <a href="formulario-bonus.html">Formulario Bonus - Actividades</a>
-    </nav>
-  </header>
-  <main>
-    <h2>Encuesta de satisfacción</h2>
-    <form action="#" method="POST">
-      <fieldset>
-        <legend>Aspectos a evaluar</legend>
-        <label for="calificacion-general">Calificación general: <span id="valorCalificacion">5</span></label><br>
-        <!-- Bonus: cheat con IA (span con el valor)  -->
-        <input type="range" id="calificacion-general" name="calificacion-general" min="1" max="10" required value="5" oninput="valorCalificacion.innerText = this.value" autofocus><br>
-        <label for="aspectos-evaluar">Aspectos a evaluar:</label><br>
-        <div>
-          <input type="checkbox" id="aspectos-evaluar-1" name="aspectos-evaluar" value="Calidad del servicio" >
-          <label for="aspectos-evaluar-1">Calidad del servicio</label>
-          <input type="checkbox" id="aspectos-evaluar-2" name="aspectos-evaluar" value="Comodidad del ambiente" >
-          <label for="aspectos-evaluar-2">Comodidad del ambiente</label>
-          <input type="checkbox" id="aspectos-evaluar-3" name="aspectos-evaluar" value="Servicio al cliente" >
-          <label for="aspectos-evaluar-3">Servicio al cliente</label>
-          <input type="checkbox" id="aspectos-evaluar-4" name="aspectos-evaluar" value="Calidad de la atención del cliente" >
-          <label for="aspectos-evaluar-4">Calidad de la atención del cliente</label>
-          <input type="checkbox" id="aspectos-evaluar-5" name="aspectos-evaluar" value="Calidad del personal" >
-          <label for="aspectos-evaluar-5">Calidad del personal</label>
-          <input type="checkbox" id="aspectos-evaluar-6" name="aspectos-evaluar" value="Calidad del equipo" >
-          <label for="aspectos-evaluar-6">Calidad del equipo</label>
-          <input type="checkbox" id="aspectos-evaluar-7" name="aspectos-evaluar" value="Calidad del producto" >
-          <label for="aspectos-evaluar-7">Calidad del producto</label>
-        </div>
-        <label for="recomendarias-el-servicio">Recomendarías el servicio:</label><br>
-        <div>
-          <input type="radio" id="recomendarias-el-servicio-1" name="recomendarias-el-servicio" value="Si" >
-          <label for="recomendarias-el-servicio-1">Si</label>
-          <input type="radio" id="recomendarias-el-servicio-2" name="recomendarias-el-servicio" value="No" >
-          <label for="recomendarias-el-servicio-2">No</label>
-        </div>
-        <label for="comentarios">Comentarios:</label><br>
-        <textarea id="comentarios" name="comentarios" required></textarea><br>
-        <label for="email">Email para seguimiento:</label><br>
-        <input type="email" id="email" name="email" placeholder="ejemplo@ejemplo.com"><br>
-      </fieldset>
-      <div style="margin-top: 1em;">
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpiar</button>
-      </div>
-    </form>
-  </main>
-</body>`
-              }
+              { type: "li", info: [{ text: "Validación ", content: "plain" }, { text: "HTML ", content: "bold" }, { text: "apropiada", content: "plain" }] },
+              { type: "li", info: [{ text: "Placeholders informativos", content: "plain" }] },
+              { type: "li", info: [{ text: "Labels asociados correctamente", content: "plain" }] },
+              { type: "li", info: [{ text: "Botones de envío y reset", content: "plain" }] }
+            ]
+          },
+          {
+            type: "p",
+            info: [{ text: "Características avanzadas:", content: "bold" }]
+          },
+          {
+            type: "ul",
+            info: [
+              { type: "li", info: [{ text: "Usar fieldset y legend para agrupar campos relacionados", content: "plain" }] },
+              { type: "li", info: [{ text: "Implementar datalists para campos con sugerencias", content: "plain" }] },
+              { type: "li", info: [{ text: "Añadir campos con validación custom usando pattern", content: "plain" }] },
+              { type: "li", info: [{ text: "Usar autofocus en el primer campo de cada formulario", content: "plain" }] }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Bonus: ", content: "bold" },
+              { text: "Crear un formulario adicional que demuestre inputs más avanzados como datetime-local, week, month, etc.", content: "plain" }
             ]
           },
           {
@@ -6748,7 +6745,7 @@ const classes = [
                 language: "html",
                 content: `<body>
   <header>
-    <h1>Clase 3 - Ejercicio 3  - Etiquetas semánticas</h1>
+    <h1>Clase 5 - Ejercicio 1  - Etiquetas semánticas</h1>
     <p>Objetivo: Aplicar etiquetas semánticas para estructurar adecuadamente una página web.</p>
     <hr>
   </header>
