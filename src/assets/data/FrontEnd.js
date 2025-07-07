@@ -7240,8 +7240,64 @@ const classes = [
                     type: "answer",
                     info: [
                       {
-                        img: "/images/Frontend/class5/class5-9-4.png",
                         alt: "Solución de la página de sobre mí",
+                        language: "html",
+                        content: `<body>
+  <header>
+  <div>
+    <button>Barra de Navegación</button>
+    <div>
+      <h1>La guarida del desarrolador</h1>
+      <p>Tu lugar donde mantenerte actualizado sobre tecnologías y programación</p>
+    </div>
+    <button>Barra Lateral</button>
+  </div>
+  <nav>
+    <ul>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./articulo1.html">Artículos</a>
+      </li>
+      <li>
+        <a href="./sobre-mi.html">Sobre Mi</a>
+      </li>
+      <li>
+        <a href="./contacto.html">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section>
+    <h2>Sobre mi</h2>
+    <img src="https://avatars.githubusercontent.com/u/105461619?v=4" alt="Foto de Guillermo Cochrane, Full Stack Developer" width="300" align="center" title="Guillermo Cochrane">
+    <p>¡Hola! Soy Guillermo Cochrane. <em>Genio, millonario, playboy, filántropo.</em>  Ah, no ese era Tony Stark jaja. No tengo traje high tech, pero sí consola, teclado y la costumbre de cuestionarlo todo.</p>
+    <p> Soy <strong>Full Stack Developer</strong> y llevo 2 años peleando con código, pero siempre le encuentro la vuelta. No vengo del lado académico. Aprendí leyendo, probando, rompiendo, arreglando. Y ahí me di cuenta: aprender a programar es, en realidad, aprender a pensar.</p>
+    <p>Y El código me enseñó algo : los sistemas parecen cerrados… hasta que encontrás una grieta. Y no es una metáfora: pasa en todos los planos. Nada es absoluto, todo es relativo.</p>
+    <p>Desde chico siempre me gustó entender cómo funcionan las cosas. La programación fue mi epifanía: ¡una mezcla perfecta entre lógica, desafíos y creatividad!</p>
+    <p>Autodidacta, fan de la tecnología, las series y los juegos RPG. Estas son mis armas favoritas para sobrevivir al caos digital:</p>
+    <ul>
+      <li><strong>Node.js</strong> (Express + Sequelize) — porque escribir SQL a mano es como usar DOS en 2024 —</li>
+      <li><strong>MySQL</strong></li>
+      <li><strong>React</strong> (sufrir con elegancia)</li>
+      <li><strong>Python/WordPress</strong> "por si acaso... y otros etcéteras"</li>
+    </ul>
+    <p>Total, el conocimiento no ocupa lugar.</p>
+    <p><em>"Si la tecnología fuera fácil, no tendría gracia. Nada como un buen desafío para quemar neuronas."</em></p>
+    
+    <nav role="contentinfo">
+      <h3>Seguime en:</h3>
+      <ul>
+        <li><a href="https://www.instagram.com/liam.cochrane43/">Instagram</a></li>
+        <li><a href="https://ar.linkedin.com/in/guillermo-cochrane">Linkedin</a></li>
+        <li><a href="https://github.com/GuillermoCochrane">GitHub</a></li>
+      </ul>
+    </nav>
+  </section>
+</main>
+</body>`
                       },
                     ],
                   },
