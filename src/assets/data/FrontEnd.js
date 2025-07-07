@@ -6857,8 +6857,96 @@ const classes = [
                     type: "answer",
                     info: [
                       {
-                        img: "/images/Frontend/class5/class5-9-2.png",
                         alt: "Solución de la página principal",
+                        language: "html",
+                        content: `<body>
+  <header>
+    <div>
+      <button>Barra de Navegación</button>
+      <div>
+        <h1>La guarida del desarrolador</h1>
+        <p>Tu lugar donde mantenerte actualizado sobre tecnologías y programación</p>
+      </div>
+      <button>Barra Lateral</button>
+    </div>
+    <nav role="navigation">
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./articulo1.html">Artículos</a>
+        </li>
+        <li>
+          <a href="./sobre-mi.html">Sobre Mi</a>
+        </li>
+        <li>
+          <a href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+  <main>
+    <section>
+      <h2>Artículos</h2>
+      <div>
+        <article>
+          <a href="./articulo1.html">
+            <h3>AEO sustituye al SEO como eje estratégico del posicionamiento web mundial en la era de la Inteligencia Artificial</h3>
+            <time datetime="2022-4-7">7 de abril de 2022</time><br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BV2e0AyZf8UqtmyY9-n1XVk36IT-cxHMeQ&s" alt="Imagen Articulo 3" width="200" align="center"><br>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque incidunt pariatur sed similique facere aperiam aut est. Iste, hic non!</p>
+        </article>
+        <article>
+          <a href="#">
+            <h3>Claude Opus 4, la nueva IA de Anthropic, fue capaz de chantajear para garantizar su supervivencia durante pruebas</h3>
+            <time datetime="2021-12-02">2 de diciembre de 2021</time><br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPT1_puU_Kh-jKtKhHkBd1FAdmqa1VuwHsZw&s" alt="Imagen Articulo 1" width="200" align="center"><br>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque incidunt pariatur sed similique facere aperiam aut est. Iste, hic non!</p>
+        </article>
+        <article>
+          <a href="#">
+            <h3>Huawei aspira a un chip de 3 nm en 2026</h3>
+            <time datetime="2022-3-13">13 de marzo de 2022</time><br>
+            <img src="https://actions.es/wp-content/uploads/2021/12/Semiconductores.jpg" alt="Imagen Articulo 2" width="200" align="center"><br>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque incidunt pariatur sed similique facere aperiam aut est. Iste, hic non!</p>
+        </article>
+        <hr>
+    </section>
+    <aside>
+      <h2>Sobre mi</h2>
+      <img src="https://avatars.githubusercontent.com/u/105461619?v=4" alt="Foto de Guillermo Cochrane, Full Stack Developer" width="200" align="center" title="Guillermo Cochrane">
+      <p>¡Hola! Soy Guillermo Cochrane. <em>Genio, millonario, playboy, filántropo.</em>  Ah, no ese era Tony Stark jaja.</p>
+      <p>Soy <strong>Full Stack Developer</strong> y llevo 2 años peleando con código, pero siempre le encuentro la vuelta</p> 
+      <p>Desde chico siempre me gustó entender cómo funcionan las cosas, asi que la programación fue mi epifanía: ¡es la amalgama perfecta entre lógica, desafíos y creatividad!</p>
+      <p>Autodidacta, fan de la tecnología, las series y los juegos RPG. Mis herramientas:</p>
+      <ul>
+        <li><strong>Node.js</strong> (Express + Sequelize) — porque escribir SQL a mano es como usar DOS en 2024 —</li>
+        <li><strong>MySQL</strong></li>
+        <li><strong>React</strong> (sufrir con elegancia)</li>
+        <li><strong>Python/WordPress</strong> "por si acaso... y otros etcéteras"</li>
+      </ul>
+      <p>Total, el conocimiento no ocupa lugar.</p>
+      <p><em>"Si la tecnología fuera fácil, no tendría gracia. Nada como un buen desafío para quemar neuronas."</em></p>
+    </aside>
+    <hr>
+  </main>
+  <footer>
+    <p>Copyright <strong>&copy;<time datetime="2025-6-03">2025</time></strong> by <a href="https://ar.linkedin.com/in/guillermo-cochrane">Guillermo Cochrane</a>.</p>
+    <nav role="contentinfo">
+      <h2>Seguime en:</h2>
+      <ul>
+        <li><a href="https://www.instagram.com/liam.cochrane43/">Instagram</a></li>
+        <li><a href="https://ar.linkedin.com/in/guillermo-cochrane">Linkedin</a></li>
+        <li><a href="https://github.com/GuillermoCochrane">GitHub</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>`
                       },
                     ],
                   },
