@@ -7322,8 +7322,69 @@ const classes = [
                     type: "answer",
                     info: [
                       {
-                        img: "/images/Frontend/class5/class5-9-5.png",
                         alt: "Solución de la página de contacto",
+                        language: "html",
+                        content: `<body>
+  <header>
+    <div>
+      <button>Barra de Navegación</button>
+      <div>
+        <h1>La guarida del desarrolador</h1>
+        <p>Tu lugar donde mantenerte actualizado sobre tecnologías y programación</p>
+      </div>
+      <button>Barra Lateral</button>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./articulo1.html">Artículos</a>
+        </li>
+        <li>
+          <a href="./sobre-mi.html">Sobre Mi</a>
+        </li>
+        <li>
+          <a href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <hr>
+      <h2>Contacto</h2>
+      <form action="/" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="asunto">Asunto:</label><br>
+        <input type="text" id="asunto" name="asunto"><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea><br>
+        <label for="suscripcion">Suscribirse a este boletín:</label>
+        <input type="checkbox" id="suscripcion" name="suscripcion"><br>
+        <button type="submit">Enviar</button>
+      </form>
+      <hr>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright <strong>&copy;<time datetime="2025-6-03">2025</time></strong> by <a href="https://ar.linkedin.com/in/guillermo-cochrane">Guillermo Cochrane</a>.</p>
+    <nav role="contentinfo">
+      <h2>Seguime en:</h2>
+      <ul>
+        <li><a href="https://www.instagram.com/liam.cochrane43/">Instagram</a></li>
+        <li><a href="https://ar.linkedin.com/in/guillermo-cochrane">Linkedin</a></li>
+        <li><a href="https://github.com/GuillermoCochrane">GitHub</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>`
                       },
                     ],
                   }
