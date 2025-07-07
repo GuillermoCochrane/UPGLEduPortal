@@ -83,31 +83,33 @@ function Topics(params) {
 
   return (
     <article>
-      <H2  Data={title} Selector={H2Title} />
-      {
-        data.length == 0 ? <NotFound /> :
-        data.map((item, index) => {
-          return(
-          item.type === "h2" ? <H2 key={index} Data={item.info} /> :
-          item.type === "figure" ? <Figure key={index} Data={item.info} /> :
-          item.type === "h3" ? <H3 key={index}  Data={item.info} /> :
-          item.type === "h4" ? <H4 key={index} Data={item.info} /> :
-          item.type === "p" ? <PTag key={index} Data={item.info} /> :
-          item.type === "ul" ? <UL key={index} Data={item.info} /> : 
-          item.type === "link" ? <Links key={index} Data={item.info} /> :
-          item.type === "answer" ? <Answer key={index} Data={item.info} /> :
-          item.type === "youtube" ? <Youtube key={index} Data={item.info} /> :
-          item.type === "trivia" ? <Trivia key={index} Data={item.info} Answer={item.answer} /> :
-          item.type === "table" ? <Table key={index} Data={item.info} Columns={item.columns} Title={item.title} /> :
-          item.type === "inputCard" ? <ImputCard key={index} Data={item.info} /> :
-          item.type === "code" ? <Code key={index} Data={item.info} /> :
-          item.type === "ol" ? <OL key={index} Data={item.info}  /> : null
-        )})
-      }
-      {
-        data.length == 0 ? null : 
-        <NavButtons Page={page} />
-      }
+      <div className="topic-container">
+        <H2  Data={title} Selector={H2Title} />
+        {
+          data.length == 0 ? <NotFound /> :
+          data.map((item, index) => {
+            return(
+            item.type === "h2" ? <H2 key={index} Data={item.info} /> :
+            item.type === "figure" ? <Figure key={index} Data={item.info} /> :
+            item.type === "h3" ? <H3 key={index}  Data={item.info} /> :
+            item.type === "h4" ? <H4 key={index} Data={item.info} /> :
+            item.type === "p" ? <PTag key={index} Data={item.info} /> :
+            item.type === "ul" ? <UL key={index} Data={item.info} /> : 
+            item.type === "link" ? <Links key={index} Data={item.info} /> :
+            item.type === "answer" ? <Answer key={index} Data={item.info} /> :
+            item.type === "youtube" ? <Youtube key={index} Data={item.info} /> :
+            item.type === "trivia" ? <Trivia key={index} Data={item.info} Answer={item.answer} /> :
+            item.type === "table" ? <Table key={index} Data={item.info} Columns={item.columns} Title={item.title} /> :
+            item.type === "inputCard" ? <ImputCard key={index} Data={item.info} /> :
+            item.type === "code" ? <Code key={index} Data={item.info} /> :
+            item.type === "ol" ? <OL key={index} Data={item.info}  /> : null
+          )})
+        }
+      </div>
+        {
+          data.length == 0 ? null : 
+          <NavButtons Page={page} />
+        }
     </article>
   );
 }
