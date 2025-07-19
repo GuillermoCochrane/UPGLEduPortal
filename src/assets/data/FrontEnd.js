@@ -9191,6 +9191,86 @@ main {
             ]
           }
         ]
+      },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "🎨 UI Moderna con Sombras y Transiciones", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Una interfaz moderna y atractiva mejora la experiencia del usuario y da una apariencia más profesional a tu web. Podemos lograrlo con algunas propiedades clave de CSS:", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "linear-gradient", content: "bold" },
+                  { text: ": crea un ", content: "plain" },
+                  { text: "degradado de colores ", content: "bold" },
+                  { text: "como fondo.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "box-shadow", content: "bold" },
+                  { text: ": agrega ", content: "plain" },
+                  { text: "sombras externas ", content: "bold" },
+                  { text: "para dar sensación de profundidad.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "transform: scale()", content: "bold" },
+                  { text: ": agranda o reduce el tamaño de un elemento al pasar el mouse.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "transition", content: "bold" },
+                  { text: ": hace que los cambios de estilo (como el scale o el color) ocurran de forma ", content: "plain" },
+                  { text: "suave y gradual.", content: "bold" }
+                ]
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Combinando estas propiedades, podés crear botones, tarjetas o secciones que respondan a la interacción del usuario con ", content: "plain" },
+              { text: "fluidez y elegancia.", content: "bold" }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "css",
+              content: `.modern-card {
+  background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.modern-card:hover {
+  transform: scale(1.05);
+}`
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { text: "🧪 Probá aplicar este estilo a una tarjeta para darle un efecto visual atractivo al pasar el mouse.", content: "plain" }
+            ]
+          }
+        ]
       }
     ],
   }
