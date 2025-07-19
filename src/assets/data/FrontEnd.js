@@ -8794,6 +8794,86 @@ main {
         ]
       }
     ],
+  },
+  {
+    class: 7,
+    topics: 6,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "✨ Animaciones y transiciones, Diseño  Responsive y UI Moderna",
+          content: 'plain',
+        },
+      ]
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "🧠 Introducción general", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+                {
+                  text: "CSS ",
+                  content: "plain"
+                },
+                {
+                  text: "(Cascading Style Sheets) ",
+                  content: "bold"
+                },
+                {
+                  text: "es el lenguaje que permite darle estilo y comportamiento visual a una página web. Podemos definir colores, tamaños, posicionamiento... pero también crear animaciones, efectos visuales y un diseño adaptable según el dispositivo.",
+                  content: "plain"
+                }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "En esta clase vamos a aprender:", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "✨ Animaciones ", content: "bold" },
+                  { text: "básicas en CSS", content: "plain" },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "💎 Glassmorphism ", content: "bold" },
+                  { text: "con backdrop-filter", content: "plain" },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "📴Diseño Responsive ", content: "bold" },
+                  { text: "para todos los dispositivos", content: "plain" },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "🎨 UI ", content: "bold" },
+                  { text: "moderna y pulida con transiciones y sombras ", content: "plain" },
+                ]
+              },
+            ]
+          }
+        ],
+      },
+    ],
   }
 ]
 
