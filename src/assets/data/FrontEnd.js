@@ -8873,6 +8873,201 @@ main {
           }
         ],
       },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [{ text: "🔁 Animaciones en CSS", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Una animación es un cambio gradual y fluido de alguna propiedad del estilo: ", content: "plain" },
+              { text: "opacidad", content: "italic" },
+              { text: ", ", content: "plain" },
+              { text: "tamaño", content: "italic" },
+              { text: ", ", content: "plain" },
+              { text: "color", content: "italic" },
+              { text: ", ", content: "plain" },
+              { text: "posición", content: "italic" },
+              { text: ", etc. ", content: "plain" },
+              { text: "CSS lo logra con dos herramientas clave:", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "@keyframes", content: "bold" },
+                  { text: ": define los pasos de la animación.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "animation", content: "bold" },
+                  { text: ": aplica la animación a un elemento.", content: "plain" }
+                ]
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "💓 Pulse – Efecto \"latido\"", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Este efecto simula un corazón que se agranda y achica suavemente. ", content: "plain" },
+              { text: "(Ver archivo ", content: "plain" },
+              { text: "1_latido_animado.html", content: "italic" },
+              { text: ").", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "transform: scale(1.1)", content: "bold" },
+                  { text: " agranda el div un 10%.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "opacity: 0.7", content: "bold" },
+                  { text: " lo hace más transparente al latir.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "animation: pulse 1.5s infinite", content: "bold" },
+                  { text: " repite para siempre cada 1.5 segundos.", content: "plain" }
+                ]
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🌫️ Fade In – Aparición suave", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Cuando querés que algo aparezca lentamente en pantalla. ", content: "plain" },
+              { text: "(Ver ", content: "plain" },
+              { text: "2_fadeinout.html", content: "italic" },
+              { text: ").", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "El elemento arranca invisible ", content: "plain" },
+                  { text: "(opacity: 0).", content: "bold" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Se vuelve visible con ", content: "plain" },
+                  { text: "opacity: 1", content: "bold" },
+                  { text: " en 2 segundos.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "La propiedad ", content: "plain" },
+                  { text: "forwards", content: "bold" },
+                  { text: " mantiene el estado final de la animación.", content: "plain" }
+                ]
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "🔎 Scale al pasar el mouse", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Ideal para botones, tarjetas o imágenes que quieras hacer más interactivas. ", content: "plain" },
+              { text: "(Ver ", content: "plain" },
+              { text: "3_scale.html", content: "italic" },
+              { text: ").", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "transition", content: "bold" },
+                  { text: " suaviza el cambio de tamaño.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "En ", content: "plain" },
+                  { text: "hover", content: "bold" },
+                  { text: ", el botón vuelve a su tamaño original.", content: "plain" }
+                ]
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [{ text: "✨ Glassmorphism y backdrop-filter", content: "plain" }]
+          },
+          {
+            type: "p",
+            info: [
+              { text: "Estilo moderno que simula vidrio esmerilado combinando transparencia y desenfoque. ", content: "plain" },
+              { text: "(Ver ", content: "plain" },
+              { text: "4_glass.html", content: "italic" },
+              { text: ").", content: "plain" }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { text: "backdrop-filter: blur(10px)", content: "bold" },
+                  { text: ": desenfoca el fondo detrás del elemento.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "rgba(255,255,255,0.1)", content: "bold" },
+                  { text: ": color blanco semitransparente.", content: "plain" }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "border-radius y padding", content: "bold" },
+                  { text: ": hacen que se vea elegante.", content: "plain" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
     ],
   }
 ]
