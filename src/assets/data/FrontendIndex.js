@@ -199,6 +199,42 @@ let classIndex = [
           link: "/courses/Frontend/class/6/5"
         },
       ]
+    },
+    {
+      summary: "Animaciones, Responsiveness y UI",
+      classId: 7,
+      links: [
+        {
+          title: "Objetivos de la clase",
+          topicId: 1,
+          link: "/courses/Frontend/class/7/1"
+        },
+        {
+          title: "Animaciones en CSS",
+          topicId: 2,
+          link: "/courses/Frontend/class/7/2"
+        },
+        {
+          title: "Diseño Responsive",
+          topicId: 3,
+          link: "/courses/Frontend/class/7/3"
+        },
+        {
+          title: "UI Moderna",
+          topicId: 4,
+          link: "/courses/Frontend/class/7/4"
+        },
+        {
+          title: "Bonus: Webs con recursos CSS",
+          topicId: 5,
+          link: "/courses/Frontend/class/7/5"
+        },
+        {
+          title: "Actividades",
+          topicId: 6,
+          link: "/courses/Frontend/class/7/6"
+        }
+      ]
     }
   ]
 
