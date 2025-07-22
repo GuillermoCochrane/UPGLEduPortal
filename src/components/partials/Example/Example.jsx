@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import './Example.css';
 
 function Example({ Data }) {  // <<< Recibe la prop como objeto (con Data dentro)
-  console.log("Data recibida:", Data, Array.isArray(Data));
   const { html, css } = useMemo(() => {
     const htmlBlock = Data.find(item => item.info.language === "html"); // Data ahora es el array
     const cssBlock = Data.find(item => item.info.language === "css");
