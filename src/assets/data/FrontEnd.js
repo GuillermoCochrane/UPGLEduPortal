@@ -9108,9 +9108,44 @@ main {
             type: "p",
             info: [
               { text: "Estilo moderno que simula vidrio esmerilado combinando transparencia y desenfoque. ", content: "plain" },
-              { text: "(Ver ", content: "plain" },
-              { text: "4_glass.html", content: "italic" },
-              { text: ").", content: "plain" }
+            ]
+          },
+          {
+            type: "example",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: `<div class="glass">
+  <h2>Glassmorphism</h2>
+  <p>Este es un div con efecto de vidrio.</p>
+</div>`
+                },
+              },
+              { 
+                type: "code", 
+                info: { 
+                  language: "css", content: `body {
+  background: url('https://picsum.photos/800/600') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  color: white;
+  width: 300px;
+  margin: auto;
+}`
+                }
+              }
             ]
           },
           {
