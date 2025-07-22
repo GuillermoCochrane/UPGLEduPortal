@@ -8924,7 +8924,7 @@ main {
               { text: "Este efecto simula un corazón que se agranda y achica suavemente. ", content: "plain" },
             ]
           },
-                    {
+          {
             type: "example",
             info: [
               {
@@ -8988,9 +8988,33 @@ main {
             type: "p",
             info: [
               { text: "Cuando querés que algo aparezca lentamente en pantalla. ", content: "plain" },
-              { text: "(Ver ", content: "plain" },
-              { text: "2_fadeinout.html", content: "italic" },
-              { text: ").", content: "plain" }
+            ]
+          },
+          {
+            type: "example",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: `<div class="fade-in">¡Hola mundo!</div>`
+                },
+              },
+              { 
+                type: "code", 
+                info: { 
+                  language: "css", content: `.fade-in {
+  opacity: 0;
+  animation: fadeIn 5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}`
+                }
+              }
             ]
           },
           {
@@ -9008,7 +9032,7 @@ main {
                 info: [
                   { text: "Se vuelve visible con ", content: "plain" },
                   { text: "opacity: 1", content: "bold" },
-                  { text: " en 2 segundos.", content: "plain" }
+                  { text: " en 5 segundos.", content: "plain" }
                 ]
               },
               {
