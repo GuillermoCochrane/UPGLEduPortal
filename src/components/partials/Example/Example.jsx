@@ -1,10 +1,11 @@
 import { useMemo } from "react";
 import PropTypes from 'prop-types';
+import Code from "../Code/Code.jsx";
 import './Example.css';
 
-function Example({ Data }) {  // <<< Recibe la prop como objeto (con Data dentro)
+function Example({ Data }) {
   const { html, css } = useMemo(() => {
-    const htmlBlock = Data.find(item => item.info.language === "html"); // Data ahora es el array
+    const htmlBlock = Data.find(item => item.info.language === "html"); 
     const cssBlock = Data.find(item => item.info.language === "css");
     return {
       html: htmlBlock?.info.content || "",
@@ -27,12 +28,36 @@ function Example({ Data }) {  // <<< Recibe la prop como objeto (con Data dentro
 
   return (
     <section className="example-wrapper">
-      <iframe 
-        srcDoc={iframeContent} 
-        sandbox={sandboxType}
-        className="preview-iframe"
-        title="Ejemplo renderizado"
-      />
+      {
+        Data.map((data, index) => {
+          if (!data.info) return null;
+          if (data.info.language === "html") {
+            return (
+              <details key={index} open>
+                <summary>Código HTML</summary>
+                <Code Data={data.info} />
+              </details>
+            );
+          }
+          if (data.info.language === "css") {
+            return (
+              <details key={index} open >
+                <summary>Código CSS</summary>
+                <Code Data={data.info} />
+              </details>
+            );
+          }
+        })
+      }
+      <details open>
+        <summary>Ejemplo renderizado</summary>
+        <iframe 
+          srcDoc={iframeContent} 
+          sandbox={sandboxType}
+          className="preview-iframe"
+          title="Ejemplo renderizado"
+        />
+      </details>
     </section>
   );
 }
