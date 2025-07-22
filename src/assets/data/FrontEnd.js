@@ -9053,9 +9053,31 @@ main {
             type: "p",
             info: [
               { text: "Ideal para botones, tarjetas o imágenes que quieras hacer más interactivas. ", content: "plain" },
-              { text: "(Ver ", content: "plain" },
-              { text: "3_scale.html", content: "italic" },
-              { text: ").", content: "plain" }
+            ]
+          },
+          {
+            type: "example",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: `<button class="scale-up">Pasá el mouse</button>`
+                },
+              },
+              { 
+                type: "code", 
+                info: { 
+                  language: "css", content: `.scale-up {
+  transform: scale(0.8);
+  transition: transform 0.5s ease-in-out;
+}
+
+.scale-up:hover {
+  transform: scale(1);
+}`
+                }
+              }
             ]
           },
           {
