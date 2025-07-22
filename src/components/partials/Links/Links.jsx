@@ -9,7 +9,7 @@ function Links({Data}) {
                         href={item.link} 
                         target="_blank" 
                         rel="noopener noreferrer" 
-                        role={item.type !== "link" && "button"}
+                        role={item.type !== "link" ? "button" : undefined}
                         key={index}>
                         {
                             item.content == "plain" && item.text
