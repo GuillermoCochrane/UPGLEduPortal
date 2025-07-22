@@ -8922,9 +8922,36 @@ main {
             type: "p",
             info: [
               { text: "Este efecto simula un corazón que se agranda y achica suavemente. ", content: "plain" },
-              { text: "(Ver archivo ", content: "plain" },
-              { text: "1_latido_animado.html", content: "italic" },
-              { text: ").", content: "plain" }
+            ]
+          },
+                    {
+            type: "example",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: `<div class="pulse"></div>`
+                },
+              },
+              { 
+                type: "code", 
+                info: { 
+                  language: "css", content: `.pulse {
+  width: 100px;
+  height: 100px;
+  background: crimson;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}`
+                }
+              }
             ]
           },
           {
