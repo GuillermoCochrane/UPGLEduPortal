@@ -9358,6 +9358,43 @@ main {
             ]
           },
           {
+            type: "h4",
+            info: [{ text: "Ejemplo de UI Moderna", content: "plain" }]
+          },
+          {
+            type: "example",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: `<button class="button-ui">Botón pro</button>`
+                },
+              },
+              { 
+                type: "code", 
+                info: { 
+                  language: "css", content: `.button-ui {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.button-ui:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}`
+                }
+              }
+            ]
+          },
+          {
             type: "ul",
             info: [
               {
@@ -9402,26 +9439,6 @@ main {
               { text: "fluidez y elegancia.", content: "bold" }
             ]
           },
-          {
-            type: "code",
-            info: {
-              language: "css",
-              content: `.modern-card {
-  background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
-}
-.modern-card:hover {
-  transform: scale(1.05);
-}`
-            }
-          },
-          {
-            type: "p",
-            info: [
-              { text: "🧪 Probá aplicar este estilo a una tarjeta para darle un efecto visual atractivo al pasar el mouse.", content: "plain" }
-            ]
-          }
         ]
       },
       {
