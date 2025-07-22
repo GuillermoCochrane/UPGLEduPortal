@@ -104,7 +104,7 @@ p {
 	margin-bottom: 1em;
 }
 
-/* el primer p del li del ul, que tien mas de un p */
+/* el primer p del li del ul, que tiene mas de un p */
 ul li:has(p:nth-of-type(2)) p:first-of-type { 
 	margin-bottom: 0;
 }
