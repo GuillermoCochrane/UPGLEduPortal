@@ -1,0 +1,16 @@
+/* example.css */
+.example-wrapper {
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.preview-iframe {
+  width: 100%;
+  border: none;
+  background: white;
+  display: block;
+}
