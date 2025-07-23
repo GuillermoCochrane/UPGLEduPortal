@@ -194,7 +194,7 @@ let classIndex = [
           link: "/courses/Frontend/class/6/4"
         },
         {
-          title: "Actividades prácticas",
+          title: "Actividades",
           topicId: 5,
           link: "/courses/Frontend/class/6/5"
         },

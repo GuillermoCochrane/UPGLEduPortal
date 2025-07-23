@@ -2874,199 +2874,6 @@ const classes = [
               }
             ]
           },
-          {
-            type: "h4",
-            info: [
-              {
-                text: "Actividad 2: ",
-                content: "bold",
-              },
-              {
-                text: "Listas desordenadas y ordenadas",
-                content: "plain",
-              },
-            ],
-          },
-          {
-            type: "p",
-            info: [
-              {
-                text: "Objetivo: ",
-                content: "bold",
-              },
-              {
-                text: "Entender cómo organizar información de manera clara y ordenada utilizando listas.",
-                content: "plain",
-              },
-            ],
-          },
-          {
-            type: "ol",
-            info: [
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "Crear un archivo llamado ",
-                    content: "plain",
-                  },
-                  {
-                    text: "listas.html",
-                    content: "bold",
-                  },
-                  {
-                    text: ".",
-                    content: "plain",
-                  },
-                ],
-              },
-              {
-                type: "li",
-                info: [
-                  {
-                    text: "Crear:",
-                    content: "plain",
-                  },
-                  {
-                    type: "ul",
-                    info: [
-                      {
-                        type: "li",
-                        info: [
-                          {
-                            text: "Una lista desordenada con al menos 5 cosas favoritas ",
-                            content: "plain",
-                          },
-                          {
-                            text: "(películas, comidas, etc.)",
-                            content: "bold",
-                          },
-                          {
-                            text: ".",
-                            content: "plain",
-                          },
-                        ],
-                      },
-                      {
-                        type: "li",
-                        info: [
-                          {
-                            text: "Una lista ordenada con los pasos para hacer una receta.",
-                            content: "plain",
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                ],
-              },
-            ]
-          },
-          {
-            type: "p",
-            info: [
-              {
-                text: "Bonus: ",
-                content: "bold",
-              },
-              {
-                text: "Agregar un título usando ",
-                content: "plain",
-              },
-              {
-                text: "<h2>",
-                content: "bold",
-              },
-              {
-                text: " encima de cada sección.",
-                content: "plain",
-              },
-            ],
-          },
-          {
-            type: "answer",
-            info: [
-              {
-                alt: "Solución listas",
-                language: "html",
-                content: `<body>
-  <h1>Listas</h1>
-  <hr>
-  <h2>Listado de series favoritas</h2>
-  <hr>
-  <ul>
-    <li>La rueda del tiempo</li>
-    <li>El cuento de la criada</li>
-    <li>Los anillos de poder</li>
-    <li>Andor</li>
-    <li>Silo</li>
-    <li>Severance</li>
-  </ul>
-  <hr>
-  <h2>🍕 Pizza Casera Paso a Paso</h2>
-  <hr>
-  <h2><strong>Ingredientes</strong></h2>
-  <hr>
-  <h3>🍚 Masa (2 pizzas medianas)</h3>
-  <ul>
-    <li>500 g de harina de trigo (puede ser harina 000 o de fuerza)</li>
-    <li>300 ml de agua tibia </li>
-    <li>2 cucharadas de aceite de oliva</li>
-    <li>10 g de sal</li>
-    <li>1 cucharadita de azúcar</li>
-    <li>7 g de levadura seca (o 15 g de levadura fresca)</li>
-  </ul>
-  <br>
-  <h3>🍅Salsa de tomate:</h3>
-  <ul>
-    <li>1 lata de tomate triturado (400 g)</li>
-    <li>2 dientes de ajo picados</li>
-    <li>1 cucharadita de orégano</li>
-    <li>1 cucharadita de albahaca</li>
-    <li>Sal y pimienta al gusto</li>
-    <li>1 cucharada de aceite de oliva</li>
-  </ul>
-  <br>
-  <h3>🍜Toppings (a elección):</h3>
-  <ul>
-    <li>Queso mozzarella rallado (200 g aprox.)</li>
-    <li>Jamón, pepperoni, champiñones, pimientos, etc.</li>
-    <li>Albahaca fresca o orégano para decorar</li>
-  </ul>
-  <hr>
-  <h2>Instrucciones</h2>
-  <hr>
-  <h3>1. Preparar la masa</h3>
-  <ol>
-    <li><strong>Activar la levadura:</strong> Mezcla agua tibia, azúcar y levadura. Deja reposar 5-10 minutos hasta que espume.</li>
-    <li><strong>Amasar:</strong> En un bowl, combina harina y sal. Agrega la mezcla de levadura y aceite. Amasa hasta integrar.</li>
-    <li><strong>Reposo:</strong> Forma una bola, tapa con un paño y deja levar 1 hora (hasta que doble su tamaño).</li>
-  </ol>
-  <br>
-  <h3>2. Preparar la salsa</h3>
-  <ol>
-    <li>Sofríe el ajo en aceite hasta dorar.</li>
-    <li>Añade tomate, orégano, albahaca, sal y pimienta. Cocina 10-15 minutos a fuego bajo. Enfría.</li>
-  </ol>
-  <br>
-  <h3>3. Armar la pizza</h3>
-  <ol>
-    <li><strong>Estirar la masa:</strong> Divide en 2 porciones y estírala con rodillo o manos.</li>
-    <li><strong>Colocar en bandeja:</strong> Usa una bandeja enharinada o con papel manteca.</li>
-    <li><strong>Agregar salsa:</strong> Unta la salsa, dejando borde para el crust.</li>
-    <li><strong>Toppings:</strong> Esparce queso e ingredientes elegidos.</li>
-  </ol>
-  <br>
-  <h3>4. Hornear</h3>
-  <ol>
-    <li>Precalienta el horno a 200-220°C (arriba/abajo) por 10 minutos.</li>
-    <li>Hornea 12-15 minutos (hasta que el queso se derrita y la masa dore).</li>
-  </ol>
-  <hr>
-</body>`
-              }
-            ]
-          },
         ]
       }
     ],
@@ -9642,6 +9449,183 @@ main {
           }
         ]
       },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Actividades 💬",
+                content: "plain"
+              }
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Actividad 1:",
+                content: "bold"
+              },
+              {
+                text: " Tarjeta con animaciones y diseño moderno",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Objetivo: ",
+                content: "bold"
+              },
+              {
+                text: "Poner en práctica las animaciones básicas, el efecto glassmorphism y el diseño responsive usando ",
+                content: "plain"
+              },
+              {
+                text: "HTML y CSS.",
+                content: "bold"
+              }
+            ]
+          },
+          {
+            type: "ol",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Crear un archivo llamado ",
+                    content: "plain"
+                  },
+                  {
+                    text: "tarjeta_animada.html",
+                    content: "bold"
+                  },
+                  {
+                    text: ".",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Diseñar una tarjeta visual que incluya:",
+                    content: "plain"
+                  },
+                  {
+                    type: "ul",
+                    info: [
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Un contenedor con efecto ",
+                            content: "plain"
+                          },
+                          {
+                            text: "glassmorphism ",
+                            content: "bold"
+                          },
+                          {
+                            text: "(transparencia + desenfoque).",
+                            content: "plain"
+                          }
+                        ]
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Una animación de ",
+                            content: "plain"
+                          },
+                          {
+                            text: "fade-in",
+                            content: "bold"
+                          },
+                          {
+                            text: " al aparecer en pantalla.",
+                            content: "plain"
+                          }
+                        ]
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Un ",
+                            content: "plain"
+                          },
+                          {
+                            text: "botón con efecto scale",
+                            content: "bold"
+                          },
+                          {
+                            text: " al pasar el mouse.",
+                            content: "plain"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Aplicar estilos responsive usando ",
+                    content: "plain"
+                  },
+                  {
+                    text: "@media queries",
+                    content: "bold"
+                  },
+                  {
+                    text: " para que la tarjeta se vea bien en celulares.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Usar colores, sombras y bordes redondeados para lograr una ",
+                    content: "plain"
+                  },
+                  {
+                    text: "UI moderna y estética.",
+                    content: "bold"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Bonus:",
+                content: "bold"
+              },
+              {
+                text: " agregá una imagen o ícono, para mejorar la presentación visual.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            
+          }
+        ]
+      }
     ],
   },
 ]
