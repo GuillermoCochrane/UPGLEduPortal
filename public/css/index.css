@@ -176,7 +176,7 @@ article ol{
 	counter-reset: none !important;
 	margin-block: 1em;
 	padding-inline-start: 1em;
-	margin-inline: 5px;
+	margin-inline: 1.5em;
 }
 
 article ol{
