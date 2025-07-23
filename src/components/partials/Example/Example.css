@@ -9,10 +9,24 @@
   margin-inline: auto;
 }
 
+.example-wrapper details {
+  margin-inline: auto;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.example-wrapper details .code-container {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 800px;
+}
+
 .preview-iframe {
   border: none;
   background: white;
   display: block;
   border-radius: 7px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin-inline: auto;
 }
