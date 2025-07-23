@@ -9377,6 +9377,8 @@ main {
           },
           {
             type: "example",
+            height: "70",
+            width:  "180",
             info: [
               {
                 type: "code",
@@ -9398,6 +9400,8 @@ main {
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  display: block;
+  margin: auto
 }
 
 .button-ui:hover {
