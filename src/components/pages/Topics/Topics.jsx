@@ -103,7 +103,7 @@ function Topics(params) {
             item.type === "table" ? <Table key={index} Data={item.info} Columns={item.columns} Title={item.title} /> :
             item.type === "inputCard" ? <ImputCard key={index} Data={item.info} /> :
             item.type === "code" ? <Code key={index} Data={item.info} /> :
-            item.type === "example" ? <Example key={index} Data={item.info} /> :
+            item.type === "example" ? <Example key={index} Data={item.info} height={item.height} width={item.width} title={item.title} /> :
             item.type === "ol" ? <OL key={index} Data={item.info}  /> : null
           )})
         }
