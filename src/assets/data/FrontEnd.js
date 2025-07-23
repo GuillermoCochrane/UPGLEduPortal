@@ -9242,6 +9242,7 @@ main {
           },
           {
             type: "example",
+            height: 110,
             info: [
               {
                 type: "code",
@@ -9256,26 +9257,27 @@ main {
                 type: "code", 
                 info: { 
                   language: "css", content: `.responsive-box {
-        background: teal;
-        color: white;
-        padding: 2rem;
-        font-size: 1.2rem;
-        text-align: center;
-    }
+    background: teal;
+    color: white;
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
 
-    /* Teléfonos */
-    @media (max-width: 600px) {
-    .responsive-box {
-        background: orange;
-        font-size: 1rem;
-    }
-    }
+/* Teléfonos */
+@media (max-width: 600px) {
+  .responsive-box {
+      background: orange;
+      font-size: 1rem;
+  }
+}
 
-    /* Tablets */
-    @media (min-width: 601px) and (max-width: 1024px) {
-    .responsive-box {
-        background: royalblue;
-    }`
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .responsive-box {
+      background: royalblue;
+  }
+}`
                 }
               }
             ]
