@@ -8926,6 +8926,8 @@ main {
           },
           {
             type: "example",
+            height: 120,
+            width: 120,
             info: [
               {
                 type: "code",
@@ -8941,6 +8943,7 @@ main {
   width: 100px;
   height: 100px;
   background: crimson;
+  margin:auto;
   border-radius: 50%;
   animation: pulse 1.5s infinite;
 }
@@ -8992,6 +8995,8 @@ main {
           },
           {
             type: "example",
+            height: 40,
+            width: 150,
             info: [
               {
                 type: "code",
@@ -9004,6 +9009,8 @@ main {
                 type: "code", 
                 info: { 
                   language: "css", content: `.fade-in {
+  width: 100%;
+  text-align: center;
   opacity: 0;
   animation: fadeIn 5s forwards;
 }
@@ -9057,6 +9064,8 @@ main {
           },
           {
             type: "example",
+            height: 40,
+            width: 150,
             info: [
               {
                 type: "code",
@@ -9069,6 +9078,8 @@ main {
                 type: "code", 
                 info: { 
                   language: "css", content: `.scale-up {
+  display: block;
+  margin: auto;
   transform: scale(0.8);
   transition: transform 0.5s ease-in-out;
 }
@@ -9112,6 +9123,7 @@ main {
           },
           {
             type: "example",
+            height: 400,
             info: [
               {
                 type: "code",
@@ -9128,7 +9140,7 @@ main {
                 info: { 
                   language: "css", content: `body {
   background: url('https://picsum.photos/800/600') no-repeat center center/cover;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
