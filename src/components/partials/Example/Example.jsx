@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Code from "../Code/Code.jsx";
 import './Example.css';
 
-function Example({ Data }) {
+function Example({ Data, height = "auto", width = "100%", title = "Ejemplo" }) {
   const { html, css } = useMemo(() => {
     const htmlBlock = Data.find(item => item.info.language === "html"); 
     const cssBlock = Data.find(item => item.info.language === "css");
@@ -55,7 +55,9 @@ function Example({ Data }) {
           srcDoc={iframeContent} 
           sandbox={sandboxType}
           className="preview-iframe"
-          title="Ejemplo renderizado"
+          title={title}
+          height={height}
+          width={width}
         />
       </details>
     </section>
@@ -63,7 +65,10 @@ function Example({ Data }) {
 }
 
 Example.propTypes = {
-    Data: PropTypes.array.isRequired
+    Data: PropTypes.array.isRequired,
+    height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    title: PropTypes.string
 };
 
 export default Example;
