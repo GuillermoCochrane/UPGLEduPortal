@@ -345,6 +345,7 @@ article.home{
 	display: block;
 	margin: auto;
 	max-width: 300px;
+	margin-top: 2em;
 }
 
 .UPGL{
@@ -459,6 +460,12 @@ label input{
 		overflow: hidden;
 	}
 
+	article.home{
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
 	header{
 		height: 10vh;
 		min-height: 68px;
@@ -493,8 +500,20 @@ label input{
 		margin: auto;
 	}
 
-	.logo{
-		width: 30%;
+	section.course-index{
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+		margin-top: 15%;
+	}
+
+	section.course-index nav{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		padding: unset;
 	}
 
 	table{
