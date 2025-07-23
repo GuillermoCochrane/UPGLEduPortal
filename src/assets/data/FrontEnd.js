@@ -9622,10 +9622,105 @@ main {
             ]
           },
           {
-            
-          }
+            type: "example",
+            height: "500",
+            width: "600",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: `<body>
+  <main>
+    <h1>Ejercicio Extra: UI Moderna</h1>
+    <article class="card">
+      <h2>Reflejos del Atardecer</h2>
+      <p>Donde el agua abraza al cielo<br>y el tiempo se vuelve cristal.</p>
+      <button>Sumergirme</button>
+    </article>
+  </main>
+</body>`
+                },
+              },
+              { 
+                type: "code", 
+                info: { 
+                  language: "css", 
+                  content: `body {
+  background: url('https://img.freepik.com/foto-gratis/arbol-solitario_181624-46361.jpg') no-repeat center center/cover;
+  min-height: 96vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ddd;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+.card {
+  font-family: 'Playfair Display', serif; 
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 1.5rem;
+  color: darkblue;
+  width: 200px;
+  margin: auto;
+  opacity: 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 5s forwards
+}
+
+h2 { 
+  font-size: 1.5rem;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+button {
+    background: linear-gradient(120deg, #023480,  #227aff);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+@media (min-width: 600px){
+  .card {
+    width: 40%;
+    max-width: 400px;
+    padding: 2rem;
+  }
+  h2 { font-size: 2rem; }
+  p { font-size: 1.5rem; }
+}`
+                }
+              }
+            ]
+          },
         ]
-      }
+      },
     ],
   },
 ]
