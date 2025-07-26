@@ -9870,6 +9870,263 @@ button:hover {
           },
         ],
       },
+      {
+        topic: 2,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "🗂️ ¿Qué es el DOM?",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "El ",
+                content: "plain"
+              },
+              {
+                text: "DOM",
+                content: "bold"
+              },
+              {
+                text: " (Document Object Model) es una representación estructurada del documento ",
+                content: "plain"
+              },
+              {
+                text: "HTML ",
+                content: "bold"
+              },
+              { text: "en forma de árbol, donde cada elemento ", content: "plain" },
+              { text: "HTML", content: "bold" },
+              { text: " es un objeto que puede ser modificado con ", content: "plain" },
+              { text: "JavaScript.", content: "bold" },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Por ejemplo, manejar el ",
+                content: "plain"
+              },
+              {
+                text: "DOM",
+                content: "bold"
+              },
+              {
+                text: " nos permite:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Cambiar el texto de un párrafo.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Modificar estilos como colores o tamaños.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Agregar o eliminar elementos del ",
+                    content: "plain"
+                  },
+                  {
+                    text: "HTML.",
+                    content: "bold"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Responder a eventos como clics, teclas o movimientos del mouse.",
+                    content: "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "html",
+              content: `<html>\n  <body>\n    <h1>Hola</h1>\n    <p id="parrafo">Texto</p>\n  </body>\n</html>`
+            }
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: `document.getElementById("parrafo").innerText = "Texto modificado";`
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🔍 Métodos comunes para acceder al DOM",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "document.getElementById(\"id\")",
+                    content: "bold"
+                  },
+                  {
+                    text: ": selecciona un elemento por su identificador.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "document.querySelector(\"selector\")",
+                    content: "bold"
+                  },
+                  {
+                    text: ': selecciona un elemento por su ',
+                    content: "plain"
+                  },
+                  {
+                    text: 'selector. ',
+                    content: "bold"
+                  },
+                  {
+                    text: "Para selccionar por id, usamos ",
+                    content: "plain"
+                  },
+                  {
+                    text: '#id ',
+                    content: "bold"
+                  },
+                  {
+                    text: 'en lugar de ',
+                    content: "plain"
+                  },
+                  {
+                    text: "selector",
+                    content: "bold"
+                  },
+                  {
+                    text: " y para clases usamos ",
+                    content: "plain"
+                  },
+                  {
+                    text: '.class',
+                    content: "bold"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "document.querySelectorAll(\"selector\")",
+                    content: "bold"
+                  },
+                  {
+                    text: ': selecciona todos los elementos ',
+                    content: "plain"
+                  },
+                  {
+                    text: 'selector',
+                    content: "bold"
+                  },
+                  {
+                    text: " que coincidan con el selector.",
+                    content: "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🛠️ Propiedades útiles",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "innerText",
+                    content: "bold"
+                  },
+                  {
+                    text: ": cambia el texto del elemento.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "innerHTML",
+                    content: "bold"
+                  },
+                  {
+                    text: ": cambia el HTML interno.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "style",
+                    content: "bold"
+                  },
+                  {
+                    text: ": cambia estilos en línea.",
+                    content: "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ],
   }
 ]
