@@ -235,6 +235,47 @@ let classIndex = [
           link: "/courses/Frontend/class/7/6"
         }
       ]
+    },
+    {
+      summary: "JavaScript para Desarrollo Web",
+      classId: 8,
+      links: [
+        {
+          title: "Objetivos de la clase",
+          topicId: 1,
+          link: "/courses/Frontend/class/8/1"
+        },
+        {
+          title: "¿Qué es el DOM?",
+          topicId: 2,
+          link: "/courses/Frontend/class/8/2"
+        },
+        {
+          title: "¿Qué es JavaScript?",
+          topicId: 3,
+          link: "/courses/Frontend/class/8/3"
+        },
+        {
+          title: "¿Como se usa JavaScript?",
+          topicId: 4,
+          link: "/courses/Frontend/class/8/4"
+        },
+        {
+          title: "Eventos en JavaScript",
+          topicId: 5,
+          link: "/courses/Frontend/class/8/5"
+        },
+        {
+          title: "Variables, Constantes y Funciones",
+          topicId: 6,
+          link: "/courses/Frontend/class/8/6"
+        },
+        {
+          title: "Actividades",
+          topicId: 7,
+          link: "/courses/Frontend/class/8/7"
+        },
+      ]
     }
   ]
 
