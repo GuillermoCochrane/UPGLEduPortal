@@ -4,6 +4,7 @@ import 'prismjs';
 import 'prismjs/themes/prism-tomorrow.css'; // o el tema que elijas
 import 'prismjs/components/prism-http.min'; //podemos añadir mas lenguajes
 import 'prismjs/components/prism-css.min.js';
+import 'prismjs/components/prism-javascript.min';
 import './code.css';
 
 function Code({ Data }) {
