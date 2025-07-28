@@ -10773,6 +10773,307 @@ button:hover {
             }
           }
         ]
+      },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "✨ Variables, Constantes y Funciones",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Variables",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Una ",
+                content: "plain"
+              },
+              {
+                text: "variable",
+                content: "bold"
+              },
+              {
+                text: " es un contenedor que guarda un valor para usarlo luego en el programa.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Sintaxis: ",
+                content: "bold"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: 'let nombre = "Gaspar";\nlet edad = 25;'
+            }
+          },
+          {
+            type: "p",
+            info: [
+              
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "let ",
+                content: "bold"
+              },
+              {
+                text: "se usa para declarar variables modernas y el valor ",
+                content: "plain"
+              },
+              {
+                text: "puede cambiar",
+                content: "bold"
+              },
+              {
+                text: " más adelante:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: "edad = 26;"
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Tipos de declaraciones",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "let",
+                    content: "bold"
+                  },
+                  {
+                    text: " ➔ Variable de ámbito limitado (recomendado).",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "var",
+                    content: "bold"
+                  },
+                  {
+                    text: " ➔ Variable de ámbito global o de función (antiguo, menos recomendable).",
+                    content: "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Constantes",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Una ",
+                content: "plain"
+              },
+              {
+                text: "constante",
+                content: "bold"
+              },
+              {
+                text: " es similar a una variable, pero su valor ",
+                content: "plain"
+              },
+              {
+                text: "no puede cambiar",
+                content: "bold"
+              },
+              {
+                text: " una vez asignado.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Sintaxis: ",
+                content: "bold"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: 'const PI = 3.1416;\nconst nombre = "Gaspar";'
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Si intentás cambiarla, lanza un error:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: "PI = 3; // ❌ Error: No se puede cambiar una constante"
+            }
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "Funciones",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Una ",
+                content: "plain"
+              },
+              {
+                text: "función",
+                content: "bold"
+              },
+              {
+                text: " es un bloque de código que realiza una tarea específica y puede reutilizarse.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Sintaxis: ",
+                content: "bold"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: 'function saludar() {\n  console.log("¡Hola, bienvenido!");\n}\n\nsaludar(); // Imprime: ¡Hola, bienvenido!'
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Con parámetros",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: 'function sumar(a, b) {\n  return a + b;\n}\n\nlet resultado = sumar(5, 3);\nconsole.log(resultado); // 8'
+            }
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Los parámetros ",
+                    content: "plain"
+                  },
+                  {
+                    text: "a",
+                    content: "bold"
+                  },
+                  {
+                    text: " y ",
+                    content: "plain"
+                  },
+                  {
+                    text: "b",
+                    content: "bold"
+                  },
+                  {
+                    text: " permiten que la función trabaje con valores externos.",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "",
+                    content: "plain"
+                  },
+                  {
+                    text: "return",
+                    content: "bold"
+                  },
+                  {
+                    text: " devuelve el resultado.",
+                    content: "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
   }
