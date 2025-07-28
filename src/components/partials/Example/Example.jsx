@@ -38,41 +38,33 @@ function Example({ Data, height = "auto", width = "100%", title = "Ejemplo" }) {
     </html>
   `;
 
-    const sandboxType = hasJS 
-    ? "allow-scripts allow-same-origin" 
-    : "allow-same-origin";
+  const sandboxType = hasJS 
+  ? "allow-scripts allow-same-origin" 
+  : "allow-same-origin";
+
+  const languageTitles = {
+    html: "HTML",
+    css: "CSS",
+    javascript: "JavaScript"
+  };
 
   return (
     <section className="example-wrapper">
+      {/* Renderiza cada bloque de código, con su título de acuerdo a su lenguaje */}
       {
         Data.map((data, index) => {
-          if (!data.info) return null;
-          if (data.info.language === "html") {
-            return (
-              <details key={index} open>
-                <summary>Código HTML</summary>
-                <Code Data={data.info} />
-              </details>
-            );
-          }
-          if (data.info.language === "css") {
-            return (
-              <details key={index} open >
-                <summary>Código CSS</summary>
-                <Code Data={data.info} />
-              </details>
-            );
-          }
-          if (data.info.language === "javascript") {
-            return (
-              <details key={index} open>
-                <summary>Código JavaScript</summary>
-                <Code Data={data.info} />
-              </details>
-            );
-          }
+
+          if (!data.info || !languageTitles[data.info.language]) return null;
+          return (
+            <details key={index} open>
+              <summary>Sintaxis {languageTitles[data.info.language]}</summary>
+              <Code Data={data.info} />
+            </details>
+          );
         })
+
       }
+
       <details open>
         <summary>Ejemplo renderizado</summary>
         <iframe 
