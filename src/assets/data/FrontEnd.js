@@ -11074,6 +11074,272 @@ button:hover {
             ]
           }
         ]
+      },
+      {
+        topic: 7,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "🎨 Selector RGB - Material de Estudio",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Descargá este ejemplo práctico que analizaremos en clase. Contiene un selector de colores RGB que demuestra:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Manipulación del DOM con ",
+                    content: "plain"
+                  },
+                  {
+                    text: "getElementById",
+                    content: "bold"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eventos con ",
+                    content: "plain"
+                  },
+                  {
+                    text: "addEventListener",
+                    content: "bold"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Modificación dinámica de estilos ",
+                    content: "plain"
+                  },
+                  {
+                    text: "CSS",
+                    content: "bold"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "example",
+            height: 400,
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: `<body>
+    <h1>Controla el color de fondo con RGB</h1>
+    <div class="color-control">
+        <label class="color-label" id="r-label">Rojo</label>
+        <input type="range" id="input-rojo" min="0" max="255" value="128">
+        <label class="value" id="valor-rojo">128</label>
+    </div>
+    <div class="color-control">
+        <label class="color-label" id="g-label">Verde</label>
+        <input type="range" id="input-verde" min="0" max="255" value="128">
+        <label class="value" id="valor-verde">128</label>
+    </div>
+    <div class="color-control">
+        <label class="color-label" id="b-label">Azul</label>
+        <input type="range" id="input-azul" min="0" max="255" value="128">
+        <label class="value" id="valor-azul">128</label>
+    </div>
+    <div class="rgb-preview">
+        <strong>RGB:</strong> <label id="rgb-salida">rgb(128, 128, 128)</label>
+    </div>
+    <script src="script.js"></script>
+</body>`,
+                  title: "Estructura HTML"
+                }
+              },
+              {
+                type: "code",
+                info: {
+                  language: "css",
+                  content: `body {
+    transition: background 0.3s;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.color-control {
+    margin: 20px auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.color-label {
+    width: 40px;
+}
+
+.value {
+    width: 40px;
+    font-weight: bold;
+}
+
+.rgb-preview {
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    width: 320px;
+    box-shadow: 0 2px 8px #0002;
+}
+
+input[type="range"] {
+    width: 200px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: none;
+    height: 4px;    
+    border-radius: 2px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: rgb(154, 107, 107);
+    cursor: pointer;
+    background: var(--thumb-color, rgb(154, 107, 107));
+}
+
+`,
+                  title: "Estilos CSS"
+                }
+              },
+              {
+                type: "code",
+                info: {
+                  language: "javascript",
+                  content: `// Selecciona los elementos de los inputs 
+const rojo = document.getElementById('input-rojo');
+const verde = document.getElementById('input-verde');
+const azul = document.getElementById('input-azul');
+// Selecciona los elementos donde se mostrarán los valores
+const rValue = document.getElementById('valor-rojo');
+const gValue = document.getElementById('valor-verde');
+const bValue = document.getElementById('valor-azul');
+// Selecciona el elemento donde se mostrará el color RGB
+const rgbString = document.getElementById('rgb-salida');
+
+// Actualiza el fondo, los valores y el color de los inputs
+function cambiarColores() {
+    // Obtiene los valores actuales
+    const rojoValor = rojo.value;
+    const verdeValor = verde.value;
+    const azulValor = azul.value;
+
+    // Actualiza los valores mostrados
+    rValue.textContent = rojoValor;
+    gValue.textContent = verdeValor;
+    bValue.textContent = azulValor;
+
+    // Actualiza el fondo de la página y el texto RGB
+    const rgb = \`rgb(\${rojoValor}, \${verdeValor}, \${azulValor})\`;
+    document.body.style.background = rgb;
+    rgbString.textContent = rgb;
+
+    // Actualiza el color de fondo
+    rojo.style.background = \`rgb(\${rojoValor},0,0)\`;
+    verde.style.background = \`rgb(0,\${verdeValor},0)\`;
+    azul.style.background = \`rgb(0,0,\${azulValor})\`;
+
+    // Actualiza el thumb de fondo
+    rojo.style.setProperty('--thumb-color', \`rgb(\${rojoValor},0,0)\`);
+    verde.style.setProperty('--thumb-color', \`rgb(0,\${verdeValor},0)\`);
+    azul.style.setProperty('--thumb-color', \`rgb(0,0,\${azulValor})\`);
+}
+
+// Escucha los cambios en los inputs y actualiza la función
+[rojo, verde, azul].forEach(input => {
+    input.addEventListener('input', cambiarColores);
+});
+
+// Inicializa la función al cargar la página
+cambiarColores();`,
+                  title: "Lógica JavaScript"
+                }
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "💡 Consejo: ",  
+                content: "bold"
+              },
+              {
+                text: "Antes de la clase, explorá cómo funciona el código e intentá responder:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "¿Cómo se actualiza el color de fondo cuando mueves los sliders?",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "¿Qué hace el método ",
+                    content: "plain"
+                  },
+                  {
+                    text: "forEach",
+                    content: "bold"
+                  },
+                  {
+                    text: " en este contexto?",
+                    content: "plain"
+                  }
+                ]
+              }
+            ]
+          },
+        ]
       }
     ],
   }
