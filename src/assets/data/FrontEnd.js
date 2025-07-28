@@ -10523,6 +10523,256 @@ button:hover {
             ]
           }
         ]
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "🖱️ Eventos en JavaScript",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "JavaScript puede reaccionar a ",
+                content: "plain"
+              },
+              {
+                text: "eventos",
+                content: "bold"
+              },
+              {
+                text: " como clicks, cambios en inputs, movimiento del mouse o teclas presionadas. Estos permiten crear interfaces interactivas.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "📌 Tipos comunes de eventos",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eventos del mouse: ",
+                    content: "plain"
+                  },
+                  {
+                    text: "click, dblclick, mouseover, mouseout",
+                    content: "bold"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eventos del teclado: ",
+                    content: "plain"
+                  },
+                  {
+                    text: "keydown, keyup, keypress",
+                    content: "bold"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eventos de formularios: ",
+                    content: "plain"
+                  },
+                  {
+                    text: "submit, change, focus, blur",
+                    content: "bold"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Eventos de ventana: ",
+                    content: "plain"
+                  },
+                  {
+                    text: "load, resize, scroll",
+                    content: "bold"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🛠️ Ejemplo de evento click (HTML inline)",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "html",
+              content: '<button onclick="alert(\'¡Click detectado!\')">Haz clic</button>'
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🔄 Ejemplo de evento change",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "html",
+              content: '<input onchange="console.log(\'El valor cambió\')" />'
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🎯 Método recomendado: addEventListener",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En lugar de usar atributos ",
+                content: "plain"
+              },
+              {
+                text: "HTML ",
+                content: "bold"
+              },
+              {
+                text: "como ",
+                content: "plain"
+              },
+              {
+                text: "onclick",
+                content: "bold"
+              },
+              {
+                text: ", es mejor separar el ",
+                content: "plain"
+              },
+              {
+                text: "JavaScript ",
+                content: "italic"
+              },
+              {
+                text: "del ",
+                content: "plain"
+              },
+              {
+                text: "HTML:",
+                content: "italic"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En el HTML:",
+                content: "bold"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "html",
+              content: '<button id="miBoton">Haz clic</button>',
+              title: "HTML"
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "En el JavaScript externo:",
+                content: "bold"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: 'document.getElementById("miBoton").addEventListener("click", () => {\n  alert("¡Método moderno!");\n});',
+              title: "JavaScript"
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "⚡ Event Object (información del evento)",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Los eventos proporcionan un objeto con datos útiles:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: 'document.addEventListener("click", (event) => {\n  console.log("Coordenadas:", event.clientX, event.clientY);\n  console.log("Elemento clickeado:", event.target);\n});'
+            }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🚫 Prevenir comportamientos por defecto",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: 'document.querySelector("a").addEventListener("click", (e) => {\n  e.preventDefault(); // Evita que el link navegue\n  console.log("Link clickeado pero no navega");\n});'
+            }
+          }
+        ]
       }
     ],
   }
