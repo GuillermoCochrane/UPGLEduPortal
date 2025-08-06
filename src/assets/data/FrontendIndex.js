@@ -276,6 +276,42 @@ let classIndex = [
           link: "/courses/Frontend/class/8/7"
         },
       ]
+    },
+    {
+      summary: "Tipos de Datos y Estructuras",
+      classId: 9,
+      links: [
+        {
+          title: "Tipos de Datos en JavaScript",
+          topicId: 1,
+          link: "/courses/Frontend/class/9/1"
+        },
+        {
+          title: "Variables y Constantes",
+          topicId: 2,
+          link: "/courses/Frontend/class/9/2"
+        },
+        {
+          title: "Funciones",
+          topicId: 3,
+          link: "/courses/Frontend/class/9/3"
+        },
+        {
+          title: "Estructuras de Control",
+          topicId: 4,
+          link: "/courses/Frontend/class/9/4"
+        },
+        {
+          title: "Funciones útiles para el DOM",
+          topicId: 5,
+          link: "/courses/Frontend/class/9/5"
+        },
+        {
+          title: "Actividades",
+          topicId: 6,
+          link: "/courses/Frontend/class/9/6"
+        },
+      ]
     }
   ]
 
