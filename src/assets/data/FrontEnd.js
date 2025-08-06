@@ -11082,6 +11082,15 @@ button:hover {
             type: "h3",
             info: [
               {
+                text: "Actividades 💬",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
                 text: "🎨 Selector RGB - Material de Estudio",
                 content: "plain"
               }
@@ -11340,7 +11349,7 @@ cambiarColores();`,
             ]
           },
           {
-            type: "h3",
+            type: "h4",
             info: [
               {
                 text: "📌 Ejemplo Ampliado: Modificación dinámica del DOM",
@@ -11436,7 +11445,86 @@ cambiarColores();`,
                 ]
               }
             ]
-          }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🛠️ Ejercicio 1: ",
+                content: "bold"
+              },
+              {
+                text: "Primeros pasos con JavaScript",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crea una página ",
+                content: "plain"
+              },
+              {
+                text: "HTML ",
+                content: "italic"
+              },
+              {
+                text: "básica que muestre:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Un ",
+                    content: "plain"
+                  },
+                  {
+                    text: "alert",
+                    content: "bold"
+                  },
+                  {
+                    text: " con el mensaje ",
+                    content: "plain"
+                  },
+                  {
+                    text: '"Hola Mundo"',
+                    content: "italic"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "El mismo mensaje en la consola usando ",
+                    content: "plain"
+                  },
+                  {
+                    text: "console.log()",
+                    content: "bold"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                language: "html",
+                content: '<body>\n  <h1>Ejemplo de JavaScript</h1>\n  <script>\n    alert("Hola mundo");\n    console.log("Hola mundo");\n  </script>\n</body>',
+                alt: "Solución recomendada"
+              }
+            ]
+          },
         ]
       },
     ],
