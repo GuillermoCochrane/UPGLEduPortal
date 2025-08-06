@@ -11339,8 +11339,106 @@ cambiarColores();`,
               }
             ]
           },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "📌 Ejemplo Ampliado: Modificación dinámica del DOM",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "document.write() ",
+                content: "bold"
+              },
+              {
+                text: "es una función de JavaScript que permite insertar contenido ",
+                content: "plain"
+              },
+              {
+                text: "HTML ",
+                content: "italic"
+              },
+              {
+                text: "dinámicamente en la página.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Explora estos métodos para manipular el documento:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: `// 1. Mostrar contenido HTML dinámico\ndocument.write("<h1>Bienvenido a JavaScript</h1>");\n\n// 2. Modificar estilos del body\ndocument.body.style.backgroundColor = "lightblue";\ndocument.body.style.color = "darkblue";\ndocument.body.style.fontFamily = "Arial, sans-serif";\ndocument.body.style.textAlign = "center";\ndocument.body.style.padding = "20px";\n\n// 3. Agregar elementos HTML\ndocument.body.innerHTML += "<p>Texto dinámico</p>";\n\n// 4. Mensajes en consola (para debugging)\nconsole.error("Mensaje de error de prueba que sale por consola");\nconsole.log("Lo vas a ver apretando F12 o Ctrl+Shift+I");`,
+            }
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "💡 Consejo: ",
+                content: "bold"
+              },
+              {
+                text: "Prueba este código en tu archivo ",
+                content: "plain"
+              },
+              {
+                text: "HTML",
+                content: "italic"
+              },
+              {
+                text: " y observa:",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "¿Qué pasa si usas ",
+                    content: "plain"
+                  },
+                  {
+                    text: "document.write()",
+                    content: "code"
+                  },
+                  {
+                    text: " después de que la página cargó?",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "¿Cómo afecta el orden de ejecución al resultado?",
+                    content: "plain"
+                  }
+                ]
+              }
+            ]
+          }
         ]
-      }
+      },
     ],
   }
 ]
