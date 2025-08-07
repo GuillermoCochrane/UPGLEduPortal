@@ -12386,6 +12386,77 @@ cambiarColores();`,
             ]
           }
         ]
+      },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { 
+                text: "🎮 Ejercicio de práctica",  
+                content: "plain" 
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              { 
+                text: "💻 Código para testear",  
+                content: "plain" 
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: "let nombre = prompt(\"¿Cuál es tu nombre?\");\nif (nombre) {\n  alert(\"Hola \" + nombre + \" 👋\");\n} else {\n  alert(\"No escribiste nada...\");\n}"
+            }
+          },
+          {
+            type: "p",
+            info: [
+              { 
+                text: "📝 ¿Qué hace este código?",  
+                content: "bold" 
+              }
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  { 
+                    text: "Pide al usuario que ingrese su nombre",  
+                    content: "plain" 
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { 
+                    text: "Si escribió algo, muestra un saludo personalizado",  
+                    content: "plain" 
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  { 
+                    text: "Si no escribió nada, muestra un mensaje de error",  
+                    content: "plain" 
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
   }
