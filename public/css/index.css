@@ -404,8 +404,10 @@ table th {
 }
 
 table thead th {
-    vertical-align: bottom;
+  vertical-align: bottom;
 	border-bottom-width: 2px;
+	color: #ebebeb;
+	background-color: #225;
 }
 
 table td{
