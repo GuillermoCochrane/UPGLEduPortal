@@ -1,10 +1,13 @@
 import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import 'prismjs';
-import 'prismjs/themes/prism-tomorrow.css'; // o el tema que elijas
-import 'prismjs/components/prism-http.min'; //podemos añadir mas lenguajes
+import 'prismjs/themes/prism-tomorrow.css'; 
+import 'prismjs/components/prism-http.min';
 import 'prismjs/components/prism-css.min.js';
 import 'prismjs/components/prism-javascript.min';
+import 'prismjs/components/prism-python.min';
+import 'prismjs/components/prism-json.min';
+import 'prismjs/components/prism-bash.min';
 import './code.css';
 
 function Code({ Data }) {
