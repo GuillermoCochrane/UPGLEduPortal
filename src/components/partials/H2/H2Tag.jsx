@@ -22,7 +22,7 @@ function H2Tag({Data, Selector}) {
 
 H2Tag.propTypes = {
     Data: PropTypes.array.isRequired,
-    Selector: PropTypes.object.isRequired
+    Selector: PropTypes.object
 };
 
 export default H2Tag;
