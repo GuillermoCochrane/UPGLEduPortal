@@ -12459,6 +12459,175 @@ cambiarColores();`,
         ]
       }
     ],
+  },
+  {
+    class: 10,
+    topics: 7,
+    title: {
+      type: "h2",
+      info: [
+        {
+          text: "Introducción a Bootstrap",
+          content: "plain",
+        },
+      ],
+    },
+    classData: [
+      {
+        topic: 1,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "💻 ¿Qué es Bootstrap?", content: "plain" },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "⚡ Bootstrap — Visión general",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Bootstrap ",
+                content: "bold",
+              },
+              {
+                text: "es un framework front-end diseñado para simplificar la creación de interfaces web modernas, limpias y adaptables a distintos dispositivos.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "📚 Framework front-end",
+                content: "bold",
+              },  
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Conjunto de herramientas y recursos predefinidos para crear la parte visual de un sitio web (la interfaz con la que interactúa el usuario).",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🖌️ CSS",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Estilos predefinidos para tipografía, colores, espaciados, botones, tablas, formularios y más.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "⚙️JavaScript",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Componentes interactivos como menús desplegables, modales, alertas y carruseles. En Bootstrap 5+ ",
+                content: "plain",
+              },
+              {
+                text: "jQuery no es necesario.",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "h3",
+            info: [
+              {
+                text: "💡¿Por qué es útil?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "📱 Diseño responsivo",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Con solo aplicar sus clases, el contenido se adapta automáticamente a pantallas de diferentes tamaños (móvil, tablet, escritorio).",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "⌛ Ahorro de tiempo",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "No necesitas escribir CSS desde cero para cada elemento, ni manejar comportamientos complejos con JavaScript.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🧩 Consistencia visual",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Los componentes siguen una estética uniforme, lo que facilita mantener un diseño coherente en todo el proyecto.",
+                content: "plain",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   }
 ]
 
