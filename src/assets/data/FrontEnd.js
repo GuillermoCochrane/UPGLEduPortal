@@ -1,3 +1,5 @@
+import { languages } from "prismjs";
+
 /* eslint-disable no-useless-escape */
 const classes = [
   {
@@ -12833,9 +12835,243 @@ cambiarColores();`,
             ],
           },
         ]
-      }
+      },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "🌐 ¿Cómo se usa Bootstrap?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🌎 Incluir por CDN (rápido)",
+                content: "bold",
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "La forma más rápida: ",
+                content: "bold",
+              },
+              {
+                text: "enlazar los archivos oficiales de Bootstrap. Ideal para demos o proyectos donde no necesitás control estricto de versiones.",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: 
+              {
+                language: "html",
+                content: "<!-- en <head> -->\n<link\n  href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\"\n  rel=\"stylesheet\"\n  crossorigin=\"anonymous\"\n >\n\n<!-- antes de </body> -->\n<script\n  src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\"\n  crossorigin=\"anonymous\"\n  >\n</script>"
+              }
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "✅ Pros: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Muy rápido, aprovecha la caché CDN y no necesitas añadir archivos al repositorio.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "❌ Contras: ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Dependencia de un servicio externo y posible bloqueo en entornos restringidos.",
+                    content: "plain",
+                  },
+                ],
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "💾 Usar local (control total)",
+                content: "bold",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Descargá los archivos y servilos desde tu proyecto. Recomendado en entornos offline o cuando querés fijar versiones exactas.",
+                content: "plain",
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: 
+              {
+                language: "html",
+                content: "<!-- en <head> -->\n<link\n  href=\"/assets/bootstrap/css/bootstrap.min.css\"\n  rel=\"stylesheet\"\n  >\n\n<!-- antes de </body> -->\n<script\n  src=\"/assets/bootstrap/js/bootstrap.bundle.min.js\"\n  >\n</script>"
+              }
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Colocá CSS en ",
+                    content: "plain",
+                  },
+                  {
+                    text: "/assets/bootstrap/css/",
+                    content: "bold",
+                  },
+                  {
+                    text: " y JS en ",
+                    content: "plain",
+                  },
+                  {
+                    text: "/assets/bootstrap/js/",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Fijá la versión en el nombre o usá un gestor para reproducibilidad.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "⌨️ Instalar via NPM / gestor",
+                content: "bold",
+              },
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Para proyectos con pipeline ",
+                content: "plain",
+              },
+              {
+                text: "(webpack, Vite, etc.) ",
+                content: "bold",
+              },
+              {
+                text: "conviene instalar via npm/yarn y gestionar versiones desde package.json.",
+                content: "plain",
+              },
+            ]
+          },
+          {
+            type: "code",
+            info: 
+              {
+                language: "html", // crear bash y cambiar a ese
+                content: "// ejemplo con npm\nnpm install bootstrap\n\n// luego importar en tus assets (JS o SCSS)\nimport 'bootstrap/dist/css/bootstrap.min.css';\nimport 'bootstrap/dist/js/bootstrap.bundle.min';"
+              }
+          },
+        ]
+      },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h2",
+            info: [
+              {
+                text: "📚 Ejemplos prácticos con Bootstrap 5",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h2",
+            info: [
+              {
+                text: "📚 Ejemplos de botones",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h2",
+            info: [
+              {
+                text: "📚 Ejemplos de formularios",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
+      {
+        topic: 7,
+        topicData: [
+          {
+            type: "h2",
+            info: [
+              {
+                text: "📚 Ejemplos de tablas",
+                content: "plain",
+              },
+            ],
+          },
+        ]
+      },
     ],
   }
 ]
 
 export default classes;
+
+          /* {
+            type: "code",
+            info: {
+              language: "html",
+              content: `<html>\n  <body>\n    <h1>Hola</h1>\n    <p id="parrafo">Texto</p>\n  </body>\n</html>`
+            }
+          }, */
