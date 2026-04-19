@@ -1885,17 +1885,19 @@ const classes = [
           },
           {
             type: "answer",
-            info: [{
-              alt: "Solución ejercicio 1",
-              language: "html",
-              content: `<body>
+            info: [
+              {
+                alt: "Solución ejercicio 1",
+                language: "html",
+                content: `<body>
   <h1>Bienvenido al curso de programación Front End de la UPGL</h1>
   <hr>
   <h2>¡Hola! Soy Guillermo Cochrane</h2>
   <br>
   <p>Esta es mi primera página web</p>
-</body>`
-            }]
+</body>`,
+              },
+            ],
           },
           {
             type: "h4",
@@ -2186,10 +2188,10 @@ const classes = [
           {
             type: "h3",
             info: [
-              { 
-                text: "📚 Estructura HTML, Enlaces y Formularios", 
-                content: "plain" 
-              }
+              {
+                text: "📚 Estructura HTML, Enlaces y Formularios",
+                content: "plain",
+              },
             ],
           },
           {
@@ -2226,7 +2228,7 @@ const classes = [
               },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 2,
@@ -2234,10 +2236,10 @@ const classes = [
           {
             type: "h3",
             info: [
-              { 
+              {
                 text: "👩‍💻 ¿ Cómo funcionan las etiquetas HTML?",
-                content: "plain" 
-              }
+                content: "plain",
+              },
             ],
           },
           {
@@ -2263,7 +2265,7 @@ const classes = [
               {
                 text: " son los bloques básicos que definen la estructura y el contenido de una página web. La mayoría de etiquetas tienen una estructura de apertura y cierre que envuelve el contenido.",
                 content: "plain",
-              }
+              },
             ],
           },
           {
@@ -2349,7 +2351,7 @@ const classes = [
           },
           {
             type: "p",
-            info:[
+            info: [
               {
                 text: "Algunas etiquetas como ",
                 content: "plain",
@@ -2379,22 +2381,22 @@ const classes = [
                 content: "plain",
               },
               {
-                text: "<img src=\"imagen.jpg\">",
+                text: '<img src="imagen.jpg">',
                 content: "bold",
               },
               {
                 text: " o en formato ",
                 content: "plain",
               },
-              { 
+              {
                 text: "XHTML: ",
                 content: "bold",
               },
               {
-                text: "<img src=\"imagen.jpg\"/>",
+                text: '<img src="imagen.jpg"/>',
                 content: "bold",
               },
-            ]
+            ],
           },
           {
             type: "h4",
@@ -2407,7 +2409,6 @@ const classes = [
                 text: "( <a> )",
                 content: "bold",
               },
-              
             ],
           },
           {
@@ -2451,7 +2452,7 @@ const classes = [
                     content: "bold",
                   },
                   {
-                    text: "<a href=\"pagina2.html\">Ir a Página 2</a>",
+                    text: '<a href="pagina2.html">Ir a Página 2</a>',
                     content: "plain",
                   },
                 ],
@@ -2464,7 +2465,7 @@ const classes = [
                     content: "bold",
                   },
                   {
-                    text: "<a href=\"https://www.google.com\" target=\"_blank\">Google</a>",
+                    text: '<a href="https://www.google.com" target="_blank">Google</a>',
                     content: "plain",
                   },
                 ],
@@ -2477,14 +2478,14 @@ const classes = [
                     content: "bold",
                   },
                   {
-                    text: "<a href=\"mailto:correo@ejemplo.com\">Enviar correo</a>",
+                    text: '<a href="mailto:correo@ejemplo.com">Enviar correo</a>',
                     content: "plain",
                   },
                 ],
-              },  
+              },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 3,
@@ -2492,10 +2493,10 @@ const classes = [
           {
             type: "h3",
             info: [
-              { 
+              {
                 text: "📝 ¿Qué son los Formularios?",
-                content: "plain" 
-              }
+                content: "plain",
+              },
             ],
           },
           {
@@ -2504,8 +2505,8 @@ const classes = [
               {
                 text: "Formularios",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "p",
@@ -2539,8 +2540,8 @@ const classes = [
               img: "/images/Frontend/class2/formulario.png",
               alt: "Ejemplo de formulario",
             },
-          }
-        ]
+          },
+        ],
       },
       {
         topic: 4,
@@ -2548,10 +2549,10 @@ const classes = [
           {
             type: "h3",
             info: [
-              { 
+              {
                 text: "📋 ¿Qué son las Listas?",
-                content: "plain" 
-              }
+                content: "plain",
+              },
             ],
           },
           {
@@ -2560,8 +2561,8 @@ const classes = [
               {
                 text: "Listas",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "p",
@@ -2589,7 +2590,7 @@ const classes = [
               {
                 text: "(con viñetas).",
                 content: "bold",
-              }
+              },
             ],
           },
           {
@@ -2670,10 +2671,10 @@ const classes = [
                     },
                   },
                 ],
-              }
+              },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 5,
@@ -2681,10 +2682,10 @@ const classes = [
           {
             type: "h3",
             info: [
-              { 
+              {
                 text: "Actividades 💬",
-                content: "plain" 
-              }
+                content: "plain",
+              },
             ],
           },
           {
@@ -2714,7 +2715,7 @@ const classes = [
                 text: "HTML",
                 content: "bold",
               },
-            ]
+            ],
           },
           {
             type: "ol",
@@ -2754,7 +2755,7 @@ const classes = [
                             content: "plain",
                           },
                           {
-                            text: "(type =\"text\")",
+                            text: '(type ="text")',
                             content: "bold",
                           },
                         ],
@@ -2767,7 +2768,7 @@ const classes = [
                             content: "plain",
                           },
                           {
-                            text: "(type =\"email\")",
+                            text: '(type ="email")',
                             content: "bold",
                           },
                         ],
@@ -2780,7 +2781,7 @@ const classes = [
                             content: "plain",
                           },
                           {
-                            text: "(type =\"textarea\")",
+                            text: '(type ="textarea")',
                             content: "bold",
                           },
                         ],
@@ -2795,9 +2796,9 @@ const classes = [
                         ],
                       },
                     ],
-                  }
+                  },
                 ],
-              }, 
+              },
               {
                 type: "li",
                 info: [
@@ -2845,7 +2846,7 @@ const classes = [
                 text: " para validar que los campos no estén vacíos.",
                 content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "answer",
@@ -2872,12 +2873,12 @@ const classes = [
     <hr>
     <button type="submit">Enviar</button>
   </form>
-</body>`
-              }
-            ]
+</body>`,
+              },
+            ],
           },
-        ]
-      }
+        ],
+      },
     ],
   },
   {
@@ -2902,7 +2903,7 @@ const classes = [
               {
                 text: "💹 Tablas, Imágenes y Semántica HTML",
                 content: "plain",
-              }
+              },
             ],
           },
           {
@@ -2946,9 +2947,7 @@ const classes = [
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "📋 Tablas", content: "plain" },
-            ],
+            info: [{ text: "📋 Tablas", content: "plain" }],
           },
           {
             type: "p",
@@ -3058,8 +3057,8 @@ const classes = [
                     },
                   },
                 ],
-              }
-            ]
+              },
+            ],
           },
           {
             type: "h4",
@@ -3077,20 +3076,18 @@ const classes = [
               alt: "Ejemplo de tabla básica",
             },
           },
-        ]
+        ],
       },
       {
-        topic : 3,
-        topicData : [
+        topic: 3,
+        topicData: [
           {
-            type : "h3",
-            info : [
-              { text: "📷 Manejo de imágenes", content: "plain" },
-            ],
+            type: "h3",
+            info: [{ text: "📷 Manejo de imágenes", content: "plain" }],
           },
           {
-            type : "p",
-            info : [
+            type: "p",
+            info: [
               {
                 text: "Las imágenes se insertan en  ",
                 content: "plain",
@@ -3119,11 +3116,11 @@ const classes = [
                 text: " para describir la imagen por accesibilidad.",
                 content: "plain",
               },
-            ]
+            ],
           },
           {
-            type : "h4",
-            info : [
+            type: "h4",
+            info: [
               {
                 text: "Ejemplo de imagen:",
                 content: "plain",
@@ -3131,18 +3128,18 @@ const classes = [
             ],
           },
           {
-            type : "figure",
-            info : {
-              img : "/images/Frontend/class3/ejemplo-imagen.png",
-              alt : "Ejemplo de imagen",
+            type: "figure",
+            info: {
+              img: "/images/Frontend/class3/ejemplo-imagen.png",
+              alt: "Ejemplo de imagen",
             },
           },
           {
-            type : "ul",
-            info : [
+            type: "ul",
+            info: [
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "src",
                     content: "bold",
@@ -3154,8 +3151,8 @@ const classes = [
                 ],
               },
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "alt",
                     content: "bold",
@@ -3167,8 +3164,8 @@ const classes = [
                 ],
               },
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "width/height",
                     content: "bold",
@@ -3186,8 +3183,8 @@ const classes = [
             ],
           },
           {
-            type : "h4",
-            info : [
+            type: "h4",
+            info: [
               {
                 text: "Curiosidad: ",
                 content: "bold",
@@ -3199,8 +3196,8 @@ const classes = [
             ],
           },
           {
-            type : "p",
-            info : [
+            type: "p",
+            info: [
               {
                 text: "¿Has notado que cuando colocas un párrafo ",
                 content: "plain",
@@ -3216,11 +3213,11 @@ const classes = [
             ],
           },
           {
-            type : "ul",
-            info : [
+            type: "ul",
+            info: [
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "Las imágenes ",
                     content: "plain",
@@ -3248,8 +3245,8 @@ const classes = [
                 ],
               },
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "Los párrafos ",
                     content: "plain",
@@ -3273,14 +3270,14 @@ const classes = [
                   {
                     text: "(display: block).",
                     content: "bold",
-                  }
+                  },
                 ],
               },
             ],
           },
           {
-            type : "p",
-            info : [
+            type: "p",
+            info: [
               {
                 text: "Los elementos ",
                 content: "plain",
@@ -3303,20 +3300,18 @@ const classes = [
               },
             ],
           },
-        ]
+        ],
       },
       {
-        topic : 4,
-        topicData : [
+        topic: 4,
+        topicData: [
           {
-            type : "h3",
-            info : [
-              { text: "Actividades 💬", content: "plain" },
-            ],
+            type: "h3",
+            info: [{ text: "Actividades 💬", content: "plain" }],
           },
           {
-            type : "h4",
-            info : [
+            type: "h4",
+            info: [
               {
                 text: "Actividad 1: ",
                 content: "bold",
@@ -3328,8 +3323,8 @@ const classes = [
             ],
           },
           {
-            type : "p",
-            info : [
+            type: "p",
+            info: [
               {
                 text: "Objetivo: ",
                 content: "bold",
@@ -3345,11 +3340,11 @@ const classes = [
             ],
           },
           {
-            type : "ol",
-            info : [
+            type: "ol",
+            info: [
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "Crear un archivo llamado ",
                     content: "plain",
@@ -3365,18 +3360,18 @@ const classes = [
                 ],
               },
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "Crear una tabla de contactos con cinco columnas:",
                     content: "plain",
                   },
                   {
-                    type : "ul",
-                    info : [
+                    type: "ul",
+                    info: [
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Nombre",
                             content: "plain",
@@ -3384,8 +3379,8 @@ const classes = [
                         ],
                       },
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Apellido",
                             content: "plain",
@@ -3393,8 +3388,8 @@ const classes = [
                         ],
                       },
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Dirección",
                             content: "plain",
@@ -3402,8 +3397,8 @@ const classes = [
                         ],
                       },
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Correo electrónico",
                             content: "plain",
@@ -3411,8 +3406,8 @@ const classes = [
                         ],
                       },
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Teléfono",
                             content: "plain",
@@ -3424,8 +3419,8 @@ const classes = [
                 ],
               },
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "Completar la tabla con datos de al menos 3 personas ",
                     content: "plain",
@@ -3437,8 +3432,8 @@ const classes = [
                 ],
               },
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "Usar las etiquetas ",
                     content: "plain",
@@ -3464,8 +3459,8 @@ const classes = [
             ],
           },
           {
-            type : "p",
-            info : [
+            type: "p",
+            info: [
               {
                 text: "Bonus: ",
                 content: "bold",
@@ -3475,7 +3470,7 @@ const classes = [
                 content: "plain",
               },
               {
-                text: "border=\"1\"",
+                text: 'border="1"',
                 content: "bold",
               },
               {
@@ -3485,10 +3480,10 @@ const classes = [
             ],
           },
           {
-            type : "answer",
-            info : [
+            type: "answer",
+            info: [
               {
-                alt : "Solución tablas de contactos",
+                alt: "Solución tablas de contactos",
                 language: "html",
                 content: `<body>
   <h1>Clase 3 - Ejercicio 1  - Tablas</h1>
@@ -3524,13 +3519,13 @@ const classes = [
       <td>555555555</td>
     </tr> 
   </table>
-</body>`
+</body>`,
               },
             ],
           },
           {
-            type : "h4",
-            info : [
+            type: "h4",
+            info: [
               {
                 text: "Actividad 2: ",
                 content: "bold",
@@ -3542,8 +3537,8 @@ const classes = [
             ],
           },
           {
-            type : "p",
-            info : [
+            type: "p",
+            info: [
               {
                 text: "Objetivo: ",
                 content: "bold",
@@ -3555,11 +3550,11 @@ const classes = [
             ],
           },
           {
-            type : "ol",
-            info : [
+            type: "ol",
+            info: [
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "Crear un archivo llamado ",
                     content: "plain",
@@ -3575,18 +3570,18 @@ const classes = [
                 ],
               },
               {
-                type : "li",
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "Crear una galería simple con:",
                     content: "plain",
                   },
                   {
-                    type : "ul",
-                    info : [
+                    type: "ul",
+                    info: [
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Al menos 3 imágenes ",
                             content: "plain",
@@ -3598,8 +3593,8 @@ const classes = [
                         ],
                       },
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Cada imagen debe tener un texto alternativo descriptivo",
                             content: "plain",
@@ -3607,8 +3602,8 @@ const classes = [
                         ],
                       },
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Debajo de cada imagen, añadir un enlace que abra la imagen en una nueva pestaña",
                             content: "plain",
@@ -3620,8 +3615,8 @@ const classes = [
                 ],
               },
               {
-                type : "li",  
-                info : [
+                type: "li",
+                info: [
                   {
                     text: "Al final de la página, crear una sección de ",
                     content: "plain",
@@ -3635,11 +3630,11 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type : "ul",
-                    info : [
+                    type: "ul",
+                    info: [
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Un enlace para enviar un correo electrónico",
                             content: "plain",
@@ -3647,8 +3642,8 @@ const classes = [
                         ],
                       },
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Un enlace a una red social",
                             content: "plain",
@@ -3656,8 +3651,8 @@ const classes = [
                         ],
                       },
                       {
-                        type : "li",
-                        info : [
+                        type: "li",
+                        info: [
                           {
                             text: "Un enlace interno que regrese al principio de la página ",
                             content: "plain",
@@ -3683,8 +3678,8 @@ const classes = [
             ],
           },
           {
-            type : "p",
-            info : [
+            type: "p",
+            info: [
               {
                 text: "Bonus: ",
                 content: "bold",
@@ -3696,10 +3691,10 @@ const classes = [
             ],
           },
           {
-            type : "answer",
-            info : [
+            type: "answer",
+            info: [
               {
-                alt : "Solución galería",
+                alt: "Solución galería",
                 language: "html",
                 content: `<body>
   <h1 id="1">Clase 3 - Ejercicio 2  - Imagenes y enlaces</h1>
@@ -3746,13 +3741,12 @@ const classes = [
       </tr>
     </table>
   </footer>
-</body>`
-
+</body>`,
               },
             ],
           },
-        ]
-      }
+        ],
+      },
     ],
   },
   {
@@ -3771,144 +3765,155 @@ const classes = [
       {
         topic: 1,
         topicData: [
-          { 
-            type: "h3", 
+          {
+            type: "h3",
             info: [
               {
                 text: "Tipos de Inputs en HTML",
-                content: "plain"
-              } ]
+                content: "plain",
+              },
+            ],
           },
-          { 
-            type: "p", 
-            info:  [
+          {
+            type: "p",
+            info: [
               {
                 text: "HTML ofrece una amplia variedad de tipos de inputs que permiten capturar diferentes tipos de datos del usuario. Cada tipo tiene características específicas y se adapta a diferentes necesidades.",
-                content: "plain"
-              } 
-            ]
+                content: "plain",
+              },
+            ],
           },
-          
-          { 
-            type: "h4", 
+
+          {
+            type: "h4",
             info: [
               {
                 text: "Inputs de Texto:",
-                content: "plain"
-              } 
-            ]
-          },
-          { 
-            type: "inputCard", 
-            info: {
-              label: [
-                  {
-                    text: "Text:",
-                    content: "bold"
-                  },
-                  {
-                    text: " Campo de texto básico",
-                    content: "plain"
-                  }
-                ], 
-              type: "text", 
-              placeholder: "Escribe aquí...", 
-              code: { 
-                content: "<input type=\"text\">" 
-              } 
-            }
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
-              label: [{
-                text: "Password:",
-                content: "bold"
+              label: [
+                {
+                  text: "Text:",
+                  content: "bold",
+                },
+                {
+                  text: " Campo de texto básico",
+                  content: "plain",
+                },
+              ],
+              type: "text",
+              placeholder: "Escribe aquí...",
+              code: {
+                content: '<input type="text">',
               },
-              {
-                text: " Campo para contraseñas",
-                content: "plain"
-              }],
+            },
+          },
+          {
+            type: "inputCard",
+            info: {
+              label: [
+                {
+                  text: "Password:",
+                  content: "bold",
+                },
+                {
+                  text: " Campo para contraseñas",
+                  content: "plain",
+                },
+              ],
               type: "password",
               placeholder: "Tu contraseña",
               code: {
-                content: "<input type=\"password\">"
-              }
-            }
+                content: '<input type="password">',
+              },
+            },
           },
           {
             type: "inputCard",
             info: {
-              label: [{
-                text: "Email:",
-                content: "bold"
-              },
-              {
-                text: " Campo para correos electrónicos",
-                content: "plain"
-              }],
+              label: [
+                {
+                  text: "Email:",
+                  content: "bold",
+                },
+                {
+                  text: " Campo para correos electrónicos",
+                  content: "plain",
+                },
+              ],
               type: "email",
               placeholder: "correo@ejemplo.com",
               code: {
-                content: "<input type=\"email\">"
-              }
-            }
+                content: '<input type="email">',
+              },
+            },
           },
           {
             type: "inputCard",
             info: {
-              label: [{
-                text: "Url:",
-                content: "bold"
-              },
-              {
-                text: " Campo para URLs",
-                content: "plain"
-              }],
+              label: [
+                {
+                  text: "Url:",
+                  content: "bold",
+                },
+                {
+                  text: " Campo para URLs",
+                  content: "plain",
+                },
+              ],
               type: "url",
               placeholder: "https://ejemplo.com",
               code: {
-                content: "<input type=\"url\">"
-              }
-            }
+                content: '<input type="url">',
+              },
+            },
           },
           {
             type: "inputCard",
             info: {
-              label: [{
-                text: "Tel:",
-                content: "bold"
-              },
-              {
-                text: " Campo para números telefónicos",
-                content: "plain"
-              }],
+              label: [
+                {
+                  text: "Tel:",
+                  content: "bold",
+                },
+                {
+                  text: " Campo para números telefónicos",
+                  content: "plain",
+                },
+              ],
               type: "tel",
               placeholder: "+1234567890",
               code: {
-                content: "<input type=\"tel\">"
-              }
-            }
+                content: '<input type="tel">',
+              },
+            },
           },
           {
             type: "inputCard",
             info: {
-              label: [{
-                text: "Search:",
-                content: "bold"
-              },
-              {
-                text: " Campo de búsqueda",
-                content: "plain"
-              }],
+              label: [
+                {
+                  text: "Search:",
+                  content: "bold",
+                },
+                {
+                  text: " Campo de búsqueda",
+                  content: "plain",
+                },
+              ],
               type: "search",
               placeholder: "Buscar...",
               code: {
-                content: "<input type=\"search\">"
-              }
-            }
+                content: '<input type="search">',
+              },
+            },
           },
-        ]
+        ],
       },
       {
         topic: 2,
@@ -3916,297 +3921,354 @@ const classes = [
           {
             type: "h3",
             info: [
-              { text: "Inputs Numéricos y de Fecha/Hora", content: "plain" }
-            ]
+              { text: "Inputs Numéricos y de Fecha/Hora", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "Los inputs numéricos y de fecha/hora permiten al usuario ingresar valores específicos, como números, rangos, fechas y horas, con validaciones automáticas y controles optimizados para cada tipo.", content: "plain" }
-            ]
+              {
+                text: "Los inputs numéricos y de fecha/hora permiten al usuario ingresar valores específicos, como números, rangos, fechas y horas, con validaciones automáticas y controles optimizados para cada tipo.",
+                content: "plain",
+              },
+            ],
           },
 
-          { type: "h4", info: [{ text: "Inputs Numéricos:", content: "plain" }] },
+          {
+            type: "h4",
+            info: [{ text: "Inputs Numéricos:", content: "plain" }],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Number:", content: "bold" },
-                { text: " Campo para números", content: "plain" }
+                { text: " Campo para números", content: "plain" },
               ],
               type: "number",
               placeholder: "Ingrese un número",
               attributes: { min: 1, max: 100, value: 50 },
-              code: { content: "<input type=\"number\" min=\"1\" max=\"100\" value=\"50\">" }
-            }
+              code: {
+                content: '<input type="number" min="1" max="100" value="50">',
+              },
+            },
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Range:", content: "bold" },
-                { text: " Selector de rango", content: "plain" }
+                { text: " Selector de rango", content: "plain" },
               ],
               type: "range",
               attributes: { min: 0, max: 100, value: 30 },
-              code: { content: "<input type=\"range\" min=\"0\" max=\"100\" value=\"30\">" }
-            }
+              code: {
+                content: '<input type="range" min="0" max="100" value="30">',
+              },
+            },
           },
 
-          { type: "h4", info: [{ text: "Inputs de Fecha y Hora:", content: "plain" }] },
+          {
+            type: "h4",
+            info: [{ text: "Inputs de Fecha y Hora:", content: "plain" }],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Date:", content: "bold" },
-                { text: " Campo para fechas", content: "plain" }
+                { text: " Campo para fechas", content: "plain" },
               ],
               type: "date",
               attributes: { value: "2025-06-03" },
-              code: { content: "<input type=\"date\" value=\"2025-06-03\">" }
-            }
+              code: { content: '<input type="date" value="2025-06-03">' },
+            },
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Time:", content: "bold" },
-                { text: " Campo para hora", content: "plain" }
+                { text: " Campo para hora", content: "plain" },
               ],
               type: "time",
               attributes: { value: "14:30" },
-              code: { content: "<input type=\"time\" value=\"14:30\">" }
-            }
+              code: { content: '<input type="time" value="14:30">' },
+            },
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Datetime-local:", content: "bold" },
-                { text: " Fecha y hora local", content: "plain" }
+                { text: " Fecha y hora local", content: "plain" },
               ],
               type: "datetime-local",
               attributes: { value: "2025-06-03T14:30" },
-              code: { content: "<input type=\"datetime-local\" value=\"2025-06-03T14:30\">" }
-            }
+              code: {
+                content:
+                  '<input type="datetime-local" value="2025-06-03T14:30">',
+              },
+            },
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Month:", content: "bold" },
-                { text: " Selector de mes", content: "plain" }
+                { text: " Selector de mes", content: "plain" },
               ],
               type: "month",
               attributes: { value: "2025-06" },
-              code: { content: "<input type=\"month\" value=\"2025-06\">" }
-            }
+              code: { content: '<input type="month" value="2025-06">' },
+            },
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Week:", content: "bold" },
-                { text: " Selector de semana", content: "plain" }
+                { text: " Selector de semana", content: "plain" },
               ],
               type: "week",
               attributes: { value: "2025-W23" },
-              code: { content: "<input type=\"week\" value=\"2025-W23\">" }
-            }
-          }
-        ]
+              code: { content: '<input type="week" value="2025-W23">' },
+            },
+          },
+        ],
       },
       {
         topic: 3,
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "Inputs de Selección", content: "plain" }
-            ]
+            info: [{ text: "Inputs de Selección", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "Los inputs de selección permiten al usuario elegir entre varias opciones, ya sea de forma múltiple o única, y en distintos formatos visuales.", content: "plain" }
-            ]
+              {
+                text: "Los inputs de selección permiten al usuario elegir entre varias opciones, ya sea de forma múltiple o única, y en distintos formatos visuales.",
+                content: "plain",
+              },
+            ],
           },
 
-          { type: "h4", info: [{ text: "Casillas de verificación (Checkbox):", content: "plain" }] },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Casillas de verificación (Checkbox):",
+                content: "plain",
+              },
+            ],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Checkbox:", content: "bold" },
-                { text: " Casilla de verificación", content: "plain" }
+                { text: " Casilla de verificación", content: "plain" },
               ],
               type: "checkbox",
               attributes: { id: "check1" },
-              code: { content: "<input type=\"checkbox\">" }
-            }
+              code: { content: '<input type="checkbox">' },
+            },
           },
 
-          { type: "h4", info: [{ text: "Botones de opción (Radio):", content: "plain" }] },
+          {
+            type: "h4",
+            info: [{ text: "Botones de opción (Radio):", content: "plain" }],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Radio:", content: "bold" },
-                { text: " Botones de opción", content: "plain" }
+                { text: " Botones de opción", content: "plain" },
               ],
               type: "radio",
               attributes: { id: "radio1", name: "grupo1", value: "opcion1" },
-              code: { content: "<input type=\"radio\" name=\"grupo\">" }
-            }
+              code: { content: '<input type="radio" name="grupo">' },
+            },
           },
 
-          { type: "h4", info: [{ text: "Selector de color:", content: "plain" }] },
+          {
+            type: "h4",
+            info: [{ text: "Selector de color:", content: "plain" }],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Color:", content: "bold" },
-                { text: " Selector de color", content: "plain" }
+                { text: " Selector de color", content: "plain" },
               ],
               type: "color",
               attributes: { value: "#ff6b6b" },
-              code: { content: "<input type=\"color\" value=\"#ff6b6b\">" }
-            }
+              code: { content: '<input type="color" value="#ff6b6b">' },
+            },
           },
 
-          { type: "h4", info: [{ text: "Selector de archivos:", content: "plain" }] },
+          {
+            type: "h4",
+            info: [{ text: "Selector de archivos:", content: "plain" }],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "File:", content: "bold" },
-                { text: " Selector de archivos", content: "plain" }
+                { text: " Selector de archivos", content: "plain" },
               ],
               type: "file",
               attributes: { accept: "image/*" },
-              code: { content: "<input type=\"file\" accept=\"image/*\">" }
-            }
-          }
-        ]
+              code: { content: '<input type="file" accept="image/*">' },
+            },
+          },
+        ],
       },
       {
         topic: 4,
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "Inputs de Botones", content: "plain" }
-            ]
+            info: [{ text: "Inputs de Botones", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "Los inputs de tipo botón permiten enviar formularios, reiniciar campos o ejecutar acciones específicas cuando el usuario interactúa con ellos.", content: "plain" }
-            ]
+              {
+                text: "Los inputs de tipo botón permiten enviar formularios, reiniciar campos o ejecutar acciones específicas cuando el usuario interactúa con ellos.",
+                content: "plain",
+              },
+            ],
           },
 
-          { type: "h4", info: [{ text: "Botón de envío (Submit):", content: "plain" }] },
+          {
+            type: "h4",
+            info: [{ text: "Botón de envío (Submit):", content: "plain" }],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Submit:", content: "bold" },
-                { text: " Botón de envío", content: "plain" }
+                { text: " Botón de envío", content: "plain" },
               ],
               type: "submit",
               attributes: { value: "Enviar formulario" },
-              code: { content: "<input type=\"submit\" value=\"Enviar formulario\">" }
-            }
+              code: {
+                content: '<input type="submit" value="Enviar formulario">',
+              },
+            },
           },
 
-          { type: "h4", info: [{ text: "Botón de reinicio (Reset):", content: "plain" }] },
+          {
+            type: "h4",
+            info: [{ text: "Botón de reinicio (Reset):", content: "plain" }],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Reset:", content: "bold" },
-                { text: " Botón de reinicio", content: "plain" }
+                { text: " Botón de reinicio", content: "plain" },
               ],
               type: "reset",
               attributes: { value: "Limpiar formulario" },
-              code: { content: "<input type=\"reset\" value=\"Limpiar formulario\">" }
-            }
+              code: {
+                content: '<input type="reset" value="Limpiar formulario">',
+              },
+            },
           },
 
-          { type: "h4", info: [{ text: "Botón genérico (Button):", content: "plain" }] },
+          {
+            type: "h4",
+            info: [{ text: "Botón genérico (Button):", content: "plain" }],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Button:", content: "bold" },
-                { text: " Botón genérico", content: "plain" }
+                { text: " Botón genérico", content: "plain" },
               ],
               type: "button",
-              attributes: { value: "Hacer clic", onClick: () => alert('hola') }, // podés dejar esto vacío si no querés que sea funcional
-              code: { content: "<input type=\"button\" value=\"Hacer clic\">" }
-            }
-          }
-        ]
+              attributes: { value: "Hacer clic", onClick: () => alert("hola") }, // podés dejar esto vacío si no querés que sea funcional
+              code: { content: '<input type="button" value="Hacer clic">' },
+            },
+          },
+        ],
       },
       {
         topic: 5,
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "Inputs Especiales", content: "plain" }
-            ]
+            info: [{ text: "Inputs Especiales", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "Los inputs especiales ofrecen funcionalidades poco comunes o específicas, como campos ocultos o botones de imagen.", content: "plain" }
-            ]
+              {
+                text: "Los inputs especiales ofrecen funcionalidades poco comunes o específicas, como campos ocultos o botones de imagen.",
+                content: "plain",
+              },
+            ],
           },
 
-          { type: "h4", info: [{ text: "Campo Oculto (Hidden):", content: "plain" }] },
+          {
+            type: "h4",
+            info: [{ text: "Campo Oculto (Hidden):", content: "plain" }],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Hidden:", content: "bold" },
-                { text: " Campo oculto (no visible)", content: "plain" }
+                { text: " Campo oculto (no visible)", content: "plain" },
               ],
               type: "hidden",
               attributes: { value: "valor_oculto" },
-              code: { content: "<input type=\"hidden\" value=\"valor_oculto\">" }
-            }
+              code: { content: '<input type="hidden" value="valor_oculto">' },
+            },
           },
 
-          { type: "h4", info: [{ text: "Botón de Imagen (Image):", content: "plain" }] },
+          {
+            type: "h4",
+            info: [{ text: "Botón de Imagen (Image):", content: "plain" }],
+          },
 
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "Image:", content: "bold" },
-                { text: " Botón de imagen", content: "plain" }
+                { text: " Botón de imagen", content: "plain" },
               ],
               type: "image",
-              attributes: { 
-                src: "https://i.imgur.com/kKZ8t1j.png", 
+              attributes: {
+                src: "https://i.imgur.com/kKZ8t1j.png",
                 alt: "Enviar",
-                width: "150"
+                width: "150",
               },
-              code: { content: "<input type=\"image\" src=\"imagen.png\" alt=\"Enviar\">" }
-            }
-          }
-        ]
+              code: {
+                content: '<input type="image" src="imagen.png" alt="Enviar">',
+              },
+            },
+          },
+        ],
       },
       {
         topic: 6,
@@ -4214,852 +4276,853 @@ const classes = [
           {
             type: "h3",
             info: [
-              { text: "🔧 Atributos importantes para inputs", content: "plain" }
-            ]
+              {
+                text: "🔧 Atributos importantes para inputs",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Los inputs en HTML pueden personalizarse con atributos clave que mejoran su funcionalidad, validación y experiencia de usuario.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Los inputs en HTML pueden personalizarse con atributos clave que mejoran su funcionalidad, validación y experiencia de usuario.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Required", content: "bold" },
-              { text: " Campo obligatorio", content: "plain" }
-            ]
+              { text: " Campo obligatorio", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Hace que el campo sea obligatorio. El navegador mostrará un error si está vacío al enviar el formulario.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Hace que el campo sea obligatorio. El navegador mostrará un error si está vacío al enviar el formulario.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "required:", content: "bold" },
-                { text: " Campo obligatorio", content: "plain" }
+                { text: " Campo obligatorio", content: "plain" },
               ],
               type: "text",
               placeholder: "Campo obligatorio",
               attributes: { required: true },
-              code: { content: "<input type=\"text\" required>" }
-            }
+              code: { content: '<input type="text" required>' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Intenta enviar sin llenar este campo",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Placeholder", content: "bold" },
-              { text: " Texto de ayuda", content: "plain" }
-            ]
+              { text: " Texto de ayuda", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Muestra un texto de ayuda dentro del campo que desaparece cuando el usuario empieza a escribir.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Muestra un texto de ayuda dentro del campo que desaparece cuando el usuario empieza a escribir.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "placeholder:", content: "bold" },
-                { text: " Texto de ayuda", content: "plain" }
+                { text: " Texto de ayuda", content: "plain" },
               ],
               type: "text",
               placeholder: "Escribe aquí...",
               attributes: { placeholder: "Escribe aquí..." },
-              code: { content: "<input type=\"text\" placeholder=\"Escribe aquí...\">" }
-            }
+              code: {
+                content: '<input type="text" placeholder="Escribe aquí...">',
+              },
+            },
           },
           {
-            type: "h4", 
+            type: "h4",
             info: [
               { text: "Min/Max", content: "bold" },
-              { text: " Valor límite", content: "plain" }
-            ]
+              { text: " Valor límite", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Define valores mínimo y máximo para campos numéricos y de fecha. El navegador validará automáticamente.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Define valores mínimo y máximo para campos numéricos y de fecha. El navegador validará automáticamente.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "min/max:", content: "bold" },
-                { text: " Valor límite", content: "plain" }
+                { text: " Valor límite", content: "plain" },
               ],
               type: "number",
               placeholder: "Valor límite",
               attributes: { min: 0, max: 100 },
-              code: { content: "<input type=\"number\" min=\"0\" max=\"100\">" }
-            }
+              code: { content: '<input type="number" min="0" max="100">' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Intenta ingresar un número fuera del rango",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Step", content: "bold" },
-              { text: " Incremento", content: "plain" }
-            ]
+              { text: " Incremento", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Especifica el incremento en campos numéricos y de rango. Útil para precios, porcentajes, etc.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Especifica el incremento en campos numéricos y de rango. Útil para precios, porcentajes, etc.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "step:", content: "bold" },
-                { text: " Incremento", content: "plain" }
+                { text: " Incremento", content: "plain" },
               ],
               type: "number",
               placeholder: "Incremento",
               attributes: { step: 0.5 },
-              code: { content: "<input type=\"number\" step=\"0.5\">" }
-            }
+              code: { content: '<input type="number" step="0.5">' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Usa las flechas del campo para ver el incremento",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Pattern", content: "bold" },
-              { text: " Validación personalizada", content: "plain" }
-            ]
+              { text: " Validación personalizada", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Define un patrón de validación usando expresiones regulares para formatos específicos.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Define un patrón de validación usando expresiones regulares para formatos específicos.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "pattern:", content: "bold" },
-                { text: " Validación personalizada", content: "plain" }
+                { text: " Validación personalizada", content: "plain" },
               ],
               type: "text",
               placeholder: "Formato personalizado",
               attributes: { pattern: "[0-9]{5}" },
-              code: { content: "<input type=\"text\" pattern=\"[0-9]{5}\">" }
-            }
+              code: { content: '<input type="text" pattern="[0-9]{5}">' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Solo acepta exactamente 5 números",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Disabled", content: "bold" },
-              { text: " Campo desactivado", content: "plain" }
-            ]
+              { text: " Campo desactivado", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Desactiva el campo, impidiendo la interacción del usuario. El valor no se envía en el formulario.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Desactiva el campo, impidiendo la interacción del usuario. El valor no se envía en el formulario.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "disabled:", content: "bold" },
-                { text: " Campo desactivado", content: "plain" }
+                { text: " Campo desactivado", content: "plain" },
               ],
               type: "text",
               placeholder: "Campo desactivado",
               attributes: { disabled: true },
-              code: { content: "<input type=\"text\" disabled>" }
-            }
+              code: { content: '<input type="text" disabled>' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Este campo no es interactivo",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Readonly", content: "bold" },
-              { text: " Solo lectura", content: "plain" }
-            ]
+              { text: " Solo lectura", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Hace el campo de solo lectura, visible pero no editable. A diferencia de disabled, el valor sí se envía.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Hace el campo de solo lectura, visible pero no editable. A diferencia de disabled, el valor sí se envía.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "readonly:", content: "bold" },
-                { text: " Solo lectura", content: "plain" }
+                { text: " Solo lectura", content: "plain" },
               ],
               type: "text",
               placeholder: "Solo lectura",
               attributes: { readonly: true },
-              code: { content: "<input type=\"text\" readonly>" }
-            }
+              code: { content: '<input type="text" readonly>' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Puedes seleccionar el texto pero no editarlo",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Multiple", content: "bold" },
-              { text: " Selección múltiple", content: "plain" }
-            ]
+              { text: " Selección múltiple", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Permite seleccionar múltiples valores en campos de archivo o listas.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Permite seleccionar múltiples valores en campos de archivo o listas.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "multiple:", content: "bold" },
-                { text: " Selección múltiple", content: "plain" }
+                { text: " Selección múltiple", content: "plain" },
               ],
               type: "file",
               attributes: { multiple: true },
-              code: { content: "<input type=\"file\" multiple>" }
-            }
+              code: { content: '<input type="file" multiple>' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Puedes seleccionar varios archivos a la vez",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Accept", content: "bold" },
-              { text: " Tipos de archivo permitidos", content: "plain" }
-            ]
+              { text: " Tipos de archivo permitidos", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Especifica qué tipos de archivo son permitidos en inputs de tipo file.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Especifica qué tipos de archivo son permitidos en inputs de tipo file.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "accept:", content: "bold" },
-                { text: " Tipos de archivo permitidos", content: "plain" }
+                { text: " Tipos de archivo permitidos", content: "plain" },
               ],
               type: "file",
               attributes: { accept: ".pdf" },
-              code: { content: '<input type="file" accept=".pdf">' }
-            }
+              code: { content: '<input type="file" accept=".pdf">' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Solo documentos PDF",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Autocomplete", content: "bold" },
-              { text: " Control de autocompletado", content: "plain" }
-            ]
+              { text: " Control de autocompletado", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Controla si el navegador puede autocompletar el campo con datos guardados previamente.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Controla si el navegador puede autocompletar el campo con datos guardados previamente.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "autocomplete:", content: "bold" },
-                { text: " Control de autocompletado", content: "plain" }
+                { text: " Control de autocompletado", content: "plain" },
               ],
               type: "text",
               placeholder: "Control de autocompletado",
               attributes: { autocomplete: "off" },
-              code: { content: "<input type=\"text\" autocomplete=\"off\">" }
-            }
+              code: { content: '<input type="text" autocomplete="off">' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "El navegador no sugerirá valores",
-                content: "plain"
-              }
-            ] 
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Value", content: "bold" },
-              { text: " Valor predeterminado", content: "plain" }
-            ]
+              { text: " Valor predeterminado", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Establece un valor inicial que aparece cuando se carga la página.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Establece un valor inicial que aparece cuando se carga la página.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "value:", content: "bold" },
-                { text: " Valor predeterminado", content: "plain" }
+                { text: " Valor predeterminado", content: "plain" },
               ],
               type: "text",
               placeholder: "Valor predeterminado",
               attributes: { value: "Valor predeterminado" },
-              code: { content: "<input type=\"text\" value=\"Valor predeterminado\">" }
-            }
+              code: {
+                content: '<input type="text" value="Valor predeterminado">',
+              },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Valor predefinido que el usuario puede cambiar",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Maxlength", content: "bold" },
-              { text: " Límite de caracteres", content: "plain" }
-            ]
+              { text: " Límite de caracteres", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Limita el número máximo de caracteres que se pueden escribir en el campo.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Limita el número máximo de caracteres que se pueden escribir en el campo.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "maxlength:", content: "bold" },
-                { text: " Límite de caracteres", content: "plain" }
+                { text: " Límite de caracteres", content: "plain" },
               ],
               type: "text",
               placeholder: "Límite de caracteres",
               attributes: { maxlength: 50 },
-              code: { content: "<input type=\"text\" maxlength=\"50\">" }
-            }
+              code: { content: '<input type="text" maxlength="50">' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "No podrás escribir más de 50 caracteres",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Size", content: "bold" },
-              { text: " Ancho visual", content: "plain" }
-            ]
+              { text: " Ancho visual", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Define el ancho visual del campo en número de caracteres.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Define el ancho visual del campo en número de caracteres.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "size:", content: "bold" },
-                { text: " Ancho visual", content: "plain" }
+                { text: " Ancho visual", content: "plain" },
               ],
               type: "text",
               placeholder: "Ancho visual",
               attributes: { size: 40 },
-              code: { content: "<input type=\"text\" size=\"40\">" }
-            }
+              code: { content: '<input type="text" size="40">' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Este campo tiene 40 caracteres",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Autofocus", content: "bold" },
-              { text: " Foco automático", content: "plain" }
-            ]
+              { text: " Foco automático", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Hace que el campo reciba el foco automáticamente cuando se carga la página.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Hace que el campo reciba el foco automáticamente cuando se carga la página.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "autofocus:", content: "bold" },
-                { text: " Foco automático", content: "plain" }
+                { text: " Foco automático", content: "plain" },
               ],
               type: "text",
               placeholder: "Foco automático",
               attributes: { autofocus: true },
-              code: { content: "<input type=\"text\" autofocus>" }
-            }
+              code: { content: '<input type="text" autofocus>' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Solo un elemento por página debe tener autofocus",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Form", content: "bold" },
-              { text: " Asociar con formulario", content: "plain" }
-            ]
+              { text: " Asociar con formulario", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Permite asociar un input con un formulario específico aunque no esté dentro de él.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Permite asociar un input con un formulario específico aunque no esté dentro de él.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "form:", content: "bold" },
-                { text: " Asociar con formulario", content: "plain" }
+                { text: " Asociar con formulario", content: "plain" },
               ],
               type: "text",
               placeholder: "Asociar con formulario",
               attributes: { form: "miFormulario" },
-              code: { content: "<input type=\"text\" form=\"miFormulario\">" }
-            }
+              code: { content: '<input type="text" form="miFormulario">' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Este input está fuera del form pero se enviará con él",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "List", content: "bold" },
-              { text: " Lista de sugerencias", content: "plain" }
-            ]
+              { text: " Lista de sugerencias", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Conecta el input con un datalist para mostrar opciones sugeridas.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Conecta el input con un datalist para mostrar opciones sugeridas.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "list:", content: "bold" },
-                { text: " Lista de sugerencias", content: "plain" }
+                { text: " Lista de sugerencias", content: "plain" },
               ],
               type: "text",
               placeholder: "Lista de sugerencias",
               attributes: { list: "navegadores" },
-              code: { content: "<input type=\"text\" list=\"navegadores\">" }
-            }
+              code: { content: '<input type="text" list="navegadores">' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Empieza a escribir para ver las sugerencias",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               { text: "Formnovalidate", content: "bold" },
-              { text: " Omitir validación", content: "plain" }
-            ]
+              { text: " Omitir validación", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "En botones de envío, permite enviar el formulario sin validar los campos.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "En botones de envío, permite enviar el formulario sin validar los campos.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "inputCard",
             info: {
               label: [
                 { text: "formnovalidate:", content: "bold" },
-                { text: " Omitir validación", content: "plain" }
+                { text: " Omitir validación", content: "plain" },
               ],
               type: "submit",
               attributes: { formnovalidate: true },
-              code: { content: "<input type=\"submit\" formnovalidate> " }
-            }
+              code: { content: '<input type="submit" formnovalidate> ' },
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "En el ejemplo original había dos botones: uno con validación y otro sin validación. Aquí mostramos solo el botón sin validación para simplificar.",
-                content: "plain"
-              }
-            ]
-          }
-        ]
+                content: "plain",
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 7,
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "Mejores Prácticas para inputs", content: "plain" } 
-            ]
+            info: [{ text: "Mejores Prácticas para inputs", content: "plain" }],
           },
           {
             type: "h4",
-            info: [
-              { text: "Usa el tipo correcto", content: "plain" }
-            ]
+            info: [{ text: "Usa el tipo correcto", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Cada tipo de input tiene un propósito específico. Usar ", 
-                content: "plain" 
+              {
+                text: "Cada tipo de input tiene un propósito específico. Usar ",
+                content: "plain",
               },
               {
-                text: "type=\"email\"",
-                content: "bold"
+                text: 'type="email"',
+                content: "bold",
               },
               {
-                text: " para emails activa la validación automática y mejora la experiencia en móviles.", 
-                content: "plain" 
-              }
-            ]
+                text: " para emails activa la validación automática y mejora la experiencia en móviles.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Piensa en móviles", content: "plain" } 
-            ]
+            info: [{ text: "Piensa en móviles", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Los tipos ", 
-                content: "plain" 
+              {
+                text: "Los tipos ",
+                content: "plain",
               },
               {
                 text: "tel",
-                content: "bold"
+                content: "bold",
               },
               {
-                text: ", ", 
-                content: "plain" 
+                text: ", ",
+                content: "plain",
               },
               {
                 text: "email",
-                content: "bold"
+                content: "bold",
               },
-              { 
-                text: " y ", 
-                content: "plain" 
+              {
+                text: " y ",
+                content: "plain",
               },
               {
                 text: "number",
-                content: "bold"
+                content: "bold",
               },
               {
-                text: " muestran teclados específicos en dispositivos móviles, facilitando la entrada de datos.", 
-                content: "plain" 
-              }
-            ]
+                text: " muestran teclados específicos en dispositivos móviles, facilitando la entrada de datos.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Valida siempre", content: "plain" }
-            ]
+            info: [{ text: "Valida siempre", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Combina validación HTML (required, pattern) con validación en el servidor. HTML es rápido pero no es seguro como única validación.", 
-                content: "plain" 
-              }
-            ]
+              {
+                text: "Combina validación HTML (required, pattern) con validación en el servidor. HTML es rápido pero no es seguro como única validación.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Ayuda al usuario", content: "plain" }
-            ]
+            info: [{ text: "Ayuda al usuario", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Usa ", 
-                content: "plain" 
+              {
+                text: "Usa ",
+                content: "plain",
               },
               {
                 text: "placeholder",
-                content: "bold"
+                content: "bold",
               },
               {
-                text: " para ejemplos, ", 
-                content: "plain" 
+                text: " para ejemplos, ",
+                content: "plain",
               },
               {
                 text: "title",
-                content: "bold"
+                content: "bold",
               },
               {
-                text: " para instrucciones y ", 
-                content: "plain" 
+                text: " para instrucciones y ",
+                content: "plain",
               },
               {
                 text: "label",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " asociadas a cada campo.",
-                content: "plain" 
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Mejora la UX", content: "plain" }
-            ]
+            info: [{ text: "Mejora la UX", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Usa ", 
-                content: "plain" 
+              {
+                text: "Usa ",
+                content: "plain",
               },
               {
                 text: "autofocus",
-                content: "bold"
+                content: "bold",
               },
               {
-                text: " en el campo principal, ", 
-                content: "plain" 
+                text: " en el campo principal, ",
+                content: "plain",
               },
               {
                 text: "autocomplete",
-                content: "bold"
+                content: "bold",
               },
               {
-                text: " para datos comunes y ", 
-                content: "plain" 
+                text: " para datos comunes y ",
+                content: "plain",
               },
               {
                 text: "list",
-                content: "bold"
+                content: "bold",
               },
               {
-                text: " para sugerencias.", 
-                content: "plain" 
-              }
-            ]
+                text: " para sugerencias.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Seguridad", content: "plain" }
-            ]
+            info: [{ text: "Seguridad", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { 
-                text: "Nunca confíes solo en validación del cliente. Siempre valida y sanitiza datos en el servidor para evitar ataques.", 
-                content: "plain" 
-              }
-            ]
-          }
-        ] 
+              {
+                text: "Nunca confíes solo en validación del cliente. Siempre valida y sanitiza datos en el servidor para evitar ataques.",
+                content: "plain",
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 8,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "Actividades 💬", content: "plain" }]
+            info: [{ text: "Actividades 💬", content: "plain" }],
           },
           {
             type: "h4",
-            info: [{ text: "Actividad 1: Formulario de registro completo", content: "plain" }]
+            info: [
+              {
+                text: "Actividad 1: Formulario de registro completo",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               { text: "Objetivo: ", content: "bold" },
-              { text: "Crear un formulario de registro que utilice diferentes tipos de inputs y sus atributos.", content: "plain" }
-            ]
+              {
+                text: "Crear un formulario de registro que utilice diferentes tipos de inputs y sus atributos.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ol",
@@ -5069,12 +5132,16 @@ const classes = [
                 info: [
                   { text: "Crear un archivo llamado ", content: "plain" },
                   { text: "formulario_registro.html", content: "italic" },
-                  { text: ".", content: "plain" }
-                ]
+                  { text: ".", content: "plain" },
+                ],
               },
               {
                 type: "li",
-                info: [{ text: "Construir un formulario que incluya:", content: "plain" },
+                info: [
+                  {
+                    text: "Construir un formulario que incluya:",
+                    content: "plain",
+                  },
                   {
                     type: "ul",
                     info: [
@@ -5085,13 +5152,49 @@ const classes = [
                           {
                             type: "ul",
                             info: [
-                              { type: "li", info: [{ text: "Nombre completo ", content: "bold" }, { text: "(text, required)", content: "plain" }] },
-                              { type: "li", info: [{ text: "Email ", content: "bold" }, { text: "(email, required)", content: "plain" }] },
-                              { type: "li", info: [{ text: "Teléfono ", content: "bold" }, { text: "(tel)", content: "plain" }] },
-                              { type: "li", info: [{ text: "Fecha de nacimiento ", content: "bold" }, { text: "(date, required)", content: "plain" }] }
-                            ]
-                          }
-                        ]
+                              {
+                                type: "li",
+                                info: [
+                                  { text: "Nombre completo ", content: "bold" },
+                                  {
+                                    text: "(text, required)",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  { text: "Email ", content: "bold" },
+                                  {
+                                    text: "(email, required)",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  { text: "Teléfono ", content: "bold" },
+                                  { text: "(tel)", content: "plain" },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  {
+                                    text: "Fecha de nacimiento ",
+                                    content: "bold",
+                                  },
+                                  {
+                                    text: "(date, required)",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                            ],
+                          },
+                        ],
                       },
                       {
                         type: "li",
@@ -5100,12 +5203,45 @@ const classes = [
                           {
                             type: "ul",
                             info: [
-                              { type: "li", info: [{ text: "Nombre de usuario ", content: "bold" }, { text: "(text, required, pattern para solo letras y números)", content: "plain" }] },
-                              { type: "li", info: [{ text: "Contraseña ", content: "bold" }, { text: "(password, required, minlength=8)", content: "plain" }] },
-                              { type: "li", info: [{ text: "Confirmar contraseña ", content: "bold" }, { text: "(password, required)", content: "plain" }] }
-                            ]
-                          }
-                        ]
+                              {
+                                type: "li",
+                                info: [
+                                  {
+                                    text: "Nombre de usuario ",
+                                    content: "bold",
+                                  },
+                                  {
+                                    text: "(text, required, pattern para solo letras y números)",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  { text: "Contraseña ", content: "bold" },
+                                  {
+                                    text: "(password, required, minlength=8)",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  {
+                                    text: "Confirmar contraseña ",
+                                    content: "bold",
+                                  },
+                                  {
+                                    text: "(password, required)",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                            ],
+                          },
+                        ],
                       },
                       {
                         type: "li",
@@ -5114,13 +5250,46 @@ const classes = [
                           {
                             type: "ul",
                             info: [
-                              { type: "li", info: [{ text: "Género ", content: "bold" }, { text: "(radio buttons)", content: "plain" }] },
-                              { type: "li", info: [{ text: "Intereses ", content: "bold" }, { text: "(checkboxes múltiples)", content: "plain" }] },
-                              { type: "li", info: [{ text: "País ", content: "bold" }, { text: "(input con datalist)", content: "plain" }] },
-                              { type: "li", info: [{ text: "Sitio web personal ", content: "bold" }, { text: "(url)", content: "plain" }] }
-                            ]
-                          }
-                        ]
+                              {
+                                type: "li",
+                                info: [
+                                  { text: "Género ", content: "bold" },
+                                  { text: "(radio buttons)", content: "plain" },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  { text: "Intereses ", content: "bold" },
+                                  {
+                                    text: "(checkboxes múltiples)",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  { text: "País ", content: "bold" },
+                                  {
+                                    text: "(input con datalist)",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  {
+                                    text: "Sitio web personal ",
+                                    content: "bold",
+                                  },
+                                  { text: "(url)", content: "plain" },
+                                ],
+                              },
+                            ],
+                          },
+                        ],
                       },
                       {
                         type: "li",
@@ -5129,33 +5298,70 @@ const classes = [
                           {
                             type: "ul",
                             info: [
-                              { type: "li", info: [{ text: "Foto de perfil ", content: "bold" }, { text: "(file, accept imágenes)", content: "plain" }] },
-                              { type: "li", info: [{ text: "Color favorito ", content: "bold" }, { text: "(color)", content: "plain" }] },
-                              { type: "li", info: [{ text: "Nivel de experiencia ", content: "bold" }, { text: "(range, 1-10)", content: "plain" }] }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                              {
+                                type: "li",
+                                info: [
+                                  { text: "Foto de perfil ", content: "bold" },
+                                  {
+                                    text: "(file, accept imágenes)",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  { text: "Color favorito ", content: "bold" },
+                                  { text: "(color)", content: "plain" },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  {
+                                    text: "Nivel de experiencia ",
+                                    content: "bold",
+                                  },
+                                  { text: "(range, 1-10)", content: "plain" },
+                                ],
+                              },
+                            ],
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 type: "li",
-                info: [{ text: "Botones de enviar y limpiar formulario", content: "plain" }]
+                info: [
+                  {
+                    text: "Botones de enviar y limpiar formulario",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
-                info: [{ text: "Usar atributos como placeholder, required, pattern según corresponda", content: "plain" }]
-              }
-            ]
+                info: [
+                  {
+                    text: "Usar atributos como placeholder, required, pattern según corresponda",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
             info: [
               { text: "Bonus: ", content: "bold" },
-              { text: "Añadir un campo oculto con la fecha actual usando JavaScript.", content: "plain" }
-            ]
+              {
+                text: "Añadir un campo oculto con la fecha actual usando JavaScript.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "answer",
@@ -5264,30 +5470,38 @@ const classes = [
       </section>
     </form>
   </main>
-</body>`
-              }
-            ]
+</body>`,
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "Actividad 2: Sistema de encuestas", content: "plain" }]
+            info: [
+              { text: "Actividad 2: Sistema de encuestas", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
               { text: "Objetivo: ", content: "bold" },
-              { text: "Crear múltiples formularios que demuestren el dominio de todos los tipos de inputs.", content: "plain" }
-            ]
+              {
+                text: "Crear múltiples formularios que demuestren el dominio de todos los tipos de inputs.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "Descripción del proyecto:", content: "plain" }]
+            info: [{ text: "Descripción del proyecto:", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "Desarrollarás un sistema de encuestas con diferentes formularios especializados que cubran todos los tipos de inputs aprendidos.", content: "plain" }
-            ]
+              {
+                text: "Desarrollarás un sistema de encuestas con diferentes formularios especializados que cubran todos los tipos de inputs aprendidos.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ol",
@@ -5301,11 +5515,44 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { type: "li", info: [{ text: "index.html ", content: "bold" }, { text: "(página principal con enlaces)", content: "plain" }] },
-                      { type: "li", info: [{ text: "encuesta-personal.html ", content: "bold" }, { text: "(datos personales)", content: "plain" }] },
-                      { type: "li", info: [{ text: "encuesta-trabajo.html ", content: "bold" }, { text: "(información laboral)", content: "plain" }] },
-                      { type: "li", info: [{ text: "encuesta-satisfaccion.html ", content: "bold" }, { text: "(satisfacción del cliente)", content: "plain" }] }
-                    ]
+                      {
+                        type: "li",
+                        info: [
+                          { text: "index.html ", content: "bold" },
+                          {
+                            text: "(página principal con enlaces)",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "encuesta-personal.html ", content: "bold" },
+                          { text: "(datos personales)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "encuesta-trabajo.html ", content: "bold" },
+                          { text: "(información laboral)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "encuesta-satisfaccion.html ",
+                            content: "bold",
+                          },
+                          {
+                            text: "(satisfacción del cliente)",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
                   },
                   {
                     type: "answer",
@@ -5336,10 +5583,10 @@ const classes = [
     </ul>
   </main>
 </body>`,
-              },
-            ]
-          },
-                ]
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 type: "li",
@@ -5348,12 +5595,48 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { type: "li", info: [{ text: "Información básica ", content: "bold" }, { text: "(nombre, email, teléfono, fecha nacimiento)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Dirección completa ", content: "bold" }, { text: "(text inputs para calle, ciudad, código postal)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Estado civil ", content: "bold" }, { text: "(radio buttons)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Hobbies ", content: "bold" }, { text: "(checkboxes múltiples)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Descripción personal ", content: "bold" }, { text: "(textarea)", content: "plain" }] },
-                    ]
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Información básica ", content: "bold" },
+                          {
+                            text: "(nombre, email, teléfono, fecha nacimiento)",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Dirección completa ", content: "bold" },
+                          {
+                            text: "(text inputs para calle, ciudad, código postal)",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Estado civil ", content: "bold" },
+                          { text: "(radio buttons)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Hobbies ", content: "bold" },
+                          { text: "(checkboxes múltiples)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Descripción personal ", content: "bold" },
+                          { text: "(textarea)", content: "plain" },
+                        ],
+                      },
+                    ],
                   },
                   {
                     type: "answer",
@@ -5453,11 +5736,11 @@ const classes = [
           <button type="reset">Limpiar</button>
         </div>
     </form>
-</body>`
+</body>`,
                       },
-                    ]
+                    ],
                   },
-                ]
+                ],
               },
               {
                 type: "li",
@@ -5466,14 +5749,62 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { type: "li", info: [{ text: "Empresa actual ", content: "bold" }, { text: "(text)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Salario esperado ", content: "bold" }, { text: "(number con min/max)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Años de experiencia ", content: "bold" }, { text: "(range slider)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Fecha disponible para empezar ", content: "bold" }, { text: "(date)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Horario preferido ", content: "bold" }, { text: "(time inputs para inicio y fin)", content: "plain" }] },
-                      { type: "li", info: [{ text: "CV ", content: "bold" }, { text: "(file upload, solo PDF)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Sitio web profesional ", content: "bold" }, { text: "(url)", content: "plain" }] }
-                    ]
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Empresa actual ", content: "bold" },
+                          { text: "(text)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Salario esperado ", content: "bold" },
+                          { text: "(number con min/max)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Años de experiencia ", content: "bold" },
+                          { text: "(range slider)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Fecha disponible para empezar ",
+                            content: "bold",
+                          },
+                          { text: "(date)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Horario preferido ", content: "bold" },
+                          {
+                            text: "(time inputs para inicio y fin)",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "CV ", content: "bold" },
+                          { text: "(file upload, solo PDF)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Sitio web profesional ", content: "bold" },
+                          { text: "(url)", content: "plain" },
+                        ],
+                      },
+                    ],
                   },
                   {
                     type: "answer",
@@ -5532,10 +5863,10 @@ const classes = [
     </form>
   </main>
 </body>`,
-                      }
-                    ]
+                      },
+                    ],
                   },
-                ]
+                ],
               },
               {
                 type: "li",
@@ -5544,12 +5875,45 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { type: "li", info: [{ text: "Calificación general ", content: "bold" }, { text: "(range 1-10)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Aspectos a evaluar ", content: "bold" }, { text: "(checkboxes)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Recomendarías el servicio ", content: "bold" }, { text: "(radio sí/no)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Comentarios ", content: "bold" }, { text: "(textarea)", content: "plain" }] },
-                      { type: "li", info: [{ text: "Email para seguimiento ", content: "bold" }, { text: "(email, opcional)", content: "plain" }] }
-                    ]
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Calificación general ", content: "bold" },
+                          { text: "(range 1-10)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Aspectos a evaluar ", content: "bold" },
+                          { text: "(checkboxes)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Recomendarías el servicio ",
+                            content: "bold",
+                          },
+                          { text: "(radio sí/no)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Comentarios ", content: "bold" },
+                          { text: "(textarea)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Email para seguimiento ", content: "bold" },
+                          { text: "(email, opcional)", content: "plain" },
+                        ],
+                      },
+                    ],
                   },
                   {
                     type: "answer",
@@ -5611,52 +5975,103 @@ const classes = [
               </div>
             </form>
           </main>
-        </body>`
-                      }
-                    ]
+        </body>`,
+                      },
+                    ],
                   },
-                ]
+                ],
               },
-            ]
+            ],
           },
           {
             type: "p",
-            info: [{ text: "Cada formulario debe tener:", content: "bold" },
-              
-            ]
+            info: [{ text: "Cada formulario debe tener:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "Validación ", content: "plain" }, { text: "HTML ", content: "bold" }, { text: "apropiada", content: "plain" }] },
-              { type: "li", info: [{ text: "Placeholders informativos", content: "plain" }] },
-              { type: "li", info: [{ text: "Labels asociados correctamente", content: "plain" }] },
-              { type: "li", info: [{ text: "Botones de envío y reset", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [
+                  { text: "Validación ", content: "plain" },
+                  { text: "HTML ", content: "bold" },
+                  { text: "apropiada", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Placeholders informativos", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Labels asociados correctamente", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Botones de envío y reset", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "Características avanzadas:", content: "bold" }]
+            info: [{ text: "Características avanzadas:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "Usar fieldset y legend para agrupar campos relacionados", content: "plain" }] },
-              { type: "li", info: [{ text: "Implementar datalists para campos con sugerencias", content: "plain" }] },
-              { type: "li", info: [{ text: "Añadir campos con validación custom usando pattern", content: "plain" }] },
-              { type: "li", info: [{ text: "Usar autofocus en el primer campo de cada formulario", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Usar fieldset y legend para agrupar campos relacionados",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Implementar datalists para campos con sugerencias",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Añadir campos con validación custom usando pattern",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Usar autofocus en el primer campo de cada formulario",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
             info: [
               { text: "Bonus: ", content: "bold" },
-              { text: "Crear un formulario adicional que demuestre inputs más avanzados como datetime-local, week, month, etc.", content: "plain" }
-            ]
+              {
+                text: "Crear un formulario adicional que demuestre inputs más avanzados como datetime-local, week, month, etc.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "answer",
-            info:[
+            info: [
               {
                 alt: "Solución Bonus: formulario adicional",
                 language: "html",
@@ -5714,13 +6129,13 @@ const classes = [
       </div>
     </form>
   </main>
-</body>`
-              }
-            ]
-          }
-        ]
-      }
-    ]
+</body>`,
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     class: 5,
@@ -5740,9 +6155,7 @@ const classes = [
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "tiquetas semánticas 💬", content: "plain" },
-            ],
+            info: [{ text: "tiquetas semánticas 💬", content: "plain" }],
           },
           {
             type: "p",
@@ -5914,7 +6327,7 @@ const classes = [
               {
                 text: "time ",
                 content: "bold",
-              }, 
+              },
               {
                 text: "y ",
                 content: "plain",
@@ -5942,7 +6355,7 @@ const classes = [
               {
                 text: "(código):",
                 content: "bold",
-              }
+              },
             ],
           },
           {
@@ -5950,45 +6363,55 @@ const classes = [
             info: {
               img: "/images/Frontend/class4/class4-3.png",
               alt: "Ejemplo de estructura semántica",
-            }
-          }
-        ], 
+            },
+          },
+        ],
       },
       {
         topic: 2,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "🎨 Introducción a CSS – Fundamentos", content: "plain" }]
+            info: [
+              { text: "🎨 Introducción a CSS – Fundamentos", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
               { text: "Objetivo: ", content: "bold" },
-              { text: "Introducir los conceptos básicos de CSS y aprender a aplicar estilos a las páginas HTML.", content: "plain" }
-            ]
+              {
+                text: "Introducir los conceptos básicos de CSS y aprender a aplicar estilos a las páginas HTML.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🧠 Sintaxis de CSS", content: "plain" }]
+            info: [{ text: "🧠 Sintaxis de CSS", content: "plain" }],
           },
           {
             type: "p",
-            info: [{ text: "Cada regla CSS tiene una estructura específica:", content: "plain" }]
+            info: [
+              {
+                text: "Cada regla CSS tiene una estructura específica:",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
-            info: { 
+            info: {
               language: "css",
               content: `selector {
     propiedad: valor;
     otra-propiedad: otro-valor;
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
-            info: [{ text: "Componentes:", content: "bold" }]
+            info: [{ text: "Componentes:", content: "bold" }],
           },
           {
             type: "ul",
@@ -5997,99 +6420,125 @@ const classes = [
                 type: "li",
                 info: [
                   { text: "Selector: ", content: "bold" },
-                  { text: "Indica qué elementos se van a estilizar.", content: "plain" }
-                ]
+                  {
+                    text: "Indica qué elementos se van a estilizar.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Llaves { }: ", content: "bold" },
-                  { text: "Delimitan el bloque de declaraciones.", content: "plain" }
-                ]
+                  {
+                    text: "Delimitan el bloque de declaraciones.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Propiedad: ", content: "bold" },
-                  { text: "Característica a modificar (color, tamaño, etc.).", content: "plain" }
-                ]
+                  {
+                    text: "Característica a modificar (color, tamaño, etc.).",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Valor: ", content: "bold" },
-                  { text: "Valor que se asigna a la propiedad.", content: "plain" }
-                ]
+                  {
+                    text: "Valor que se asigna a la propiedad.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Punto y coma (;): ", content: "bold" },
-                  { text: "Separa cada declaración.", content: "plain" }
-                ]
-              }
-            ]
+                  { text: "Separa cada declaración.", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "📌 Formas de Incluir CSS en HTML", content: "plain" }]
+            info: [
+              { text: "📌 Formas de Incluir CSS en HTML", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "CSS puede aplicarse de distintas maneras según el contexto y el alcance deseado.", content: "plain" }
-            ]
+              {
+                text: "CSS puede aplicarse de distintas maneras según el contexto y el alcance deseado.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "1. CSS en línea ", content: "plain" },{ text: "(inline)", content: "bold" }]
+            info: [
+              { text: "1. CSS en línea ", content: "plain" },
+              { text: "(inline)", content: "bold" },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "Se aplican directamente dentro de la etiqueta ", content: "plain" },
+              {
+                text: "Se aplican directamente dentro de la etiqueta ",
+                content: "plain",
+              },
               { text: "HTML, ", content: "bold" },
               { text: "usando el atributo ", content: "plain" },
               { text: "style", content: "bold" },
-              { text: ":", content: "plain" }
-            ]
+              { text: ":", content: "plain" },
+            ],
           },
           {
             type: "code",
             info: {
               language: "html",
-              content: `<p style="color: red; font-size: 20px;">Texto con estilo inline</p>`
-            }
+              content: `<p style="color: red; font-size: 20px;">Texto con estilo inline</p>`,
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Ventaja: ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "Aplicación inmediata y específica",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Desventaja: ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "Difícil de mantener y reutilizar",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "2. CSS interno ", content: "plain" },{ text: "(en el mismo archivo)", content: "bold" }]
+            info: [
+              { text: "2. CSS interno ", content: "plain" },
+              { text: "(en el mismo archivo)", content: "bold" },
+            ],
           },
           {
             type: "p",
@@ -6099,8 +6548,8 @@ const classes = [
               { text: " ubicada en el ", content: "plain" },
               { text: "<head>", content: "bold" },
               { text: " del documento ", content: "plain" },
-              { text: "HTML", content: "bold" }
-            ]
+              { text: "HTML", content: "bold" },
+            ],
           },
           {
             type: "code",
@@ -6111,38 +6560,41 @@ const classes = [
     h1 { color: blue; }
     .destacado { background: yellow; }
   </style>
-</head>`
-            }
+</head>`,
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Ventaja: ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "Estilos organizados en un solo lugar",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Desventaja: ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "Solo se aplican a esa página específica",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "3. Hojas de estilo CSS ", content: "plain" },{ text: "(en un archivo externo)", content: "bold" }]
+            info: [
+              { text: "3. Hojas de estilo CSS ", content: "plain" },
+              { text: "(en un archivo externo)", content: "bold" },
+            ],
           },
           {
             type: "p",
@@ -6155,31 +6607,37 @@ const classes = [
               { text: "<link>", content: "bold" },
               { text: " en el ", content: "plain" },
               { text: "<head>", content: "bold" },
-              { text: ".", content: "plain" }
-            ]
+              { text: ".", content: "plain" },
+            ],
           },
           {
             type: "code",
             info: {
               language: "html",
-              content: `<link rel="stylesheet" href="estilos.css">`
-            }
+              content: `<link rel="stylesheet" href="estilos.css">`,
+            },
           },
           {
             type: "p",
             info: [
               { text: "Ventaja: ", content: "bold" },
-              { text: "Reutilizable, organizado, fácil mantenimiento", content: "plain" }
-            ]
+              {
+                text: "Reutilizable, organizado, fácil mantenimiento",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               { text: "Recomendación: ", content: "bold" },
-              { text: "Método preferido para proyectos profesionales, ya que separa contenido de presentación.", content: "plain" }
-            ]
-          }
-        ]
+              {
+                text: "Método preferido para proyectos profesionales, ya que separa contenido de presentación.",
+                content: "plain",
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 3,
@@ -6187,20 +6645,24 @@ const classes = [
           {
             type: "h3",
             info: [
-              { text: "🧩 Selectores, Reglas y Estilización Básica", content: "plain" }
-            ]
+              {
+                text: "🧩 Selectores, Reglas y Estilización Básica",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "Los selectores permiten elegir los elementos HTML a los que se les aplicarán estilos. Existen distintos tipos de selectores para distintas situaciones.", content: "plain" }
-            ]
+              {
+                text: "Los selectores permiten elegir los elementos HTML a los que se les aplicarán estilos. Existen distintos tipos de selectores para distintas situaciones.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Selectores Básicos", content: "plain" }
-            ]
+            info: [{ text: "Selectores Básicos", content: "plain" }],
           },
           {
             type: "ul",
@@ -6209,70 +6671,97 @@ const classes = [
                 type: "li",
                 info: [
                   { text: "Selector de etiqueta: ", content: "bold" },
-                  { text: "Aplica a todos los elementos de un tipo específico.", content: "plain" },
-                  { type: "code", info: { language: "css", content: `p {\n  color: blue;\n}` } }
-                ]
+                  {
+                    text: "Aplica a todos los elementos de un tipo específico.",
+                    content: "plain",
+                  },
+                  {
+                    type: "code",
+                    info: {
+                      language: "css",
+                      content: `p {\n  color: blue;\n}`,
+                    },
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Selector de clase: ", content: "bold" },
-                  { text: "Aplica a todos los elementos con una clase determinada ", content: "plain" },
+                  {
+                    text: "Aplica a todos los elementos con una clase determinada ",
+                    content: "plain",
+                  },
                   { text: "(class = '.nombreClase').", content: "bold" },
-                  { type: "code", info: { language: "css", content: `.mi-clase {\n  font-size: 18px;\n}` } }
-                ]
+                  {
+                    type: "code",
+                    info: {
+                      language: "css",
+                      content: `.mi-clase {\n  font-size: 18px;\n}`,
+                    },
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Selector de ID: ", content: "bold" },
-                  { text: "Aplica a un único elemento con un ID específico ", content: "plain" },
+                  {
+                    text: "Aplica a un único elemento con un ID específico ",
+                    content: "plain",
+                  },
                   { text: "(id = '#nombreID').", content: "bold" },
-                  { type: "code", info: { language: "css", content: `#mi-id {\n  background: red;\n}` } }
-                ]
-              }
-            ]
+                  {
+                    type: "code",
+                    info: {
+                      language: "css",
+                      content: `#mi-id {\n  background: red;\n}`,
+                    },
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Combinar Selectores", content: "plain" }
-            ]
+            info: [{ text: "Combinar Selectores", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "También podemos combinarlos para mayor precisión:", content: "plain" }
-            ]
+              {
+                text: "También podemos combinarlos para mayor precisión:",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "css",
-              content: `article p {\n  color: gray;\n}`
-            }
+              content: `article p {\n  color: gray;\n}`,
+            },
           },
           {
             type: "p",
             info: [
-              { text: "Este ejemplo aplica estilo solo a los ", content: "plain" },
+              {
+                text: "Este ejemplo aplica estilo solo a los ",
+                content: "plain",
+              },
               { text: "<p>", content: "bold" },
               { text: " dentro de un ", content: "plain" },
               { text: "<article>", content: "bold" },
-              { text: ".", content: "plain" }
-            ]
+              { text: ".", content: "plain" },
+            ],
           },
           {
             type: "h3",
-            info: [
-              { text: "Estilización básica", content: "plain" }
-            ]
+            info: [{ text: "Estilización básica", content: "plain" }],
           },
           {
             type: "h4",
-            info: [
-              { text: "Propiedades de Color y Fondo", content: "plain" }
-            ]
+            info: [{ text: "Propiedades de Color y Fondo", content: "plain" }],
           },
           {
             type: "ul",
@@ -6281,37 +6770,35 @@ const classes = [
                 type: "li",
                 info: [
                   { text: "color", content: "bold" },
-                  { text: ": Color del texto", content: "plain" }
-                ]
+                  { text: ": Color del texto", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "background-color", content: "bold" },
-                  { text: ": Color de fondo", content: "plain" }
-                ]
+                  { text: ": Color de fondo", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "background-image", content: "bold" },
-                  { text: ": Imagen de fondo", content: "plain" }
-                ]
+                  { text: ": Imagen de fondo", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "background-gradient", content: "bold" },
-                  { text: ": Degradados", content: "plain" }
-                ]
-              }
-            ]
+                  { text: ": Degradados", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Tipografía", content: "plain" }
-            ]
+            info: [{ text: "Tipografía", content: "plain" }],
           },
           {
             type: "ul",
@@ -6320,47 +6807,44 @@ const classes = [
                 type: "li",
                 info: [
                   { text: "font-family", content: "bold" },
-                  { text: ": Color de fondo", content: "plain" }
-                ]
+                  { text: ": Color de fondo", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "font-size", content: "bold" },
-                  { text: ": Tamaño de fuente", content: "plain" }
-                ]
-                
+                  { text: ": Tamaño de fuente", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "font-weight", content: "bold" },
                   { text: ": Grosor ", content: "plain" },
-                  { text: "(bold, normal)", content: "bold" }
-                ]
+                  { text: "(bold, normal)", content: "bold" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "font-style", content: "bold" },
                   { text: ": Estilo ", content: "plain" },
-                  { text: "(italic, normal)", content: "bold" }
-                ]
+                  { text: "(italic, normal)", content: "bold" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "text-align", content: "bold" },
-                  { text: ": Alineación del texto", content: "plain" }
-                ]
-              }
-            ]
+                  { text: ": Alineación del texto", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Bordes y Espaciados", content: "plain" }
-            ]
+            info: [{ text: "Bordes y Espaciados", content: "plain" }],
           },
           {
             type: "ul",
@@ -6369,44 +6853,42 @@ const classes = [
                 type: "li",
                 info: [
                   { text: "border", content: "bold" },
-                  { text: ": Borde del elemento", content: "plain" }
-                ]
+                  { text: ": Borde del elemento", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "margin", content: "bold" },
-                  { text: ": Espacio exterior", content: "plain" }
-                ]
+                  { text: ": Espacio exterior", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "padding", content: "bold" },
-                  { text: ": Espacio interior", content: "plain" }
-                ]
+                  { text: ": Espacio interior", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "border-radius", content: "bold" },
-                  { text: ": Esquinas redondeadas", content: "plain" }
-                ]
-              }
-            ]
+                  { text: ": Esquinas redondeadas", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Ejemplo Visual", content: "plain" }
-            ]
+            info: [{ text: "Ejemplo Visual", content: "plain" }],
           },
           {
             type: "figure",
             info: {
               img: "/images/Frontend/class5/box-final-example.png",
-              alt: "Caja con todos los estilos aplicados"
-            }
+              alt: "Caja con todos los estilos aplicados",
+            },
           },
           {
             type: "code",
@@ -6419,32 +6901,33 @@ const classes = [
     border: 3px solid #2c3e50;
     border-radius: 8px;
     margin: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);\n}`
-            }
-          }
-        ]
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);\n}`,
+            },
+          },
+        ],
       },
       {
         topic: 4,
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "Actividades 💬", content: "plain" }
-            ]
+            info: [{ text: "Actividades 💬", content: "plain" }],
           },
           {
             type: "h4",
             info: [
-              { text: "Actividad 1: Estructura semántica", content: "plain" }
-            ]
+              { text: "Actividad 1: Estructura semántica", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
               { text: "Objetivo: ", content: "bold" },
-              { text: "Aplicar etiquetas semánticas para estructurar adecuadamente una página web.", content: "plain" }
-            ]
+              {
+                text: "Aplicar etiquetas semánticas para estructurar adecuadamente una página web.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ol",
@@ -6454,13 +6937,16 @@ const classes = [
                 info: [
                   { text: "Crear un archivo llamado ", content: "plain" },
                   { text: "pagina_semantica.html", content: "bold" },
-                  { text: ".", content: "plain" }
-                ]
+                  { text: ".", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { text: "Construir una página con la siguiente estructura:", content: "plain" },
+                  {
+                    text: "Construir una página con la siguiente estructura:",
+                    content: "plain",
+                  },
                   {
                     type: "ul",
                     info: [
@@ -6469,16 +6955,22 @@ const classes = [
                         info: [
                           { text: "Un ", content: "plain" },
                           { text: "<header>", content: "bold" },
-                          { text: " que contenga un título y una pequeña descripción.", content: "plain" }
-                        ]
+                          {
+                            text: " que contenga un título y una pequeña descripción.",
+                            content: "plain",
+                          },
+                        ],
                       },
                       {
                         type: "li",
                         info: [
                           { text: "Un ", content: "plain" },
                           { text: "<nav>", content: "bold" },
-                          { text: " con al menos 4 enlaces (pueden ser ficticios).", content: "plain" }
-                        ]
+                          {
+                            text: " con al menos 4 enlaces (pueden ser ficticios).",
+                            content: "plain",
+                          },
+                        ],
                       },
                       {
                         type: "li",
@@ -6494,42 +6986,60 @@ const classes = [
                               {
                                 type: "li",
                                 info: [
-                                  { text: "Primera sección:  ", content: "bold" },
+                                  {
+                                    text: "Primera sección:  ",
+                                    content: "bold",
+                                  },
                                   { text: "2 ", content: "plain" },
                                   { text: "<article>", content: "bold" },
-                                  { text: " con contenido breve.", content: "plain" }
-                                ]
+                                  {
+                                    text: " con contenido breve.",
+                                    content: "plain",
+                                  },
+                                ],
                               },
                               {
                                 type: "li",
                                 info: [
-                                  { text: "Segunda sección: ", content: "bold" },
-                                  { text: "Un formulario simple.", content: "plain" }
-                                ]
-                              }
-                            ]
-                          }
-                        ]
+                                  {
+                                    text: "Segunda sección: ",
+                                    content: "bold",
+                                  },
+                                  {
+                                    text: "Un formulario simple.",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                            ],
+                          },
+                        ],
                       },
                       {
                         type: "li",
                         info: [
                           { text: "Un ", content: "plain" },
                           { text: "<aside>", content: "bold" },
-                          { text: " con \"contenido relacionado\" o \"publicidad\".", content: "plain" }
-                        ]
+                          {
+                            text: ' con "contenido relacionado" o "publicidad".',
+                            content: "plain",
+                          },
+                        ],
                       },
                       {
                         type: "li",
                         info: [
                           { text: "Un ", content: "plain" },
                           { text: "<footer>", content: "bold" },
-                          { text: " con derechos de autor y año.", content: "plain" }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                          {
+                            text: " con derechos de autor y año.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 type: "li",
@@ -6541,14 +7051,14 @@ const classes = [
                   { text: "<figure>", content: "bold" },
                   { text: " y ", content: "plain" },
                   { text: "<figcaption>", content: "bold" },
-                  { text: " en alguna parte de la página.", content: "plain" }
-                ]
-              }
-            ]
+                  { text: " en alguna parte de la página.", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "answer",
-            info:[
+            info: [
               {
                 alt: "Solución de la página semántica",
                 language: "html",
@@ -6601,28 +7111,32 @@ const classes = [
     <hr>
     <p>Copyright&copy; <time datetime="2021-12-02">2 de diciembre de 2021</time> by <a href="https://ar.linkedin.com/in/guillermo-cochrane">Guillermo Cochrane</a>.</p>
   </footer> 
-</body>`
-              }
-            ]
+</body>`,
+              },
+            ],
           },
           {
             type: "h4",
             info: [
-              { text: "Actividad 2: Proyecto - Mi blog personal", content: "plain" }
-            ]
+              {
+                text: "Actividad 2: Proyecto - Mi blog personal",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               { text: "Objetivo: ", content: "bold" },
-              { text: "Integrar todos los conocimientos adquiridos en un pequeño proyecto de blog o sitio de noticias personal.", content: "plain" }
-            ]
+              {
+                text: "Integrar todos los conocimientos adquiridos en un pequeño proyecto de blog o sitio de noticias personal.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Descripción del proyecto:", content: "plain" }
-            ]
+            info: [{ text: "Descripción del proyecto:", content: "plain" }],
           },
           {
             type: "ul",
@@ -6636,13 +7150,40 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { type: "li", info: [ { text: "index.html ", content: "bold" }, { text: "(página principal)", content: "plain" } ] },
-                      { type: "li", info: [ { text: "articulo1.html ", content: "bold" }, { text: "(un artículo completo)", content: "plain" } ] },
-                      { type: "li", info: [ { text: "sobre-mi.html ", content: "bold" }, { text: "(información personal)", content: "plain" } ] },
-                      { type: "li", info: [ { text: "contacto.html ", content: "bold" }, { text: "(formulario de contacto)", content: "plain" } ] }
-                    ]
-                  }
-                ]
+                      {
+                        type: "li",
+                        info: [
+                          { text: "index.html ", content: "bold" },
+                          { text: "(página principal)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "articulo1.html ", content: "bold" },
+                          { text: "(un artículo completo)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "sobre-mi.html ", content: "bold" },
+                          { text: "(información personal)", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "contacto.html ", content: "bold" },
+                          {
+                            text: "(formulario de contacto)",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 type: "li",
@@ -6652,12 +7193,52 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { type: "li", info: [ { text: "Header con el nombre de tu blog y un lema.", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Menú de navegación con enlaces a todas las páginas.", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Sección principal con 3 tarjetas de artículos (título, fecha, imagen y resumen).", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Barra lateral con 'sobre mí' resumido y categorías (lista).", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Pie de página con derechos, año y redes sociales.", content: "plain" } ] }
-                    ]
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Header con el nombre de tu blog y un lema.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Menú de navegación con enlaces a todas las páginas.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Sección principal con 3 tarjetas de artículos (título, fecha, imagen y resumen).",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Barra lateral con 'sobre mí' resumido y categorías (lista).",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Pie de página con derechos, año y redes sociales.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
                   },
                   {
                     type: "answer",
@@ -6752,11 +7333,11 @@ const classes = [
       </ul>
     </nav>
   </footer>
-</body>`
+</body>`,
                       },
                     ],
                   },
-                ]
+                ],
               },
               {
                 type: "li",
@@ -6766,26 +7347,90 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { type: "li", info: [ { text: "Mismo header y navegación que en index.", content: "plain" } ] },
-                      { 
-                        type: "li", 
+                      {
+                        type: "li",
                         info: [
-                          { text: "Contenido del artículo completo:", content: "plain" },
+                          {
+                            text: "Mismo header y navegación que en index.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Contenido del artículo completo:",
+                            content: "plain",
+                          },
                           {
                             type: "ul",
                             info: [
-                              { type: "li", info: [ { text: "Título principal y fecha.", content: "plain" } ] },
-                              { type: "li", info: [ { text: "Imagen destacada.", content: "plain" } ] },
-                              { type: "li", info: [ { text: "Texto dividido en párrafos.", content: "plain" } ] },
-                              { type: "li", info: [ { text: "Una lista (ordenada o desordenada).", content: "plain" } ] },
-                              { type: "li", info: [ { text: "Una tabla con datos relevantes.", content: "plain" } ] }
-                            ]
-                          }
-                        ]
+                              {
+                                type: "li",
+                                info: [
+                                  {
+                                    text: "Título principal y fecha.",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  {
+                                    text: "Imagen destacada.",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  {
+                                    text: "Texto dividido en párrafos.",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  {
+                                    text: "Una lista (ordenada o desordenada).",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                              {
+                                type: "li",
+                                info: [
+                                  {
+                                    text: "Una tabla con datos relevantes.",
+                                    content: "plain",
+                                  },
+                                ],
+                              },
+                            ],
+                          },
+                        ],
                       },
-                      { type: "li", info: [ { text: "Sección de comentarios (simulada con un comentario ya hecho).", content: "plain" } ] },
-                      { type: "li", info: [ { text: "El mismo pie de página.", content: "plain" } ] }
-                    ]
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Sección de comentarios (simulada con un comentario ya hecho).",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          { text: "El mismo pie de página.", content: "plain" },
+                        ],
+                      },
+                    ],
                   },
                   {
                     type: "answer",
@@ -6793,7 +7438,7 @@ const classes = [
                       {
                         alt: "Solución de la página de un artículo",
                         language: "html",
-                        content:  `<body>
+                        content: `<body>
   <header>
     <div>
       <button>Barra de Navegación</button>
@@ -7022,11 +7667,11 @@ const classes = [
       </ul>
     </nav>
   </footer>
-</body>`
+</body>`,
                       },
                     ],
-                  }
-                ]
+                  },
+                ],
               },
               {
                 type: "li",
@@ -7036,11 +7681,40 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { type: "li", info: [ { text: "Tu foto (o avatar).", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Información personal (puede ser ficticia).", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Lista de habilidades o intereses.", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Enlaces a redes sociales.", content: "plain" } ] }
-                    ]
+                      {
+                        type: "li",
+                        info: [
+                          { text: "Tu foto (o avatar).", content: "plain" },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Información personal (puede ser ficticia).",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Lista de habilidades o intereses.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Enlaces a redes sociales.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
                   },
                   {
                     type: "answer",
@@ -7103,11 +7777,11 @@ const classes = [
     </nav>
   </section>
 </main>
-</body>`
+</body>`,
                       },
                     ],
                   },
-                ]
+                ],
               },
               {
                 type: "li",
@@ -7117,12 +7791,47 @@ const classes = [
                   {
                     type: "ul",
                     info: [
-                      { type: "li", info: [ { text: "Formulario de contacto completo.", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Campos para nombre, email, asunto y mensaje.", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Casillas de verificación para suscripción.", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Botón de envío.", content: "plain" } ] },
-                      { type: "li", info: [ { text: "Información alternativa de contacto.", content: "plain" } ] }
-                    ]
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Formulario de contacto completo.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Campos para nombre, email, asunto y mensaje.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Casillas de verificación para suscripción.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                      {
+                        type: "li",
+                        info: [{ text: "Botón de envío.", content: "plain" }],
+                      },
+                      {
+                        type: "li",
+                        info: [
+                          {
+                            text: "Información alternativa de contacto.",
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
                   },
                   {
                     type: "answer",
@@ -7190,38 +7899,79 @@ const classes = [
       </ul>
     </nav>
   </footer>
-</body>`
+</body>`,
                       },
                     ],
-                  }
-                ]
-              }
-            ]
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "Sugerencias:", content: "plain" }
-            ]
+            info: [{ text: "Sugerencias:", content: "plain" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [ { text: "Usa etiquetas semánticas para toda la estructura.", content: "plain" } ] },
-              { type: "li", info: [ { text: "No te preocupes aún por el diseño visual, nos enfocaremos en la estructura HTML.", content: "plain" } ] },
-              { type: "li", info: [ { text: "Puedes usar contenido ficticio o generado para los textos.", content: "plain" } ] },
-              { type: "li", info: [ { text: "Utiliza imágenes gratuitas de internet o tus propias imágenes.", content: "plain" } ] },
-              { type: "li", info: [ { text: "Revisa tu código en el validador de HTML para asegurarte de que es correcto.", content: "plain" } ] }
-            ]
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Usa etiquetas semánticas para toda la estructura.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "No te preocupes aún por el diseño visual, nos enfocaremos en la estructura HTML.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Puedes usar contenido ficticio o generado para los textos.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Utiliza imágenes gratuitas de internet o tus propias imágenes.",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Revisa tu código en el validador de HTML para asegurarte de que es correcto.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
             info: [
               { text: "Bonus: ", content: "bold" },
-              { text: "Añade metadatos en el head como autor, descripción y palabras clave.", content: "plain" }
-            ]
+              {
+                text: "Añade metadatos en el head como autor, descripción y palabras clave.",
+                content: "plain",
+              },
+            ],
           },
-        ]
+        ],
       },
     ],
   },
@@ -7244,23 +7994,24 @@ const classes = [
           {
             type: "h3",
             info: [
-              { text: "💬 Repaso: ¿Cómo es la semántica de CSS?", content: "plain" }
-            ]
+              {
+                text: "💬 Repaso: ¿Cómo es la semántica de CSS?",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "CSS (Cascading Style Sheets) es el lenguaje que usamos para describir la presentación de documentos HTML. Permite separar el contenido de la estructura visual y facilita el mantenimiento y la reutilización de estilos.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "🧱 Sintaxis básica de CSS", content: "plain" }
-            ]
+            info: [{ text: "🧱 Sintaxis básica de CSS", content: "plain" }],
           },
           {
             type: "code",
@@ -7269,8 +8020,8 @@ const classes = [
               content: `selector {
         propiedad: valor;
         otra-propiedad: otro-valor;
-      }`
-            }
+      }`,
+            },
           },
           {
             type: "ul",
@@ -7279,44 +8030,54 @@ const classes = [
                 type: "li",
                 info: [
                   { text: "Selector:", content: "bold" },
-                  { text: " Indica qué elementos se van a estilizar.", content: "plain" }
-                ]
+                  {
+                    text: " Indica qué elementos se van a estilizar.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Llaves { }:", content: "bold" },
-                  { text: " Delimitan el bloque de declaraciones.", content: "plain" }
-                ]
+                  {
+                    text: " Delimitan el bloque de declaraciones.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Propiedad:", content: "bold" },
-                  { text: " Característica que queremos modificar (color, tamaño, etc.).", content: "plain" }
-                ]
+                  {
+                    text: " Característica que queremos modificar (color, tamaño, etc.).",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Valor:", content: "bold" },
-                  { text: " El valor específico que le asignamos a la propiedad.", content: "plain" }
-                ]
+                  {
+                    text: " El valor específico que le asignamos a la propiedad.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Punto y coma (;):", content: "bold" },
-                  { text: " Separa cada declaración.", content: "plain" }
-                ]
-              }
-            ]
+                  { text: " Separa cada declaración.", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "📌 Formas de incluir CSS", content: "plain" }
-            ]
+            info: [{ text: "📌 Formas de incluir CSS", content: "plain" }],
           },
           {
             type: "ul",
@@ -7328,17 +8089,17 @@ const classes = [
                   { text: " Directamente en la etiqueta ", content: "plain" },
                   {
                     text: ".HTML ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "usando el atributo ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "style",
-                    content: "bold"
+                    content: "bold",
                   },
-                ]
+                ],
               },
               {
                 type: "li",
@@ -7347,8 +8108,8 @@ const classes = [
                   { text: " Dentro de la etiqueta ", content: "plain" },
                   { text: "<style>", content: "bold" },
                   { text: " en el ", content: "plain" },
-                  { text: "<head>. ", content: "bold" }
-                ]
+                  { text: "<head>. ", content: "bold" },
+                ],
               },
               {
                 type: "li",
@@ -7359,23 +8120,25 @@ const classes = [
                   { text: " separado y vinculado con ", content: "plain" },
                   { text: "<link>", content: "bold" },
                   { text: " en el ", content: "plain" },
-                  { text: "<head>.", content: "bold" }
-                ]
-              }
-            ]
-          }
-        ]
+                  { text: "<head>.", content: "bold" },
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 2,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "⚡ Cheatsheet de Propiedades CSS", content: "plain" }]
+            info: [
+              { text: "⚡ Cheatsheet de Propiedades CSS", content: "plain" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🔤 Font / Tipografía", content: "plain" }]
+            info: [{ text: "🔤 Font / Tipografía", content: "plain" }],
           },
           {
             type: "code",
@@ -7387,12 +8150,12 @@ font-weight: bold; /* Peso (normal, bold, 100–900) */
 font-style: italic; /* Estilo (normal, italic, oblique) */
 line-height: 1.5; /* Altura de línea */
 letter-spacing: 1px; /* Espaciado entre letras */
-word-spacing: 5px; /* Espaciado entre palabras */`
-            }
+word-spacing: 5px; /* Espaciado entre palabras */`,
+            },
           },
           {
             type: "h4",
-            info: [{ text: "✏️ Text", content: "plain" }]
+            info: [{ text: "✏️ Text", content: "plain" }],
           },
           {
             type: "code",
@@ -7401,12 +8164,12 @@ word-spacing: 5px; /* Espaciado entre palabras */`
               content: `text-transform: uppercase; /* Texto en mayúsculas: none, uppercase, lowercase, capitalize  */
 text-align: left; /* Alineación del texto: left, right, center, justify */
 text-decoration: underline; /* Texto con subrayado: none, underline, overline, line-through */
-text-shadow: 2px 2px 4px gray; /* Sombra en el texto*/`
-            }
+text-shadow: 2px 2px 4px gray; /* Sombra en el texto*/`,
+            },
           },
           {
             type: "h4",
-            info: [{ text: "📐 Espaciado y flujo", content: "plain" }]
+            info: [{ text: "📐 Espaciado y flujo", content: "plain" }],
           },
           {
             type: "code",
@@ -7414,12 +8177,12 @@ text-shadow: 2px 2px 4px gray; /* Sombra en el texto*/`
               language: "css",
               content: `white-space: nowrap; /* Controla espacios y saltos */
 overflow-wrap: break-word; /* Corta palabras largas */
-direction: rtl; /* Dirección del texto: ltr, rtl*/`
-            }
+direction: rtl; /* Dirección del texto: ltr, rtl*/`,
+            },
           },
           {
             type: "h4",
-            info: [{ text: "📦 Margin / Padding / Border", content: "plain" }]
+            info: [{ text: "📦 Margin / Padding / Border", content: "plain" }],
           },
           {
             type: "code",
@@ -7429,24 +8192,24 @@ direction: rtl; /* Dirección del texto: ltr, rtl*/`
 margin: 10px 5px; /* Top-Bottom 10px, Left-Right 5px */
 padding: 20px; /* Relleno interno */
 border: 1px solid black; /* Borde completo: grosor, estilo y color  */
-border-radius: 10px; /* Bordes redondeados */`
-            }
+border-radius: 10px; /* Bordes redondeados */`,
+            },
           },
           {
             type: "h4",
-            info: [{ text: " 🗃 Sombra y caja", content: "plain" }]
+            info: [{ text: " 🗃 Sombra y caja", content: "plain" }],
           },
           {
             type: "code",
             info: {
               language: "css",
               content: `box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Sombra del elemento */
-box-sizing: border-box; /* Incluye padding y border en el ancho total */`
-            }
+box-sizing: border-box; /* Incluye padding y border en el ancho total */`,
+            },
           },
           {
             type: "h4",
-            info: [{ text: "🎨 Background", content: "plain" }]
+            info: [{ text: "🎨 Background", content: "plain" }],
           },
           {
             type: "code",
@@ -7457,12 +8220,14 @@ background-image: url("img.jpg"); /* Imagen de fondo */
 background-repeat: no-repeat; /* Repetición: repeat, no-repeat, repeat-x, repeat-y  */
 background-size: cover; /* Escalado: cover, contain, auto*/
 background-position: center center; /* Posición de la imagen */
-background-attachment: fixed; /* Fijar al hacer scroll */`
-            }
+background-attachment: fixed; /* Fijar al hacer scroll */`,
+            },
           },
           {
             type: "h4",
-            info: [{ text: "📏 Tamaño / Display / Posición", content: "plain" }]
+            info: [
+              { text: "📏 Tamaño / Display / Posición", content: "plain" },
+            ],
           },
           {
             type: "code",
@@ -7475,12 +8240,12 @@ display: block; /* Bloque:  block, inline, inline-block, none  */
 visibility: hidden; /* Visiblidad sin quitar el espacio */
 position: relative; /* Posición: static, relative, absolute, fixed  */
 top: 10px; left: 20px; /* Posiciónamineto */
-z-index: 1; /* Posición en el eje Z */`
-            }
+z-index: 1; /* Posición en el eje Z */`,
+            },
           },
           {
             type: "h4",
-            info: [{ text: "🖱️ Cursor / Interacción", content: "plain" }]
+            info: [{ text: "🖱️ Cursor / Interacción", content: "plain" }],
           },
           {
             type: "code",
@@ -7488,12 +8253,12 @@ z-index: 1; /* Posición en el eje Z */`
               language: "css",
               content: `cursor: pointer; /* Cursor: default, pointer, wait, text, move, not-allowed */
 pointer-events: none /* Habilita o deshabilita eventos del puntero */;
-user-select: none /* Deshabilita la selección de texto */;`
-            }
+user-select: none /* Deshabilita la selección de texto */;`,
+            },
           },
           {
             type: "h4",
-            info: [{ text: "🔧 Otros", content: "plain" }]
+            info: [{ text: "🔧 Otros", content: "plain" }],
           },
           {
             type: "code",
@@ -7506,27 +8271,30 @@ clip-path: circle(50%); /* Recorta formas */
 ::selection { /* Cambia el color del texto seleccionado */
   color: white;
   background: #3498db;
-}`
-            }
-          }
-        ]
+}`,
+            },
+          },
+        ],
       },
       {
         topic: 3,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "🔎 Tipos de Selectores en CSS", content: "plain" }]
+            info: [{ text: "🔎 Tipos de Selectores en CSS", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "Los selectores de CSS permiten apuntar a elementos HTML específicos para aplicarles estilos. Existen distintos tipos de selectores según su nivel de precisión y contexto.", content: "plain" }
-            ]
+              {
+                text: "Los selectores de CSS permiten apuntar a elementos HTML específicos para aplicarles estilos. Existen distintos tipos de selectores según su nivel de precisión y contexto.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🎯 Selector universal", content: "plain" }]
+            info: [{ text: "🎯 Selector universal", content: "plain" }],
           },
           {
             type: "code",
@@ -7535,18 +8303,24 @@ clip-path: circle(50%); /* Recorta formas */
               content: `* {
   margin: 0;
   padding: 0;
-}` 
-            }
+}`,
+            },
           },
           {
             type: "p",
             info: [
-              { text: "Aplica estilos a todos los elementos del documento. Se usa comúnmente para reiniciar márgenes y paddings.", content: "plain" }
-            ]
+              {
+                text: "Aplica estilos a todos los elementos del documento. Se usa comúnmente para reiniciar márgenes y paddings.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "📛 Selector de etiqueta ", content: "plain" }, { text: "(Type Selector)", content: "bold" }]
+            info: [
+              { text: "📛 Selector de etiqueta ", content: "plain" },
+              { text: "(Type Selector)", content: "bold" },
+            ],
           },
           {
             type: "code",
@@ -7554,19 +8328,25 @@ clip-path: circle(50%); /* Recorta formas */
               language: "css",
               content: `p {
   color: blue;
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
             info: [
-              { text: "Apunta a todas las etiquetas del mismo tipo. En el ejemplo, a todos los párrafos.", content: "plain" },
-              {text:"<p> </p>",content:"bold" }
-            ]
+              {
+                text: "Apunta a todas las etiquetas del mismo tipo. En el ejemplo, a todos los párrafos.",
+                content: "plain",
+              },
+              { text: "<p> </p>", content: "bold" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "✅ Selector de clase ", content: "plain" },{ text: "(Class Selector)", content: "bold" }]
+            info: [
+              { text: "✅ Selector de clase ", content: "plain" },
+              { text: "(Class Selector)", content: "bold" },
+            ],
           },
           {
             type: "code",
@@ -7574,22 +8354,28 @@ clip-path: circle(50%); /* Recorta formas */
               language: "css",
               content: `.card {
   border: 1px solid black;
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
             info: [
-              { text: "Aplica a cualquier elemento con la clase indicada. Se define en  ", content: "plain" },
+              {
+                text: "Aplica a cualquier elemento con la clase indicada. Se define en  ",
+                content: "plain",
+              },
               { text: "HTML", content: "bold" },
               { text: " como ", content: "plain" },
               { text: 'class="card"', content: "bold" },
-              { text: ".", content: "plain" }
-            ]
+              { text: ".", content: "plain" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🔗 Selector de atributo ", content: "plain" },{ text: "(Attribute Selector)", content: "bold" }]
+            info: [
+              { text: "🔗 Selector de atributo ", content: "plain" },
+              { text: "(Attribute Selector)", content: "bold" },
+            ],
           },
           {
             type: "code",
@@ -7605,60 +8391,69 @@ a[target] {
 
 img[alt="logo"] {
     width: 100px;
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
             info: [
-              { text: "Selecciona elementos que tengan un atributo específico o un valor determinado. En el ejemplo, selecciona todos los elementos ", content: "plain" },
+              {
+                text: "Selecciona elementos que tengan un atributo específico o un valor determinado. En el ejemplo, selecciona todos los elementos ",
+                content: "plain",
+              },
               {
                 text: "input ",
-                content: "bold"
+                content: "bold",
               },
               { text: "de tipo ", content: "plain" },
               {
                 text: '"text", ',
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "a todos los ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "enlaces (<a>) ",
-                content: "bold"
+                content: "bold",
               },
               { text: " que tengan el atributo ", content: "plain" },
               {
                 text: '"target" ',
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "y las ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: `imágenes (<img>) `,
-                content: "bold"
+                content: "bold",
               },
               { text: "que tengan el atributo ", content: "plain" },
               {
                 text: `"alt" `,
-                content: "bold"
+                content: "bold",
               },
               { text: "con el valor ", content: "plain" },
               { text: '"logo"', content: "bold" },
-              { text: ".", content: "plain" }
-            ]
+              { text: ".", content: "plain" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "Selectores de relación ", content: "plain" },{ text: "(Combinadores)", content: "bold" }]
+            info: [
+              { text: "Selectores de relación ", content: "plain" },
+              { text: "(Combinadores)", content: "bold" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🧬 Selector descendente ", content: "plain" }, { text: "(Descendant Selector)", content: "bold" }]
+            info: [
+              { text: "🧬 Selector descendente ", content: "plain" },
+              { text: "(Descendant Selector)", content: "bold" },
+            ],
           },
           {
             type: "code",
@@ -7666,8 +8461,8 @@ img[alt="logo"] {
               language: "css",
               content: `div p {
   color: red;
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
@@ -7675,19 +8470,22 @@ img[alt="logo"] {
               { text: "Aplica a todos los .", content: "plain" },
               {
                 text: "<p>",
-                content: "bold"
+                content: "bold",
               },
               { text: " que están dentro de un ", content: "plain" },
               {
                 text: "<div>",
-                content: "bold"
+                content: "bold",
               },
-              { text: ". Define relación jerárquica.", content: "plain" }
-            ]
+              { text: ". Define relación jerárquica.", content: "plain" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "👨‍👩‍👧 Selector hijo directo ", content: "plain" }, { text: "(Child Selector)", content: "bold" }]
+            info: [
+              { text: "👨‍👩‍👧 Selector hijo directo ", content: "plain" },
+              { text: "(Child Selector)", content: "bold" },
+            ],
           },
           {
             type: "code",
@@ -7695,8 +8493,8 @@ img[alt="logo"] {
               language: "css",
               content: `ul > li {
   list-style: square;
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
@@ -7704,19 +8502,22 @@ img[alt="logo"] {
               { text: "Aplica solo a los ", content: "plain" },
               {
                 text: "<li>",
-                content: "bold"
+                content: "bold",
               },
               { text: " que son hijos directos de ", content: "plain" },
               {
                 text: "<ul>",
-                content: "bold"
+                content: "bold",
               },
-              { text: ", no a los anidados.", content: "plain" }
-            ]
+              { text: ", no a los anidados.", content: "plain" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🧩 Selector de hermanos adyacentes ", content: "plain" }, { text: "(Adjacent Sibling Selector)", content: "bold" }]
+            info: [
+              { text: "🧩 Selector de hermanos adyacentes ", content: "plain" },
+              { text: "(Adjacent Sibling Selector)", content: "bold" },
+            ],
           },
           {
             type: "code",
@@ -7724,8 +8525,8 @@ img[alt="logo"] {
               language: "css",
               content: `h1 + p {
   margin-top: 0;
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
@@ -7733,26 +8534,31 @@ img[alt="logo"] {
               { text: "Aplica al primer ", content: "plain" },
               {
                 text: "<p>",
-                content: "bold"
+                content: "bold",
               },
               { text: " que sigue inmediatamente a un ", content: "plain" },
               {
                 text: "<h1>",
-                content: "bold"
+                content: "bold",
               },
-              { text: ".", content: "plain" }
-            ]
+              { text: ".", content: "plain" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🧩 Selector de hermanos generales ", content: "plain" }, { text: "(General Sibling Selector)", content: "bold" }]
+            info: [
+              { text: "🧩 Selector de hermanos generales ", content: "plain" },
+              { text: "(General Sibling Selector)", content: "bold" },
+            ],
           },
           {
             type: "code",
-            info: { language: "css", content: `h2 ~ p {
+            info: {
+              language: "css",
+              content: `h2 ~ p {
   color: gray;
-}` 
-            }
+}`,
+            },
           },
           {
             type: "p",
@@ -7760,19 +8566,22 @@ img[alt="logo"] {
               { text: "Aplica a todos los ", content: "plain" },
               {
                 text: "<p>",
-                content: "bold"
+                content: "bold",
               },
               { text: " que siguen a un ", content: "plain" },
               {
                 text: "<h2>",
-                content: "bold"
+                content: "bold",
               },
-              { text: " y comparten el mismo padre.", content: "plain" }
-            ]
+              { text: " y comparten el mismo padre.", content: "plain" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🌐 Selectores de grupo ", content: "plain" }, { text: "(Group Selector)", content: "bold" }]
+            info: [
+              { text: "🌐 Selectores de grupo ", content: "plain" },
+              { text: "(Group Selector)", content: "bold" },
+            ],
           },
           {
             type: "code",
@@ -7780,18 +8589,21 @@ img[alt="logo"] {
               language: "css",
               content: `h1, h2, h3 {
   font-family: sans-serif;
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
             info: [
-              { text: "Permiten aplicar estilos comunes a múltiples elementos a la vez.", content: "plain" }
-            ]
+              {
+                text: "Permiten aplicar estilos comunes a múltiples elementos a la vez.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "💅 Pseudo-clases", content: "plain" }]
+            info: [{ text: "💅 Pseudo-clases", content: "plain" }],
           },
           {
             type: "code",
@@ -7799,8 +8611,8 @@ img[alt="logo"] {
               language: "css",
               content: `a:hover {
   text-decoration: underline;
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
@@ -7808,24 +8620,27 @@ img[alt="logo"] {
               { text: "Se usan para definir estados como ", content: "plain" },
               {
                 text: "hover",
-                content: "bold"
+                content: "bold",
               },
               { text: ", ", content: "plain" },
               {
                 text: "focus",
-                content: "bold"
+                content: "bold",
               },
               { text: ", ", content: "plain" },
               {
                 text: "visited",
-                content: "bold"
+                content: "bold",
               },
-              { text: ", etc.", content: "plain" }
-            ]
+              { text: ", etc.", content: "plain" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "Selectores convinados ", content: "plain" }, { text: "(Combinators)", content: "bold" }]
+            info: [
+              { text: "Selectores convinados ", content: "plain" },
+              { text: "(Combinators)", content: "bold" },
+            ],
           },
           {
             type: "code",
@@ -7833,8 +8648,8 @@ img[alt="logo"] {
               language: "css",
               content: `div.card#producto[destacado] > h3.titulo {
   color: gold;
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
@@ -7842,541 +8657,1063 @@ img[alt="logo"] {
               { text: "Aplica a un ", content: "plain" },
               {
                 text: "<h3>",
-                content: "bold"
+                content: "bold",
               },
               { text: " que está dentro de un ", content: "plain" },
               {
                 text: "<div>",
-                content: "bold"
-              },  
+                content: "bold",
+              },
               { text: " con la clase ", content: "plain" },
               {
                 text: ".card",
-                content: "bold"
+                content: "bold",
               },
               { text: " y el id ", content: "plain" },
               {
                 text: "#producto",
-                content: "bold"
+                content: "bold",
               },
               { text: " y el atributo ", content: "plain" },
               {
                 text: "destacado",
-                content: "bold"
+                content: "bold",
               },
-            ]
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🧠 Bonus: especificidad", content: "plain" }, ]
+            info: [{ text: "🧠 Bonus: especificidad", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "Cuando múltiples reglas aplican al mismo elemento, CSS usa una jerarquía de especificidad para decidir cuál aplicar. En orden:", content: "plain" }
-            ]
+              {
+                text: "Cuando múltiples reglas aplican al mismo elemento, CSS usa una jerarquía de especificidad para decidir cuál aplicar. En orden:",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
             info: [
               {
                 type: "li",
-                info: [{ text: "Estilos inline ", content: "plain" },{ text: "(atributo style)", content: "bold" }]
+                info: [
+                  { text: "Estilos inline ", content: "plain" },
+                  { text: "(atributo style)", content: "bold" },
+                ],
               },
               {
                 type: "li",
-                info: [{ text: "ID ", content: "plain" },{ text: "(#)", content: "bold" }]
+                info: [
+                  { text: "ID ", content: "plain" },
+                  { text: "(#)", content: "bold" },
+                ],
               },
               {
                 type: "li",
-                info: [{ text: "Clase, atributo, pseudo-clase ", content: "plain" },{ text: "(.class , [ atributo ], :hover)", content: "bold" }]
+                info: [
+                  { text: "Clase, atributo, pseudo-clase ", content: "plain" },
+                  { text: "(.class , [ atributo ], :hover)", content: "bold" },
+                ],
               },
               {
                 type: "li",
-                info: [{ text: "Etiqueta, pseudo-elemento ", content: "plain" },{ text: "(p, ::before)", content: "bold" }]
-              }
-            ]
-          }
-        ]
+                info: [
+                  { text: "Etiqueta, pseudo-elemento ", content: "plain" },
+                  { text: "(p, ::before)", content: "bold" },
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 4,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "📐 Unidades de CSS", content: "plain" }]
+            info: [{ text: "📐 Unidades de CSS", content: "plain" }],
           },
           {
             type: "h4",
-            info: [{ text: "📏 Unidades de Longitud Absolutas", content: "plain" }]
+            info: [
+              { text: "📏 Unidades de Longitud Absolutas", content: "plain" },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "px (píxeles):", content: "bold" }]
+            info: [{ text: "px (píxeles):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "width: 300px;", content: "bold" }] },
-              { type: "li", info: [{ text: "Unidad más común en pantalla", content: "plain" }] },
-              { type: "li", info: [{ text: "1px = un punto de la pantalla", content: "plain" }] },
-              { type: "li", info: [{ text: "Ideal para bordes, elementos precisos", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "width: 300px;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Unidad más común en pantalla", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "1px = un punto de la pantalla", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ideal para bordes, elementos precisos",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "cm (centímetros):", content: "bold" }]
+            info: [{ text: "cm (centímetros):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
               { type: "li", info: [{ text: "margin: 2cm;", content: "bold" }] },
-              { type: "li", info: [{ text: "Unidad física real", content: "plain" }] },
-              { type: "li", info: [{ text: "1cm ≈ 37.8px", content: "plain" }] },
-              { type: "li", info: [{ text: "Útil para impresión", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "Unidad física real", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "1cm ≈ 37.8px", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Útil para impresión", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "mm (milímetros):", content: "bold" }]
+            info: [{ text: "mm (milímetros):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "border-width: 5mm;", content: "bold" }] },
-              { type: "li", info: [{ text: "1mm = 1/10 de cm", content: "plain" }] },
-              { type: "li", info: [{ text: "1mm ≈ 3.78px", content: "plain" }] },
-              { type: "li", info: [{ text: "Para medidas muy precisas", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "border-width: 5mm;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "1mm = 1/10 de cm", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "1mm ≈ 3.78px", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Para medidas muy precisas", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "in (pulgadas):", content: "bold" }]
+            info: [{ text: "in (pulgadas):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
               { type: "li", info: [{ text: "width: 2in;", content: "bold" }] },
-              { type: "li", info: [{ text: "1in = 2.54cm = 96px", content: "plain" }] },
-              { type: "li", info: [{ text: "Estándar en sistemas anglosajones", content: "plain" }] },
-              { type: "li", info: [{ text: "Común en configuración de impresión", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "1in = 2.54cm = 96px", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Estándar en sistemas anglosajones",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Común en configuración de impresión",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "pt (puntos tipográficos):", content: "bold" }]
+            info: [{ text: "pt (puntos tipográficos):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "font-size: 12pt;", content: "bold" }] },
-              { type: "li", info: [{ text: "1pt = 1/72in ≈ 1.33px", content: "plain" }] },
-              { type: "li", info: [{ text: "Tradicional en tipografía", content: "plain" }] },
-              { type: "li", info: [{ text: "Común para tamaños de fuente", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "font-size: 12pt;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "1pt = 1/72in ≈ 1.33px", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Tradicional en tipografía", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Común para tamaños de fuente", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "pc (picas):", content: "bold" }]
+            info: [{ text: "pc (picas):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "line-height: 2pc;", content: "plain" }] },
-              { type: "li", info: [{ text: "1pc = 12pt = 16px aprox", content: "plain" }] },
-              { type: "li", info: [{ text: "Unidad tipográfica tradicional", content: "plain" }] },
-              { type: "li", info: [{ text: "Menos común en web", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "line-height: 2pc;", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "1pc = 12pt = 16px aprox", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Unidad tipográfica tradicional", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Menos común en web", content: "plain" }],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "📐 Unidades de Longitud Relativas", content: "plain" }]
+            info: [
+              { text: "📐 Unidades de Longitud Relativas", content: "plain" },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "em:", content: "bold" }]
+            info: [{ text: "em:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "padding: 1.5em;", content: "bold" }] },
-              { type: "li", info: [{ text: "Relativa al tamaño de fuente actual", content: "plain" }] },
-              { type: "li", info: [{ text: "Se acumula con anidación", content: "plain" }] },
-              { type: "li", info: [{ text: "Ideal para espaciado proporcional", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "padding: 1.5em;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Relativa al tamaño de fuente actual",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Se acumula con anidación", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ideal para espaciado proporcional",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "rem:", content: "bold" }]
+            info: [{ text: "rem:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "margin: 2rem;", content: "bold" }] },
-              { type: "li", info: [{ text: "Relativa al tamaño de fuente de <html>", content: "plain" }] },
-              { type: "li", info: [{ text: "No se acumula", content: "plain" }] },
-              { type: "li", info: [{ text: "Más predecible que em", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "margin: 2rem;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Relativa al tamaño de fuente de <html>",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "No se acumula", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Más predecible que em", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "ex:", content: "bold" }]
+            info: [{ text: "ex:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "line-height: 2ex;", content: "bold" }] },
-              { type: "li", info: [{ text: "Altura de la letra 'x'", content: "plain" }] },
-              { type: "li", info: [{ text: "Depende de la fuente actual", content: "plain" }] },
-              { type: "li", info: [{ text: "Útil para alineaciones precisas", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "line-height: 2ex;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Altura de la letra 'x'", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Depende de la fuente actual", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Útil para alineaciones precisas", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "ch:", content: "bold" }]
+            info: [{ text: "ch:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
               { type: "li", info: [{ text: "width: 40ch;", content: "bold" }] },
-              { type: "li", info: [{ text: "Ancho del carácter '0'", content: "plain" }] },
-              { type: "li", info: [{ text: "Ideal para textos monoespaciados", content: "plain" }] },
-              { type: "li", info: [{ text: "Perfecto para líneas de código", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "Ancho del carácter '0'", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Ideal para textos monoespaciados",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Perfecto para líneas de código", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "lh:", content: "bold" }]
+            info: [{ text: "lh:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "margin-bottom: 1lh;", content: "bold" }] },
-              { type: "li", info: [{ text: "Relativa al line-height actual", content: "plain" }] },
-              { type: "li", info: [{ text: "Útil para espaciado vertical", content: "plain" }] },
-              { type: "li", info: [{ text: "Mantiene ritmo tipográfico", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "margin-bottom: 1lh;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Relativa al line-height actual", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Útil para espaciado vertical", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Mantiene ritmo tipográfico", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "rlh:", content: "bold" }]
+            info: [{ text: "rlh:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
               { type: "li", info: [{ text: "gap: 0.5rlh;", content: "bold" }] },
-              { type: "li", info: [{ text: "Relativa al line-height raíz", content: "plain" }] },
-              { type: "li", info: [{ text: "Como rem pero para altura de línea", content: "plain" }] },
-              { type: "li", info: [{ text: "Consistencia en toda la página", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [
+                  { text: "Relativa al line-height raíz", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Como rem pero para altura de línea",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Consistencia en toda la página", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "% (porcentaje):", content: "bold" }]
+            info: [{ text: "% (porcentaje):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
               { type: "li", info: [{ text: "width: 50%;", content: "bold" }] },
-              { type: "li", info: [{ text: "Relativo al elemento padre", content: "plain" }] },
-              { type: "li", info: [{ text: "Muy flexible y responsive", content: "plain" }] },
-              { type: "li", info: [{ text: "Común para layouts fluidos", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [
+                  { text: "Relativo al elemento padre", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Muy flexible y responsive", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Común para layouts fluidos", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🖥️ Unidades Relativas al Viewport", content: "plain" }]
+            info: [
+              { text: "🖥️ Unidades Relativas al Viewport", content: "plain" },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "vw:", content: "bold" }]
+            info: [{ text: "vw:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "width: 100vw;", content: "bold" }] },
-              { type: "li", info: [{ text: "1% del ancho del viewport", content: "plain" }] },
-              { type: "li", info: [{ text: "Ideal para secciones full-width", content: "plain" }] },
-              { type: "li", info: [{ text: "Responsive por naturaleza", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "width: 100vw;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "1% del ancho del viewport", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Ideal para secciones full-width", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Responsive por naturaleza", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "vh:", content: "bold" }]
+            info: [{ text: "vh:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "height: 100vh;", content: "bold" }] },
-              { type: "li", info: [{ text: "1% de la altura del viewport", content: "plain" }] },
-              { type: "li", info: [{ text: "Perfecto para secciones full-height", content: "plain" }] },
-              { type: "li", info: [{ text: "Landing pages y heroes", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "height: 100vh;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "1% de la altura del viewport", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Perfecto para secciones full-height",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Landing pages y heroes", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "vmin:", content: "bold" }]
+            info: [{ text: "vmin:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "font-size: 4vmin;", content: "bold" }] },
-              { type: "li", info: [{ text: "1% del menor entre vw y vh", content: "plain" }] },
-              { type: "li", info: [{ text: "Se adapta a orientación", content: "plain" }] },
-              { type: "li", info: [{ text: "Útil para elementos cuadrados", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "font-size: 4vmin;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "1% del menor entre vw y vh", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Se adapta a orientación", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Útil para elementos cuadrados", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "vmax:", content: "bold" }]
+            info: [{ text: "vmax:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "max-width: 80vmax;", content: "bold" }] },
-              { type: "li", info: [{ text: "1% del mayor entre vw y vh", content: "plain" }] },
-              { type: "li", info: [{ text: "Opuesto a vmin", content: "plain" }] },
-              { type: "li", info: [{ text: "Para efectos específicos", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "max-width: 80vmax;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "1% del mayor entre vw y vh", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Opuesto a vmin", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Para efectos específicos", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "svw/svh:", content: "bold" }]
+            info: [{ text: "svw/svh:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "height: 100svh;", content: "bold" }] },
-              { type: "li", info: [{ text: "Small viewport (sin barras sistema)", content: "plain" }] },
-              { type: "li", info: [{ text: "Tamaño visible real", content: "plain" }] },
-              { type: "li", info: [{ text: "Mejor para móviles", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "height: 100svh;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Small viewport (sin barras sistema)",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Tamaño visible real", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Mejor para móviles", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "lvw/lvh:", content: "bold" }]
+            info: [{ text: "lvw/lvh:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "min-height: 100lvh;", content: "bold" }] },
-              { type: "li", info: [{ text: "Large viewport (incluye áreas ocultas)", content: "plain" }] },
-              { type: "li", info: [{ text: "Viewport máximo posible", content: "plain" }] },
-              { type: "li", info: [{ text: "Para elementos que pueden expandirse", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "min-height: 100lvh;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Large viewport (incluye áreas ocultas)",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Viewport máximo posible", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Para elementos que pueden expandirse",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "dvw/dvh:", content: "bold" }]
+            info: [{ text: "dvw/dvh:", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "height: 100dvh;", content: "bold" }] },
-              { type: "li", info: [{ text: "Dynamic viewport (cambia dinámicamente)", content: "plain" }] },
-              { type: "li", info: [{ text: "Se adapta a teclados/barras", content: "plain" }] },
-              { type: "li", info: [{ text: "Más fluido en móviles", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "height: 100dvh;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Dynamic viewport (cambia dinámicamente)",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Se adapta a teclados/barras", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Más fluido en móviles", content: "plain" }],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "⏱️ Unidades de Tiempo", content: "plain" }]
+            info: [{ text: "⏱️ Unidades de Tiempo", content: "plain" }],
           },
           {
             type: "p",
-            info: [{ text: "s (segundos):", content: "bold" }]
+            info: [{ text: "s (segundos):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "transition: all 0.3s;", content: "bold" }] },
-              { type: "li", info: [{ text: "animation-duration: 2s;", content: "plain" }] },
-              { type: "li", info: [{ text: "Para transiciones y animaciones", content: "plain" }] },
-              { type: "li", info: [{ text: "Tiempo en segundos", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "transition: all 0.3s;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "animation-duration: 2s;", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Para transiciones y animaciones", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Tiempo en segundos", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "ms (milisegundos):", content: "bold" }]
+            info: [{ text: "ms (milisegundos):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "transition-delay: 250ms;", content: "bold" }] },
-              { type: "li", info: [{ text: "animation-duration: 1500ms;", content: "plain" }] },
+              {
+                type: "li",
+                info: [{ text: "transition-delay: 250ms;", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "animation-duration: 1500ms;", content: "plain" },
+                ],
+              },
               { type: "li", info: [{ text: "1000ms = 1s", content: "plain" }] },
-              { type: "li", info: [{ text: "Para tiempos más precisos", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "Para tiempos más precisos", content: "plain" }],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "📐 Unidades de Ángulo", content: "plain" }]
+            info: [{ text: "📐 Unidades de Ángulo", content: "plain" }],
           },
           {
             type: "p",
-            info: [{ text: "deg (grados):", content: "bold" }]
+            info: [{ text: "deg (grados):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "transform: rotate(45deg);", content: "bold" }] },
-              { type: "li", info: [{ text: "linear-gradient(90deg, ...);", content: "plain" }] },
-              { type: "li", info: [{ text: "360deg = vuelta completa", content: "plain" }] },
-              { type: "li", info: [{ text: "Más intuitivo y común", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "transform: rotate(45deg);", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "linear-gradient(90deg, ...);", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "360deg = vuelta completa", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Más intuitivo y común", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "rad (radianes):", content: "bold" }]
+            info: [{ text: "rad (radianes):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "transform: rotate(1.57rad);", content: "bold" }] },
-              { type: "li", info: [{ text: "2π rad = vuelta completa", content: "plain" }] },
-              { type: "li", info: [{ text: "Unidad matemática", content: "plain" }] },
-              { type: "li", info: [{ text: "1.57rad ≈ 90deg", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [
+                  { text: "transform: rotate(1.57rad);", content: "bold" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "2π rad = vuelta completa", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Unidad matemática", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "1.57rad ≈ 90deg", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "grad (gradianos):", content: "bold" }]
+            info: [{ text: "grad (gradianos):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "transform: rotate(100grad);", content: "bold" }] },
-              { type: "li", info: [{ text: "400grad = vuelta completa", content: "plain" }] },
+              {
+                type: "li",
+                info: [
+                  { text: "transform: rotate(100grad);", content: "bold" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "400grad = vuelta completa", content: "plain" }],
+              },
               { type: "li", info: [{ text: "Menos común", content: "plain" }] },
-              { type: "li", info: [{ text: "100grad = 90deg", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "100grad = 90deg", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "turn (vueltas):", content: "bold" }]
+            info: [{ text: "turn (vueltas):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "transform: rotate(0.25turn);", content: "bold" }] },
-              { type: "li", info: [{ text: "1turn = 360deg", content: "plain" }] },
-              { type: "li", info: [{ text: "Muy intuitivo", content: "plain" }] },
-              { type: "li", info: [{ text: "0.5turn = media vuelta", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [
+                  { text: "transform: rotate(0.25turn);", content: "bold" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "1turn = 360deg", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Muy intuitivo", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "0.5turn = media vuelta", content: "plain" }],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "📶 Unidades de Frecuencia", content: "plain" }]
+            info: [{ text: "📶 Unidades de Frecuencia", content: "plain" }],
           },
           {
             type: "p",
-            info: [{ text: "Hz (hercios):", content: "bold" }]
+            info: [{ text: "Hz (hercios):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "Ciclos por segundo", content: "bold" }] },
-              { type: "li", info: [{ text: "Muy raras en CSS web", content: "plain" }] },
-              { type: "li", info: [{ text: "Usadas en propiedades auditivas", content: "plain" }] },
-              { type: "li", info: [{ text: "Entornos multimedia específicos", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [{ text: "Ciclos por segundo", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Muy raras en CSS web", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Usadas en propiedades auditivas", content: "plain" },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Entornos multimedia específicos", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "kHz (kilohertz):", content: "bold" }]
+            info: [{ text: "kHz (kilohertz):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "Miles de ciclos por segundo", content: "bold" }] },
-              { type: "li", info: [{ text: "1kHz = 1000Hz", content: "plain" }] },
-              { type: "li", info: [{ text: "También muy raras", content: "plain" }] },
-              { type: "li", info: [{ text: "Contextos multimedia avanzados", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [
+                  { text: "Miles de ciclos por segundo", content: "bold" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "1kHz = 1000Hz", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "También muy raras", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Contextos multimedia avanzados", content: "plain" },
+                ],
+              },
+            ],
           },
 
           // RESOLUCIÓN
           {
             type: "h4",
-            info: [{ text: "🖨️ Unidades de Resolución", content: "plain" }]
+            info: [{ text: "🖨️ Unidades de Resolución", content: "plain" }],
           },
           {
             type: "p",
-            info: [{ text: "dpi (dots per inch):", content: "bold" }]
+            info: [{ text: "dpi (dots per inch):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "@media (min-resolution: 192dpi)", content: "bold" }] },
-              { type: "li", info: [{ text: "Puntos por pulgada", content: "plain" }] },
-              { type: "li", info: [{ text: "96dpi = estándar CSS", content: "plain" }] },
-              { type: "li", info: [{ text: "Para pantallas de alta densidad", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [
+                  { text: "@media (min-resolution: 192dpi)", content: "bold" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Puntos por pulgada", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "96dpi = estándar CSS", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Para pantallas de alta densidad", content: "plain" },
+                ],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "dpcm (dots per cm):", content: "bold" }]
+            info: [{ text: "dpcm (dots per cm):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "@media (resolution: 120dpcm)", content: "bold" }] },
-              { type: "li", info: [{ text: "Puntos por centímetro", content: "plain" }] },
-              { type: "li", info: [{ text: "Sistema métrico", content: "plain" }] },
-              { type: "li", info: [{ text: "Menos común que dpi", content: "plain" }] }
-            ]
+              {
+                type: "li",
+                info: [
+                  { text: "@media (resolution: 120dpcm)", content: "bold" },
+                ],
+              },
+              {
+                type: "li",
+                info: [{ text: "Puntos por centímetro", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Sistema métrico", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Menos común que dpi", content: "plain" }],
+              },
+            ],
           },
           {
             type: "p",
-            info: [{ text: "dppx (dots per pixel):", content: "bold" }]
+            info: [{ text: "dppx (dots per pixel):", content: "bold" }],
           },
           {
             type: "ul",
             info: [
-              { type: "li", info: [{ text: "@media (resolution: 2dppx)", content: "bold" }] },
-              { type: "li", info: [{ text: "Relación de resolución", content: "plain" }] },
-              { type: "li", info: [{ text: "1dppx = 96dpi", content: "plain" }] },
-              { type: "li", info: [{ text: "Ideal para pantallas retina", content: "plain" }] }
-            ]
-          }
-        ]
+              {
+                type: "li",
+                info: [{ text: "@media (resolution: 2dppx)", content: "bold" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "Relación de resolución", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [{ text: "1dppx = 96dpi", content: "plain" }],
+              },
+              {
+                type: "li",
+                info: [
+                  { text: "Ideal para pantallas retina", content: "plain" },
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 5,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "🧪 Actividad práctica: Maquetar un DNI argentino", content: "plain" }]
+            info: [
+              {
+                text: "🧪 Actividad práctica: Maquetar un DNI argentino",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "En esta actividad vamos a aplicar lo aprendido sobre etiquetas semánticas, estructura ", content: "plain" },
+              {
+                text: "En esta actividad vamos a aplicar lo aprendido sobre etiquetas semánticas, estructura ",
+                content: "plain",
+              },
               { text: "HTML", content: "bold" },
               { text: " y estilos ", content: "plain" },
               { text: "CSS", content: "bold" },
-              { text: " básicos para crear una tarjeta visual inspirada en un documento nacional de identidad ", content: "plain" },
+              {
+                text: " básicos para crear una tarjeta visual inspirada en un documento nacional de identidad ",
+                content: "plain",
+              },
               { text: "(DNI)", content: "bold" },
-              { text: " argentino.", content: "plain" }
-            ]
+              { text: " argentino.", content: "plain" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🎯 Objetivo", content: "plain" }]
+            info: [{ text: "🎯 Objetivo", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "El objetivo es practicar el uso de contenedores, estructura de contenido, clases y selectores, así como propiedades básicas de estilo como ", content: "plain" },
-              { text: "display, margin, padding, font-family, background-color", content: "bold" },
+              {
+                text: "El objetivo es practicar el uso de contenedores, estructura de contenido, clases y selectores, así como propiedades básicas de estilo como ",
+                content: "plain",
+              },
+              {
+                text: "display, margin, padding, font-family, background-color",
+                content: "bold",
+              },
               { text: " y ", content: "plain" },
               { text: "box-shadow", content: "bold" },
-              { text: ".", content: "plain" }
-            ]
+              { text: ".", content: "plain" },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🧱 Estructura esperada", content: "plain" }]
+            info: [{ text: "🧱 Estructura esperada", content: "plain" }],
           },
           {
             type: "ul",
@@ -8385,73 +9722,113 @@ img[alt="logo"] {
                 type: "li",
                 info: [
                   { text: "Uso de etiquetas semánticas: ", content: "plain" },
-                  { text: "<header>", content: "bold" }, { text: ", ", content: "plain" },
-                  { text: "<main>", content: "bold" }, { text: ", ", content: "plain" },
-                  { text: "<section>", content: "bold" }, { text: ", ", content: "plain" },
-                  { text: "<figure>", content: "bold" }, { text: ", ", content: "plain" },
-                  { text: "<img>", content: "bold" }, { text: ", ", content: "plain" },
-                  { text: "<table>", content: "bold" }
-                ]
+                  { text: "<header>", content: "bold" },
+                  { text: ", ", content: "plain" },
+                  { text: "<main>", content: "bold" },
+                  { text: ", ", content: "plain" },
+                  { text: "<section>", content: "bold" },
+                  { text: ", ", content: "plain" },
+                  { text: "<figure>", content: "bold" },
+                  { text: ", ", content: "plain" },
+                  { text: "<img>", content: "bold" },
+                  { text: ", ", content: "plain" },
+                  { text: "<table>", content: "bold" },
+                ],
               },
               {
                 type: "li",
-                info: [{ text: "Estilos aplicados mediante una hoja externa ", content: "plain" }, { text: "(styles.css)", content: "bold" }]
+                info: [
+                  {
+                    text: "Estilos aplicados mediante una hoja externa ",
+                    content: "plain",
+                  },
+                  { text: "(styles.css)", content: "bold" },
+                ],
               },
               {
                 type: "li",
-                info: [{ text: "Maquetación responsive simple usando unidades relativas y padding", content: "plain" }]
+                info: [
+                  {
+                    text: "Maquetación responsive simple usando unidades relativas y padding",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
-                info: [{ text: "Tipografías básicas, colores neutros, bordes redondeados y sombra de tarjeta", content: "plain" }]
-              }
-            ]
+                info: [
+                  {
+                    text: "Tipografías básicas, colores neutros, bordes redondeados y sombra de tarjeta",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "📌 Requisitos del ejercicio", content: "plain" }]
+            info: [{ text: "📌 Requisitos del ejercicio", content: "plain" }],
           },
           {
             type: "ul",
             info: [
               {
                 type: "li",
-                info: [{ text: "Crear un archivo llamado ", content: "plain" },{ text: "DNI.html", content: "bold" }] 
-              },
-              {
-                type: "li",
-                info: [{ text: "Utilizar una tabla para la información detallada", content: "plain" }]
-              },
-              {
-                type: "li",
-                info: [{ text: "Agregar una imagen representativa como foto de ", content: "plain" }, { text: "DNI", content: "bold" }]
-              },
-              {
-                type: "li",
-                info: [{ text: "Separar las secciones mediante clases y estilos propios", content: "plain" }]
+                info: [
+                  { text: "Crear un archivo llamado ", content: "plain" },
+                  { text: "DNI.html", content: "bold" },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Aplicar estilos ", 
-                    content: "plain" 
+                  {
+                    text: "Utilizar una tabla para la información detallada",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Agregar una imagen representativa como foto de ",
+                    content: "plain",
+                  },
+                  { text: "DNI", content: "bold" },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Separar las secciones mediante clases y estilos propios",
+                    content: "plain",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Aplicar estilos ",
+                    content: "plain",
                   },
                   {
-                    text: "CSS", 
-                    content: "bold" 
+                    text: "CSS",
+                    content: "bold",
                   },
-                  { 
-                    text: " que mejoren la legibilidad y organización visual", 
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                  {
+                    text: " que mejoren la legibilidad y organización visual",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "Bonus", content: "plain" }]
+            info: [{ text: "Bonus", content: "plain" }],
           },
           {
             type: "p",
@@ -8460,8 +9837,11 @@ img[alt="logo"] {
               { text: "color de fondo", content: "bold" },
               { text: ", el ", content: "plain" },
               { text: "box-shadow", content: "bold" },
-              { text: " o reemplazar la imagen por una foto tuya, si querés simular tu propio DNI ", content: "plain" }
-            ]
+              {
+                text: " o reemplazar la imagen por una foto tuya, si querés simular tu propio DNI ",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "answer",
@@ -8527,8 +9907,8 @@ img[alt="logo"] {
       </table>
     </section>
   </main>
-</body>`
-              }
+</body>`,
+              },
             ],
           },
           {
@@ -8596,12 +9976,12 @@ main {
 #pais {
   font-size: 20px;
   font-weight: bolder;
-}`
-              }
+}`,
+              },
             ],
-          }
-        ]
-      }
+          },
+        ],
+      },
     ],
   },
   {
@@ -8612,9 +9992,9 @@ main {
       info: [
         {
           text: "✨ Animaciones y transiciones, Diseño  Responsive y UI Moderna",
-          content: 'plain',
+          content: "plain",
         },
-      ]
+      ],
     },
     classData: [
       {
@@ -8622,30 +10002,30 @@ main {
         topicData: [
           {
             type: "h3",
-            info: [{ text: "🧠 Introducción general", content: "plain" }]
+            info: [{ text: "🧠 Introducción general", content: "plain" }],
           },
           {
             type: "p",
             info: [
-                {
-                  text: "CSS ",
-                  content: "plain"
-                },
-                {
-                  text: "(Cascading Style Sheets) ",
-                  content: "bold"
-                },
-                {
-                  text: "es el lenguaje que permite darle estilo y comportamiento visual a una página web. Podemos definir colores, tamaños, posicionamiento... pero también crear animaciones, efectos visuales y un diseño adaptable según el dispositivo.",
-                  content: "plain"
-                }
-            ]
+              {
+                text: "CSS ",
+                content: "plain",
+              },
+              {
+                text: "(Cascading Style Sheets) ",
+                content: "bold",
+              },
+              {
+                text: "es el lenguaje que permite darle estilo y comportamiento visual a una página web. Podemos definir colores, tamaños, posicionamiento... pero también crear animaciones, efectos visuales y un diseño adaptable según el dispositivo.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "En esta clase vamos a aprender:", content: "plain" }
-            ]
+              { text: "En esta clase vamos a aprender:", content: "plain" },
+            ],
           },
           {
             type: "ul",
@@ -8655,31 +10035,34 @@ main {
                 info: [
                   { text: "✨ Animaciones ", content: "bold" },
                   { text: "básicas en CSS", content: "plain" },
-                ]
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "💎 Glassmorphism ", content: "bold" },
                   { text: "con backdrop-filter", content: "plain" },
-                ]
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "📴Diseño Responsive ", content: "bold" },
                   { text: "para todos los dispositivos", content: "plain" },
-                ]
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "🎨 UI ", content: "bold" },
-                  { text: "moderna y pulida con transiciones y sombras ", content: "plain" },
-                ]
+                  {
+                    text: "moderna y pulida con transiciones y sombras ",
+                    content: "plain",
+                  },
+                ],
               },
-            ]
-          }
+            ],
+          },
         ],
       },
       {
@@ -8687,12 +10070,15 @@ main {
         topicData: [
           {
             type: "h3",
-            info: [{ text: "🔁 Animaciones en CSS", content: "plain" }]
+            info: [{ text: "🔁 Animaciones en CSS", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "Una animación es un cambio gradual y fluido de alguna propiedad del estilo: ", content: "plain" },
+              {
+                text: "Una animación es un cambio gradual y fluido de alguna propiedad del estilo: ",
+                content: "plain",
+              },
               { text: "opacidad", content: "italic" },
               { text: ", ", content: "plain" },
               { text: "tamaño", content: "italic" },
@@ -8701,8 +10087,11 @@ main {
               { text: ", ", content: "plain" },
               { text: "posición", content: "italic" },
               { text: ", etc. ", content: "plain" },
-              { text: "CSS lo logra con dos herramientas clave:", content: "plain" }
-            ]
+              {
+                text: "CSS lo logra con dos herramientas clave:",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -8711,27 +10100,36 @@ main {
                 type: "li",
                 info: [
                   { text: "@keyframes", content: "bold" },
-                  { text: ": define los pasos de la animación.", content: "plain" }
-                ]
+                  {
+                    text: ": define los pasos de la animación.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "animation", content: "bold" },
-                  { text: ": aplica la animación a un elemento.", content: "plain" }
-                ]
-              }
-            ]
+                  {
+                    text: ": aplica la animación a un elemento.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "💓 Pulse – Efecto \"latido\"", content: "plain" }]
+            info: [{ text: '💓 Pulse – Efecto "latido"', content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "Este efecto simula un corazón que se agranda y achica suavemente. ", content: "plain" },
-            ]
+              {
+                text: "Este efecto simula un corazón que se agranda y achica suavemente. ",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "example",
@@ -8742,13 +10140,14 @@ main {
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<div class="pulse"></div>`
+                  content: `<div class="pulse"></div>`,
                 },
               },
-              { 
-                type: "code", 
-                info: { 
-                  language: "css", content: `.pulse {
+              {
+                type: "code",
+                info: {
+                  language: "css",
+                  content: `.pulse {
   width: 100px;
   height: 100px;
   background: crimson;
@@ -8761,10 +10160,10 @@ main {
   0% { transform: scale(1); opacity: 1; }
   50% { transform: scale(1.1); opacity: 0.7; }
   100% { transform: scale(1); opacity: 1; }
-}`
-                }
-              }
-            ]
+}`,
+                },
+              },
+            ],
           },
           {
             type: "ul",
@@ -8773,34 +10172,43 @@ main {
                 type: "li",
                 info: [
                   { text: "transform: scale(1.1)", content: "bold" },
-                  { text: " agranda el div un 10%.", content: "plain" }
-                ]
+                  { text: " agranda el div un 10%.", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "opacity: 0.7", content: "bold" },
-                  { text: " lo hace más transparente al latir.", content: "plain" }
-                ]
+                  {
+                    text: " lo hace más transparente al latir.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "animation: pulse 1.5s infinite", content: "bold" },
-                  { text: " repite para siempre cada 1.5 segundos.", content: "plain" }
-                ]
-              }
-            ]
+                  {
+                    text: " repite para siempre cada 1.5 segundos.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🌫️ Fade In – Aparición suave", content: "plain" }]
+            info: [{ text: "🌫️ Fade In – Aparición suave", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "Cuando querés que algo aparezca lentamente en pantalla. ", content: "plain" },
-            ]
+              {
+                text: "Cuando querés que algo aparezca lentamente en pantalla. ",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "example",
@@ -8811,13 +10219,14 @@ main {
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<div class="fade-in">¡Hola mundo!</div>`
+                  content: `<div class="fade-in">¡Hola mundo!</div>`,
                 },
               },
-              { 
-                type: "code", 
-                info: { 
-                  language: "css", content: `.fade-in {
+              {
+                type: "code",
+                info: {
+                  language: "css",
+                  content: `.fade-in {
   width: 100%;
   text-align: center;
   opacity: 0;
@@ -8828,10 +10237,10 @@ main {
   to {
     opacity: 1;
   }
-}`
-                }
-              }
-            ]
+}`,
+                },
+              },
+            ],
           },
           {
             type: "ul",
@@ -8840,36 +10249,42 @@ main {
                 type: "li",
                 info: [
                   { text: "El elemento arranca invisible ", content: "plain" },
-                  { text: "(opacity: 0).", content: "bold" }
-                ]
+                  { text: "(opacity: 0).", content: "bold" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Se vuelve visible con ", content: "plain" },
                   { text: "opacity: 1", content: "bold" },
-                  { text: " en 5 segundos.", content: "plain" }
-                ]
+                  { text: " en 5 segundos.", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "La propiedad ", content: "plain" },
                   { text: "forwards", content: "bold" },
-                  { text: " mantiene el estado final de la animación.", content: "plain" }
-                ]
-              }
-            ]
+                  {
+                    text: " mantiene el estado final de la animación.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "🔎 Scale al pasar el mouse", content: "plain" }]
+            info: [{ text: "🔎 Scale al pasar el mouse", content: "plain" }],
           },
           {
             type: "p",
             info: [
-              { text: "Ideal para botones, tarjetas o imágenes que quieras hacer más interactivas. ", content: "plain" },
-            ]
+              {
+                text: "Ideal para botones, tarjetas o imágenes que quieras hacer más interactivas. ",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "example",
@@ -8880,13 +10295,14 @@ main {
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<button class="scale-up">Pasá el mouse</button>`
+                  content: `<button class="scale-up">Pasá el mouse</button>`,
                 },
               },
-              { 
-                type: "code", 
-                info: { 
-                  language: "css", content: `.scale-up {
+              {
+                type: "code",
+                info: {
+                  language: "css",
+                  content: `.scale-up {
   display: block;
   margin: auto;
   transform: scale(0.8);
@@ -8895,10 +10311,10 @@ main {
 
 .scale-up:hover {
   transform: scale(1);
-}`
-                }
-              }
-            ]
+}`,
+                },
+              },
+            ],
           },
           {
             type: "ul",
@@ -8907,28 +10323,36 @@ main {
                 type: "li",
                 info: [
                   { text: "transition", content: "bold" },
-                  { text: " suaviza el cambio de tamaño.", content: "plain" }
-                ]
+                  { text: " suaviza el cambio de tamaño.", content: "plain" },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "En ", content: "plain" },
                   { text: "hover", content: "bold" },
-                  { text: ", el botón vuelve a su tamaño original.", content: "plain" }
-                ]
-              }
-            ]
+                  {
+                    text: ", el botón vuelve a su tamaño original.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "✨ Glassmorphism y backdrop-filter", content: "plain" }]
+            info: [
+              { text: "✨ Glassmorphism y backdrop-filter", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "Estilo moderno que simula vidrio esmerilado combinando transparencia y desenfoque. ", content: "plain" },
-            ]
+              {
+                text: "Estilo moderno que simula vidrio esmerilado combinando transparencia y desenfoque. ",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "example",
@@ -8941,13 +10365,14 @@ main {
                   content: `<div class="glass">
   <h2>Glassmorphism</h2>
   <p>Este es un div con efecto de vidrio.</p>
-</div>`
+</div>`,
                 },
               },
-              { 
-                type: "code", 
-                info: { 
-                  language: "css", content: `body {
+              {
+                type: "code",
+                info: {
+                  language: "css",
+                  content: `body {
   background: url('https://picsum.photos/800/600') no-repeat center center/cover;
   height: 90vh;
   display: flex;
@@ -8964,10 +10389,10 @@ main {
   color: white;
   width: 300px;
   margin: auto;
-}`
-                }
-              }
-            ]
+}`,
+                },
+              },
+            ],
           },
           {
             type: "ul",
@@ -8976,41 +10401,50 @@ main {
                 type: "li",
                 info: [
                   { text: "backdrop-filter: blur(10px)", content: "bold" },
-                  { text: ": desenfoca el fondo detrás del elemento.", content: "plain" }
-                ]
+                  {
+                    text: ": desenfoca el fondo detrás del elemento.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "rgba(255,255,255,0.1)", content: "bold" },
-                  { text: ": color blanco semitransparente.", content: "plain" }
-                ]
+                  {
+                    text: ": color blanco semitransparente.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "border-radius y padding", content: "bold" },
-                  { text: ": hacen que se vea elegante.", content: "plain" }
-                ]
-              }
-            ]
-          }
-        ]
+                  { text: ": hacen que se vea elegante.", content: "plain" },
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 3,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "📱 Diseño Responsive", content: "plain" }]
+            info: [{ text: "📱 Diseño Responsive", content: "plain" }],
           },
           {
             type: "p",
             info: [
               { text: "El ", content: "plain" },
               { text: "diseño responsive", content: "bold" },
-              { text: " permite que una página web se adapte automáticamente a diferentes tamaños de pantalla: celular, tablet, monitor, etc. Se logra con:", content: "plain" }
-            ]
+              {
+                text: " permite que una página web se adapte automáticamente a diferentes tamaños de pantalla: celular, tablet, monitor, etc. Se logra con:",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -9019,35 +10453,49 @@ main {
                 type: "li",
                 info: [
                   { text: "@media queries", content: "bold" },
-                  { text: ": reglas especiales que aplican estilos solo bajo ciertas condiciones.", content: "plain" }
-                ]
+                  {
+                    text: ": reglas especiales que aplican estilos solo bajo ciertas condiciones.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "Unidades flexibles", content: "bold" },
-                  { text: " como %, em o rem para que los elementos escalen en relación al contexto.", content: "plain" }
-                ]
-              }
-            ]
+                  {
+                    text: " como %, em o rem para que los elementos escalen en relación al contexto.",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "No todos los usuarios acceden desde el mismo dispositivo, así que necesitamos que el contenido se cambie el tamaño de acuerdo al cambio de la panatalla. Por ejemplo, un texto grande puede ser legible en una notebook, pero molesto en un celular. Por eso se utiliza el diseño web responsive, para que el diseño se adapte a cada caso, usando lo que se llama una media query. ", content: "plain" }
-            ]
+              {
+                text: "No todos los usuarios acceden desde el mismo dispositivo, así que necesitamos que el contenido se cambie el tamaño de acuerdo al cambio de la panatalla. Por ejemplo, un texto grande puede ser legible en una notebook, pero molesto en un celular. Por eso se utiliza el diseño web responsive, para que el diseño se adapte a cada caso, usando lo que se llama una media query. ",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               { text: "Una ", content: "plain" },
               { text: "media query", content: "bold" },
-              { text: " le dice al navegador cuándo aplicar ciertos estilos, según el ancho de pantalla.", content: "plain" },
-            ]
+              {
+                text: " le dice al navegador cuándo aplicar ciertos estilos, según el ancho de pantalla.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "Ejemplo de un bloque responsive: ", content: "plain" }]
+            info: [
+              { text: "Ejemplo de un bloque responsive: ", content: "plain" },
+            ],
           },
           {
             type: "example",
@@ -9059,13 +10507,14 @@ main {
                   language: "html",
                   content: `<div class="responsive-box">
   Soy un bloque responsive
-</div>`
+</div>`,
                 },
               },
-              { 
-                type: "code", 
-                info: { 
-                  language: "css", content: `.responsive-box {
+              {
+                type: "code",
+                info: {
+                  language: "css",
+                  content: `.responsive-box {
     background: teal;
     color: white;
     padding: 2rem;
@@ -9086,16 +10535,14 @@ main {
   .responsive-box {
       background: royalblue;
   }
-}`
-                }
-              }
-            ]
+}`,
+                },
+              },
+            ],
           },
           {
             type: "p",
-            info: [
-              { text: "En el ejemplo, para celulares:", content: "bold" },
-            ]
+            info: [{ text: "En el ejemplo, para celulares:", content: "bold" }],
           },
           {
             type: "code",
@@ -9107,20 +10554,21 @@ main {
     background: orange;
     font-size: 1rem;
   }
-}`
-            }
+}`,
+            },
           },
           {
             type: "p",
             info: [
-              { text: "👉 Esto significa: si la pantalla mide 600 píxeles de ancho o menos, aplicá fondo naranja y texto más chico.", content: "plain" }
-            ]
+              {
+                text: "👉 Esto significa: si la pantalla mide 600 píxeles de ancho o menos, aplicá fondo naranja y texto más chico.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
-            info: [
-              { text: "Y este otro, para tablets: ", content: "bold" },
-            ]
+            info: [{ text: "Y este otro, para tablets: ", content: "bold" }],
           },
           {
             type: "code",
@@ -9131,75 +10579,95 @@ main {
   .responsive-box {
     background: royalblue;
   }
-}`
-            }
-          },
-          {
-            type: "p",
-            info: [
-              { text: "👉 Si la pantalla está entre 601 y 1024 píxeles de ancho (una tablet horizontal, por ejemplo), entonces poné el fondo azul.", content: "plain" }
-            ]
-          },
-          {
-            type: "h4",
-            info: [{ text: "¿Por qué cambiar el fondo o el tamaño del texto?", content: "plain" }]
-          },
-          {
-            type: "p",
-            info: [
-              { text: "El objetivo del diseño responsive es que tu web sea ", content: "plain" },
-              { text: "legible", content: "bold" },
-              { text: ", ", content: "plain" },
-              { text: "estética", content: "bold" },
-              { text: " y ", content: "plain" },
-              { text: "cómoda de usar", content: "bold" },
-              { text: " sin importar el dispositivo.", content: "plain" }
-            ]
+}`,
+            },
           },
           {
             type: "p",
             info: [
               {
-                text: "Porque lo que se ve bien en una pantalla grande, puede ser incómodo o exagerado en una pantalla chica. Por ejemplo: Un texto muy grande en celular puede romper el diseño. Un fondo oscuro puede no verse bien si ocupa toda la pantalla de un teléfono. Por eso, ajustar tamaño, color, márgenes o distribución según el tamaño de pantalla permite que tu web sea legible, estética y cómoda en cualquier dispositivo.", 
-                content: "plain"
-              }
-            ]
-          }
-        ]
+                text: "👉 Si la pantalla está entre 601 y 1024 píxeles de ancho (una tablet horizontal, por ejemplo), entonces poné el fondo azul.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "¿Por qué cambiar el fondo o el tamaño del texto?",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "El objetivo del diseño responsive es que tu web sea ",
+                content: "plain",
+              },
+              { text: "legible", content: "bold" },
+              { text: ", ", content: "plain" },
+              { text: "estética", content: "bold" },
+              { text: " y ", content: "plain" },
+              { text: "cómoda de usar", content: "bold" },
+              { text: " sin importar el dispositivo.", content: "plain" },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Porque lo que se ve bien en una pantalla grande, puede ser incómodo o exagerado en una pantalla chica. Por ejemplo: Un texto muy grande en celular puede romper el diseño. Un fondo oscuro puede no verse bien si ocupa toda la pantalla de un teléfono. Por eso, ajustar tamaño, color, márgenes o distribución según el tamaño de pantalla permite que tu web sea legible, estética y cómoda en cualquier dispositivo.",
+                content: "plain",
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 4,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "🎨 UI Moderna con Sombras y Transiciones", content: "plain" }]
+            info: [
+              {
+                text: "🎨 UI Moderna con Sombras y Transiciones",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "Una interfaz moderna y atractiva mejora la experiencia del usuario y da una apariencia más profesional a tu web. Podemos lograrlo con algunas propiedades clave de CSS:", content: "plain" }
-            ]
+              {
+                text: "Una interfaz moderna y atractiva mejora la experiencia del usuario y da una apariencia más profesional a tu web. Podemos lograrlo con algunas propiedades clave de CSS:",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [{ text: "Ejemplo de UI Moderna", content: "plain" }]
+            info: [{ text: "Ejemplo de UI Moderna", content: "plain" }],
           },
           {
             type: "example",
             height: "70",
-            width:  "180",
+            width: "180",
             info: [
               {
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<button class="button-ui">Botón pro</button>`
+                  content: `<button class="button-ui">Botón pro</button>`,
                 },
               },
-              { 
-                type: "code", 
-                info: { 
-                  language: "css", content: `.button-ui {
+              {
+                type: "code",
+                info: {
+                  language: "css",
+                  content: `.button-ui {
   background: linear-gradient(135deg, #ff416c, #ff4b2b);
   color: white;
   padding: 1rem 2rem;
@@ -9216,10 +10684,10 @@ main {
 .button-ui:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-}`
-                }
-              }
-            ]
+}`,
+                },
+              },
+            ],
           },
           {
             type: "ul",
@@ -9230,8 +10698,8 @@ main {
                   { text: "linear-gradient", content: "bold" },
                   { text: ": crea un ", content: "plain" },
                   { text: "degradado de colores ", content: "bold" },
-                  { text: "como fondo.", content: "plain" }
-                ]
+                  { text: "como fondo.", content: "plain" },
+                ],
               },
               {
                 type: "li",
@@ -9239,49 +10707,69 @@ main {
                   { text: "box-shadow", content: "bold" },
                   { text: ": agrega ", content: "plain" },
                   { text: "sombras externas ", content: "bold" },
-                  { text: "para dar sensación de profundidad.", content: "plain" }
-                ]
+                  {
+                    text: "para dar sensación de profundidad.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "transform: scale()", content: "bold" },
-                  { text: ": agranda o reduce el tamaño de un elemento al pasar el mouse.", content: "plain" }
-                ]
+                  {
+                    text: ": agranda o reduce el tamaño de un elemento al pasar el mouse.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   { text: "transition", content: "bold" },
-                  { text: ": hace que los cambios de estilo (como el scale o el color) ocurran de forma ", content: "plain" },
-                  { text: "suave y gradual.", content: "bold" }
-                ]
-              }
-            ]
+                  {
+                    text: ": hace que los cambios de estilo (como el scale o el color) ocurran de forma ",
+                    content: "plain",
+                  },
+                  { text: "suave y gradual.", content: "bold" },
+                ],
+              },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "Combinando estas propiedades, podés crear botones, tarjetas o secciones que respondan a la interacción del usuario con ", content: "plain" },
-              { text: "fluidez y elegancia.", content: "bold" }
-            ]
+              {
+                text: "Combinando estas propiedades, podés crear botones, tarjetas o secciones que respondan a la interacción del usuario con ",
+                content: "plain",
+              },
+              { text: "fluidez y elegancia.", content: "bold" },
+            ],
           },
-        ]
+        ],
       },
       {
         topic: 5,
         topicData: [
           {
             type: "h3",
-            info: [{ text: "🌐 Bonus: Webs con recursos CSS", content: "plain" }]
+            info: [
+              { text: "🌐 Bonus: Webs con recursos CSS", content: "plain" },
+            ],
           },
           {
             type: "p",
             info: [
-              { text: "¿Querés explorar más efectos, animaciones y estilos para tus páginas? Estas webs te permiten ", content: "plain" },
+              {
+                text: "¿Querés explorar más efectos, animaciones y estilos para tus páginas? Estas webs te permiten ",
+                content: "plain",
+              },
               { text: "ver, editar y copiar código ", content: "bold" },
-              { text: "para llevar tus diseños al siguiente nivel:", content: "plain" }
-            ]
+              {
+                text: "para llevar tus diseños al siguiente nivel:",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -9296,29 +10784,35 @@ main {
                         text: "🔹 Animista ",
                         content: "bold",
                         link: "https://animista.net",
-                        type: "link"
-                      }
-                    ]
+                        type: "link",
+                      },
+                    ],
                   },
                   { text: "– ( https://animista.net )", content: "plain" },
                   {
                     type: "p",
                     info: [
                       { text: "Ideal para: ", content: "bold" },
-                      { text: "animaciones CSS listas para copiar (fade, bounce, scale, rotate, etc.)", content: "plain" }
-                    ]
+                      {
+                        text: "animaciones CSS listas para copiar (fade, bounce, scale, rotate, etc.)",
+                        content: "plain",
+                      },
+                    ],
                   },
                   {
                     type: "p",
                     info: [
                       {
                         text: "Sitio 100% visual: ",
-                        content: "bold"
+                        content: "bold",
                       },
-                      { text: "elegís el efecto, lo ves en vivo y copiás el código. Podés ajustar duración, delay, repetición, easing, etc. ¡Perfecto para alumnos que recién empiezan!", content: "plain" }
-                    ]
-                  }
-                ]
+                      {
+                        text: "elegís el efecto, lo ves en vivo y copiás el código. Podés ajustar duración, delay, repetición, easing, etc. ¡Perfecto para alumnos que recién empiezan!",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 type: "li",
@@ -9330,29 +10824,38 @@ main {
                         text: "🔹 Hover.css ",
                         content: "bold",
                         link: "https://ianlunn.github.io/Hover/",
-                        type: "link"
-                      }
-                    ]
+                        type: "link",
+                      },
+                    ],
                   },
-                  { text: "– ( https://ianlunn.github.io/Hover/ )", content: "plain" },
+                  {
+                    text: "– ( https://ianlunn.github.io/Hover/ )",
+                    content: "plain",
+                  },
                   {
                     type: "p",
                     info: [
                       { text: "Ideal para: ", content: "bold" },
-                      { text: "efectos en botones y elementos al pasar el mouse (hover)", content: "plain" }
-                    ]
+                      {
+                        text: "efectos en botones y elementos al pasar el mouse (hover)",
+                        content: "plain",
+                      },
+                    ],
                   },
                   {
                     type: "p",
                     info: [
                       {
                         text: "Más de 50 efectos de hover: ",
-                        content: "bold"
+                        content: "bold",
                       },
-                      { text: "grow, float, pulse, bounce, etc. Solo tenés que agregar la clase al botón. También está disponible como CDN o paquete npm.", content: "plain" }
-                    ]
-                  }
-                ]
+                      {
+                        text: "grow, float, pulse, bounce, etc. Solo tenés que agregar la clase al botón. También está disponible como CDN o paquete npm.",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 type: "li",
@@ -9364,19 +10867,22 @@ main {
                         text: "🔹 CodePen ",
                         content: "bold",
                         link: "https://codepen.io",
-                        type: "link"
-                      }
-                    ]
+                        type: "link",
+                      },
+                    ],
                   },
                   { text: "– ( https://codepen.io )", content: "plain" },
                   {
                     type: "p",
                     info: [
                       { text: "🚀 Ideal para: ", content: "bold" },
-                      { text: "ver ejemplos, modificarlos y aprender jugando. Podés editar en vivo el CSS y ver cómo cambia.", content: "plain" }
-                    ]
-                  }
-                ]
+                      {
+                        text: "ver ejemplos, modificarlos y aprender jugando. Podés editar en vivo el CSS y ver cómo cambia.",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 type: "li",
@@ -9388,25 +10894,31 @@ main {
                         text: "🔹 CSS Tricks ",
                         content: "bold",
                         link: "https://css-tricks.com",
-                        type: "link"
-                      }
-                    ]
+                        type: "link",
+                      },
+                    ],
                   },
                   { text: "– ( https://css-tricks.com )", content: "plain" },
                   {
                     type: "p",
                     info: [
                       { text: "📘 Ideal para: ", content: "bold" },
-                      { text: "entender cómo funciona cada propiedad CSS", content: "plain" }
-                    ]
+                      {
+                        text: "entender cómo funciona cada propiedad CSS",
+                        content: "plain",
+                      },
+                    ],
                   },
                   {
                     type: "p",
                     info: [
-                      { text: "No es un sitio de efectos visuales directamente, pero te explica cada propiedad con ejemplos. Ideal para usarlo como referencia o para profundizar el concepto detrás del efecto.", content: "plain" }
-                    ]
-                  }
-                ]
+                      {
+                        text: "No es un sitio de efectos visuales directamente, pero te explica cada propiedad con ejemplos. Ideal para usarlo como referencia o para profundizar el concepto detrás del efecto.",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 type: "li",
@@ -9418,38 +10930,44 @@ main {
                         text: "🔹 UIVerse ",
                         content: "bold",
                         link: "https://uiverse.io",
-                        type: "link"
-                      }
-                    ]
+                        type: "link",
+                      },
+                    ],
                   },
                   { text: "– ( https://uiverse.io )", content: "plain" },
                   {
                     type: "p",
                     info: [
                       { text: "💎 Ideal para: ", content: "bold" },
-                      { text: "componentes con UI moderna listo para copiar: tarjetas, botones, inputs con animaciones", content: "plain" }
-                    ]
+                      {
+                        text: "componentes con UI moderna listo para copiar: tarjetas, botones, inputs con animaciones",
+                        content: "plain",
+                      },
+                    ],
                   },
                   {
                     type: "p",
                     info: [
-                      { text: "Todos los efectos son copiables con un solo clic, con HTML y CSS listos. Usan puro CSS o animaciones simples con JS. Visual y rápido para aprender diseño de interfaces.", content: "plain" }
-                    ]
-                  }
-                ]
-              }
-            ]
+                      {
+                        text: "Todos los efectos son copiables con un solo clic, con HTML y CSS listos. Usan puro CSS o animaciones simples con JS. Visual y rápido para aprender diseño de interfaces.",
+                        content: "plain",
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Explorá estas herramientas y usalas como inspiración. ¡Copiar también es una forma de aprender!",
-                content: "plain"
-              }
-            ]
-          }
-        ]
+                content: "plain",
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 6,
@@ -9459,8 +10977,8 @@ main {
             info: [
               {
                 text: "Actividades 💬",
-                content: "plain"
-              }
+                content: "plain",
+              },
             ],
           },
           {
@@ -9468,30 +10986,30 @@ main {
             info: [
               {
                 text: "Actividad 1:",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " Tarjeta con animaciones y diseño moderno",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Objetivo: ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "Poner en práctica las animaciones básicas, el efecto glassmorphism y el diseño responsive usando ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "HTML y CSS.",
-                content: "bold"
-              }
-            ]
+                content: "bold",
+              },
+            ],
           },
           {
             type: "ol",
@@ -9501,24 +11019,24 @@ main {
                 info: [
                   {
                     text: "Crear un archivo llamado ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "tarjeta_animada.html",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ".",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Diseñar una tarjeta visual que incluya:",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     type: "ul",
@@ -9528,100 +11046,100 @@ main {
                         info: [
                           {
                             text: "Un contenedor con efecto ",
-                            content: "plain"
+                            content: "plain",
                           },
                           {
                             text: "glassmorphism ",
-                            content: "bold"
+                            content: "bold",
                           },
                           {
                             text: "(transparencia + desenfoque).",
-                            content: "plain"
-                          }
-                        ]
+                            content: "plain",
+                          },
+                        ],
                       },
                       {
                         type: "li",
                         info: [
                           {
                             text: "Una animación de ",
-                            content: "plain"
+                            content: "plain",
                           },
                           {
                             text: "fade-in",
-                            content: "bold"
+                            content: "bold",
                           },
                           {
                             text: " al aparecer en pantalla.",
-                            content: "plain"
-                          }
-                        ]
+                            content: "plain",
+                          },
+                        ],
                       },
                       {
                         type: "li",
                         info: [
                           {
                             text: "Un ",
-                            content: "plain"
+                            content: "plain",
                           },
                           {
                             text: "botón con efecto scale",
-                            content: "bold"
+                            content: "bold",
                           },
                           {
                             text: " al pasar el mouse.",
-                            content: "plain"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                            content: "plain",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Aplicar estilos responsive usando ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "@media queries",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " para que la tarjeta se vea bien en celulares.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Usar colores, sombras y bordes redondeados para lograr una ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "UI moderna y estética.",
-                    content: "bold"
-                  }
-                ]
-              }
-            ]
+                    content: "bold",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Bonus:",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " agregá una imagen o ícono, para mejorar la presentación visual.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "example",
@@ -9641,13 +11159,13 @@ main {
       <button>Sumergirme</button>
     </article>
   </main>
-</body>`
+</body>`,
                 },
               },
-              { 
-                type: "code", 
-                info: { 
-                  language: "css", 
+              {
+                type: "code",
+                info: {
+                  language: "css",
                   content: `body {
   background: url('https://img.freepik.com/foto-gratis/arbol-solitario_181624-46361.jpg') no-repeat center center/cover;
   min-height: 96vh;
@@ -9716,12 +11234,12 @@ button:hover {
   }
   h2 { font-size: 2rem; }
   p { font-size: 1.5rem; }
-}`
-                }
-              }
-            ]
+}`,
+                },
+              },
+            ],
           },
-        ]
+        ],
       },
     ],
   },
@@ -9847,7 +11365,7 @@ button:hover {
                   {
                     text: "JavaScript.",
                     content: "bold",
-                  }
+                  },
                 ],
               },
               {
@@ -9880,51 +11398,57 @@ button:hover {
             info: [
               {
                 text: "🗂️ ¿Qué es el DOM?",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "El ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "DOM",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " (Document Object Model) es una representación estructurada del documento ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "HTML ",
-                content: "bold"
+                content: "bold",
               },
-              { text: "en forma de árbol, donde cada elemento ", content: "plain" },
+              {
+                text: "en forma de árbol, donde cada elemento ",
+                content: "plain",
+              },
               { text: "HTML", content: "bold" },
-              { text: " es un objeto que puede ser modificado con ", content: "plain" },
+              {
+                text: " es un objeto que puede ser modificado con ",
+                content: "plain",
+              },
               { text: "JavaScript.", content: "bold" },
-            ]
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Por ejemplo, manejar el ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "DOM",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " nos permite:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -9934,65 +11458,65 @@ button:hover {
                 info: [
                   {
                     text: "Cambiar el texto de un párrafo.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Modificar estilos como colores o tamaños.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Agregar o eliminar elementos del ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "HTML.",
-                    content: "bold"
-                  }
-                ]
+                    content: "bold",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Responder a eventos como clics, teclas o movimientos del mouse.",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "html",
-              content: `<html>\n  <body>\n    <h1>Hola</h1>\n    <p id="parrafo">Texto</p>\n  </body>\n</html>`
-            }
+              content: `<html>\n  <body>\n    <h1>Hola</h1>\n    <p id="parrafo">Texto</p>\n  </body>\n</html>`,
+            },
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: `document.getElementById("parrafo").innerText = "Texto modificado";`
-            }
+              content: `document.getElementById("parrafo").innerText = "Texto modificado";`,
+            },
           },
           {
             type: "h4",
             info: [
               {
                 text: "🔍 Métodos comunes para acceder al DOM",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -10001,87 +11525,87 @@ button:hover {
                 type: "li",
                 info: [
                   {
-                    text: "document.getElementById(\"id\")",
-                    content: "bold"
+                    text: 'document.getElementById("id")',
+                    content: "bold",
                   },
                   {
                     text: ": selecciona un elemento por su identificador.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
-                    text: "document.querySelector(\"selector\")",
-                    content: "bold"
+                    text: 'document.querySelector("selector")',
+                    content: "bold",
                   },
                   {
-                    text: ': selecciona un elemento por su ',
-                    content: "plain"
+                    text: ": selecciona un elemento por su ",
+                    content: "plain",
                   },
                   {
-                    text: 'selector. ',
-                    content: "bold"
+                    text: "selector. ",
+                    content: "bold",
                   },
                   {
                     text: "Para selccionar por id, usamos ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
-                    text: '#id ',
-                    content: "bold"
+                    text: "#id ",
+                    content: "bold",
                   },
                   {
-                    text: 'en lugar de ',
-                    content: "plain"
+                    text: "en lugar de ",
+                    content: "plain",
                   },
                   {
                     text: "selector",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " y para clases usamos ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
-                    text: '.class',
-                    content: "bold"
-                  }
-                ]
+                    text: ".class",
+                    content: "bold",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
-                    text: "document.querySelectorAll(\"selector\")",
-                    content: "bold"
+                    text: 'document.querySelectorAll("selector")',
+                    content: "bold",
                   },
                   {
-                    text: ': selecciona todos los elementos ',
-                    content: "plain"
+                    text: ": selecciona todos los elementos ",
+                    content: "plain",
                   },
                   {
-                    text: 'selector',
-                    content: "bold"
+                    text: "selector",
+                    content: "bold",
                   },
                   {
                     text: " que coincidan con el selector.",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "🛠️ Propiedades útiles",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -10091,43 +11615,43 @@ button:hover {
                 info: [
                   {
                     text: "innerText",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ": cambia el texto del elemento.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "innerHTML",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ": cambia el HTML interno.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "style",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ": cambia estilos en línea.",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 3,
@@ -10137,42 +11661,42 @@ button:hover {
             info: [
               {
                 text: "⚡ ¿Qué es JavaScript?",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "JavaScript (",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "JS",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: ") es un lenguaje de programación interpretado, orientado a objetos y basado en eventos que se utiliza principalmente para desarrollar páginas web dinámicas e interactivas. Junto con ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "HTML",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " y ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "CSS",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: ", forma la tríada fundamental del desarrollo frontend.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -10182,55 +11706,55 @@ button:hover {
                 info: [
                   {
                     text: "🚀 Interpretado: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Se ejecuta directamente en el navegador.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "🖱️ Basado en eventos: ",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: "Reacciona a interacciones del usuario.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "🧩 Orientado a objetos y multiparadigma.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "🌍 Compatible con todos los navegadores modernos.",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "✨ ¿Qué puedes hacer con JavaScript?",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -10240,66 +11764,66 @@ button:hover {
                 info: [
                   {
                     text: "💬 Mostrar mensajes al usuario ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "(alertas, confirmaciones).",
-                    content: "italic"
-                  }
-                ]
+                    content: "italic",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "✏️ Cambiar dinámicamente el contenido de una página web.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "✅ Validar formularios antes de enviarlos.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "🎚️ Crear menús, sliders, modales y componentes interactivos.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "🗃️ Obtener y mostrar datos de servidores ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "(AJAX, Fetch API).",
-                    content: "italic"
-                  }
-                ]
+                    content: "italic",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "🎮 Crear juegos, animaciones y gráficos.",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 4,
@@ -10309,18 +11833,18 @@ button:hover {
             info: [
               {
                 text: "⚙️ ¿Cómo funciona JavaScript?",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Cada navegador web moderno incluye un motor de JavaScript que interpreta y ejecuta el código. Por ejemplo:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -10330,168 +11854,168 @@ button:hover {
                 info: [
                   {
                     text: "Chrome usa ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "V8",
-                    content: "bold"
-                  }
-                ]
+                    content: "bold",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Firefox usa ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "SpiderMonkey",
-                    content: "bold"
-                  }
-                ]
+                    content: "bold",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Safari usa ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "JavaScriptCore",
-                    content: "bold"
-                  }
-                ]
-              }
-            ]
+                    content: "bold",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Cuando una página web se carga, el navegador analiza el ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "HTML",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " y ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "CSS",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: ", y luego ejecuta el código JavaScript, generalmente de arriba hacia abajo.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "📝 ¿Dónde se puede escribir JavaScript?",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "Dentro del ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "HTML",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " (inline script)",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "html",
               content: `<script>\n  alert("Hola Mundo!");\n  console.log("Este es un mensaje en la consola.");\n</script>`,
-            }
+            },
           },
           {
             type: "h4",
             info: [
               {
                 text: "📝 En un archivo externo ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: ".js",
-                content: "code"
-              }
-            ]
+                content: "code",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "html",
               content: `<script src="app.js"></script>\n`,
-            }
+            },
           },
           {
             type: "code",
             info: {
               language: "javascript",
               content: `//app.js\nalert("Hola desde archivo externo");\nconsole.log("Mensaje en consola desde archivo externo");`,
-            }
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "💡 Para proyectos reales, lo ideal es usar archivos ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: ".js",
-                content: "code"
+                content: "code",
               },
               {
                 text: " separados para una mejor organización y mantenimiento.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "🔦 Primeros ejemplos",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "Usando alert() y console.log()",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "html",
               content: `<script>\n  alert("Bienvenido a mi página");\n  console.log("Este mensaje es visible en la consola del navegador");\n</script>`,
-            }
+            },
           },
           {
             type: "ul",
@@ -10501,30 +12025,30 @@ button:hover {
                 info: [
                   {
                     text: "alert()",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ": Muestra una ventana emergente con un mensaje.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "console.log()",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ": Escribe un mensaje en la consola del navegador.",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 5,
@@ -10534,35 +12058,35 @@ button:hover {
             info: [
               {
                 text: "🖱️ Eventos en JavaScript",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "JavaScript puede reaccionar a ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "eventos",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " como clicks, cambios en inputs, movimiento del mouse o teclas presionadas. Estos permiten crear interfaces interactivas.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "📌 Tipos comunes de eventos",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -10572,209 +12096,213 @@ button:hover {
                 info: [
                   {
                     text: "Eventos del mouse: ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "click, dblclick, mouseover, mouseout",
-                    content: "bold"
-                  }
-                ]
+                    content: "bold",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Eventos del teclado: ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "keydown, keyup, keypress",
-                    content: "bold"
-                  }
-                ]
+                    content: "bold",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Eventos de formularios: ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "submit, change, focus, blur",
-                    content: "bold"
-                  }
-                ]
+                    content: "bold",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Eventos de ventana: ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "load, resize, scroll",
-                    content: "bold"
-                  }
-                ]
-              }
-            ]
+                    content: "bold",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "🛠️ Ejemplo de evento click (HTML inline)",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "html",
-              content: '<button onclick="alert(\'¡Click detectado!\')">Haz clic</button>'
-            }
+              content:
+                "<button onclick=\"alert('¡Click detectado!')\">Haz clic</button>",
+            },
           },
           {
             type: "h4",
             info: [
               {
                 text: "🔄 Ejemplo de evento change",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "html",
-              content: '<input onchange="console.log(\'El valor cambió\')" />'
-            }
+              content: "<input onchange=\"console.log('El valor cambió')\" />",
+            },
           },
           {
             type: "h4",
             info: [
               {
                 text: "🎯 Método recomendado: addEventListener",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "En lugar de usar atributos ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "HTML ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "como ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "onclick",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: ", es mejor separar el ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "JavaScript ",
-                content: "italic"
+                content: "italic",
               },
               {
                 text: "del ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "HTML:",
-                content: "italic"
-              }
-            ]
+                content: "italic",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "En el HTML:",
-                content: "bold"
-              }
-            ]
+                content: "bold",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "html",
               content: '<button id="miBoton">Haz clic</button>',
-              title: "HTML"
-            }
+              title: "HTML",
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "En el JavaScript externo:",
-                content: "bold"
-              }
-            ]
+                content: "bold",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: 'document.getElementById("miBoton").addEventListener("click", () => {\n  alert("¡Método moderno!");\n});',
-              title: "JavaScript"
-            }
+              content:
+                'document.getElementById("miBoton").addEventListener("click", () => {\n  alert("¡Método moderno!");\n});',
+              title: "JavaScript",
+            },
           },
           {
             type: "h4",
             info: [
               {
                 text: "⚡ Event Object (información del evento)",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Los eventos proporcionan un objeto con datos útiles:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: 'document.addEventListener("click", (event) => {\n  console.log("Coordenadas:", event.clientX, event.clientY);\n  console.log("Elemento clickeado:", event.target);\n});'
-            }
+              content:
+                'document.addEventListener("click", (event) => {\n  console.log("Coordenadas:", event.clientX, event.clientY);\n  console.log("Elemento clickeado:", event.target);\n});',
+            },
           },
           {
             type: "h4",
             info: [
               {
                 text: "🚫 Prevenir comportamientos por defecto",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: 'document.querySelector("a").addEventListener("click", (e) => {\n  e.preventDefault(); // Evita que el link navegue\n  console.log("Link clickeado pero no navega");\n});'
-            }
-          }
-        ]
+              content:
+                'document.querySelector("a").addEventListener("click", (e) => {\n  e.preventDefault(); // Evita que el link navegue\n  console.log("Link clickeado pero no navega");\n});',
+            },
+          },
+        ],
       },
       {
         topic: 6,
@@ -10784,94 +12312,92 @@ button:hover {
             info: [
               {
                 text: "✨ Variables, Constantes y Funciones",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "Variables",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Una ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "variable",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " es un contenedor que guarda un valor para usarlo luego en el programa.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Sintaxis: ",
-                content: "bold"
-              }
-            ]
+                content: "bold",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: 'let nombre = "Gaspar";\nlet edad = 25;'
-            }
+              content: 'let nombre = "Gaspar";\nlet edad = 25;',
+            },
           },
           {
             type: "p",
-            info: [
-              
-            ]
+            info: [],
           },
           {
             type: "p",
             info: [
               {
                 text: "let ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "se usa para declarar variables modernas y el valor ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "puede cambiar",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " más adelante:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: "edad = 26;"
-            }
+              content: "edad = 26;",
+            },
           },
           {
             type: "h4",
             info: [
               {
                 text: "Tipos de declaraciones",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -10881,152 +12407,154 @@ button:hover {
                 info: [
                   {
                     text: "let",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " ➔ Variable de ámbito limitado (recomendado).",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "var",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " ➔ Variable de ámbito global o de función (antiguo, menos recomendable).",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h3",
             info: [
               {
                 text: "Constantes",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Una ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "constante",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " es similar a una variable, pero su valor ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "no puede cambiar",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " una vez asignado.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Sintaxis: ",
-                content: "bold"
-              }
-            ]
+                content: "bold",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: 'const PI = 3.1416;\nconst nombre = "Gaspar";'
-            }
+              content: 'const PI = 3.1416;\nconst nombre = "Gaspar";',
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Si intentás cambiarla, lanza un error:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: "PI = 3; // ❌ Error: No se puede cambiar una constante"
-            }
+              content: "PI = 3; // ❌ Error: No se puede cambiar una constante",
+            },
           },
           {
             type: "h3",
             info: [
               {
                 text: "Funciones",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Una ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "función",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " es un bloque de código que realiza una tarea específica y puede reutilizarse.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Sintaxis: ",
-                content: "bold"
-              }
-            ]
+                content: "bold",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: 'function saludar() {\n  console.log("¡Hola, bienvenido!");\n}\n\nsaludar(); // Imprime: ¡Hola, bienvenido!'
-            }
+              content:
+                'function saludar() {\n  console.log("¡Hola, bienvenido!");\n}\n\nsaludar(); // Imprime: ¡Hola, bienvenido!',
+            },
           },
           {
             type: "h4",
             info: [
               {
                 text: "Con parámetros",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: 'function sumar(a, b) {\n  return a + b;\n}\n\nlet resultado = sumar(5, 3);\nconsole.log(resultado); // 8'
-            }
+              content:
+                "function sumar(a, b) {\n  return a + b;\n}\n\nlet resultado = sumar(5, 3);\nconsole.log(resultado); // 8",
+            },
           },
           {
             type: "ul",
@@ -11036,46 +12564,46 @@ button:hover {
                 info: [
                   {
                     text: "Los parámetros ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "a",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " y ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "b",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " permiten que la función trabaje con valores externos.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "return",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " devuelve el resultado.",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 7,
@@ -11085,27 +12613,27 @@ button:hover {
             info: [
               {
                 text: "Actividades 💬",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "🎨 Selector RGB - Material de Estudio",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Descargá este ejemplo práctico que analizaremos en clase. Contiene un selector de colores RGB que demuestra:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -11115,41 +12643,41 @@ button:hover {
                 info: [
                   {
                     text: "Manipulación del DOM con ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "getElementById",
-                    content: "bold"
-                  }
-                ]
+                    content: "bold",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Eventos con ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "addEventListener",
-                    content: "bold"
-                  }
-                ]
+                    content: "bold",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Modificación dinámica de estilos ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "CSS",
-                    content: "bold"
-                  }
-                ]
-              }
-            ]
+                    content: "bold",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "example",
@@ -11181,8 +12709,8 @@ button:hover {
     </div>
     <script src="script.js"></script>
 </body>`,
-                  title: "Estructura HTML"
-                }
+                  title: "Estructura HTML",
+                },
               },
               {
                 type: "code",
@@ -11248,8 +12776,8 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 `,
-                  title: "Estilos CSS"
-                }
+                  title: "Estilos CSS",
+                },
               },
               {
                 type: "code",
@@ -11301,23 +12829,23 @@ function cambiarColores() {
 
 // Inicializa la función al cargar la página
 cambiarColores();`,
-                  title: "Lógica JavaScript"
-                }
-              }
-            ]
+                  title: "Lógica JavaScript",
+                },
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
-                text: "💡 Consejo: ",  
-                content: "bold"
+                text: "💡 Consejo: ",
+                content: "bold",
               },
               {
                 text: "Antes de la clase, explorá cómo funciona el código e intentá responder:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -11327,95 +12855,95 @@ cambiarColores();`,
                 info: [
                   {
                     text: "¿Cómo se actualiza el color de fondo cuando mueves los sliders?",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "¿Qué hace el método ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "forEach",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " en este contexto?",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "📌 Ejemplo Ampliado: Modificación dinámica del DOM",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "document.write() ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "es una función de JavaScript que permite insertar contenido ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "HTML ",
-                content: "italic"
+                content: "italic",
               },
               {
                 text: "dinámicamente en la página.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Explora estos métodos para manipular el documento:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
               content: `// 1. Mostrar contenido HTML dinámico\ndocument.write("<h1>Bienvenido a JavaScript</h1>");\n\n// 2. Modificar estilos del body\ndocument.body.style.backgroundColor = "lightblue";\ndocument.body.style.color = "darkblue";\ndocument.body.style.fontFamily = "Arial, sans-serif";\ndocument.body.style.textAlign = "center";\ndocument.body.style.padding = "20px";\n\n// 3. Agregar elementos HTML\ndocument.body.innerHTML += "<p>Texto dinámico</p>";\n\n// 4. Mensajes en consola (para debugging)\nconsole.error("Mensaje de error de prueba que sale por consola");\nconsole.log("Lo vas a ver apretando F12 o Ctrl+Shift+I");`,
-            }
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "💡 Consejo: ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "Prueba este código en tu archivo ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "HTML",
-                content: "italic"
+                content: "italic",
               },
               {
                 text: " y observa:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -11425,58 +12953,58 @@ cambiarColores();`,
                 info: [
                   {
                     text: "¿Qué pasa si usas ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "document.write()",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " después de que la página cargó?",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "¿Cómo afecta el orden de ejecución al resultado?",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "🛠️ Ejercicio 1: ",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: "Primeros pasos con JavaScript",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Crea una página ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "HTML ",
-                content: "italic"
+                content: "italic",
               },
               {
                 text: "básica que muestre:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "ul",
@@ -11486,48 +13014,49 @@ cambiarColores();`,
                 info: [
                   {
                     text: "Un ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "alert",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " con el mensaje ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: '"Hola Mundo"',
-                    content: "italic"
-                  }
-                ]
+                    content: "italic",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "El mismo mensaje en la consola usando ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "console.log()",
-                    content: "bold"
-                  }
-                ]
-              }
-            ]
+                    content: "bold",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "answer",
             info: [
               {
                 language: "html",
-                content: '<body>\n  <h1>Ejemplo de JavaScript</h1>\n  <script>\n    alert("Hola mundo");\n    console.log("Hola mundo");\n  </script>\n</body>',
-                alt: "Solución recomendada"
-              }
-            ]
+                content:
+                  '<body>\n  <h1>Ejemplo de JavaScript</h1>\n  <script>\n    alert("Hola mundo");\n    console.log("Hola mundo");\n  </script>\n</body>',
+                alt: "Solución recomendada",
+              },
+            ],
           },
-        ]
+        ],
       },
     ],
   },
@@ -11552,18 +13081,18 @@ cambiarColores();`,
             info: [
               {
                 text: "📊 Tipos de Datos en JavaScript",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "JavaScript tiene varios tipos de datos fundamentales que necesitas conocer para programar efectivamente:",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "table",
@@ -11571,53 +13100,58 @@ cambiarColores();`,
             title: ["Tipo", "Ejemplo", "Descripción"],
             info: [
               {
-                row: ["string", "\"Hola mundo\"", "Texto entre comillas"],
-                content: "plain"
+                row: ["string", '"Hola mundo"', "Texto entre comillas"],
+                content: "plain",
               },
               {
                 row: ["number", "42, 3.14", "Números enteros o decimales"],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: ["boolean", "true, false", "Verdadero o falso"],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: ["null", "null", "Valor intencionalmente vacío"],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: ["undefined", "undefined", "No tiene valor asignado"],
-                content: "plain"
+                content: "plain",
               },
               {
-                row: ["object", "{nombre: \"Juan\"}", "Conjunto de datos con claves y valores"],
-                content: "plain"
+                row: [
+                  "object",
+                  '{nombre: "Juan"}',
+                  "Conjunto de datos con claves y valores",
+                ],
+                content: "plain",
               },
               {
                 row: ["array", "[1, 2, 3]", "Lista ordenada de elementos"],
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: '// Ejemplo: Verificación de tipos\ntypeof "Hola"; // "string"\ntypeof 42;     // "number"\ntypeof [];     // "object" (arrays son objetos especiales)',
-              title: "Usando typeof"
-            }
+              content:
+                '// Ejemplo: Verificación de tipos\ntypeof "Hola"; // "string"\ntypeof 42;     // "number"\ntypeof [];     // "object" (arrays son objetos especiales)',
+              title: "Usando typeof",
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "💡 Los arrays técnicamente son objetos, pero JavaScript los trata como un tipo especial para manejar colecciones ordenadas.",
-                content: "plain"
-              }
-            ]
-          }
-        ]
+                content: "plain",
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 2,
@@ -11627,25 +13161,26 @@ cambiarColores();`,
             info: [
               {
                 text: "📦 Variables y Constantes",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "📝 Declaración de Variables",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: 'let nombre = "Ana"; // Puede cambiar su valor\n\nconst edad = 25;    // No puede cambiar su valor',
-            }
+              content:
+                'let nombre = "Ana"; // Puede cambiar su valor\n\nconst edad = 25;    // No puede cambiar su valor',
+            },
           },
           {
             type: "ul",
@@ -11655,191 +13190,198 @@ cambiarColores();`,
                 info: [
                   {
                     text: "let",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ": permite modificar el valor de la variable.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "var",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ": permite modificar el valor de la variable.",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "const",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ": el valor no puede cambiar (constante).",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "💡 ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "Consejo",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: ": Usa ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "const",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " por defecto y ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "let",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " solo cuando necesites cambiar el valor.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "⚠️ Hoisting con var", content: "plain" },
-            ]
+            info: [{ text: "⚠️ Hoisting con var", content: "plain" }],
           },
           {
             type: "p",
             info: [
               {
                 text: "En JavaScript, las variables declaradas con ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "var ",
-                content: "bold"
+                content: "bold",
               },
               { text: "tienen un comportamiento llamado ", content: "plain" },
               { text: "Hoisting", content: "bold" },
-              { text: ': la declaración se "eleva" al inicio de su ámbito, pero no su inicialización. Esto puede causar resultados inesperados. Mientras que con ', content: "plain" },
+              {
+                text: ': la declaración se "eleva" al inicio de su ámbito, pero no su inicialización. Esto puede causar resultados inesperados. Mientras que con ',
+                content: "plain",
+              },
               { text: "let / const ", content: "bold" },
-              { text: " obtendrías un error de referencia. Por esto, se recomienda evitar ", content: "plain" },
+              {
+                text: " obtendrías un error de referencia. Por esto, se recomienda evitar ",
+                content: "plain",
+              },
               { text: "var", content: "bold" },
               { text: " en la actualidad.", content: "plain" },
-            ]
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: 'console.log(x); // undefined (hoisting)\nvar x = 5;\n\nconsole.log(y); // ❌ Error: no hoisting\nlet y = 10;',
-              title: "Diferencia entre var y let"
-            }
-          }
-        ]
+              content:
+                "console.log(x); // undefined (hoisting)\nvar x = 5;\n\nconsole.log(y); // ❌ Error: no hoisting\nlet y = 10;",
+              title: "Diferencia entre var y let",
+            },
+          },
+        ],
       },
       {
-        "topic": 3,
-        "topicData": [
+        topic: 3,
+        topicData: [
           {
-            "type": "h3",
-            "info": [
+            type: "h3",
+            info: [
               {
-                "text": "⚙️ ¿Qué es una función?",
-                "content": "plain"
-              }
-            ]
+                text: "⚙️ ¿Qué es una función?",
+                content: "plain",
+              },
+            ],
           },
           {
-            "type": "p",
-            "info": [
+            type: "p",
+            info: [
               {
-                "text": "Una función es un bloque de código que realiza una tarea específica y puede reutilizarse.",
-                "content": "plain"
-              }
-            ]
+                text: "Una función es un bloque de código que realiza una tarea específica y puede reutilizarse.",
+                content: "plain",
+              },
+            ],
           },
           {
-            "type": "h4",
-            "info": [
+            type: "h4",
+            info: [
               {
-                "text": "🔄 Función básica",
-                "content": "plain"
-              }
-            ]
+                text: "🔄 Función básica",
+                content: "plain",
+              },
+            ],
           },
           {
-            "type": "code",
-            "info": {
-              "language": "javascript",
-              "content": "function saludar() {\n  console.log(\"Hola desde la función\");\n}\n\nsaludar(); // Llama a la función",
-              "title": "Declaración y llamado"
-            }
+            type: "code",
+            info: {
+              language: "javascript",
+              content:
+                'function saludar() {\n  console.log("Hola desde la función");\n}\n\nsaludar(); // Llama a la función',
+              title: "Declaración y llamado",
+            },
           },
           {
-            "type": "h4",
-            "info": [
+            type: "h4",
+            info: [
               {
-                "text": "🎯 Función con parámetro",
-                "content": "plain"
-              }
-            ]
+                text: "🎯 Función con parámetro",
+                content: "plain",
+              },
+            ],
           },
           {
-            "type": "code",
-            "info": {
-              "language": "javascript",
-              "content": "function saludar(nombre) {\n  console.log(\"Hola \" + nombre);\n}\n\nsaludar(\"Gaspar\");",
-              "title": "Uso de parámetros"
-            }
+            type: "code",
+            info: {
+              language: "javascript",
+              content:
+                'function saludar(nombre) {\n  console.log("Hola " + nombre);\n}\n\nsaludar("Gaspar");',
+              title: "Uso de parámetros",
+            },
           },
           {
-            "type": "p",
-            "info": [
+            type: "p",
+            info: [
               {
-                "text": "💡 ",
-                "content": "plain"
+                text: "💡 ",
+                content: "plain",
               },
               {
-                "text": "Los parámetros",
-                "content": "bold"
+                text: "Los parámetros",
+                content: "bold",
               },
               {
-                "text": " son valores que se pasan a la función para que trabaje con ellos.",
-                "content": "plain"
-              }
-            ]
+                text: " son valores que se pasan a la función para que trabaje con ellos.",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "🔄 Formas de Declarar Funciones",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "table",
@@ -11850,56 +13392,57 @@ cambiarColores();`,
                 row: [
                   "Tradicional",
                   "function saludar() { ... }",
-                  "• Hoisting ✅\n• Reasignable ✅\n• Ámbito de función"
+                  "• Hoisting ✅\n• Reasignable ✅\n• Ámbito de función",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Expresión de función",
                   "const saludar = function() { ... }",
-                  "• Hoisting ❌\n• Block-scoped"
+                  "• Hoisting ❌\n• Block-scoped",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Arrow function",
                   "const saludar = () => { ... }",
-                  "• Hoisting ❌\n• Sin 'this' propio\n• Return implícito"
+                  "• Hoisting ❌\n• Sin 'this' propio\n• Return implícito",
                 ],
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h5",
             info: [
               {
                 text: "📌 Ejemplos Comparativos",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: "// 1. Declaración tradicional\nfunction sumar(a, b) {\n  return a + b;\n}\n\n// 2. Expresión de función\nconst restar = function(a, b) {\n  return a - b;\n};\n\n// 3. Arrow function\nconst multiplicar = (a, b) => a * b;",
-            }
+              content:
+                "// 1. Declaración tradicional\nfunction sumar(a, b) {\n  return a + b;\n}\n\n// 2. Expresión de función\nconst restar = function(a, b) {\n  return a - b;\n};\n\n// 3. Arrow function\nconst multiplicar = (a, b) => a * b;",
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "💡 ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "Diferencias clave de Arrow Functions:",
-                content: "bold"
-              }
-            ]
+                content: "bold",
+              },
+            ],
           },
           {
             type: "ul",
@@ -11909,51 +13452,51 @@ cambiarColores();`,
                 info: [
                   {
                     text: "Sintaxis compacta: ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "( ) => { }",
-                    content: "bold"
+                    content: "bold",
                   },
-                ]
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Return implícito en una línea (sin ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "{ }",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " )",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "No tiene su propio ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "this",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " (usa el del ámbito padre)",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 4,
@@ -11963,34 +13506,34 @@ cambiarColores();`,
             info: [
               {
                 text: "🔄 Estructuras de Control",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Las estructuras de control permiten que tu código tome decisiones y repita acciones.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "❓ Condicional if/else",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
               content: `let edad = 18;\nif (edad >= 18) {\n  console.log("Es mayor de edad");\n} else {\n  console.log("Es menor de edad");\n}`,
-            }
+            },
           },
           {
             type: "ul",
@@ -12000,109 +13543,107 @@ cambiarColores();`,
                 info: [
                   {
                     text: "if",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ": ejecuta código si la condición es verdadera",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-
                   {
                     text: "else",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: ": ejecuta código si la condición es falsa",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "🔄 Bucle for clásico",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
               content: `for (let i = 0; i < 5; i++) {\n  console.log("Número:", i);\n}`,
-            }
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "💡 Este bucle se ejecuta 5 veces, imprimiendo los números del 0 al 4.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "🍎 Bucle forEach (arrays)",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
               content: `let frutas = ["manzana", "banana", "uva"];\n\n// Versión tradicional\nfruitas.forEach(function(fruta) {\n  console.log(fruta);\n});\n\n// Versión con arrow function\nfruitas.forEach(fruta => console.log(fruta));`,
-            }
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "💡 ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "forEach",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " es más legible para recorrer arrays que el bucle ",
-                content: "plain"
+                content: "plain",
               },
               {
                 text: "for",
-                content: "bold"
+                content: "bold",
               },
               {
                 text: " tradicional.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "🔄 Bucle for...of (iterables)", content: "plain" }
-            ]
+            info: [{ text: "🔄 Bucle for...of (iterables)", content: "plain" }],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: "// Ideal para arrays, strings\nconst frutas = ['🍎', '🍌', '🍇'];\n\nfor (const fruta of frutas) {\n  console.log(fruta);\n}\n\n// Con strings\nconst palabra = \"Hola\";\nfor (const letra of palabra) {\n  console.log(letra);\n}",
-              title: "Iteración sobre valores"
-            }
+              content:
+                "// Ideal para arrays, strings\nconst frutas = ['🍎', '🍌', '🍇'];\n\nfor (const fruta of frutas) {\n  console.log(fruta);\n}\n\n// Con strings\nconst palabra = \"Hola\";\nfor (const letra of palabra) {\n  console.log(letra);\n}",
+              title: "Iteración sobre valores",
+            },
           },
           {
             type: "ul",
@@ -12112,50 +13653,49 @@ cambiarColores();`,
                 info: [
                   {
                     text: "Recorre ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "valores",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " de estructuras iterables (arrays, strings)",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "Más legible que ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "for",
-                    content: "code"
+                    content: "code",
                   },
                   {
                     text: " tradicional cuando no necesitas el índice",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
-            info: [
-              { text: "🔍 Bucle for...in (objetos)", content: "plain" }
-            ]
+            info: [{ text: "🔍 Bucle for...in (objetos)", content: "plain" }],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: "const persona = {\n  nombre: 'Ana',\n  edad: 30,\n  profesion: 'Desarrolladora'\n};\n\nfor (const clave in persona) {\n  console.log(clave + ': ' + persona[clave]);\n}",
-              title: "Iteración sobre propiedades"
-            }
+              content:
+                "const persona = {\n  nombre: 'Ana',\n  edad: 30,\n  profesion: 'Desarrolladora'\n};\n\nfor (const clave in persona) {\n  console.log(clave + ': ' + persona[clave]);\n}",
+              title: "Iteración sobre propiedades",
+            },
           },
           {
             type: "ul",
@@ -12165,45 +13705,45 @@ cambiarColores();`,
                 info: [
                   {
                     text: "Recorre ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "claves/keys",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " de objetos",
-                    content: "plain"
-                  }
-                ]
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
                   {
                     text: "⚠️ ",
-                    content: "plain"
+                    content: "plain",
                   },
                   {
                     text: "No usar con arrays",
-                    content: "bold"
+                    content: "bold",
                   },
                   {
                     text: " (puede incluir propiedades heredadas)",
-                    content: "plain"
-                  }
-                ]
-              }
-            ]
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "📊 ¿Cuándo usar cada uno?",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "table",
@@ -12214,29 +13754,29 @@ cambiarColores();`,
                 row: [
                   "for...of",
                   "Arrays, strings, Map, Set",
-                  "for (const valor of array)"
+                  "for (const valor of array)",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "for...in",
                   "Propiedades de objetos",
-                  "for (const clave in objeto)"
+                  "for (const clave in objeto)",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "forEach",
                   "Arrays (versión moderna)",
-                  "array.forEach(item => ...)"
+                  "array.forEach(item => ...)",
                 ],
-                content: "plain"
-              }
-            ]
-          }
-        ]
+                content: "plain",
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 5,
@@ -12246,27 +13786,27 @@ cambiarColores();`,
             info: [
               {
                 text: "🛠️ Funciones útiles para el DOM",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "p",
             info: [
               {
                 text: "Estas son las funciones más importantes para manipular elementos HTML con JavaScript.",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "🔍 Métodos para obtener elementos",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "table",
@@ -12276,53 +13816,53 @@ cambiarColores();`,
               {
                 row: [
                   "Obtener por ID",
-                  "document.getElementById(\"id\")",
-                  "Un solo elemento"
+                  'document.getElementById("id")',
+                  "Un solo elemento",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Por clase",
-                  "document.getElementsByClassName(\"clase\")",
-                  "Varios elementos"
+                  'document.getElementsByClassName("clase")',
+                  "Varios elementos",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Por etiqueta",
-                  "document.getElementsByTagName(\"div\")",
-                  "Por tipo de etiqueta HTML"
+                  'document.getElementsByTagName("div")',
+                  "Por tipo de etiqueta HTML",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Selector General",
-                  "document.querySelector(\".clase o #id\")",
-                  "Primer elemento que coincida"
+                  'document.querySelector(".clase o #id")',
+                  "Primer elemento que coincida",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Todos los que coincidan",
-                  "document.querySelectorAll(\".clase\")",
-                  "Todos los elementos que coincidan"
+                  'document.querySelectorAll(".clase")',
+                  "Todos los elementos que coincidan",
                 ],
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
               {
                 text: "✏️ Métodos para modificar elementos",
-                content: "plain"
-              }
-            ]
+                content: "plain",
+              },
+            ],
           },
           {
             type: "table",
@@ -12332,62 +13872,62 @@ cambiarColores();`,
               {
                 row: [
                   "Cambiar texto",
-                  "elemento.innerText = \"Nuevo texto\"",
-                  "Solo texto plano"
+                  'elemento.innerText = "Nuevo texto"',
+                  "Solo texto plano",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Cambiar contenido HTML",
-                  "elemento.innerHTML = \"<b>Texto</b>\"",
-                  "Acepta etiquetas HTML"
+                  'elemento.innerHTML = "<b>Texto</b>"',
+                  "Acepta etiquetas HTML",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Cambiar estilos",
-                  "elemento.style.color = \"red\"",
-                  "Modifica estilos directamente"
+                  'elemento.style.color = "red"',
+                  "Modifica estilos directamente",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Crear elemento",
-                  "document.createElement(\"div\")",
-                  "Crear un nuevo nodo"
+                  'document.createElement("div")',
+                  "Crear un nuevo nodo",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Agregar al DOM",
                   "padre.appendChild(hijo)",
-                  "Insertar nuevo elemento"
+                  "Insertar nuevo elemento",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Eliminar del DOM",
                   "padre.removeChild(hijo)",
-                  "Eliminar un nodo"
+                  "Eliminar un nodo",
                 ],
-                content: "plain"
+                content: "plain",
               },
               {
                 row: [
                   "Evento al hacer clic",
-                  "elemento.addEventListener(\"click\", funcion)",
-                  "Ejecuta función al hacer clic"
+                  'elemento.addEventListener("click", funcion)',
+                  "Ejecuta función al hacer clic",
                 ],
-                content: "plain"
-              }
-            ]
-          }
-        ]
+                content: "plain",
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 6,
@@ -12395,36 +13935,37 @@ cambiarColores();`,
           {
             type: "h3",
             info: [
-              { 
-                text: "🎮 Ejercicio de práctica",  
-                content: "plain" 
-              }
-            ]
+              {
+                text: "🎮 Ejercicio de práctica",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "h4",
             info: [
-              { 
-                text: "💻 Código para testear",  
-                content: "plain" 
-              }
-            ]
+              {
+                text: "💻 Código para testear",
+                content: "plain",
+              },
+            ],
           },
           {
             type: "code",
             info: {
               language: "javascript",
-              content: "let nombre = prompt(\"¿Cuál es tu nombre?\");\nif (nombre) {\n  alert(\"Hola \" + nombre + \" 👋\");\n} else {\n  alert(\"No escribiste nada...\");\n}"
-            }
+              content:
+                'let nombre = prompt("¿Cuál es tu nombre?");\nif (nombre) {\n  alert("Hola " + nombre + " 👋");\n} else {\n  alert("No escribiste nada...");\n}',
+            },
           },
           {
             type: "p",
             info: [
-              { 
-                text: "📝 ¿Qué hace este código?",  
-                content: "bold" 
-              }
-            ]
+              {
+                text: "📝 ¿Qué hace este código?",
+                content: "bold",
+              },
+            ],
           },
           {
             type: "ul",
@@ -12432,34 +13973,34 @@ cambiarColores();`,
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Pide al usuario que ingrese su nombre",  
-                    content: "plain" 
-                  }
-                ]
+                  {
+                    text: "Pide al usuario que ingrese su nombre",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Si escribió algo, muestra un saludo personalizado",  
-                    content: "plain" 
-                  }
-                ]
+                  {
+                    text: "Si escribió algo, muestra un saludo personalizado",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-                  { 
-                    text: "Si no escribió nada, muestra un mensaje de error",  
-                    content: "plain" 
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
+                  {
+                    text: "Si no escribió nada, muestra un mensaje de error",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   {
@@ -12480,9 +14021,7 @@ cambiarColores();`,
         topicData: [
           {
             type: "h3",
-            info: [
-              { text: "💻 ¿Qué es Bootstrap?", content: "plain" },
-            ],
+            info: [{ text: "💻 ¿Qué es Bootstrap?", content: "plain" }],
           },
           {
             type: "h4",
@@ -12512,7 +14051,7 @@ cambiarColores();`,
               {
                 text: "📚 Framework front-end",
                 content: "bold",
-              },  
+              },
             ],
           },
           {
@@ -12706,7 +14245,7 @@ cambiarColores();`,
                           },
                           {
                             text: "Introducción del sistema de grillas y enfoque mobile-first.",
-                            content: "plain" ,
+                            content: "plain",
                           },
                         ],
                       },
@@ -12834,7 +14373,7 @@ cambiarColores();`,
               },
             ],
           },
-        ]
+        ],
       },
       {
         topic: 3,
@@ -12854,8 +14393,8 @@ cambiarColores();`,
               {
                 text: "🌎 Incluir por CDN (rápido)",
                 content: "bold",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "p",
@@ -12867,16 +14406,16 @@ cambiarColores();`,
               {
                 text: "enlazar los archivos oficiales de Bootstrap. Ideal para demos o proyectos donde no necesitás control estricto de versiones.",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "code",
-            info: 
-              {
-                language: "html",
-                content: "<!-- en <head> -->\n<link\n  href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\"\n  rel=\"stylesheet\"\n  crossorigin=\"anonymous\"\n >\n\n<!-- antes de </body> -->\n<script\n  src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\"\n  crossorigin=\"anonymous\"\n  >\n</script>"
-              }
+            info: {
+              language: "html",
+              content:
+                '<!-- en <head> -->\n<link\n  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"\n  rel="stylesheet"\n  crossorigin="anonymous"\n >\n\n<!-- antes de </body> -->\n<script\n  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"\n  crossorigin="anonymous"\n  >\n</script>',
+            },
           },
           {
             type: "ul",
@@ -12906,8 +14445,8 @@ cambiarColores();`,
                     content: "plain",
                   },
                 ],
-              }
-            ]
+              },
+            ],
           },
           {
             type: "h4",
@@ -12916,7 +14455,7 @@ cambiarColores();`,
                 text: "💾 Usar local (control total)",
                 content: "bold",
               },
-            ]
+            ],
           },
           {
             type: "p",
@@ -12924,16 +14463,16 @@ cambiarColores();`,
               {
                 text: "Descargá los archivos y servilos desde tu proyecto. Recomendado en entornos offline o cuando querés fijar versiones exactas.",
                 content: "plain",
-              }
-            ]
+              },
+            ],
           },
           {
             type: "code",
-            info: 
-              {
-                language: "html",
-                content: "<!-- en <head> -->\n<link\n  href=\"/assets/bootstrap/css/bootstrap.min.css\"\n  rel=\"stylesheet\"\n  >\n\n<!-- antes de </body> -->\n<script\n  src=\"/assets/bootstrap/js/bootstrap.bundle.min.js\"\n  >\n</script>"
-              }
+            info: {
+              language: "html",
+              content:
+                '<!-- en <head> -->\n<link\n  href="/assets/bootstrap/css/bootstrap.min.css"\n  rel="stylesheet"\n  >\n\n<!-- antes de </body> -->\n<script\n  src="/assets/bootstrap/js/bootstrap.bundle.min.js"\n  >\n</script>',
+            },
           },
           {
             type: "ul",
@@ -12968,7 +14507,7 @@ cambiarColores();`,
                   },
                 ],
               },
-            ]
+            ],
           },
           {
             type: "h4",
@@ -12977,7 +14516,7 @@ cambiarColores();`,
                 text: "⌨️ Instalar via NPM / gestor",
                 content: "bold",
               },
-            ]
+            ],
           },
           {
             type: "p",
@@ -12994,17 +14533,17 @@ cambiarColores();`,
                 text: "conviene instalar via npm/yarn y gestionar versiones desde package.json.",
                 content: "plain",
               },
-            ]
+            ],
           },
           {
             type: "code",
-            info: 
-              {
-                language: "html", // crear bash y cambiar a ese
-                content: "// ejemplo con npm\nnpm install bootstrap\n\n// luego importar en tus assets (JS o SCSS)\nimport 'bootstrap/dist/css/bootstrap.min.css';\nimport 'bootstrap/dist/js/bootstrap.bundle.min';"
-              }
+            info: {
+              language: "html", // crear bash y cambiar a ese
+              content:
+                "// ejemplo con npm\nnpm install bootstrap\n\n// luego importar en tus assets (JS o SCSS)\nimport 'bootstrap/dist/css/bootstrap.min.css';\nimport 'bootstrap/dist/js/bootstrap.bundle.min';",
+            },
           },
-        ]
+        ],
       },
       {
         topic: 4,
@@ -13058,10 +14597,10 @@ cambiarColores();`,
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<div class="d-flex flex-wrap gap-2 align-items-center mx-auto my-1">\n  <p class="text-primary p-2 mx-4 my-2 border border-primary rounded-3">.text-primary</p>  \n  <p class="text-secondary p-2 mx-4 my-2 border border-secondary rounded-3">.text-secondary</p>  \n  <p class="text-success p-2 mx-4 my-2 border border-success rounded-3">.text-success</p>  \n  <p class="text-danger p-2 mx-4 my-2 border border-danger rounded-3">.text-danger</p>  \n  <p class="text-warning p-2 mx-4 my-2 border border-warning rounded-3">.text-warning</p>  \n  <p class="text-info p-2 mx-4 my-2 border border-info rounded-3">.text-info</p>  \n  <p class="text-light p-2 mx-4 my-2 border border-light bg-dark rounded-3">.text-light</p>  \n  <p class="text-dark p-2 mx-4 my-2 border border-dark rounded-3">.text-dark</p>  \n  <p class="text-body p-2 mx-4 my-2 border border-body rounded-3">.text-body</p>  \n  <p class="text-muted p-2 mx-4 my-2 border border-muted rounded-3">.text-muted</p>  \n </div>`
-                }
-              }
-            ]
+                  content: `<div class="d-flex flex-wrap gap-2 align-items-center mx-auto my-1">\n  <p class="text-primary p-2 mx-4 my-2 border border-primary rounded-3">.text-primary</p>  \n  <p class="text-secondary p-2 mx-4 my-2 border border-secondary rounded-3">.text-secondary</p>  \n  <p class="text-success p-2 mx-4 my-2 border border-success rounded-3">.text-success</p>  \n  <p class="text-danger p-2 mx-4 my-2 border border-danger rounded-3">.text-danger</p>  \n  <p class="text-warning p-2 mx-4 my-2 border border-warning rounded-3">.text-warning</p>  \n  <p class="text-info p-2 mx-4 my-2 border border-info rounded-3">.text-info</p>  \n  <p class="text-light p-2 mx-4 my-2 border border-light bg-dark rounded-3">.text-light</p>  \n  <p class="text-dark p-2 mx-4 my-2 border border-dark rounded-3">.text-dark</p>  \n  <p class="text-body p-2 mx-4 my-2 border border-body rounded-3">.text-body</p>  \n  <p class="text-muted p-2 mx-4 my-2 border border-muted rounded-3">.text-muted</p>  \n </div>`,
+                },
+              },
+            ],
           },
           {
             type: "p",
@@ -13080,14 +14619,14 @@ cambiarColores();`,
             info: [
               {
                 type: "code",
-                info: { 
-                language: "html",
-                content: `<div class="d-flex flex-wrap gap-2 align-items-center mx-auto my-1">\n  <div class="p-2 mx-4 my-2 bg-primary text-white rounded">.bg-primary</div>  \n  <div class="p-2 mx-4 my-2 bg-secondary text-white rounded">.bg-secondary</div>  \n  <div class="p-2 mx-4 my-2 bg-success text-white rounded">.bg-success</div>  \n  <div class="p-2 mx-4 my-2 bg-danger text-white rounded">.bg-danger</div>  \n  <div class="p-2 mx-4 my-2 bg-warning text-white rounded">.bg-warning</div>  \n  <div class="p-2 mx-4 my-2 bg-info text-white rounded">.bg-info</div>  \n  <div class="p-2 mx-4 my-2 bg-light text-dark rounded">.bg-light</div>  \n  <div class="p-2 mx-4 my-2 bg-dark text-white rounded">.bg-dark</div>  \n  <div class="p-2 mx-4 my-2 bg-body text-dark rounded">.bg-body</div>  \n  <div class="p-2 mx-4 my-2 bg-muted text-dark rounded">.bg-muted</div>  \n </div>`
-                }
-              }
-            ]
+                info: {
+                  language: "html",
+                  content: `<div class="d-flex flex-wrap gap-2 align-items-center mx-auto my-1">\n  <div class="p-2 mx-4 my-2 bg-primary text-white rounded">.bg-primary</div>  \n  <div class="p-2 mx-4 my-2 bg-secondary text-white rounded">.bg-secondary</div>  \n  <div class="p-2 mx-4 my-2 bg-success text-white rounded">.bg-success</div>  \n  <div class="p-2 mx-4 my-2 bg-danger text-white rounded">.bg-danger</div>  \n  <div class="p-2 mx-4 my-2 bg-warning text-white rounded">.bg-warning</div>  \n  <div class="p-2 mx-4 my-2 bg-info text-white rounded">.bg-info</div>  \n  <div class="p-2 mx-4 my-2 bg-light text-dark rounded">.bg-light</div>  \n  <div class="p-2 mx-4 my-2 bg-dark text-white rounded">.bg-dark</div>  \n  <div class="p-2 mx-4 my-2 bg-body text-dark rounded">.bg-body</div>  \n  <div class="p-2 mx-4 my-2 bg-muted text-dark rounded">.bg-muted</div>  \n </div>`,
+                },
+              },
+            ],
           },
-        ]
+        ],
       },
       {
         topic: 5,
@@ -13141,10 +14680,10 @@ cambiarColores();`,
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<p class="fs-1 mb-1">Texto muy grande (fs-1)</p>\n<p class="fs-2 mb-1">Texto grande (fs-2)</p>\n<p class="fs-3 mb-1">Texto mediano (fs-3)</p>\n<p class="fs-4 mb-1">Texto normal (fs-4)</p>\n<p class="fs-5 mb-1">Texto pequeño (fs-5)</p>\n<p class="fs-6 mb-1">Texto muy pequeño (fs-6)</p>`
-                }
-              }
-            ]
+                  content: `<p class="fs-1 mb-1">Texto muy grande (fs-1)</p>\n<p class="fs-2 mb-1">Texto grande (fs-2)</p>\n<p class="fs-3 mb-1">Texto mediano (fs-3)</p>\n<p class="fs-4 mb-1">Texto normal (fs-4)</p>\n<p class="fs-5 mb-1">Texto pequeño (fs-5)</p>\n<p class="fs-6 mb-1">Texto muy pequeño (fs-6)</p>`,
+                },
+              },
+            ],
           },
           {
             type: "p",
@@ -13162,7 +14701,7 @@ cambiarColores();`,
                 content: "plain",
               },
               {
-                text: "<h1 class=\"fs-3\">",
+                text: '<h1 class="fs-3">',
                 content: "bold",
               },
               {
@@ -13220,25 +14759,179 @@ cambiarColores();`,
                 info: {
                   language: "html",
                   content: `<h5>Clase: <strong>.text-start</strong></h5>\n<p class="text-start">Este párrafo está alineado a la izquierda. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>\n\n<hr><h5>Clase: <strong>.text-center</strong></h5>\n<p class="text-center">Este párrafo está centrado. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>\n\n<hr><h5>Clase: <strong>.text-end</strong></h5>\n<p class="text-end">Este párrafo está alineado a la derecha. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>`,
-                }
-              }
-            ]
+                },
+              },
+            ],
           },
-        ]
-      },,
+        ],
+      },
+      ,
       {
         topic: 6,
         topicData: [
           {
-            type: "h2",
+            type: "h3",
+            info: [{ text: "🟧 Botones en Bootstrap", content: "plain" }],
+          },
+          {
+            type: "p",
             info: [
               {
-                text: "📚 Ejemplos de formularios",
+                text: "Bootstrap tiene una clase base ",
                 content: "plain",
+              },
+              {
+                text: ".btn . ",
+                content: "bold",
+              },
+              {
+                text: "que define estilos básicos como el padding  y la alineación del contenido. Por defecto tiene un borde y un color de fondo transparentes, y carecen de estilos explícitos para el ",
+                content: "plain",
+              },
+              { text: "focus ", content: "bold" },
+              { text: "y ", content: "plain" },
+              { text: "hover. ", content: "bold" },
+              {
+                text: "Esta diseñada para en conjunto con otras variantes de colores y tamaños. También puede usarse en enlaces  ",
+                content: "plain",
+              },
+              {
+                text: "(<a>) ",
+                content: "bold",
+              },
+              {
+                text: "e inputs ",
+                content: "plain",
+              },
+              {
+                text: "(<input>).",
+                content: "bold",
               },
             ],
           },
-        ]
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🟩 Ejemplos de variantes de botones: ",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🎨 Colores de botones: ",
+                content: "plain",
+              },
+              {
+                text: "btn-primary, btn-secondary, btn-success, btn-danger, btn-warning, btn-info, btn-light, btn-dark",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "example",
+            hasBT: true,
+            title: "🎨 Colores de botones ",
+            height: "190px",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: `<div class="mx-auto p-2 w-75">\n  <button class="btn btn-primary m-4">.btn-primary</button>\n  <button class="btn btn-secondary m-4">.btn-secondary</button>\n  <button class="btn btn-light m-4">.btn-light</button>\n  <button class="btn btn-dark m-4">.btn-dark</button>\n  <button class="btn btn-success m-4">.btn-success</button>\n  <button class="btn btn-danger m-4">.btn-danger</button>\n  <button class="btn btn-warning m-4">.btn-warning</button>\n  <button class="btn btn-info m-4">.btn-info</button>\n</div>`,
+                },
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🔍 Tipos de botones: ",
+                content: "plain",
+              },
+              {
+                text: " btn-outline-*, disabled, active",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "example",
+            hasBT: true,
+            title: "🔍 Tipos de botones ",
+            height: "120px",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: `<div class="mx-auto p-3 w-75">\n  <button class="btn btn-success m-4">default</button>\n  <button class="btn btn-outline-success m-4">.outline-*</button>\n  <button class="btn btn-success disabled m-4" ">.disabled</button>\n <button class="btn btn-success active m-4" ">.active</button>\n`,
+                },
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🟩 Tamaños de botones: ",
+                content: "plain",
+              },
+              {
+                text: " default, btn-lg, btn-sm",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "example",
+            hasBT: true,
+            title: "🟩 Tamaños de botones ",
+            height: "120px",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: `<div class="mx-auto my-3 p-3 w-75">\n  <button class="btn btn-primary btn-lg mx-2">.btn-lg (grande)</button>\n  <button class="btn btn-primary mx-2">.btn (default))</button>\n  <button class="btn btn-primary btn-sm mx-2"> .btn-sm (pequeño)</button>\n</div>`,
+                },
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Nota: ",
+                content: "bold",
+              },
+              {
+                text: "las clases solo modifican dimensiones. ",
+                content: "plain",
+              },
+              {
+                text: "(padding y tamaño de fuente). ",
+                content: "bold",
+              },
+              {
+                text: "Para botones de ancho completo combiná con ",
+                content: "plain",
+              },
+              {
+                text: `w-100 `,
+                content: "plain",
+              },
+              {
+                text: " o utilidades de grid.",
+                content: "italic",
+              },
+            ],
+          },
+        ],
       },
       {
         topic: 7,
@@ -13252,10 +14945,10 @@ cambiarColores();`,
               },
             ],
           },
-        ]
+        ],
       },
     ],
-  }
-]
+  },
+];
 
 export default classes;
