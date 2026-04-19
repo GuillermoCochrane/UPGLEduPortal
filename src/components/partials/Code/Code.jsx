@@ -11,6 +11,7 @@ import 'prismjs/components/prism-bash.min';
 import 'prismjs/components/prism-markup-templating.min';
 import 'prismjs/components/prism-php.min';
 import 'prismjs/components/prism-sql.min';
+import 'prismjs/components/prism-java.min';
 import './code.css';
 
 function Code({ Data }) {
