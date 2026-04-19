@@ -1,24 +1,25 @@
 import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import 'prismjs';
-import 'prismjs/themes/prism-tomorrow.css'; 
+import 'prismjs/themes/prism-tomorrow.css';
 import 'prismjs/components/prism-http.min';
 import 'prismjs/components/prism-css.min.js';
 import 'prismjs/components/prism-javascript.min';
 import 'prismjs/components/prism-python.min';
 import 'prismjs/components/prism-json.min';
 import 'prismjs/components/prism-bash.min';
+import 'prismjs/components/prism-markup-templating.min';
+import 'prismjs/components/prism-php.min';
 import './code.css';
 
 function Code({ Data }) {
-  
   useEffect(() => {
-  import('prismjs').then(Prism => {
-    setTimeout(() => {
-      Prism.highlightAll();
-    }, 0);
-  });
-}, [Data]);
+    import('prismjs').then(Prism => {
+      setTimeout(() => {
+        Prism.highlightAll();
+      }, 0);
+    });
+  }, [Data]);
 
   return (
     <div className="code-container">
