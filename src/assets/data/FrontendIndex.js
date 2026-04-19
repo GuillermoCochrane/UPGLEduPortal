@@ -333,24 +333,29 @@ let classIndex = [
         link: "/courses/Frontend/class/10/3"
       },
       {
-        title: "Ejemplos básicos",
+        title: "Ejemplos de colores",
         topicId: 4,
         link: "/courses/Frontend/class/10/4"
       },
       {
-        title: "Ejemplos de botones",
+        title: "Ejemplos de texto",
         topicId: 5,
         link: "/courses/Frontend/class/10/5"
       },
       {
-        title: "Ejemplos de formularios",
+        title: "Ejemplos de botones",
         topicId: 6,
         link: "/courses/Frontend/class/10/6"
       },
       {
-        title: "Ejemplos de tablas",
+        title: "Ejemplos de formularios",
         topicId: 7,
         link: "/courses/Frontend/class/10/7"
+      },
+      {
+        title: "Ejemplos de tablas",
+        topicId: 8,
+        link: "/courses/Frontend/class/10/8"
       },
     ]
   }
