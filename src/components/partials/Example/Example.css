@@ -18,7 +18,7 @@
 .example-wrapper details .code-container {
   margin-inline: auto;
   width: 100%;
-  max-width: 800px;
+  max-width: 1100px;
 }
 
 .preview-iframe {
@@ -27,6 +27,5 @@
   display: block;
   border-radius: 7px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  width: 90%;
   margin-inline: auto;
 }
