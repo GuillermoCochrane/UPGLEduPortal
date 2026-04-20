@@ -14005,7 +14005,7 @@ cambiarColores();`,
   },
   {
     class: 10,
-    topics: 7,
+    topics: 8,
     title: {
       type: "h2",
       info: [
@@ -14635,7 +14635,7 @@ cambiarColores();`,
             type: "h3",
             info: [
               {
-                text: "📝 Ejemplos de estilos en texto",
+                text: "🖋️ Ejemplos de estilos en texto",
                 content: "plain",
               },
             ],
@@ -15010,7 +15010,53 @@ cambiarColores();`,
                 content: "plain" 
               }, 
             ],
-          }
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🏷️ Ejemplo inline y estados deshabilitados",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "example",
+            hasBT: true,
+            title: "🏷️ Ejemplo inline y estados deshabilitados",
+            height: "350px",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content:
+                    '<form class="row g-3 needs-validation m-3" novalidate="" style="width: 95%">\n  <div class="col-12">\n<label  class="form-label"><strong>Labels Inline</strong> (dentro del input)</label>\n        <label class="visually-hidden" for="inlineName">Nombre</label>\n    <input type="text" class="form-control" id="inlineName" placeholder="Nombre" required="">\n  </div>\n\n  <div class="col-12">\n    <label class="visually-hidden" for="inlineEmail">Correo</label>\n    <input type="email" class="form-control" id="inlineEmail" placeholder="correo@ejemplo.com" required="">\n  </div>\n\n  <div class="col-12">\n    <button type="submit" class="btn btn-secondary">Enviar</button>\n  </div>\n </form>\n\n <div class="m-3" >\n    <label for="disabledInput" class="form-label">Campo deshabilitado</label>\n    <input type="text" id="disabledInput" class="form-control" placeholder="No editable" disabled="">\n    <div class="form-text">Los campos con <code>disabled</code> no se envían en el submit.</div>\n  </div>',
+                },
+              },
+              {
+                type: "code",
+                info: {
+                  language: "javascript",
+                  content: `document.addEventListener('DOMContentLoaded', function () {\n  'use strict'\n  var forms = document.querySelectorAll('.needs-validation')\n  Array.prototype.slice.call(forms).forEach(function (form) {\n    form.addEventListener('submit', function (event) {\n      if (!form.checkValidity()) {\n        event.preventDefault()\n        event.stopPropagation()\n      }\n      form.classList.add('was-validated')\n    }, false)\n  })\n})`,
+                },
+              },
+            ],
+          },
+        ],
+      },
+      {
+        topic: 8,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "🧮 Ejemplos de tablas",
+                content: "plain",
+              },
+            ],
+          },
         ],
       },
     ],
