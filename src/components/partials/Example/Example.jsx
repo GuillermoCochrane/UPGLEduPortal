@@ -41,7 +41,7 @@ function Example({ Data, height = "auto", width = "100%", title = "Ejemplo", has
         ${headContent}
         <style>${css}</style>
       </head>
-      <body>
+      <body style="margin:auto; max-width: 900px;">
         ${html}
         ${bodyScripts}
         ${hasJS ? `<script>${js}</script>` : ''}
@@ -50,9 +50,10 @@ function Example({ Data, height = "auto", width = "100%", title = "Ejemplo", has
   `;
 
   // Permisos de sandbox: allow-scripts es necesario si hay JS propio o de Bootstrap
+  // allow-forms es necesario para que el botón submit funcione
   const sandboxType = hasJS || hasBT
-    ? "allow-scripts allow-same-origin"
-    : "allow-same-origin";
+    ? "allow-scripts allow-same-origin allow-forms allow-modals"
+    : "allow-same-origin allow-forms allow-modals";
 
   const languageTitles = {
     html: "HTML",
