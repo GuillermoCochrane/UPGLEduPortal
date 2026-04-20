@@ -1479,10 +1479,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hola_mundo.png",
-              alt: "print Hola Mundo",
+              language: "python",
+              content: `print("hola mundo")`,
             },
           },
           {
@@ -1495,10 +1495,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hola_mundo2.png",
-              alt: "print Hola Mundo",
+              language: "python",
+              content: `print("hola", "mundo", "!")`,
             },
           },
           {
