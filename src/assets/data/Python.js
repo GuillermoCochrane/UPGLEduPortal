@@ -1523,8 +1523,9 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class2/Ejercicio_2_4.png",
                 alt: "Solución",
+                language: "python",
+                content: `print("¡Hola Mundo! Mi nombre es (tu nombre) y este es mi primer programa!!!!🚀")\n\n#Puedes personalizar el mensaje con tu nombre y añadir un saludo adicional:\n\nprint("Este es mi super saludo 🖖 con Python 🐍")`,
               },
             ],
           },
