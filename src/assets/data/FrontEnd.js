@@ -15695,6 +15695,182 @@ cambiarColores();`,
           },
         ],
       },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "🪟 Botones y Utilidades Básicas",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🎨 Tipos de botones",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "btn-primary",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "btn-secondary",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "btn-success",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "y más...",
+                    content: "plain",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "↔️ Tamaños de botones",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "btn-lg",
+                    content: "bold",
+                  },
+                ],
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "btn-sm",
+                    content: "bold",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "🛠️ Clases de utilidad",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Márgenes: ",
+                content: "bold",
+              },
+              {
+                text: ".m-3",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Padding: ",
+                content: "bold",
+              },
+              {
+                text: ".p-2",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Texto: ",
+                content: "bold",
+              },
+              {
+                text: ".text-center, .fw-bold y más",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "⚡ Actividad: ",
+                content: "bold",
+              },
+              {
+                text: "Barra de botones",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crea una barra de botones con diferentes estilos y separación.",
+                content: "plain",
+              },
+            ],
+          },
+          { 
+            type: "answer", // Modificar para usar Example en lugar de Code
+            info: [
+              {
+                alt: "Crear una barra de botones",
+                language: "html",
+                content: '<div class="d-flex gap-2">\n  <button class="btn btn-primary btn-lg">Grande</button>\n  <button class="btn btn-success">Normal</button>\n  <button class="btn btn-warning btn-sm">Pequeño</button>\n</div>',
+              },
+            ]
+          },
+        ],
+      },
     ],
   },
 ];
