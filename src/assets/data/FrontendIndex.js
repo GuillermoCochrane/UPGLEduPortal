@@ -358,7 +358,48 @@ let classIndex = [
         link: "/courses/Frontend/class/10/8"
       },
     ]
-  }
+  },
+  {
+    summary: "Bootstrap avanzado",
+    classId: 11,
+    links: [
+      {
+        title: "Introducción a Bootstrap",
+        topicId: 1,
+        link: "/courses/Frontend/class/11/1"
+      },
+      {
+        title: "Sistema de Grillas",
+        topicId: 2,
+        link: "/courses/Frontend/class/11/2"
+      },
+      {
+        title: "Botones",
+        topicId: 3,
+        link: "/courses/Frontend/class/11/3"
+      },
+      {
+        title: "Tablas y Formularios",
+        topicId: 4,
+        link: "/courses/Frontend/class/11/4"
+      },
+      {
+        title: "Cards",
+        topicId: 5,
+        link: "/courses/Frontend/class/11/5"
+      },
+      {
+        title: "Modales Básicos",
+        topicId: 6,
+        link: "/courses/Frontend/class/11/6"
+      },
+      {
+        title: "Actividades",
+        topicId: 7,
+        link: "/courses/Frontend/class/11/7"
+      },
+    ]
+  },
 ]
 
 export default  classIndex
