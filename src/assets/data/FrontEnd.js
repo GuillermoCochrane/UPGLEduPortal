@@ -16095,6 +16095,107 @@ cambiarColores();`,
           }
         ]
       },
+      {
+        topic: 6,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "✳️ Modales Basicos",
+                content: "plain",
+              }
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Los modales son ventanas emergentes que se abren sobre el contenido principal. Se utilizan para mostrar información en una pantalla diferente. Este tipo de componentes se utilizan para presentar contenido adicional o para solicitar una respuesta de un usuario.",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "✨ Estructura mínima",
+                content: "plain",
+              },
+            ],
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Usa ",
+                content: "plain",
+              },
+              {
+                text: "bs-toggle",
+                content: "bold",
+              },
+              {
+                text: " y ",
+                content: "plain",
+              },
+              {
+                text: "bs-target",
+                content: "bold",
+              },
+            ],
+          },
+          {
+            type: "example",
+            hasBT: true,
+            title: "📋 Ejemplo de Modal",
+            height: "180px",
+            width: "600px",
+            info: [
+              {
+                type: "code",
+                info: { 
+                  language: "html",
+                  content: '<div class="d-flex justify-content-center align-items-center" style="height: 150px;">\n  <button \n    class="btn btn-outline-primary btn-lg" \n    data-bs-toggle="modal" \n    data-bs-target="#miModal" \n  >\n    Abrir Modal\n  </button>\n</div>\n\n<div class="modal" id="miModal">\n  <div class="modal-dialog">\n    <div class="modal-content">\n      <div class="modal-header">\n        <h5 class="modal-title">Título</h5>\n        <button \n          type="button" \n          class="btn-close" \n          data-bs-dismiss="modal" \n          aria-label="Close"\n        ></button>\n      </div>\n      <div class="modal-body">Contenido</div>\n    </div>\n  </div>\n</div>'
+                }
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Actividad: ",
+                content: "bold"
+              },
+              {
+                text: "Modal con detalles",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crea un modal con detalles de producto.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                alt: "Crear un modal con detalles",
+                language: "html",
+                content: '<button data-bs-toggle="modal" data-bs-target="#miModal">Abrir Modal</button>\n<div class="modal" id="miModal">\n<div class="modal-dialog">\n  <div class="modal-content">\n    <div class="modal-header">\n      <h5>Producto</h5>\n    </div>\n    <div class="modal-body">\n      <p>Nombre del producto</p>\n      <p>Precio</p>\n    </div>\n  </div>\n</div>\n</div>'
+              }
+            ]
+          },
+        ]
+      },
     ],
   },
 ];
