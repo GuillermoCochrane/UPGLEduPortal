@@ -16196,6 +16196,70 @@ cambiarColores();`,
           },
         ]
       },
+      {
+        topic: 7,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "⚡ Actividad Integradora ",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crea un mini catálogo de productos usando grid, botones, tablas, formularios, cards y modales. Incluye header responsivo, cards con modal, formulario inferior y tabla destacada.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "Actividad: ",
+                content: "bold"
+              },
+              {
+                text: "Página completa",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Crea toda la página y pruébala en móvil y escritorio.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "p",
+            info: [
+              {
+                text: "Combina todos los elementos aprendidos en un proyecto de modo tal que todos queden integrados de forma coherente.",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "answer",
+            info: [
+              {
+                alt: "Crear una página completa",
+                language: "html",
+                content: '<div class="container">\n  <header class="row">\n    <div class="col-12">Header</div>\n  </header>\n  <main class="row">\n    <div class="col-md-8">Contenido</div>\n    <div class="col-md-4">Sidebar</div>\n  </main>\n  <footer class="row">\n    <div class="col-12">Footer</div>\n  </footer>\n</div>'
+              }
+            ]
+          }
+        ]
+      }
     ],
   },
 ];
