@@ -1766,10 +1766,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hello_world_php.png",
-              alt: "HelloWorld.php",
+              language: "php",
+              content: `// helloworld.php\n<?php\n echo "Hello, World!";\n?>`,
             },
           },
           {
