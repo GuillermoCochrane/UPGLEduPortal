@@ -17,6 +17,8 @@ import 'prismjs/components/prism-cpp.min';
 import 'prismjs/components/prism-csharp.min';
 import 'prismjs/components/prism-ruby.min';
 import 'prismjs/components/prism-swift.min';
+import 'prismjs/components/prism-go.min';
+
 import './code.css';
 
 function Code({ Data }) {
