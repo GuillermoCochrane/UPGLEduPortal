@@ -20,6 +20,7 @@ import 'prismjs/components/prism-swift.min';
 import 'prismjs/components/prism-go.min';
 import 'prismjs/components/prism-rust.min';
 import 'prismjs/components/prism-scala.min';
+import 'prismjs/components/prism-nasm.min';
 import './code.css';
 
 function Code({ Data }) {
