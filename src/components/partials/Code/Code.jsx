@@ -14,6 +14,7 @@ import 'prismjs/components/prism-sql.min';
 import 'prismjs/components/prism-java.min';
 import 'prismjs/components/prism-c.min';
 import 'prismjs/components/prism-cpp.min';
+import 'prismjs/components/prism-csharp.min';
 import './code.css';
 
 function Code({ Data }) {
