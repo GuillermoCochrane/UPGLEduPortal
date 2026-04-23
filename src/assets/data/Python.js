@@ -1582,10 +1582,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hello_world_python.png",
-              alt: "helloWorld.py",
+              language: "python",
+              content: `# helloWorld.py\nprint("Hello, World!")`,
             },
           },
           {
