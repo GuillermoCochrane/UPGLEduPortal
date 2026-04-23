@@ -1628,10 +1628,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hello_world_java.png",
-              alt: "helloWorld.java",
+              language: "java",
+              content: `// helloWorld.java\npublic class Hello {\n    public static void main(String[] args) {\n        System.out.println("Hello, World!");\n    }\n}`,
             },
           },
           {
