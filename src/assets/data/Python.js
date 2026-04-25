@@ -2622,10 +2622,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hello_world_ensamblador.png",
-              alt: "HelloWorld.asm",
+              language: "nasm",
+              content: `; helloworld.asm\nsection .data\n    hello db 'Hello, World!',0\n\nsection .text\n    global _start\n\n_start:\n    ; write(1, message, 13)\n    mov eax, 4         ; syscall number for sys_write\n    mov ebx, 1         ; file descriptor 1 (stdout)\n    mov ecx, hello     ; pointer to the message\n    mov edx, 13        ; message length\n    int 0x80           ; invoke syscall\n\n    ; exit(0)\n    mov eax, 1         ; syscall number for sys_exit\n    xor ebx, ebx       ; exit code 0\n    int 0x80           ; invoke syscall`,
             },
           },
           {
