@@ -2011,10 +2011,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hello_world_cs.png",
-              alt: "HelloWorld.cs",
+              language: "csharp",
+              content: `// helloworld.cs\nusing System;\n\nclass Hello {\n    static void Main(string[] args) {\n        Console.WriteLine("Hello, World!");\n    }\n}`,
             },
           },
           {
