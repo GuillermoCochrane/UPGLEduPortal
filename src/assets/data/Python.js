@@ -3252,10 +3252,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class3/variables.png",
-              alt: "Variables",
+              language: "python",
+              content: `miVariable = "Hola Mundo, muchaaaaaaachos"\nprint (miVariable) # la informacion de la variable se puede pisar.\nmiVariable = 10 * 10\nprint (miVariable)\n\n# realice un software que permita mostrar la suma dos variables\n\nx = 10\ny = 2\nz = x * y\nprint (z)`,
             },
           },
           {
