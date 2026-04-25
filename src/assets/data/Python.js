@@ -2408,10 +2408,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hello_world_rust.png",
-              alt: "HelloWorld.rs",
+              language: "rust",
+              content: `// helloworld.rs\nfn main() {\n    println!("Hello, World!");\n}`,
             },
           },
           {
