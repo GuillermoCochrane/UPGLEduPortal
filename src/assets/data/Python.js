@@ -2274,10 +2274,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hello_world_go.png",
-              alt: "HelloWorld.go",
+              language: "go",
+              content: `// helloworld.go\npackage main\n\nimport "fmt"\n\nfunc main() {\n    fmt.Println("Hello, World!")\n}`,
             },
           },
           {
