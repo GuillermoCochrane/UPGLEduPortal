@@ -3007,7 +3007,7 @@ let classes = [
                   {
                     type: "figure",
                     info: {
-                      img: "/images/Python/class2/Bouns_track1.jpg",
+                      img: "/images/Python/class2/Bouns_track1.webp",
                       alt: "Run Code",
                     },
                   },
@@ -3039,7 +3039,7 @@ let classes = [
                   {
                     type: "figure",
                     info: {
-                      img: "/images/Python/class2/Bouns_track2.jpg",
+                      img: "/images/Python/class2/Bouns_track2.webp",
                       alt: "Ejecutar el archivo de Python en terminal",
                     },
                   },
@@ -3059,7 +3059,7 @@ let classes = [
                   {
                     type: "figure",
                     info: {
-                      img: "/images/Python/class2/Bouns_track3.jpg",
+                      img: "/images/Python/class2/Bouns_track3.webp",
                       alt: "Ejecutar el archivo desde el ícono",
                     },
                   },
