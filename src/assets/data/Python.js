@@ -1324,7 +1324,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Python/class2/Ext_Py_MS.png",
+                              img: "/images/Python/class2/Ext_Py_MS.webp",
                               alt: "Python by Microsoft",
                             },
                           },
@@ -1341,7 +1341,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Python/class2/Ext_Pylance.png",
+                              img: "/images/Python/class2/Ext_Pylance.webp",
                               alt: "Pylance by Microsoft",
                             },
                           },
@@ -1358,7 +1358,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Python/class2/Ext_Code_Runner.png",
+                              img: "/images/Python/class2/Ext_Code_Runner.webp",
                               alt: "Code Runner",
                             },
                           },
@@ -1389,7 +1389,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Python/class2/Ext_Better_Comments.png",
+                              img: "/images/Python/class2/Ext_Better_Comments.webp",
                               alt: "Better Comments",
                             },
                           },
@@ -1406,7 +1406,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Python/class2/Ext_ESLint.png",
+                              img: "/images/Python/class2/Ext_ESLint.webp",
                               alt: "ESLint",
                             },
                           },
@@ -1423,7 +1423,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Python/class2/Ext_Py_Snippets.png",
+                              img: "/images/Python/class2/Ext_Py_Snippets.webp",
                               alt: "Python snippets",
                             },
                           },
@@ -1443,7 +1443,7 @@ let classes = [
                           {
                             type: "figure",
                             info: {
-                              img: "/images/Python/class2/Ext_Spanish.png",
+                              img: "/images/Python/class2/Ext_Spanish.webp",
                               alt: "Spanish Language Pack for Visual Studio Code",
                             },
                           },
