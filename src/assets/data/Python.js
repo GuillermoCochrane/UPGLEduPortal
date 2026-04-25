@@ -1889,10 +1889,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hello_world_c++.png",
-              alt: "HelloWorld.cpp",
+              language: "cpp",
+              content: `// helloworld.cpp\n#include <iostream>\n\nint main() {\n    std::cout << "Hello, World!" << std::endl;\n    return 0;\n}`,
             },
           },
           {
