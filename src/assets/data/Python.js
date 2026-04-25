@@ -2228,10 +2228,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hello_world_swift.png",
-              alt: "HelloWorld.swift",
+              language: "swift",
+              content: `// helloworld.swift\nprint("Hello, World!")`,
             },
           },
           {
