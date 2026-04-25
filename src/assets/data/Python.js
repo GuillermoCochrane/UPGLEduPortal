@@ -1838,10 +1838,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class2/hello_world_javascript.png",
-              alt: "HelloWorld.js",
+              language: "javascript",
+              content: `// helloworld.js\nconsole.log("Hello, World!");`,
             },
           },
           {
