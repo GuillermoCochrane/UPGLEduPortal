@@ -3268,10 +3268,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class3/concatenacion.png",
-              alt: "Concatenacion",
+              language: "python",
+              content: `print ("el valor de x es:", x)\nprint ("el valor de y es:", y)\nprint ("Resultado es:", z)`,
             },
           },
           {
