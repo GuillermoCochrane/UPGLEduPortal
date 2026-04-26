@@ -400,6 +400,37 @@ let classIndex = [
       },
     ]
   },
+  {
+    summary: "Fetch API",
+    classId: 12,
+    links: [
+      {
+        title: "¿Qué es Fetch?",
+        topicId: 1,
+        link: "/courses/Frontend/class/12/1"
+      },
+      {
+        title: "Como se usa Fetch",
+        topicId: 2,
+        link: "/courses/Frontend/class/12/2"
+      },
+      {
+        title: "Manejo de errores",
+        topicId: 3,
+        link: "/courses/Frontend/class/12/3"
+      },
+      {
+        title: "Ejemplo práctico",
+        topicId: 4,
+        link: "/courses/Frontend/class/12/4"
+      },
+      {
+        title: "Actividades",
+        topicId: 5,
+        link: "/courses/Frontend/class/12/5"
+      },
+    ]
+  },
 ]
 
 export default  classIndex
