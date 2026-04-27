@@ -16639,7 +16639,90 @@ cambiarColores();`,
             ]
           }
         ]
-      }
+      },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              {
+                text: "⚠️ Manejo de errores",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "💎 Buenas prácticas",
+                content: "plain"
+              },
+            ]
+          },
+          {
+            type: "ul",
+            info: [
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Siempre usar ",
+                    content: "plain"
+                  },
+                  {
+                    text: ".catch()",
+                    content: "bold"
+                  },
+                  { 
+                    text: " para manejar errores",
+                    content: "plain"
+                  }
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Verificar si la respuesta es exitosa con ",
+                    content: "plain"
+                  },
+                  {
+                    text: "response.ok",
+                    content: "bold"
+                  },
+                ]
+              },
+              {
+                type: "li",
+                info: [
+                  {
+                    text: "Mostrar mensajes útiles al usuario cuando algo falle",
+                    content: "plain"
+                  }
+                ]
+              },
+            ]
+          },
+          {
+            type: "h4",
+            info: [
+              {
+                text: "💡 Ejemplo práctico",
+                content: "plain"
+              }
+            ]
+          },
+          {
+            type: "code",
+            info: {
+              language: "javascript",
+              content: 'fetch("https://api-inexistente.com/datos")\n .then(response => { \n   if (!response.ok) { \n     throw new Error("Error en la respuesta: " + response.status); \n   } \n   return response.json(); \n })\n .then(data => { \n   console.log("Datos recibidos:", data); \n })\n .catch(error => { \n   console.error("Error:", error); \n   // Mostrar mensaje de error al usuario \n   document.getElementById("mensaje").innerHTML = \n     "❌ No se pudieron cargar los datos"; \n });'
+            }
+          },
+        ]
+      },
     ]
   }
 ];
