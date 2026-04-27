@@ -3359,10 +3359,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class3/asignaciones_multiples.png",
-              alt: "Asignaciones Multiples",
+              language: "python",
+              content: `str_red, str_blue = 'Red', 'Blue'\ncards, half_cards = 56, 28`,
             },
           },
           {
