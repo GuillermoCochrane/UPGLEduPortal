@@ -3775,10 +3775,10 @@ let classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Python/class3/nombres_descriptivos.png",
-                      alt: "Nombres Descriptivos",
+                      language: "python",
+                      content: `x = 25 # Mal\nedad = 25 # Bien`,
                     },
                   },
                 ],
