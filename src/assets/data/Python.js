@@ -3815,10 +3815,10 @@ let classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Python/class3/convenciones_estilo.png",
-                      alt: "Convenciones Estilo",
+                      language: "python",
+                      content: `miVariable = 42 # Mal\nmi_variable = 42 # Bien`,
                     },
                   },
                 ],
