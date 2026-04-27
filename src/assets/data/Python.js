@@ -3736,10 +3736,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class3/posicion_memoria.png",
-              alt: "Posición de memoria",
+              language: "python",
+              content: `#con esto podemos saber la posicion de memoria\n#==============================================\nx = 10\nprint(id(x))\n#==============================================`,
             },
           },
           {
