@@ -3795,10 +3795,10 @@ let classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Python/class3/nombres_reservados.png",
-                      alt: "No Usar Nombres Reservados",
+                      language: "python",
+                      content: `list = [1, 2, 3] # Mal\nmi_lista = [1, 2, 3] # Bien`,
                     },
                   },
                 ],
