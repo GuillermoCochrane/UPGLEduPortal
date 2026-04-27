@@ -3427,10 +3427,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class3/asignaciones_expresiones.png",
-              alt: "Asignaciones Expresiones",
+              language: "python",
+              content: `a = arg1 + p\nmsg = 'Hello' + world_msg\nposition = prev_position + 89`,
             },
           },
           {
