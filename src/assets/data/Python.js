@@ -3402,10 +3402,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class3/asignaciones_literales.png",
-              alt: "Asignaciones Literales",
+              language: "python",
+              content: `a = 1\nmsg = 'Hello World'\ntotal = 78 + 3.24\nis_active = True`,
             },
           },
           {
