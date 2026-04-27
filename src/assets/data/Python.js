@@ -3334,10 +3334,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class3/asignaciones_simples.png",
-              alt: "Asignaciones Simples",
+              language: "python",
+              content: `str_color = 'Red'\nnum_of_cards = 56\npi_number = 3.1416`,
             },
           },
           {
