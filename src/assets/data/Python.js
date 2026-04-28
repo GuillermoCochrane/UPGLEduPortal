@@ -3912,7 +3912,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class3/Ejercicio_1.png",
+                language: "python",
+                content: `#Escribir un programa que imprima un mensaje en la pantalla.\nprint("Este es un mensaje impreso en la pantalla con Python")`,
                 alt: "Solución ejercicio 1",
               },
             ],
