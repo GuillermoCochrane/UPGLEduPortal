@@ -3950,7 +3950,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class3/Ejercicio_3.png",
+                language: "python",
+                content: `#Escribir 3 variables para que guarden Apellido y nombre - Email y telefono, y \n#mostrarlos en pantalla, con el siguiente mensaje:"Hola, Mi nombre es: ..., te paso \n#mi contacto telefonico: ... y # mi email: ..."\n\nnombreApellido = "Walter White"\ntelefono = "+1 (505) 555-0199"\nmail = "walter.white@jpwynnehs.edu"\n\nprint("Hola, mi nombre es", nombreApellido, "y te paso mi contacto telefonico", \ntelefono, "y mi email", mail)`,
                 alt: "Solución ejercicio 3",
               },
             ],
