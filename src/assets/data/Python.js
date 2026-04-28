@@ -3875,10 +3875,10 @@ let classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Python/class3/inicializacion.png",
-                      alt: "Inicialización",
+                      language: "python",
+                      content: `# Mal\nnombre = ""\nedad = 0\n\n# Bien\nnombre = "Juan"\nedad = 30`,
                     },
                   },
                 ],
