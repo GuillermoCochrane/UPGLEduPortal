@@ -3969,7 +3969,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class3/Ejercicio_4.png",
+                language: "python",
+                content: `#Escribe un programa donde una variable llamada contador cambie a lo largo de la \n#ejecucion del programa, que su primer valor sea 0, cambie a 5 y posteriormente a 25 \n#para al finalizar el programa volver a ser 5.\n\ncontador = 0\nprint(f"El primer valor de la variable contador es: {contador}")\ncontador = 5\nprint(f"El segundo valor de la variable contador es: {contador}")\ncontador = 25\nprint(f"El tercer valor de la variable contador es: {contador}")\ncontador = 5\nprint(f"El cuarto valor de la variable contador es: {contador}")`,
                 alt: "Solución ejercicio 4",
               },
             ],
