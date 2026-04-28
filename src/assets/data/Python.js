@@ -3855,10 +3855,10 @@ let classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Python/class3/constantes.png",
-                      alt: "Constantes",
+                      language: "python",
+                      content: `pi = 3.14159 # Mal\nPI = 3.14159 # Bien`,
                     },
                   },
                 ],
