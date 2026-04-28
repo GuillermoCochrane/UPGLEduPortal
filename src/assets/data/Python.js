@@ -3835,10 +3835,10 @@ let classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Python/class3/nombres_genericos.png",
-                      alt: "Evita nombres genéricos",
+                      language: "python",
+                      content: `dato = 10 # Mal\nnumero_de_intentos = 10 # Bien`,
                     },
                   },
                 ],
