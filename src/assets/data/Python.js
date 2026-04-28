@@ -3931,7 +3931,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class3/Ejercicio_2.png",
+                language: "python",
+                content: `#Escribir un programa que sume dos números.\n\nnumero1 = 22\nnumero2 = 33\nsumanumeros = numero1 + numero2\nprint("El resultado es:", sumanumeros)`,
                 alt: "Solución ejercicio 2",
               },
             ],
