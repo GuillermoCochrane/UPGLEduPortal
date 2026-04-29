@@ -4065,7 +4065,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class3/bonus_track_3_1.png",
+              img: "/images/Python/class3/bonus_track_3_1.webp",
               alt: "Opción de menú contextual",
             },
           },
