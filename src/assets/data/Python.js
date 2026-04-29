@@ -4072,7 +4072,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class3/bonus_track_3_2.png",
+              img: "/images/Python/class3/bonus_track_3_2.webp",
               alt: "Consola de terminal",
             },
           },
