@@ -4181,10 +4181,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class4/Input_1.png",
-              alt: "Ejemplo input",
+              language: "python",
+              content: `#En este programa, python nos pregunta nuestro nombre con la funcion\n#input y despues nos lo imprime por consola con la funcion print\n\nnombre = input("Por favor, introduce tu nombre: ")\nprint("Hola, ", nombre).`,
             },
           },
           {
