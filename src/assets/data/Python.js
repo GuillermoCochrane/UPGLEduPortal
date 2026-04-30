@@ -4184,7 +4184,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `#En este programa, python nos pregunta nuestro nombre con la funcion\n#input y despues nos lo imprime por consola con la funcion print\n\nnombre = input("Por favor, introduce tu nombre: ")\nprint("Hola, ", nombre).`,
+              content: `#En este programa, python nos pregunta nuestro nombre con la funcion\n#input y despues nos lo imprime por consola con la funcion print\nnombre = input("Por favor, introduce tu nombre: ")\nprint("Hola, ", nombre).`,
             },
           },
           {
@@ -4299,10 +4299,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class4/print_f.png",
-              alt: 'Cadenas formateadas con print(f"")',
+              language: "python",
+              content: `nombre = "Alicia"\nedad = 30\nsaludo = f"Hola, {nombre}! Tienes {edad} años."\nprint(saludo)`,
             },
           },
           {
