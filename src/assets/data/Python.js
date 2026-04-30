@@ -4197,10 +4197,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class4/Input_2.png",
-              alt: "Ejemplo 2 input ",
+              language: "python",
+              content: `# Aqui lo que hará python es: primero preguntarnos el nombre, al tocar Enter pasara a \n# la siguiente linea y nos preguntará el apellido y lo guardará dentro de cada variable.\nnombre = input("Por favor, introduce tu nombre: ")\napellido = input("Por favor, introduce tu apellido: ")\nprint("El nombre que me compartiste es ", nombre, " y tu apellido es ", apellido)`,
             },
           },
         ],
