@@ -4612,10 +4612,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class4/cadenas_texto.png",
-              alt: "Cadenas de texto",
+              language: "python",
+              content: `texto1 = "Hola "\ntexto2 = "Mundo "\n\nresultado = texto1 + texto2\nprint(f"El resultado de concatenar texto1 y texto2 es: {resultado}")\nresultado = texto1 + texto2 * 5\nprint(f"El resultado de multiplicar texto1 y texto2 * 5 es: {resultado}")\n# Tene en cuenta que como en matematica existen terminos y en el caso de la \n# multiplicacion anterior solamente afecto a la variable texto2, si queremos \n# que se muestre la concatenacion de texto1 y texto2 5 veces tenemos que \n# hacer lo siguiente:\nresultado = (texto1 + texto2) * 5\nprint(f"El resultado de multiplicar texto1 y texto2 * 5 es: {resultado}")`,
             },
           },
         ],
