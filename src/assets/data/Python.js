@@ -4571,10 +4571,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class4/operaciones_matematicas.png",
-              alt: "Operaciones matematicas",
+              language: "python",
+              content: `numero1 = 140\nnumero2 = 20\n\nresultado = numero1 + numero2\nprint(f"El resultado de sumar numero1 y numero2 es: {resultado}")\nresultado = numero1 - numero2\nprint(f"El resultado de restar numero1 y numero2 es: {resultado}")\nresultado = numero1 * numero2\nprint(f"El resultado de multiplicar numero1 y numero2 es: {resultado}")\nresultado = numero1 / numero2\nprint(f"El resultado de dividir numero1 y numero2 es: {resultado}")`,
             },
           },
           {
