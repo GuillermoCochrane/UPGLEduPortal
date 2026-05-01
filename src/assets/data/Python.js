@@ -4456,10 +4456,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class4/variables.png",
-              alt: "Variables",
+              language: "python",
+              content: `mi_variable = "Hola Mundo"\nprint(f"Mi variable imprime: {mi_variable}")`,
             },
           },
           {
