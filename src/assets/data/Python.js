@@ -4744,12 +4744,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
-            info: 
-                  {
-                    img: "/images/Python/class4/trivia_1.png",
-                    alt: "Trivia 1",
-                  }
+            type: "code",
+            info: {
+              language: "python",
+              content: `N1 = "hola mundo "\nN2 = " hermosa mañana verdad?"\nN1 = N1 + ( N2 * 2 )\nprint (N1)\n\n# Resultado: "hola mundo hermosa mañana verdadhermosa mañana verdad"`,
+            },
           },
           {
             type: "trivia",
