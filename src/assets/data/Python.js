@@ -4793,12 +4793,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
-            info: 
-                  {
-                    img: "/images/Python/class4/trivia_2.png",
-                    alt: "Trivia 2",
-                  }
+            type: "code",
+            info: {
+              language: "python",
+              content: `numero1 = input("Ingrese el primer número a sumar:")\nnumero2 = input("Ingrese el segundo número a sumar:")\nprint(f"La suma de los dos numeros ingresados es {numero1+numero2}")\n\n# Si pongo 10 en el numero1 y 50 en el numero2, el resultado será: \n# La suma de los dos números ingresados es 60`,
+            },
           },
           {
             type: "trivia",
