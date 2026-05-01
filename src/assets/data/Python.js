@@ -4654,7 +4654,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class4/Ejercicio_1.png",
+                language: "python",
+                content: `# Escribir un programa que pida al usuario su nombre \n# y lo salude por su nombre.\n\nnombre = input("Ingrese su nombre: ")\nprint(f"Hola, {nombre}")`,
                 alt: "Solución ejercicio 1",
               },
             ],
