@@ -4976,12 +4976,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
-            info: 
-                  {
-                    img: "/images/Python/class5/punto_flotante.png",
-                    alt: "Tipos de datos: Punto flotante",
-                  }
+            type: "code",
+            info: {
+              language: "python",
+              content: `precio = 12.99 # Un valor flotante para el precio\nprint(type(precio)) # permite ver el tipo de variable`,
+            },
           },
           {
             type: "h4",
