@@ -4960,12 +4960,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
-            info: 
-                  {
-                    img: "/images/Python/class5/enteros.png",
-                    alt: "Tipos de datos: Enteros",
-                  }
+            type: "code",
+            info: {
+              language: "python",
+              content: `edad = 25 # Un valor entero para la edad\nprint(type(edad)) # permite ver el tipo de variable`,
+            },
           },
           {
             type: "p",
