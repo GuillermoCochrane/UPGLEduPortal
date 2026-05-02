@@ -5192,11 +5192,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/string2.png",
-              alt: "Recorte de string"
-            }
+              language: "python",
+              content: `nombre: str = "Ana Pérez" # Un valor de cadena para el nombre\nprint(nombre[-5:10]) # muestra el apellido`,
+            },
           },
           {
             type: "p",
