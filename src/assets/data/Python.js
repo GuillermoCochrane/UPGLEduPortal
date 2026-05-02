@@ -5019,12 +5019,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
-            info: 
-                  {
-                    img: "/images/Python/class5/cadena.png",
-                    alt: "Tipos de datos: Cadena",
-                  }
+            type: "code",
+            info: {
+              language: "python",
+              content: `nombre: str = "Ana Pérez" # nombre: str los : y el str es un "hint" para decir \n# de que tipo de datos es la variable pero solo es una "PISTA" no es \n# obligatorio, ya que las variables en python son dinamicas.\ncadena = "volvemos a empezar, tene cuidado que " # Una cadena de texto\nprint(type(cadena)) # permite ver el tipo de variable\nprint (cadena * 3) # multiplicar la cadena por 3`,
+            },
           },
           {
             type: "h4", 
