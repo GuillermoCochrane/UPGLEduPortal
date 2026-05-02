@@ -5062,12 +5062,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
-            info: 
-                  {
-                    img: "/images/Python/class5/booleanos.png",
-                    alt: "Tipos de datos: Booleanos",
-                  }
+            type: "code",
+            info: {
+              language: "python",
+              content: `# Booleano como interruptor para controlar el flujo\nesta_activo = True # Un valor booleano para indicar si está activo\nprint(type(esta_activo)) # imprime el tipo de dato`,
+            },
           },
           {
             type: "h3",
