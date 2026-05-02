@@ -5176,11 +5176,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/string.png",
-              alt: "Recorte de string"
-            }
+              language: "python",
+              content: `nombre: str = "Ana Pérez" # Un valor de cadena para el nombre\nprint(nombre[0:3]) # muestra los primeros 3 caracteres`,
+            },
           },
           {
             type: "p",
