@@ -5337,18 +5337,18 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/error_cadena.png",
-              alt: "Error: usar una cadena para realizar cálculos matemáticos"
-            }
+              language: "python",
+              content: `suma_cadenas = "1" + "2" # Esto genera un error de tipo`,
+            },
           },
           {
             type: "p",
             info: [
               {
                 text: "Error: ",
-                content: "bold ",
+                content: "bold",
               },
               {
                 text: "usar un booleano para almacenar una lista de nombres",
