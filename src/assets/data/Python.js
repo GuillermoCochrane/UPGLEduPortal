@@ -5357,11 +5357,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/error_booleano.png",
-              alt: "Error: usar un booleano para almacenar una lista"
-            }
+              language: "python",
+              content: `lista_booleana = True, False, True # Esto genera un error de tipo`,
+            },
           },
           {
             type: "p",
