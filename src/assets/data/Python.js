@@ -5233,11 +5233,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/boolean.png",
-              alt: "Booleano para controlar el flujo"
-            }
+              language: "python",
+              content: `esta_activo = True # Un valor booleano para indicar si está activo\nprint(type(esta_activo)) # Muestra el tipo de dato (booleano)`,
+            },
           },
           {
             type: "h4",
