@@ -5258,11 +5258,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/lista.png",
-              alt: "Lista como caja de herramientas"
-            }
+              language: "python",
+              content: `nombres = ["Ana", "Pedro", "María"] # Una lista de nombres\nprint(type(nombres)) # Muestra el tipo de dato (lista)`,
+            },
           },
           {
             type: "h4",
