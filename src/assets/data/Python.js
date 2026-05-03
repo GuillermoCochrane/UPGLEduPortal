@@ -5317,11 +5317,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/error_entero.png",
-              alt: "Error: usar un entero para almacenar decimales"
-            }
+              language: "python",
+              content: `precio_entero = 12.99 # Esto puede generar resultados inexactos`,
+            },
           },
           {
             type: "p",
