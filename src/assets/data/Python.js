@@ -5283,11 +5283,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/diccionario.png",
-              alt: "Diccionario como manual de instrucciones"
-            }
+              language: "python",
+              content: `diccionario_edades = {"Ana": 25, "Pedro": 30} # Un diccionario con edades`,
+            },
           },
         ]
       },
