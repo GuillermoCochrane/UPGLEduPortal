@@ -5377,11 +5377,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/error_minuscula.png",
-              alt: "Error: poner valor booleano en minúscula"
-            }
+              language: "python",
+              content: `lista_booleana = true # false porque true esta en minuscula`,
+            },
           }
         ]
       },
