@@ -5506,11 +5506,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/función_input.png",
-              alt: "Función Input",
-            }
+              language: "python",
+              content: `# Funcion input para procesar la entrada de datos del usuario\nresultado = input("Escribe un número:")\nprint (resultado)`,
+            },
           },
           {
             type: "h4",
