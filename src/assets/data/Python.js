@@ -5476,12 +5476,12 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/if_else.png",
-              alt: "if y else",
-            }
-          }
+              language: "python",
+              content: `numero = 15\nif numero > 10:\n    print("El número es mayor que 10")\nelse:\n    print("El número no es mayor que 10")\n\n#! nota: importante el tabulado en el if y else`,
+            },
+          },
         ]
       },
       {
