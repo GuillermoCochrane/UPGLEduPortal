@@ -5460,11 +5460,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/tipos_boolean.png",
-              alt: "Tipos de datos Bool (boolean)",
-            }
+              language: "python",
+              content: `miVariableTrue = True\nmiVariableFalse = False\nprint (miVariableTrue)\n\nmiVariable = 3 > 3\nprint (miVariable)`,
+            },
           },
           {
             type: "p",
