@@ -5398,11 +5398,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/manejo_cadenas.png",
-              alt: "Manejo de cadenas",
-            }
+              language: "python",
+              content: `miGrupoFavorito: str = "Guns & Roses"\nprint(miGrupoFavorito)\nprint(type(miGrupoFavorito))\n\n# Union/concatenacion de cadenas con el simbolo + al ser string \n# une cadenas de texto (no suma)\nprint("Mi grupo favorito es: " + miGrupoFavorito)\n\nmiGrupoFavorito: str = "El Chaqueño Palavecino"\ncomentario = "Hace musica folclorica"\nprint(miGrupoFavorito + " " + comentario)\n\n# Otra manera de concatenar\nprint ("Mi grupo favorito es: ", miGrupoFavorito )\n\n# Otra manera de concatenar\nprint(f"Mi grupo favorito es: {miGrupoFavorito} {comentario}")`,
+            },
           },
           {
             type: "h3",
