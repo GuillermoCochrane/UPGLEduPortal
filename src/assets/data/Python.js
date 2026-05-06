@@ -5439,11 +5439,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/conversion.png",
-              alt: "Conversión de tipos de datos",
-            }
+              language: "python",
+              content: `numero1 = "1"\nnumero2 = "2"\nprint (int(numero1)+int(numero2))`,
+            },
           },
         ]
       },
