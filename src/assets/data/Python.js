@@ -5616,7 +5616,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class5/Ejercicio_2.png",
+                language: "python",
+                content: `#Pedirle al usuario que ponga como estuvo su dia (del 1 al 10 )\n#y luego mostrar el texto "Mi dia estuivo de:" y el valor ingresoado\nentrada = input("Ingrese su como estuvo su dia (del 1 al 10): ")\nprint(f"Mi dia estuvo de {entrada}")`,
                 alt: "Solución ejercicio 2",
               },
             ],
