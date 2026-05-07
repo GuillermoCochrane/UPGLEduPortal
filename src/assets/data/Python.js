@@ -5839,11 +5839,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/suma.png",
-              alt: "Suma",
-            }
+              language: "python",
+              content: `operador_1 = 10\noperador_2 = 3\nsuma = operador_1 + operador_2\nprint ("el resultado de la suma es: ", suma)`,
+            },
           },
           {
             type: "h4",
