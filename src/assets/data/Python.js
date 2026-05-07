@@ -5547,11 +5547,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/otra_manera.png",
-              alt: "Otra Manera de Hacerlo",
-            }
+              language: "python",
+              content: `numero1:int = int(input("Escribe un número:"))\nnumero2:int = int(input("Escribe otro número:"))\nprint (numero1 + numero2)`,
+            },
           },
         ]
       },
