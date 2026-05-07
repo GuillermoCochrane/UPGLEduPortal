@@ -5531,11 +5531,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class5/convertir_datos.png",
-              alt: "Convertir los datos",
-            }
+              language: "python",
+              content: `numero1 = input("Escribe un número:")\nnumero2 = input("Escribe otro número:")\nprint (int(numero1) + int(numero2))`,
+            },
           },
           {
             type: "p",
