@@ -5842,7 +5842,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `operador_1 = 10\noperador_2 = 3\nsuma = operador_1 + operador_2\nprint ("el resultado de la suma es: ", suma)`,
+              content: `operador_1 = 10\noperador_2 = 3\nsuma = operador_1 + operador_2\nprint ("el resultado de la suma es: ", suma)\n# Resultado: el resultado de la suma es: 13`,
             },
           },
           {
@@ -5858,7 +5858,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `operador_1 = 10\noperador_2 = 3\nresta = operador_1 - operador_2\nprint ("el resultado de la resta es: ", resta)`,
+              content: `operador_1 = 10\noperador_2 = 3\nresta = operador_1 - operador_2\nprint ("el resultado de la resta es: ", resta)\n# Resultado: el resultado de la resta es: 7`,
             },
           },
           {
@@ -5874,7 +5874,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `operador_1 = 10\noperador_2 = 3\nmultiplica = operador_1 * operador_2\nprint ("el resultado de la multiplicacion es: ", multiplica)`,
+              content: `operador_1 = 10\noperador_2 = 3\nmultiplica = operador_1 * operador_2\nprint ("el resultado de la multiplicacion es: ", multiplica)\n# Resultado: el resultado de la multiplicacion es: 30`,
             },
           },
           {
@@ -5890,7 +5890,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `operador_1 = 10\noperador_2 = 3\ndivide = operador_1 / operador_2\nprint ("el resultado de la división es: ", divide)`,
+              content: `operador_1 = 10\noperador_2 = 3\ndivide = operador_1 / operador_2\nprint ("el resultado de la división es: ", divide)\n# Resultado: el resultado de la división es: 3.3333333333333335`,
             },
           },
           {
@@ -5906,7 +5906,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `operador_1 = 10\noperador_2 = 2\nrestodivision = operador_1 % operador_2\nprint ("el resultado del resto de la division es : ", restodivision)`,
+              content: `operador_1 = 10\noperador_2 = 2\nrestodivision = operador_1 % operador_2\nprint ("el resultado del resto de la division es : ", restodivision)\n# Resultado: el resultado del resto de la division es : 0`,
             },
           },
           {
@@ -5922,7 +5922,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `operador_1 = 10\noperador_2 = 2\nexponenciacion = operador_1 ** operador_2\nprint ("el resultado de la exponenciacion es : ", exponenciacion)`,
+              content: `operador_1 = 10\noperador_2 = 2\nexponenciacion = operador_1 ** operador_2\nprint ("el resultado de la exponenciacion es : ", exponenciacion)\n# Resultado: el resultado de la exponenciacion es : 100`,
             },
           },
           {
@@ -5938,7 +5938,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `operador_1 = 10\noperador_2 = 3\ndivide = operador_1 // operador_2\nprint ("el resultado de la division es: ", divide)`,
+              content: `operador_1 = 10\noperador_2 = 3\ndivide = operador_1 // operador_2\nprint ("el resultado de la division es: ", divide)\n# Resultado: el resultado de la division es: 3`,
             },
           },
         ]
