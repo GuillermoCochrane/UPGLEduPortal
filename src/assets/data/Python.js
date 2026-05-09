@@ -5903,11 +5903,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/modulo.png",
-              alt: "Modulo",
-            }
+              language: "python",
+              content: `operador_1 = 10\noperador_2 = 2\nrestodivision = operador_1 % operador_2\nprint ("el resultado del resto de la division es : ", restodivision)`,
+            },
           },
           {
             type: "h4",
