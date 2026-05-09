@@ -6022,12 +6022,13 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/asigancion_multiplicacion.png",
-              alt: "Multiplicación",
-            }
-          },  
+              language: "python",
+              content: `miVariable = miVariable * 2 #Multiplicacion\nmiVariable *= 2 #Multiplicacion (otra forma)`,
+            },
+          },
+
           {
             type: "h4",
             info: [
