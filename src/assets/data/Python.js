@@ -5919,11 +5919,11 @@ let classes = [
             ],  
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/exponentacion.png",
-              alt: "Exponenciacion",
-            }
+              language: "python",
+              content: `operador_1 = 10\noperador_2 = 2\nexponenciacion = operador_1 ** operador_2\nprint ("el resultado de la exponenciacion es : ", exponenciacion)`,
+            },
           },
           {
             type: "h4",
