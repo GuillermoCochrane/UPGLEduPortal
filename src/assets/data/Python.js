@@ -6006,11 +6006,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/decremento.png",
-              alt: "Decremento",
-            }
+              language: "python",
+              content: `miVariable = miVariable - 1 #Decremento\nmiVariable -= 1 #Decremento (otra forma)`,
+            },
           },
           {
             type: "h4",
