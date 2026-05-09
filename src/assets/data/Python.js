@@ -5974,11 +5974,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/asignacion.png",
-              alt: "Asignación",
-            }
+              language: "python",
+              content: `miVariable = 10`,
+            },
           },
           {
             type: "h4",
