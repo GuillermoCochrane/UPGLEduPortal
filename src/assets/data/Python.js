@@ -6049,17 +6049,17 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "( %= ) Modulo",
+                text: "( %= ) Módulo",
                 content: "plain",
               },
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/asignacion_modulo.png",
-              alt: "Modulo",
-            }
+              language: "python",
+              content: `miVariable = miVariable % 2 #Modulo\nmiVariable %= 2 #Modulo (otra forma)`,
+            },
           },
           {
             type: "h4",
