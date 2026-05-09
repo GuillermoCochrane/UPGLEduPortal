@@ -5935,11 +5935,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/division_entera.png",
-              alt: "División Entera",
-            }
+              language: "python",
+              content: `operador_1 = 10\noperador_2 = 3\ndivide = operador_1 // operador_2\nprint ("el resultado de la division es: ", divide)`,
+            },
           },
         ]
       },
