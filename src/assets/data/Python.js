@@ -5871,11 +5871,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/multiplicacion.png",
-              alt: "Multiplicacion",
-            }
+              language: "python",
+              content: `operador_1 = 10\noperador_2 = 3\nmultiplica = operador_1 * operador_2\nprint ("el resultado de la multiplicacion es: ", multiplica)`,
+            },
           },
           {
             type: "h4",
