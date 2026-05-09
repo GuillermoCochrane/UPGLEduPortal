@@ -6039,11 +6039,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/asignacion_division.png",
-              alt: "División",
-            }
+              language: "python",
+              content: `miVariable = miVariable / 2 #division\nmiVariable /= 2 #division (otra forma)`,
+            },
           },
           {
             type: "h4",
