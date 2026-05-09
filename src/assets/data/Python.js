@@ -6071,11 +6071,11 @@ let classes = [
             ],
           },  
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/asignacion_exponentacion.png",
-              alt: "Exponenciación",
-            }
+              language: "python",
+              content: `miVariable = miVariable ** 2 #Exponenciacion\nmiVariable **= 2 #Exponenciacion (otra forma)`,
+            },
           },
           {
             type: "h4",
