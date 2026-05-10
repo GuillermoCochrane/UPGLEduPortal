@@ -6142,11 +6142,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/desigualdad.png",
-              alt: "Desigualdad",
-            }
+              language: "python",
+              content: `a = 4\nb = 2\nresultado = (a != b) #Distintos\nprint (f"el resultado es: {resultado}")\n# Resultado: el resultado es: True`,
+            },
           },
           {
             type: "h4",
