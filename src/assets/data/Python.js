@@ -6087,11 +6087,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/asignacion_division_entera.png",
-              alt: "Division Entera",
-            }
+              language: "python",
+              content: `miVariable = miVariable // 2 #Division Entera\nmiVariable //= 2 #Division Entera (otra forma)`,
+            },
           },
         ]
       },
