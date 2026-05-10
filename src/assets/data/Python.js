@@ -6206,11 +6206,11 @@ let classes = [
             ],  
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/menor_igual.png",
-              alt: "Menor o igual",
-            }
+              language: "python",
+              content: `a = 4\nb = 2\nresultado = (a <= b) #Menor o igual que\nprint (f"el resultado es: {resultado}")\n# Resultado: el resultado es: False`,
+            },
           },
         ]
       },
