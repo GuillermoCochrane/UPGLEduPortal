@@ -6190,11 +6190,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/mayor_igual.png",
-              alt: "Mayor o igual",
-            }
+              language: "python",
+              content: `a = 4\nb = 2\nresultado = (a >= b) #Mayor o igual que\nprint (f"el resultado es: {resultado}")\n# Resultado: el resultado es: True`,
+            },
           },
           {
             type: "h4",
