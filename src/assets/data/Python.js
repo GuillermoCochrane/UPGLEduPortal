@@ -6293,11 +6293,11 @@ let classes = [
             ],
           },  
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/xor.png",
-              alt: "XOR",
-            }
+              language: "python",
+              content: `#Ejemplo de XOR\na = True\nb = False\nresultado = (a ^ b)\nprint (f"el resultado es: {resultado}")\n# Resultado: el resultado es: True`,
+            },
           },
         ]
       },
