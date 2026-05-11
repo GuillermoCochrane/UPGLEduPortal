@@ -6245,11 +6245,11 @@ let classes = [
             ],
           },  
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/and.png",
-              alt: "AND",
-            }
+              language: "python",
+              content: `#Ejemplo de AND\na = True\nb = True\nresultado = (a and b)\nprint (f"el resultado es: {resultado}")\n# Resultado: el resultado es: True`,
+            },
           },
           {
             type: "h4",
