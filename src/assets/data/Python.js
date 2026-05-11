@@ -6423,11 +6423,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/interpolacion.png",
-              alt: "Interpolación de cadenas",
-            }
+              language: "python",
+              content: `exponenciacion = 10**2\nprint(f"El resultado de la exponenciación es: {exponenciacion}")\n# Resultado: El resultado de la exponenciación es: 100`,
+            },
           },
         ]
       },
