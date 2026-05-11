@@ -6332,11 +6332,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/ifelse.png",
-              alt: "Ejemplo de sentencia if y else",
-            }
+              language: "python",
+              content: `a = 1\nb = 2\nif a > b:\n    print ("a es mayor que b")\nelse:\n    print ("a no es mayor que b")\n# Resultado: a no es mayor que b`,
+            },
           },
         ]
       },
