@@ -6277,11 +6277,11 @@ let classes = [
             ],
           },  
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/not.png",
-              alt: "NOT",
-            }
+              language: "python",
+              content: `#Ejemplo de NOT\na = True\nresultado = (not a)\nprint (f"el resultado es: {resultado}")\n# Resultado: el resultado es: False`,
+            },
           },
           {
             type: "h4",
