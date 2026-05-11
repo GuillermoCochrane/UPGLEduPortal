@@ -6261,11 +6261,11 @@ let classes = [
             ],
           },  
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/or.png",
-              alt: "OR",
-            }
+              language: "python",
+              content: `#Ejemplo de OR\na = True\nb = False\nresultado = (a or b)\nprint (f"el resultado es: {resultado}")\n# Resultado: el resultado es: True`,
+            },
           },
           {
             type: "h4",
