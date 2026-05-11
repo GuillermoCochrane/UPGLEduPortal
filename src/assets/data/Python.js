@@ -6398,11 +6398,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/comentarios.png",
-              alt: "Comentarios en Python",
-            }
+              language: "python",
+              content: `# Este es un comentario en Python\nprint("Hola Mundo") # no es necesario comentar desde el comienzo de la línea.\n"""Tambien se puede usar para\ncomentar en varios renglones"""\n# Resultado: Hola Mundo`,
+            },
           },
           {
             type: "h3",
