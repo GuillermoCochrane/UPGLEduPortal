@@ -6640,7 +6640,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class6/Ejercicio_5.png",
+                language: "python",
+                content: `# Se solicita realizar un programa para mostrar si el numero es positivo o negativo\n\nnumero1 = int(input("Ingrese un numero: "))\n\nif numero1 > 0:\n    print("El numero es positivo")\nelse:\n    print("El numero es negativo")`,
                 alt: "Solución Ejercicio 5",
               },
             ],
