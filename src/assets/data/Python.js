@@ -6584,7 +6584,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class6/Ejercicio_3.png",
+                language: "python",
+                content: `#Se solicita realizar un programa para calcular el area y el perimetro \n#de un rectangulo, para ello debera crear las siguiente variables:\n# - Alto (int), Ancho (int)\n#El usuario debera proporcionar los valores de largo y ancho, \n#y despues imprimir el resultado del area y el perimetro:\n# - Area: alto * ancho\n# - Perimetro: (alto + ancho) * 2\n\nalto = int(input("Ingrese el alto de la rectangulo: "))\nancho = int(input("Ingrese el ancho de la rectangulo: "))\n\narea = alto * ancho\nperimetro = (alto + ancho) * 2\n\nprint("El area de la rectangulo es: ", area)\nprint("El perimetro de la rectangulo es: ", perimetro)`,
                 alt: "Solución Ejercicio 3",
               },
             ],
