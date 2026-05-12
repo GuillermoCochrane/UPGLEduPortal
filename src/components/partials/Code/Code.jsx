@@ -26,6 +26,23 @@ import './code.css';
 function Code({ Data }) {
   useEffect(() => {
     import('prismjs').then(Prism => {
+      if (Prism.languages.python) {
+        /* --------------------------------------------------------
+          Corrección para los comentarios en Python
+          - Soporta comentarios de una linea con #
+          - Soporta comentarios de varias lineas con """ o '''
+        --------------------------------------------------------- */
+        Prism.languages.python['comment'] = [
+          {
+            pattern: /(^|[^\\])#.*/,
+            lookbehind: true
+          },
+          {
+            pattern: /("""|''')[\s\S]*?\1/,
+            greedy: true
+          }
+        ];
+      }
       setTimeout(() => {
         Prism.highlightAll();
       }, 0);
