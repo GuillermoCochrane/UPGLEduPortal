@@ -6493,7 +6493,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class6/Ejercicio_2.png",
+                language: "python",
+                content: `#Se solicita realizar un programa para mostrar el residuo de la division de dos números enteros\n\nnumero1 = int(input("Ingrese un numero: "))\nnumero2 = int(input("Ingrese otro numero: "))\n\nresultado = int(numero1 % numero2)\n\nprint(f"El residuo de la division es: {resultado}")`,
                 alt: "Solución Ejercicio 2",
               },
             ],
