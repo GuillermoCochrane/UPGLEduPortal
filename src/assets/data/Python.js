@@ -6696,7 +6696,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class6/Ejercicio_7.png",
+                language: "python",
+                content: `# Se solicita realizar un programa que determina si un numero determine si es se encuentra entre 0 y 10\n\nnumero1 = int(input("Ingrese un numero: "))\n\nif numero1 >= 0 and numero1 <= 10:\n    print("El numero se encuentra entre 0 y 10")\nelse:\n    print("El numero no se encuentra entre 0 y 10")`,
                 alt: "Solución Ejercicio 7",
               },
             ],
