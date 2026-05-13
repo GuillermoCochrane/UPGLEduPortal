@@ -7087,11 +7087,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class6/trivia_4.png",
-              alt: "Trivia 4",
-            }
+              language: "python",
+              content: `# Dado el siguiente Codigo, ¿cuál es la salida que se imprimirá en la consola?\nif 3 < 4:\n    print("A")\nelse:\n    print("B")\n    print("C")`,
+            },
           },
           {
             type: "trivia",
