@@ -6840,7 +6840,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class6/Ejercicio_12.png",
+                language: "python",
+                content: `# TIENDA DE LIBROS:\n# Crear un programa que permita ingresar un libro y su autor, muestre el precio \n# (float) y deje escribir si el envio es gratis (true o false)\n\nlibro = input("Ingrese el nombre del libro: ")\nautor = input("Ingrese el nombre del autor: ")\nprecio = float(input("Ingrese el precio: "))\nenvioGratis = input("¿El envio es gratis? ")\nenvio = False\nif envioGratis == "SI":\n    envio = True\n\nprint("\\n")\nprint("Libro:", libro)\nprint("Autor:", autor)\nprint(f"Precio: \\$ {precio}")\nif envio:\n    print("El envio es gratis")\nelse:\n    print("El envio no es gratis")`,
                 alt: "Solución Ejercicio 12",
               },
             ],
