@@ -6752,7 +6752,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class6/Ejercicio_9.png",
+                language: "python",
+                content: `#Ejemplo NOT (mismo ejercicio pero invierta el resultado)\ndia = input("Ingrese el dia de de la semana: ").capitalize()\nif not (dia == "Sabado") and not(dia == "Domingo"):\n    vacaciones = input("¿Se encuentra de vacaciones? ").capitalize()\n    if not (vacaciones == "Si"):\n        print(f"No puede ir porque es {dia} y {vacaciones} se encuentra de vacaciones")\n    else:\n        print(f"Puede ir porque a pesar de que es {dia}, {vacaciones} se encuentra de vacaciones")\nelse:\n    print(f"Puede ir porque es {dia}")`,
                 alt: "Solución Ejercicio 9",
               },
             ],
