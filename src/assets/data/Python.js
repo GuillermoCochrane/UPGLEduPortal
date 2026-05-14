@@ -7726,11 +7726,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class7/import.png",
-              alt: "Import en Python",
-            }
+              language: "python",
+              content: `import random\nnumero_aleatorio = random.randint(1, 10)\nprint(f"Número aleatorio entre 1 y 10: {numero_aleatorio}")`,
+            },
           },
           
         ]
