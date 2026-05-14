@@ -7313,11 +7313,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class7/acumulador.png",
-              alt: "Acumulador",
-            }
+              language: "python",
+              content: `suma += variable\n#ó\nsuma = suma + variable`,
+            },
           },
         ]
       },
