@@ -7370,11 +7370,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class7/numeros.png",
-              alt: "Solo números",
-            }
+              language: "python",
+              content: `entrada = input("Ingrese un número: ")\nprint(type(entrada))\n\nif entrada.isdigit():\n    print(f"el numero ingresado es {entrada}.")\nelse:\n    print("Error: Debe ingresar un número válido.")\n    exit()`,
+            },
           },
           {
             type: "p",
