@@ -7248,11 +7248,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class7/contador.png",
-              alt: "Contador",
-            }
+              language: "python",
+              content: `contador += 1\n#ó\ncontador = contador + 1`,
+            },
           },
           {
             type: "h4",
