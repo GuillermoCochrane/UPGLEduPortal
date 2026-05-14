@@ -7590,11 +7590,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class7/ejemplo_numeros.png",
-              alt: "Solo números",
-            }
+              language: "python",
+              content: `# SOLO NUMEROS\nentrada = input("Ingrese un número: ")\nprint(type(entrada))\nprint(entrada.isdigit())\n\nif entrada.isdigit():\n    print(f"el numero ingresado es {entrada}.")\nelse:\n    print(f"Error: Debe ingresar un número válido. fijate lo que pusiste!{entrada}")\n    exit()\n\n# OTRA FORMA\nentrada = input("Ingrese un texto: ")\nprint(type(entrada))\nprint(entrada.isdigit())\n\nif not entrada.isdigit():\n    print(f"el text ingresado es {entrada}.")\nelse:\n    print(f"Error: Debe ingresar un texto válido. fijate lo que pusiste!{entrada}")\n    exit()`,
+            },
           },
           {
             type: "figure",
