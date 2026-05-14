@@ -7597,11 +7597,11 @@ let classes = [
             },
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class7/ejemplo_texto.png",
-              alt: "Solo texto",
-            }
+              language: "python",
+              content: `# SOLO TEXTO\nentrada = input("Ingrese texto: ")\nif entrada.isalpha() or entrada.isspace():\n    print(f"el text ingresado es {entrada}.")\nelse:\n    print("Error: Debe ingresar solo texto (letras o espacios).")`,
+            },
           },
           {
             type: "figure",
