@@ -7604,11 +7604,11 @@ let classes = [
             },
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class7/metodos.png",
-              alt: "Métodos de la clase STR",
-            }
+              language: "python",
+              content: `# METODOS DE LA CLASE La clase str\n# Estos métodos te permiten manipular el texto de diferentes maneras, como\n# verificar si contiene letras mayúsculas, minúsculas o números, buscar \n# subcadenas, unir cadenas, convertir mayúsculas a minúsculas y viceversa, etc.\n# Algunos ejemplos de cómo se usan estos métodos:\n\n# capitalize(): Convierte el primer caracter de la cadena a mayúscula\ntexto = "hola mundo"\ntexto_capitalizado = texto.capitalize()\nprint(texto_capitalizado) # Salida: Hola mundo\n\n# upper(): Convierte todos los caracteres de la cadena a mayúsculas.\ntexto = input("ingrese un texto:")\nprint(texto.upper()) # Salida: HOLA MUNDO\n\n# lower(): Convierte todos los caracteres de la cadena a minúsculas.\ntexto = "HOLA MUNDO"\ntexto_minusculas = texto.lower()\nprint(texto_minusculas) # Salida: hola mundo\n\n# isalnum(): Verifica si todos los caracteres de la cadena son alfanuméricos\ntexto = "texto123"\nes_alfanumerico = texto.isalnum()\nprint(es_alfanumerico) # Salida: True\n\ntexto = "texto con espacios"\nes_alfanumerico = texto.isalnum()\nprint(es_alfanumerico) # Salida: False\n\n# isalpha(): Verifica si todos los caracteres de la cadena son letras.\ntexto = "palabra"\nes_letra = texto.isalpha()\nprint(es_letra) # Salida: True\n\ntexto = "palabra123"\nes_letra = texto.isalpha()\nprint(es_letra) # Salida: False\n\n# isdigit(): Verifica si todos los caracteres de la cadena son dígitos.\ntexto = "12345"\nes_digito = texto.isdigit()\nprint(es_digito) # Salida: True\n\ntexto = "texto con seis"\nes_digito = texto.isdigit()\nprint(es_digito) # Salida: False\n\n# isinstance(valor, int): Verifica si el valor es un número entero (int).\nvalor = 10\n\nif isinstance(valor, int):\n    print(f"El valor {valor} es un número entero.")\nelse:\n    print(f"El valor {valor} no es un número entero.")`,
+            },
           },
           {
             type: "link",
