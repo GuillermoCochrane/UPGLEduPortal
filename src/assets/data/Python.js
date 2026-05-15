@@ -7864,11 +7864,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class7/trivia.png",
-              alt: "Trivia",
-            }
+              language: "python",
+              content: `a = 20\nb = 19\nc = 22\n\nmensaje_true = "a es mayor a b y b es menor a c"\nmensaje_false = "esto no se cumple"\n\nif a > b and b < c :\n    print(mensaje_true)\nelse:\n    print(mensaje_false)`,
+            },
           },
           {
             type: "trivia",
