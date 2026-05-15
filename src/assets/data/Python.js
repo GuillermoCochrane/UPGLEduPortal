@@ -7769,7 +7769,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class7/ejercicio1.png",
+                language: "python",
+                content: `# realizar un programa que permita ingresar solo texto\nentrada = input("Ingrese un texto: ")\n\nif entrada.isdigit():\n    print("Error: Debe ingresar solo texto (letras o espacios).")\nelse:\n    print(f"el text ingresado es {entrada}.")`,
                 alt: "Solución Ejercicio 1",
               },
             ],
