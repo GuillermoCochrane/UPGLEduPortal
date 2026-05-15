@@ -7912,11 +7912,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class7/trivia_2.png",
-              alt: "Trivia 2",
-            }
+              language: "python",
+              content: `libro = input('Ingrese el nombre del libro:')\nautor = input('Ingrese el nombre del autor:')\nprecio = float(input('Ingrese el precio:'))\nenvioGratis = input('¿El envio es gratis?/("SI") o ("NO")').upper()\nif envioGratis != "SI" and envioGratis != "NO":\n    envioGratis = "SI"\nprint(f'''Libro: {libro}\nAuto: {autor}\nPrecio: {precio}\n¿Envio gratis?: {envioGratis}\n''')`,
+            },
           },
           {
             type: "trivia",
