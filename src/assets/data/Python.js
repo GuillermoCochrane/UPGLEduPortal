@@ -7797,7 +7797,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class7/ejercicio2.png",
+                language: "python",
+                content: `# - Realizar un programa que permita ingresar solo texto y los muestre todo \n# en mayuscula\nentrada = input("Ingrese un texto: ")\nif entrada.isdigit():\n    print("Error: Debe ingresar solo texto.")\nelse:\n    entrada_mayuscula = entrada.upper()\n    print(f"el text ingresado es {entrada_mayuscula}.")`,
                 alt: "Solución Ejercicio 2",
               },
             ],
