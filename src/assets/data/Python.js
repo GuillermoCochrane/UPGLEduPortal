@@ -8077,7 +8077,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class7/ejercicio_2_clase_2.png",
+                language: "python",
+                content: `# 3 VALORES\n# 2 NUMEROS A UTILIZAR\n# TERCER VARIABLE ES LA OPERACION A REALIZAR(S/R/M/D)\n# SALIDA ESPERADA: OPERACION REALIZADA CON EXITO EL RESULTADO DE (OPERACION) ES (RESULTADO)\n# NO SE PUEDE DIVIDIR POR CERO\n\nvalor_1 = input("ingrese el primer valor: ")\nvalor_2 = input("ingrese el segundo valor: ")\noperacion = input("ingrese la operacion a realizar (S/R/M/D): ")\nnombre_operacion = "Pusiste mal el nombre de la operacion"\nresultado = 0\n\nif valor_1.isdigit() and valor_2.isdigit():\n    valor_1 = int(valor_1)\n    valor_2 = int(valor_2)\nelse:\n    print("pusiste cualquier cosa")\n    exit()\n\noperacion = operacion.upper()\nif operacion == "S":\n    resultado = valor_1 + valor_2\n    nombre_operacion = "Suma"\nelif operacion == "R":\n    resultado = valor_1 - valor_2\n    nombre_operacion = "Resta"\nelif operacion == "M":\n    resultado = valor_1 * valor_2\n    nombre_operacion = "Multiplicacion"\nelif operacion == "D":\n    if valor_2 == 0:\n        print("Recuerde que nada es divisible por cero")\n        exit()\n    resultado = valor_1 / valor_2\n    nombre_operacion = "Division"\nelse:\n    print("Operacion invalida")\n\nprint(f" OPERACION REALIZADA CON EXITO EL RESULTADO DE {nombre_operacion} ES {resultado}")`,
                 alt: "Solución Ejercicio 2, clase 2",
               },
             ],
