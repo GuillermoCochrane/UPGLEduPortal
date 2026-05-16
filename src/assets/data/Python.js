@@ -8105,7 +8105,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class7/ejercicio_3.png",
+                language: "python",
+                content: `#Realizar un programa que me diga si el número ingresado es par o impar\nnumero = input("Ingrese un numero: ")\n\nif numero.isdigit():\n    numero = int(numero)\n    if numero % 2 == 0:\n        print(f"El numero {numero} es par.")\n    else:\n        print(f"El numero {numero} es impar.")\nelse:\n    print("Error: Debe ingresar un numero.")`,
                 alt: "Solución Ejercicio 3",
               },
             ],
