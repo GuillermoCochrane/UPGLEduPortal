@@ -8864,17 +8864,18 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class8/ejemplo_ejercicio_1.png",
-              alt: "Ejemplo Ejercicio 1",
-            }
+              language: "bash",
+              content: `10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\nDespegue 🚀`,
+            },
           },
           {
             type: "answer",
             info: [
               {
-                img: "/images/Python/class8/ejercicio_1.png",
+                language: "python",
+                content: `# 🚀Nos vamos a la Luna 🚀. Realiza el programa para la NASA que cuente\n# regresivamente de 10 a 0 y luego muestre un mensaje de despegue\ncontador = 10\nwhile contador >= 0:\n    print(f"... {contador} ...")\n    contador -= 1\nprint("Despegue!!! 🚀")`,
                 alt: "Solución Ejercicio 1",
               },
             ],
