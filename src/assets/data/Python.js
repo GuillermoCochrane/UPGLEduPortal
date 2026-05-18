@@ -8752,7 +8752,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class8/ejemplo_barra_variables.png",
+              img: "/images/Python/class8/ejemplo_barra_variables.webp",
               alt: "Ejemplo barra de variables",
               style: "info"
             }
