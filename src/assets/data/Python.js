@@ -8435,10 +8435,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class8/while_infinite_loop.png",
-              alt: "Ejemplo ciclo infinito",
+              language: "python",
+              content: `while True: # Bloque de código\n    clave = input("ingrese la clave para acceder:")\n    if clave == "1234":\n        print("Al fin lo conseguiste... sos un HACKER")\n        True\n        break #sin este break, estaríamos en un ciclo infinito\n    else:\n        print("clave incorrecta")`,
             }
           },
         ]
