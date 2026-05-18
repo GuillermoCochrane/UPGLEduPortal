@@ -8369,11 +8369,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class8/while.png",
-              alt: "Ejemplo while",
-            }
+              language: "python",
+              content: `contador = 0\nwhile contador < 5:\n    print(f"Iteración {contador}")\n    contador += 1`,
+            },
           },
           {
             type: "h4",
