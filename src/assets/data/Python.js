@@ -8736,7 +8736,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class8/barra_de_variables.png",
+              img: "/images/Python/class8/barra_de_variables.webp",
               alt: "Barra de variables",
             }
           },
