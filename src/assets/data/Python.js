@@ -8958,7 +8958,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class8/ejercicio_4.png",
+                language: "python",
+                content: `# ❎ Tabla de Multiplicar: Realizar un programa que muestre la\n# tabla de multiplicar de un número ingresado por el usuario.\nnumero = int(input("Ingrese un numero: "))\ncontador = 0\nprint(f"La tabla del {numero} es:")\nwhile contador < 11:\n    print(f"{numero} x {contador} = {numero * contador}")\n    contador += 1`,
                 alt: "Solución Ejercicio 4",
               },
             ],
