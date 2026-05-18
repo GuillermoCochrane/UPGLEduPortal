@@ -8930,7 +8930,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class8/ejercicio_3.png",
+                language: "python",
+                content: `# 💻 SUMADORA: Realizar un programa que permita sumar\n# numeros hasta que se ingrese un 0\nsuma = 0\nwhile True:\n    numero = input("Ingrese un numero: ")\n    if numero == "0":\n        print(f"La suma total es: {suma}")\n        break\n    else:\n        suma += int(numero)\n        print(f"La suma parcial es: {suma}")`,
                 alt: "Solución Ejercicio 3",
               },
             ],
