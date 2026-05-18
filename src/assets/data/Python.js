@@ -8510,7 +8510,7 @@ let classes = [
                   {
                     type: "figure",
                     info: {
-                      img: "/images/Python/class8/punto_de_control.png",
+                      img: "/images/Python/class8/punto_de_control.webp",
                       alt: "Puntos de control",
                       style: "info"
                     } 
