@@ -8527,7 +8527,7 @@ let classes = [
                   {
                     type: "figure",
                     info: {
-                      img: "/images/Python/class8/python_debugger.png",
+                      img: "/images/Python/class8/python_debugger.webp",
                       alt: "Opciones de depuración",
                     } 
                   }
