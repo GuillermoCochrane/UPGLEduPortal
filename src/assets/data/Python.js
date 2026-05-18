@@ -8623,7 +8623,7 @@ let classes = [
                     {
                       type: "figure",
                       info: {
-                        img: "/images/Python/class8/depurar_pp_procedimientos.png",
+                        img: "/images/Python/class8/depurar_pp_procedimientos.webp",
                         alt: "Depurar paso a paso por procedimientos",
                         style: "icon"
                       },
