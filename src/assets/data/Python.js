@@ -8543,7 +8543,7 @@ let classes = [
                   {
                     type: "figure",
                     info: {
-                      img: "/images/Python/class8/archivo_de_python.png",
+                      img: "/images/Python/class8/archivo_de_python.webp",
                       alt: "Archivo de Python",
                     } 
                   }
