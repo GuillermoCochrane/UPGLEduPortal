@@ -8602,7 +8602,7 @@ let classes = [
                   {
                     type: "figure",
                     info: {
-                      img: "/images/Python/class8/continuar.png",
+                      img: "/images/Python/class8/continuar.webp",
                       alt: "Continuar",
                       style: "icon"
                     }
