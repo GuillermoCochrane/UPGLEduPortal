@@ -8707,7 +8707,7 @@ let classes = [
                     {
                       type: "figure",
                       info: {
-                        img: "/images/Python/class8/detener.png",
+                        img: "/images/Python/class8/detener.webp",
                         alt: "Detener",
                         style: "icon"
                       },
