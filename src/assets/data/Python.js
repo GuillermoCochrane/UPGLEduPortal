@@ -8988,12 +8988,11 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class8/bucles_anidados.png",
-              alt: "Bucles anidados",
-              style: "info"
-            }
+              language: "python",
+              content: `desea_volver_a_empezar = True\n\nwhile desea_volver_a_empezar:\n    # Mostrar el menú\n    print("\\nMenú Principal:")\n    print("1. Ejecutar código principal")\n    print("2. Mostrar información")\n    print("3. Salir")\n\n    # Solicitar la opción del usuario\n    opcion = input("Ingrese la opción deseada (1, 2 o 3): ")\n\n    # Validar la opción del usuario\n    while True:\n        if opcion.isdigit() and 1 <= int(opcion) <= 3:\n            break\n        else:\n            print("Opción no válida. Ingrese un número entre 1 y 3.")\n            opcion = input("Ingrese la opción deseada (1, 2 o 3): ")\n\n    # Ejecutar la acción correspondiente a la opción seleccionada\n    if opcion == "1":\n        # Ejecutar el código principal del programa\n        print("Ejecutando código principal...")\n    elif opcion == "2":\n        # Mostrar información\n        print("Mostrando información...")\n    elif opcion == "3":\n        # Salir del bucle principal\n        desea_volver_a_empezar = False\n        print("¡Gracias por usar el programa!")`,
+            },
           },
           {
             type: "p",
