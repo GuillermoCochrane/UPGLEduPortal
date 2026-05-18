@@ -8579,7 +8579,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class8/barra_depurador.png",
+              img: "/images/Python/class8/barra_depurador.webp",
               alt: "Barra de depuración",
               style: "icon"
             }
