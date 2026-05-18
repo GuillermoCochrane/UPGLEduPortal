@@ -8644,7 +8644,7 @@ let classes = [
                     {
                       type: "figure",
                       info: {
-                        img: "/images/Python/class8/depurar_pp_instrucciones.png",
+                        img: "/images/Python/class8/depurar_pp_instrucciones.webp",
                         alt: "Depurar paso a paso por instrucciones",
                         style: "icon"
                       },
