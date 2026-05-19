@@ -4,6 +4,7 @@ import { Route, Switch, Link } from "react-router-dom";
 import indexIA from  "../../../assets/data/IAChatGPTIndex.js";
 import indexPython from  "../../../assets/data/PythonIndex.js";
 import indexFrontend from  "../../../assets/data/FrontendIndex.js";
+import indexBackend from  "../../../assets/data/BackEndIndex.js";
 import Error404 from "../Error404/Error404.jsx";
 import ClassIndex from "../ClassIndex/ClassIndex.jsx"; //modiicarlo para que cargue de acuerdo a la url
 import Topics from '../Topics/Topics';
@@ -26,6 +27,9 @@ function Courses({ match }) {
   if (courseId.toUpperCase() == "FRONTEND") {
     index = indexFrontend;
   }
+  if (courseId.toUpperCase() == "BACKEND") {
+    index = indexBackend;
+  }
   
   return (
     <>
@@ -34,6 +38,7 @@ function Courses({ match }) {
           {courseId.toUpperCase() == "IA" && <h1>Curso de ChatGPT e Inteligencia Artificial</h1>}
           {courseId.toUpperCase() == "PYTHON" && <h1>Curso de Python</h1>}
           {courseId.toUpperCase() == "FRONTEND" && <h1>Curso de Frontend</h1>}
+          {courseId.toUpperCase() == "BACKEND" && <h1>Curso de Backend</h1>}
       </header>
       <main>
         <nav className='sumario' ref={navBar}>

@@ -4,6 +4,7 @@ import NotFound from '../../partials/NotFound/NotFound';
 import classIndexIA from  "../../../assets/data/IAChatGPTIndex"
 import classIndexPython from  "../../../assets/data/PythonIndex"
 import classIndexFrontend from  "../../../assets/data/FrontendIndex"
+import classIndexBackend from  "../../../assets/data/BackEndIndex"
 import HomeData from '../../partials/HomeData/HomeData';
 
 function ClassIndex(params) {
@@ -23,6 +24,10 @@ function ClassIndex(params) {
 
     if (course.toUpperCase() == "FRONTEND") {
         classIndex = classIndexFrontend;
+    }
+
+    if (course.toUpperCase() == "BACKEND") {
+        classIndex = classIndexBackend;
     }
     
     useEffect(() => {
