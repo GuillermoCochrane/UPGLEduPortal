@@ -1,5 +1,3 @@
-import { languages } from "prismjs";
-
 /* eslint-disable no-useless-escape */
 const classes = [
   {
