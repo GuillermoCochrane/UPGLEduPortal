@@ -8818,7 +8818,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class8/bug.png",
+              img: "/images/Python/class8/bug.webp",
               alt: "Primer Bug",
             }
           },
