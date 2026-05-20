@@ -14,25 +14,34 @@ const data = {
         title: "Curso de Frontend",
         p1: "En este curso aprenderás a crear interfaces web modernas utilizando HTML, CSS y JavaScript. Partiendo desde los fundamentos hasta técnicas avanzadas, cubriremos todo lo necesario para construir sitios responsivos, accesibles y con interacciones dinámicas. Además, exploraremos Bootstrap para agilizar el desarrollo de interfaces profesionales.",
         p2: "La meta del curso es que adquieras las habilidades prácticas para convertir diseños en código funcional, entendiendo cómo estructurar, estilizar y añadir comportamiento interactivo a tus proyectos web."
+    },
+    backend: {
+        title: "Curso de Backend",
+        p1: "En este curso aprenderás a crear aplicaciones web robustas y escalables utilizando tecnologías del lado del servidor. Cubriremos conceptos fundamentales como el manejo de bases de datos, la creación de APIs RESTful, y la implementación de lógica de negocio. Además, exploraremos frameworks populares para acelerar el desarrollo de aplicaciones backend.",
+        p2: "La meta del curso es que adquieras las habilidades prácticas para desarrollar aplicaciones web backend eficientes, entendiendo cómo manejar bases de datos, crear APIs y implementar lógica de negocio."
     }
 }
 function HomeDataAI({course}) {
     return (
         <>
-        <h2>{course == "IA" && data.ia.title }
+        <h2>
+            {course == "IA" && data.ia.title }
             {course == "Python" && data.python.title }
             {course == "Frontend" && data.frontend.title }
+            {course == "Backend" && data.backend.title }
         </h2>
         <p>
             {course == "IA" && data.ia.p1 }
             {course == "Python" && data.python.p1 }
             {course == "Frontend" && data.frontend.p1 }
+            {course == "Backend" && data.backend.p1 }
         </p>
         <br/>
         <p>
             {course == "IA" && data.ia.p2 }
             {course == "Python" && data.python.p2 }
             {course == "Frontend" && data.frontend.p2 }
+            {course == "Backend" && data.backend.p2 }
         </p>
         <hr />
         </>
