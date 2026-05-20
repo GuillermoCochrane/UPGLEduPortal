@@ -9597,10 +9597,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/eliminar_elemento.png",
-              alt: "Eliminar un elemento de la lista",
+              language: "python",
+              content: `compras = ["Manzanas", "Leche", "Pan", "Huevos"]\ncompras.remove("Leche")\nprint(compras)\n#(En consola se vería el siguiente resultado:) ['Manzanas', 'Pan', 'Huevos']`,
             }
           },
           {
