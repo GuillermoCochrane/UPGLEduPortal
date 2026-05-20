@@ -88,6 +88,24 @@ const classes = [
           },
         ],
       },
+      {
+        topic: 3,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "🌐 ¿Cómo funciona una página web? 🌐", content: "plain" },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Backend/class1/funcionamiento_web.webp",
+              alt: "Cómo funciona una página web 🌐",
+            },
+          },
+        ],
+      },
     ],
   },
 ];
