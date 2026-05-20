@@ -124,6 +124,24 @@ const classes = [
           },
         ],
       },
+      {
+        topic: 5,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "✨ Bonus Track: Mi primer web ✨", content: "plain" },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Backend/class1/ejercicio_bonus.webp",
+              alt: "Ejercicio: Mi primer web ✨",
+            },
+          },
+        ],
+      },
     ],
   },
 ];
