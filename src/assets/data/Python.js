@@ -9613,10 +9613,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/buscar_elemento.png",
-              alt: "Buscar un elemento en la lista",
+              language: "python",
+              content: `compras = ["Manzanas", "Leche", "Pan", "Huevos"]\nesta_pan = "Pan" in compras\nprint(esta_pan)\n#(En consola se vería el siguiente resultado:) True`,
             }
           },
           {
