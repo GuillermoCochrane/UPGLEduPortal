@@ -9421,10 +9421,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/acceder_lista_numeros.png",
-              alt: "Acceder al segundo elemento de la lista \"numeros\"",
+              language: "python",
+              content: `numeros = [1, 2, 3, 4, 5]\nprint(numeros[1])\n#(En consola se vería el siguiente resultado:) 2`,
             }
           },
           {
