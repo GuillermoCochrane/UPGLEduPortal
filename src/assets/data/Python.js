@@ -4752,11 +4752,11 @@ let classes = [
           },
           {
             type: "trivia",
-            answer:{
+            answer: {
               correct: "La respuesta es correcta",
               incorrect: 'La respuesta es incorrecta, porque  si bien los procesos están bien pero lo mostrado en pantalla es: "hola mundo hermosa mañana verdad?hermosa mañana verdad?"',
             },
-            
+
             info: [
               {
                 text: "Verdadero",
@@ -5026,7 +5026,7 @@ let classes = [
             },
           },
           {
-            type: "h4", 
+            type: "h4",
             info: [
               {
                 text: "Booleanos",
@@ -5736,11 +5736,11 @@ let classes = [
                 content: "bold",
               },
               {
-                text:  " paginas, y fue publicado en el año ",
+                text: " paginas, y fue publicado en el año ",
                 content: "plain",
               },
               {
-                text:"<año de publicacion>",
+                text: "<año de publicacion>",
                 content: "bold",
               },
               {
@@ -5916,7 +5916,7 @@ let classes = [
                 text: "Exponenciación ( ** ) ",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "code",
@@ -6069,7 +6069,7 @@ let classes = [
                 content: "plain",
               },
             ],
-          },  
+          },
           {
             type: "code",
             info: {
@@ -6203,7 +6203,7 @@ let classes = [
                 text: "Menor o igual ( <= )",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "code",
@@ -6243,7 +6243,7 @@ let classes = [
                 content: "plain",
               },
             ],
-          },  
+          },
           {
             type: "code",
             info: {
@@ -6259,7 +6259,7 @@ let classes = [
                 content: "plain",
               },
             ],
-          },  
+          },
           {
             type: "code",
             info: {
@@ -6275,7 +6275,7 @@ let classes = [
                 content: "plain",
               },
             ],
-          },  
+          },
           {
             type: "code",
             info: {
@@ -6291,7 +6291,7 @@ let classes = [
                 content: "plain",
               },
             ],
-          },  
+          },
           {
             type: "code",
             info: {
@@ -6498,7 +6498,7 @@ let classes = [
                 alt: "Solución Ejercicio 2",
               },
             ],
-          },  
+          },
           {
             type: "h4",
             info: [
@@ -6507,7 +6507,7 @@ let classes = [
                 content: "plain",
               },
             ],
-          },  
+          },
           {
             type: "p",
             info: [
@@ -6793,7 +6793,7 @@ let classes = [
                 text: "Ejercicio 11:",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "p",
@@ -6846,7 +6846,7 @@ let classes = [
               },
             ],
           },
-            
+
         ]
       },
       {
@@ -6888,7 +6888,7 @@ let classes = [
           },
           {
             type: "trivia",
-            answer:{
+            answer: {
               correct: "La respuesta es correcta",
               incorrect: 'La respuesta es incorrecta',
             },
@@ -6930,7 +6930,7 @@ let classes = [
                 text: "Trivia 2:",
                 content: "plain",
               },
-            ]   
+            ]
           },
           {
             type: "p",
@@ -6999,7 +6999,7 @@ let classes = [
                 text: "Trivia 3:",
                 content: "plain",
               },
-            ]   
+            ]
           },
           {
             type: "p",
@@ -7404,7 +7404,7 @@ let classes = [
           {
             type: "table",
             columns: 0,
-            title: ["Método", "Descripción"," Ejemplo"],
+            title: ["Método", "Descripción", " Ejemplo"],
             info: [
               {
                 row: ["isalpha()", "Verifica si todos los caracteres son letras.", "texto = 'palabra'; es_letra = texto.isalpha(); print(es_letra)"],
@@ -7732,7 +7732,7 @@ let classes = [
               content: `import random\nnumero_aleatorio = random.randint(1, 10)\nprint(f"Número aleatorio entre 1 y 10: {numero_aleatorio}")`,
             },
           },
-          
+
         ]
       },
       {
@@ -8513,7 +8513,7 @@ let classes = [
                       img: "/images/Python/class8/punto_de_control.webp",
                       alt: "Puntos de control",
                       style: "info"
-                    } 
+                    }
                   }
                 ],
               },
@@ -8529,7 +8529,7 @@ let classes = [
                     info: {
                       img: "/images/Python/class8/python_debugger.webp",
                       alt: "Opciones de depuración",
-                    } 
+                    }
                   }
                 ],
               },
@@ -8545,7 +8545,7 @@ let classes = [
                     info: {
                       img: "/images/Python/class8/archivo_de_python.webp",
                       alt: "Archivo de Python",
-                    } 
+                    }
                   }
                 ],
               },
@@ -8561,7 +8561,7 @@ let classes = [
                     info: {
                       img: "/images/Python/class8/modo_depuracion.webp",
                       alt: "Modo depuración",
-                    } 
+                    }
                   }
                 ],
               },
@@ -8620,109 +8620,109 @@ let classes = [
               {
                 type: "li",
                 info: [
-                    {
-                      type: "figure",
-                      info: {
-                        img: "/images/Python/class8/depurar_pp_procedimientos.webp",
-                        alt: "Depurar paso a paso por procedimientos",
-                        style: "icon"
-                      },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Python/class8/depurar_pp_procedimientos.webp",
+                      alt: "Depurar paso a paso por procedimientos",
+                      style: "icon"
                     },
-                    {
-                      text: "Depurar paso a paso por procedimientos (F10): ",
-                      content: "bold",
-                    },
-                    {
-                      text: "Este opción nos permitirá ir paso a paso por nuestro código, veremos que al tocar F10 o el botón en el código la línea seleccionada (con amarillo) irá siguiendo el flujo del código, a solo una linea por vez. Si la línea es una llamada a una función, ejecuta la función entera y detiene la ejecución en la siguiente línea del nivel actual (no entra en la función)",
-                      content: "plain",
-                    },
+                  },
+                  {
+                    text: "Depurar paso a paso por procedimientos (F10): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Este opción nos permitirá ir paso a paso por nuestro código, veremos que al tocar F10 o el botón en el código la línea seleccionada (con amarillo) irá siguiendo el flujo del código, a solo una linea por vez. Si la línea es una llamada a una función, ejecuta la función entera y detiene la ejecución en la siguiente línea del nivel actual (no entra en la función)",
+                    content: "plain",
+                  },
                 ],
               },
               {
                 type: "li",
                 info: [
-                    {
-                      type: "figure",
-                      info: {
-                        img: "/images/Python/class8/depurar_pp_instrucciones.webp",
-                        alt: "Depurar paso a paso por instrucciones",
-                        style: "icon"
-                      },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Python/class8/depurar_pp_instrucciones.webp",
+                      alt: "Depurar paso a paso por instrucciones",
+                      style: "icon"
                     },
-                    {
-                      text: "Depurar paso a paso por instrucciones (F11): ",
-                      content: "bold",
-                    },
-                    {
-                      text: "Este opción nos permitirá ir paso a paso por nuestro código, veremos que al tocar F11 o el botón en el código la línea seleccionada (con amarillo) irá siguiendo el flujo del código, a solo una linea por vez. Entra en la llamada de la función en la siguiente línea de código. Si la línea no es una llamada a función, actúa como \"Paso por Paso\"",
-                      content: "plain",
-                    },
+                  },
+                  {
+                    text: "Depurar paso a paso por instrucciones (F11): ",
+                    content: "bold",
+                  },
+                  {
+                    text: "Este opción nos permitirá ir paso a paso por nuestro código, veremos que al tocar F11 o el botón en el código la línea seleccionada (con amarillo) irá siguiendo el flujo del código, a solo una linea por vez. Entra en la llamada de la función en la siguiente línea de código. Si la línea no es una llamada a función, actúa como \"Paso por Paso\"",
+                    content: "plain",
+                  },
                 ],
               },
               {
                 type: "li",
                 info: [
-                    {
-                      type: "figure",
-                      info: {
-                        img: "/images/Python/class8/salir.webp",
-                        alt: "Salir",
-                        style: "icon"
-                      },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Python/class8/salir.webp",
+                      alt: "Salir",
+                      style: "icon"
                     },
-                    {
-                      text: "Salir de la depuración (Shift + F11):",
-                      content: "bold",
-                    },
-                    {
-                      text: "Continua la ejecución del programa hasta salir de la función actual y detenerse en la línea siguiente del llamador.",
-                      content: "plain",
-                    },
+                  },
+                  {
+                    text: "Salir de la depuración (Shift + F11):",
+                    content: "bold",
+                  },
+                  {
+                    text: "Continua la ejecución del programa hasta salir de la función actual y detenerse en la línea siguiente del llamador.",
+                    content: "plain",
+                  },
                 ],
               },
               {
                 type: "li",
                 info: [
-                    {
-                      type: "figure",
-                      info: {
-                        img: "/images/Python/class8/reiniciar.webp",
-                        alt: "Reiniciar",
-                        style: "icon"
-                      },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Python/class8/reiniciar.webp",
+                      alt: "Reiniciar",
+                      style: "icon"
                     },
-                    {
-                      text: "Reiniciar (Ctrl+Shift+F5):",
-                      content: "bold",
-                    },
-                    {
-                      text: "Reiniciar la sesión de depuración desde el inicio. Detiene la ejecución actual y comienza nuevamente desde el punto de entrada del programa.",
-                      content: "plain",
-                    },
-                ],  
+                  },
+                  {
+                    text: "Reiniciar (Ctrl+Shift+F5):",
+                    content: "bold",
+                  },
+                  {
+                    text: "Reiniciar la sesión de depuración desde el inicio. Detiene la ejecución actual y comienza nuevamente desde el punto de entrada del programa.",
+                    content: "plain",
+                  },
+                ],
               },
               {
                 type: "li",
                 info: [
-                    {
-                      type: "figure",
-                      info: {
-                        img: "/images/Python/class8/detener.webp",
-                        alt: "Detener",
-                        style: "icon"
-                      },
+                  {
+                    type: "figure",
+                    info: {
+                      img: "/images/Python/class8/detener.webp",
+                      alt: "Detener",
+                      style: "icon"
                     },
-                    {
-                      text: "Detener (Ctrl+F5):",
-                      content: "bold",
-                    },
-                    {
-                      text: "Detiene la sesión de depuración y termina la ejecución del programa.",
-                      content: "plain",
-                    },
+                  },
+                  {
+                    text: "Detener (Ctrl+F5):",
+                    content: "bold",
+                  },
+                  {
+                    text: "Detiene la sesión de depuración y termina la ejecución del programa.",
+                    content: "plain",
+                  },
                 ],
               },
-          ]
+            ]
           },
           {
             type: "h3",
@@ -8777,7 +8777,7 @@ let classes = [
                 text: "Las variables que vemos en este menú están ordenadas alfabéticamente!",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "h4",
@@ -8799,7 +8799,7 @@ let classes = [
           },
           {
             type: "p",
-            info: [ 
+            info: [
               {
                 text: "Retiraron el insecto y lo pegaron en el cuaderno de registro con la anotación \"First actual case of bug being found\" (Primer caso real de un bug encontrado). Aunque la palabra \"bug\" ya se había utilizado anteriormente en ingeniería, este incidente popularizó el término en el ámbito de la informática.",
                 content: "plain",
@@ -8808,7 +8808,7 @@ let classes = [
           },
           {
             type: "p",
-            info: [ 
+            info: [
               {
                 text: "Por lo tanto, \"debugging\" se refiere al proceso de identificar y eliminar estos \"bugs\" o errores en los programas. El \"debugger\" es la herramienta o el programa utilizado para llevar a cabo esta tarea, permitiendo a los programadores ejecutar y revisar su código para encontrar y corregir errores. Así, el nombre \"debugger\" refleja su función principal de \"depurar\" el código, eliminando los errores para asegurar su correcto funciónamiento.",
                 content: "plain",
@@ -9202,10 +9202,10 @@ let classes = [
               {
                 language: "python",
                 content: `titulo2 = "Capítulo 2: La Aventura Continúa"\nc2_p1 = "Decides continuar con el curso y te sumerges más profundamente "\nc2_p2 = "en el mundo de Python. Aprendes sobre estructuras de datos, "\nc2_p3 = "funciones y bucles mientras resuelves problemas cada vez "\nc2_p4 = "más complejos. Tu entusiasmo por la programación crece "\nc2_p5 = "a medida que adquieres nuevas habilidades."\ncapitulo2 = c2_p1 + c2_p2 + c2_p3 + c2_p4 + c2_p5\ns2_p1 = "¿Quieres seguir adelante con el curso y enfrentar el desafío "\ns2_p2 = "final del proyecto final? (Aprieta la tecla 4 Enter ) ¿O te "\ns2_p3 = "sientes frustrado y decides renunciar? (Aprieta la tecla 3 y Enter)"\nselecion2 = s2_p1 + s2_p2 + s2_p3\ntitulo3 = "Úlitmo Capítulo 3: El Desafío Final"\nc3_p1 = "Llega el momento de enfrentar el proyecto final del curso. "\nc3_p2 = "Te enfrentas a un problema complicado que requiere todas "\nc3_p3 = "las habilidades que has aprendido hasta ahora. Trabajas duro "\nc3_p4 = "y, con determinación, logras completar el proyecto con éxito. "\nc3_p5 = "Tu confianza en tus habilidades de programación está en su "\nc3_p6 = "punto más alto y estás listo para enfrentar nuevos desafíos "\nc3_p7 = "en el futuro. ¡Felicidades, has alcanzado el Final Feliz!"\ncapitulo3 = c3_p1 + c3_p2 + c3_p3 + c3_p4 + c3_p5 + c3_p6 + c3_p7\ntitulo4 = "Último Capítulo: El triste Final"\nc4_p1 = "Decides abandonar el curso de programación y te sientes "\nc4_p2 = "desanimado por no haber alcanzado tus metas. Sin embargo, "\nc4_p3 = "con el tiempo, te das cuenta de que todavía hay oportunidades "\nc4_p4 = "para aprender y crecer en el mundo de la informática."\ncapitulo4 = c4_p1 + c4_p2 + c4_p3 + c4_p4\nerror = "Opción no válida"\nfin = "Fin"\n\nprint("El viaje de programación en Python")\npr1 = "Eres un estudiante de la UP en General Levalle y te has "\npr2 = "inscrito en el curso de programación I en Python. Estás "\npr3 = "emocionado por aprender un nuevo lenguaje de programación "\npr4 = "y explorar el mundo de la informática."\nprint(pr1 + pr2 + pr3 + pr4)\nprint("Capítulo 1: El Comienzo")\npr5 = "Comienzas el curso de programación y te encuentras con dos "\npr6 = "profesores ntusiastas que te introduce a los conceptos básicos "\npr7 = "de Python. Te enfrentas a desafíos emocionantes y aprendes "\npr8 = "a escribir tus primeros programas."\nprint(pr5 + pr6 + pr7 + pr8)\n\nwhile True:\n    o1_p1 = "¿Quieres seguir adelante con el curso? (Ve al Capítulo 2 "\n    o1_p2 = "apretando la tecla 2 y Enter ) ¿O te sientes abrumado y "\n    o1_p3 = "decides abandonar? (Aprieta la tecla 3 y Enter)"\n    prompt1 = o1_p1 + o1_p2 + o1_p3\n    opcion1 = input(prompt1)\n    if opcion1.isdigit():\n        if int(opcion1) == 2:\n            print(titulo2)\n            print(capitulo2)\n            while True:\n                opcion2 = input(selecion2)\n                if opcion2.isdigit():\n                    if int(opcion2) == 4:\n                        print(titulo3)\n                        print(capitulo3)\n                        exit(fin)\n                    elif int(opcion2) == 3:\n                        print(titulo4)\n                        print(capitulo4)\n                        exit(fin)\n                    else:\n                        print(error)\n                else:\n                    print(error)\n        elif int(opcion1) == 3:\n            print(titulo4)\n            print(capitulo4)\n            exit(fin)\n        else:\n            print(error)\n    else:\n        print(error)`,
-                    alt: "Solución del Ejercicio 1",
-                  },
-                ],
-              }
+                alt: "Solución del Ejercicio 1",
+              },
+            ],
+          }
         ]
       }
     ]
@@ -9346,10 +9346,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/lista_numeros.png",
-              alt: "Lista de números",
+              language: "python",
+              content: `numeros = [1, 2, 3, 4, 5]`,
             }
           },
           {
@@ -9429,7 +9429,7 @@ let classes = [
           },
           {
             type: "h4",
-            info: [ 
+            info: [
               {
                 text: "Acceder al último elemento de la lista \"nombres\"",
                 content: "plain",
@@ -9471,7 +9471,7 @@ let classes = [
                 text: "Operadores con listas",
                 content: "plain",
               },
-            ] 
+            ]
           },
           {
             type: "ul",
@@ -9563,13 +9563,13 @@ let classes = [
                 content: "plain",
               },
             ],
-          },  
+          },
           {
             type: "figure",
             info: {
               img: "/images/Python/class9/lista_compras.png",
               alt: "Lista de compras",
-            } 
+            }
           },
           {
             type: "h4",
@@ -9578,14 +9578,14 @@ let classes = [
                 text: "Agregar un elemento a la lista",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
             info: {
               img: "/images/Python/class9/agregar_elemento.png",
               alt: "Agregar un elemento a la lista",
-            } 
+            }
           },
           {
             type: "h4",
@@ -9594,14 +9594,14 @@ let classes = [
                 text: "Eliminar un elemento de la lista",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
             info: {
               img: "/images/Python/class9/eliminar_elemento.png",
               alt: "Eliminar un elemento de la lista",
-            } 
+            }
           },
           {
             type: "h4",
@@ -9610,14 +9610,14 @@ let classes = [
                 text: "Buscar un elemento en la lista",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
             info: {
               img: "/images/Python/class9/buscar_elemento.png",
               alt: "Buscar un elemento en la lista",
-            } 
+            }
           },
           {
             type: "h4",
@@ -9626,14 +9626,14 @@ let classes = [
                 text: "Comprobar si un elemento está en la lista (numérica)",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
             info: {
               img: "/images/Python/class9/comprobar_elemento_numeros.png",
               alt: "Comprobar si un elemento está en la lista (números)",
-            } 
+            }
           },
           {
             type: "h4",
@@ -9642,14 +9642,14 @@ let classes = [
                 text: "Comprobar si un elemento está en la lista (palabras)",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
             info: {
               img: "/images/Python/class9/comprobar_elemento_nombres.png",
               alt: "Comprobar si un elemento está en la lista (nombres)",
-            } 
+            }
           },
           {
             type: "h4",
@@ -9658,14 +9658,14 @@ let classes = [
                 text: "Ordenar la lista",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
             info: {
               img: "/images/Python/class9/ordenar_lista.png",
               alt: "Ordenar la lista",
-            } 
+            }
           },
         ]
       },
@@ -9886,14 +9886,14 @@ let classes = [
                 text: "Calcular la suma de todos los números de la lista",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
             info: {
               img: "/images/Python/class9/suma_lista_numeros.png",
               alt: "Calcular la suma de todos los números de la lista",
-            } 
+            }
           },
           {
             type: "h4",
@@ -9902,7 +9902,7 @@ let classes = [
                 text: "Encontrar el número máximo y mínimo de la lista",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
@@ -9985,7 +9985,7 @@ let classes = [
                 text: ' + : Concatenar dos listas.',
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
@@ -10001,7 +10001,7 @@ let classes = [
                 text: "* : Repetir una lista un número de veces.",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
@@ -10033,7 +10033,7 @@ let classes = [
                 text: "Multiplicar cada número de la lista por 2",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
@@ -10049,7 +10049,7 @@ let classes = [
                 text: "Imprimir los números pares de la lista",
                 content: "plain",
               },
-            ],  
+            ],
           },
           {
             type: "figure",
@@ -10235,7 +10235,7 @@ let classes = [
                     text: "Agregar un nuevo nombre al final de la lista.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10244,7 +10244,7 @@ let classes = [
                     text: "Eliminar el primer nombre de la lista.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10253,7 +10253,7 @@ let classes = [
                     text: "Buscar un nombre en la lista e imprimir si está o no presente.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10303,7 +10303,7 @@ let classes = [
                     text: "Calcular la suma de todos los números de la lista.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10312,7 +10312,7 @@ let classes = [
                     text: "Encontrar el número máximo y mínimo de la lista.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10321,7 +10321,7 @@ let classes = [
                     text: "Multiplicar cada número de la lista por 2.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10330,7 +10330,7 @@ let classes = [
                     text: "Imprimir los números pares de la lista.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
             ]
           },
@@ -10371,7 +10371,7 @@ let classes = [
                     text: "Contar cuántas veces aparece una palabra específica en la lista.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10380,7 +10380,7 @@ let classes = [
                     text: "Invertir el orden de la lista.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10389,7 +10389,7 @@ let classes = [
                     text: "Unir dos listas en una sola.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10398,7 +10398,7 @@ let classes = [
                     text: "Dividir una lista en dos sublistas.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
             ]
           },
@@ -10439,7 +10439,7 @@ let classes = [
                     text: "Crear una lista con los productos que se van a comprar.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10448,7 +10448,7 @@ let classes = [
                     text: "Agregar un nuevo producto a la lista.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10457,7 +10457,7 @@ let classes = [
                     text: "Eliminar un producto de la lista.",
                     content: "plain",
                   },
-                ],  
+                ],
               },
               {
                 type: "li",
@@ -10466,7 +10466,7 @@ let classes = [
                     text: "Imprimir la lista",
                     content: "plain",
                   },
-                ],  
+                ],
               },
             ]
           },
@@ -10604,7 +10604,7 @@ let classes = [
               },
               {
                 text: "o ",
-                content: "plain", 
+                content: "plain",
               },
               {
                 text: ".endswith() ",
@@ -11191,7 +11191,7 @@ let classes = [
                 text: "Usar comprensión de lista en print (crea una lista temporal)",
                 content: "plain",
               }
-            ],  
+            ],
           },
           {
             type: "figure",
@@ -11211,7 +11211,7 @@ let classes = [
                 text: "Usar join con map (para grandes conjuntos de datos)",
                 content: "plain",
               }
-            ],  
+            ],
           },
           {
             type: "figure",
@@ -11447,7 +11447,7 @@ let classes = [
           },
           {
             type: "h4",
-            info: [ 
+            info: [
               {
                 text: "Generadores de Expresiones:",
                 content: "plain",
@@ -11701,7 +11701,7 @@ let classes = [
                 content: "plain",
               },
             ],
-          },          
+          },
         ]
       },
       {
@@ -12234,7 +12234,7 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "Actividades 💬", 
+                text: "Actividades 💬",
                 content: "plain",
               },
             ],
@@ -12434,7 +12434,7 @@ let classes = [
                 text: " temperatura * 9/5 + 32",
                 content: "plain",
               }
-            ] 
+            ]
           },
           {
             type: "answer",
@@ -13173,7 +13173,7 @@ let classes = [
               alt: "Definimos la clase de persona",
             }
           },
-        ] 
+        ]
       },
       {
         topic: 5,
@@ -13222,7 +13222,7 @@ let classes = [
                 content: "plain",
               }
             ],
-          },          
+          },
           {
             type: "p",
             info: [
@@ -13240,7 +13240,7 @@ let classes = [
                 alt: "Solución Ejercicio 2",
               },
             ],
-          },          
+          },
           {
             type: "h4",
             info: [
@@ -13249,7 +13249,7 @@ let classes = [
                 content: "plain",
               }
             ],
-          },          
+          },
           {
             type: "p",
             info: [
@@ -13267,7 +13267,7 @@ let classes = [
                 alt: "Solución Ejercicio 3",
               },
             ],
-          },          
+          },
           {
             type: "h4",
             info: [
@@ -13276,7 +13276,7 @@ let classes = [
                 content: "plain",
               }
             ],
-          },          
+          },
           {
             type: "p",
             info: [
