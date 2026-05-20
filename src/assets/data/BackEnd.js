@@ -106,6 +106,24 @@ const classes = [
           },
         ],
       },
+      {
+        topic: 4,
+        topicData: [
+          {
+            type: "h3",
+            info: [
+              { text: "🌎¿Cómo funciona internet? 🌎", content: "plain" },
+            ],
+          },
+          {
+            type: "figure",
+            info: {
+              img: "/images/Backend/class1/teoria_internet.webp",
+              alt: "Cómo funciona internet 🌎",
+            },
+          },
+        ],
+      },
     ],
   },
 ];
