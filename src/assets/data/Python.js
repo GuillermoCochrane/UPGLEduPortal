@@ -9362,10 +9362,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/lista_cadenas.png",
-              alt: "Lista de cadenas",
+              language: "python",
+              content: `frutas = ["manzana", "banana", "cereza"]`,
             }
           },
           {
