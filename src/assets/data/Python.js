@@ -9629,10 +9629,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/comprobar_elemento_numeros.png",
-              alt: "Comprobar si un elemento está en la lista (números)",
+              language: "python",
+              content: `numeros = [1, 2, 3, 4, 5]\nesta_el_tres = 3 in numeros\nprint(esta_el_tres)\n#(En consola se vería el siguiente resultado:) True`,
             }
           },
           {
