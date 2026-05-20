@@ -9437,10 +9437,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/acceder_lista_nombres.png",
-              alt: "Acceder al último elemento de la lista \"nombres\"",
+              language: "python",
+              content: `nombres = ["Juan", "María", "Pedro"]\nprint(nombres[-1])\n#(En consola se vería el siguiente resultado:) Pedro`,
             }
           },
           {
