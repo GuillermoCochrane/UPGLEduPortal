@@ -9378,10 +9378,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/lista_mixta.png",
-              alt: "Lista mixta",
+              language: "python",
+              content: `mixta = [10, "Hola", 3.14, True]`,
             }
           },
           {
