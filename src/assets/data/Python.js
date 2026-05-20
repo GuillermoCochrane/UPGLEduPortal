@@ -9581,10 +9581,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/agregar_elemento.png",
-              alt: "Agregar un elemento a la lista",
+              language: "python",
+              content: `compras = ["Manzanas", "Leche", "Pan", "Huevos"]\ncompras.append("Queso")\nprint(compras)\n#(En consola se vería el siguiente resultado:) ['Manzanas', 'Leche', 'Pan', 'Huevos', 'Queso']`,
             }
           },
           {
