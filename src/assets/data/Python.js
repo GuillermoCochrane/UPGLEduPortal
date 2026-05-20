@@ -9453,10 +9453,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/cambiar_lista_nombres.png",
-              alt: "Cambiar el valor de la lista \"nombres\"",
+              language: "python",
+              content: `nombres = ["Juan", "María", "Pedro"]\nnombres[1] = "Ana"\nprint(nombres)\n#(En consola se vería el siguiente resultado:) ['Juan', 'Ana', 'Pedro']`,
             }
           },
         ]
