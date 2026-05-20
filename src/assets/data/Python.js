@@ -9565,10 +9565,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/lista_compras.png",
-              alt: "Lista de compras",
+              language: "python",
+              content: `compras = ["Manzanas", "Leche", "Pan", "Huevos"]\nprint(compras)\n#(En consola se vería el siguiente resultado:) ['Manzanas', 'Leche', 'Pan', 'Huevos']`,
             }
           },
           {
