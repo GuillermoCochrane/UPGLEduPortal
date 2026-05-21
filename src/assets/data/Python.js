@@ -9661,10 +9661,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/ordenar_lista.png",
-              alt: "Ordenar la lista",
+              language: "python",
+              content: `lista_compras = ["Leche", "Pan", "Huevos", "Manzanas"]\nlista_compras.sort()\nprint(lista_compras)\n# Imprime: ['Huevos', 'Leche', 'Manzanas', 'Pan']`,
             }
           },
         ]
