@@ -9841,10 +9841,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/lista_index.png",
-              alt: "Devuelve el índice de la primera aparición de un elemento en la lista.",
+              language: "python",
+              content: `# Muestra el índice de la primera aparición de un elemento en la lista.\nnombres = ["Ana", "Juan", "María", "Diego", "etc"]\nprint(nombres.index('Juan'))\n# 1`,
             }
           },
           {
