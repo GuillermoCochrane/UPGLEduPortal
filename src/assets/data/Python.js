@@ -9645,10 +9645,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/comprobar_elemento_nombres.png",
-              alt: "Comprobar si un elemento está en la lista (nombres)",
+              language: "python",
+              content: `nombres = ["Diego", "Juan", "Maria"]\nnombre = "Diego"\nif nombre in nombres:\n    print(f"{nombre} está en la lista - es un genio")\n    # Imprime: Diego está en la lista - es un genio\nelse:\n    print(f"{nombre} no está en la lista")\n    # Imprime: Diego no está en la lista`,
             }
           },
           {
