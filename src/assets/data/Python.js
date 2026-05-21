@@ -9825,10 +9825,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/lista_count.png",
-              alt: "Devuelve el numero de veces que aparece un elemento en la lista.",
+              language: "python",
+              content: `# Calcula el numero de veces que aparece un elemento en la lista.\nnombres = ["Ana", "Juan", "María", "Diego", "etc"]\nprint(nombres.count('Diego'))\n# 1\nprint(nombres.count('Susanita'))\n# 0`,
             }
           },
           {
