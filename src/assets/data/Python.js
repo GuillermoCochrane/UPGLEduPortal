@@ -9809,10 +9809,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/len_lista.png",
-              alt: "Devuelve la longitud de la lista.",
+              language: "python",
+              content: `# Calcula la longitud de la lista.\nnombres = ["Ana", "Juan", "María", "Diego", "etc"]\nprint(len(nombres))\n# Imprime: 5`,
             }
           },
           {
