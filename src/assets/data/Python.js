@@ -9828,7 +9828,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `# Calcula el numero de veces que aparece un elemento en la lista.\nnombres = ["Ana", "Juan", "María", "Diego", "etc"]\nprint(nombres.count('Diego'))\n# 1\nprint(nombres.count('Susanita'))\n# 0`,
+              content: `# Calcula el numero de veces que aparece un elemento en la lista.\nnombres = ["Ana", "Juan", "María", "Diego", "etc"]\nprint(nombres.count('Diego'))\n# Imprime: 1\nprint(nombres.count('Susanita'))\n# Imprime: 0`,
             }
           },
           {
@@ -9844,7 +9844,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `# Muestra el índice de la primera aparición de un elemento en la lista.\nnombres = ["Ana", "Juan", "María", "Diego", "etc"]\nprint(nombres.index('Juan'))\n# 1`,
+              content: `# Muestra el índice de la primera aparición de un elemento en la lista.\nnombres = ["Ana", "Juan", "María", "Diego", "etc"]\nprint(nombres.index('Juan'))\n# Imprime: 1`,
             }
           },
           {
@@ -9857,10 +9857,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/lista_reverse.png",
-              alt: "Devuelve la lista con orden inverso",
+              language: "python",
+              content: `# Devuelve la lista con orden inverso\nnombres = ["Ana", "Juan", "María", "Diego", "etc"]\nnombres.reverse()\nprint(nombres)\n# Imprime: ['etc', 'Diego', 'María', 'Juan', 'Ana']`,
             }
           },
           {
