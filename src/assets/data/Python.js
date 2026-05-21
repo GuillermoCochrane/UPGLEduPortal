@@ -9873,10 +9873,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/lista_copy.png",
-              alt: "Crea una copia de la lista.",
+              language: "python",
+              content: `# Crea una copia de la lista.\nlista_original = ["Ana", "Juan", "María", "Diego", "etc"]\nlista_copia = lista_original.copy()\nprint(lista_copia)\n# Imprime: ['Ana', 'Juan', 'María', 'Diego', 'etc']`,
             }
           },
           {
