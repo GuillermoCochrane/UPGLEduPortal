@@ -10004,10 +10004,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/repetir_lista.png",
-              alt: "Repetir una lista un número de veces.",
+              language: "python",
+              content: `lista = ["A", "B"]\nresultado = lista * 3\nprint(resultado)\n# Imprime: ['A', 'B', 'A', 'B', 'A', 'B']`,
             }
           },
           {
