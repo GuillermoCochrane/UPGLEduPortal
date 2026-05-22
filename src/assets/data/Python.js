@@ -10036,10 +10036,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/multiplicar_lista_numeros.png",
-              alt: "Multiplicar cada número de la lista por 2",
+              language: "python",
+              content: `numeros = [1, 2, 3, 4, 5]\nfor numero in numeros:\n    print(numero * 2)\n# Imprime:\n# 2\n# 4\n# 6\n# 8\n# 10`,
             }
           },
           {
