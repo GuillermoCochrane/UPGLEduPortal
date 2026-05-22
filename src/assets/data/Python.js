@@ -10052,10 +10052,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/imprimir_pares_lista.png",
-              alt: "Imprimir los números pares de la lista",
+              language: "python",
+              content: `numeros = [1, 2, 3, 4, 5, 6]\nfor numero in numeros:\n    if numero % 2 == 0:\n        print(numero)\n# Imprime:\n# 2\n# 4\n# 6`,
             }
           },
         ]
