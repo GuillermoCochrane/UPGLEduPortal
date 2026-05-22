@@ -10132,10 +10132,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/slice_mixta.png",
-              alt: "Obtener los elementos del 1 al 4 de la lista \"mixta\"",
+              language: "python",
+              content: `mixta = [10, "Hola", True, 3.14, "Mundo", 42]\nsublista = mixta[1:4]\nprint(sublista)\n# Imprime: ['Hola', True, 3.14]`,
             }
           },
         ]
