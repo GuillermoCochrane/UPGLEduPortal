@@ -10116,10 +10116,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/slice_nombres.png",
-              alt: "Obtener los últimos tres elementos de la lista \"nombres\"",
+              language: "python",
+              content: `nombres = ["Ana", "Juan", "María", "Diego", "Sofía"]\nultimos_tres = nombres[-3:]\nprint(ultimos_tres)\n# Imprime: ['María', 'Diego', 'Sofía']`,
             }
           },
           {
