@@ -10100,10 +10100,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/slice_numeros.png",
-              alt: "Obtener los primeros dos elementos de la lista \"numeros\"",
+              language: "python",
+              content: `numeros = [10, 20, 30, 40, 50]\nprimeros_dos = numeros[0:2]\nprint(primeros_dos)\n# Imprime: [10, 20]`,
             }
           },
           {
