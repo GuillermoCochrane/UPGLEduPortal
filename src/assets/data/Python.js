@@ -10162,10 +10162,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/lista_anidada.png",
-              alt: "Se pueden crear listas dentro de otras listas.",
+              language: "python",
+              content: `lista_anidada = [[1, 2, 3], ["a", "b", "c"]]\nprint(lista_anidada)\n# Imprime: [[1, 2, 3], ['a', 'b', 'c']]`,
             }
           },
           {
