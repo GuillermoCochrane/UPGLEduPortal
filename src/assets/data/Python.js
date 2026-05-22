@@ -9889,10 +9889,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/suma_lista_numeros.png",
-              alt: "Calcular la suma de todos los números de la lista",
+              language: "python",
+              content: `numeros = [1, 2, 3, 4, 5]\nsuma_total = sum(numeros)\nprint(suma_total)\n# Imprime: 15`,
             }
           },
           {
@@ -9905,10 +9905,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/maximo_minimo_lista_numeros.png",
-              alt: "Encontrar el número máximo y mínimo de la lista",
+              language: "python",
+              content: `numeros = [5, 12, 3, 8, 1]\nmaximo = max(numeros)\nminimo = min(numeros)\nprint(maximo)\n# Imprime: 12\nprint(minimo)\n# Imprime: 1`,
             }
           },
         ]
