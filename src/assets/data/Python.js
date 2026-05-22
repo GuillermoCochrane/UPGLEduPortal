@@ -10020,10 +10020,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/iterar_lista.png",
-              alt: "Iterar listas",
+              language: "python",
+              content: `frutas = ["Manzana", "Banana", "Cereza"]\nfor fruta in frutas:\n    print(fruta)\n# Imprime:\n# Manzana\n# Banana\n# Cereza`,
             }
           },
           {
