@@ -9988,10 +9988,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/concatenar_listas.png",
-              alt: "Concatenar dos listas.",
+              language: "python",
+              content: `lista1 = [1, 2, 3]\nlista2 = [4, 5, 6]\nresultado = lista1 + lista2\nprint(resultado)\n# Imprime: [1, 2, 3, 4, 5, 6]`,
             }
           },
           {
