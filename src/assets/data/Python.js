@@ -9892,7 +9892,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `numeros = [1, 2, 3, 4, 5]\nsuma_total = sum(numeros)\nprint(suma_total)\n# Imprime: 15`,
+              content: `lista_numeros = [1, 2, 3, 4, 5]\nsuma = sum(lista_numeros)\nprint(suma)\n# Imprime: 15`,
             }
           },
           {
@@ -9908,7 +9908,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `numeros = [5, 12, 3, 8, 1]\nmaximo = max(numeros)\nminimo = min(numeros)\nprint(maximo)\n# Imprime: 12\nprint(minimo)\n# Imprime: 1`,
+              content: `lista_numeros = [1, 2, 3, 4, 5]\nmaximo = max(lista_numeros)\nminimo = min(lista_numeros)\nprint(maximo)\n# Imprime: 5\nprint(minimo)\n# Imprime: 1`,
             }
           },
         ]
@@ -9991,7 +9991,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `lista1 = [1, 2, 3]\nlista2 = [4, 5, 6]\nresultado = lista1 + lista2\nprint(resultado)\n# Imprime: [1, 2, 3, 4, 5, 6]`,
+              content: `lista1 = [1, 2, 3]\nlista2 = [4, 5, 6]\nlista_concatenada = lista1 + lista2\nprint(lista_concatenada)\n# Imprime: [1, 2, 3, 4, 5, 6]`,
             }
           },
           {
@@ -10007,7 +10007,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `lista = ["A", "B"]\nresultado = lista * 3\nprint(resultado)\n# Imprime: ['A', 'B', 'A', 'B', 'A', 'B']`,
+              content: `lista = ["Hola"]\nlista_repetida = lista * 3\nprint(lista_repetida)\n# Imprime: ['Hola', 'Hola', 'Hola']`,
             }
           },
           {
@@ -10023,7 +10023,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `frutas = ["Manzana", "Banana", "Cereza"]\nfor fruta in frutas:\n    print(fruta)\n# Imprime:\n# Manzana\n# Banana\n# Cereza`,
+              content: `nombres = ["Ana", "Juan", "María", "Diego", "etc"]\nfor nombre in nombres:\n    print(nombre)\nelse:\n    print("no hay mas nombres en la lista")\n# Imprime:\n# Ana\n# Juan\n# María\n# Diego\n# etc\n# no hay mas nombres en la lista`,
             }
           },
           {
@@ -10039,7 +10039,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `numeros = [1, 2, 3, 4, 5]\nfor numero in numeros:\n    print(numero * 2)\n# Imprime:\n# 2\n# 4\n# 6\n# 8\n# 10`,
+              content: `lista_numeros = [1, 2, 3, 4, 5]\nlista_numeros = [numero * 2 for numero in lista_numeros]\nprint(lista_numeros)\n# Imprime: [2, 4, 6, 8, 10]`,
             }
           },
           {
@@ -10055,7 +10055,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `numeros = [1, 2, 3, 4, 5, 6]\nfor numero in numeros:\n    if numero % 2 == 0:\n        print(numero)\n# Imprime:\n# 2\n# 4\n# 6`,
+              content: `lista_numeros = [1, 2, 3, 4, 5]\nfor numero in lista_numeros:\n    if numero % 2 == 0:\n        print(numero) # Imprime: 2, 4`,
             }
           },
         ]
@@ -10103,7 +10103,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `numeros = [10, 20, 30, 40, 50]\nprimeros_dos = numeros[0:2]\nprint(primeros_dos)\n# Imprime: [10, 20]`,
+              content: `numeros = [1, 2, 3, 4, 5]\nsublista = numeros[:2]\nprint(sublista)\n# Imprime: [1, 2]`,
             }
           },
           {
@@ -10119,7 +10119,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `nombres = ["Ana", "Juan", "María", "Diego", "Sofía"]\nultimos_tres = nombres[-3:]\nprint(ultimos_tres)\n# Imprime: ['María', 'Diego', 'Sofía']`,
+              content: `nombres = ["Ana", "Juan", "María", "Martina", "Juana"]\nsublista = nombres[-3:]\nprint(sublista)\n# Imprime: ['María', 'Martina', 'Juana']`,
             }
           },
           {
@@ -10135,7 +10135,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `mixta = [10, "Hola", True, 3.14, "Mundo", 42]\nsublista = mixta[1:4]\nprint(sublista)\n# Imprime: ['Hola', True, 3.14]`,
+              content: `mixta = [1, "Hola", True, "Adiós", 4]\nsublista = mixta[1:4]\nprint(sublista)\n# Imprime: ['Hola', True, 'Adiós']`,
             }
           },
         ]
@@ -10165,7 +10165,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: `lista_anidada = [[1, 2, 3], ["a", "b", "c"]]\nprint(lista_anidada)\n# Imprime: [[1, 2, 3], ['a', 'b', 'c']]`,
+              content: `lista_anidada = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nprint(lista_anidada)\n# Imprime: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]`,
             }
           },
           {
@@ -10178,10 +10178,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class9/acceso_lista_anidada.png",
-              alt: "Acceder a un elemento de la lista anidada",
+              language: "python",
+              content: `lista_anidada = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nelemento = lista_anidada[1][2]\nprint(elemento)\n# Imprime: 6`,
             }
           },
         ]
