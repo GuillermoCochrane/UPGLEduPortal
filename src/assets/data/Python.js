@@ -10654,10 +10654,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class10/filtro_comprensiones_ao.png",
-              alt: "Filtro con comprensiones",
+              language: "python",
+              content: `lista_alumnos = ["salvador", "brisa", "cristian", "emanuel", "franco"]\n\n# Filtramos alumnos que contienen tanto la letra "a" como la "o":\nalumnos_con_ao = [alumno for alumno in lista_alumnos if "a" in alumno and "o" in alumno]\nprint(alumnos_con_ao)\n# Imprime: ['salvador', 'franco']`,
             }
           },
           {
@@ -10681,7 +10681,7 @@ let classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Python/class10/filtro_comprensiones_función.png",
+              img: "/images/Python/class10/filtro_comprensiones_funcion.png",
               alt: "Filtro con comprensiones",
             }
           },
