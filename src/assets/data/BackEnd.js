@@ -2,7 +2,7 @@
 const classes = [
   {
     class: 1,
-    topics: 7,
+    topics: 5,
     title: {
       type: "h2",
       info: [
