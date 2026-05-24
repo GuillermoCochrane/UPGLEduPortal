@@ -10477,7 +10477,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class9/ejercicio_4.png",
+                language: "python",
+                content: `# Ejercicio 4. Simular una cesta de la compra:\n\n# Crear una lista con los productos que se van a comprar.\nlistado_de_compras = ["tomates", "harina", "aceite", "leche", "pan", "sal", "cebolla", "queso", "vinagre"]\nprint(f"La lista de productos a comprar es: {listado_de_compras}")\n# Imprime: La lista de productos a comprar es:\n# ['tomates', 'harina', 'aceite', 'leche', 'pan', 'sal', 'cebolla', 'queso', 'vinagre']\nprint("\\n")\n\n# Agregar un nuevo producto a la lista.\nlistado_de_compras.append("galetitas")\nprint(f"La nueva lista de productos a comprar es: {listado_de_compras}")\n# Imprime: La nueva lista de productos a comprar es:\n# ['tomates', 'harina', 'aceite', 'leche', 'pan', 'sal', 'cebolla', 'queso', 'vinagre', 'galetitas']\nprint("\\n")\n\n# Eliminar un producto de la lista.\nlistado_de_compras.remove("aceite")\nprint(f"La lista de productos a comprar con producto eliminado es:\\n{listado_de_compras}")\n# Imprime: La lista de productos a comprar con producto eliminado es:\n# ['tomates', 'harina', 'leche', 'pan', 'sal', 'cebolla', 'queso', 'vinagre', 'galetitas']\nprint("\\n")\n\n# Imprimir la lista.\nprint(f"La lista de productos a comprar es: {listado_de_compras}")\n# Imprime: La lista de productos a comprar es:\n# ['tomates', 'harina', 'leche', 'pan', 'sal', 'cebolla', 'queso', 'vinagre', 'galetitas']\nprint("\\n")`,
                 alt: "Solución Ejercicio 4",
               },
             ],
