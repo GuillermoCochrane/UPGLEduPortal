@@ -10525,16 +10525,16 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Siguiendo el ejemplo que vimos en clase las podemos observar en la nueva lista llamada alumnos_restamtes:",
+                text: "Siguiendo el ejemplo que vimos en clase las podemos observar en la nueva lista llamada alumnos_restantes:",
                 content: "plain",
               },
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class10/comprensiones.png",
-              alt: "Comprensiones en Python",
+              language: "python",
+              content: `import random\nlista_alumnos = ["salvador", "brisa", "cristian", "emanuel", "franco"]\nalumnos_pasados = ["brisa"]\n\n# Utilizamos una comprensión de lista para filtrar y crear una\n# nueva lista llamada alumnos_restantes a partir de la lista\n# original lista_alumnos\nalumnos_restantes = [alumno for alumno in lista_alumnos if alumno not in alumnos_pasados]\n\nlista_alumnos_seleccion = random.choice(alumnos_restantes)\nprint(lista_alumnos_seleccion)\n# Imprime un alumno aleatorio de los restantes (por ejemplo: cristian)`,
             }
           },
           {
