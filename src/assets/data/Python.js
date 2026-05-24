@@ -10638,10 +10638,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class10/filtros_comprensiones.png",
-              alt: "Filtros con comprensiones",
+              language: "python",
+              content: `lista_alumnos = ["salvador", "brisa", "cristian", "emanuel", "franco"]\n\nnombres_con_s = [alumno for alumno in lista_alumnos if alumno.startswith('s')]\nprint(nombres_con_s)\n# Imprime: ['salvador']\n\n# Filtramos los alumnos cuyo nombre termina con la letra 'o':\nterminado_con_o = [alumno for alumno in lista_alumnos if alumno.endswith('o')]\nprint(terminado_con_o)\n# Imprime: ['franco']`,
             }
           },
           {
