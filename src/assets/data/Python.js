@@ -10785,20 +10785,6 @@ let classes = [
             type: "h3",
             info: [
               {
-                text: "Actividades 💬",
-                content: "plain",
-              },
-            ],
-          },
-        ]
-      },
-      {
-        topic: 4,
-        topicData: [
-          {
-            type: "h3",
-            info: [
-              {
                 text: "Bonus Track: ",
                 content: "plain",
               },
