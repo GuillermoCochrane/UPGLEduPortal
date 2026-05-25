@@ -10695,10 +10695,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class10/lista_listas.png",
-              alt: "Listas de listas",
+              language: "python",
+              content: `lista_alumnos = ["salvador", "brisa", "cristian", "emanuel", "franco"]\n\nlista_alumnos_longitud = [[alumno, len(alumno)] for alumno in lista_alumnos]\nprint(lista_alumnos_longitud)\n# Imprime:\n# [['salvador', 7], ['brisa', 5], ['cristian', 8],\n#  ['emanuel', 6], ['franco', 6]]`,
             }
           },
           {
