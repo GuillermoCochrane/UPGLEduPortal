@@ -334,14 +334,9 @@ let classIndex = [
         link: "/courses/Python/class/10/2"
       },
       {
-        title: "Actividades",
+        title: "Bonus track",
         topicId: 3,
         link: "/courses/Python/class/10/3"
-      },
-      {
-        title: "Bonus track",
-        topicId: 4,
-        link: "/courses/Python/class/10/4"
       }
     ],
   },
