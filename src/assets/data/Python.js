@@ -10736,10 +10736,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class10/lista_listas_range.png",
-              alt: "Listas de listas, uso de range",
+              language: "python",
+              content: `# range(Numero Inicial, Numero Final, Incremento)\n\nnumeros_con_salto = [numero for numero in range(2, 101, 2)]\n# Genera una lista del 2 al 100 dando saltos de 2 en 2.\nprint(numeros_con_salto)\n# Imprime: [2, 4, 6, 8, 10, ..., 98, 100]`,
             }
           },
           {
