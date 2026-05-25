@@ -10649,7 +10649,7 @@ let classes = [
             info: [
               {
                 text: 'Tambien podemos filtrar por contenido de una palabra, generando una nueva lista a partir de por ejemplo palabras que contengan tanto la letra "a" como la letra "o".',
-                content: "bold",
+                content: "plain",
               },
             ],
           },
@@ -10706,15 +10706,15 @@ let classes = [
             info: [
               {
                 text: "Siendo un if podemos incluir un else: Aunque no es tan común, se puede incluir un bloque else en la comprensión de lista,pero esto suele hacerse más en comprensiones de listas que están aplicando una función o transformación a los elementos.",
-                content: "bold",
+                content: "plain",
               },
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class10/lista_listas_else.png",
-              alt: "Listas de listas, uso de if y else",
+              language: "python",
+              content: `lista_alumnos = ["salvador", "brisa", "cristian", "emanuel", "franco"]\n\nlista_transformada = [alumno.upper() if alumno[0].lower() >= 'g' else alumno.lower() for alumno in lista_alumnos]\nprint(lista_transformada)\n# Imprime:\n# ['SALVADOR', 'brisa', 'cristian', 'emanuel', 'franco']`,
             }
           },
           {
