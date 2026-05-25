@@ -10770,10 +10770,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class10/enumerate.png",
-              alt: "Enumerate",
+              language: "python",
+              content: `lista_alumnos = ["salvador", "brisa", "cristian", "emanuel", "franco"]\n\nalumnos_con_indice = [(indice, alumno) for indice, alumno in enumerate(lista_alumnos)]\nprint(alumnos_con_indice)\n# Imprime:\n# [(0, 'salvador'), (1, 'brisa'), (2, 'cristian'),\n#  (3, 'emanuel'), (4, 'franco')]`,
             }
           }
         ]
