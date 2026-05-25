@@ -10809,10 +10809,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class10/pprint.png",
-              alt: "Uso de la función pprint",
+              language: "python",
+              content: `import pprint\nlista_alumnos = ["Monica", "maricel", "carlos", "guillermo", "paula", "fermin",\n"gonzalo", "javier", "Jonathan", "florencia", "leticia", "shirley", "patricia",\n"marcelo"]\n\nalumnos_con_indice = [(indice, alumno) for indice, alumno in enumerate(lista_alumnos)]\n# print(alumnos_con_indice)\npprint.pprint(alumnos_con_indice)\n# Imprime cada tupla en su propia línea con formato legible:\n# [(0, 'Monica'), (1, 'maricel'), (2, 'carlos'), ...]`,
             }
           },
           {
