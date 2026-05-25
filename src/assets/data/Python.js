@@ -10679,10 +10679,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class10/filtro_comprensiones_funcion.png",
-              alt: "Filtro con comprensiones",
+              language: "python",
+              content: `lista_alumnos = ["salvador", "brisa", "cristian", "emanuel", "franco"]\nalumnos_pasados = ["brisa"]\n\nnombres_restantes_mayuscula = [alumno.upper() for alumno in lista_alumnos if alumno not in alumnos_pasados]\nprint(nombres_restantes_mayuscula)\n# Imprime:\n# ['SALVADOR', 'CRISTIAN', 'EMANUEL', 'FRANCO']`,
             }
           },
           {
