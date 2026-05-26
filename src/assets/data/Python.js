@@ -10834,10 +10834,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class10/pprint_diccionario.png",
-              alt: "Uso de la función pprint",
+              language: "python",
+              content: "import pprint\ndata = [\n    {'name': 'Alice', 'age': 30, 'job': 'Engineer'},\n    {'name': 'Bob', 'age': 25, 'job': 'Designer'},\n    {'name': 'Charlie', 'age': 35, 'job': 'Manager'}\n]\n\npprint.pprint(data)\n# Imprime:\n# [{'age': 30, 'job': 'Engineer', 'name': 'Alice'},\n#  {'age': 25, 'job': 'Designer', 'name': 'Bob'},\n#  {'age': 35, 'job': 'Manager', 'name': 'Charlie'}]",
             }
           }
         ]
