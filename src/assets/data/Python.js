@@ -10897,10 +10897,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/generadores_de_expresiones.png",
-              alt: "Sintaxis Básica de Generadores de Expresiones",
+              language: "python",
+              content: "# Sintaxis Básica de Generadores de Expresiones\n(expresion for item in iterable [if condicion])",
             }
           },
           {
