@@ -10489,7 +10489,7 @@ let classes = [
   },
   {
     class: 10,
-    topics: 4,
+    topics: 3,
     title: {
       type: "h2",
       info: [
