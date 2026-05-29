@@ -23,6 +23,29 @@ import 'prismjs/components/prism-scala.min';
 import 'prismjs/components/prism-nasm.min';
 import './code.css';
 
+/* ——— Diccionario lenguaje → extensión de archivo ——— */
+const LANGUAGE_EXTENSIONS = {
+  html: 'html',
+  css: 'css',
+  javascript: 'js',
+  python: 'py',
+  json: 'json',
+  bash: 'sh',
+  php: 'php',
+  sql: 'sql',
+  java: 'java',
+  c: 'c',
+  cpp: 'cpp',
+  csharp: 'cs',
+  ruby: 'rb',
+  swift: 'swift',
+  go: 'go',
+  rust: 'rs',
+  scala: 'scala',
+  nasm: 'asm',
+  http: 'http',
+};
+
 function Code({ Data }) {
   const [copied, setCopied] = useState(false);
 
@@ -59,6 +82,20 @@ function Code({ Data }) {
   }, [Data.content]);
 
   const language = Data.language || 'html';
+  const extension = LANGUAGE_EXTENSIONS[language] || 'txt';
+  const filename = `ejemplo_${language}.${extension}`;
+
+  const handleDownload = useCallback(() => {
+    const blob = new Blob([Data.content], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }, [Data.content, filename]);
 
   return (
     <figure className="code-container">
@@ -76,6 +113,13 @@ function Code({ Data }) {
             title="Copiar código"
           >
             {copied ? '✅ Copiado!' : '📋 Copiar'}
+          </button>
+          <button
+            className="code-toolbar__btn"
+            onClick={handleDownload}
+            title={`Descargar como ${filename}`}
+          >
+            💾 Descargar
           </button>
         </menu>
       </figcaption>
