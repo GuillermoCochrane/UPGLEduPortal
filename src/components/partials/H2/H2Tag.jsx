@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import Bold from '../Bold/Bold';
 import Italic from '../Italic/Italic';
 import Mark from '../Mark/Mark';
+import Underline from '../Underline/Underline';
 import { Fragment } from 'react';
 function H2Tag({ Data, Selector }) {
     return (
@@ -20,6 +21,9 @@ function H2Tag({ Data, Selector }) {
                         }
                         {
                             item.content == "mark" && <Mark key={index} Data={item.text} />
+                        }
+                        {
+                            item.content == "underline" && <Underline key={index} Data={item.text} />
                         }
                     </Fragment>
                 ))

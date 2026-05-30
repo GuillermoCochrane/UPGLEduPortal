@@ -3,6 +3,7 @@ import { Fragment } from 'react';
 import Bold from '../Bold/Bold';
 import Italic from '../Italic/Italic';
 import Mark from '../Mark/Mark';
+import Underline from '../Underline/Underline';
 function H3Tag({ Data }) {
     return (
         <h3>
@@ -20,6 +21,9 @@ function H3Tag({ Data }) {
                         }
                         {
                             item.content == "mark" && <Mark key={index} Data={item.text} />
+                        }
+                        {
+                            item.content == "underline" && <Underline key={index} Data={item.text} />
                         }
                     </Fragment>
                 ))
