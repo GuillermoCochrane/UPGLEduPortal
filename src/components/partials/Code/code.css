@@ -2,7 +2,7 @@
 .code-container {
   display: flex;
   flex-direction: column;
-  background: transparent;
+  background: #181a1f;
   border-radius: 8px;
   padding: 0;
   margin: 1.5rem 0;
@@ -173,6 +173,7 @@
     padding: 0.35rem 0.5rem;
     gap: 0.4rem;
     min-height: 30px;
+    justify-content: space-between;
   }
 
   .code-toolbar__dots {
@@ -186,6 +187,7 @@
 
   .code-toolbar__lang {
     font-size: 0.65rem;
+    display: none;
   }
 
   .code-toolbar__btn {
