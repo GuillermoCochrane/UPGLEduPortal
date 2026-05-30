@@ -1,10 +1,10 @@
-import  { useRef } from 'react';
+import { useRef } from 'react';
 import PropTypes from 'prop-types';
 import { Route, Switch, Link } from "react-router-dom";
-import indexIA from  "../../../assets/data/IAChatGPTIndex.js";
-import indexPython from  "../../../assets/data/PythonIndex.js";
-import indexFrontend from  "../../../assets/data/FrontendIndex.js";
-import indexBackend from  "../../../assets/data/BackEndIndex.js";
+import indexIA from "../../../assets/data/IAChatGPTIndex.js";
+import indexPython from "../../../assets/data/PythonIndex.js";
+import indexFrontend from "../../../assets/data/FrontendIndex.js";
+import indexBackend from "../../../assets/data/BackEndIndex.js";
 import Error404 from "../Error404/Error404.jsx";
 import ClassIndex from "../ClassIndex/ClassIndex.jsx"; //modiicarlo para que cargue de acuerdo a la url
 import Topics from '../Topics/Topics';
@@ -17,10 +17,10 @@ function Courses({ match }) {
     navBar.current.classList.toggle("hidden");
   }
 
-  let index = [] ;
+  let index = [];
   if (courseId.toUpperCase() == "IA") {
     index = indexIA;
-  } 
+  }
   if (courseId.toUpperCase() == "PYTHON") {
     index = indexPython;
   }
@@ -30,28 +30,33 @@ function Courses({ match }) {
   if (courseId.toUpperCase() == "BACKEND") {
     index = indexBackend;
   }
-  
+
   return (
     <>
       <header>
-          <button onClick={handleClick} id="index">Índice</button>
-          {courseId.toUpperCase() == "IA" && <h1>Curso de ChatGPT e Inteligencia Artificial</h1>}
-          {courseId.toUpperCase() == "PYTHON" && <h1>Curso de Python</h1>}
-          {courseId.toUpperCase() == "FRONTEND" && <h1>Curso de Frontend</h1>}
-          {courseId.toUpperCase() == "BACKEND" && <h1>Curso de Backend</h1>}
+        <button onClick={handleClick} id="index">Índice</button>
+        {courseId.toUpperCase() == "IA" && <h1>Curso de ChatGPT e Inteligencia Artificial</h1>}
+        {courseId.toUpperCase() == "PYTHON" && <h1>Curso de Python</h1>}
+        {courseId.toUpperCase() == "FRONTEND" && <h1>Curso de Frontend</h1>}
+        {courseId.toUpperCase() == "BACKEND" && <h1>Curso de Backend</h1>}
       </header>
       <main>
         <nav className='sumario' ref={navBar}>
-          <ol>
+          <ol className="sumario__list">
             {
               index.map((item, idx) => (
                 <NavBarIndex data={item} key={idx} />
               ))
             }
           </ol>
-          <Link to={`/courses/${courseId}`}>	
-            <button>Inicio del curso</button>
-          </Link> 
+          <menu className="sumario__menu">
+            <Link to={`/`}>
+              <button>Home</button>
+            </Link>
+            <Link to={`/courses/${courseId}`}>
+              <button>Inicio del curso</button>
+            </Link>
+          </menu>
         </nav>
         <Switch>
           <Route path={`${match.url}`} exact component={ClassIndex} />
