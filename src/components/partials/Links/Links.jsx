@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
-import Bold from '../Bold/Bold'
-import Italic from '../Italic/Italic'
+import Bold from '../Bold/Bold';
+import Italic from '../Italic/Italic';
+import Mark from '../Mark/Mark';
 function Links({ Data }) {
     return (
         <>
@@ -20,6 +21,9 @@ function Links({ Data }) {
                         }
                         {
                             item.content == "italic" && <Italic key={index} Data={item.text} />
+                        }
+                        {
+                            item.content == "mark" && <Mark key={index} Data={item.text} />
                         }
                     </a>
                 ))
