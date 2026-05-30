@@ -107,22 +107,22 @@ let classIndex = [
         link: "/courses/Frontend/class/4/1"
       },
       {
-        title: "Tipos de Inputs Numéricos y de Fecha/Hora",
+        title: "Inputs Numéricos y de Fecha/Hora",
         topicId: 2,
         link: "/courses/Frontend/class/4/2"
       },
       {
-        title: "Tipos de Inputs de Selección",
+        title: "Inputs de Selección",
         topicId: 3,
         link: "/courses/Frontend/class/4/3"
       },
       {
-        title: "Tipos de Inputs de Botones",
+        title: "Inputs de Botones",
         topicId: 4,
         link: "/courses/Frontend/class/4/4"
       },
       {
-        title: "Tipos de Inputs Especiales",
+        title: "Inputs Especiales",
         topicId: 5,
         link: "/courses/Frontend/class/4/5"
       },
