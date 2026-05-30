@@ -1,0 +1,17 @@
+/* ——— Contenedor del Iframe de YouTube (Alineación y espaciado) ——— */
+.youtube-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1.5rem 0;
+  box-sizing: border-box;
+}
+
+/* ——— Iframe Responsivo con Aspect Ratio ——— */
+.youtube-iframe {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #2d3139;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

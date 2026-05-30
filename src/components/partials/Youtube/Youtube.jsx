@@ -1,18 +1,30 @@
 import PropTypes from 'prop-types';
-function Youtube({Data}) {
-    console.log(Data[0].height);
+import './youtube.css';
+
+function Youtube({ Data }) {
+    const video = Data[0];
+    const originalWidth = parseInt(video.width) || 560;
+    const originalHeight = parseInt(video.height) || 315;
+
+    const style = {
+        maxWidth: `${originalWidth}px`,
+        aspectRatio: `${originalWidth} / ${originalHeight}`,
+    };
+
     return (
-            <iframe 
-                width={Data[0].width}
-                height={Data[0].height}
-                src={Data[0].link}
-                title={Data[0].title}    
+        <div className="youtube-container">
+            <iframe
+                style={style}
+                src={video.link}
+                title={video.title}
                 frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerPolicy="strict-origin-when-cross-origin" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
+                className="youtube-iframe"
             >
             </iframe>
+        </div>
     );
 }
 
