@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { useEffect, useState, useCallback } from 'react';
 import 'prismjs';
-import 'prismjs/themes/prism-tomorrow.css';
+import './prism-one-dark.css';
 import 'prismjs/components/prism-http.min';
 import 'prismjs/components/prism-css.min.js';
 import 'prismjs/components/prism-javascript.min';
