@@ -54,6 +54,7 @@ main {
 	flex: 1;
 	overflow-y: auto;
 	margin-bottom: 1rem;
+	padding-left: 1rem;
 }
 
 .sumario__list::-webkit-scrollbar {
