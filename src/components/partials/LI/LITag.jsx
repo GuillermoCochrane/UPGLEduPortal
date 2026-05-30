@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
-import {Fragment} from 'react';
+import { Fragment } from 'react';
 import Bold from '../Bold/Bold'
+import Italic from '../Italic/Italic'
 import OL from "../OL/OLTag";
 import UL from "../UL/ULTag";
 import H4 from "../H4/H4Tag";
@@ -10,54 +11,54 @@ import Link from "../Links/Links"
 import Answer from "../Answer/Answer";
 import Code from "../Code/Code";
 
-function LITag({Data}) {
-    return (
-        <li>
+function LITag({ Data }) {
+  return (
+    <li>
+      {
+        Data.info.map((item, index) => (
+          <Fragment key={index}>
             {
-                Data.info.map((item, index) => (
-                    <Fragment key = {index}>
-                        {
-                            item.content == "plain" && item.text
-                        }
-                        {
-                            item.content == ("bold") && <Bold key = {index} Data = {item.text} />
-                        }
-                        {
-                            item.content == "italic" && <Bold key = {index} Data = {item.text} />
-                        }
-                        {
-                            item.type == "ul" && <UL Data = {item.info}  key = {index} />
-                        }
-                        {
-                            item.type == "ol" && <OL Data = {item.info}  key = {index} />
-                        }
-                        {
-                            item.type == "h4" && <H4  Data = {item.info}  key = {index} />
-                        }
-                        {
-                            item.type == "p" && <P  Data = {item.info}  key = {index} />
-                        }
-                        {
-                            item.type == "figure" && <Figure  Data = {item.info}  key = {index} />
-                        }
-                        {
-                            item.type == "link" && <Link  Data = {item.info}  key = {index} />
-                        }
-                        { 
-                            item.type == "answer" && <Answer  Data = {item.info}  key = {index} /> 
-                        }
-                        {
-                            item.type == "code" && <Code  Data = {item.info}  key = {index} />
-                        }
-                    </Fragment>
-                ))
+              item.content == "plain" && item.text
             }
-        </li>
-    );
+            {
+              item.content == ("bold") && <Bold key={index} Data={item.text} />
+            }
+            {
+              item.content == "italic" && <Italic key={index} Data={item.text} />
+            }
+            {
+              item.type == "ul" && <UL Data={item.info} key={index} />
+            }
+            {
+              item.type == "ol" && <OL Data={item.info} key={index} />
+            }
+            {
+              item.type == "h4" && <H4 Data={item.info} key={index} />
+            }
+            {
+              item.type == "p" && <P Data={item.info} key={index} />
+            }
+            {
+              item.type == "figure" && <Figure Data={item.info} key={index} />
+            }
+            {
+              item.type == "link" && <Link Data={item.info} key={index} />
+            }
+            {
+              item.type == "answer" && <Answer Data={item.info} key={index} />
+            }
+            {
+              item.type == "code" && <Code Data={item.info} key={index} />
+            }
+          </Fragment>
+        ))
+      }
+    </li>
+  );
 }
 
 LITag.propTypes = {
-    Data: PropTypes.object.isRequired
+  Data: PropTypes.object.isRequired
 };
 
 export default LITag;

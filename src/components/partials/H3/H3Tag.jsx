@@ -1,17 +1,21 @@
 import PropTypes from 'prop-types';
 import { Fragment } from 'react';
 import Bold from '../Bold/Bold'
-function H3Tag({Data}) {
+import Italic from '../Italic/Italic'
+function H3Tag({ Data }) {
     return (
         <h3>
             {
                 Data.map((item, index) => (
-                    <Fragment key = {index}>
+                    <Fragment key={index}>
                         {
                             item.content == "plain" && item.text
                         }
                         {
-                            item.content == "bold" && <Bold key = {index} Data = {item.text} />
+                            item.content == "bold" && <Bold key={index} Data={item.text} />
+                        }
+                        {
+                            item.content == "italic" && <Italic key={index} Data={item.text} />
                         }
                     </Fragment>
                 ))
