@@ -564,6 +564,10 @@ label input {
 		font-weight: 400;
 	}
 
+	.class-index {
+		height: 90vh;
+	}
+
 	section {
 		max-width: 90%;
 		margin: auto;
