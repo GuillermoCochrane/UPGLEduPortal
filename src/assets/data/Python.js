@@ -11060,16 +11060,20 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Ejemplo 1: Detección de Palabras Clave",
-                content: "plain",
+                text: "Ejemplo 1: ",
+                content: "bold",
               },
+              {
+                text: "Detección de Palabras Clave",
+                content: "plain",
+              }
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/deteccion.png",
-              alt: "Detección de Palabras Clave",
+              language: "python",
+              content: "texto = \"Este es un ejemplo de texto con palabras clave.\"\npalabras_clave = [\"ejemplo\", \"texto\", \"clave\"]\n\npalabra_detectada = next(palabra for palabra in palabras_clave if palabra in texto)\nprint(f\"Palabra detectada: {palabra_detectada}\")\n# Imprime: Palabra detectada: ejemplo",
             }
           },
           {
