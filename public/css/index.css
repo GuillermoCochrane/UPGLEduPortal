@@ -476,7 +476,7 @@ table td {
 	align-items: center;
 	margin: auto;
 	margin-block: 8px;
-	width: fit-content;
+	width: 90%;
 	overflow-x: auto;
 }
 
