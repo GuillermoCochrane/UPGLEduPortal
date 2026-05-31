@@ -11080,9 +11080,13 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Ejemplo 2: Generador de Cuadrados",
-                content: "plain",
+                text: "Ejemplo 2: ",
+                content: "bold",
               },
+              {
+                text: "Generador de Cuadrados",
+                content: "plain",
+              }
             ],
           },
           {
@@ -11095,10 +11099,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/generador_de_cuadrados.png",
-              alt: "Generador de Cuadrados",
+              language: "python",
+              content: "# generador de cuadrados\ncuadrados = (x**2 for x in range(10))",
             }
           },
           {
