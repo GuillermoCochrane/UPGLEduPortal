@@ -11122,7 +11122,7 @@ let classes = [
             type: "code",
             info: {
               language: "python",
-              content: "#Imprimir usando un bucle for\ncuadrados = (x**2 for x in range(10))\n\nfor cuadrado in cuadrados:\n    print(cuadrado, end=\" \")\n    print(\"\\\\n\")",
+              content: "#Imprimir usando un bucle for\ncuadrados = (x**2 for x in range(10))\n\nfor cuadrado in cuadrados:\n    print(cuadrado, end=\" \")\n    print(\"\\\\n\")\n# Imprime: 0 1 4 9 16 25 36 49 64 81",
             }
           },
           {
@@ -11152,10 +11152,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/generador_de_cuadrados_lista.png",
-              alt: "Generador de Cuadrados convertido a lista para imprimir",
+              language: "python",
+              content: "# Convertir a lista y luego imprimir\ncuadrados = (x**2 for x in range(10))\n\nlista_cuadrados = list(cuadrados)\nprint(lista_cuadrados)\n# Imprime: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]",
             }
           },
           {
