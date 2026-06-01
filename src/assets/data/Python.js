@@ -11119,10 +11119,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/generador_de_cuadrados_for.png",
-              alt: "Generador de Cuadrados usando bucle for para imprimir",
+              language: "python",
+              content: "#Imprimir usando un bucle for\ncuadrados = (x**2 for x in range(10))\n\nfor cuadrado in cuadrados:\n    print(cuadrado, end=\" \")\n    print(\"\\\\n\")",
             }
           },
           {
