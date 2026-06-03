@@ -11242,7 +11242,7 @@ let classes = [
             type: "h4",
             info: [
               {
-                text: "Ejemplo : ",
+                text: "Ejemplo 4: ",
                 content: "plain",
               },
               {
@@ -11261,10 +11261,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/generador_de_numeros_pares_filtrados.png",
-              alt: "Generador de Números Pares filtrados",
+              language: "python",
+              content: "# Generador del 1 al 10 con Filtro de Números Pares\npares_filtrados = (n for n in range(10) if n % 2 == 0)\n\nlista_pares_filtrados = list(pares_filtrados)\nprint(lista_pares_filtrados)\n# Imprime: [0, 2, 4, 6, 8]",
             }
           },
         ]
