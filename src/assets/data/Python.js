@@ -11357,10 +11357,10 @@ let classes = [
             ]
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/join.png",
-              alt: "Unir strings usando join",
+              language: "python",
+              content: "# Ejemplo join\ncuadrados = (x**2 for x in range(10))\n\nnumeros_como_strings = map(str, cuadrados)\nresultado = \", \".join(numeros_como_strings)\nprint(resultado)\n# Imprime: 0, 1, 4, 9, 16, 25, 36, 49, 64, 81",
             }
           },
         ]
