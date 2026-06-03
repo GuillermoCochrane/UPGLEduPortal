@@ -11172,10 +11172,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/generador_de_cuadrados_desempaquetado.png",
-              alt: "Generador de Cuadrados usando print con desempaquetado",
+              language: "python",
+              content: "# Usar la función print con desempaquetado\ncuadrados = (x**2 for x in range(10))\nprint(*cuadrados)\n# Imprime: 0 1 4 9 16 25 36 49 64 81",
             }
           },
           {
