@@ -11212,10 +11212,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/generador_de_cuadrados_map.png",
-              alt: "Generador de Cuadrados usando map y join para imprimir",
+              language: "python",
+              content: "# Método 5: Usar join con map\ncuadrados = (x**2 for x in range(10))\nprint(\", \".join(map(str, cuadrados)))\n# Imprime: 0, 1, 4, 9, 16, 25, 36, 49, 64, 81",
             }
           },
           {
