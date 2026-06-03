@@ -11192,10 +11192,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/generador_de_cuadrados_compresion.png",
-              alt: "Generador de Cuadrados usando comprensión de lista para imprimir",
+              language: "python",
+              content: "# Usar comprensión de lista en print\ncuadrados = (x**2 for x in range(10))\nprint([x for x in cuadrados])\n# Imprime: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]",
             }
           },
           {
