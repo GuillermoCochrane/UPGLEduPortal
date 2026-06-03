@@ -11316,10 +11316,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/map.png",
-              alt: "Conversor a string usando map",
+              language: "python",
+              content: "# Ejemplo map\ncuadrados = (x**2 for x in range(10))\n\nnumeros_como_strings = map(str, cuadrados)\nprint(*numeros_como_strings)\n# Imprime: 0 1 4 9 16 25 36 49 64 81",
             }
           },
           {
