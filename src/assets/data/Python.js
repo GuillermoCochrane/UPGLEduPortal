@@ -11232,10 +11232,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/generador_de_numeros_pares.png",
-              alt: "Generador de Números Pares",
+              language: "python",
+              content: "# Generador de Números Pares\npares = ((i, i*2) for i in range(4))\nprint(*pares)\n# Imprime: (0, 0) (1, 2) (2, 4) (3, 6)",
             }
           },
           {
