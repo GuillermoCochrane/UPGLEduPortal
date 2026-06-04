@@ -11920,10 +11920,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class12/decoradores2.png",
-              alt: "Decoradores de Funciones",
+              language: "python",
+              content: "def numero (texto_input:str|None= \"Ingrese un numero:\")-> int:\n    while True:\n        numero_1 = input (texto_input)\n        if numero_1.isdigit():\n            numero_1 = int(numero_1)\n            if numero_1 > 0:\n                break\n            else:\n                print(\"El valor ingresado debe ser mayor a 0\")\n        else:\n            print(\"El valor ingresado no es un Nro\")\n    return numero_1\ncantidad = numero(\"Ingrese la cantidad de veces a calcular:\")",
             }
           },
           {
