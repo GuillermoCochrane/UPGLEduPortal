@@ -11537,10 +11537,10 @@ let classes = [
             ]
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/comprensiones_lista.png",
-              alt: "Comprensión de lista",
+              language: "python",
+              content: "# Comprensión de Lista\ncuadrados_lista = [x**2 for x in range(1, 110000)]\nprint(cuadrados_lista)\n# Imprime: [1, 4, 9, 16, 25, ...]",
             }
           },
           {
