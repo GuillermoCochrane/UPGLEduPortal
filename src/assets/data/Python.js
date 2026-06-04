@@ -11900,10 +11900,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class12/decoradores.png",
-              alt: "Decoradores de Funciones",
+              language: "python",
+              content: "def transformar_str_int(texto:str)->int:\n    #codigo de la función\n    return valor_de_retorno",
             }
           },
           {
