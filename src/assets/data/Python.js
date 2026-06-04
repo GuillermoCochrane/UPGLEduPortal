@@ -11715,10 +11715,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class12/funciones_sintaxis.png",
-              alt: "Sintaxis de una Función",
+              language: "python",
+              content: "def nombre_de_la_funcion(parametros):\n    #codigo de la función\n    return valor_de_retorno",
             }
           },
           {
