@@ -11553,10 +11553,10 @@ let classes = [
             ]
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class11/generadores_de_exp.png",
-              alt: "Generador de expresión",
+              language: "python",
+              content: "# Generador de Expresión\ncuadrados_generador = (x**2 for x in range(1, 110000))\nprint(*cuadrados_generador)\n# Imprime: 1 4 9 16 25 ...",
             }
           },
         ]
