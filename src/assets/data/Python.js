@@ -11829,10 +11829,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class12/funciones_sumar.png",
-              alt: "Función que suma 2 números",
+              language: "python",
+              content: "def sumar(a, b):\n    return a + b\n\nresultado = sumar(5, 3)\nprint(resultado)\n# Imprime: 8",
             }
           },
         ],
