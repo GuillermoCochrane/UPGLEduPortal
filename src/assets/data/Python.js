@@ -12111,10 +12111,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class12/funciones_lambda.png",
-              alt: "Funciones Lambda",
+              language: "python",
+              content: "lambda parametros: expresion",
             }
           },
           {
