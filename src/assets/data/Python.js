@@ -11944,10 +11944,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class12/decoradores3.png",
-              alt: "Decoradores de Funciones",
+              language: "python",
+              content: "def calcular(cantidad:int|None=2):\n    mayor = 0\n\n    for i in range(cantidad):\n\n        numero_1 = numero()\n        print(f\"El numero ingresado es:{numero_1}\")\n        if numero_1 > mayor:\n            mayor = numero_1\n    print(f\"El numero mayor es : {mayor}\")\n    return",
             }
           },
           {
