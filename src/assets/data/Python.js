@@ -12315,7 +12315,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class12/ejercicio_3.png",
+                language: "python",
+                content: "# Crea una funcion para ordenar una lista de palabras\ndef ordenar(palabras: list[str] | None = []) -> list[str]:\n    \"\"\"\n    Función que devuelve una lista ordenada de palabras\n    \"\"\"\n    return sorted(palabras)\n\npalabras = [\"perro\", \"gato\", \"raton\", \"manzana\", \"pescado\", \"anzuelo\"]\nprint(f\"La lista ordenada es: {ordenar(palabras)}\")\n# Imprime: La lista ordenada es:\n# ['anzuelo', 'gato', 'manzana', 'pescado', 'perro', 'raton']",
                 alt: "Solución Ejercicio 3",
               },
             ],
