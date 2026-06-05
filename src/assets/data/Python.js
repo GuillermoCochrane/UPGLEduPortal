@@ -12259,7 +12259,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class12/ejercicio_1.png",
+                language: "python",
+                content: "#Crea una funcion que nos salude por consola\ndef saludar(nombre: str | None = \", debe ingresar su nombre. \"):\n    print(f\"Hola {nombre}\")\n\nsaludar()\n# Imprime: Hola , debe ingresar su nombre. ",
                 alt: "Solución Ejercicio 1",
               },
             ],
