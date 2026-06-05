@@ -12135,10 +12135,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class12/funciones_lambda2.png",
-              alt: "Funciones Lambda",
+              language: "python",
+              content: "sumar = lambda a, b: a + b\nprint(sumar(5, 3))\n# Imprime: 8",
             }
           },
           {
