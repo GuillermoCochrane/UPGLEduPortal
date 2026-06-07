@@ -13158,10 +13158,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class13/vehiculo.png",
-              alt: "Definimos el objeto de vehículo",
+              language: "python",
+              content: "class Vehiculo:\n    def __init__(self, marca, modelo, color):\n        self.marca = marca\n        self.modelo = modelo\n        self.color = color\n\n    def arrancar(self):\n        print(f\"El vehículo {self.marca} {self.modelo} está arrancando.\")\n\n    def acelerar(self):\n        print(f\"El vehículo {self.marca} {self.modelo} está acelerando.\")\n\n    def frenar(self):\n        print(f\"El vehículo {self.marca} {self.modelo} está frenando.\")\n\nmiAuto = Vehiculo(\"Toyota\", \"Corolla\", \"Azul\")\nmiMoto = Vehiculo(\"Honda\", \"CBX\", \"Negra\")\n\n# Accionando los métodos de los objetos:\nmiAuto.arrancar()\n# Imprime: El vehículo Toyota Corolla está arrancando.\n\nmiMoto.acelerar()\n# Imprime: El vehículo Honda CBX está acelerando.\n\nmiAuto.frenar()\n# Imprime: El vehículo Toyota Corolla Azul está frenando.",
             }
           },
           {
