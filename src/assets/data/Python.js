@@ -13244,7 +13244,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class13/ejercicio_2.png",
+                language: "python",
+                content: "# Ejercicio 2: Crear una clase de Cuenta Bancaria\n# Objetivo: Implementar una clase CuentaBancaria que permita\n# a los usuarios realizar operaciones bancarias básicas como\n# depositar, retirar y consultar el saldo.\n\nclass CuentaBancaria:\n    def __init__(self, saldo_inicial):\n        self.saldo = saldo_inicial\n\n    def depositar(self, cantidad: int | None = 0) -> int:\n        \"\"\"\n        Metodo que permite a los usuarios depositar dinero.\n        Si no se ingresa cantidad, se usará 0.\n        \"\"\"\n        self.saldo += cantidad\n        return self.saldo\n\n    def retirar(self, cantidad: int | None = 0) -> int:\n        \"\"\"\n        Metodo que permite a los usuarios retirar dinero.\n        Si no se ingresa cantidad, se usará 0.\n        \"\"\"\n        self.saldo -= cantidad\n        return self.saldo\n\n    def saldo_actual(self) -> int:\n        \"\"\"\n        Metodo que devuelve el saldo actual de la cuenta.\n        \"\"\"\n        return self.saldo\n\n    def mensaje(self):\n        \"\"\"\n        Metodo que devuelve un mensaje con información sobre la cuenta.\n        \"\"\"\n        return f\"El saldo actual de la cuenta es {self.saldo_actual()}\"\n\ncuenta = CuentaBancaria(1000)\nprint(cuenta.mensaje())\n# Imprime: El saldo actual de la cuenta es 1000\n\nprint(f\"Se realizo un deposito a la cuenta de {cuenta.depositar(500)}\")\nprint(cuenta.mensaje())\n# Imprime: El saldo actual de la cuenta es 1500\n\nprint(f\"Se realizo un retiro a la cuenta de {cuenta.retirar(200)}\")\nprint(cuenta.mensaje())\n# Imprime: El saldo actual de la cuenta es 1300",
                 alt: "Solución Ejercicio 2",
               },
             ],
