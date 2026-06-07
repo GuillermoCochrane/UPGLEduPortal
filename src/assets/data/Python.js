@@ -13272,7 +13272,8 @@ let classes = [
             type: "answer",
             info: [
               {
-                img: "/images/Python/class13/ejercicio_3.png",
+                language: "python",
+                content: "# Ejercicio 3: Crear una Clase de Producto\n# Objetivo: Crear una clase llamada Producto que tenga tres\n# atributos: nombre, precio y cantidad. Y tenga 3 metodos:\n# Actualizar Precio, Actualizar Cantidad y Calcular valor total.\n\nclass Producto:\n    def __init__(self, nombre: str, precio: float, cantidad: int):\n        self.nombre = nombre\n        self.precio = precio\n        self.cantidad = cantidad\n\n    def actualizar_precio(self, precio: float):\n        \"\"\"\n        Metodo que actualiza el precio del producto.\n        \"\"\"\n        self.precio = precio\n\n    def actualizar_cantidad(self, cantidad: int):\n        \"\"\"\n        Metodo que actualiza la cantidad del producto.\n        \"\"\"\n        self.cantidad = cantidad\n\n    def calcular_valor_total(self):\n        \"\"\"\n        Metodo que calcula el valor total del producto.\n        \"\"\"\n        return self.cantidad * self.precio\n\nproducto = Producto(\"Juego de ajedrez\", 12, 3)\np1 = f\"Se agregó al carrito {producto.cantidad} {producto.nombre}, \"\np2 = f\"que tiene un precio de ${producto.precio}, el costo total \"\np3 = f\"es de ${producto.calcular_valor_total()}\"\nprint(p1 + p2 + p3)\n# Imprime: Se agregó al carrito 3 Juego de ajedrez, que tiene un\n# precio de $12, el costo total es de $36",
                 alt: "Solución Ejercicio 3",
               },
             ],
