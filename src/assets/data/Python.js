@@ -13174,10 +13174,10 @@ let classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Python/class13/persona.png",
-              alt: "Definimos la clase de persona",
+              language: "python",
+              content: "class Persona:\n    def __init__(self, nombre, edad):\n        self.nombre = nombre\n        self.edad = edad\n\n    def saludar(self):\n        print(f\"Hola, mi nombre es {self.nombre} y tengo {self.edad} años.\")\n\njuan = Persona(\"Juan\", 30)\njuan.saludar()\n# Imprime: Hola, mi nombre es Juan y tengo 30 años.",
             }
           },
         ]
