@@ -950,18 +950,27 @@ const classes = [
             ],
           },
           {
-            type: "figure",
-            info: {
-              img: "/images/Frontend/class1/ejemplo_HTML.png",
-              alt: "Ejemplo HTML",
-            },
-          },
-          {
-            type: "figure",
-            info: {
-              img: "/images/Frontend/class1/ejemplo_CSS.png",
-              alt: "Ejemplo CSS",
-            },
+            type: "example",
+            height: 50,
+            width: 100,
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: "<!-- Ejemplo HTML -->\n<button class=\"btn-primary\">Haz Clic</button>",
+                  title: "Estructura HTML",
+                },
+              },
+              {
+                type: "code",
+                info: {
+                  language: "css",
+                  content: "/* Ejemplo CSS */\n.btn-primary {\n    background-color: blue;\n    color: white;\n    padding: 10px;\n    margin: auto;\n    display: block;\n    cursor:pointer;\n    margin-top: 5px;\n}",
+                  title: "Estilos CSS",
+                },
+              },
+            ],
           },
           {
             type: "h4",
