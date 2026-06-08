@@ -32,10 +32,10 @@ const classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Frontend/class1/script.png",
-              alt: "Ejemplo de Script Python",
+              language: "python",
+              content: "def saludar():\n    print(\"¡Hola mundo!\")\n\nsaludar()",
             },
           },
           {
