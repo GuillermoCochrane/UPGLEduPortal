@@ -991,11 +991,11 @@ const classes = [
             ],
           },
           {
-            type: "strong",
+            type: "p",
             info: [
               {
-                text: "Tecnologías clave (ejemplos):",
-                content: "plain",
+                text: "Tecnologías clave ",
+                content: "bold",
               },
             ],
           },
