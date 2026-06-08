@@ -874,7 +874,11 @@ const classes = [
             type: "h4",
             info: [
               {
-                text: "Frontend (Lado del Cliente)",
+                text: "Frontend: ",
+                content: "bold",
+              },
+              {
+                text: "(Lado del Cliente)",
                 content: "plain",
               },
             ],
@@ -889,11 +893,11 @@ const classes = [
             ],
           },
           {
-            type: "strong",
+            type: "p",
             info: [
               {
                 text: "Tecnologías clave:",
-                content: "plain",
+                content: "bold",
               },
             ],
           },
