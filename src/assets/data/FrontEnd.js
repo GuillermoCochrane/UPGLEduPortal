@@ -1052,10 +1052,10 @@ const classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Frontend/class1/ejemplo_PHP.png",
-              alt: "Ejemplo Backend",
+              language: "php",
+              content: "<?php\n// Ejemplo (conceptual) Backend con PHP\nif ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['register'])) {\n    $username = $_POST['username'] ?? '';\n    $password = $_POST['password'] ?? '';\n\n    // ... Lógica para validar y guardar en la base de datos ...\n    // $hashedPassword = password_hash($password, PASSWORD_DEFAULT);\n    // Guardar $username y $hashedPassword en la BD\n    echo \"Usuario registrado exitosamente.\";\n    // header('Location: login.php'); // Redirigir después del registro\n    exit;\n}\n?>",
             },
           },
           {
