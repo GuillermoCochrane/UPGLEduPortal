@@ -2308,10 +2308,10 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Frontend/class2/etiqueta-cierre.png",
-                      alt: "Ejemplo de etiqueta de cierre",
+                      language: "html",
+                      content: "</a>",
                     },
                   },
                 ],
