@@ -2328,10 +2328,10 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Frontend/class2/atributo.png",
-                      alt: "Ejemplo de atributo",
+                      language: "html",
+                      content: "href=\"https://ejemplo.com\"",
                     },
                   },
                 ],
