@@ -2288,10 +2288,10 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Frontend/class2/etiqueta-apertura.png",
-                      alt: "Ejemplo de etiqueta de apertura",
+                      language: "html",
+                      content: "<a href=\"https://ejemplo.com\">",
                     },
                   },
                 ],
