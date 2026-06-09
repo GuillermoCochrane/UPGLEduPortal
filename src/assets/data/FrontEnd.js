@@ -2613,11 +2613,18 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
-                    info: {
-                      img: "/images/Frontend/class2/lista-desordenada.png",
-                      alt: "Ejemplo de lista desordenada",
-                    },
+                    type: "example",
+                    height: "70",
+                    width: "200",
+                    info: [
+                      {
+                        type: "code",
+                        info: {
+                          language: "html",
+                          content: "<ul>\n    <li>HTML</li>\n    <li>CSS</li>\n</ul>",
+                        },
+                      },
+                    ],
                   },
                 ],
               },
