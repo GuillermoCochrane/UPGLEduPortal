@@ -12,6 +12,7 @@ import Figure from "../Figure/Figure";
 import Link from "../Links/Links"
 import Answer from "../Answer/Answer";
 import Code from "../Code/Code";
+import Example from "../Example/Example"
 
 function LITag({ Data }) {
   return (
@@ -57,6 +58,9 @@ function LITag({ Data }) {
             }
             {
               item.type == "code" && <Code Data={item.info} key={index} />
+            }
+            {
+              item.type == "example" && <Example Data={item.info} height={item.height} width={item.width} key={index} />
             }
           </Fragment>
         ))
