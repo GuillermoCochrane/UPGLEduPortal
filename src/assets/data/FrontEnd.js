@@ -2540,10 +2540,10 @@ const classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Frontend/class2/formulario.png",
-              alt: "Ejemplo de formulario",
+              language: "html",
+              content: "<form action=\"/enviar\" method=\"post\">\n    <label for=\"nombre\">Nombre:</label>\n    <input type=\"text\" id=\"nombre\" name=\"nombre\">\n    <button type=\"submit\">Enviar</button>\n</form>",
             },
           },
         ],
