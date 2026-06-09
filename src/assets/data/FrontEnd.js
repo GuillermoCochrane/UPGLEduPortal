@@ -2348,10 +2348,10 @@ const classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Frontend/class2/ejemplo-estructura.png",
-              alt: "Ejemplo estructura",
+              language: "html",
+              content: "<a href=\"https://ejemplo.com\">  <!-- Etiqueta de apertura -->\n    Visitar ejemplo             <!-- Contenido -->\n</a>                            <!-- Etiqueta de cierre -->",
             },
           },
           {
