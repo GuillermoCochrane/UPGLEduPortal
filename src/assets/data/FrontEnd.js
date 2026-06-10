@@ -3037,10 +3037,10 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Frontend/class3/celda-encabezado.png",
-                      alt: "Ejemplo de celda encabezado",
+                      language: "html",
+                      content: "<th>Nombre</th>",
                     },
                   },
                 ],
