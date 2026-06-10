@@ -2683,11 +2683,18 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
-                    info: {
-                      img: "/images/Frontend/class2/elemeneto-de-lista.png",
-                      alt: "Ejemplo de elemento de lista",
-                    },
+                    type: "example",
+                    height: "50",
+                    width: "200",
+                    info: [
+                      {
+                        type: "code",
+                        info: {
+                          language: "html",
+                          content: "<ul>\n    <li>Elemento de lista</li>\n</ul>",
+                        },
+                      },
+                    ],
                   },
                 ],
               },
