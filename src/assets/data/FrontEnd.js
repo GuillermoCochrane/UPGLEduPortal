@@ -3017,10 +3017,10 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Frontend/class3/tabla-fila.png",
-                      alt: "Ejemplo de tabla fila",
+                      language: "html",
+                      content: "<tr>...</tr>",
                     },
                   },
                 ],
