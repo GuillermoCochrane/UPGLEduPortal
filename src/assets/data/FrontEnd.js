@@ -2880,26 +2880,7 @@ const classes = [
               {
                 alt: "Solución formulario de contacto",
                 language: "html",
-                content: `<body>
-  <h1>Formulario de contacto</h1>
-  <br>
-  <form action="/" method="post">
-    <hr>
-    <label for="nombre">Nombre:</label>
-    <br>
-    <input type="text" id="nombre" name="nombre" required>
-    <hr>
-    <label for="correo">Correo electrónico:</label>
-    <br>
-    <input type="email" id="correo" name="correo" required>
-    <hr>
-    <label for="mensaje">Mensaje:</label>
-    <br>
-    <textarea id="mensaje" name="mensaje" required></textarea>
-    <hr>
-    <button type="submit">Enviar</button>
-  </form>
-</body>`,
+                content: "<body>\n  <h1>Formulario de contacto</h1>\n  <br>\n  <form action=\"/\" method=\"post\">\n    <hr>\n    <label for=\"nombre\">Nombre:</label>\n    <br>\n    <input type=\"text\" id=\"nombre\" name=\"nombre\" required>\n    <hr>\n    <label for=\"correo\">Correo electrónico:</label>\n    <br>\n    <input type=\"email\" id=\"correo\" name=\"correo\" required>\n    <hr>\n    <label for=\"mensaje\">Mensaje:</label>\n    <br>\n    <textarea id=\"mensaje\" name=\"mensaje\" required></textarea>\n    <hr>\n    <button type=\"submit\">Enviar</button>\n  </form>\n</body>",
               },
             ],
           },
