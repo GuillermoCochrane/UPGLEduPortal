@@ -2997,10 +2997,10 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Frontend/class3/tabla-contenedor.png",
-                      alt: "Ejemplo de tabla contenedor",
+                      language: "html",
+                      content: "<table>...</table>",
                     },
                   },
                 ],
