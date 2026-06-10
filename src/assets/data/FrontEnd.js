@@ -2640,11 +2640,18 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
-                    info: {
-                      img: "/images/Frontend/class2/lista-ordenada.png",
-                      alt: "Ejemplo de lista ordenada",
-                    },
+                    type: "example",
+                    height: "70",
+                    width: "200",
+                    info: [
+                      {
+                        type: "code",
+                        info: {
+                          language: "html",
+                          content: "<ol>\n    <li>Paso 1</li>\n    <li>Paso 2</li>\n</ol>",
+                        },
+                      },
+                    ],
                   },
                 ],
               },
