@@ -6090,7 +6090,7 @@ const classes = [
         topicData: [
           {
             type: "h3",
-            info: [{ text: "tiquetas semánticas 💬", content: "plain" }],
+            info: [{ text: "Etiquetas semánticas 💬", content: "plain" }],
           },
           {
             type: "p",
@@ -6248,7 +6248,7 @@ const classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Frontend/class4/class4-1.png",
+              img: "/images/Frontend/class5/class_5_1.webp",
               alt: "Ejemplo de estructura semántica",
             },
           },
