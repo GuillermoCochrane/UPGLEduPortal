@@ -3499,41 +3499,7 @@ const classes = [
               {
                 alt: "Solución tablas de contactos",
                 language: "html",
-                content: `<body>
-  <h1>Clase 3 - Ejercicio 1  - Tablas</h1>
-  <hr>
-  <h2>Objetivo: Practicar la creación y estructura básica de tablas en HTML.</h2>
-  <table border="1">
-    <tr>
-      <th>Nombre</th>
-      <th>Apellido</th>
-      <th>Dirección</th>
-      <th>Correo electrónico</th>
-      <th>Teléfono</th>
-    </tr>
-    <tr>
-      <td>Ana</td>
-      <td>Rodríguez</td>
-      <td>French 269</td>
-      <td>ana@gmail.com</td>
-      <td>123456789</td>
-    </tr>
-    <tr>
-      <td>Juan</td>
-      <td>González</td>
-      <td>Belgrano 123</td>
-      <td>juan@gmail.com</td>
-      <td>987654321</td>
-    </tr>
-    <tr>
-      <td>Pedro</td>
-      <td>Perez</td>
-      <td>Moreno 384</td>
-      <td>pedro@gmail.com</td>
-      <td>555555555</td>
-    </tr> 
-  </table>
-</body>`,
+                content: "<body>\n  <h1>Clase 3 - Ejercicio 1  - Tablas</h1>\n  <hr>\n  <h2>Objetivo: Practicar la creación y estructura básica de tablas en HTML.</h2>\n  <table border=\"1\">\n    <tr>\n      <th>Nombre</th>\n      <th>Apellido</th>\n      <th>Dirección</th>\n      <th>Correo electrónico</th>\n      <th>Teléfono</th>\n    </tr>\n    <tr>\n      <td>Ana</td>\n      <td>Rodríguez</td>\n      <td>French 269</td>\n      <td>ana@gmail.com</td>\n      <td>123456789</td>\n    </tr>\n    <tr>\n      <td>Juan</td>\n      <td>González</td>\n      <td>Belgrano 123</td>\n      <td>juan@gmail.com</td>\n      <td>987654321</td>\n    </tr>\n    <tr>\n      <td>Pedro</td>\n      <td>Perez</td>\n      <td>Moreno 384</td>\n      <td>pedro@gmail.com</td>\n      <td>555555555</td>\n    </tr> \n  </table>\n</body>",
               },
             ],
           },
