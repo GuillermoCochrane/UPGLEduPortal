@@ -3077,11 +3077,18 @@ const classes = [
             ],
           },
           {
-            type: "figure",
-            info: {
-              img: "/images/Frontend/class3/ejemplo-tabla.png",
-              alt: "Ejemplo de tabla básica",
-            },
+            type: "example",
+            height: "80",
+            width: "150",
+            info: [
+              {
+                type: "code",
+                info: {
+                  language: "html",
+                  content: "<table border=\"1\" style='margin:auto';\n    <tr>\n        <th>Nombre</th>\n        <th>Edad</th>\n    </tr>\n    <tr>\n        <td>Ana</td>\n        <td>22</td>\n    </tr>\n    <tr>\n        <td>Juan</td>\n        <td>30</td>\n    </tr>\n</table>",
+                },
+              },
+            ],
           },
         ],
       },
