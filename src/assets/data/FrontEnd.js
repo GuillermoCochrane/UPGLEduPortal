@@ -3057,10 +3057,10 @@ const classes = [
                     content: "plain",
                   },
                   {
-                    type: "figure",
+                    type: "code",
                     info: {
-                      img: "/images/Frontend/class3/celda-datos.png",
-                      alt: "Ejemplo de celda datos",
+                      language: "html",
+                      content: "<td>Ana</td>",
                     },
                   },
                 ],
