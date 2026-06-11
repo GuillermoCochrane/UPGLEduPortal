@@ -3142,10 +3142,10 @@ const classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Frontend/class3/ejemplo-imagen.png",
-              alt: "Ejemplo de imagen",
+              language: "html",
+              content: "<img src=\"ruta/imagen.jpg\" alt=\"Descripción de la imagen\" width=\"300\">",
             },
           },
           {
