@@ -5532,57 +5532,7 @@ const classes = [
                       {
                         alt: "Solución encuesta-trabajo.html",
                         language: "html",
-                        content: `<body>
-  <header>
-    <h1>Formulario de encuesta de trabajo</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="encuesta-personal.html">Encuesta personal</a>
-      <a href="encuesta-trabajo.html">Encuesta de trabajo</a>
-      <a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a>
-      <a href="formulario-bonus.html">Formulario Bonus - Actividades</a>
-    </nav>
-  </header>
-  <main>
-    <h2>Encuesta de trabajo</h2>
-    <form action="#" method="POST">
-      <fieldset>
-        <legend>Información básica</legend>
-        <label for="Empresa">Empresa actual:</label><br>
-        <input type="text" id="Empresa" name="Empresa" required placeholder="Globant" list="Empresas" autofocus><br>
-        <datalist id="Empresas">
-          <option value="Globant">
-          <option value="Mercado Libre">
-          <option value="Google">
-          <option value="Facebook">
-          <option value="Amazon">
-        </datalist>
-        <label for="Salario">Salario esperado:</label><br>
-        <input type="number" id="Salario" name="Salario" required placeholder="700000" min="500000" max="1500000"><br>
-        <label for="Años">Años de experiencia: <span id="valorAños">5</span></label><br>
-        <!-- Bonus: cheat con IA  -->
-        <input type="range" id="Años" name="Años" required min="1" max="10" value="5" oninput="valorAños.innerText = this.value" ><br>
-        <label for="Fecha">Fecha disponible para empezar:</label><br>
-        <input type="date" id="Fecha" name="Fecha" required><br>
-        <label for="Horario">Horario preferido:</label><br>
-        <div>
-          <label for="Horario-inicio">Horario de inicio:</label><br>
-          <input type="time" id="Horario-inicio" name="Horario-inicio" required><br>
-          <label for="Horario-fin">Horario de fin:</label><br>
-          <input type="time" id="Horario-fin" name="Horario-fin" required><br>
-        </div>
-        <label for="CV">CV:</label><br>
-        <input type="file" id="CV" name="CV" accept="application/pdf" required><br>
-        <label for="Sitio">Sitio web profesional:</label><br>
-        <input type="url" id="Sitio" name="Sitio" required placeholder="https://www.globant.com"><br>
-      </fieldset>
-      <div style="margin-top: 1em;">
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpiar</button>
-      </div>
-    </form>
-  </main>
-</body>`,
+                        content: "<body>\n  <header>\n    <h1>Formulario de encuesta de trabajo</h1>\n    <nav>\n      <a href=\"index.html\">Inicio</a>\n      <a href=\"encuesta-personal.html\">Encuesta personal</a>\n      <a href=\"encuesta-trabajo.html\">Encuesta de trabajo</a>\n      <a href=\"encuesta-satisfaccion.html\">Encuesta de satisfacción</a>\n      <a href=\"formulario-bonus.html\">Formulario Bonus - Actividades</a>\n    </nav>\n  </header>\n  <main>\n    <h2>Encuesta de trabajo</h2>\n    <form action=\"#\" method=\"POST\">\n      <fieldset>\n        <legend>Información básica</legend>\n        <label for=\"Empresa\">Empresa actual:</label><br>\n        <input \n          type=\"text\" \n          id=\"Empresa\" \n          name=\"Empresa\" \n          required \n          placeholder=\"Globant\" \n          list=\"Empresas\" \n          autofocus\n        ><br>\n        <datalist id=\"Empresas\">\n          <option value=\"Globant\">\n          <option value=\"Mercado Libre\">\n          <option value=\"Google\">\n          <option value=\"Facebook\">\n          <option value=\"Amazon\">\n        </datalist>\n        <label for=\"Salario\">Salario esperado:</label><br>\n        <input \n          type=\"number\" \n          id=\"Salario\" \n          name=\"Salario\" \n          required \n          placeholder=\"700000\" \n          min=\"500000\" \n          max=\"1500000\"\n        ><br>\n        <label for=\"Años\">Años de experiencia: <span id=\"valorAños\">5</span></label><br>\n        <!-- Bonus: cheat con IA  -->\n        <input \n          type=\"range\" \n          id=\"Años\" \n          name=\"Años\" \n          required \n          min=\"1\" \n          max=\"10\" \n          value=\"5\" \n          oninput=\"valorAños.innerText = this.value\" \n        ><br>\n        <label for=\"Fecha\">Fecha disponible para empezar:</label><br>\n        <input type=\"date\" id=\"Fecha\" name=\"Fecha\" required><br>\n        <label for=\"Horario\">Horario preferido:</label><br>\n        <div>\n          <label for=\"Horario-inicio\">Horario de inicio:</label><br>\n          <input type=\"time\" id=\"Horario-inicio\" name=\"Horario-inicio\" required><br>\n          <label for=\"Horario-fin\">Horario de fin:</label><br>\n          <input type=\"time\" id=\"Horario-fin\" name=\"Horario-fin\" required><br>\n        </div>\n        <label for=\"CV\">CV:</label><br>\n        <input type=\"file\" id=\"CV\" name=\"CV\" accept=\"application/pdf\" required><br>\n        <label for=\"Sitio\">Sitio web profesional:</label><br>\n        <input \n          type=\"url\" \n          id=\"Sitio\" \n          name=\"Sitio\" \n          required \n          placeholder=\"https://www.globant.com\"\n        ><br>\n      </fieldset>\n      <div style=\"margin-top: 1em;\">\n        <button type=\"submit\">Enviar</button>\n        <button type=\"reset\">Limpiar</button>\n      </div>\n    </form>\n  </main>\n</body>",
                       },
                     ],
                   },
