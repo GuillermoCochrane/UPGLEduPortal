@@ -5691,61 +5691,7 @@ const classes = [
               {
                 alt: "Solución Bonus: formulario adicional",
                 language: "html",
-                content: `<body>
-  <header>
-    <h1>Formulario Bonus</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="encuesta-personal.html">Encuesta personal</a>
-      <a href="encuesta-trabajo.html">Encuesta de trabajo</a>
-      <a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a>
-      <a href="formulario-bonus.html">Formulario Bonus - Actividades</a>
-    </nav>
-  </header>
-
-  <main>
-    <h2>Agendar actividad</h2>
-    <form action="#" method="POST">
-      <fieldset>
-        <legend>Datos de la actividad</legend>
-
-        <input type="hidden" name="tipo" value="creativa">
-
-        <label for="titulo">Título de la actividad:</label><br>
-        <input type="text" id="titulo" name="titulo" required placeholder="Escribir un cuento" maxlength="50" autofocus><br>
-
-        <label for="color">Color temático de sección:</label><br>
-        <input type="color" id="color" name="color"><br>
-
-        <label for="fecha-hora">Fecha y hora programada:</label><br>
-        <input type="datetime-local" id="fecha-hora" name="fecha-hora" required><br>
-
-        <label for="semana">Semana estimada de cierre:</label><br>
-        <input type="week" id="semana" name="semana"><br>
-
-        <label for="mes-objetivo">Mes de publicación:</label><br>
-        <input type="month" id="mes-objetivo" name="mes-objetivo"><br>
-
-        <label for="duracion">Duración estimada (hs):</label><br>
-        <input type="number" id="duracion" name="duracion" min="0.5" max="24" step="0.5" required><br>
-
-        <label for="codigo">Código interno (formato ABC-123):</label><br>
-        <input type="text" id="codigo" name="codigo" pattern="[A-Z]{3}-[0-9]{3}" placeholder="ABC-123" title="Tres letras mayúsculas, guion, tres números" required><br>
-
-        <label for="archivos">Adjuntar bosquejos o ideas (PDF o imágenes):</label><br>
-        <input type="file" id="archivos" name="archivos" accept=".pdf,image/*" multiple><br>
-
-        <label for="autor">Nombre del autor:</label><br>
-        <input type="text" id="autor" name="autor" value="Guille" readonly><br>
-      </fieldset>
-
-      <div style="margin-top: 1em;">
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpiar</button>
-      </div>
-    </form>
-  </main>
-</body>`,
+                content: "<body>\n  <header>\n    <h1>Formulario Bonus</h1>\n    <nav>\n      <a href=\"index.html\">Inicio</a>\n      <a href=\"encuesta-personal.html\">Encuesta personal</a>\n      <a href=\"encuesta-trabajo.html\">Encuesta de trabajo</a>\n      <a href=\"encuesta-satisfaccion.html\">Encuesta de satisfacción</a>\n      <a href=\"formulario-bonus.html\">Formulario Bonus - Actividades</a>\n    </nav>\n  </header>\n\n  <main>\n    <h2>Agendar actividad</h2>\n    <form action=\"#\" method=\"POST\">\n      <fieldset>\n        <legend>Datos de la actividad</legend>\n\n        <input type=\"hidden\" name=\"tipo\" value=\"creativa\">\n\n        <label for=\"titulo\">Título de la actividad:</label>\n        <br>\n        <input \n          type=\"text\" \n          id=\"titulo\" \n          name=\"titulo\" \n          required \n          placeholder=\"Escribir un cuento\" \n          maxlength=\"50\" \n          autofocus\n        >\n        <br>\n\n        <label for=\"color\">Color temático de sección:</label>\n        <br>\n        <input type=\"color\" id=\"color\" name=\"color\">\n        <br>\n\n        <label for=\"fecha-hora\">Fecha y hora programada:</label>\n        <br>\n        <input type=\"datetime-local\" id=\"fecha-hora\" name=\"fecha-hora\" required>\n        <br>\n\n        <label for=\"semana\">Semana estimada de cierre:</label>\n        <br>\n        <input type=\"week\" id=\"semana\" name=\"semana\">\n        <br>\n\n        <label for=\"mes-objetivo\">Mes de publicación:</label>\n        <br>\n        <input type=\"month\" id=\"mes-objetivo\" name=\"mes-objetivo\">\n        <br>\n\n        <label for=\"duracion\">Duración estimada (hs):</label>\n        <br>\n        <input \n          type=\"number\" \n          id=\"duracion\" \n          name=\"duracion\" \n          min=\"0.5\" \n          max=\"24\" \n          step=\"0.5\" \n          required\n        >\n        <br>\n\n        <label for=\"codigo\">Código interno (formato ABC-123):</label>\n        <br>\n        <input \n          type=\"text\" \n          id=\"codigo\" \n          name=\"codigo\" \n          pattern=\"[A-Z]{3}-[0-9]{3}\" \n          placeholder=\"ABC-123\" \n          title=\"Tres letras mayúsculas, guion, tres números\" \n          required\n        >\n        <br>\n\n        <label for=\"archivos\">Adjuntar bosquejos o ideas (PDF o imágenes):</label>\n        <br>\n        <input \n          type=\"file\" \n          id=\"archivos\" \n          name=\"archivos\" \n          accept=\".pdf,image/*\" \n          multiple\n        >\n        <br>\n\n        <label for=\"autor\">Nombre del autor:</label>\n        <br>\n        <input \n          type=\"text\" \n          id=\"autor\" \n          name=\"autor\" \n          value=\"Guille\" \n          readonly\n        >\n        <br>\n      </fieldset>\n\n      <div style=\"margin-top: 1em;\">\n        <button type=\"submit\">Enviar</button>\n        <button type=\"reset\">Limpiar</button>\n      </div>\n    </form>\n  </main>\n</body>",
               },
             ],
           },
