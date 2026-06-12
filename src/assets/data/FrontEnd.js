@@ -5394,29 +5394,7 @@ const classes = [
                       {
                         alt: "Solución index.html",
                         language: "html",
-                        content: `<body>
-  <header>
-    <h1>Índice de encuestas</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="encuesta-personal.html">Encuesta personal</a>
-      <a href="encuesta-trabajo.html">Encuesta de trabajo</a>
-      <a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a>
-      <a href="formulario-bonus.html">Formulario Bonus - Actividades</a>
-    </nav>
-  </header>
-  <main>
-    <h2>Bienvenido a nuestro sitio web de encuestas</h2>
-    <p>Aquí encontrarás una variedad de formularios para que puedas evaluar tus habilidades y experiencia.</p>
-    <p>Por favor, selecciona el formulario que corresponde:</p>
-    <ul>
-      <li><a href="encuesta-personal.html">Encuesta personal</a></li>
-      <li><a href="encuesta-trabajo.html">Encuesta de trabajo</a></li>
-      <li><a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a></li>
-      <li><a href="formulario-bonus.html">Formulario Bonus - Actividades</a></li>
-    </ul>
-  </main>
-</body>`,
+                        content: "<body>\n  <header>\n    <h1>Índice de encuestas</h1>\n    <nav>\n      <a href=\"index.html\">Inicio</a>\n      <a href=\"encuesta-personal.html\">Encuesta personal</a>\n      <a href=\"encuesta-trabajo.html\">Encuesta de trabajo</a>\n      <a href=\"encuesta-satisfaccion.html\">Encuesta de satisfacción</a>\n      <a href=\"formulario-bonus.html\">Formulario Bonus - Actividades</a>\n    </nav>\n  </header>\n  <main>\n    <h2>Bienvenido a nuestro sitio web de encuestas</h2>\n    <p>Aquí encontrarás una variedad de formularios para que puedas evaluar tus habilidades y experiencia.</p>\n    <p>Por favor, selecciona el formulario que corresponde:</p>\n    <ul>\n      <li><a href=\"encuesta-personal.html\">Encuesta personal</a></li>\n      <li><a href=\"encuesta-trabajo.html\">Encuesta de trabajo</a></li>\n      <li><a href=\"encuesta-satisfaccion.html\">Encuesta de satisfacción</a></li>\n      <li><a href=\"formulario-bonus.html\">Formulario Bonus - Actividades</a></li>\n    </ul>\n  </main>\n</body>",
                       },
                     ],
                   },
