@@ -5591,61 +5591,7 @@ const classes = [
                       {
                         alt: "Solución encuesta-satisfaccion.html",
                         language: "html",
-                        content: `<body>
-          <header>
-            <h1>Formulario de encuesta de satisfacción</h1>
-            <nav>
-              <a href="index.html">Inicio</a>
-              <a href="encuesta-personal.html">Encuesta personal</a>
-              <a href="encuesta-trabajo.html">Encuesta de trabajo</a>
-              <a href="encuesta-satisfaccion.html">Encuesta de satisfacción</a>
-              <a href="formulario-bonus.html">Formulario Bonus - Actividades</a>
-            </nav>
-          </header>
-          <main>
-            <h2>Encuesta de satisfacción</h2>
-            <form action="#" method="POST">
-              <fieldset>
-                <legend>Aspectos a evaluar</legend>
-                <label for="calificacion-general">Calificación general: <span id="valorCalificacion">5</span></label><br>
-                <!-- Bonus: cheat con IA (span con el valor)  -->
-                <input type="range" id="calificacion-general" name="calificacion-general" min="1" max="10" required value="5" oninput="valorCalificacion.innerText = this.value" autofocus><br>
-                <label for="aspectos-evaluar">Aspectos a evaluar:</label><br>
-                <div>
-                  <input type="checkbox" id="aspectos-evaluar-1" name="aspectos-evaluar" value="Calidad del servicio" >
-                  <label for="aspectos-evaluar-1">Calidad del servicio</label>
-                  <input type="checkbox" id="aspectos-evaluar-2" name="aspectos-evaluar" value="Comodidad del ambiente" >
-                  <label for="aspectos-evaluar-2">Comodidad del ambiente</label>
-                  <input type="checkbox" id="aspectos-evaluar-3" name="aspectos-evaluar" value="Servicio al cliente" >
-                  <label for="aspectos-evaluar-3">Servicio al cliente</label>
-                  <input type="checkbox" id="aspectos-evaluar-4" name="aspectos-evaluar" value="Calidad de la atención del cliente" >
-                  <label for="aspectos-evaluar-4">Calidad de la atención del cliente</label>
-                  <input type="checkbox" id="aspectos-evaluar-5" name="aspectos-evaluar" value="Calidad del personal" >
-                  <label for="aspectos-evaluar-5">Calidad del personal</label>
-                  <input type="checkbox" id="aspectos-evaluar-6" name="aspectos-evaluar" value="Calidad del equipo" >
-                  <label for="aspectos-evaluar-6">Calidad del equipo</label>
-                  <input type="checkbox" id="aspectos-evaluar-7" name="aspectos-evaluar" value="Calidad del producto" >
-                  <label for="aspectos-evaluar-7">Calidad del producto</label>
-                </div>
-                <label for="recomendarias-el-servicio">Recomendarías el servicio:</label><br>
-                <div>
-                  <input type="radio" id="recomendarias-el-servicio-1" name="recomendarias-el-servicio" value="Si" >
-                  <label for="recomendarias-el-servicio-1">Si</label>
-                  <input type="radio" id="recomendarias-el-servicio-2" name="recomendarias-el-servicio" value="No" >
-                  <label for="recomendarias-el-servicio-2">No</label>
-                </div>
-                <label for="comentarios">Comentarios:</label><br>
-                <textarea id="comentarios" name="comentarios" required></textarea><br>
-                <label for="email">Email para seguimiento:</label><br>
-                <input type="email" id="email" name="email" placeholder="ejemplo@ejemplo.com"><br>
-              </fieldset>
-              <div style="margin-top: 1em;">
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpiar</button>
-              </div>
-            </form>
-          </main>
-        </body>`,
+                        content: "<body>\n  <header>\n    <h1>Formulario de encuesta de satisfacción</h1>\n    <nav>\n      <a href=\"index.html\">Inicio</a>\n      <a href=\"encuesta-personal.html\">Encuesta personal</a>\n      <a href=\"encuesta-trabajo.html\">Encuesta de trabajo</a>\n      <a href=\"encuesta-satisfaccion.html\">Encuesta de satisfacción</a>\n      <a href=\"formulario-bonus.html\">Formulario Bonus - Actividades</a>\n    </nav>\n  </header>\n  <main>\n    <h2>Encuesta de satisfacción</h2>\n    <form action=\"#\" method=\"POST\">\n      <fieldset>\n        <legend>Aspectos a evaluar</legend>\n        <label for=\"calificacion-general\">\n          Calificación general:\n          <span id=\"valorCalificacion\">5</span>\n        </label>\n        <br>\n        <input \n          type=\"range\" \n          id=\"calificacion-general\" \n          name=\"calificacion-general\" \n          min=\"1\" \n          max=\"10\" \n          required \n          value=\"5\" \n          oninput=\"valorCalificacion.innerText = this.value\" \n          autofocus\n        >\n        <br>\n        <label for=\"aspectos-evaluar\">Aspectos a evaluar:</label>\n        <br>\n        <div>\n          <input \n            type=\"checkbox\" \n            id=\"aspectos-evaluar-1\" \n            name=\"aspectos-evaluar\" \n            value=\"Calidad del servicio\"\n          >\n          <label for=\"aspectos-evaluar-1\">Calidad del servicio</label>\n          <input \n            type=\"checkbox\" \n            id=\"aspectos-evaluar-2\" \n            name=\"aspectos-evaluar\" \n            value=\"Comodidad del ambiente\"\n          >\n          <label for=\"aspectos-evaluar-2\">Comodidad del ambiente</label>\n          <input \n            type=\"checkbox\" \n            id=\"aspectos-evaluar-3\" \n            name=\"aspectos-evaluar\" \n            value=\"Servicio al cliente\"\n          >\n          <label for=\"aspectos-evaluar-3\">Servicio al cliente</label>\n          <input \n            type=\"checkbox\" \n            id=\"aspectos-evaluar-4\" \n            name=\"aspectos-evaluar\" \n            value=\"Calidad de la atención del cliente\"\n          >\n          <label for=\"aspectos-evaluar-4\">Calidad de la atención del cliente</label>\n          <input \n            type=\"checkbox\" \n            id=\"aspectos-evaluar-5\" \n            name=\"aspectos-evaluar\" \n            value=\"Calidad del personal\"\n          >\n          <label for=\"aspectos-evaluar-5\">Calidad del personal</label>\n          <input \n            type=\"checkbox\" \n            id=\"aspectos-evaluar-6\" \n            name=\"aspectos-evaluar\" \n            value=\"Calidad del equipo\"\n          >\n          <label for=\"aspectos-evaluar-6\">Calidad del equipo</label>\n          <input \n            type=\"checkbox\" \n            id=\"aspectos-evaluar-7\" \n            name=\"aspectos-evaluar\" \n            value=\"Calidad del producto\"\n          >\n          <label for=\"aspectos-evaluar-7\">Calidad del producto</label>\n        </div>\n        <label for=\"recomendarias-el-servicio\">Recomendarías el servicio:</label>\n        <br>\n        <div>\n          <input \n            type=\"radio\" \n            id=\"recomendarias-el-servicio-1\" \n            name=\"recomendarias-el-servicio\" \n            value=\"Si\"\n          >\n          <label for=\"recomendarias-el-servicio-1\">Si</label>\n          <input \n            type=\"radio\" \n            id=\"recomendarias-el-servicio-2\" \n            name=\"recomendarias-el-servicio\" \n            value=\"No\"\n          >\n          <label for=\"recomendarias-el-servicio-2\">No</label>\n        </div>\n        <label for=\"comentarios\">Comentarios:</label>\n        <br>\n        <textarea \n          id=\"comentarios\" \n          name=\"comentarios\" \n          required\n        ></textarea>\n        <br>\n        <label for=\"email\">Email para seguimiento:</label>\n        <br>\n        <input \n          type=\"email\" \n          id=\"email\" \n          name=\"email\" \n          placeholder=\"ejemplo@ejemplo.com\"\n        >\n        <br>\n      </fieldset>\n      <div style=\"margin-top: 1em;\">\n        <button type=\"submit\">Enviar</button>\n        <button type=\"reset\">Limpiar</button>\n      </div>\n    </form>\n  </main>\n</body>",
                       },
                     ],
                   },
