@@ -5903,7 +5903,7 @@ const classes = [
           {
             type: "figure",
             info: {
-              img: "/images/Frontend/class4/class4-2.png",
+              img: "/images/Frontend/class5/class_5_2.webp",
               alt: "Ejemplo de etiqueta time y figure",
             },
           },
