@@ -5966,10 +5966,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `selector {
-    propiedad: valor;
-    otra-propiedad: otro-valor;
-}`,
+              content: "selector {\n    propiedad: valor;\n    otra-propiedad: otro-valor;\n}",
             },
           },
           {
