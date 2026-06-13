@@ -6115,12 +6115,7 @@ const classes = [
             type: "code",
             info: {
               language: "html",
-              content: `<head>
-  <style>
-    h1 { color: blue; }
-    .destacado { background: yellow; }
-  </style>
-</head>`,
+              content: "<head>\n  <style>\n    h1 { color: blue; }\n    .destacado { background: yellow; }\n  </style>\n</head>",
             },
           },
           {
