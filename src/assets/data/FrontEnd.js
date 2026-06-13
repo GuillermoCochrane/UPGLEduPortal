@@ -5921,10 +5921,11 @@ const classes = [
             ],
           },
           {
-            type: "figure",
+            type: "code",
             info: {
-              img: "/images/Frontend/class4/class4-3.png",
               alt: "Ejemplo de estructura semántica",
+              language: "html",
+              content: "<header>Encabezado</header>\n<nav>Menú</nav>\n<main>\n  <section>Sección principal</section>\n  <aside>Publicidad</aside>\n</main>\n<footer>Pie de página</footer>",
             },
           },
         ],
