@@ -6064,7 +6064,7 @@ const classes = [
             type: "code",
             info: {
               language: "html",
-              content: `<p style="color: red; font-size: 20px;">Texto con estilo inline</p>`,
+              content: "<p style=\"color: red; font-size: 20px;\">Texto con estilo inline</p>",
             },
           },
           {
