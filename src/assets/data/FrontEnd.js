@@ -6169,7 +6169,7 @@ const classes = [
             type: "code",
             info: {
               language: "html",
-              content: `<link rel="stylesheet" href="estilos.css">`,
+              content: "<link rel=\"stylesheet\" href=\"estilos.css\">",
             },
           },
           {
