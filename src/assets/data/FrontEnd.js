@@ -6446,11 +6446,22 @@ const classes = [
             },
           },
           {
-            type: "code",
-            info: {
-              language: "css",
-              content: ".demo-elemento {\n    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);\n    color: white;\n    padding: 20px;\n    border: 3px solid #2c3e50;\n    border-radius: 8px;\n    margin: 15px;\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);\n}",
-            },
+            type: "example",
+            info: [
+              {
+                info: {
+                  language: "html",
+                  content: "<div class=\"demo-elemento\">\n  Este elemento tiene: color de fondo degradado, borde, padding, margin, esquinas redondeadas y sombra\n</div>",
+                },
+              },
+              {
+                info: {
+                  language: "css",
+                  content: ".demo-elemento {\n  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);\n  color: white;\n  padding: 20px;\n  border: 3px solid #2c3e50;\n  border-radius: 8px;\n  margin: 15px;\n  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);\n  text-align: center;\n  font-family: sans-serif;\n  font-weight: bold;\n}",
+                },
+              },
+            ],
+            height: "95",
           },
         ],
       },
