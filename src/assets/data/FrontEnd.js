@@ -6439,13 +6439,6 @@ const classes = [
             info: [{ text: "Ejemplo Visual", content: "plain" }],
           },
           {
-            type: "figure",
-            info: {
-              img: "/images/Frontend/class5/box-final-example.png",
-              alt: "Caja con todos los estilos aplicados",
-            },
-          },
-          {
             type: "example",
             info: [
               {
