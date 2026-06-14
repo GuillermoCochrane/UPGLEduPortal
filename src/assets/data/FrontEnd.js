@@ -6909,62 +6909,7 @@ const classes = [
                       {
                         alt: "Solución de la página de sobre mí",
                         language: "html",
-                        content: `<body>
-  <header>
-  <div>
-    <button>Barra de Navegación</button>
-    <div>
-      <h1>La guarida del desarrolador</h1>
-      <p>Tu lugar donde mantenerte actualizado sobre tecnologías y programación</p>
-    </div>
-    <button>Barra Lateral</button>
-  </div>
-  <nav>
-    <ul>
-      <li>
-        <a href="./index.html">Home</a>
-      </li>
-      <li>
-        <a href="./articulo1.html">Artículos</a>
-      </li>
-      <li>
-        <a href="./sobre-mi.html">Sobre Mi</a>
-      </li>
-      <li>
-        <a href="./contacto.html">Contacto</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <section>
-    <h2>Sobre mi</h2>
-    <img src="https://avatars.githubusercontent.com/u/105461619?v=4" alt="Foto de Guillermo Cochrane, Full Stack Developer" width="300" align="center" title="Guillermo Cochrane">
-    <p>¡Hola! Soy Guillermo Cochrane. <em>Genio, millonario, playboy, filántropo.</em>  Ah, no ese era Tony Stark jaja. No tengo traje high tech, pero sí consola, teclado y la costumbre de cuestionarlo todo.</p>
-    <p> Soy <strong>Full Stack Developer</strong> y llevo 2 años peleando con código, pero siempre le encuentro la vuelta. No vengo del lado académico. Aprendí leyendo, probando, rompiendo, arreglando. Y ahí me di cuenta: aprender a programar es, en realidad, aprender a pensar.</p>
-    <p>Y El código me enseñó algo : los sistemas parecen cerrados… hasta que encontrás una grieta. Y no es una metáfora: pasa en todos los planos. Nada es absoluto, todo es relativo.</p>
-    <p>Desde chico siempre me gustó entender cómo funcionan las cosas. La programación fue mi epifanía: ¡una mezcla perfecta entre lógica, desafíos y creatividad!</p>
-    <p>Autodidacta, fan de la tecnología, las series y los juegos RPG. Estas son mis armas favoritas para sobrevivir al caos digital:</p>
-    <ul>
-      <li><strong>Node.js</strong> (Express + Sequelize) — porque escribir SQL a mano es como usar DOS en 2024 —</li>
-      <li><strong>MySQL</strong></li>
-      <li><strong>React</strong> (sufrir con elegancia)</li>
-      <li><strong>Python/WordPress</strong> "por si acaso... y otros etcéteras"</li>
-    </ul>
-    <p>Total, el conocimiento no ocupa lugar.</p>
-    <p><em>"Si la tecnología fuera fácil, no tendría gracia. Nada como un buen desafío para quemar neuronas."</em></p>
-    
-    <nav role="contentinfo">
-      <h3>Seguime en:</h3>
-      <ul>
-        <li><a href="https://www.instagram.com/liam.cochrane43/">Instagram</a></li>
-        <li><a href="https://ar.linkedin.com/in/guillermo-cochrane">Linkedin</a></li>
-        <li><a href="https://github.com/GuillermoCochrane">GitHub</a></li>
-      </ul>
-    </nav>
-  </section>
-</main>
-</body>`,
+                        content: "<body>\n  <header>\n  <div>\n    <button>Barra de Navegación</button>\n    <div>\n      <h1>La guarida del desarrolador</h1>\n      <p>\n        Tu lugar donde mantenerte actualizado\n        sobre tecnologías y programación\n      </p>\n    </div>\n    <button>Barra Lateral</button>\n  </div>\n  <nav>\n    <ul>\n      <li>\n        <a href=\"./index.html\">Home</a>\n      </li>\n      <li>\n        <a href=\"./articulo1.html\">Artículos</a>\n      </li>\n      <li>\n        <a href=\"./sobre-mi.html\">Sobre Mi</a>\n      </li>\n      <li>\n        <a href=\"./contacto.html\">Contacto</a>\n      </li>\n    </ul>\n  </nav>\n</header>\n<main>\n  <section>\n    <h2>Sobre mi</h2>\n    <img\n      src=\"https://avatars.githubusercontent.com/u/105461619?v=4\"\n      alt=\"Foto de Guillermo Cochrane, Full Stack Developer\"\n      width=\"300\"\n      align=\"center\"\n      title=\"Guillermo Cochrane\"\n    >\n    <p>\n      ¡Hola! Soy Guillermo Cochrane.\n      <em>Genio, millonario, playboy, filántropo.</em>\n      Ah, no ese era Tony Stark jaja. No tengo traje high tech,\n      pero sí consola, teclado y la costumbre de cuestionarlo todo.\n    </p>\n    <p>\n      Soy <strong>Full Stack Developer</strong> y llevo 2 años\n      peleando con código, pero siempre le encuentro la vuelta.\n      No vengo del lado académico. Aprendí leyendo, probando,\n      rompiendo, arreglando. Y ahí me di cuenta: aprender a\n      programar es, en realidad, aprender a pensar.\n    </p>\n    <p>\n      Y El código me enseñó algo : los sistemas parecen cerrados…\n      hasta que encontrás una grieta. Y no es una metáfora:\n      pasa en todos los planos. Nada es absoluto, todo es relativo.\n    </p>\n    <p>\n      Desde chico siempre me gustó entender cómo funcionan las cosas.\n      La programación fue mi epifanía:\n      ¡una mezcla perfecta entre lógica, desafíos y creatividad!\n    </p>\n    <p>\n      Autodidacta, fan de la tecnología, las series y los juegos RPG.\n      Estas son mis armas favoritas para sobrevivir al caos digital:\n    </p>\n    <ul>\n      <li>\n        <strong>Node.js</strong> (Express + Sequelize) — porque escribir\n        SQL a mano es como usar DOS en 2024 —\n      </li>\n      <li><strong>MySQL</strong></li>\n      <li><strong>React</strong> (sufrir con elegancia)</li>\n      <li><strong>Python/WordPress</strong> \"por si acaso... y otros etcéteras\"</li>\n    </ul>\n    <p>Total, el conocimiento no ocupa lugar.</p>\n    <p>\n      <em>\n        \"Si la tecnología fuera fácil, no tendría gracia.\n        Nada como un buen desafío para quemar neuronas.\"\n      </em>\n    </p>\n    \n    <nav role=\"contentinfo\">\n      <h3>Seguime en:</h3>\n      <ul>\n        <li><a href=\"https://www.instagram.com/liam.cochrane43/\">Instagram</a></li>\n        <li><a href=\"https://ar.linkedin.com/in/guillermo-cochrane\">Linkedin</a></li>\n        <li><a href=\"https://github.com/GuillermoCochrane\">GitHub</a></li>\n      </ul>\n    </nav>\n  </section>\n</main>\n</body>",
                       },
                     ],
                   },
