@@ -7246,11 +7246,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `margin: 10px; /* Margen en todos los lados */
-margin: 10px 5px; /* Top-Bottom 10px, Left-Right 5px */
-padding: 20px; /* Relleno interno */
-border: 1px solid black; /* Borde completo: grosor, estilo y color  */
-border-radius: 10px; /* Bordes redondeados */`,
+              content: "margin: 10px; /* Margen en todos los lados */\nmargin: 10px 5px; /* Top-Bottom 10px, Left-Right 5px */\npadding: 20px; /* Relleno interno */\nborder: 1px solid black; /* Borde completo: grosor, estilo y color  */\nborder-radius: 10px; /* Bordes redondeados */",
             },
           },
           {
