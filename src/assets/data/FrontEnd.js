@@ -7257,8 +7257,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Sombra del elemento */
-box-sizing: border-box; /* Incluye padding y border en el ancho total */`,
+              content: "box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Sombra del elemento */\nbox-sizing: border-box; /* Incluye padding y border en el ancho total */",
             },
           },
           {
