@@ -7224,10 +7224,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `text-transform: uppercase; /* Texto en mayúsculas: none, uppercase, lowercase, capitalize  */
-text-align: left; /* Alineación del texto: left, right, center, justify */
-text-decoration: underline; /* Texto con subrayado: none, underline, overline, line-through */
-text-shadow: 2px 2px 4px gray; /* Sombra en el texto*/`,
+              content: "text-transform: uppercase; /* Texto en mayúsculas: none, uppercase, lowercase, capitalize  */\ntext-align: left; /* Alineación del texto: left, right, center, justify */\ntext-decoration: underline; /* Texto con subrayado: none, underline, overline, line-through */\ntext-shadow: 2px 2px 4px gray; /* Sombra en el texto*/",
             },
           },
           {
