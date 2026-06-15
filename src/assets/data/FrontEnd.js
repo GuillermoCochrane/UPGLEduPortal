@@ -7235,9 +7235,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `white-space: nowrap; /* Controla espacios y saltos */
-overflow-wrap: break-word; /* Corta palabras largas */
-direction: rtl; /* Dirección del texto: ltr, rtl*/`,
+              content: "white-space: nowrap; /* Controla espacios y saltos */\noverflow-wrap: break-word; /* Corta palabras largas */\ndirection: rtl; /* Dirección del texto: ltr, rtl*/",
             },
           },
           {
