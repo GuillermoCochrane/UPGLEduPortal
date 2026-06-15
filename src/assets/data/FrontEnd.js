@@ -7213,13 +7213,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `font-family: "Arial", sans-serif; /* Fuente */
-font-size: 16px; /* Tamaño */
-font-weight: bold; /* Peso (normal, bold, 100–900) */
-font-style: italic; /* Estilo (normal, italic, oblique) */
-line-height: 1.5; /* Altura de línea */
-letter-spacing: 1px; /* Espaciado entre letras */
-word-spacing: 5px; /* Espaciado entre palabras */`,
+              content: "font-family: \"Arial\", sans-serif; /* Fuente */\nfont-size: 16px; /* Tamaño */\nfont-weight: bold; /* Peso (normal, bold, 100–900) */\nfont-style: italic; /* Estilo (normal, italic, oblique) */\nline-height: 1.5; /* Altura de línea */\nletter-spacing: 1px; /* Espaciado entre letras */\nword-spacing: 5px; /* Espaciado entre palabras */",
             },
           },
           {
