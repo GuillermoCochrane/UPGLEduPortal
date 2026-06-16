@@ -7355,9 +7355,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `p {
-  color: blue;
-}`,
+              content: "p {\n  color: blue;\n}",
             },
           },
           {
