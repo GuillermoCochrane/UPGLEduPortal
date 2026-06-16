@@ -7332,10 +7332,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `* {
-  margin: 0;
-  padding: 0;
-}`,
+              content: "* {\n  margin: 0;\n  padding: 0;\n}",
             },
           },
           {
