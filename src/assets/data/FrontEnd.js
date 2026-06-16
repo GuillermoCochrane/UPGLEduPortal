@@ -7281,14 +7281,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `width: 100px; /* Ancho */
-height: 200px; /* Alto */
-max-width: 100%; /* Ancho máximo */
-display: block; /* Bloque:  block, inline, inline-block, none  */
-visibility: hidden; /* Visiblidad sin quitar el espacio */
-position: relative; /* Posición: static, relative, absolute, fixed  */
-top: 10px; left: 20px; /* Posiciónamineto */
-z-index: 1; /* Posición en el eje Z */`,
+              content: "width: 100px; /* Ancho */\nheight: 200px; /* Alto */\nmax-width: 100%; /* Ancho máximo */\ndisplay: block; /* Bloque:  block, inline, inline-block, none  */\nvisibility: hidden; /* Visiblidad sin quitar el espacio */\nposition: relative; /* Posición: static, relative, absolute, fixed  */\ntop: 10px; left: 20px; /* Posiciónamineto */\nz-index: 1; /* Posición en el eje Z */",
             },
           },
           {
