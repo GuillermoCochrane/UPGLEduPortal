@@ -7268,12 +7268,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `background-color: #f0f0f0; /* Color de fondo */
-background-image: url("img.jpg"); /* Imagen de fondo */
-background-repeat: no-repeat; /* Repetición: repeat, no-repeat, repeat-x, repeat-y  */
-background-size: cover; /* Escalado: cover, contain, auto*/
-background-position: center center; /* Posición de la imagen */
-background-attachment: fixed; /* Fijar al hacer scroll */`,
+              content: "background-color: #f0f0f0; /* Color de fondo */\nbackground-image: url(\"img.jpg\"); /* Imagen de fondo */\nbackground-repeat: no-repeat; /* Repetición: repeat, no-repeat, repeat-x, repeat-y  */\nbackground-size: cover; /* Escalado: cover, contain, auto*/\nbackground-position: center center; /* Posición de la imagen */\nbackground-attachment: fixed; /* Fijar al hacer scroll */",
             },
           },
           {
