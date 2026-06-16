@@ -7292,9 +7292,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `cursor: pointer; /* Cursor: default, pointer, wait, text, move, not-allowed */
-pointer-events: none /* Habilita o deshabilita eventos del puntero */;
-user-select: none /* Deshabilita la selección de texto */;`,
+              content: "cursor: pointer; /* Cursor: default, pointer, wait, text, move, not-allowed */\npointer-events: none; /* Habilita o deshabilita eventos del puntero */\nuser-select: none; /* Deshabilita la selección de texto */",
             },
           },
           {
