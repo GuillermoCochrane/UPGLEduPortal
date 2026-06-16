@@ -7379,9 +7379,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `.card {
-  border: 1px solid black;
-}`,
+              content: ".card {\n  border: 1px solid black;\n}",
             },
           },
           {
