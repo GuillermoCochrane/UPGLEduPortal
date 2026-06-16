@@ -7303,14 +7303,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `overflow: hidden /* Controla el desbordado */;
-opacity: 0.5; /* Controla la transparencia: de 0 a 1 */;
-visibility: visible /* Controla la visibilidad: visible,  hidden */;
-clip-path: circle(50%); /* Recorta formas */
-::selection { /* Cambia el color del texto seleccionado */
-  color: white;
-  background: #3498db;
-}`,
+              content: "overflow: hidden; /* Controla el desbordado */\nopacity: 0.5; /* Controla la transparencia: de 0 a 1 */\nvisibility: visible; /* Controla la visibilidad: visible, hidden */\nclip-path: circle(50%); /* Recorta formas */\n::selection {\n  color: white;\n  background: #3498db;\n}",
             },
           },
         ],
