@@ -7614,9 +7614,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `a:hover {
-  text-decoration: underline;
-}`,
+              content: "a:hover {\n  text-decoration: underline;\n}",
             },
           },
           {
