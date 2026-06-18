@@ -7534,9 +7534,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `h1 + p {
-  margin-top: 0;
-}`,
+              content: "h1 + p {\n  margin-top: 0;\n}",
             },
           },
           {
