@@ -7594,9 +7594,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `h1, h2, h3 {
-  font-family: sans-serif;
-}`,
+              content: "h1, h2, h3 {\n  font-family: sans-serif;\n}",
             },
           },
           {
