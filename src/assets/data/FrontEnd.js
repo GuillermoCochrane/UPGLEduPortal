@@ -7406,17 +7406,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `input[type="text"] {
-    border: 1px solid green;
-}
-
-a[target] {
-    text-decoration: none;
-}
-
-img[alt="logo"] {
-    width: 100px;
-}`,
+              content: "input[type=\"text\"] {\n  border: 1px solid green;\n}\n\na[target] {\n  text-decoration: none;\n}\n\nimg[alt=\"logo\"] {\n  width: 100px;\n}",
             },
           },
           {
