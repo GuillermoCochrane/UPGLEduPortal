@@ -7504,9 +7504,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `ul > li {
-  list-style: square;
-}`,
+              content: "ul > li {\n  list-style: square;\n}",
             },
           },
           {
