@@ -7564,9 +7564,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `h2 ~ p {
-  color: gray;
-}`,
+              content: "h2 ~ p {\n  color: gray;\n}",
             },
           },
           {
