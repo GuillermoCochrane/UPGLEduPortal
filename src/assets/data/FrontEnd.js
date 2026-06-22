@@ -8860,66 +8860,7 @@ const classes = [
               {
                 alt: "Solución CSS",
                 language: "css",
-                content: `body {
-  background-color: #ebebeb;
-  color: #444;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-main {
-  height: 100vh; /* ocupa todo el alto de la ventana */
-  display: flex; /* Contenenedor en modo de diseño de flexible */
-  justify-content: center; /* Alineación horizontal centrada */
-  align-items: center; /* Alineación vertical centrada */
-  margin-block: 5%;
-}
-
-.tarjeta-dni {
-  height: auto;
-  width: 600px;
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.info-superior {
-  color: #666;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-family: monospace;
-  margin-bottom: -3px;
-  line-height: 0.2;
-  letter-spacing: -0,2px;
-}
-
-.titulo-seccion {
-  font-size: 10px;
-  margin-bottom: -15px;
-  text-transform: capitalize;
-}
-
-.info-documento {
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.info-horizontal {
-  margin-bottom: 15px;
-  margin-top: -15px;
-  margin-left: -3px;
-}
-
-.info-horizontal p {
-  margin-right: 2px;
-}
-
-#pais {
-  font-size: 20px;
-  font-weight: bolder;
-}`,
+                content: "body {\n  background-color: #ebebeb;\n  color: #444;\n  font-family: Arial, Helvetica, sans-serif;\n  margin: 0;\n  box-sizing: border-box;\n}\n\nmain {\n  height: 100vh; /* Alto total */\n  display: flex; /* Flexbox layout */\n  justify-content: center; /* Centrar horizontal */\n  align-items: center; /* Centrar vertical */\n  margin-block: 5%;\n}\n\n.tarjeta-dni {\n  height: auto;\n  width: 600px;\n  background-color: #fff;\n  border-radius: 10px;\n  padding: 20px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n}\n\n.info-superior {\n  color: #666;\n  text-transform: uppercase;\n  font-size: 14px;\n  font-family: monospace;\n  margin-bottom: -3px;\n  line-height: 0.2;\n  letter-spacing: -0.2px;\n}\n\n.titulo-seccion {\n  font-size: 10px;\n  margin-bottom: -15px;\n  text-transform: capitalize;\n}\n\n.info-documento {\n  text-transform: uppercase;\n  margin-bottom: 10px;\n}\n\n.info-horizontal {\n  margin-bottom: 15px;\n  margin-top: -15px;\n  margin-left: -3px;\n}\n\n.info-horizontal p {\n  margin-right: 2px;\n}\n\n#pais {\n  font-size: 20px;\n  font-weight: bolder;\n}",
               },
             ],
           },
