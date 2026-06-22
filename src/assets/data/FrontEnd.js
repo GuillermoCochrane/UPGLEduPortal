@@ -9083,7 +9083,7 @@ const classes = [
           },
           {
             type: "example",
-            height: 40,
+            height: 20,
             width: 150,
             info: [
               {
@@ -9097,18 +9097,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "css",
-                  content: `.fade-in {
-  width: 100%;
-  text-align: center;
-  opacity: 0;
-  animation: fadeIn 5s forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}`,
+                  content: ".fade-in {\n  width: 100%;\n  text-align: center;\n  opacity: 0;\n  animation: fadeIn 5s forwards;\n}\n\n@keyframes fadeIn {\n  to {\n    opacity: 1;\n  }\n}",
                 },
               },
             ],
