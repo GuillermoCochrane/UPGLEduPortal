@@ -9031,20 +9031,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "css",
-                  content: `.pulse {
-  width: 100px;
-  height: 100px;
-  background: crimson;
-  margin:auto;
-  border-radius: 50%;
-  animation: pulse 1.5s infinite;
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.1); opacity: 0.7; }
-  100% { transform: scale(1); opacity: 1; }
-}`,
+                  content: ".pulse {\n  width: 100px;\n  height: 100px;\n  background: crimson;\n  margin:auto;\n  margin-top:10px;\n  margin-bottom:auto;\n  border-radius: 50%;\n  animation: pulse 1.5s infinite;\n}\n\n@keyframes pulse {\n  0% { transform: scale(1); opacity: 1; }\n  50% { transform: scale(1.1); opacity: 0.7; }\n  100% { transform: scale(1); opacity: 1; }\n}",
                 },
               },
             ],
