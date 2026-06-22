@@ -8850,65 +8850,7 @@ const classes = [
               {
                 alt: "Solución HTML",
                 language: "html",
-                content: `<body>
-  <header>
-    <h1>Mi DNI</h1>
-  </header>
-  <main>
-    <section class="tarjeta-dni">
-      <p class="info-superior" id="pais">
-        <strong>
-          Republica Argentina - Mercosur
-        </strong>
-      </p>
-      <p class="info-superior">Registro Nacional de las Personas</p>
-      <p class="info-superior">Ministerio del Interior, obras públicas y vivienda</p>
-      <table>
-        <tr>
-          <td>
-            <figure>
-              <img src="https://avatars.githubusercontent.com/u/105461619?v=4" alt="Foto DNI" width="250px" align="center">
-            </figure>
-            <p class="titulo-seccion">Documento / Document</p>
-            <p class="info-documento"></p>
-              <strong>
-                28.813.563
-              </strong>
-            </p>
-          </td>
-          <td>
-            <p class="titulo-seccion">Apellido / Surname</p>
-            <p class="info-documento">Cochrane</p>
-            <p class="titulo-seccion">Nombre< / First Name</p>
-            <p>Guillermo Alejandro</p>
-            <table class="info-horizontal">
-              <tr>
-                <td>
-                  <p class="titulo-seccion">Sexo / Sex</p>
-                  <p class="info-documento">M</p>
-                </td>
-                <td>
-                  <p class="titulo-seccion">Nacionalidad / Nationality</p>
-                  <p class="info-documento">Argentina</p>
-                </td>
-                <td>
-                  <p class="titulo-seccion">Ejemplar / Sample</p>
-                  <p class="info-documento">A</p>
-                </td>
-              </tr>
-            </table>
-            <p class="titulo-seccion">Fecha de Nacimiento / Date of Birth</p>
-            <p class="info-documento">12 OCT / OCT 1981</p>
-            <p class="titulo-seccion">Fecha de Emisión / Date of Issue</p>
-            <p class="info-documento">28 OCT / OCT 2021</p>
-            <p class="titulo-seccion">Fecha de Vencimiento / Date of Expiry</p>
-            <p class="info-documento">28 OCT / OCT 2026</p>         
-          </td>
-        </tr>
-      </table>
-    </section>
-  </main>
-</body>`,
+                content: "<body>\n  <header>\n    <h1>Mi DNI</h1>\n  </header>\n  <main>\n    <section class=\"tarjeta-dni\">\n      <p class=\"info-superior\" id=\"pais\">\n        <strong>\n          Republica Argentina - Mercosur\n        </strong>\n      </p>\n      <p class=\"info-superior\">\n        Registro Nacional de las Personas\n      </p>\n      <p class=\"info-superior\">\n        Ministerio del Interior, obras públicas\n        y vivienda\n      </p>\n      <table>\n        <tr>\n          <td>\n            <figure>\n              <img\n                src=\"https://avatars.githubusercontent.com/u/105461619?v=4\"\n                alt=\"Foto DNI\"\n                width=\"250px\"\n                align=\"center\"\n                title=\"Foto de Guillermo Cochrane\"\n              />\n            </figure>\n            <p class=\"titulo-seccion\">\n              Documento / Document\n            </p>\n            <p class=\"info-documento\">\n              <strong>\n                28.813.563\n              </strong>\n            </p>\n          </td>\n          <td>\n            <p class=\"titulo-seccion\">\n              Apellido / Surname\n            </p>\n            <p class=\"info-documento\">\n              Cochrane\n            </p>\n            <p class=\"titulo-seccion\">\n              Nombre / First Name\n            </p>\n            <p>\n              Guillermo Alejandro\n            </p>\n            <table class=\"info-horizontal\">\n              <tr>\n                <td>\n                  <p class=\"titulo-seccion\">\n                    Sexo / Sex\n                  </p>\n                  <p class=\"info-documento\">\n                    M\n                  </p>\n                </td>\n                <td>\n                  <p class=\"titulo-seccion\">\n                    Nacionalidad / Nationality\n                  </p>\n                  <p class=\"info-documento\">\n                    Argentina\n                  </p>\n                </td>\n                <td>\n                  <p class=\"titulo-seccion\">\n                    Ejemplar / Sample\n                  </p>\n                  <p class=\"info-documento\">\n                    A\n                  </p>\n                </td>\n              </tr>\n            </table>\n            <p class=\"titulo-seccion\">\n              Fecha de Nacimiento / Date of Birth\n            </p>\n            <p class=\"info-documento\">\n              12 OCT / OCT 1981\n            </p>\n            <p class=\"titulo-seccion\">\n              Fecha de Emisión / Date of Issue\n            </p>\n            <p class=\"info-documento\">\n              28 OCT / OCT 2021\n            </p>\n            <p class=\"titulo-seccion\">\n              Fecha de Vencimiento / Date of Expiry\n            </p>\n            <p class=\"info-documento\">\n              28 OCT / OCT 2026\n            </p>\n          </td>\n        </tr>\n      </table>\n    </section>\n  </main>\n</body>",
               },
             ],
           },
