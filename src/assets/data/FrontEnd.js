@@ -7649,9 +7649,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `div.card#producto[destacado] > h3.titulo {
-  color: gold;
-}`,
+              content: "div.card#producto[destacado] > h3.titulo {\n  color: gold;\n}",
             },
           },
           {
