@@ -9450,38 +9450,21 @@ const classes = [
           },
           {
             type: "example",
-            height: "70",
+            height: "75",
             width: "180",
             info: [
               {
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<button class="button-ui">Botón pro</button>`,
+                  content: "<button class=\"button-ui\">Botón pro</button>",
                 },
               },
               {
                 type: "code",
                 info: {
                   language: "css",
-                  content: `.button-ui {
-  background: linear-gradient(135deg, #ff416c, #ff4b2b);
-  color: white;
-  padding: 1rem 2rem;
-  border: none;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  display: block;
-  margin: auto
-}
-
-.button-ui:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-}`,
+                  content: ".button-ui {\n  background: linear-gradient(135deg, #ff416c, #ff4b2b);\n  color: white;\n  padding: 1rem 2rem;\n  border: none;\n  border-radius: 10px;\n  font-size: 1.2rem;\n  cursor: pointer;\n  transition: transform 0.2s, box-shadow 0.2s;\n  box-shadow: 0 5px 15px rgba(0,0,0,0.2);\n  display: block;\n  margin: auto;\n  margin-top: 10px;\n}\n\n.button-ui:hover {\n  transform: scale(1.05);\n  box-shadow: 0 8px 20px rgba(0,0,0,0.3);\n}",
                 },
               },
             ],
