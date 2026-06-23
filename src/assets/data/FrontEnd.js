@@ -9148,7 +9148,7 @@ const classes = [
           },
           {
             type: "example",
-            height: 40,
+            height: 50,
             width: 150,
             info: [
               {
@@ -9162,16 +9162,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "css",
-                  content: `.scale-up {
-  display: block;
-  margin: auto;
-  transform: scale(0.8);
-  transition: transform 0.5s ease-in-out;
-}
-
-.scale-up:hover {
-  transform: scale(1);
-}`,
+                  content: ".scale-up {\n  display: block;\n  margin: auto;\n  margin-top: 13px;\n  transform: scale(0.8);\n  transition: transform 0.5s ease-in-out;\n}\n\n.scale-up:hover {\n  transform: scale(1);\n}",
                 },
               },
             ],
