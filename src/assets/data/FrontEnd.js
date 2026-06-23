@@ -9930,16 +9930,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<body>
-  <main>
-    <h1>Ejercicio Extra: UI Moderna</h1>
-    <article class="card">
-      <h2>Reflejos del Atardecer</h2>
-      <p>Donde el agua abraza al cielo<br>y el tiempo se vuelve cristal.</p>
-      <button>Sumergirme</button>
-    </article>
-  </main>
-</body>`,
+                  content: "<body>\n  <main>\n    <h1>Ejercicio Extra: UI Moderna</h1>\n    <article class=\"card\">\n      <h2>Reflejos del Atardecer</h2>\n      <p>\n        Donde el agua abraza al cielo\n        <br>\n        y el tiempo se vuelve cristal.\n      </p>\n      <button>Sumergirme</button>\n    </article>\n  </main>\n</body>",
                 },
               },
               {
