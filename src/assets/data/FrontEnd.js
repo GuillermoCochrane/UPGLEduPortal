@@ -9356,13 +9356,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `/* Celulares */
-@media (max-width: 600px) {
-  .responsive-box {
-    background: orange;
-    font-size: 1rem;
-  }
-}`,
+              content: "/* Celulares */\n@media (max-width: 600px) {\n  .responsive-box {\n    background: orange;\n    font-size: 1rem;\n  }\n}",
             },
           },
           {
