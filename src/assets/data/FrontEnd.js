@@ -9336,9 +9336,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<div class="responsive-box">
-  Soy un bloque responsive
-</div>`,
+                  content: "<div class=\"responsive-box\">\n  Soy un bloque responsive\n</div>",
                 },
               },
               {
