@@ -11406,52 +11406,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "javascript",
-                  content: `// Selecciona los elementos de los inputs 
-const rojo = document.getElementById('input-rojo');
-const verde = document.getElementById('input-verde');
-const azul = document.getElementById('input-azul');
-// Selecciona los elementos donde se mostrarán los valores
-const rValue = document.getElementById('valor-rojo');
-const gValue = document.getElementById('valor-verde');
-const bValue = document.getElementById('valor-azul');
-// Selecciona el elemento donde se mostrará el color RGB
-const rgbString = document.getElementById('rgb-salida');
-
-// Actualiza el fondo, los valores y el color de los inputs
-function cambiarColores() {
-    // Obtiene los valores actuales
-    const rojoValor = rojo.value;
-    const verdeValor = verde.value;
-    const azulValor = azul.value;
-
-    // Actualiza los valores mostrados
-    rValue.textContent = rojoValor;
-    gValue.textContent = verdeValor;
-    bValue.textContent = azulValor;
-
-    // Actualiza el fondo de la página y el texto RGB
-    const rgb = \`rgb(\${rojoValor}, \${verdeValor}, \${azulValor})\`;
-    document.body.style.background = rgb;
-    rgbString.textContent = rgb;
-
-    // Actualiza el color de fondo
-    rojo.style.background = \`rgb(\${rojoValor},0,0)\`;
-    verde.style.background = \`rgb(0,\${verdeValor},0)\`;
-    azul.style.background = \`rgb(0,0,\${azulValor})\`;
-
-    // Actualiza el thumb de fondo
-    rojo.style.setProperty('--thumb-color', \`rgb(\${rojoValor},0,0)\`);
-    verde.style.setProperty('--thumb-color', \`rgb(0,\${verdeValor},0)\`);
-    azul.style.setProperty('--thumb-color', \`rgb(0,0,\${azulValor})\`);
-}
-
-// Escucha los cambios en los inputs y actualiza la función
-[rojo, verde, azul].forEach(input => {
-    input.addEventListener('input', cambiarColores);
-});
-
-// Inicializa la función al cargar la página
-cambiarColores();`,
+                  content: "// Selecciona los elementos de los inputs \nconst rojo = document.getElementById('input-rojo');\nconst verde = document.getElementById('input-verde');\nconst azul = document.getElementById('input-azul');\n// Selecciona los elementos donde se mostrarán los valores\nconst rValue = document.getElementById('valor-rojo');\nconst gValue = document.getElementById('valor-verde');\nconst bValue = document.getElementById('valor-azul');\n// Selecciona el elemento donde se mostrará el color RGB\nconst rgbString = document.getElementById('rgb-salida');\n\n// Actualiza el fondo, los valores y el color de los inputs\nfunction cambiarColores() {\n    // Obtiene los valores actuales\n    const rojoValor = rojo.value;\n    const verdeValor = verde.value;\n    const azulValor = azul.value;\n\n    // Actualiza los valores mostrados\n    rValue.textContent = rojoValor;\n    gValue.textContent = verdeValor;\n    bValue.textContent = azulValor;\n\n    // Actualiza el fondo de la página y el texto RGB\n    const rgb = `rgb(${rojoValor}, ${verdeValor}, ${azulValor})`;\n    document.body.style.background = rgb;\n    rgbString.textContent = rgb;\n\n    // Actualiza el color de fondo\n    rojo.style.background = `rgb(${rojoValor},0,0)`;\n    verde.style.background = `rgb(0,${verdeValor},0)`;\n    azul.style.background = `rgb(0,0,${azulValor})`;\n\n    // Actualiza el thumb de fondo\n    rojo.style.setProperty('--thumb-color', `rgb(${rojoValor},0,0)`);\n    verde.style.setProperty('--thumb-color', `rgb(0,${verdeValor},0)`);\n    azul.style.setProperty('--thumb-color', `rgb(0,0,${azulValor})`);\n}\n\n// Escucha los cambios en los inputs y actualiza la función\n[rojo, verde, azul].forEach(input => {\n    input.addEventListener('input', cambiarColores);\n});\n\n// Inicializa la función al cargar la página\ncambiarColores();",
                   title: "Lógica JavaScript",
                 },
               },
