@@ -11398,66 +11398,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "css",
-                  content: `body {
-    transition: background 0.3s;
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.color-control {
-    margin: 20px auto;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.color-label {
-    width: 40px;
-}
-
-.value {
-    width: 40px;
-    font-weight: bold;
-}
-
-.rgb-preview {
-    margin: 30px auto;
-    padding: 20px;
-    border-radius: 10px;
-    background: #fff;
-    width: 320px;
-    box-shadow: 0 2px 8px #0002;
-}
-
-input[type="range"] {
-    width: 200px;
-    -webkit-appearance: none;
-    background: #fff;
-    border: none;
-    height: 4px;    
-    border-radius: 2px;
-    outline: none;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background: rgb(154, 107, 107);
-    cursor: pointer;
-    background: var(--thumb-color, rgb(154, 107, 107));
-}
-
-`,
+                  content: "body {\n    transition: background 0.3s;\n    font-family: Arial, sans-serif;\n    min-height: 100vh;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    text-align: center;\n}\n\n.color-control {\n    margin: 20px auto;\n    width: 300px;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n}\n\n.color-label {\n    width: 40px;\n}\n\n.value {\n    width: 40px;\n    font-weight: bold;\n}\n\n.rgb-preview {\n    margin: 30px auto;\n    padding: 20px;\n    border-radius: 10px;\n    background: #fff;\n    width: 320px;\n    box-shadow: 0 2px 8px #0002;\n}\n\ninput[type=\"range\"] {\n    width: 200px;\n    -webkit-appearance: none;\n    background: #fff;\n    border: none;\n    height: 4px;\n    border-radius: 2px;\n    outline: none;\n}\n\ninput[type=\"range\"]::-webkit-slider-thumb {\n    -webkit-appearance: none;\n    appearance: none;\n    width: 16px;\n    height: 16px;\n    border-radius: 50%;\n    background: rgb(154, 107, 107);\n    cursor: pointer;\n    background: var(--thumb-color, rgb(154, 107, 107));\n}",
                   title: "Estilos CSS",
                 },
               },
