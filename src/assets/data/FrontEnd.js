@@ -9376,12 +9376,7 @@ const classes = [
             type: "code",
             info: {
               language: "css",
-              content: `/* Tablets */
-@media (min-width: 601px) and (max-width: 1024px) {
-  .responsive-box {
-    background: royalblue;
-  }
-}`,
+              content: "/* Tablets */\n@media (min-width: 601px) and (max-width: 1024px) {\n  .responsive-box {\n    background: royalblue;\n  }\n}",
             },
           },
           {
