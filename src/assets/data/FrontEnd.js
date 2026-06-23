@@ -11390,28 +11390,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<body>
-    <h1>Controla el color de fondo con RGB</h1>
-    <div class="color-control">
-        <label class="color-label" id="r-label">Rojo</label>
-        <input type="range" id="input-rojo" min="0" max="255" value="128">
-        <label class="value" id="valor-rojo">128</label>
-    </div>
-    <div class="color-control">
-        <label class="color-label" id="g-label">Verde</label>
-        <input type="range" id="input-verde" min="0" max="255" value="128">
-        <label class="value" id="valor-verde">128</label>
-    </div>
-    <div class="color-control">
-        <label class="color-label" id="b-label">Azul</label>
-        <input type="range" id="input-azul" min="0" max="255" value="128">
-        <label class="value" id="valor-azul">128</label>
-    </div>
-    <div class="rgb-preview">
-        <strong>RGB:</strong> <label id="rgb-salida">rgb(128, 128, 128)</label>
-    </div>
-    <script src="script.js"></script>
-</body>`,
+                  content: "<body>\n    <h1>Controla el color de fondo con RGB</h1>\n    <div class=\"color-control\">\n        <label class=\"color-label\" id=\"r-label\">Rojo</label>\n        <input\n          type=\"range\"\n          id=\"input-rojo\"\n          min=\"0\"\n          max=\"255\"\n          value=\"128\"\n        >\n        <label class=\"value\" id=\"valor-rojo\">128</label>\n    </div>\n    <div class=\"color-control\">\n        <label class=\"color-label\" id=\"g-label\">Verde</label>\n        <input\n          type=\"range\"\n          id=\"input-verde\"\n          min=\"0\"\n          max=\"255\"\n          value=\"128\"\n        >\n        <label class=\"value\" id=\"valor-verde\">128</label>\n    </div>\n    <div class=\"color-control\">\n        <label class=\"color-label\" id=\"b-label\">Azul</label>\n        <input\n          type=\"range\"\n          id=\"input-azul\"\n          min=\"0\"\n          max=\"255\"\n          value=\"128\"\n        >\n        <label class=\"value\" id=\"valor-azul\">128</label>\n    </div>\n    <div class=\"rgb-preview\">\n        <strong>RGB:</strong> <label id=\"rgb-salida\">rgb(128, 128, 128)</label>\n    </div>\n    <script src=\"script.js\"></script>\n</body>",
                   title: "Estructura HTML",
                 },
               },
