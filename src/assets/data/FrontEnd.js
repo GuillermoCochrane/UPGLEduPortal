@@ -9937,75 +9937,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "css",
-                  content: `body {
-  background: url('https://img.freepik.com/foto-gratis/arbol-solitario_181624-46361.jpg') no-repeat center center/cover;
-  min-height: 96vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ddd;
-  text-align: center;
-}
-
-main {
-  width: 100%;
-  margin: auto;
-}
-
-.card {
-  font-family: 'Playfair Display', serif; 
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 1.5rem;
-  color: darkblue;
-  width: 200px;
-  margin: auto;
-  opacity: 0;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-  animation: fadeIn 5s forwards
-}
-
-h2 { 
-  font-size: 1.5rem;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-
-button {
-    background: linear-gradient(120deg, #023480,  #227aff);
-    color: white;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-}
-
-@media (min-width: 600px){
-  .card {
-    width: 40%;
-    max-width: 400px;
-    padding: 2rem;
-  }
-  h2 { font-size: 2rem; }
-  p { font-size: 1.5rem; }
-}`,
+                  content: "body {\n  background: url('https://img.freepik.com/foto-gratis/arbol-solitario_181624-46361.jpg') no-repeat center center/cover;\n  min-height: 96vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-family: Arial, Helvetica, sans-serif;\n  color: #ddd;\n  text-align: center;\n}\n\nmain {\n  width: 100%;\n  margin: auto;\n}\n\n.card {\n  font-family: 'Playfair Display', serif;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n  background: rgba(255, 255, 255, 0.1);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 15px;\n  border: 1px solid rgba(255, 255, 255, 0.3);\n  padding: 1.5rem;\n  color: darkblue;\n  width: 200px;\n  margin: auto;\n  opacity: 0;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);\n  animation: fadeIn 5s forwards;\n}\n\nh2 {\n  font-size: 1.5rem;\n}\n\n@keyframes fadeIn {\n  to {\n    opacity: 1;\n  }\n}\n\nbutton {\n  background: linear-gradient(120deg, #023480, #227aff);\n  color: white;\n  padding: 1rem 2rem;\n  border: none;\n  border-radius: 10px;\n  font-size: 1.2rem;\n  cursor: pointer;\n  transition: transform 0.2s, box-shadow 0.2s;\n  box-shadow: 0 5px 15px rgba(0,0,0,0.2);\n}\n\nbutton:hover {\n  transform: scale(1.05);\n  box-shadow: 0 8px 20px rgba(0,0,0,0.3);\n}\n\n@media (min-width: 600px){\n  .card {\n    width: 40%;\n    max-width: 400px;\n    padding: 2rem;\n  }\n  h2 { font-size: 2rem; }\n  p { font-size: 1.5rem; }\n}",
                 },
               },
             ],
