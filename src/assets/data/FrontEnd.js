@@ -9220,24 +9220,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "css",
-                  content: `body {
-  background: url('https://picsum.photos/800/600') no-repeat center center/cover;
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.glass {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 2rem;
-  color: white;
-  width: 300px;
-  margin: auto;
-}`,
+                  content: "body {\n  background: url('https://picsum.photos/800/600') no-repeat center center/cover;\n  height: 90vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.glass {\n  background: rgba(255, 255, 255, 0.1);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 15px;\n  border: 1px solid rgba(255, 255, 255, 0.3);\n  padding: 2rem;\n  color: white;\n  width: 300px;\n  margin: auto;\n}",
                 },
               },
             ],
