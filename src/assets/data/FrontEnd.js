@@ -9343,28 +9343,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "css",
-                  content: `.responsive-box {
-    background: teal;
-    color: white;
-    padding: 2rem;
-    font-size: 1.2rem;
-    text-align: center;
-}
-
-/* Teléfonos */
-@media (max-width: 600px) {
-  .responsive-box {
-      background: orange;
-      font-size: 1rem;
-  }
-}
-
-/* Tablets */
-@media (min-width: 601px) and (max-width: 1024px) {
-  .responsive-box {
-      background: royalblue;
-  }
-}`,
+                  content: ".responsive-box {\n    background: teal;\n    color: white;\n    margin-top: 10px;\n    padding: 2rem;\n    font-size: 1.2rem;\n    text-align: center;\n}\n\n/* Teléfonos */\n@media (max-width: 600px) {\n  .responsive-box {\n      background: orange;\n      font-size: 1rem;\n  }\n}\n\n/* Tablets */\n@media (min-width: 601px) and (max-width: 1024px) {\n  .responsive-box {\n      background: royalblue;\n  }\n}",
                 },
               },
             ],
