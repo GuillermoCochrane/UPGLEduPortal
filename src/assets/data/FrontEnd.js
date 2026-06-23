@@ -9213,10 +9213,7 @@ const classes = [
                 type: "code",
                 info: {
                   language: "html",
-                  content: `<div class="glass">
-  <h2>Glassmorphism</h2>
-  <p>Este es un div con efecto de vidrio.</p>
-</div>`,
+                  content: "<div class=\"glass\">\n  <h2>Glassmorphism</h2>\n  <p>Este es un div con efecto de vidrio.</p>\n</div>",
                 },
               },
               {
