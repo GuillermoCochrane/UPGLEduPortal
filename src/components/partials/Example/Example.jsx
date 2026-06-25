@@ -63,6 +63,17 @@ function Example({ Data, height = "auto", width = "100%", title = "Ejemplo", has
 
   return (
     <section className="example-wrapper">
+      <details open>
+        <summary>Ejemplo renderizado</summary>
+        <iframe
+          srcDoc={iframeContent}
+          sandbox={sandboxType}
+          className="preview-iframe"
+          title={title}
+          height={height}
+          width={width}
+        />
+      </details>
       {/* Renderiza cada bloque de código bloque a bloque */}
       {
         Data.map((data, index) => {
@@ -75,18 +86,6 @@ function Example({ Data, height = "auto", width = "100%", title = "Ejemplo", has
           );
         })
       }
-
-      <details open>
-        <summary>Ejemplo renderizado</summary>
-        <iframe
-          srcDoc={iframeContent}
-          sandbox={sandboxType}
-          className="preview-iframe"
-          title={title}
-          height={height}
-          width={width}
-        />
-      </details>
     </section>
   );
 }
