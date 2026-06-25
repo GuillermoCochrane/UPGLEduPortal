@@ -14466,15 +14466,28 @@ const classes = [
               },
             ],
           },
-          { 
-            type: "answer", // Modificar para usar Example en lugar de Code
-            info: [
-              {
-                alt: "Crear un layout responsivo",
-                language: "html",
-                content: '<div class="container">\n  <header class="row">\n    <div class="col-12">Header</div>\n  </header>\n  <main class="row">\n    <div class="col-md-8">Contenido</div>\n    <div class="col-md-4">Sidebar</div>\n  </main>\n  <footer class="row">\n    <div class="col-12">Footer</div>\n  </footer>\n</div>',
-              },
-            ]
+          {
+            type: "answer",
+            info: {
+              title: "Crear un layout responsivo",
+              content: [
+                {
+                  type: "example",
+                  height: "200",
+                  width: "100%",
+                  hasBT: true,
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<div class=\"container\">\n  <header class=\"row\">\n    <div class=\"col-12\">Header</div>\n  </header>\n  <main class=\"row\">\n    <div class=\"col-md-8\">Contenido</div>\n    <div class=\"col-md-4\">Sidebar</div>\n  </main>\n  <footer class=\"row\">\n    <div class=\"col-12\">Footer</div>\n  </footer>\n</div>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           },
         ],
       },
