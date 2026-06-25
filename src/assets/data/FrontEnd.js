@@ -1896,13 +1896,25 @@ const classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                alt: "Solución ejercicio 1",
-                language: "html",
-                content: "<body>\n  <h1>Bienvenido al curso de programación Front End de la UPGL</h1>\n  <hr>\n  <h2>¡Hola! Soy Guillermo Cochrane</h2>\n  <br>\n  <p>Esta es mi primera página web</p>\n</body>",
-              },
-            ],
+            info: {
+              title: "Solución ejercicio 1",
+              content: [
+                {
+                  type: "example",
+                  height: "220",
+                  width: "100%",
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<body>\n  <h1>Bienvenido al curso de programación Front End de la UPGL</h1>\n  <hr>\n  <h2>¡Hola! Soy Guillermo Cochrane</h2>\n  <br>\n  <p>Esta es mi primera página web</p>\n</body>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           },
           {
             type: "h4",
