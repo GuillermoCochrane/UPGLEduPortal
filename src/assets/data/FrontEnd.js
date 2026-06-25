@@ -6978,7 +6978,7 @@ const classes = [
                       content: [
                         {
                           type: "example",
-                          height: "3500",
+                          height: "3550",
                           width: "100%",
                           info: [
                             {
@@ -7040,13 +7040,25 @@ const classes = [
                   },
                   {
                     type: "answer",
-                    info: [
-                      {
-                        alt: "Solución de la página de sobre mí",
-                        language: "html",
-                        content: "<body>\n  <header>\n  <div>\n    <button>Barra de Navegación</button>\n    <div>\n      <h1>La guarida del desarrolador</h1>\n      <p>\n        Tu lugar donde mantenerte actualizado\n        sobre tecnologías y programación\n      </p>\n    </div>\n    <button>Barra Lateral</button>\n  </div>\n  <nav>\n    <ul>\n      <li>\n        <a href=\"./index.html\">Home</a>\n      </li>\n      <li>\n        <a href=\"./articulo1.html\">Artículos</a>\n      </li>\n      <li>\n        <a href=\"./sobre-mi.html\">Sobre Mi</a>\n      </li>\n      <li>\n        <a href=\"./contacto.html\">Contacto</a>\n      </li>\n    </ul>\n  </nav>\n</header>\n<main>\n  <section>\n    <h2>Sobre mi</h2>\n    <img\n      src=\"https://avatars.githubusercontent.com/u/105461619?v=4\"\n      alt=\"Foto de Guillermo Cochrane, Full Stack Developer\"\n      width=\"300\"\n      align=\"center\"\n      title=\"Guillermo Cochrane\"\n    >\n    <p>\n      ¡Hola! Soy Guillermo Cochrane.\n      <em>Genio, millonario, playboy, filántropo.</em>\n      Ah, no ese era Tony Stark jaja. No tengo traje high tech,\n      pero sí consola, teclado y la costumbre de cuestionarlo todo.\n    </p>\n    <p>\n      Soy <strong>Full Stack Developer</strong> y llevo 2 años\n      peleando con código, pero siempre le encuentro la vuelta.\n      No vengo del lado académico. Aprendí leyendo, probando,\n      rompiendo, arreglando. Y ahí me di cuenta: aprender a\n      programar es, en realidad, aprender a pensar.\n    </p>\n    <p>\n      Y El código me enseñó algo : los sistemas parecen cerrados…\n      hasta que encontrás una grieta. Y no es una metáfora:\n      pasa en todos los planos. Nada es absoluto, todo es relativo.\n    </p>\n    <p>\n      Desde chico siempre me gustó entender cómo funcionan las cosas.\n      La programación fue mi epifanía:\n      ¡una mezcla perfecta entre lógica, desafíos y creatividad!\n    </p>\n    <p>\n      Autodidacta, fan de la tecnología, las series y los juegos RPG.\n      Estas son mis armas favoritas para sobrevivir al caos digital:\n    </p>\n    <ul>\n      <li>\n        <strong>Node.js</strong> (Express + Sequelize) — porque escribir\n        SQL a mano es como usar DOS en 2024 —\n      </li>\n      <li><strong>MySQL</strong></li>\n      <li><strong>React</strong> (sufrir con elegancia)</li>\n      <li><strong>Python/WordPress</strong> \"por si acaso... y otros etcéteras\"</li>\n    </ul>\n    <p>Total, el conocimiento no ocupa lugar.</p>\n    <p>\n      <em>\n        \"Si la tecnología fuera fácil, no tendría gracia.\n        Nada como un buen desafío para quemar neuronas.\"\n      </em>\n    </p>\n    \n    <nav role=\"contentinfo\">\n      <h3>Seguime en:</h3>\n      <ul>\n        <li><a href=\"https://www.instagram.com/liam.cochrane43/\">Instagram</a></li>\n        <li><a href=\"https://ar.linkedin.com/in/guillermo-cochrane\">Linkedin</a></li>\n        <li><a href=\"https://github.com/GuillermoCochrane\">GitHub</a></li>\n      </ul>\n    </nav>\n  </section>\n</main>\n</body>",
-                      },
-                    ],
+                    info: {
+                      title: "Solución de la página de sobre mí",
+                      content: [
+                        {
+                          type: "example",
+                          height: "1170",
+                          width: "100%",
+                          info: [
+                            {
+                              type: "code",
+                              info: {
+                                language: "html",
+                                content: "<body>\n  <header>\n  <div>\n    <button>Barra de Navegación</button>\n    <div>\n      <h1>La guarida del desarrolador</h1>\n      <p>\n        Tu lugar donde mantenerte actualizado\n        sobre tecnologías y programación\n      </p>\n    </div>\n    <button>Barra Lateral</button>\n  </div>\n  <nav>\n    <ul>\n      <li>\n        <a href=\"./index.html\">Home</a>\n      </li>\n      <li>\n        <a href=\"./articulo1.html\">Artículos</a>\n      </li>\n      <li>\n        <a href=\"./sobre-mi.html\">Sobre Mi</a>\n      </li>\n      <li>\n        <a href=\"./contacto.html\">Contacto</a>\n      </li>\n    </ul>\n  </nav>\n</header>\n<main>\n  <section>\n    <h2>Sobre mi</h2>\n    <img\n      src=\"https://avatars.githubusercontent.com/u/105461619?v=4\"\n      alt=\"Foto de Guillermo Cochrane, Full Stack Developer\"\n      width=\"300\"\n      align=\"center\"\n      title=\"Guillermo Cochrane\"\n    >\n    <p>\n      ¡Hola! Soy Guillermo Cochrane.\n      <em>Genio, millonario, playboy, filántropo.</em>\n      Ah, no ese era Tony Stark jaja. No tengo traje high tech,\n      pero sí consola, teclado y la costumbre de cuestionarlo todo.\n    </p>\n    <p>\n      Soy <strong>Full Stack Developer</strong> y llevo 2 años\n      peleando con código, pero siempre le encuentro la vuelta.\n      No vengo del lado académico. Aprendí leyendo, probando,\n      rompiendo, arreglando. Y ahí me di cuenta: aprender a\n      programar es, en realidad, aprender a pensar.\n    </p>\n    <p>\n      Y El código me enseñó algo : los sistemas parecen cerrados…\n      hasta que encontrás una grieta. Y no es una metáfora:\n      pasa en todos los planos. Nada es absoluto, todo es relativo.\n    </p>\n    <p>\n      Desde chico siempre me gustó entender cómo funcionan las cosas.\n      La programación fue mi epifanía:\n      ¡una mezcla perfecta entre lógica, desafíos y creatividad!\n    </p>\n    <p>\n      Autodidacta, fan de la tecnología, las series y los juegos RPG.\n      Estas son mis armas favoritas para sobrevivir al caos digital:\n    </p>\n    <ul>\n      <li>\n        <strong>Node.js</strong> (Express + Sequelize) — porque escribir\n        SQL a mano es como usar DOS en 2024 —\n      </li>\n      <li><strong>MySQL</strong></li>\n      <li><strong>React</strong> (sufrir con elegancia)</li>\n      <li><strong>Python/WordPress</strong> \"por si acaso... y otros etcéteras\"</li>\n    </ul>\n    <p>Total, el conocimiento no ocupa lugar.</p>\n    <p>\n      <em>\n        \"Si la tecnología fuera fácil, no tendría gracia.\n        Nada como un buen desafío para quemar neuronas.\"\n      </em>\n    </p>\n    \n    <nav role=\"contentinfo\">\n      <h3>Seguime en:</h3>\n      <ul>\n        <li><a href=\"https://www.instagram.com/liam.cochrane43/\">Instagram</a></li>\n        <li><a href=\"https://ar.linkedin.com/in/guillermo-cochrane\">Linkedin</a></li>\n        <li><a href=\"https://github.com/GuillermoCochrane\">GitHub</a></li>\n      </ul>\n    </nav>\n  </section>\n</main>\n</body>",
+                              },
+                            },
+                          ],
+                        },
+                      ],
+                    },
                   },
                 ],
               },
@@ -7097,16 +7109,6 @@ const classes = [
                             content: "plain",
                           },
                         ],
-                      },
-                    ],
-                  },
-                  {
-                    type: "answer",
-                    info: [
-                      {
-                        alt: "Solución de la página de contacto",
-                        language: "html",
-                        content: "<body>\n  <header>\n    <div>\n      <button>Barra de Navegación</button>\n      <div>\n        <h1>La guarida del desarrolador</h1>\n        <p>\n          Tu lugar donde mantenerte actualizado\n          sobre tecnologías y programación\n        </p>\n      </div>\n      <button>Barra Lateral</button>\n    </div>\n    <nav>\n      <ul>\n        <li>\n          <a href=\"./index.html\">Home</a>\n        </li>\n        <li>\n          <a href=\"./articulo1.html\">Artículos</a>\n        </li>\n        <li>\n          <a href=\"./sobre-mi.html\">Sobre Mi</a>\n        </li>\n        <li>\n          <a href=\"./contacto.html\">Contacto</a>\n        </li>\n      </ul>\n    </nav>\n  </header>\n  <main>\n    <section>\n      <hr>\n      <h2>Contacto</h2>\n      <form action=\"/\" method=\"post\">\n        <label for=\"nombre\">Nombre:</label>\n        <br>\n        <input\n          type=\"text\"\n          id=\"nombre\"\n          name=\"nombre\"\n          required\n        >\n        <br>\n        <label for=\"apellido\">Apellido:</label>\n        <br>\n        <input\n          type=\"text\"\n          id=\"apellido\"\n          name=\"apellido\"\n          required\n        >\n        <br>\n        <label for=\"email\">Email:</label>\n        <br>\n        <input\n          type=\"email\"\n          id=\"email\"\n          name=\"email\"\n          required\n        >\n        <br>\n        <label for=\"asunto\">Asunto:</label>\n        <br>\n        <input type=\"text\" id=\"asunto\" name=\"asunto\">\n        <br>\n        <label for=\"mensaje\">Mensaje:</label>\n        <br>\n        <textarea\n          name=\"mensaje\"\n          id=\"mensaje\"\n          cols=\"30\"\n          rows=\"10\"\n          required\n        ></textarea>\n        <br>\n        <label for=\"suscripcion\">Suscribirse a este boletín:</label>\n        <input type=\"checkbox\" id=\"suscripcion\" name=\"suscripcion\">\n        <br>\n        <button type=\"submit\">Enviar</button>\n      </form>\n      <hr>\n    </section>\n  </main>\n  <footer>\n    <p>\n      Copyright <strong>&copy;<time datetime=\"2025-6-03\">2025</time></strong>\n      by <a href=\"https://ar.linkedin.com/in/guillermo-cochrane\">Guillermo Cochrane</a>.\n    </p>\n    <nav role=\"contentinfo\">\n      <h2>Seguime en:</h2>\n      <ul>\n        <li><a href=\"https://www.instagram.com/liam.cochrane43/\">Instagram</a></li>\n        <li><a href=\"https://ar.linkedin.com/in/guillermo-cochrane\">Linkedin</a></li>\n        <li><a href=\"https://github.com/GuillermoCochrane\">GitHub</a></li>\n      </ul>\n    </nav>\n  </footer>\n</body>",
                       },
                     ],
                   },
