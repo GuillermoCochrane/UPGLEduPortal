@@ -2888,13 +2888,25 @@ const classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                alt: "Solución formulario de contacto",
-                language: "html",
-                content: "<body>\n  <h1>Formulario de contacto</h1>\n  <br>\n  <form action=\"/\" method=\"post\">\n    <hr>\n    <label for=\"nombre\">Nombre:</label>\n    <br>\n    <input type=\"text\" id=\"nombre\" name=\"nombre\" required>\n    <hr>\n    <label for=\"correo\">Correo electrónico:</label>\n    <br>\n    <input type=\"email\" id=\"correo\" name=\"correo\" required>\n    <hr>\n    <label for=\"mensaje\">Mensaje:</label>\n    <br>\n    <textarea id=\"mensaje\" name=\"mensaje\" required></textarea>\n    <hr>\n    <button type=\"submit\">Enviar</button>\n  </form>\n</body>",
-              },
-            ],
+            info: {
+              title: "Solución formulario de contacto",
+              content: [
+                {
+                  type: "example",
+                  height: "350",
+                  width: "100%",
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<body>\n  <h1>Formulario de contacto</h1>\n  <br>\n  <form action=\"/\" method=\"post\">\n    <hr>\n    <label for=\"nombre\">Nombre:</label>\n    <br>\n    <input type=\"text\" id=\"nombre\" name=\"nombre\" required>\n    <hr>\n    <label for=\"correo\">Correo electrónico:</label>\n    <br>\n    <input type=\"email\" id=\"correo\" name=\"correo\" required>\n    <hr>\n    <label for=\"mensaje\">Mensaje:</label>\n    <br>\n    <textarea id=\"mensaje\" name=\"mensaje\" required></textarea>\n    <hr>\n    <button type=\"submit\">Enviar</button>\n  </form>\n</body>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           },
         ],
       },
