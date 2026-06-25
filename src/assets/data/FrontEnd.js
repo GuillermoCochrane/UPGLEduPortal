@@ -14260,13 +14260,18 @@ const classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                alt: "Crear un archivo HTML vacío",
-                language: "html",
-                content:"<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n <meta charset=\"UTF-8\">\n <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n</head>\n<body>\n <button class=\"btn btn-primary\">Mi primer botón Bootstrap</button>\n <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\"></script>\n</body>\n</html>",
-              },
-            ]
+            info: {
+              title: "Crear un archivo HTML vacío",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "html",
+                    content: "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n <meta charset=\"UTF-8\">\n <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n</head>\n<body>\n <button class=\"btn btn-primary\">Mi primer botón Bootstrap</button>\n <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js\"></script>\n</body>\n</html>",
+                  },
+                },
+              ],
+            },
           },
         ]
       },
