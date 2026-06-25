@@ -7112,6 +7112,28 @@ const classes = [
                       },
                     ],
                   },
+                  {
+                    type: "answer",
+                    info: {
+                      title: "Solución de la página de contacto",
+                      content: [
+                        {
+                          type: "example",
+                          height: "900",
+                          width: "100%",
+                          info: [
+                            {
+                              type: "code",
+                              info: {
+                                language: "html",
+                                content: "<body>\n  <header>\n    <div>\n      <button>Barra de Navegación</button>\n      <div>\n        <h1>La guarida del desarrolador</h1>\n        <p>\n          Tu lugar donde mantenerte actualizado\n          sobre tecnologías y programación\n        </p>\n      </div>\n      <button>Barra Lateral</button>\n    </div>\n    <nav>\n      <ul>\n        <li>\n          <a href=\"./index.html\">Home</a>\n        </li>\n        <li>\n          <a href=\"./articulo1.html\">Artículos</a>\n        </li>\n        <li>\n          <a href=\"./sobre-mi.html\">Sobre Mi</a>\n        </li>\n        <li>\n          <a href=\"./contacto.html\">Contacto</a>\n        </li>\n      </ul>\n    </nav>\n  </header>\n  <main>\n    <section>\n      <hr>\n      <h2>Contacto</h2>\n      <form action=\"/\" method=\"post\">\n        <label for=\"nombre\">Nombre:</label>\n        <br>\n        <input\n          type=\"text\"\n          id=\"nombre\"\n          name=\"nombre\"\n          required\n        >\n        <br>\n        <label for=\"apellido\">Apellido:</label>\n        <br>\n        <input\n          type=\"text\"\n          id=\"apellido\"\n          name=\"apellido\"\n          required\n        >\n        <br>\n        <label for=\"email\">Email:</label>\n        <br>\n        <input\n          type=\"email\"\n          id=\"email\"\n          name=\"email\"\n          required\n        >\n        <br>\n        <label for=\"asunto\">Asunto:</label>\n        <br>\n        <input type=\"text\" id=\"asunto\" name=\"asunto\">\n        <br>\n        <label for=\"mensaje\">Mensaje:</label>\n        <br>\n        <textarea\n          name=\"mensaje\"\n          id=\"mensaje\"\n          cols=\"30\"\n          rows=\"10\"\n          required\n        ></textarea>\n        <br>\n        <label for=\"suscripcion\">Suscribirse a este boletín:</label>\n        <input type=\"checkbox\" id=\"suscripcion\" name=\"suscripcion\">\n        <br>\n        <button type=\"submit\">Enviar</button>\n      </form>\n      <hr>\n    </section>\n  </main>\n  <footer>\n    <p>\n      Copyright <strong>&copy;<time datetime=\"2025-6-03\">2025</time></strong>\n      by <a href=\"https://ar.linkedin.com/in/guillermo-cochrane\">Guillermo Cochrane</a>.\n    </p>\n    <nav role=\"contentinfo\">\n      <h2>Seguime en:</h2>\n      <ul>\n        <li><a href=\"https://www.instagram.com/liam.cochrane43/\">Instagram</a></li>\n        <li><a href=\"https://ar.linkedin.com/in/guillermo-cochrane\">Linkedin</a></li>\n        <li><a href=\"https://github.com/GuillermoCochrane\">GitHub</a></li>\n      </ul>\n    </nav>\n  </footer>\n</body>",
+                              },
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  },
                 ],
               },
             ],
