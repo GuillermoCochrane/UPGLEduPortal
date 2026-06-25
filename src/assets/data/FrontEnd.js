@@ -3708,13 +3708,25 @@ const classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                alt: "Solución galería",
-                language: "html",
-                content: "<body>\n  <h1 id=\"1\">Clase 3 - Ejercicio 2  - Imagenes y enlaces</h1>\n  <hr>\n  <h2>Objetivo: Practicar la inserción de imágenes y la creación de diversos tipos de enlaces</h2>\n  <table border=\"1\" align=\"center\">\n    <tr>\n      <td>\n        <img \n          src=\"https://img.freepik.com/foto-gratis/arbol-solitario_181624-46361.jpg\" \n          alt=\"Arbol Solitario\"\n          width=\"400\"\n        >\n        <p>\n          <a \n            href=\"https://img.freepik.com/foto-gratis/arbol-solitario_181624-46361.jpg\" \n            target=\"_blank\"\n          >Arbol solitario</a>\n        </p>\n      </td>\n      <td>\n        <img \n          src=\"https://img.freepik.com/foto-gratis/toma-aerea-hermosa-orilla-mar-colinas-fondo-al-atardecer_181624-24143.jpg\" \n          alt=\"Orilla del Mar\" \n          width=\"400\"\n        >\n        <p>\n          <a \n            href=\"https://img.freepik.com/foto-gratis/toma-aerea-hermosa-orilla-mar-colinas-fondo-al-atardecer_181624-24143.jpg\" \n            target=\"_blank\"\n          >Orilla del mar</a>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <img \n          src=\"https://img.freepik.com/foto-gratis/paisaje-bosques-lagos-otono_23-2151843646.jpg\" \n          alt=\"Lago en el Bosque\" \n          width=\"400\"\n        >\n        <p>\n          <a \n            href=\"https://img.freepik.com/foto-gratis/paisaje-bosques-lagos-otono_23-2151843646.jpg\" \n            target=\"_blank\"\n          >Lago en el bosque</a>\n        </p>\n      </td>\n      <td>\n        <img \n          src=\"https://img.freepik.com/foto-gratis/puesta-sol-misurina_181624-34793.jpg\" \n          alt=\"Puesta de sol\" \n          width=\"400\"\n        >\n        <p>\n          <a \n            href=\"https://img.freepik.com/foto-gratis/puesta-sol-misurina_181624-34793.jpg\" \n            target=\"_blank\"\n          >Puesta de sol</a>\n        </p>\n      </td>\n    </tr>\n  </table>\n  <footer>\n    <table width=\"100%\">\n      <tr>\n        <td>\n          <a href=\"mailto:guilleac81@gmail.com\">Enviar correo</a>\n        </td>\n        <td>\n          <a href=\"https://www.instagram.com/liam.cochrane43/\">Instagram</a>\n        </td>\n        <td>\n          <a href=\"#1\">Volver al principio</a>\n        </td>\n      </tr>\n    </table>\n  </footer>\n</body>",
-              },
-            ],
+            info: {
+              title: "Solución galería",
+              content: [
+                {
+                  type: "example",
+                  height: "850",
+                  width: "100%",
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<body>\n  <h1 id=\"1\">Clase 3 - Ejercicio 2  - Imagenes y enlaces</h1>\n  <hr>\n  <h2>Objetivo: Practicar la inserción de imágenes y la creación de diversos tipos de enlaces</h2>\n  <table border=\"1\" align=\"center\">\n    <tr>\n      <td>\n        <img \n          src=\"https://img.freepik.com/foto-gratis/arbol-solitario_181624-46361.jpg\" \n          alt=\"Arbol Solitario\"\n          width=\"400\"\n        >\n        <p>\n          <a \n            href=\"https://img.freepik.com/foto-gratis/arbol-solitario_181624-46361.jpg\" \n            target=\"_blank\"\n          >Arbol solitario</a>\n        </p>\n      </td>\n      <td>\n        <img \n          src=\"https://img.freepik.com/foto-gratis/toma-aerea-hermosa-orilla-mar-colinas-fondo-al-atardecer_181624-24143.jpg\" \n          alt=\"Orilla del Mar\" \n          width=\"400\"\n        >\n        <p>\n          <a \n            href=\"https://img.freepik.com/foto-gratis/toma-aerea-hermosa-orilla-mar-colinas-fondo-al-atardecer_181624-24143.jpg\" \n            target=\"_blank\"\n          >Orilla del mar</a>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td>\n        <img \n          src=\"https://img.freepik.com/foto-gratis/paisaje-bosques-lagos-otono_23-2151843646.jpg\" \n          alt=\"Lago en el Bosque\" \n          width=\"400\"\n        >\n        <p>\n          <a \n            href=\"https://img.freepik.com/foto-gratis/paisaje-bosques-lagos-otono_23-2151843646.jpg\" \n            target=\"_blank\"\n          >Lago en el bosque</a>\n        </p>\n      </td>\n      <td>\n        <img \n          src=\"https://img.freepik.com/foto-gratis/puesta-sol-misurina_181624-34793.jpg\" \n          alt=\"Puesta de sol\" \n          width=\"400\"\n        >\n        <p>\n          <a \n            href=\"https://img.freepik.com/foto-gratis/puesta-sol-misurina_181624-34793.jpg\" \n            target=\"_blank\"\n          >Puesta de sol</a>\n        </p>\n      </td>\n    </tr>\n  </table>\n  <footer>\n    <table width=\"100%\">\n      <tr>\n        <td>\n          <a href=\"mailto:guilleac81@gmail.com\">Enviar correo</a>\n        </td>\n        <td>\n          <a href=\"https://www.instagram.com/liam.cochrane43/\">Instagram</a>\n        </td>\n        <td>\n          <a href=\"#1\">Volver al principio</a>\n        </td>\n      </tr>\n    </table>\n  </footer>\n</body>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           },
         ],
       },
