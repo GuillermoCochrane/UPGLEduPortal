@@ -11814,14 +11814,25 @@ const classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "html",
-                content:
-                  '<body>\n  <h1>Ejemplo de JavaScript</h1>\n  <script>\n    alert("Hola mundo");\n    console.log("Hola mundo");\n  </script>\n</body>',
-                alt: "Solución recomendada",
-              },
-            ],
+            info: {
+              title: "Solución recomendada",
+              content: [
+                {
+                  type: "example",
+                  height: "90",
+                  width: "100%",
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<body>\n  <h1>Ejemplo de JavaScript</h1>\n  <script>\n    alert(\"Hola mundo\");\n    console.log(\"Hola mundo\");\n  </script>\n</body>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           },
         ],
       },
