@@ -5455,7 +5455,7 @@ const classes = [
                       content: [
                         {
                           type: "example",
-                          height: "350",
+                          height: "325",
                           width: "100%",
                           info: [
                             {
@@ -5529,7 +5529,7 @@ const classes = [
                       content: [
                         {
                           type: "example",
-                          height: "600",
+                          height: "950",
                           width: "100%",
                           info: [
                             {
@@ -5617,7 +5617,7 @@ const classes = [
                       content: [
                         {
                           type: "example",
-                          height: "550",
+                          height: "580",
                           width: "100%",
                           info: [
                             {
@@ -5688,7 +5688,7 @@ const classes = [
                       content: [
                         {
                           type: "example",
-                          height: "550",
+                          height: "480",
                           width: "100%",
                           info: [
                             {
@@ -5795,13 +5795,25 @@ const classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                alt: "Solución Bonus: formulario adicional",
-                language: "html",
-                content: "<body>\n  <header>\n    <h1>Formulario Bonus</h1>\n    <nav>\n      <a href=\"index.html\">Inicio</a>\n      <a href=\"encuesta-personal.html\">Encuesta personal</a>\n      <a href=\"encuesta-trabajo.html\">Encuesta de trabajo</a>\n      <a href=\"encuesta-satisfaccion.html\">Encuesta de satisfacción</a>\n      <a href=\"formulario-bonus.html\">Formulario Bonus - Actividades</a>\n    </nav>\n  </header>\n\n  <main>\n    <h2>Agendar actividad</h2>\n    <form action=\"#\" method=\"POST\">\n      <fieldset>\n        <legend>Datos de la actividad</legend>\n\n        <input type=\"hidden\" name=\"tipo\" value=\"creativa\">\n\n        <label for=\"titulo\">Título de la actividad:</label>\n        <br>\n        <input \n          type=\"text\" \n          id=\"titulo\" \n          name=\"titulo\" \n          required \n          placeholder=\"Escribir un cuento\" \n          maxlength=\"50\" \n          autofocus\n        >\n        <br>\n\n        <label for=\"color\">Color temático de sección:</label>\n        <br>\n        <input type=\"color\" id=\"color\" name=\"color\">\n        <br>\n\n        <label for=\"fecha-hora\">Fecha y hora programada:</label>\n        <br>\n        <input type=\"datetime-local\" id=\"fecha-hora\" name=\"fecha-hora\" required>\n        <br>\n\n        <label for=\"semana\">Semana estimada de cierre:</label>\n        <br>\n        <input type=\"week\" id=\"semana\" name=\"semana\">\n        <br>\n\n        <label for=\"mes-objetivo\">Mes de publicación:</label>\n        <br>\n        <input type=\"month\" id=\"mes-objetivo\" name=\"mes-objetivo\">\n        <br>\n\n        <label for=\"duracion\">Duración estimada (hs):</label>\n        <br>\n        <input \n          type=\"number\" \n          id=\"duracion\" \n          name=\"duracion\" \n          min=\"0.5\" \n          max=\"24\" \n          step=\"0.5\" \n          required\n        >\n        <br>\n\n        <label for=\"codigo\">Código interno (formato ABC-123):</label>\n        <br>\n        <input \n          type=\"text\" \n          id=\"codigo\" \n          name=\"codigo\" \n          pattern=\"[A-Z]{3}-[0-9]{3}\" \n          placeholder=\"ABC-123\" \n          title=\"Tres letras mayúsculas, guion, tres números\" \n          required\n        >\n        <br>\n\n        <label for=\"archivos\">Adjuntar bosquejos o ideas (PDF o imágenes):</label>\n        <br>\n        <input \n          type=\"file\" \n          id=\"archivos\" \n          name=\"archivos\" \n          accept=\".pdf,image/*\" \n          multiple\n        >\n        <br>\n\n        <label for=\"autor\">Nombre del autor:</label>\n        <br>\n        <input \n          type=\"text\" \n          id=\"autor\" \n          name=\"autor\" \n          value=\"Guille\" \n          readonly\n        >\n        <br>\n      </fieldset>\n\n      <div style=\"margin-top: 1em;\">\n        <button type=\"submit\">Enviar</button>\n        <button type=\"reset\">Limpiar</button>\n      </div>\n    </form>\n  </main>\n</body>",
-              },
-            ],
+            info: {
+              title: "Solución Bonus: formulario adicional",
+              content: [
+                {
+                  type: "example",
+                  height: "600",
+                  width: "100%",
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<body>\n  <header>\n    <h1>Formulario Bonus</h1>\n    <nav>\n      <a href=\"index.html\">Inicio</a>\n      <a href=\"encuesta-personal.html\">Encuesta personal</a>\n      <a href=\"encuesta-trabajo.html\">Encuesta de trabajo</a>\n      <a href=\"encuesta-satisfaccion.html\">Encuesta de satisfacción</a>\n      <a href=\"formulario-bonus.html\">Formulario Bonus - Actividades</a>\n    </nav>\n  </header>\n\n  <main>\n    <h2>Agendar actividad</h2>\n    <form action=\"#\" method=\"POST\">\n      <fieldset>\n        <legend>Datos de la actividad</legend>\n\n        <input type=\"hidden\" name=\"tipo\" value=\"creativa\">\n\n        <label for=\"titulo\">Título de la actividad:</label>\n        <br>\n        <input \n          type=\"text\" \n          id=\"titulo\" \n          name=\"titulo\" \n          required \n          placeholder=\"Escribir un cuento\" \n          maxlength=\"50\" \n          autofocus\n        >\n        <br>\n\n        <label for=\"color\">Color temático de sección:</label>\n        <br>\n        <input type=\"color\" id=\"color\" name=\"color\">\n        <br>\n\n        <label for=\"fecha-hora\">Fecha y hora programada:</label>\n        <br>\n        <input type=\"datetime-local\" id=\"fecha-hora\" name=\"fecha-hora\" required>\n        <br>\n\n        <label for=\"semana\">Semana estimada de cierre:</label>\n        <br>\n        <input type=\"week\" id=\"semana\" name=\"semana\">\n        <br>\n\n        <label for=\"mes-objetivo\">Mes de publicación:</label>\n        <br>\n        <input type=\"month\" id=\"mes-objetivo\" name=\"mes-objetivo\">\n        <br>\n\n        <label for=\"duracion\">Duración estimada (hs):</label>\n        <br>\n        <input \n          type=\"number\" \n          id=\"duracion\" \n          name=\"duracion\" \n          min=\"0.5\" \n          max=\"24\" \n          step=\"0.5\" \n          required\n        >\n        <br>\n\n        <label for=\"codigo\">Código interno (formato ABC-123):</label>\n        <br>\n        <input \n          type=\"text\" \n          id=\"codigo\" \n          name=\"codigo\" \n          pattern=\"[A-Z]{3}-[0-9]{3}\" \n          placeholder=\"ABC-123\" \n          title=\"Tres letras mayúsculas, guion, tres números\" \n          required\n        >\n        <br>\n\n        <label for=\"archivos\">Adjuntar bosquejos o ideas (PDF o imágenes):</label>\n        <br>\n        <input \n          type=\"file\" \n          id=\"archivos\" \n          name=\"archivos\" \n          accept=\".pdf,image/*\" \n          multiple\n        >\n        <br>\n\n        <label for=\"autor\">Nombre del autor:</label>\n        <br>\n        <input \n          type=\"text\" \n          id=\"autor\" \n          name=\"autor\" \n          value=\"Guille\" \n          readonly\n        >\n        <br>\n      </fieldset>\n\n      <div style=\"margin-top: 1em;\">\n        <button type=\"submit\">Enviar</button>\n        <button type=\"reset\">Limpiar</button>\n      </div>\n    </form>\n  </main>\n</body>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           },
         ],
       },
