@@ -3939,13 +3939,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `#Escribir un programa que sume dos números.\n\nnumero1 = 22\nnumero2 = 33\nsumanumeros = numero1 + numero2\nprint("El resultado es:", sumanumeros)`,
-                alt: "Solución ejercicio 2",
-              },
-            ],
+            info: {
+              title: "Solución ejercicio 2",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Escribir un programa que sume dos números.\n\nnumero1 = 22\nnumero2 = 33\nsumanumeros = numero1 + numero2\nprint(\"El resultado es:\", sumanumeros)",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "p",
