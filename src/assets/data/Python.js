@@ -3963,13 +3963,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `#Escribir 3 variables para que guarden Apellido y nombre - Email y telefono, y \n#mostrarlos en pantalla, con el siguiente mensaje:"Hola, Mi nombre es: ..., te paso \n#mi contacto telefonico: ... y # mi email: ..."\n\nnombreApellido = "Walter White"\ntelefono = "+1 (505) 555-0199"\nmail = "walter.white@jpwynnehs.edu"\n\nprint("Hola, mi nombre es", nombreApellido, "y te paso mi contacto telefonico", \ntelefono, "y mi email", mail)`,
-                alt: "Solución ejercicio 3",
-              },
-            ],
+            info: {
+              title: "Solución ejercicio 3",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Escribir 3 variables para que guarden Apellido y nombre -\n# Email y telefono, y mostrarlos en pantalla, con el siguiente\n# mensaje: \"Hola, Mi nombre es: ..., te paso mi contacto\n# telefonico: ... y mi email: ...\"\n\nnombreApellido = \"Walter White\"\ntelefono = \"+1 (505) 555-0199\"\nmail = \"walter.white@jpwynnehs.edu\"\n\n# Fraccionamos el print en varias líneas para mejorar la lectura\nprint(\n    \"Hola, mi nombre es\",\n    nombreApellido,\n    \"y te paso mi contacto telefonico\",\n    telefono,\n    \"y mi email\",\n    mail,\n)",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "p",
