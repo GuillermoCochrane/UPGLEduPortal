@@ -15095,13 +15095,25 @@ const classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                alt: "Crear una página completa",
-                language: "html",
-                content: '<div class="container">\n  <header class="row">\n    <div class="col-12">Header</div>\n  </header>\n  <main class="row">\n    <div class="col-md-8">Contenido</div>\n    <div class="col-md-4">Sidebar</div>\n  </main>\n  <footer class="row">\n    <div class="col-12">Footer</div>\n  </footer>\n</div>'
-              }
-            ]
+            info: {
+              title: "Crear una página completa",
+              content: [
+                {
+                  type: "example",
+                  height: "320",
+                  hasBT: true,
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<div class=\"container\">\n  <header class=\"row bg-primary text-white text-center py-3 mb-3 rounded\">\n    <div class=\"col-12\">\n      <h1>Mi Sitio Web Responsivo</h1>\n    </div>\n  </header>\n\n  <main class=\"row g-3\">\n    <div class=\"col-md-8\">\n      <div class=\"p-3 border rounded bg-light\">\n        <h2>Contenido Principal</h2>\n        <p>Este es el área donde va la información principal del sitio.</p>\n      </div>\n    </div>\n    <div class=\"col-md-4\">\n      <div class=\"p-3 border rounded bg-light\">\n        <h3>Sidebar</h3>\n        <p>Enlaces o widgets laterales.</p>\n      </div>\n    </div>\n  </main>\n\n  <footer class=\"row bg-dark text-white text-center py-3 mt-3 rounded\">\n    <div class=\"col-12\">\n      <p class=\"mb-0\">© 2026 UPGLEduPortal</p>\n    </div>\n  </footer >\n</div>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           }
         ]
       }
