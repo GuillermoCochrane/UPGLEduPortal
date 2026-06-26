@@ -1521,13 +1521,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                alt: "Solución",
-                language: "python",
-                content: `print("¡Hola Mundo! Mi nombre es (tu nombre) y este es mi primer programa!!!!🚀")\n\n#Puedes personalizar el mensaje con tu nombre y añadir un saludo adicional:\n\nprint("Este es mi super saludo 🖖 con Python 🐍")`,
-              },
-            ],
+            info: {
+              title: "Solución",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "print(\"¡Hola Mundo! Mi nombre es (tu nombre) y este es mi primer programa!!!!🚀\")\n\n# Puedes personalizar el mensaje con tu nombre\n# y añadir un saludo adicional:\nprint(\"Este es mi super saludo 🖖 con Python 🐍\")",
+                  },
+                },
+              ],
+            },
           },
         ],
       },
