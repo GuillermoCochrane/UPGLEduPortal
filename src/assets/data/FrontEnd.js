@@ -15019,13 +15019,25 @@ const classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                alt: "Crear un modal con detalles",
-                language: "html",
-                content: '<button data-bs-toggle="modal" data-bs-target="#miModal">Abrir Modal</button>\n<div class="modal" id="miModal">\n<div class="modal-dialog">\n  <div class="modal-content">\n    <div class="modal-header">\n      <h5>Producto</h5>\n    </div>\n    <div class="modal-body">\n      <p>Nombre del producto</p>\n      <p>Precio</p>\n    </div>\n  </div>\n</div>\n</div>'
-              }
-            ]
+            info: {
+              title: "Crear un modal con detalles",
+              content: [
+                {
+                  type: "example",
+                  height: "250",
+                  hasBT: true,
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<button class=\"btn btn-primary m-2\" data-bs-toggle=\"modal\" data-bs-target=\"#miModal\">Abrir Modal</button>\n\n<div class=\"modal fade\" id=\"miModal\" tabindex=\"-1\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\">Producto</h5>\n        <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>\n      </div>\n      <div class=\"modal-body\">\n        <p>Nombre del producto</p>\n        <p>Precio</p>\n      </div>\n    </div>\n  </div>\n</div>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           },
         ]
       },
