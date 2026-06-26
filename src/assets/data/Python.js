@@ -3915,13 +3915,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `#Escribir un programa que imprima un mensaje en la pantalla.\nprint("Este es un mensaje impreso en la pantalla con Python")`,
-                alt: "Solución ejercicio 1",
-              },
-            ],
+            info: {
+              title: "Solución ejercicio 1",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Escribir un programa que imprima un mensaje en la pantalla.\nprint(\"Este es un mensaje impreso en la pantalla con Python\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "p",
