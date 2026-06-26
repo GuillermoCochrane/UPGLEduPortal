@@ -4025,13 +4025,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Escribir un programa que imprima en pantalla la multiplicación y la división de dos variables.\n\nnumero1 = 10\nnumero2 = 5\n\nmultiplicacion = numero1 * numero2\ndivision = numero1 / numero2\n\nprint("La multiplicación es:", multiplicacion)\nprint("La división es:", division)`,
-                alt: "Solución ejercicio 1",
-              },
-            ],
+            info: {
+              title: "Solución ejercicio 1",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Escribir un programa que imprima en pantalla la multiplicación\n# y la división de dos variables.\n\nnumero1 = 10\nnumero2 = 5\n\nmultiplicacion = numero1 * numero2\ndivision = numero1 / numero2\n\nprint(\"La multiplicación es:\", multiplicacion)\nprint(\"La división es:\", division)",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h3",
