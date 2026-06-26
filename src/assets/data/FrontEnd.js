@@ -14904,15 +14904,27 @@ const classes = [
               },
             ],
           },
-          { 
-            type: "answer", // Modificar para usar Example en lugar de Code
-            info: [
-              {
-                alt: "Crear tres cards",
-                language: "html",
-                content: '<div class="row">\n  <div class="col-md-4">\n    <div class="card">\n      <div class="card-body">\n        <h5 class="card-title">Card 1</h5>\n        <p class="card-text">Contenido</p>\n      </div>\n    </div>\n  </div>\n  <!-- Repite para Card 2 y 3 -->\n</div>',
-              },
-            ]
+          {
+            type: "answer",
+            info: {
+              title: "Crear tres cards",
+              content: [
+                {
+                  type: "example",
+                  height: "108",
+                  hasBT: true,
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<div class=\"row my-2\">\n  <div class=\"col-md-4\">\n    <div class=\"card\">\n      <div class=\"card-body\">\n        <h5 class=\"card-title\">Card 1</h5>\n        <p class=\"card-text\">Contenido</p>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-4\">\n    <div class=\"card\">\n      <div class=\"card-body\">\n        <h5 class=\"card-title\">Card 2</h5>\n        <p class=\"card-text\">Contenido</p>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-4\">\n    <div class=\"card\">\n      <div class=\"card-body\">\n        <h5 class=\"card-title\">Card 3</h5>\n        <p class=\"card-text\">Contenido</p>\n      </div>\n    </div>\n  </div>\n</div>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           }
         ]
       },
