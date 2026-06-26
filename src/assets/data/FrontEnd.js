@@ -14655,15 +14655,28 @@ const classes = [
               },
             ],
           },
-          { 
-            type: "answer", // Modificar para usar Example en lugar de Code
-            info: [
-              {
-                alt: "Crear una barra de botones",
-                language: "html",
-                content: '<div class="d-flex gap-2">\n  <button class="btn btn-primary btn-lg">Grande</button>\n  <button class="btn btn-success">Normal</button>\n  <button class="btn btn-warning btn-sm">Pequeño</button>\n</div>',
-              },
-            ]
+          {
+            type: "answer",
+            info: {
+              title: "Crear una barra de botones",
+              content: [
+                {
+                  type: "example",
+                  height: "65",
+                  width: "280",
+                  hasBT: true,
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<div class=\"d-flex gap-2 p-2\">\n  <button class=\"btn btn-primary btn-lg\">Grande</button>\n  <button class=\"btn btn-success\">Normal</button>\n  <button class=\"btn btn-warning btn-sm\">Pequeño</button>\n</div>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           },
         ],
       },
