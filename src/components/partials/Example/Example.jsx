@@ -41,7 +41,7 @@ function Example({ Data, height = "auto", width = "100%", title = "Ejemplo", has
         ${headContent}
         <style>${css}</style>
       </head>
-      <body style="margin:auto; max-width: 900px;">
+      <body style="margin:auto; max-width: 800px;">
         ${html}
         ${bodyScripts}
         ${hasJS ? `<script>${js}</script>` : ''}
