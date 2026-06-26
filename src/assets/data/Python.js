@@ -4682,13 +4682,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Escribir un programa que pida al usuario su nombre \n# y lo salude por su nombre.\n\nnombre = input("Ingrese su nombre: ")\nprint(f"Hola, {nombre}")`,
-                alt: "Solución ejercicio 1",
-              },
-            ],
+            info: {
+              title: "Solución ejercicio 1",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Escribir un programa que pida al usuario su nombre \n# y lo salude por su nombre.\n\nnombre = input(\"Ingrese su nombre: \")\nprint(f\"Hola, {nombre}\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "p",
