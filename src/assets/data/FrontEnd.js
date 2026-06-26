@@ -14837,15 +14837,27 @@ const classes = [
               },
             ],
           },
-          { 
-            type: "answer", // Modificar para usar Example en lugar de Code
-            info: [
-              {
-                alt: "Crear una tabla y formulario",
-                language: "html",
-                content: '<table class="table table-striped">\n  <thead>\n    <tr>\n      <th>Producto</th>\n      <th>Precio</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Manzana</td>\n      <td>$1</td>\n    </tr>\n  </tbody>\n</table>\n\n<form class="row g-3">\n  <div class="col-md-6">\n    <input class="form-control" placeholder="Nombre">\n  </div>\n  <div class="col-md-6">\n    <button class="btn btn-primary">Enviar</button>\n  </div>\n</form>',
-              },
-            ]
+          {
+            type: "answer",
+            info: {
+              title: "Crear una tabla y formulario",
+              content: [
+                {
+                  type: "example",
+                  height: "150",
+                  hasBT: true,
+                  info: [
+                    {
+                      type: "code",
+                      info: {
+                        language: "html",
+                        content: "<table class=\"table table-striped w-75\">\n  <thead>\n    <tr>\n      <th>Producto</th>\n      <th>Precio</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Manzana</td>\n      <td>$1</td>\n    </tr>\n  </tbody>\n</table>\n\n<form class=\"row g-3\">\n  <div class=\" col-md-6\">\n    <input class=\"form-control\" placeholder=\"Nombre\">\n  </div>\n  <div class=\"col-md-6\">\n    <button class=\"btn btn-primary\">Enviar</button>\n  </div>\n</form>",
+                      },
+                    },
+                  ],
+                },
+              ],
+            },
           }
         ]
       },
