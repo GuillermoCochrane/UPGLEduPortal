@@ -5627,13 +5627,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `#Objetivo: Pedir al usuario dos números, convertirlos a enteros y mostrar la suma.\nnum1 = input("Introduzca el primer numero: ") #10\nnum2 = input("Introduzca el segundo numero: ") #50\nint(num1)\nint(num2)\nprint(f"la suma de los numeros es: {num1+num2}") #60`,
-                alt: "Solución ejercicio 1",
-              },
-            ],
+            info: {
+              title: "Solución ejercicio 1",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Objetivo: Pedir al usuario dos números,\n# convertirlos a enteros y mostrar la suma.\n\nnum1 = int(input(\"Introduzca el primer numero: \"))  # 10\nnum2 = int(input(\"Introduzca el segundo numero: \"))  # 50\nsuma = num1 + num2\nprint(f\"la suma de los numeros es: {suma}\")  # 60",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
