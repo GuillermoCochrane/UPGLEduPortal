@@ -6911,13 +6911,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Crear un programa que permita que el usuario ingrese dos numeros enteros\n# y nos imprima cual es el mayor de los dos numeros ingresados\n\nnum1 = int(input("Ingrese el primer numero: "))\nnum2 = int(input("Ingrese el segundo numero: "))\n\nif num1 > num2:\n    print("El numero mayor es el primero:", num1)\nelif num1 < num2:\n    print("El numero mayor es el segundo:", num2)\nelse:\n    print("Los numeros son iguales")`,
-                alt: "Solución Ejercicio 11",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 11",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Crear un programa que permita que el usuario ingrese dos numeros enteros\n# y nos imprima cual es el mayor de los dos numeros ingresados\n\nnum1 = int(input(\"Ingrese el primer numero: \"))\nnum2 = int(input(\"Ingrese el segundo numero: \"))\n\nif num1 > num2:\n    print(\"El numero mayor es el primero:\", num1)\nelif num1 < num2:\n    print(\"El numero mayor es el segundo:\", num2)\nelse:\n    print(\"Los numeros son iguales\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
