@@ -6779,13 +6779,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Se solicita realizar un programa que determina si un numero determine si es se encuentra entre 0 y 10\n\nnumero1 = int(input("Ingrese un numero: "))\n\nif numero1 >= 0 and numero1 <= 10:\n    print("El numero se encuentra entre 0 y 10")\nelse:\n    print("El numero no se encuentra entre 0 y 10")`,
-                alt: "Solución Ejercicio 7",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 7",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Se solicita realizar un programa que determine si un numero\n# se encuentra entre 0 y 10\n\nnumero1 = int(input(\"Ingrese un numero: \"))\n\nif numero1 >= 0 and numero1 <= 10:\n    print(\"El numero se encuentra entre 0 y 10\")\nelse:\n    print(\"El numero no se encuentra entre 0 y 10\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
