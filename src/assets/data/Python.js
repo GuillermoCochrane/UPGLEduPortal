@@ -6878,13 +6878,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Crear un programa que permita al usuario ingresar su edad y determine\n# si esta entre los 20 (de 20 a 30 años) y los 40 años (de 40 a 50 años).\n\nedad = int(input("Ingrese su edad: "))\nif edad >= 20 and edad <= 30:\n    print("Esta entre los 20 a 30 años")\nelif edad >= 40 and edad <= 50:\n    print("Esta entre los 40 a 50 años")\nelse:\n    print("No esta ni entre los 20 a 30 años ni entre los 40 a 50 años")`,
-                alt: "Solución Ejercicio 10",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 10",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Crear un programa que permita al usuario ingresar su edad y determine\n# si esta entre los 20 (de 20 a 30 años) y los 40 años (de 40 a 50 años).\n\nedad = int(input(\"Ingrese su edad: \"))\nif edad >= 20 and edad <= 30:\n    print(\"Esta entre los 20 a 30 años\")\nelif edad >= 40 and edad <= 50:\n    print(\"Esta entre los 40 a 50 años\")\nelse:\n    print(\n        \"No esta ni entre los 20 a 30 años \"\n        \"ni entre los 40 a 50 años\"\n    )",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
