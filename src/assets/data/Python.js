@@ -6812,13 +6812,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Crear un programa que permita saber si un padre puede ir a ver como juega su hijo \n# dependiendo si es un dia de descanso o si esta de vacaciones (usar operadores logicos)\n# de lo contrario no puede ir.\n\ndia = input("Ingrese el dia de de la semana: ")\nif dia == "Sabado" or dia == "Domingo":\n    print("Puede ir")\n\nelse:\n    vacaciones = input("¿Se encuentra de vacaciones? ")\n    if vacaciones == "Si":\n        print("Puede ir")\n    else:\n        print("No puede ir")`,
-                alt: "Solución Ejercicio 8",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 8",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Crear un programa que permita saber si un padre puede ir a ver\n# como juega su hijo dependiendo si es un dia de descanso o si\n# esta de vacaciones (usar operadores logicos) - de lo contrario\n# no puede ir.\n\ndia = input(\"Ingrese el dia de la semana: \")\nif dia == \"Sabado\" or dia == \"Domingo\":\n    print(\"Puede ir\")\n\nelse:\n    vacaciones = input(\"¿Se encuentra de vacaciones? \")\n    if vacaciones == \"Si\":\n        print(\"Puede ir\")\n    else:\n        print(\"No puede ir\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
