@@ -5659,13 +5659,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `#Pedirle al usuario que ponga como estuvo su dia (del 1 al 10 )\n#y luego mostrar el texto "Mi dia estuivo de:" y el valor ingresoado\nentrada = input("Ingrese su como estuvo su dia (del 1 al 10): ")\nprint(f"Mi dia estuvo de {entrada}")`,
-                alt: "Solución ejercicio 2",
-              },
-            ],
+            info: {
+              title: "Solución ejercicio 2",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Pedirle al usuario que ponga como estuvo su dia (del 1 al 10)\n# y luego mostrar el texto \"Mi dia estuvo de:\" y el valor ingresado\nentrada = input(\"Ingrese como estuvo su dia (del 1 al 10): \")\nprint(f\"Mi dia estuvo de {entrada}\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
