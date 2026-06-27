@@ -6713,13 +6713,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Se solicita realizar un programa para mostrar si el numero es positivo o negativo\n\nnumero1 = int(input("Ingrese un numero: "))\n\nif numero1 > 0:\n    print("El numero es positivo")\nelse:\n    print("El numero es negativo")`,
-                alt: "Solución Ejercicio 5",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 5",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Se solicita realizar un programa para mostrar si el numero\n# es positivo o negativo\n\nnumero1 = int(input(\"Ingrese un numero: \"))\n\nif numero1 > 0:\n    print(\"El numero es positivo\")\nelse:\n    print(\"El numero es negativo\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
