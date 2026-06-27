@@ -6551,13 +6551,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `#Se solicita realizar un programa para mostrar el residuo de la division de dos números enteros\n\nnumero1 = int(input("Ingrese un numero: "))\nnumero2 = int(input("Ingrese otro numero: "))\n\nresultado = int(numero1 % numero2)\n\nprint(f"El residuo de la division es: {resultado}")`,
-                alt: "Solución Ejercicio 2",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 2",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Se solicita realizar un programa para mostrar el residuo\n# de la division de dos números enteros\n\nnumero1 = int(input(\"Ingrese un numero: \"))\nnumero2 = int(input(\"Ingrese otro numero: \"))\n\nresultado = int(numero1 % numero2)\n\nprint(f\"El residuo de la division es: {resultado}\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
