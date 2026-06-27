@@ -6845,13 +6845,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `#Ejemplo NOT (mismo ejercicio pero invierta el resultado)\ndia = input("Ingrese el dia de de la semana: ").capitalize()\nif not (dia == "Sabado") and not(dia == "Domingo"):\n    vacaciones = input("¿Se encuentra de vacaciones? ").capitalize()\n    if not (vacaciones == "Si"):\n        print(f"No puede ir porque es {dia} y {vacaciones} se encuentra de vacaciones")\n    else:\n        print(f"Puede ir porque a pesar de que es {dia}, {vacaciones} se encuentra de vacaciones")\nelse:\n    print(f"Puede ir porque es {dia}")`,
-                alt: "Solución Ejercicio 9",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 9",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Ejemplo NOT (mismo ejercicio pero invierta el resultado)\ndia = input(\"Ingrese el dia de la semana: \").capitalize()\nif not (dia == \"Sabado\") and not (dia == \"Domingo\"):\n    vacaciones = input(\"¿Se encuentra de vacaciones? \").capitalize()\n    if not (vacaciones == \"Si\"):\n        # Fraccionamos los f-strings largos para evitar desbordamiento horizontal en el visor de código\n        print(\n            f\"No puede ir porque es {dia} y no \"\n            f\"se encuentra de vacaciones\"\n        )\n    else:\n        print(\n            f\"Puede ir porque a pesar de que es {dia}, \"\n            f\"se encuentra de vacaciones\"\n        )\nelse:\n    print(f\"Puede ir porque es {dia}\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
