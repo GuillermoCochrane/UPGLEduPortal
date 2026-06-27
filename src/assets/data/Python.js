@@ -6746,13 +6746,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Se solicita realizar un programa que pida la edad de una persona y determine si es mayor o menor de edad (18)\n\nedad = int(input("Ingrese la edad de la persona: "))\n\nif edad >= 18:\n    print("La persona es mayor de edad")\nelse:\n    print("La persona es menor de edad")`,
-                alt: "Solución Ejercicio 6",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 6",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Se solicita realizar un programa que pida la edad de una persona\n# y determine si es mayor o menor de edad (18)\n\nedad = int(input(\"Ingrese la edad de la persona: \"))\n\nif edad >= 18:\n    print(\"La persona es mayor de edad\")\nelse:\n    print(\"La persona es menor de edad\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
