@@ -6647,13 +6647,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `#Se solicita realizar un programa para calcular el area y el perimetro \n#de un rectangulo, para ello debera crear las siguiente variables:\n# - Alto (int), Ancho (int)\n#El usuario debera proporcionar los valores de largo y ancho, \n#y despues imprimir el resultado del area y el perimetro:\n# - Area: alto * ancho\n# - Perimetro: (alto + ancho) * 2\n\nalto = int(input("Ingrese el alto de la rectangulo: "))\nancho = int(input("Ingrese el ancho de la rectangulo: "))\n\narea = alto * ancho\nperimetro = (alto + ancho) * 2\n\nprint("El area de la rectangulo es: ", area)\nprint("El perimetro de la rectangulo es: ", perimetro)`,
-                alt: "Solución Ejercicio 3",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 3",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Se solicita realizar un programa para calcular el area y el perimetro\n# de un rectangulo, para ello debera crear las siguiente variables:\n# - Alto (int), Ancho (int)\n# El usuario debera proporcionar los valores de largo y ancho,\n# y despues imprimir el resultado del area y el perimetro:\n# - Area: alto * ancho\n# - Perimetro: (alto + ancho) * 2\n\nalto = int(input(\"Ingrese el alto del rectangulo: \"))\nancho = int(input(\"Ingrese el ancho del rectangulo: \"))\n\narea = alto * ancho\nperimetro = (alto + ancho) * 2\n\nprint(\"El area del rectangulo es: \", area)\nprint(\"El perimetro del rectangulo es: \", perimetro)",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
