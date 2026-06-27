@@ -6680,13 +6680,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `#Se solicita realizar un programa para mostrar si el número par o impar (Usando operadores logicos)\n\nnumero1 = int(input("Ingrese un numero: "))\n\nif numero1 % 2 == 0:\n    print("El numero es par")\nelse:\n    print("El numero es impar")`,
-                alt: "Solución Ejercicio 4",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 4",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Se solicita realizar un programa para mostrar si el número es par\n# o impar (Usando operadores logicos)\n\nnumero1 = int(input(\"Ingrese un numero: \"))\n\nif numero1 % 2 == 0:\n    print(\"El numero es par\")\nelse:\n    print(\"El numero es impar\")",
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
