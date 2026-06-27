@@ -5801,13 +5801,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Se solicita incluir la siguiente informacion acerca de un libro:\n# Título, autor, número de páginas, año de publicación.\n# Se pide que el usuario ingrese la información solicitada de la\n# siguiente manera:.\n\n# - Ingrese el Titulo del libro :\n# - Ingrese el Autor :\n# - Ingrese el Numero de Paginas :\n# - Ingrese el Año de publicación :\n# - Imprimir : " El Libro \`<nombre del libro>\` fue escrito por\n# \`<autor>\` y tiene \`<numero de paginas>\` paginas, y fue\n# publicado en el año \`<año de publicacion>\` "\n\ntitulo = input("Ingrese el titulo del libro: ")\nautor = input("Ingrese el autor del libro: ")\npaginas = input("Ingrese el numero de paginas del libro: ")\nanio = input("Ingrese el año de publicacion del libro: ")\n\nprint(f"El libro {titulo} fue escrito por {autor} y tiene {paginas} paginas, y fue publicado en el año {anio}")`,
-                alt: "Solución ejercicio 3",
-              },
-            ],
+            info: {
+              title: "Solución ejercicio 3",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Se solicita incluir la siguiente informacion acerca de un libro:\n# Título, autor, número de páginas, año de publicación.\n# Se pide que el usuario ingrese la información solicitada de la\n# siguiente manera:\n#\n# - Ingrese el Titulo del libro :\n# - Ingrese el Autor :\n# - Ingrese el Numero de Paginas :\n# - Ingrese el Año de publicación :\n# - Imprimir : \" El Libro `<nombre del libro>` fue escrito por\n# `<autor>` y tiene `<numero de paginas>` paginas, y fue\n# publicado en el año `<año de publicacion>` \"\n\ntitulo = input(\"Ingrese el titulo del libro: \")\nautor = input(\"Ingrese el autor del libro: \")\npaginas = input(\"Ingrese el numero de paginas del libro: \")\nanio = input(\"Ingrese el año de publicacion del libro: \")\n\n# Fraccionamos el print para evitar overflow horizontal\nprint(\n    f\"El libro {titulo} fue escrito por {autor} y tiene {paginas} \"\n    f\"paginas, y fue publicado en el año {anio}\"\n)",
+                  },
+                },
+              ],
+            },
           }
         ]
       },
