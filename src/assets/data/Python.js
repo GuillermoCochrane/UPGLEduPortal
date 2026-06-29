@@ -8202,17 +8202,22 @@ let classes = [
               },
             ],
           },
-/*           {
+                    {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# 3 VALORES\n# DOS NUMEROS A UTILIZAR\n# UNA OPERACION (S/R/M/D)\n# SALIDA: OPERACION REALIZADA CON EXITO, EL RESULTADO DE (LA OPERACION) ES:\n# (RESULTADO)\n# NO SE PUEDE DIVIDIR POR 0\n\nnumero_1 = input("Ingrese el primer numero:")\nnumero_2 = input("Ingrese el segundo numero:")\noperacion = input("Ingrese la operacion a realizar (S/R/M/D):")\n\nif numero_1.isdigit() and numero_2.isdigit():\n    numero_1 = int(numero_1)\n    numero_2 = int(numero_2)\nelse:\n    print("No ingresaste un numero")\n    exit()\n\noperacion = operacion.upper()\n\nif operacion == "S" or operacion == "R" or operacion == "M" or operacion == "D":\n#Valida que la operacion este bien!\n    if operacion == "S":\n        resultado = numero_1 + numero_2\n        print(f"OPERACION REALIZADA CON EXITO, EL RESULTADO DE LA SUMA ES: {resultado}")\n    elif operacion == "R":\n        resultado = numero_1 - numero_2\n        print(f"OPERACION REALIZADA CON EXITO, EL RESULTADO DE LA RESTA ES: {resultado}")\n    elif operacion == "M":\n        resultado = numero_1 * numero_2\n        print(f"OPERACION REALIZADA CON EXITO, EL RESULTADO DE LA MULTIPLICACION ES: {resultado}")\n    elif operacion == "D":\n        if numero_2 == 0:\n            print("NO SE PUEDE DIVIDIR POR 0")\n            exit()\n        resultado = numero_1 / numero_2\n        print(f"OPERACION REALIZADA CON EXITO, EL RESULTADO DE LA DIVISION ES: {resultado}")\nelse:\n    print("No ingresaste una operacion valida")\n    exit()`,
-                alt: "Solución Ejercicio 2, clase 1",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 2, clase 1",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `# 3 VALORES\n# DOS NUMEROS A UTILIZAR\n# UNA OPERACION (S/R/M/D)\n# SALIDA: OPERACION REALIZADA CON EXITO, EL RESULTADO DE (LA OPERACION) ES:\n# (RESULTADO)\n# NO SE PUEDE DIVIDIR POR 0\n\nnumero_1 = input("Ingrese el primer numero:")\nnumero_2 = input("Ingrese el segundo numero:")\noperacion = input("Ingrese la operacion a realizar (S/R/M/D):")\n\nif numero_1.isdigit() and numero_2.isdigit():\n    numero_1 = int(numero_1)\n    numero_2 = int(numero_2)\nelse:\n    print("No ingresaste un numero")\n    exit()\n\noperacion = operacion.upper()\n\nif operacion == "S" or operacion == "R" or operacion == "M" or operacion == "D":\n#Valida que la operacion este bien!\n    if operacion == "S":\n        resultado = numero_1 + numero_2\n        print(f"OPERACION REALIZADA CON EXITO, EL RESULTADO DE LA SUMA ES: {resultado}")\n    elif operacion == "R":\n        resultado = numero_1 - numero_2\n        print(f"OPERACION REALIZADA CON EXITO, EL RESULTADO DE LA RESTA ES: {resultado}")\n    elif operacion == "M":\n        resultado = numero_1 * numero_2\n        print(f"OPERACION REALIZADA CON EXITO, EL RESULTADO DE LA MULTIPLICACION ES: {resultado}")\n    elif operacion == "D":\n        if numero_2 == 0:\n            print("NO SE PUEDE DIVIDIR POR 0")\n            exit()\n        resultado = numero_1 / numero_2\n        print(f"OPERACION REALIZADA CON EXITO, EL RESULTADO DE LA DIVISION ES: {resultado}")\nelse:\n    print("No ingresaste una operacion valida")\n    exit()`,
+                  },
+                },
+              ],
+            },
           },
- *//*           {
+/*           {
             type: "answer",
             info: [
               {
