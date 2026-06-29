@@ -7881,13 +7881,18 @@ let classes = [
           },
           {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# realizar un programa que permita ingresar solo texto\nentrada = input("Ingrese un texto: ")\n\nif entrada.isdigit():\n    print("Error: Debe ingresar solo texto (letras o espacios).")\nelse:\n    print(f"el text ingresado es {entrada}.")`,
-                alt: "Solución Ejercicio 1",
-              },
-            ],
+            info: {
+              title: "Solución Ejercicio 1",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `# realizar un programa que permita ingresar solo texto\nentrada = input("Ingrese un texto: ")\n\nif entrada.isdigit():\n    print("Error: Debe ingresar solo texto (letras o espacios).")\nelse:\n    print(f"el text ingresado es {entrada}.")`,
+                  },
+                },
+              ],
+            },
           },
           {
             type: "h4",
@@ -7907,7 +7912,7 @@ let classes = [
               },
             ],
           },
-          {
+/*           {
             type: "answer",
             info: [
               {
@@ -7916,7 +7921,7 @@ let classes = [
                 alt: "Solución Ejercicio 2",
               },
             ],
-          },
+          }, */
           {
             type: "h4",
             info: [
@@ -7935,7 +7940,7 @@ let classes = [
               },
             ],
           },
-          {
+/*           {
             type: "answer",
             info: [
               {
@@ -7944,7 +7949,7 @@ let classes = [
                 alt: "Solución Ejercicio 3",
               },
             ],
-          },
+          }, */
         ]
       },
       {
