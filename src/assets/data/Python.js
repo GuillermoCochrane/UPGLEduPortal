@@ -7945,16 +7945,21 @@ let classes = [
               },
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Realizar un programa que permita ingresar solo numeros, si no se cumple este\n# requisito, que me de la hasta 2 oportunidades mas y me muestre la \n# cantidad de veces que lo hice mal.\nentrada = input("Ingrese un número: ")\n\nif entrada.isdigit():\n    print(f"el numero ingresado es {entrada}.")\nelse:\n    print(f"Error: Debe ingresar un número válido. fijate lo que pusiste!{entrada}")\n    entrada = input("Ingrese otro numero: ")\n    if entrada.isdigit():\n        print(f"el numero ingresado es {entrada}.")\n    else:\n        print(f"Error: Debe ingresar un número válido. fijate lo que pusiste!{entrada}")\n        entrada = input("Ingrese otro numero: ")\n        if entrada.isdigit():\n            print(f"el numero ingresado es {entrada}.")\n        else:\n            print("Error: Debe ingresar un número válido. Se quedo sin oportunidades.")\n            exit()`,
-                alt: "Solución Ejercicio 3",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 3",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `# Realizar un programa que permita ingresar solo numeros, si no se cumple este\n# requisito, que me de la hasta 2 oportunidades mas y me muestre la \n# cantidad de veces que lo hice mal.\nentrada = input("Ingrese un número: ")\n\nif entrada.isdigit():\n    print(f"el numero ingresado es {entrada}.")\nelse:\n    print(f"Error: Debe ingresar un número válido. fijate lo que pusiste!{entrada}")\n    entrada = input("Ingrese otro numero: ")\n    if entrada.isdigit():\n        print(f"el numero ingresado es {entrada}.")\n    else:\n        print(f"Error: Debe ingresar un número válido. fijate lo que pusiste!{entrada}")\n        entrada = input("Ingrese otro numero: ")\n        if entrada.isdigit():\n            print(f"el numero ingresado es {entrada}.")\n        else:\n            print("Error: Debe ingresar un número válido. Se quedo sin oportunidades.")\n            exit()`,
+                  },
+                },
+              ],
+            },
+          },
         ]
       },
       {
