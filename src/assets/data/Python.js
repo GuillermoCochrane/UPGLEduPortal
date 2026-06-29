@@ -8138,6 +8138,21 @@ let classes = [
           },
           {
             type: "answer",
+            info: {
+              title: "Solución Ejercicio 1, clase 1",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: '# INGRESAR 4 PERSONAS CON NOMBRE Y APELLIDO\n# DIRECCION Y EDAD\n# Y MUESTRE LOS DATOS DE LAS PERSONAS\n# EL DE MAYOR EDAD\n# EL DE MENOR EDAD\n# Y EN QUE POSICION SE CARGO\n\nedad = input("Ingese una edad:")\nedad_mayor = 0\nedad_menor = 0\nnombre = input("Ingrese el nombre completo:")\ndireccion = input("Ingrese la dirección:")\nposicion = 1\nnombre_mayor = nombre # aca me guardo el nombre de la persona de mayor edad\ndireccion_mayor = direccion # aca me guardo la direccion de la persona de mayor edad\nnombre_menor = nombre\ndireccion_menor = direccion\nposcion_menor = 1\n\nif edad.isdigit(): # verifico que sea un numero\n    edad = int(edad)\n    edad_mayor = edad\n    edad_menor = edad\n    suma_edades = edad # aca sumo las edades\nelse:\n    print("No ingresaste un numero, ultimo intento!")\n    edad = input("Ingrese una edad:")\n    if edad.isdigit():\n        edad = int(edad)\n        edad_mayor = edad\n        edad_menor = edad\n        suma_edades = edad # aca sumo las edades\n    else:\n        print("Como no ingresaste un numero la edad se pone en 0")\n        exit() # si ingresa mal de nuevo termina el programa\n\n# edad ingresamos la edad 2\nedad = input("Ingrese una edad:")\nnombre = input("Ingrese el nombre completo:")\ndireccion = input("Ingrese la dirección:")\n\nif edad.isdigit():\n    edad = int(edad)\nelse:\n    print("Como no ingresaste un numero la edad se pone en 0")\n    exit()\n\nsuma_edades += edad # aca sumo las edades\n\nif edad >= edad_mayor:\n    edad_mayor = edad\n    posicion = 2\n    nombre_mayor = nombre\n    direccion_mayor = direccion\n\nif edad <= edad_menor:\n    edad_menor = edad\n    posicion_menor = 2\n    nombre_menor = nombre\n    direccion_menor = direccion\n\n# edad ingresamos la edad 3\nedad = input("Ingrese una edad:")\nnombre = input("Ingrese el nombre completo:")\ndireccion = input("Ingrese la dirección:")\n\nif edad.isdigit():\n    edad = int(edad)\nelse:\n    print("Como no ingresaste un numero la edad se pone en 0")\n    exit()\n\nsuma_edades += edad # aca sumo las edades\n\nif edad >= edad_mayor:\n    edad_mayor = edad\n    posicion = 3\n    nombre_mayor = nombre\n    direccion_mayor = direccion\n\nif edad <= edad_menor:\n    edad_menor = edad\n    posicion_menor = 3\n    nombre_menor = nombre\n    direccion_menor = direccion\n\n# edad ingresamos la edad 4\nedad = input("Ingrese una edad:")\nnombre = input("Ingrese el nombre completo:")\ndireccion = input("Ingrese la dirección:")\n\nif edad.isdigit():\n    edad = int(edad)\nelse:\n    print("Como no ingresaste un numero la edad se pone en 0")\n    exit()\n\nsuma_edades += edad # aca sumo las edades\n\nif edad >= edad_mayor:\n    edad_mayor = edad\n    nombre_mayor = nombre\n    direccion_mayor = direccion\n    posicion = 4\n\nif edad <= edad_menor:\n    edad_menor = edad\n    posicion_menor = 4\n    nombre_menor = nombre\n    direccion_menor = direccion\n\npromedio = suma_edades / 4 # aca calculo el promedio\n\n# aca calculo el mayor\nprint(f\'\'\'La person de mayor edad es {nombre_mayor} \ncon {edad_mayor} años y vive en {direccion_mayor} \nen la posición {posicion}\'\'\')\n\n# aca calculo menor!!!!\nprint(f\'\'\'La person de menor edad es {nombre_menor} \ncon {edad_menor} años y vive en {direccion_menor} \ny fue cargado en la posición {posicion_menor}\'\'\')\n\nprint(f"El promedio de las edades es: {promedio}")',
+                  },
+                },
+              ],
+            },
+          },
+/*           {
+            type: "answer",
             info: [
               {
                 language: "python",
@@ -8145,8 +8160,8 @@ let classes = [
                 alt: "Solución Ejercicio 1, clase 1",
               },
             ],
-          },
-          {
+          }, */
+/*           {
             type: "answer",
             info: [
               {
@@ -8155,7 +8170,7 @@ let classes = [
                 alt: "Solución Ejercicio 1, clase 2",
               },
             ],
-          },
+          }, */
           {
             type: "h4",
             info: [
@@ -8192,7 +8207,7 @@ let classes = [
               },
             ],
           },
-          {
+/*           {
             type: "answer",
             info: [
               {
@@ -8202,7 +8217,7 @@ let classes = [
               },
             ],
           },
-          {
+ *//*           {
             type: "answer",
             info: [
               {
@@ -8212,7 +8227,7 @@ let classes = [
               },
             ],
           },
-          {
+    */       {
             type: "h4",
             info: [
               {
@@ -8230,7 +8245,7 @@ let classes = [
               },
             ],
           },
-          {
+/*           {
             type: "answer",
             info: [
               {
@@ -8239,7 +8254,7 @@ let classes = [
                 alt: "Solución Ejercicio 3",
               },
             ],
-          },
+          }, */
           {
             type: "h4",
             info: [
@@ -8258,7 +8273,7 @@ let classes = [
               },
             ],
           },
-          {
+/*           {
             type: "answer",
             info: [
               {
@@ -8267,8 +8282,8 @@ let classes = [
                 alt: "Solución Ejercicio 4, clase 1",
               },
             ],
-          },
-          {
+          } */,
+/*           {
             type: "answer",
             info: [
               {
@@ -8277,7 +8292,7 @@ let classes = [
                 alt: "Solución Ejercicio 4, clase 2",
               },
             ],
-          },
+          }, */
           {
             type: "h4",
             info: [
@@ -8296,7 +8311,7 @@ let classes = [
               },
             ],
           },
-          {
+/*           {
             type: "answer",
             info: [
               {
@@ -8305,7 +8320,7 @@ let classes = [
                 alt: "Solución Ejercicio 5",
               },
             ],
-          },
+          }, */
           {
             type: "h4",
             info: [
@@ -8324,7 +8339,7 @@ let classes = [
               },
             ],
           },
-          {
+/*           {
             type: "answer",
             info: [
               {
@@ -8333,7 +8348,7 @@ let classes = [
                 alt: "Solución Ejercicio 6",
               },
             ],
-          },
+          }, */
           {
             type: "h4",
             info: [
