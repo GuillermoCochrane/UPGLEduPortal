@@ -8330,16 +8330,21 @@ let classes = [
               },
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Realizar un juego de piedra, papel y tijera.\nimport random\nprint("Bienvenido al juego de piedra, papel y tijera")\n\nprompt = "Escribe el que quieras seleccionar: Piedra, Papel o Tijera: "\nseleccion_usuario = input(prompt).capitalize()\n\ncomputadora = random.randint(1,3)\nusuario = 0\nseleccion_computadora = ""\n\nif computadora == 1:\n    seleccion_computadora = "Piedra"\nelif computadora == 2:\n    seleccion_computadora = "Papel"\nelif computadora == 3:\n    seleccion_computadora = "Tijera"\n\nif seleccion_usuario == "Piedra" or seleccion_usuario == "Papel" or seleccion_usuario == "Tijera":\n    if seleccion_usuario == "Piedra":\n        usuario = 1\n    elif seleccion_usuario == "Papel":\n        usuario = 2\n    elif seleccion_usuario == "Tijera":\n        usuario = 3\n    else:\n        print("Lo siento, no seleccionaste un valor correcto")\n        exit()\n\nif computadora < usuario or (computadora == 3 and usuario == 1):\n    p1 = f"¡¡Ganaste!! Elegiste: {seleccion_usuario} "\n    p2 = f"y yo elegí: {seleccion_computadora}"\n    print(p1 + p2)\nelif computadora == usuario:\n    print(f"Empate, elegimos lo mismo: {seleccion_usuario}")\nelse:\n    p1 = f"Perdiste, elegiste {seleccion_usuario} "\n    p2 = f"y yo elegí {seleccion_computadora}"\n    print(p1 + p2)`,
-                alt: "Solución Ejercicio 5",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 5",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `# Realizar un juego de piedra, papel y tijera.\nimport random\nprint("Bienvenido al juego de piedra, papel y tijera")\n\nprompt = "Escribe el que quieras seleccionar: Piedra, Papel o Tijera: "\nseleccion_usuario = input(prompt).capitalize()\n\ncomputadora = random.randint(1,3)\nusuario = 0\nseleccion_computadora = ""\n\nif computadora == 1:\n    seleccion_computadora = "Piedra"\nelif computadora == 2:\n    seleccion_computadora = "Papel"\nelif computadora == 3:\n    seleccion_computadora = "Tijera"\n\nif seleccion_usuario == "Piedra" or seleccion_usuario == "Papel" or seleccion_usuario == "Tijera":\n    if seleccion_usuario == "Piedra":\n        usuario = 1\n    elif seleccion_usuario == "Papel":\n        usuario = 2\n    elif seleccion_usuario == "Tijera":\n        usuario = 3\n    else:\n        print("Lo siento, no seleccionaste un valor correcto")\n        exit()\n\nif computadora < usuario or (computadora == 3 and usuario == 1):\n    p1 = f"¡¡Ganaste!! Elegiste: {seleccion_usuario} "\n    p2 = f"y yo elegí: {seleccion_computadora}"\n    print(p1 + p2)\nelif computadora == usuario:\n    print(f"Empate, elegimos lo mismo: {seleccion_usuario}")\nelse:\n    p1 = f"Perdiste, elegiste {seleccion_usuario} "\n    p2 = f"y yo elegí {seleccion_computadora}"\n    print(p1 + p2)`,
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
