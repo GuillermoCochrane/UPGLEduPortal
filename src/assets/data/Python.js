@@ -9043,16 +9043,21 @@ let classes = [
               content: `10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\nDespegue 🚀`,
             },
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# 🚀Nos vamos a la Luna 🚀. Realiza el programa para la NASA que cuente\n# regresivamente de 10 a 0 y luego muestre un mensaje de despegue\ncontador = 10\nwhile contador >= 0:\n    print(f"... {contador} ...")\n    contador -= 1\nprint("Despegue!!! 🚀")`,
-                alt: "Solución Ejercicio 1",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 1",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `# 🚀Nos vamos a la Luna 🚀. Realiza el programa para la NASA que cuente\n# regresivamente de 10 a 0 y luego muestre un mensaje de despegue\ncontador = 10\nwhile contador >= 0:\n    print(f"... {contador} ...")\n    contador -= 1\nprint("Despegue!!! 🚀")`,
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
