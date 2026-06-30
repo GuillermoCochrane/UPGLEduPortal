@@ -8363,16 +8363,21 @@ let classes = [
               },
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Realizar un juego de Cara o Cruz donde el usuario tenga 2 opciones para elegir,\n# si jugar contra la computadora o un amigo.\n# Si elige la segunda deberíamos preguntarle el nombre a ambos\nimport random\nprint("Bienvenido al juego de Cara o Cruz")\nversus = input("¿Quieres jugar contra la computadora o un amigo? ").capitalize()\ncomputadora = random.randint(1,2)\nusuario = 0\nseleccion_computadora = ""\nif computadora == 1:\n    seleccion_computadora = "Cara"\nelif computadora == 2:\n    seleccion_computadora = "Cruz"\n\nif versus == "Computadora":\n    seleccion_usuario = input("Escribe el que quieras seleccionar: Cara, o Cruz: ").capitalize()\n    if seleccion_usuario == "Cara":\n        usuario = 1\n    elif seleccion_usuario == "Cruz":\n        usuario = 2\n    else:\n        print("Lo siento, no seleccionaste un valor correcto")\n        exit()\n\n    if usuario == computadora:\n        print(f"Salió {seleccion_computadora} y ganaste!!")\n    else:\n        print(f"Perdiste, porque salió {seleccion_computadora}")\n\nelif versus == "Amigo":\n    jugador1 = input("Que el jugador 1 ingrese su nombre: ").capitalize()\n    jugador2 = input("Que el jugador 2 ingrese su nombre: ").capitalize()\n    prompt = f"{jugador1}, escribe lo que quieras seleccionar, Cara, o Cruz: "\n    eleccion_usuario = input(prompt).capitalize()\n\n    if eleccion_usuario == "Cara":\n        p1 = f"{jugador1} eligio Cara, "\n        p2 = f"por lo tanto {jugador2} le queda Cruz"\n        print(p1 + p2)\n        usuario = 1\n    elif eleccion_usuario == "Cruz":\n        p1 = f"{jugador1} eligio Cruz, "\n        p2 = f"por lo tanto {jugador2} le queda Cara"\n        print(p1 + p2)\n        usuario = 2\n    else:\n        print("Lo siento, no seleccionaste un valor correcto")\n        exit()\n\n    if usuario == computadora:\n        print(f"Salió {seleccion_computadora}")\n        print(f"El ganador es {jugador1}")\n    else:\n        print(f"Salió {seleccion_computadora}")\n        print(f"El ganador es {jugador2}")\n\nelse:\n    print("Lo siento, no seleccionaste un valor correcto")\n    exit()`,
-                alt: "Solución Ejercicio 6",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 6",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `# Realizar un juego de Cara o Cruz donde el usuario tenga 2 opciones para elegir,\n# si jugar contra la computadora o un amigo.\n# Si elige la segunda deberíamos preguntarle el nombre a ambos\nimport random\nprint("Bienvenido al juego de Cara o Cruz")\nversus = input("¿Quieres jugar contra la computadora o un amigo? ").capitalize()\ncomputadora = random.randint(1,2)\nusuario = 0\nseleccion_computadora = ""\nif computadora == 1:\n    seleccion_computadora = "Cara"\nelif computadora == 2:\n    seleccion_computadora = "Cruz"\n\nif versus == "Computadora":\n    seleccion_usuario = input("Escribe el que quieras seleccionar: Cara, o Cruz: ").capitalize()\n    if seleccion_usuario == "Cara":\n        usuario = 1\n    elif seleccion_usuario == "Cruz":\n        usuario = 2\n    else:\n        print("Lo siento, no seleccionaste un valor correcto")\n        exit()\n\n    if usuario == computadora:\n        print(f"Salió {seleccion_computadora} y ganaste!!")\n    else:\n        print(f"Perdiste, porque salió {seleccion_computadora}")\n\nelif versus == "Amigo":\n    jugador1 = input("Que el jugador 1 ingrese su nombre: ").capitalize()\n    jugador2 = input("Que el jugador 2 ingrese su nombre: ").capitalize()\n    prompt = f"{jugador1}, escribe lo que quieras seleccionar, Cara, o Cruz: "\n    eleccion_usuario = input(prompt).capitalize()\n\n    if eleccion_usuario == "Cara":\n        p1 = f"{jugador1} eligio Cara, "\n        p2 = f"por lo tanto {jugador2} le queda Cruz"\n        print(p1 + p2)\n        usuario = 1\n    elif eleccion_usuario == "Cruz":\n        p1 = f"{jugador1} eligio Cruz, "\n        p2 = f"por lo tanto {jugador2} le queda Cara"\n        print(p1 + p2)\n        usuario = 2\n    else:\n        print("Lo siento, no seleccionaste un valor correcto")\n        exit()\n\n    if usuario == computadora:\n        print(f"Salió {seleccion_computadora}")\n        print(f"El ganador es {jugador1}")\n    else:\n        print(f"Salió {seleccion_computadora}")\n        print(f"El ganador es {jugador2}")\n\nelse:\n    print("Lo siento, no seleccionaste un valor correcto")\n    exit()`,
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
