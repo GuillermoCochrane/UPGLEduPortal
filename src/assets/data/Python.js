@@ -9076,12 +9076,26 @@ let classes = [
               },
             ],
           },
+          {
+            type: "answer",
+            info: {
+              title: "Solución Ejercicio 2",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `import random\nnumero_secreto = random.randint(1,10)\n\np1 = "Bienvenido al juego de las adivinzas, tiene 3 intentos "\np2 = "para adivinar el numero secreto que va del 1 al 10"\nprint(p1 + p2)\n\nnombre_usuario = input("¿Como te llamas?: ")\nmensaje_error = f"{nombre_usuario}!!! Debes ingresar un numero del 1 al 10"\ncontador = 3\n\nwhile contador != 0:\n    while True:\n        prompt = "Ingrese el numero a adivinar del 1 al 10: "\n        numero_usuario = input(prompt)\n        #Validación de que el dato ingresado es un numero y no letras\n        if numero_usuario.isdigit():\n            numero_usuario = int(numero_usuario)\n            #Validación de que el numero ingresado sea entre el rango permitido\n            if numero_usuario < 1 or numero_usuario > 10:\n                print(mensaje_error)\n            else:\n                break\n        else:\n            print(mensaje_error)\n\n    if numero_secreto == numero_usuario:\n        print(f"¡¡Felicidades {nombre_usuario}, adivinaste el número!!")\n        break\n    else:\n        p1 = f"Lo siento {nombre_usuario}, no adivinaste el "\n        p2 = "número secreto, volve a intentarlo 🚀"\n        print(p1 + p2)\n        contador -= 1\n        print(f"Te queda {contador} oportunidades")\n\nif contador == 0:\n    p1 = f"Lo siento {nombre_usuario}, "\n    p2 = "no adivinaste el número secreto"\n    print(p1 + p2)\n    print(f"El número secreto era {numero_secreto}")`,
+                  },
+                },
+              ],
+            },
+          },
 /*           {
             type: "answer",
             info: [
               {
                 language: "python",
-                content: `import random\nnumero_secreto = random.randint(1,10)\n\np1 = "Bienvenido al juego de las adivinzas, tiene 3 intentos "\np2 = "para adivinar el numero secreto que va del 1 al 10"\nprint(p1 + p2)\n\nnombre_usuario = input("¿Como te llamas?: ")\nmensaje_error = f"{nombre_usuario}!!! Debes ingresar un numero del 1 al 10"\ncontador = 3\n\nwhile contador != 0:\n    while True:\n        prompt = "Ingrese el numero a adivinar del 1 al 10: "\n        numero_usuario = input(prompt)\n        #Validación de que el dato ingresado es un numero y no letras\n        if numero_usuario.isdigit():\n            numero_usuario = int(numero_usuario)\n            #Validación de que el numero ingresado sea entre el rango permitido\n            if numero_usuario < 1 or numero_usuario > 10:\n                print(mensaje_error)\n            else:\n                break\n        else:\n            print(mensaje_error)\n\n    if numero_secreto == numero_usuario:\n        print(f"¡¡Felicidades {nombre_usuario}, adivinaste el número!!")\n        break\n    else:\n        p1 = f"Lo siento {nombre_usuario}, no adivinaste el "\n        p2 = "número secreto, volve a intentarlo 🚀"\n        print(p1 + p2)\n        contador -= 1\n        print(f"Te queda {contador} oportunidades")\n\nif contador == 0:\n    p1 = f"Lo siento {nombre_usuario}, "\n    p2 = "no adivinaste el número secreto"\n    print(p1 + p2)\n    print(f"El número secreto era {numero_secreto}")`,
                 alt: "Solución Ejercicio 2",
               },
             ],
