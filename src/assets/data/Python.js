@@ -8249,16 +8249,21 @@ let classes = [
               },
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `#Realizar un programa que me diga si el número ingresado es par o impar\nnumero = input("Ingrese un numero: ")\n\nif numero.isdigit():\n    numero = int(numero)\n    if numero % 2 == 0:\n        print(f"El numero {numero} es par.")\n    else:\n        print(f"El numero {numero} es impar.")\nelse:\n    print("Error: Debe ingresar un numero.")`,
-                alt: "Solución Ejercicio 3",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 3",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `#Realizar un programa que me diga si el número ingresado es par o impar\nnumero = input("Ingrese un numero: ")\n\nif numero.isdigit():\n    numero = int(numero)\n    if numero % 2 == 0:\n        print(f"El numero {numero} es par.")\n    else:\n        print(f"El numero {numero} es impar.")\nelse:\n    print("Error: Debe ingresar un numero.")`,
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
