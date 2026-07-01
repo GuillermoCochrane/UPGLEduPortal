@@ -12676,16 +12676,21 @@ let classes = [
               }
             ]
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: "# Escribe una función que convierta la temperatura de Celsius a Fahrenheit y viceversa.\ndef temperatura(temperatura: float | None = 0, unidad: str | None = \"C\") -> float:\n    \"\"\"\n    Función que convierte la temperatura de Celsius a Fahrenheit y viceversa\n    \"\"\"\n    while True:\n        if unidad.upper() == \"F\":\n            return [(temperatura * 9/5) + 32, unidad]\n        elif unidad.upper() == \"C\":\n            return [(temperatura - 32) * 5/9, unidad]\n        else:\n            unidad = input(\"Debe ingresar 'C' o 'F': \")\n\ntemperatura_original = float(input(\"Ingrese la temperatura a convertir: \"))\nunidad = input(\"¿Desea convertir a Fahrenheit (F) o Celsius (C)?: \")\ntemperatura_convertida = temperatura(temperatura_original, unidad)\nprint(f\"La temperatura convertida es {temperatura_convertida[0]}°{temperatura_convertida[1].upper()}\")",
-                alt: "Solución Ejercicio 5",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 5",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Escribe una función que convierta la temperatura de Celsius a Fahrenheit y viceversa.\ndef temperatura(temperatura: float | None = 0, unidad: str | None = \"C\") -> float:\n    \"\"\"\n    Función que convierte la temperatura de Celsius a Fahrenheit y viceversa\n    \"\"\"\n    while True:\n        if unidad.upper() == \"F\":\n            return [(temperatura * 9/5) + 32, unidad]\n        elif unidad.upper() == \"C\":\n            return [(temperatura - 32) * 5/9, unidad]\n        else:\n            unidad = input(\"Debe ingresar 'C' o 'F': \")\n\ntemperatura_original = float(input(\"Ingrese la temperatura a convertir: \"))\nunidad = input(\"¿Desea convertir a Fahrenheit (F) o Celsius (C)?: \")\ntemperatura_convertida = temperatura(temperatura_original, unidad)\nprint(f\"La temperatura convertida es {temperatura_convertida[0]}°{temperatura_convertida[1].upper()}\")",
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
