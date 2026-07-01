@@ -12726,16 +12726,21 @@ let classes = [
               }
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: "# Escribe una función que calcule el factorial de un numero dado.\ndef factorial(numero: int) -> int:\n    \"\"\"\n    Función que calcula el factorial de un número dado\n    \"\"\"\n    if numero < 0:\n        return \"El numero debe ser positivo\"\n    elif numero == 0:\n        return 0\n    else:\n        factorial = 1\n        lista_parcial = []\n        for i in range(1, numero + 1):\n            factorial *= i\n            lista_parcial.append(factorial)\n        return [lista_parcial, factorial]\n\nnumero = int(input(\"Ingrese un número: \"))\nprint(f\"El factorial de {numero} es {factorial(numero)[1]} y todos los resultados son {factorial(numero)[0]}\")",
-                alt: "Solución Ejercicio 6",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 6",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Escribe una función que calcule el factorial de un numero dado.\ndef factorial(numero: int) -> int:\n    \"\"\"\n    Función que calcula el factorial de un número dado\n    \"\"\"\n    if numero < 0:\n        return \"El numero debe ser positivo\"\n    elif numero == 0:\n        return 0\n    else:\n        factorial = 1\n        lista_parcial = []\n        for i in range(1, numero + 1):\n            factorial *= i\n            lista_parcial.append(factorial)\n        return [lista_parcial, factorial]\n\nnumero = int(input(\"Ingrese un número: \"))\nprint(f\"El factorial de {numero} es {factorial(numero)[1]} y todos los resultados son {factorial(numero)[0]}\")",
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
