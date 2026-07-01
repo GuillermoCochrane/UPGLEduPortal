@@ -9142,16 +9142,21 @@ let classes = [
               },
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# ❎ Tabla de Multiplicar: Realizar un programa que muestre la\n# tabla de multiplicar de un número ingresado por el usuario.\nnumero = int(input("Ingrese un numero: "))\ncontador = 0\nprint(f"La tabla del {numero} es:")\nwhile contador < 11:\n    print(f"{numero} x {contador} = {numero * contador}")\n    contador += 1`,
-                alt: "Solución Ejercicio 4",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 4",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `# ❎ Tabla de Multiplicar: Realizar un programa que muestre la\n# tabla de multiplicar de un número ingresado por el usuario.\nnumero = int(input("Ingrese un numero: "))\ncontador = 0\nprint(f"La tabla del {numero} es:")\nwhile contador < 11:\n    print(f"{numero} x {contador} = {numero * contador}")\n    contador += 1`,
+                  },
+                },
+              ],
+            },
+          },
         ]
       },
       {
