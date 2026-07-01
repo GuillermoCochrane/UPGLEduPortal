@@ -10538,16 +10538,21 @@ let classes = [
               },
             ]
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Ejercicio 2 - Crear una lista de números y luego:\nlista_numeros = [1, 23, 63, 14, 95, 46, 77, 8, 39, 51]\nprint("lista de números")\nprint(lista_numeros) # Imprime: [1, 23, 63, 14, 95, 46, 77, 8, 39, 51]\nprint("\n")\n\n# Calcular la suma de todos los números de la lista.\nsuma_numeros = sum(lista_numeros)\nprint(f"suma de todos los números: {suma_numeros}")\n# Imprime: suma de todos los números: 417\nprint("\n")\n\n# Encontrar el número máximo y mínimo de la lista.\nnumero_max = max(lista_numeros)\nnumero_min = min(lista_numeros)\nprint(f"número máximo: {numero_max}") # Imprime: número máximo: 95\nprint("\n")\nprint(f"número mínimo: {numero_min}") # Imprime: número mínimo: 1\nprint("\n")\n\n# Multiplicar cada número de la lista por 2.\nlista_numeros_x_2 = [x * 2 for x in lista_numeros]\nprint(f"lista de números multiplicados por 2: {lista_numeros_x_2}")\n# Imprime: lista de números multiplicados por 2:\n# [2, 46, 126, 28, 190, 92, 154, 16, 78, 102]\nprint("\n")\n\n# Imprimir los números pares de la lista.\nfor numero in lista_numeros:\n    if numero % 2 == 0:\n        print(f"El número {numero} es par")\n        # Imprime: El número 14 es par, El número 46 es par, El número 8 es par\nprint("\\n")`,
-                alt: "Solución Ejercicio 2",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 2",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `# Ejercicio 2 - Crear una lista de números y luego:\nlista_numeros = [1, 23, 63, 14, 95, 46, 77, 8, 39, 51]\nprint("lista de números")\nprint(lista_numeros) # Imprime: [1, 23, 63, 14, 95, 46, 77, 8, 39, 51]\nprint("\n")\n\n# Calcular la suma de todos los números de la lista.\nsuma_numeros = sum(lista_numeros)\nprint(f"suma de todos los números: {suma_numeros}")\n# Imprime: suma de todos los números: 417\nprint("\n")\n\n# Encontrar el número máximo y mínimo de la lista.\nnumero_max = max(lista_numeros)\nnumero_min = min(lista_numeros)\nprint(f"número máximo: {numero_max}") # Imprime: número máximo: 95\nprint("\n")\nprint(f"número mínimo: {numero_min}") # Imprime: número mínimo: 1\nprint("\n")\n\n# Multiplicar cada número de la lista por 2.\nlista_numeros_x_2 = [x * 2 for x in lista_numeros]\nprint(f"lista de números multiplicados por 2: {lista_numeros_x_2}")\n# Imprime: lista de números multiplicados por 2:\n# [2, 46, 126, 28, 190, 92, 154, 16, 78, 102]\nprint("\n")\n\n# Imprimir los números pares de la lista.\nfor numero in lista_numeros:\n    if numero % 2 == 0:\n        print(f"El número {numero} es par")\n        # Imprime: El número 14 es par, El número 46 es par, El número 8 es par\nprint("\\n")`,
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
