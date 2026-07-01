@@ -10464,16 +10464,21 @@ let classes = [
               },
             ]
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# Ejercicio 1- Crear una lista de nombres y luego:\nlista_nombre = ['Juan', 'Pedro', 'Maria', 'Roberto', 'Ana', 'Nicolás']\nprint("listado de nombres")\nprint(lista_nombre) # Imprime: ['Juan', 'Pedro', 'Maria', 'Roberto', 'Ana', 'Nicolás']\nprint("\n")\n\n# Imprimir la longitud de la lista.\nprint("longitud de la lista")\nprint(len(lista_nombre)) # Imprime: 6\nprint("\n")\n\n# Agregar un nuevo nombre al final de la lista.\nnombre_a_agregar = input('Ingrese un nombre: ')\nlista_nombre.append(nombre_a_agregar) # Si ingresamos "Diego"\nprint("Lista de nombres con el nuevo nombre")\nprint(lista_nombre) # Imprime: ['Juan', 'Pedro', 'Maria', 'Roberto', 'Ana', 'Nicolás', 'Diego']\nprint("\n")\n\n# Eliminar el primer nombre de la lista.\nlista_nombre.pop(0)\nprint("Lista de nombres sin el primer nombre")\nprint(lista_nombre) # Imprime: ['Pedro', 'Maria', 'Roberto', 'Ana', 'Nicolás', 'Diego']\nprint("\n")\n\n# Buscar un nombre en la lista e imprimir si está o no presente.\nnombre_a_buscar = input('Ingrese un nombre: ')\nif nombre_a_buscar in lista_nombre:\n    print(f'El nombre {nombre_a_buscar} está en la lista')\nelse:\n    print(f'El nombre {nombre_a_buscar} no está en la lista')\nprint("\n")\n\n# Ordenar la lista alfabéticamente\nlista_nombre.sort()\nprint("Lista de nombres ordenada alfabéticamente")\nprint(lista_nombre) # Imprime: ['Ana', 'Diego', 'Juan', 'Maria', 'Nicolás', 'Pedro', 'Roberto']\nprint("\\n")`,
-                alt: "Solución Ejercicio 1",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 1",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `# Ejercicio 1- Crear una lista de nombres y luego:\nlista_nombre = ['Juan', 'Pedro', 'Maria', 'Roberto', 'Ana', 'Nicolás']\nprint("listado de nombres")\nprint(lista_nombre) # Imprime: ['Juan', 'Pedro', 'Maria', 'Roberto', 'Ana', 'Nicolás']\nprint("\n")\n\n# Imprimir la longitud de la lista.\nprint("longitud de la lista")\nprint(len(lista_nombre)) # Imprime: 6\nprint("\n")\n\n# Agregar un nuevo nombre al final de la lista.\nnombre_a_agregar = input('Ingrese un nombre: ')\nlista_nombre.append(nombre_a_agregar) # Si ingresamos "Diego"\nprint("Lista de nombres con el nuevo nombre")\nprint(lista_nombre) # Imprime: ['Juan', 'Pedro', 'Maria', 'Roberto', 'Ana', 'Nicolás', 'Diego']\nprint("\n")\n\n# Eliminar el primer nombre de la lista.\nlista_nombre.pop(0)\nprint("Lista de nombres sin el primer nombre")\nprint(lista_nombre) # Imprime: ['Pedro', 'Maria', 'Roberto', 'Ana', 'Nicolás', 'Diego']\nprint("\n")\n\n# Buscar un nombre en la lista e imprimir si está o no presente.\nnombre_a_buscar = input('Ingrese un nombre: ')\nif nombre_a_buscar in lista_nombre:\n    print(f'El nombre {nombre_a_buscar} está en la lista')\nelse:\n    print(f'El nombre {nombre_a_buscar} no está en la lista')\nprint("\n")\n\n# Ordenar la lista alfabéticamente\nlista_nombre.sort()\nprint("Lista de nombres ordenada alfabéticamente")\nprint(lista_nombre) # Imprime: ['Ana', 'Diego', 'Juan', 'Maria', 'Nicolás', 'Pedro', 'Roberto']\nprint("\\n")`,
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
