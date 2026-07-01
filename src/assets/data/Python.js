@@ -12506,16 +12506,21 @@ let classes = [
               },
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: "# Crea una funcion para calcular el área de un cuadrado\ndef area(lado: int | None = 0) -> int:\n    \"\"\"\n    Función que devuelve el área de un cuadrado\n    \"\"\"\n    return lado * lado\nlado = 5\nprint(f\"El área de un cuadrado es {area(lado)}\")\n# Imprime: El área de un cuadrado es 25",
-                alt: "Solución Ejercicio 2",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 2",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Crea una funcion para calcular el área de un cuadrado\ndef area(lado: int | None = 0) -> int:\n    \"\"\"\n    Función que devuelve el área de un cuadrado\n    \"\"\"\n    return lado * lado\nlado = 5\nprint(f\"El área de un cuadrado es {area(lado)}\")\n# Imprime: El área de un cuadrado es 25",
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
