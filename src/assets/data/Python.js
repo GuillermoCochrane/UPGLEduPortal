@@ -9091,15 +9091,6 @@ let classes = [
               ],
             },
           },
-/*           {
-            type: "answer",
-            info: [
-              {
-                language: "python",
-                alt: "Solución Ejercicio 2",
-              },
-            ],
-          }, */
           {
             type: "h4",
             info: [
@@ -9118,16 +9109,21 @@ let classes = [
               },
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: `# 💻 SUMADORA: Realizar un programa que permita sumar\n# numeros hasta que se ingrese un 0\nsuma = 0\nwhile True:\n    numero = input("Ingrese un numero: ")\n    if numero == "0":\n        print(f"La suma total es: {suma}")\n        break\n    else:\n        suma += int(numero)\n        print(f"La suma parcial es: {suma}")`,
-                alt: "Solución Ejercicio 3",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 3",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: `# 💻 SUMADORA: Realizar un programa que permita sumar\n# numeros hasta que se ingrese un 0\nsuma = 0\nwhile True:\n    numero = input("Ingrese un numero: ")\n    if numero == "0":\n        print(f"La suma total es: {suma}")\n        break\n    else:\n        suma += int(numero)\n        print(f"La suma parcial es: {suma}")`,
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
