@@ -12572,16 +12572,21 @@ let classes = [
               },
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: "#Función Verificar si un número es par o impar.\ndef es_par(numero: int | None = 0) -> bool:\n    \"\"\"\n    Función que devuelve True si el número es par y False si es impar\n    \"\"\"\n    if numero % 2 == 0:\n        return True\n    else:\n        return False\n\nnumero = int(input(\"Ingrese un número: \"))\nprint(f\"El número {numero} es {'par' if es_par(numero) else 'impar'}\")",
-                alt: "Solución Ejercicio 4",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 4",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "#Función Verificar si un número es par o impar.\ndef es_par(numero: int | None = 0) -> bool:\n    \"\"\"\n    Función que devuelve True si el número es par y False si es impar\n    \"\"\"\n    if numero % 2 == 0:\n        return True\n    else:\n        return False\n\nnumero = int(input(\"Ingrese un número: \"))\nprint(f\"El número {numero} es {'par' if es_par(numero) else 'impar'}\")",
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
