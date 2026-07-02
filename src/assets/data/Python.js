@@ -13475,16 +13475,21 @@ let classes = [
               },
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: "# Ejercicio 1: Crear una Clase de Rectángulo\n# Objetivo: Crear una clase llamada Rectangulo que tenga\n# dos atributos: ancho y alto.\n\nclass Rectangulo:\n    def __init__(self, ancho, alto):\n        self.ancho = ancho\n        self.alto = alto\n\n    def mensaje(self):\n        p1 = f\"El rectangulo tiene un ancho de {self.ancho} \"\n        p2 = f\"y un alto de {self.alto}\"\n        return p1 + p2\n\nrect = Rectangulo(10, 20)\nprint(rect.mensaje())\n# Imprime: El rectangulo tiene un ancho de 10 y un alto de 20",
-                alt: "Solución Ejercicio 1",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio ",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Ejercicio 1: Crear una Clase de Rectángulo\n# Objetivo: Crear una clase llamada Rectangulo que tenga\n# dos atributos: ancho y alto.\n\nclass Rectangulo:\n    def __init__(self, ancho, alto):\n        self.ancho = ancho\n        self.alto = alto\n\n    def mensaje(self):\n        p1 = f\"El rectangulo tiene un ancho de {self.ancho} \"\n        p2 = f\"y un alto de {self.alto}\"\n        return p1 + p2\n\nrect = Rectangulo(10, 20)\nprint(rect.mensaje())\n# Imprime: El rectangulo tiene un ancho de 10 y un alto de 20",
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
