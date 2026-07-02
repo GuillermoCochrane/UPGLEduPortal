@@ -12805,6 +12805,7 @@ let classes = [
                   type: "code",
                   info: {
                     language: "python",
+                    content: "# Desarrolla una función que genere una lista con los primeros\n# 'n' números de la secuencia de Fibonacci\ndef fibonacci(numero: int) -> list:\n    \"\"\"\n    Función que genere una lista con los primeros 'n' números\n    de la secuencia de Fibonacci, donde cada número es la suma\n    de los dos anteriores comenzando con 0 y 1\n    \"\"\"\n    if numero < 0:\n        numero = int(input(\"El numero debe ser positivo, ingrese un numero: \"))\n    elif numero == 0:\n        return [0]\n    elif numero == 1:\n        return [0, 1]\n    else:\n        lista_fibonacci = [0, 1]\n        aurea = []\n        for i in range(2, numero):\n            lista_fibonacci.append(lista_fibonacci[i-1] + lista_fibonacci[i-2])\n            if lista_fibonacci[i-2] != 0:\n                aurea.append(lista_fibonacci[i-1] / lista_fibonacci[i-2])\n        return [lista_fibonacci, lista_fibonacci[numero-1], aurea[i-3]]\n\nnumero = int(input(\"Ingrese un numero: \"))\np1 = f\"Los primeros {numero} numeros de la secuencia de Fibonacci son:\\n\"\np2 = f\"{fibonacci(numero)[0]}\\ny el {numero}º número es: {fibonacci(numero)[1]}\\n\"\np3 = f\"y el número aureo aproximado es: {fibonacci(numero)[2]}\"\nprint(p1 + p2 + p3)",
                   },
                 },
               ],
