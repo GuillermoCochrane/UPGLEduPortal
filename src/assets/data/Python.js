@@ -12476,7 +12476,7 @@ let classes = [
           {
             type: "answer",
             info: {
-              title: "Solución Ejercicio ",
+              title: "Solución Ejercicio 1",
               content: [
                 {
                   type: "code",
@@ -12836,7 +12836,7 @@ let classes = [
           {
             type: "answer",
             info: {
-              title: "Solución Ejercicio ",
+              title: "Solución Ejercicio 8",
               content: [
                 {
                   type: "code",
@@ -12873,7 +12873,7 @@ let classes = [
           {
             type: "answer",
             info: {
-              title: "Solución Ejercicio ",
+              title: "Solución Ejercicio 9",
               content: [
                 {
                   type: "code",
@@ -13478,7 +13478,7 @@ let classes = [
           {
             type: "answer",
             info: {
-              title: "Solución Ejercicio ",
+              title: "Solución Ejercicio 1",
               content: [
                 {
                   type: "code",
@@ -13511,7 +13511,7 @@ let classes = [
           {
             type: "answer",
             info: {
-              title: "Solución Ejercicio ",
+              title: "Solución Ejercicio 2",
               content: [
                 {
                   type: "code",
@@ -13544,7 +13544,7 @@ let classes = [
           {
             type: "answer",
             info: {
-              title: "Solución Ejercicio ",
+              title: "Solución Ejercicio 3",
               content: [
                 {
                   type: "code",
@@ -13574,16 +13574,21 @@ let classes = [
               },
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: "# Ejercicio 4: Crear una Clase de Contador\n# Objetivo: Crear una clase llamada Contador que tenga un\n# atributo cuenta que empieza en 0. Y que posea 4 metodos:\n# Incrementar, Decrementar, Mostrar y Reiniciar.\n\nclass Contador:\n    def __init__(self):\n        self.cuenta = 0\n\n    def incrementar(self, cantidad: int = 1):\n        \"\"\"\n        Metodo que incrementa la cuenta del contador.\n        Si no se ingresa cantidad, se usará 1.\n        \"\"\"\n        self.cuenta += cantidad\n\n    def decrementar(self, cantidad: int = 1):\n        \"\"\"\n        Metodo que decrementa la cuenta del contador.\n        Si no se ingresa cantidad, se usará 1.\n        Evita valores negativos.\n        \"\"\"\n        self.cuenta -= cantidad\n        if self.cuenta < 0:\n            self.cuenta = 0\n\n    def reiniciar(self):\n        \"\"\"\n        Metodo que reinicia el contador a cero.\n        \"\"\"\n        self.cuenta = 0\n\n    def mostrar(self):\n        \"\"\"\n        Metodo que devuelve el valor actual.\n        \"\"\"\n        return self.cuenta\n\n    def mensaje(self):\n        \"\"\"\n        Metodo que devuelve un mensaje informativo.\n        \"\"\"\n        return f\"El contador actual es {self.mostrar()}\"\n\ncontador = Contador()\ncontador.incrementar()\ncontador.incrementar()\ncontador.incrementar(4)\nprint(contador.mensaje())\n# Imprime: El contador actual es 6\n\ncontador.decrementar(3)\nprint(contador.mensaje())\n# Imprime: El contador actual es 3\n\ncontador.reiniciar()\nprint(contador.mensaje())\n# Imprime: El contador actual es 0",
-                alt: "Solución Ejercicio 4",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio 4",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Ejercicio 4: Crear una Clase de Contador\n# Objetivo: Crear una clase llamada Contador que tenga un\n# atributo cuenta que empieza en 0. Y que posea 4 metodos:\n# Incrementar, Decrementar, Mostrar y Reiniciar.\n\nclass Contador:\n    def __init__(self):\n        self.cuenta = 0\n\n    def incrementar(self, cantidad: int = 1):\n        \"\"\"\n        Metodo que incrementa la cuenta del contador.\n        Si no se ingresa cantidad, se usará 1.\n        \"\"\"\n        self.cuenta += cantidad\n\n    def decrementar(self, cantidad: int = 1):\n        \"\"\"\n        Metodo que decrementa la cuenta del contador.\n        Si no se ingresa cantidad, se usará 1.\n        Evita valores negativos.\n        \"\"\"\n        self.cuenta -= cantidad\n        if self.cuenta < 0:\n            self.cuenta = 0\n\n    def reiniciar(self):\n        \"\"\"\n        Metodo que reinicia el contador a cero.\n        \"\"\"\n        self.cuenta = 0\n\n    def mostrar(self):\n        \"\"\"\n        Metodo que devuelve el valor actual.\n        \"\"\"\n        return self.cuenta\n\n    def mensaje(self):\n        \"\"\"\n        Metodo que devuelve un mensaje informativo.\n        \"\"\"\n        return f\"El contador actual es {self.mostrar()}\"\n\ncontador = Contador()\ncontador.incrementar()\ncontador.incrementar()\ncontador.incrementar(4)\nprint(contador.mensaje())\n# Imprime: El contador actual es 6\n\ncontador.decrementar(3)\nprint(contador.mensaje())\n# Imprime: El contador actual es 3\n\ncontador.reiniciar()\nprint(contador.mensaje())\n# Imprime: El contador actual es 0",
+                  },
+                },
+              ],
+            },
+          },
         ]
       },
       {
