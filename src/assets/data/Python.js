@@ -12833,16 +12833,21 @@ let classes = [
               }
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: "# Funcion de encontrar el maximo entre 3 numeros\ndef el_mayor(numero1: int, numero2: int, numero3: int) -> int:\n    \"\"\"\n    Funcion que nos muestre cual es el mayor entre 3 numeros\n    \"\"\"\n    numero_mayor = numero1\n    if numero_mayor < numero2:\n        numero_mayor = numero2\n    if numero_mayor < numero3:\n        numero_mayor = numero3\n    return numero_mayor\n\nnumero1 = int(input(\"Ingrese el primer numero: \"))\nnumero2 = int(input(\"Ingrese el segundo numero: \"))\nnumero3 = int(input(\"Ingrese el tercer numero: \"))\np1 = f\"El mayor entre {numero1}, {numero2} \"\np2 = f\"y {numero3} es: {el_mayor(numero1, numero2, numero3)}\"\nprint(p1 + p2)",
-                alt: "Solución Ejercicio 8",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio ",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Funcion de encontrar el maximo entre 3 numeros\ndef el_mayor(numero1: int, numero2: int, numero3: int) -> int:\n    \"\"\"\n    Funcion que nos muestre cual es el mayor entre 3 numeros\n    \"\"\"\n    numero_mayor = numero1\n    if numero_mayor < numero2:\n        numero_mayor = numero2\n    if numero_mayor < numero3:\n        numero_mayor = numero3\n    return numero_mayor\n\nnumero1 = int(input(\"Ingrese el primer numero: \"))\nnumero2 = int(input(\"Ingrese el segundo numero: \"))\nnumero3 = int(input(\"Ingrese el tercer numero: \"))\np1 = f\"El mayor entre {numero1}, {numero2} \"\np2 = f\"y {numero3} es: {el_mayor(numero1, numero2, numero3)}\"\nprint(p1 + p2)",
+                  },
+                },
+              ],
+            },
+          },
           {
             type: "h4",
             info: [
