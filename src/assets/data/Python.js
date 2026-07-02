@@ -12870,16 +12870,21 @@ let classes = [
               }
             ],
           },
-/*           {
+          {
             type: "answer",
-            info: [
-              {
-                language: "python",
-                content: "# Generar una lista de números aleatorios:\nimport random\n\ndef lista_aleatoria(numero: int | None = 1, rango: int | None = 100) -> list:\n    \"\"\"\n    Funcion que genera una lista de N números aleatorios positivos,\n    donde N es el numero de numeros a generar, y el rango es el\n    rango de los números aleatorios. Si no se ingresa el numero,\n    se usará el valor por defecto de 1, y si no se ingresa el\n    rango, se usará el valor por defecto de 100\n    \"\"\"\n    lista_aleatoria = []\n    for i in range(numero):\n        lista_aleatoria.append(random.randint(1, rango))\n    return lista_aleatoria\n\nnumero = int(input(\"Ingrese la cantidad de numeros aleatorios a generar: \"))\nrango = int(input(\"Ingrese el rango de los números aleatorios: \"))\np1 = \"La lista de números aleatorios generados son: \"\np2 = f\"{lista_aleatoria(numero, rango)}\"\nprint(p1 + p2)",
-                alt: "Solución Ejercicio 9",
-              },
-            ],
-          }, */
+            info: {
+              title: "Solución Ejercicio ",
+              content: [
+                {
+                  type: "code",
+                  info: {
+                    language: "python",
+                    content: "# Generar una lista de números aleatorios:\nimport random\n\ndef lista_aleatoria(numero: int | None = 1, rango: int | None = 100) -> list:\n    \"\"\"\n    Funcion que genera una lista de N números aleatorios positivos,\n    donde N es el numero de numeros a generar, y el rango es el\n    rango de los números aleatorios. Si no se ingresa el numero,\n    se usará el valor por defecto de 1, y si no se ingresa el\n    rango, se usará el valor por defecto de 100\n    \"\"\"\n    lista_aleatoria = []\n    for i in range(numero):\n        lista_aleatoria.append(random.randint(1, rango))\n    return lista_aleatoria\n\nnumero = int(input(\"Ingrese la cantidad de numeros aleatorios a generar: \"))\nrango = int(input(\"Ingrese el rango de los números aleatorios: \"))\np1 = \"La lista de números aleatorios generados son: \"\np2 = f\"{lista_aleatoria(numero, rango)}\"\nprint(p1 + p2)",
+                  },
+                },
+              ],
+            },
+          },
         ]
       },
       {
