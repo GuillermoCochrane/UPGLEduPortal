@@ -2,7 +2,7 @@ import { main } from "./moduleGenerator.js";
 
 const inputFile = "../assets/data/FrontEnd.js"
 const outputDir = "../assets/data/frontend";
-const outpuFile = "../assets/data/frontend/FrontEnd.js"
+const outpuFile = "../assets/data/FrontEnd.js"
 
 // const inputFile = "../assets/data/BackEnd.js"
 // const outputDir = "../assets/data/backend";
