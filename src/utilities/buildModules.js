@@ -8,12 +8,12 @@ const outpuFile = "../assets/data/FrontEnd.js" */
 const outputDir = "../assets/data/backend";
 const outpuFile = "../assets/data/BackEnd.js" */
 
-const inputFile = "../assets/data/IAChatGPT.js"
+/* const inputFile = "../assets/data/IAChatGPT.js"
 const outputDir = "../assets/data/ia";
-const outpuFile = "../assets/data/IAChatGPT.js"
+const outpuFile = "../assets/data/IAChatGPT.js" */
 
-// const inputFile = "../assets/data/Python.js"
-// const outputDir = "../assets/data/python";
-// const outpuFile = "../assets/data/python/Python.js"
+const inputFile = "../assets/data/Python.js"
+const outputDir = "../assets/data/python";
+const outpuFile = "../assets/data/python/Python.js"
 
 main(inputFile, outputDir, outpuFile);
