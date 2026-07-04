@@ -2,6 +2,11 @@ import { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10 }
 
 export const topic4 = {
   topic: 4,
+  available: true,
+  linkData: {
+    title: "¿Qué es la lógica?",
+    link: "/courses/Python/class/1/4"
+  },
   topicData: [
     item1,
     item2,
