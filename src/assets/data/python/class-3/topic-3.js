@@ -2,6 +2,11 @@ import { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, 
 
 export const topic3 = {
   topic: 3,
+  available: true,
+  linkData: {
+    title: "Nombres de variables en Python",
+    link: "/courses/Python/class/3/3"
+  },
   topicData: [
     item1,
     item2,

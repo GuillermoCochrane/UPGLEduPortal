@@ -6,6 +6,8 @@ import { topic5 } from "./class-3/topic-5.js";
 
 export const class3 = {
   class: 3,
+  summary: "Variables",
+  available: true,
   topics: 5,
   title: {
     type: "h2",
