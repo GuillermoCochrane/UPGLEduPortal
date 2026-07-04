@@ -2,6 +2,11 @@ import { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, 
 
 export const topic2 = {
   topic: 2,
+  available: true,
+  linkData: {
+    title: "Operando con datos",
+    link: "/courses/Python/class/5/2"
+  },
   topicData: [
     item1,
     item2,

@@ -9,6 +9,8 @@ import { topic8 } from "./class-5/topic-8.js";
 
 export const class5 = {
   class: 5,
+  summary: "Tipos de datos en Python",
+  available: true,
   topics: 8,
   title: {
     type: "h2",
