@@ -2,6 +2,11 @@ import { item1, item2, item3, item4, item5, item6, item7 } from "./topic-6/data.
 
 export const topic6 = {
   topic: 6,
+  available: true,
+  linkData: {
+    title: "Bonus track",
+    link: "/courses/Python/class/2/6"
+  },
   topicData: [
     item1,
     item2,
