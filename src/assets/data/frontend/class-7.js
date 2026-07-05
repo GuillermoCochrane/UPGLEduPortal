@@ -7,6 +7,8 @@ import { topic6 } from "./class-7/topic-6.js";
 
 export const class7 = {
   class: 7,
+  summary: "Animaciones, Responsiveness y UI",
+  available: true,
   topics: 6,
   title: {
     type: "h2",
