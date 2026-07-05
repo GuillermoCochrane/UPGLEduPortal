@@ -9,6 +9,8 @@ import { topic8 } from "./class-6/topic-8.js";
 
 export const class6 = {
   class: 6,
+  summary: "Operadores. IF y Else",
+  available: true,
   topics: 8,
   title: {
     type: "h2",

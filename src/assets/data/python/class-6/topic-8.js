@@ -2,6 +2,8 @@ import { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, 
 
 export const topic8 = {
   topic: 8,
+  title: "Bonus Track",
+  available: true,
   topicData: [
     item1,
     item2,
