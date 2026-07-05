@@ -3,10 +3,7 @@ import { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, 
 export const topic7 = {
   topic: 7,
   available: true,
-  linkData: {
-    title: "Actividades",
-    link: "/courses/Python/class/5/7"
-  },
+  title: "Actividades",
   topicData: [
     item1,
     item2,
