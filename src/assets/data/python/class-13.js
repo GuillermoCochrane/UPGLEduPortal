@@ -7,6 +7,8 @@ import { topic6 } from "./class-13/topic-6.js";
 
 export const class13 = {
   class: 13,
+  summary: "Programación Orientada a Objetos",
+  available: true,
   topics: 6,
   title: {
     type: "h2",
