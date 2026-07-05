@@ -5,6 +5,8 @@ import { topic4 } from "./class-5/topic-4.js";
 
 export const class5 = {
   class: 5,
+  summary: "Semántica HTML y Fundamentos CSS",
+  available: true,
   topics: 4,
   title: {
     type: "h2",
