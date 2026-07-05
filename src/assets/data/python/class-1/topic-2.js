@@ -3,10 +3,7 @@ import { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, 
 export const topic2 = {
   topic: 2,
   available: true,
-  linkData: {
-    title: "¿Que es un programador?",
-    link: "/courses/Python/class/1/2"
-  },
+  title: "¿Que es un programador?",
   topicData: [
     item1,
     item2,
