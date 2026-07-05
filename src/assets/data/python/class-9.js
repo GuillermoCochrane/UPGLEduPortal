@@ -8,6 +8,8 @@ import { topic7 } from "./class-9/topic-7.js";
 
 export const class9 = {
   class: 9,
+  summary: "Listas",
+  available: true,
   topics: 7,
   title: {
     type: "h2",
