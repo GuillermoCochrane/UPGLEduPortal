@@ -2,6 +2,8 @@ import { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, 
 
 export const topic7 = {
   topic: 7,
+  title: "Buenas Prácticas para Inputs",
+  available: true,
   topicData: [
     item1,
     item2,
