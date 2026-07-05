@@ -2,6 +2,8 @@ import { item1, item2, item3, item4, item5, item6, item7, item8, item9 } from ".
 
 export const topic3 = {
   topic: 3,
+  title: "Manejo de imágenes",
+  available: true,
   topicData: [
     item1,
     item2,

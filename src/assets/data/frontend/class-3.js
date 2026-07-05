@@ -5,6 +5,8 @@ import { topic4 } from "./class-3/topic-4.js";
 
 export const class3 = {
   class: 3,
+  summary: "Tablas e Imagenes",
+  available: true,
   topics: 4,
   title: {
     type: "h2",
