@@ -8,6 +8,8 @@ import { topic7 } from "./class-8/topic-7.js";
 
 export const class8 = {
   class: 8,
+  summary: "JavaScript para Desarrollo Web",
+  available: true,
   topics: 7,
   title: {
     type: "h2",
