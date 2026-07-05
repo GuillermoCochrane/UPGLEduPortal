@@ -7,6 +7,8 @@ import { topic6 } from "./class-11/topic-6.js";
 
 export const class11 = {
   class: 11,
+  summary: "Generadores de Expresiones",
+  available: true,
   topics: 6,
   title: {
     type: "h2",
