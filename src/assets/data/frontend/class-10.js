@@ -9,6 +9,8 @@ import { topic8 } from "./class-10/topic-8.js";
 
 export const class10 = {
   class: 10,
+  summary: "Introducción a Bootstrap",
+  available: true,
   topics: 8,
   title: {
     type: "h2",
