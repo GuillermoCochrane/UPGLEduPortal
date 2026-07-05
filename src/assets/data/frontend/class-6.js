@@ -6,6 +6,8 @@ import { topic5 } from "./class-6/topic-5.js";
 
 export const class6 = {
   class: 6,
+  summary: "Repaso de CSS, selectores y unidades",
+  available: true,
   topics: 5,
   title: {
     type: "h2",
