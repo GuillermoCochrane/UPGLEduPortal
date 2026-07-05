@@ -5,6 +5,8 @@ import { topic4 } from "./class-8/topic-4.js";
 
 export const class8 = {
   class: 8,
+  summary: "Ciclo While. Debugger. ",
+  available: true,
   topics: 4,
   title: {
     type: "h2",
