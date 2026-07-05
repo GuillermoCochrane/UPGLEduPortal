@@ -6,6 +6,8 @@ import { topic5 } from "./class-7/topic-5.js";
 
 export const class7 = {
   class: 7,
+  summary: "Métodos. Contadores. Import. ",
+  available: true,
   topics: 5,
   title: {
     type: "h2",
