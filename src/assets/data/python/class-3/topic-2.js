@@ -3,10 +3,7 @@ import { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, 
 export const topic2 = {
   topic: 2,
   available: true,
-  linkData: {
-    title: "Tipos de Asignaciones",
-    link: "/courses/Python/class/3/2"
-  },
+  title: "Tipos de Asignaciones",
   topicData: [
     item1,
     item2,

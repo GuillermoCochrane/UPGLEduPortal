@@ -3,10 +3,7 @@ import { item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, 
 export const topic1 = {
   topic: 1,
   available: true,
-  linkData: {
-    title: "¿Qué es una variable?",
-    link: "/courses/Python/class/3/1"
-  },
+  title: "¿Qué es una variable?",
   topicData: [
     item1,
     item2,
