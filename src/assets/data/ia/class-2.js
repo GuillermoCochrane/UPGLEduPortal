@@ -8,6 +8,8 @@ import { topic7 } from "./class-2/topic-7.js";
 
 export const class2 = {
   class: 2,
+  summary: "Historia de la inteligencia artificial",
+  available: true,
   topics: 7,
   title: {
     type: "h2",
