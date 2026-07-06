@@ -4,6 +4,8 @@ import { topic3 } from "./class-5/topic-3.js";
 
 export const class5 = {
   class: 5,
+  summary: "Prompt: definición y conceptos",
+  available: true,
   topics: 3,
   title: {
     type: "h2",
