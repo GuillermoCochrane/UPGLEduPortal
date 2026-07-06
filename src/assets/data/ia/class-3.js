@@ -3,6 +3,8 @@ import { topic2 } from "./class-3/topic-2.js";
 
 export const class3 = {
   class: 3,
+  summary: "Machine Learning y Redes Neuronales",
+  available: true,
   topics: 2,
   title: {
     type: "h2",
