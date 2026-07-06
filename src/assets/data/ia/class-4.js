@@ -3,6 +3,8 @@ import { topic2 } from "./class-4/topic-2.js";
 
 export const class4 = {
   class: 4,
+  summary: "Origen de ChatGPT y sus versiones",
+  available: true,
   topics: 2,
   title: {
     type: "h2",
