@@ -6,6 +6,8 @@ import { topic5 } from "./class-12/topic-5.js";
 
 export const class12 = {
   class: 12,
+  summary: "Fetch API",
+  available: true,
   topics: 5,
   title: {
     type: "h2",
