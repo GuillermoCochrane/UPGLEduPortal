@@ -4,6 +4,8 @@ import { topic3 } from "./class-1/topic-3.js";
 
 export const class1 = {
   class: 1,
+  summary: "Conceptos fundamentales de IA",
+  available: true,
   topics: 3,
   title: {
     type: "h2",
