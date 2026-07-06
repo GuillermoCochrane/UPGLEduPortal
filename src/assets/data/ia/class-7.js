@@ -2,6 +2,8 @@ import { topic1 } from "./class-7/topic-1.js";
 
 export const class7 = {
   class: 7,
+  summary: "Ingeniería de Prompts",
+  available: true,
   topics: 1,
   title: {
     type: "h2",
