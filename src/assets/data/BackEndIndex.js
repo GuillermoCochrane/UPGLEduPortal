@@ -1,6 +1,6 @@
 let classIndex = [
   {
-    summary: "Introducción",
+    summary: "Introducción al curso de Backend",
     classId: 1,
     links: [
       {
